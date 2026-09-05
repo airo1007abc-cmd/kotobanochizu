@@ -19,6 +19,7 @@ const rawDialects = dialectFiles.flatMap((file) => read(`src/data/dialects/${fil
 
 const by = (items, selector) => Object.fromEntries([...new Set(items.map(selector).filter(Boolean))].sort().map((key) => [key, items.filter((item) => selector(item) === key).length]));
 const prefById = new Map(prefectures.prefectures.map((item) => [item.prefectureId, item]));
+const regionById = new Map(regionBaseline.regions.map((item) => [item.regionId, item]));
 const zeroRegionClassifications = ["intentional classification", "data missing", "source missing", "mapping issue candidate"];
 
 const cultureCoverage = {
@@ -79,11 +80,16 @@ const zeroRegions = regionBaseline.regions.filter((item) => item.dialectCount ==
 });
 
 const informationPoor = navigation.informationPoorRegions.map((region) => {
+  const baseline = regionById.get(region.id);
   const sourceCoverage = region.dialectCount ? region.sourceCount / region.dialectCount : 0;
-  const priority = region.dialectCount === 0 ? "P2" : region.sourceCount === 0 ? "P1" : "P2";
+  const indexableCount = baseline?.indexableCount ?? 0;
+  const noindexCount = baseline?.noindexCount ?? region.dialectCount;
+  const priority = region.dialectCount > 0 && region.sourceCount === 0 && indexableCount > 0 ? "P1" : "P2";
   const cultureEvidence = culture.filter((item) => item.regionId === region.id).map((item) => ({ id: item.id, title: item.title, sourceOrganization: item.sourceOrganization, sourceUrl: item.sourceUrl }));
   return {
     ...region,
+    indexableCount,
+    noindexCount,
     sourceCoverage: Number(sourceCoverage.toFixed(4)),
     cultureEvidence,
     priority,
@@ -91,6 +97,11 @@ const informationPoor = navigation.informationPoorRegions.map((region) => {
       ? cultureEvidence.length > 0 ? "claim_mapping_review" : "public_source_research"
       : "editorial_depth_review",
     decision: "HOLD_until_evidence",
+    priorityReason: priority === "P1"
+      ? "検索公開中の方言を含むが、地域内の出典確認がないため優先調査する"
+      : indexableCount === 0
+        ? "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
+        : "出典付きレコードを含むため、追加補強はP2で扱う",
   };
 });
 

@@ -1,9 +1,8 @@
 {
-  "generatedAt": "2026-09-05T12:57:57.996Z",
+  "generatedAt": "2026-09-05T13:04:14.276Z",
   "total": 88,
   "byPriority": {
-    "P1": 11,
-    "P2": 77
+    "P2": 88
   },
   "items": [
     {
@@ -12,11 +11,14 @@
       "region": "道南",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-01-region-道北",
@@ -24,11 +26,14 @@
       "region": "道北",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-01-region-道東",
@@ -36,11 +41,14 @@
       "region": "道東",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "r8",
@@ -48,6 +56,8 @@
       "region": "南部",
       "dialectCount": 2,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 2,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -57,9 +67,10 @@
           "sourceUrl": "https://kenshi-archives.pref.aomori.lg.jp/il/meta_pub/G0000004pic_07988-07"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "r9",
@@ -67,6 +78,8 @@
       "region": "下北",
       "dialectCount": 1,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 1,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -76,9 +89,10 @@
           "sourceUrl": "https://repository.ninjal.ac.jp/record/3008/files/Research_Report_on_Mutsu.pdf"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-03-region-県北",
@@ -86,11 +100,14 @@
       "region": "県北",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-03-region-県南",
@@ -98,11 +115,14 @@
       "region": "県南",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-03-region-沿岸",
@@ -110,11 +130,14 @@
       "region": "沿岸",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-04-region-県北",
@@ -122,11 +145,14 @@
       "region": "県北",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-04-region-県南",
@@ -134,11 +160,14 @@
       "region": "県南",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-04-region-沿岸",
@@ -146,11 +175,14 @@
       "region": "沿岸",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-05-region-県北",
@@ -158,11 +190,14 @@
       "region": "県北",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-05-region-県央",
@@ -170,11 +205,14 @@
       "region": "県央",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-05-region-県南",
@@ -182,11 +220,14 @@
       "region": "県南",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-06-region-庄内",
@@ -194,11 +235,14 @@
       "region": "庄内",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-06-region-最上",
@@ -206,11 +250,14 @@
       "region": "最上",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-06-region-村山",
@@ -218,11 +265,14 @@
       "region": "村山",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-07-region-中通り",
@@ -230,11 +280,14 @@
       "region": "中通り",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-07-region-浜通り",
@@ -242,11 +295,14 @@
       "region": "浜通り",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-08-region-県北",
@@ -254,11 +310,14 @@
       "region": "県北",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-08-region-県南",
@@ -266,11 +325,14 @@
       "region": "県南",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-08-region-県西",
@@ -278,11 +340,14 @@
       "region": "県西",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-08-region-鹿行",
@@ -290,11 +355,14 @@
       "region": "鹿行",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-09-region-県北",
@@ -302,11 +370,14 @@
       "region": "県北",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-09-region-県央",
@@ -314,11 +385,14 @@
       "region": "県央",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-10-region-北毛",
@@ -326,11 +400,14 @@
       "region": "北毛",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-10-region-中毛",
@@ -338,6 +415,8 @@
       "region": "中毛",
       "dialectCount": 1,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 1,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -347,9 +426,10 @@
           "sourceUrl": "https://www.tosyokan.city.maebashi.gunma.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=1009916538710"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-10-region-西毛",
@@ -357,11 +437,14 @@
       "region": "西毛",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-10-region-東毛",
@@ -369,11 +452,14 @@
       "region": "東毛",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-11-region-東部",
@@ -381,6 +467,8 @@
       "region": "東部",
       "dialectCount": 1,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 1,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -390,9 +478,10 @@
           "sourceUrl": "https://www.city.kasukabe.lg.jp/material/files/group/66/06_regplan_ch04.pdf"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-11-region-中央",
@@ -400,11 +489,14 @@
       "region": "中央",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-11-region-西部",
@@ -412,11 +504,14 @@
       "region": "西部",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-11-region-北部",
@@ -424,11 +519,14 @@
       "region": "北部",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-11-region-秩父",
@@ -436,11 +534,14 @@
       "region": "秩父",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-12-region-北西部",
@@ -448,6 +549,8 @@
       "region": "北西部",
       "dialectCount": 1,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 1,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -457,9 +560,10 @@
           "sourceUrl": "https://www.pref.chiba.lg.jp/kkbunka/b-shinkou/jigyou/minwa-cd.html"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-12-region-北東部",
@@ -467,11 +571,14 @@
       "region": "北東部",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-12-region-中央",
@@ -479,11 +586,14 @@
       "region": "中央",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-12-region-南部",
@@ -491,11 +601,14 @@
       "region": "南部",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-13-region-23区",
@@ -503,11 +616,14 @@
       "region": "23区",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-13-region-多摩",
@@ -515,6 +631,8 @@
       "region": "多摩",
       "dialectCount": 1,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 1,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -524,9 +642,10 @@
           "sourceUrl": "https://repository.ninjal.ac.jp/records/2750"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-13-region-島しょ",
@@ -534,11 +653,14 @@
       "region": "島しょ",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-14-region-横浜・川崎",
@@ -546,6 +668,8 @@
       "region": "横浜・川崎",
       "dialectCount": 1,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 1,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -555,9 +679,10 @@
           "sourceUrl": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/oshirase/yokohama-kamishibai.html"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-14-region-湘南",
@@ -565,11 +690,14 @@
       "region": "湘南",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-14-region-県央",
@@ -577,11 +705,14 @@
       "region": "県央",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-14-region-県西",
@@ -589,11 +720,14 @@
       "region": "県西",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-15-region-上越",
@@ -601,11 +735,14 @@
       "region": "上越",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-15-region-中越",
@@ -613,6 +750,8 @@
       "region": "中越",
       "dialectCount": 1,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 1,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -628,9 +767,10 @@
           "sourceUrl": "https://www.city.nagaoka.niigata.jp/shisei/cate08/minyou/syoukai.html"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-15-region-下越",
@@ -638,11 +778,14 @@
       "region": "下越",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-15-region-佐渡",
@@ -650,11 +793,14 @@
       "region": "佐渡",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-16-region-呉西",
@@ -662,11 +808,14 @@
       "region": "呉西",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-18-region-嶺南",
@@ -674,11 +823,14 @@
       "region": "嶺南",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-19-region-郡内",
@@ -686,11 +838,14 @@
       "region": "郡内",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-20-region-東信",
@@ -698,11 +853,14 @@
       "region": "東信",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-20-region-中信",
@@ -710,11 +868,14 @@
       "region": "中信",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-20-region-南信",
@@ -722,11 +883,14 @@
       "region": "南信",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-21-region-飛騨",
@@ -734,11 +898,14 @@
       "region": "飛騨",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-22-region-東部",
@@ -746,11 +913,14 @@
       "region": "東部",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-22-region-西部",
@@ -758,11 +928,14 @@
       "region": "西部",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-22-region-伊豆",
@@ -770,11 +943,14 @@
       "region": "伊豆",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-23-region-名古屋周辺",
@@ -782,11 +958,14 @@
       "region": "名古屋周辺",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-24-region-中勢",
@@ -794,11 +973,14 @@
       "region": "中勢",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-24-region-南勢",
@@ -806,11 +988,14 @@
       "region": "南勢",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-24-region-伊賀",
@@ -818,11 +1003,14 @@
       "region": "伊賀",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-24-region-東紀州",
@@ -830,11 +1018,14 @@
       "region": "東紀州",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-25-region-湖南",
@@ -842,11 +1033,14 @@
       "region": "湖南",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-25-region-湖東",
@@ -854,6 +1048,8 @@
       "region": "湖東",
       "dialectCount": 1,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 1,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -863,9 +1059,10 @@
           "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2021_online/7_online-02.pdf"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-25-region-湖北",
@@ -873,11 +1070,14 @@
       "region": "湖北",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-25-region-湖西",
@@ -885,11 +1085,14 @@
       "region": "湖西",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-26-region-山城",
@@ -897,11 +1100,14 @@
       "region": "山城",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-26-region-丹波",
@@ -909,11 +1115,14 @@
       "region": "丹波",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-26-region-丹後",
@@ -921,11 +1130,14 @@
       "region": "丹後",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-27-region-北摂",
@@ -933,11 +1145,14 @@
       "region": "北摂",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "r5",
@@ -945,6 +1160,8 @@
       "region": "河内",
       "dialectCount": 2,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 2,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -954,9 +1171,10 @@
           "sourceUrl": "https://www.city.higashiosaka.lg.jp/cmsfiles/contents/0000005/5718/050915.pdf"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "r6",
@@ -964,6 +1182,8 @@
       "region": "泉州",
       "dialectCount": 1,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 1,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -973,9 +1193,10 @@
           "sourceUrl": "https://www.andrew.ac.jp/extension-center/society_auditor/extension_college/2022.html"
         }
       ],
-      "priority": "P1",
+      "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-28-region-神戸",
@@ -983,11 +1204,14 @@
       "region": "神戸",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-28-region-阪神",
@@ -995,11 +1219,14 @@
       "region": "阪神",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-28-region-但馬",
@@ -1007,11 +1234,14 @@
       "region": "但馬",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-28-region-丹波",
@@ -1019,11 +1249,14 @@
       "region": "丹波",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-28-region-淡路",
@@ -1031,11 +1264,14 @@
       "region": "淡路",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-29-region-北和",
@@ -1043,11 +1279,14 @@
       "region": "北和",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-29-region-中和",
@@ -1055,11 +1294,14 @@
       "region": "中和",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-29-region-南和",
@@ -1067,11 +1309,14 @@
       "region": "南和",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-30-region-紀中",
@@ -1079,11 +1324,14 @@
       "region": "紀中",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-30-region-紀南",
@@ -1091,11 +1339,14 @@
       "region": "紀南",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-37-region-島しょ",
@@ -1103,11 +1354,14 @@
       "region": "島しょ",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-44-region-豊肥",
@@ -1115,11 +1369,14 @@
       "region": "豊肥",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-46-region-奄美",
@@ -1127,6 +1384,8 @@
       "region": "奄美",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [
         {
@@ -1144,7 +1403,8 @@
       ],
       "priority": "P2",
       "action": "claim_mapping_review",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     },
     {
       "id": "jp-47-region-大東諸島",
@@ -1152,11 +1412,14 @@
       "region": "大東諸島",
       "dialectCount": 0,
       "sourceCount": 0,
+      "indexableCount": 0,
+      "noindexCount": 0,
       "sourceCoverage": 0,
       "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
-      "decision": "HOLD_until_evidence"
+      "decision": "HOLD_until_evidence",
+      "priorityReason": "地域内の方言はすべてnoindexのため、公開中ページの信頼性改善より後に調査する"
     }
   ]
 }
