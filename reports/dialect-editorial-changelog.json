@@ -45,9 +45,13 @@
   ],
   "changes": [
     {
-      "id": "jp-46-kagoshima-022", "field": "reading", "before": "", "after": "おじゃったもんせ",
+      "id": "jp-46-kagoshima-022", "word": "おじゃったもんせ", "field": "reading", "changeType": "verification", "before": "", "after": "おじゃったもんせ",
       "evidence": ["鹿児島県『今今日から使える 鹿児島の方言講座』", "鹿屋市『かのや移住サポートセンター』"],
-      "reason": "Tier 1資料2件の見出し・解説が現在語形とexact match。アクセントは確定していない。"
+      "claim": "仮名見出しと同じ読みを確認する。アクセント・音調は確定しない。",
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "Tier 1資料2件の見出し・解説が現在語形とexact match。アクセントは確定していない。",
+      "updatedAt": "2026-09-05"
     },
     {
       "id": "jp-46-kagoshima-022", "field": "description", "before": "資料掲載の一般的説明", "after": "薩摩・大隅地域、丁寧な歓迎表現、資料記載の『おじゃる』＋『たもんせ』を簡潔に記載", "evidence": ["鹿児島県『今今日から使える 鹿児島の方言講座』"], "reason": "対象語固有の語構成と使用場面をTier 1資料で確認。"

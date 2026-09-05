@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T12:48:59.698Z",
+  "generatedAt": "2026-09-05T12:57:57.425Z",
   "status": "PASSED",
   "dialects": 1628,
   "reports": 3,
@@ -26,16 +26,6 @@
     {
       "type": "duplicate_source_in_production",
       "id": "jp-31-tottori-001"
-    },
-    {
-      "type": "legacy_changelog_missing_change_type",
-      "id": "jp-46-kagoshima-022",
-      "field": "reading"
-    },
-    {
-      "type": "legacy_changelog_missing_updated_at",
-      "id": "jp-46-kagoshima-022",
-      "field": "reading"
     },
     {
       "type": "legacy_changelog_missing_change_type",

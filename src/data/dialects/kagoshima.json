@@ -991,7 +991,7 @@
     "id": "jp-46-kagoshima-022",
     "slug": "kagoshima-ojattamonse",
     "phrase": "おじゃったもんせ",
-    "reading": "",
+    "reading": "おじゃったもんせ",
     "standardJapanese": "おいでくださいませ／お越しください",
     "description": "薩摩・大隅地域の「おじゃったもんせ」は、来訪者を迎える丁寧な表現です。鹿児島県資料では、尊敬語「おじゃる」と「くださいませ」の意味を持つ「たもんせ」を合わせた形と説明されています。現在の使用頻度、世代差、アクセントは追加調査中です。",
     "exampleDialect": "鹿児島にどうぞおじゃったもんせ",
@@ -1044,7 +1044,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-04"
+    "updatedAt": "2026-09-05"
   },
   {
     "id": "jp-46-kagoshima-023",

@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-05T12:23:34.037Z",
+  "generatedAt": "2026-09-05T12:56:45.038Z",
   "summary": {
     "total": 1643,
     "expectedTotal": 1643,
     "indexable": 630,
     "noindex": 1013,
     "quality": {
-      "A": 628,
-      "B": 483,
+      "A": 629,
+      "B": 482,
       "C": 0,
       "D": 40,
       "E": 492
     },
     "priority": {
       "P0": 0,
-      "P1": 2,
+      "P1": 1,
       "P2": 406,
-      "P3": 1235
+      "P3": 1236
     },
     "indexableQuality": {
-      "A": 628,
-      "B": 2,
+      "A": 629,
+      "B": 1,
       "C": 0,
       "D": 0,
       "E": 0
@@ -38,7 +38,7 @@
     "indexPromotionCandidates": 339,
     "keepNoindexRecommended": 674,
     "priorAuditCounts": {
-      "missingReading": 621,
+      "missingReading": 620,
       "missingDescription": 0,
       "missingMeaning": 0,
       "missingExample": 800,
@@ -48,21 +48,6 @@
     "methodology": "編集作業の優先順位を決めるための機械分類。言語学的正確性・統合可否・index適格性の最終判断ではない。"
   },
   "topQueue": [
-    {
-      "id": "jp-46-kagoshima-022",
-      "word": "おじゃったもんせ",
-      "prefecture": "鹿児島県",
-      "region": "大隅",
-      "indexStatus": "indexable",
-      "qualityGrade": "B",
-      "priority": "P1",
-      "issues": [
-        "missing_reading"
-      ],
-      "nextActions": [
-        "reading_verification"
-      ]
-    },
     {
       "id": "jp-46-kagoshima-049",
       "word": "バシ",
@@ -413,6 +398,22 @@
       "word": "かたす",
       "prefecture": "埼玉県",
       "region": "東部",
+      "indexStatus": "noindex",
+      "qualityGrade": "E",
+      "priority": "P2",
+      "issues": [
+        "missing_source"
+      ],
+      "nextActions": [
+        "source_research",
+        "keep_noindex"
+      ]
+    },
+    {
+      "id": "jp-12-chiba-001",
+      "word": "あおなじみ",
+      "prefecture": "千葉県",
+      "region": "北西部",
       "indexStatus": "noindex",
       "qualityGrade": "E",
       "priority": "P2",
@@ -15556,16 +15557,14 @@
         "usage"
       ],
       "sourceCount": 2,
-      "hasReading": false,
+      "hasReading": true,
       "hasExample": true,
       "duplicateSeoGroup": [],
-      "issues": [
-        "missing_reading"
-      ],
-      "qualityGrade": "B",
-      "priority": "P1",
+      "issues": [],
+      "qualityGrade": "A",
+      "priority": "P3",
       "nextActions": [
-        "reading_verification"
+        "manual_editor_review"
       ],
       "candidateForIndex": false,
       "keepNoindex": false,

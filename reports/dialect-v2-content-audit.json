@@ -1,14 +1,14 @@
 {
   "total": 1643,
   "warnings": {
-    "missingReading": 621,
+    "missingReading": 620,
     "missingDescription": 0,
     "missingMeaning": 0,
     "missingExample": 800,
     "missingSource": 27,
     "regionPending": 0
   },
-  "contentAuditDialectCount": 965,
+  "contentAuditDialectCount": 964,
   "visualSample": [
     {
       "id": "jp-41-saga-001",
@@ -2242,14 +2242,6 @@
       "issues": [
         "missing_reading",
         "missing_example"
-      ]
-    },
-    {
-      "id": "jp-46-kagoshima-022",
-      "word": "おじゃったもんせ",
-      "prefecture": "鹿児島県",
-      "issues": [
-        "missing_reading"
       ]
     },
     {

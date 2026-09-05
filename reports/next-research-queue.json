@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-05T12:49:00.373Z",
-  "total": 13,
+  "generatedAt": "2026-09-05T12:57:57.996Z",
+  "total": 12,
   "byPriority": {
-    "P1": 13
+    "P1": 12
   },
   "policy": "No claim is promoted without source-tier, confidence and exact-form review.",
   "items": [
@@ -242,27 +242,6 @@
         }
       ],
       "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
-    },
-    {
-      "entityType": "dialect",
-      "id": "jp-46-kagoshima-022",
-      "label": "おじゃったもんせ",
-      "prefecture": "鹿児島県",
-      "priority": "P1",
-      "issues": [
-        "missing_reading"
-      ],
-      "action": "reading_verification",
-      "decision": "HOLD",
-      "holdReason": "資料の用例は『おじゃっともんせ』で、現行見出し・例文の『おじゃったもんせ』と一致しない。活用・表記差の編集確認が必要。",
-      "priorEvidence": [
-        {
-          "claim": "example_variant_ojattomonse",
-          "confidence": "high",
-          "exactFormMatch": "variant",
-          "sourceTier": 1
-        }
-      ]
     },
     {
       "entityType": "dialect",
