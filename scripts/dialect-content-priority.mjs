@@ -62,11 +62,13 @@ const baseRows = await Promise.all(dialects.map(async (item) => {
   const descriptionLength = text(item.description).length;
   const scopes = evidenceScopes(item);
   const duplicateSeoGroup = duplicateGroupsById.get(item.id) ?? [];
+  const coreEvidenceConfirmed = ["phrase", "meaning", "region"].every((scope) => scopes.includes(scope));
   const issues = [
     !reading && "missing_reading",
     !example && "missing_example",
     sources === 0 && "missing_source",
-    descriptionLength < 100 ? "thin_description" : descriptionLength < 140 && "description_depth_review",
+    !text(item.description) && "missing_description",
+    sources > 0 && !coreEvidenceConfirmed && "core_evidence_scope_incomplete",
     duplicateSeoGroup.length > 0 && "duplicate_seo",
   ].filter(Boolean);
   return {
@@ -86,6 +88,7 @@ const baseRows = await Promise.all(dialects.map(async (item) => {
     duplicateSeoGroup,
     issues,
     descriptionLength,
+    coreEvidenceConfirmed,
     raw: item,
   };
 }));
@@ -106,10 +109,10 @@ const records = baseRows.map((row) => {
   if (duplicateCandidate) qualityGrade = "D";
   else if (row.indexStatus === "noindex" && (row.sourceCount === 0 || majorMissing >= 2 || !confirmedStatuses.has(row.verificationStatus))) qualityGrade = "E";
   else if (row.sourceCount === 0 || majorMissing >= 2) qualityGrade = "C";
-  else if (row.indexStatus === "indexable" && row.hasReading && row.hasExample && row.sourceCount > 0 && row.descriptionLength >= 140) qualityGrade = "A";
+  else if (row.indexStatus === "indexable" && row.hasReading && row.hasExample && row.sourceCount > 0 && row.coreEvidenceConfirmed && confirmedStatuses.has(row.verificationStatus) && row.description) qualityGrade = "A";
   else qualityGrade = "B";
 
-  const candidateForIndex = row.indexStatus === "noindex" && row.sourceCount > 0 && row.hasReading && row.descriptionLength >= 100 && row.meaning && row.region && row.issues.every((issue) => ["missing_example"].includes(issue));
+  const candidateForIndex = row.indexStatus === "noindex" && row.sourceCount > 0 && row.hasReading && row.description && row.meaning && row.region && row.coreEvidenceConfirmed && row.issues.every((issue) => ["missing_example"].includes(issue));
   const keepNoindex = row.indexStatus === "noindex" && !candidateForIndex;
   if (candidateForIndex && row.issues.length === 0) row.issues.push("publication_basis_review");
   let priority;
@@ -137,7 +140,7 @@ const records = baseRows.map((row) => {
       : "例文と公開根拠・確認状態の資料確認後に再判定するindex候補。公開状態は未変更。"),
     keepNoindex && "現時点ではnoindex維持を推奨。",
   ].filter(Boolean).join(" ");
-  const { raw: _raw, descriptionLength: _descriptionLength, ...publicRow } = row;
+  const { raw: _raw, descriptionLength: _descriptionLength, coreEvidenceConfirmed: _coreEvidenceConfirmed, ...publicRow } = row;
   return { ...publicRow, qualityGrade, priority, nextActions, candidateForIndex: Boolean(candidateForIndex), keepNoindex: Boolean(keepNoindex), notes };
 });
 
@@ -197,8 +200,8 @@ const issueWeight = (row) =>
   Number(row.issues.includes("possible_content_duplicate")) * 80 +
   Number(row.issues.includes("missing_reading")) * 40 +
   Number(row.issues.includes("missing_example")) * 30 +
-  Number(row.issues.includes("thin_description")) * 20 +
-  Number(row.issues.includes("description_depth_review")) * 10;
+  Number(row.issues.includes("missing_description")) * 20 +
+  Number(row.issues.includes("core_evidence_scope_incomplete")) * 15;
 const rankedRecords = [...records].sort((a, b) => priorityRank[a.priority] - priorityRank[b.priority] || issueWeight(b) - issueWeight(a) || a.id.localeCompare(b.id, "ja"));
 const topQueueRows = [];
 const topQueuePrefectureCounts = new Map();

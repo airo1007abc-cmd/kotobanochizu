@@ -9,7 +9,7 @@ describe("regional culture archive", () => {
     const prefectureIds = new Set(repository.prefectures().map((item) => item.id));
     const regionIds = new Set(repository.regions().map((item) => item.id));
 
-    expect(items).toHaveLength(20);
+    expect(items).toHaveLength(22);
     expect(new Set(items.map((item) => item.id)).size).toBe(items.length);
     expect(
       items.every(
@@ -67,5 +67,10 @@ describe("regional culture archive", () => {
   it("links verified municipal material only to matching existing regions", () => {
     expect(repository.cultureItems({ regionId: "jp-42-region-県央" }).map((item) => item.id)).toContain("culture-nagasaki-isahaya-folktales");
     expect(repository.cultureItems({ regionId: "jp-22-region-中部" }).map((item) => item.id)).toContain("culture-shizuoka-yaizu-hamakotoba");
+  });
+
+  it("keeps Aomori Nambu and Shimokita evidence on their exact regions", () => {
+    expect(repository.cultureItems({ regionId: "r8" }).map((item) => item.id)).toContain("culture-aomori-nambu-postcard-archive");
+    expect(repository.cultureItems({ regionId: "r9" }).map((item) => item.id)).toContain("culture-aomori-shimokita-mutsu-report");
   });
 });

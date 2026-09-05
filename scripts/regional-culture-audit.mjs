@@ -58,6 +58,23 @@ const itemIssues = culture.map((item) => {
 }).filter((item) => item.issues.length);
 const duplicateIds = duplicateGroups("id");
 const duplicateSources = duplicateGroups("sourceUrl");
+const shouldCheckLinks = process.env.CHECK_CULTURE_LINKS === "1";
+const uniqueSourceUrls = [...new Set(culture.map((item) => item.sourceUrl))];
+const liveLinks = shouldCheckLinks
+  ? await Promise.all(uniqueSourceUrls.map(async (url) => {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 15000);
+      try {
+        const response = await fetch(url, { method: "HEAD", redirect: "follow", signal: controller.signal, headers: { "user-agent": "Kotoba-no-Chizu-Link-Audit/1.0" } });
+        return { url, status: response.status, ok: response.ok, finalUrl: response.url, result: response.status === 404 || response.status === 410 ? "broken" : response.ok ? "reachable" : "restricted_or_unresolved" };
+      } catch (error) {
+        return { url, status: null, ok: false, finalUrl: null, result: "network_unresolved", error: error instanceof Error ? error.message : String(error) };
+      } finally {
+        clearTimeout(timer);
+      }
+    }))
+  : [];
+const brokenLiveLinks = liveLinks.filter((item) => item.result === "broken");
 
 const report = {
   generatedAt: new Date().toISOString(),
@@ -82,6 +99,14 @@ const report = {
     itemIssueCount: itemIssues.length,
   },
   duplicateSources,
+  liveLinkAudit: {
+    performed: shouldCheckLinks,
+    checked: liveLinks.length,
+    reachable: liveLinks.filter((item) => item.result === "reachable").length,
+    restrictedOrUnresolved: liveLinks.filter((item) => item.result === "restricted_or_unresolved" || item.result === "network_unresolved").length,
+    broken: brokenLiveLinks.length,
+    results: liveLinks,
+  },
   itemIssues,
   unresolvedMappings: [
     { id: "culture-nagasaki-cojads", municipality: "平戸市", reason: "資料の採録地点は確認済みだが、現在の6区分への対応を一次資料から断定しない" },
@@ -101,7 +126,7 @@ const report = {
   },
 };
 
-if ([report.integrity.duplicateIds, report.integrity.nonHttpsSources, report.integrity.missingOrganizations, report.integrity.missingRightsNotes, report.integrity.copiedMediaFiles, report.integrity.unsafeEmbeds, report.integrity.itemIssueCount].some((value) => value !== 0)) report.status = "FAILED";
+if ([report.integrity.duplicateIds, report.integrity.nonHttpsSources, report.integrity.missingOrganizations, report.integrity.missingRightsNotes, report.integrity.copiedMediaFiles, report.integrity.unsafeEmbeds, report.integrity.itemIssueCount, brokenLiveLinks.length].some((value) => value !== 0)) report.status = "FAILED";
 fs.writeFileSync(path.join(root, "reports/regional-culture-audit.json"), `${JSON.stringify(report, null, 2)}\n`);
 console.log(JSON.stringify({ status: report.status, registeredItems: report.registeredItems, regionLinkedItems: report.regionLinkedItems, zeroWordRegions: report.contentFollowup.zeroWordRegions, informationPoorRegions: report.contentFollowup.informationPoorRegions, validationWarnings: report.contentFollowup.validationWarnings }, null, 2));
 if (report.status !== "PASSED") process.exitCode = 1;

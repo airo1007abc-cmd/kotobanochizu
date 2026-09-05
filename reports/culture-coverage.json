@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-09-05T12:11:22.206Z",
-  "total": 20,
-  "prefecturesCovered": 5,
-  "regionLinked": 9,
+  "generatedAt": "2026-09-05T12:24:29.912Z",
+  "total": 22,
+  "prefecturesCovered": 6,
+  "regionLinked": 11,
   "byPrefecture": {
+    "p2": 2,
     "p22": 1,
     "p41": 3,
     "p42": 10,
@@ -11,21 +12,21 @@
     "p47": 3
   },
   "byType": {
-    "archive": 4,
+    "archive": 5,
     "audio": 4,
-    "book": 3,
+    "book": 4,
     "conversation": 5,
     "song": 2,
     "video": 2
   },
   "byAccessType": {
-    "external_link": 20
+    "external_link": 22
   },
   "byRightsStatus": {
-    "official_link": 20
+    "official_link": 22
   },
   "byLanguageVariety": {
-    "japanese_dialect": 9,
+    "japanese_dialect": 11,
     "not_recorded": 6,
     "ryukyuan_language": 5
   },
@@ -33,10 +34,6 @@
     {
       "prefectureId": "p1",
       "prefecture": "北海道"
-    },
-    {
-      "prefectureId": "p2",
-      "prefecture": "青森県"
     },
     {
       "prefectureId": "p3",

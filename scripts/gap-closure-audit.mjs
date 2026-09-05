@@ -12,10 +12,14 @@ const prefectures = read("reports/prefecture-v2-baseline.json");
 const dialectAudit = read("reports/dialect-v2-content-audit.json");
 const contentPriority = read("reports/dialect-content-priority.json");
 const duplicateReview = read("reports/dialect-duplicate-review.json");
+const editorialChangelog = read("reports/dialect-editorial-changelog.json");
 const seo = read("reports/seo-site-audit.json");
+const dialectFiles = fs.readdirSync(path.join(root, "src/data/dialects")).filter((file) => file.endsWith(".json"));
+const rawDialects = dialectFiles.flatMap((file) => read(`src/data/dialects/${file}`));
 
 const by = (items, selector) => Object.fromEntries([...new Set(items.map(selector).filter(Boolean))].sort().map((key) => [key, items.filter((item) => selector(item) === key).length]));
 const prefById = new Map(prefectures.prefectures.map((item) => [item.prefectureId, item]));
+const zeroRegionClassifications = ["intentional classification", "data missing", "source missing", "mapping issue candidate"];
 
 const cultureCoverage = {
   generatedAt: now,
@@ -32,10 +36,16 @@ const cultureCoverage = {
 
 const zeroRegions = regionBaseline.regions.filter((item) => item.dialectCount === 0).map((region) => {
   const prefecture = prefById.get(region.prefectureId);
+  const samePrefecture = rawDialects.filter((dialect) => `p${dialect.prefectureCode}` === region.prefectureId);
+  const nameMatchesWithDifferentId = samePrefecture.filter((dialect) => dialect.regionName === region.regionName && dialect.regionId !== region.regionId);
   let classification = "data missing";
   let priority = "P2";
   let reason = "設定済み地域だが、この地域へ根拠付きで割り当てられた方言レコードがない";
-  if (/未特定|広域|複数地域/.test(region.regionName)) {
+  if (nameMatchesWithDifferentId.length > 0) {
+    classification = "mapping issue candidate";
+    priority = "P1";
+    reason = "同じ県・同じ地域名を持つ方言レコードが別regionIdへ結び付いている。ID統合前に経路を確認する";
+  } else if (/未特定|広域|複数地域/.test(region.regionName)) {
     classification = "intentional classification";
     priority = "P3";
     reason = "複数地域・未特定データを安全に保持するための分類枠で、空であること自体は不整合ではない";
@@ -44,7 +54,28 @@ const zeroRegions = regionBaseline.regions.filter((item) => item.dialectCount ==
     priority = prefecture?.indexableCount ? "P1" : "P2";
     reason = "県全体の出典確認率が50%未満で、地域への追加割当より資料調査を優先する";
   }
-  return { regionId: region.regionId, prefectureId: region.prefectureId, prefecture: region.prefectureName, region: region.regionName, classification, priority, reason, action: classification === "intentional classification" ? "keep_and_monitor" : "source_research", mutation: "HOLD" };
+  const action = classification === "intentional classification"
+    ? "keep_and_monitor"
+    : classification === "mapping issue candidate"
+      ? "mapping_review"
+      : "source_research";
+  return {
+    regionId: region.regionId,
+    prefectureId: region.prefectureId,
+    prefecture: region.prefectureName,
+    region: region.regionName,
+    classification,
+    priority,
+    reason,
+    evidence: {
+      prefectureDialectCount: samePrefecture.length,
+      prefectureSourceCoverage: prefecture?.sourceCoverage ?? null,
+      exactRegionNameDifferentIdCount: nameMatchesWithDifferentId.length,
+      candidateDialectIds: nameMatchesWithDifferentId.slice(0, 20).map((dialect) => dialect.id),
+    },
+    action,
+    mutation: "HOLD",
+  };
 });
 
 const informationPoor = navigation.informationPoorRegions.map((region) => {
@@ -55,11 +86,30 @@ const informationPoor = navigation.informationPoorRegions.map((region) => {
 
 const issues = dialectAudit.issues ?? [];
 const priorityRecords = contentPriority.records ?? [];
+const editorialDecisionByDialectId = new Map((editorialChangelog.decisions ?? []).map((item) => [item.id, item]));
+const dialectQueueItem = (item, priority) => {
+  const priorDecision = editorialDecisionByDialectId.get(item.id);
+  const heldClaims = (priorDecision?.claims ?? []).filter((claim) => claim.decision === "HOLD");
+  return {
+    entityType: "dialect",
+    id: item.id,
+    label: item.word,
+    prefecture: item.prefecture,
+    priority,
+    issues: item.issues,
+    action: item.nextActions?.[0] ?? "manual_editor_review",
+    decision: "HOLD",
+    holdReason: heldClaims.length
+      ? heldClaims.map((claim) => claim.reason).join(" ")
+      : "編集ポリシーに従い、claim単位の資料確認が完了するまで本データを変更しない",
+    priorEvidence: heldClaims.map((claim) => ({ claim: claim.claim, confidence: claim.confidence, exactFormMatch: claim.exactFormMatch, sourceTier: claim.sourceTier })),
+  };
+};
 const researchQueue = [
-  ...priorityRecords.filter((item) => item.priority === "P0").map((item) => ({ entityType: "dialect", id: item.id, label: item.word, prefecture: item.prefecture, priority: "P0", issues: item.issues, action: item.nextActions?.[0] ?? "manual_editor_review", decision: "HOLD" })),
+  ...priorityRecords.filter((item) => item.priority === "P0").map((item) => dialectQueueItem(item, "P0")),
   ...zeroRegions.filter((item) => item.priority === "P1").map((item) => ({ entityType: "region", id: item.regionId, label: item.region, prefecture: item.prefecture, priority: item.priority, issues: [item.classification], action: item.action, decision: "HOLD" })),
   ...informationPoor.filter((item) => item.priority === "P1").map((item) => ({ entityType: "region", id: item.id, label: item.region, prefecture: item.prefecture, priority: "P1", issues: [item.sourceCount === 0 ? "source_missing" : "information_poor"], action: item.action, decision: "HOLD" })),
-  ...priorityRecords.filter((item) => item.priority === "P1").map((item) => ({ entityType: "dialect", id: item.id, label: item.word, prefecture: item.prefecture, priority: "P1", issues: item.issues, action: item.nextActions?.[0] ?? "manual_editor_review", decision: "HOLD" })),
+  ...priorityRecords.filter((item) => item.priority === "P1").map((item) => dialectQueueItem(item, "P1")),
 ];
 
 const productionAudit = {
@@ -74,12 +124,19 @@ const productionAudit = {
   duplicateTitleGroups: seo.duplicateTitles?.length ?? 0,
   duplicateDescriptionGroups: seo.duplicateDescriptions?.length ?? 0,
   contentDuplicateGroups: duplicateReview.summary?.groups ?? 0,
-  blockingFailures: [ ...(seo.brokenInternalLinks ?? []), ...(seo.orphanStaticPages ?? []) ],
+  blockingFailures: [
+    ...(seo.brokenInternalLinks ?? []).map((item) => ({ type: "broken_internal_link", detail: item })),
+    ...(seo.orphanStaticPages ?? []).map((item) => ({ type: "orphan_static_page", detail: item })),
+    ...Array.from({ length: seo.missingRobotsDecision ?? 0 }, (_, index) => ({ type: "missing_robots_decision", index })),
+    ...(seo.blockingDuplicateTitles ?? []).map((item) => ({ type: "indexable_duplicate_title", detail: item })),
+    ...(seo.blockingDuplicateDescriptions ?? []).map((item) => ({ type: "indexable_duplicate_description", detail: item })),
+  ],
 };
 
 write("reports/culture-coverage.json", cultureCoverage);
-write("reports/zero-region-audit.json", { generatedAt: now, total: zeroRegions.length, byClassification: by(zeroRegions, (item) => item.classification), byPriority: by(zeroRegions, (item) => item.priority), autoFixed: 0, items: zeroRegions });
+const zeroClassificationCounts = Object.fromEntries(zeroRegionClassifications.map((classification) => [classification, zeroRegions.filter((item) => item.classification === classification).length]));
+write("reports/zero-region-audit.json", { generatedAt: now, total: zeroRegions.length, byClassification: zeroClassificationCounts, byPriority: by(zeroRegions, (item) => item.priority), autoFixed: 0, policy: "Exact existing IDs may be repaired only after route and source review; linguistic assignments remain HOLD.", items: zeroRegions });
 write("reports/low-coverage-regions.json", { generatedAt: now, total: informationPoor.length, byPriority: by(informationPoor, (item) => item.priority), items: informationPoor });
 write("reports/next-research-queue.json", { generatedAt: now, total: researchQueue.length, byPriority: by(researchQueue, (item) => item.priority), policy: "No claim is promoted without source-tier, confidence and exact-form review.", items: researchQueue });
 write("reports/production-audit.json", productionAudit);
-console.log(JSON.stringify({ culture: cultureCoverage.total, culturePrefectures: cultureCoverage.prefecturesCovered, zeroRegions: zeroRegions.length, zeroClassifications: by(zeroRegions, (item) => item.classification), lowCoverageRegions: informationPoor.length, queue: researchQueue.length, productionBlockingFailures: productionAudit.blockingFailures.length }, null, 2));
+console.log(JSON.stringify({ culture: cultureCoverage.total, culturePrefectures: cultureCoverage.prefecturesCovered, zeroRegions: zeroRegions.length, zeroClassifications: zeroClassificationCounts, lowCoverageRegions: informationPoor.length, queue: researchQueue.length, productionBlockingFailures: productionAudit.blockingFailures.length }, null, 2));
