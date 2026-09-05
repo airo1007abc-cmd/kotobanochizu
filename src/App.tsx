@@ -145,6 +145,13 @@ function Shell() {
     const prefecture = prefectureMatch
       ? repository.prefectures().find((item) => item.id === prefectureMatch[1])
       : undefined;
+    const regionMatch = pathname.match(/^\/regions\/([^/]+)$/);
+    const region = regionMatch
+      ? repository.regions().find((item) => item.id === decodeURIComponent(regionMatch[1]))
+      : undefined;
+    const regionPrefecture = region
+      ? repository.prefectures().find((item) => item.id === region.prefectureId)
+      : undefined;
     const meaningMatch = pathname.match(/^\/meanings\/([^/]+)$/);
     const meaningComparison = meaningMatch
       ? meaningComparisonData.find((item) => item.slug === meaningMatch[1])
@@ -165,7 +172,9 @@ function Shell() {
       ? `${dialect.phrase}の意味・使い方（${dialect.municipality ? `${dialect.municipality}・` : ""}${prefName(dialect.prefectureId)}）｜ことばの地図`
       : prefecture
         ? `${prefecture.name}の方言・地域のことば｜ことばの地図`
-        : meaningComparison
+        : region && regionPrefecture
+          ? `${region.name}の方言・地域のことば（${regionPrefecture.name}）｜ことばの地図`
+          : meaningComparison
           ? `${meaningComparison.title}｜ことばの地図`
           : regionGuide
             ? `${regionGuide.title}｜ことばの地図`
@@ -178,7 +187,9 @@ function Shell() {
       ? `${prefName(dialect.prefectureId)}・${regionName(dialect.regionId)}での「${dialect.phrase}」の使用例。標準語では「${dialect.standardJapanese}」。確認状態と地域差を明示しています。`
       : prefecture
         ? `${prefecture.name}で受け継がれる方言と地域のことばを、地域差・世代・使用場面・確認状態とともに紹介します。`
-        : meaningComparison
+        : region && regionPrefecture
+          ? `${regionPrefecture.name}・${region.name}で記録された方言と地域のことばを、出典・確認状態・地域内の記録地点とともに紹介します。`
+          : meaningComparison
           ? meaningComparison.description
           : regionGuide
             ? regionGuide.description
@@ -198,6 +209,13 @@ function Shell() {
     document
       .querySelector('meta[property="og:description"]')
       ?.setAttribute("content", description);
+    const pageUrl = `${window.location.origin}${pathname}`;
+    document
+      .querySelector('link[rel="canonical"]')
+      ?.setAttribute("href", pageUrl);
+    document
+      .querySelector('meta[property="og:url"]')
+      ?.setAttribute("content", pageUrl);
   }, [pathname]);
   return (
     <>
