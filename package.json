@@ -27,6 +27,7 @@
     ,"audit:content-priority": "node scripts/dialect-content-priority.mjs"
     ,"audit:editorial-integrity": "node scripts/editorial-integrity-audit.mjs"
     ,"audit:regional-culture": "node scripts/regional-culture-audit.mjs"
+    ,"audit:gap-closure": "node scripts/gap-closure-audit.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

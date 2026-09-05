@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-05T12:11:22.206Z",
+  "total": 20,
+  "prefecturesCovered": 5,
+  "regionLinked": 9,
+  "byPrefecture": {
+    "p22": 1,
+    "p41": 3,
+    "p42": 10,
+    "p46": 3,
+    "p47": 3
+  },
+  "byType": {
+    "archive": 4,
+    "audio": 4,
+    "book": 3,
+    "conversation": 5,
+    "song": 2,
+    "video": 2
+  },
+  "byAccessType": {
+    "external_link": 20
+  },
+  "byRightsStatus": {
+    "official_link": 20
+  },
+  "byLanguageVariety": {
+    "japanese_dialect": 9,
+    "not_recorded": 6,
+    "ryukyuan_language": 5
+  },
+  "uncoveredPrefectures": [
+    {
+      "prefectureId": "p1",
+      "prefecture": "北海道"
+    },
+    {
+      "prefectureId": "p2",
+      "prefecture": "青森県"
+    },
+    {
+      "prefectureId": "p3",
+      "prefecture": "岩手県"
+    },
+    {
+      "prefectureId": "p4",
+      "prefecture": "宮城県"
+    },
+    {
+      "prefectureId": "p5",
+      "prefecture": "秋田県"
+    },
+    {
+      "prefectureId": "p6",
+      "prefecture": "山形県"
+    },
+    {
+      "prefectureId": "p7",
+      "prefecture": "福島県"
+    },
+    {
+      "prefectureId": "p8",
+      "prefecture": "茨城県"
+    },
+    {
+      "prefectureId": "p9",
+      "prefecture": "栃木県"
+    },
+    {
+      "prefectureId": "p10",
+      "prefecture": "群馬県"
+    },
+    {
+      "prefectureId": "p11",
+      "prefecture": "埼玉県"
+    },
+    {
+      "prefectureId": "p12",
+      "prefecture": "千葉県"
+    },
+    {
+      "prefectureId": "p13",
+      "prefecture": "東京都"
+    },
+    {
+      "prefectureId": "p14",
+      "prefecture": "神奈川県"
+    },
+    {
+      "prefectureId": "p15",
+      "prefecture": "新潟県"
+    },
+    {
+      "prefectureId": "p16",
+      "prefecture": "富山県"
+    },
+    {
+      "prefectureId": "p17",
+      "prefecture": "石川県"
+    },
+    {
+      "prefectureId": "p18",
+      "prefecture": "福井県"
+    },
+    {
+      "prefectureId": "p19",
+      "prefecture": "山梨県"
+    },
+    {
+      "prefectureId": "p20",
+      "prefecture": "長野県"
+    },
+    {
+      "prefectureId": "p21",
+      "prefecture": "岐阜県"
+    },
+    {
+      "prefectureId": "p23",
+      "prefecture": "愛知県"
+    },
+    {
+      "prefectureId": "p24",
+      "prefecture": "三重県"
+    },
+    {
+      "prefectureId": "p25",
+      "prefecture": "滋賀県"
+    },
+    {
+      "prefectureId": "p26",
+      "prefecture": "京都府"
+    },
+    {
+      "prefectureId": "p27",
+      "prefecture": "大阪府"
+    },
+    {
+      "prefectureId": "p28",
+      "prefecture": "兵庫県"
+    },
+    {
+      "prefectureId": "p29",
+      "prefecture": "奈良県"
+    },
+    {
+      "prefectureId": "p30",
+      "prefecture": "和歌山県"
+    },
+    {
+      "prefectureId": "p31",
+      "prefecture": "鳥取県"
+    },
+    {
+      "prefectureId": "p32",
+      "prefecture": "島根県"
+    },
+    {
+      "prefectureId": "p33",
+      "prefecture": "岡山県"
+    },
+    {
+      "prefectureId": "p34",
+      "prefecture": "広島県"
+    },
+    {
+      "prefectureId": "p35",
+      "prefecture": "山口県"
+    },
+    {
+      "prefectureId": "p36",
+      "prefecture": "徳島県"
+    },
+    {
+      "prefectureId": "p37",
+      "prefecture": "香川県"
+    },
+    {
+      "prefectureId": "p38",
+      "prefecture": "愛媛県"
+    },
+    {
+      "prefectureId": "p39",
+      "prefecture": "高知県"
+    },
+    {
+      "prefectureId": "p40",
+      "prefecture": "福岡県"
+    },
+    {
+      "prefectureId": "p43",
+      "prefecture": "熊本県"
+    },
+    {
+      "prefectureId": "p44",
+      "prefecture": "大分県"
+    },
+    {
+      "prefectureId": "p45",
+      "prefecture": "宮崎県"
+    }
+  ]
+}

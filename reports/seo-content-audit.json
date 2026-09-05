@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T10:31:23.651Z",
+  "generatedAt": "2026-09-05T12:06:03.651Z",
   "dialectRecords": 1628,
   "indexable": 628,
   "review_required": 1000,
@@ -14,7 +14,7 @@
     "region": 1616,
     "example": 805,
     "usage": 946,
-    "history": 431
+    "history": 432
   },
   "duplicatePhraseGroups": [
     [

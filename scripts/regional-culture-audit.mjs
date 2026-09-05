@@ -9,6 +9,8 @@ const regions = read("reports/region-v2-baseline.json");
 const navigation = read("reports/region-navigation-audit.json");
 const dialectAudit = read("reports/dialect-v2-content-audit.json");
 const prefectures = read("reports/prefecture-v2-baseline.json");
+const prefectureIds = new Set(prefectures.prefectures.map((item) => item.prefectureId));
+const regionById = new Map(regions.regions.map((item) => [item.regionId, item]));
 
 const countBy = (items, key) =>
   Object.fromEntries(
@@ -30,6 +32,33 @@ const validationWarningCategories = {
   reviewItemWithoutNote: validationWarnings.filter((line) => line.startsWith("WARN review item without note:")).length,
 };
 
+const duplicateGroups = (field) => {
+  const groups = new Map();
+  for (const item of culture) {
+    const value = String(item[field] ?? "").trim();
+    if (!value) continue;
+    groups.set(value, [...(groups.get(value) ?? []), item.id]);
+  }
+  return [...groups.entries()].filter(([, ids]) => ids.length > 1).map(([value, ids]) => ({ value, ids }));
+};
+const itemIssues = culture.map((item) => {
+  const issues = [];
+  const region = item.regionId ? regionById.get(item.regionId) : undefined;
+  if (!prefectureIds.has(item.prefectureId)) issues.push("unknown_prefecture");
+  if (item.regionId && !region) issues.push("unknown_region");
+  if (region && region.prefectureId !== item.prefectureId) issues.push("region_prefecture_mismatch");
+  if (!item.sourceTitle) issues.push("missing_source_title");
+  if (!item.sourceOrganization) issues.push("missing_publisher");
+  if (!/^https:\/\//.test(item.sourceUrl ?? "")) issues.push("unsafe_or_non_https_source");
+  if (!item.rightsStatus) issues.push("missing_rights_status");
+  if (!item.accessType) issues.push("missing_access_type");
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(item.verifiedAt ?? "")) issues.push("invalid_verified_at");
+  if (item.accessType === "embed" && item.rightsStatus !== "permission_confirmed" && item.rightsStatus !== "public_domain") issues.push("unsafe_embed");
+  return { id: item.id, issues };
+}).filter((item) => item.issues.length);
+const duplicateIds = duplicateGroups("id");
+const duplicateSources = duplicateGroups("sourceUrl");
+
 const report = {
   generatedAt: new Date().toISOString(),
   status: "PASSED",
@@ -40,13 +69,20 @@ const report = {
   byPrefecture: countBy(culture, "prefectureId"),
   byType: countBy(culture, "type"),
   byRightsStatus: countBy(culture, "rightsStatus"),
+  byAccessType: countBy(culture, "accessType"),
+  byLanguageVariety: countBy(culture, "languageVariety"),
   integrity: {
-    duplicateIds: culture.length - new Set(culture.map((item) => item.id)).size,
+    duplicateIds: duplicateIds.length,
+    duplicateSourceGroups: duplicateSources.length,
     nonHttpsSources: culture.filter((item) => !item.sourceUrl.startsWith("https://")).length,
     missingOrganizations: culture.filter((item) => !item.sourceOrganization).length,
     missingRightsNotes: culture.filter((item) => !item.rightsNote).length,
     copiedMediaFiles: 0,
+    unsafeEmbeds: culture.filter((item) => item.accessType === "embed" && !["permission_confirmed", "public_domain"].includes(item.rightsStatus)).length,
+    itemIssueCount: itemIssues.length,
   },
+  duplicateSources,
+  itemIssues,
   unresolvedMappings: [
     { id: "culture-nagasaki-cojads", municipality: "平戸市", reason: "資料の採録地点は確認済みだが、現在の6区分への対応を一次資料から断定しない" },
     { id: "culture-okinawa-shuri-audio", municipality: "首里", reason: "首里の教材であることは確認済みだが、県内地域IDをUI都合で推測しない" },
@@ -65,7 +101,7 @@ const report = {
   },
 };
 
-if (Object.values(report.integrity).some((value) => value !== 0)) report.status = "FAILED";
+if ([report.integrity.duplicateIds, report.integrity.nonHttpsSources, report.integrity.missingOrganizations, report.integrity.missingRightsNotes, report.integrity.copiedMediaFiles, report.integrity.unsafeEmbeds, report.integrity.itemIssueCount].some((value) => value !== 0)) report.status = "FAILED";
 fs.writeFileSync(path.join(root, "reports/regional-culture-audit.json"), `${JSON.stringify(report, null, 2)}\n`);
 console.log(JSON.stringify({ status: report.status, registeredItems: report.registeredItems, regionLinkedItems: report.regionLinkedItems, zeroWordRegions: report.contentFollowup.zeroWordRegions, informationPoorRegions: report.contentFollowup.informationPoorRegions, validationWarnings: report.contentFollowup.validationWarnings }, null, 2));
 if (report.status !== "PASSED") process.exitCode = 1;

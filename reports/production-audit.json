@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-09-05T12:11:22.206Z",
+  "source": "latest local production build/static audit; live recheck required after deploy",
+  "totalStaticPages": 2316,
+  "indexable": 1014,
+  "noindex": 1302,
+  "brokenInternalLinks": [],
+  "orphanStaticPages": [],
+  "missingRobotsDecision": 0,
+  "duplicateTitleGroups": 17,
+  "duplicateDescriptionGroups": 8,
+  "contentDuplicateGroups": 18,
+  "blockingFailures": []
+}

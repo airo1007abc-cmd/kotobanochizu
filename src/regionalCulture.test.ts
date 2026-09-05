@@ -9,7 +9,7 @@ describe("regional culture archive", () => {
     const prefectureIds = new Set(repository.prefectures().map((item) => item.id));
     const regionIds = new Set(repository.regions().map((item) => item.id));
 
-    expect(items).toHaveLength(14);
+    expect(items).toHaveLength(20);
     expect(new Set(items.map((item) => item.id)).size).toBe(items.length);
     expect(
       items.every(
@@ -18,6 +18,7 @@ describe("regional culture archive", () => {
           (!item.regionId || regionIds.has(item.regionId)) &&
           item.sourceUrl.startsWith("https://") &&
           item.rightsStatus === "official_link" &&
+          item.accessType === "external_link" &&
           Boolean(item.sourceOrganization && item.rightsNote),
       ),
     ).toBe(true);
@@ -33,7 +34,7 @@ describe("regional culture archive", () => {
       dialects,
       repository.cultureItems({ prefectureId: prefecture.id }),
     );
-    expect(prefectureVm.cultureItems).toHaveLength(5);
+    expect(prefectureVm.cultureItems).toHaveLength(10);
 
     const region = regions.find((item) => item.id === "jp-42-region-県南")!;
     const regionVm = createRegionDetailViewModel(
@@ -50,9 +51,21 @@ describe("regional culture archive", () => {
     ]);
   });
 
+  it("links exact Nagasaki island records only to their existing region IDs", () => {
+    expect(repository.cultureItems({ regionId: "jp-42-region-五島" }).map((item) => item.id)).toContain("culture-nagasaki-goto-karuta");
+    expect(repository.cultureItems({ regionId: "jp-42-region-壱岐" }).map((item) => item.id)).toContain("culture-nagasaki-iki-language-history");
+    expect(repository.cultureItems({ regionId: "jp-42-region-対馬" }).map((item) => item.id)).toContain("culture-nagasaki-tsushima-kamishibai");
+    expect(repository.cultureItems({ regionId: "jp-42-region-県北" }).map((item) => item.id)).not.toContain("culture-nagasaki-cojads");
+  });
+
   it("preserves the Ryukyuan-language classification for Amami material", () => {
     const items = repository.cultureItems({ regionId: "jp-46-region-奄美" });
     expect(items).toHaveLength(2);
     expect(items.every((item) => item.languageVariety === "ryukyuan_language")).toBe(true);
+  });
+
+  it("links verified municipal material only to matching existing regions", () => {
+    expect(repository.cultureItems({ regionId: "jp-42-region-県央" }).map((item) => item.id)).toContain("culture-nagasaki-isahaya-folktales");
+    expect(repository.cultureItems({ regionId: "jp-22-region-中部" }).map((item) => item.id)).toContain("culture-shizuoka-yaizu-hamakotoba");
   });
 });

@@ -1,34 +1,56 @@
 {
-  "generatedAt": "2026-09-05T03:01:21.020Z",
+  "generatedAt": "2026-09-05T12:10:07.806Z",
   "status": "PASSED",
-  "registeredItems": 14,
-  "prefecturesCovered": 4,
-  "regionLinkedItems": 4,
-  "prefectureOnlyItems": 10,
+  "registeredItems": 20,
+  "prefecturesCovered": 5,
+  "regionLinkedItems": 9,
+  "prefectureOnlyItems": 11,
   "byPrefecture": {
+    "p22": 1,
     "p41": 3,
-    "p42": 5,
+    "p42": 10,
     "p46": 3,
     "p47": 3
   },
   "byType": {
-    "archive": 3,
-    "audio": 3,
-    "book": 2,
-    "conversation": 2,
+    "archive": 4,
+    "audio": 4,
+    "book": 3,
+    "conversation": 5,
     "song": 2,
     "video": 2
   },
   "byRightsStatus": {
-    "official_link": 14
+    "official_link": 20
+  },
+  "byAccessType": {
+    "external_link": 20
+  },
+  "byLanguageVariety": {
+    "japanese_dialect": 9,
+    "ryukyuan_language": 5,
+    "undefined": 6
   },
   "integrity": {
     "duplicateIds": 0,
+    "duplicateSourceGroups": 1,
     "nonHttpsSources": 0,
     "missingOrganizations": 0,
     "missingRightsNotes": 0,
-    "copiedMediaFiles": 0
+    "copiedMediaFiles": 0,
+    "unsafeEmbeds": 0,
+    "itemIssueCount": 0
   },
+  "duplicateSources": [
+    {
+      "value": "https://www2.ninjal.ac.jp/cojads/index.html",
+      "ids": [
+        "culture-nagasaki-cojads",
+        "culture-cojads-national"
+      ]
+    }
+  ],
+  "itemIssues": [],
   "unresolvedMappings": [
     {
       "id": "culture-nagasaki-cojads",

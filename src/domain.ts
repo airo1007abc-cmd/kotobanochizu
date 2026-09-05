@@ -58,6 +58,7 @@ export type RegionalCultureItem = {
   sourceOrganization: string;
   sourceUrl: string;
   rightsStatus: "official_link" | "permission_confirmed" | "public_domain" | "rights_review_required";
+  accessType: "external_link" | "embed" | "onsite_only";
   rightsNote: string;
   description: string;
   verifiedAt: string;

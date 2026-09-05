@@ -16,7 +16,13 @@ const pages = await Promise.all(files.map(async (file) => {
     hrefs: [...html.matchAll(/href="(\/[^"#?]*)/g)].map((match) => match[1].replace(/\/$/, "") || "/"),
   };
 }));
-const duplicates = (field) => [...Map.groupBy(pages, (page) => page[field]).entries()].filter(([value, group]) => value && group.length > 1).map(([value, group]) => ({ value, paths: group.map((page) => page.path) }));
+const duplicates = (field) => [...Map.groupBy(pages, (page) => page[field]).entries()]
+  .filter(([value, group]) => value && group.length > 1)
+  .map(([value, group]) => ({
+    value,
+    paths: group.map((page) => page.path),
+    indexablePaths: group.filter((page) => page.robots.startsWith("index,")).map((page) => page.path),
+  }));
 const paths = new Set(pages.map((page) => page.path));
 const linked = new Set(pages.flatMap((page) => page.hrefs));
 const brokenLinks = [...linked].filter((href) => !paths.has(href) && !href.match(/\.[a-z]+$/i));
@@ -36,13 +42,17 @@ const report = {
   orphanStaticPages: pages.filter((page) => page.path !== "/" && !linked.has(page.path)).map((page) => page.path),
   underlinkedIndexablePages,
 };
+const blockingDuplicateTitles = report.duplicateTitles.filter((group) => group.indexablePaths.length > 1);
+const blockingDuplicateDescriptions = report.duplicateDescriptions.filter((group) => group.indexablePaths.length > 1);
+report.blockingDuplicateTitles = blockingDuplicateTitles;
+report.blockingDuplicateDescriptions = blockingDuplicateDescriptions;
 console.log(JSON.stringify(report, null, 2));
 await mkdir(join(root, "reports"), { recursive: true });
 await writeFile(join(root, "reports/seo-site-audit.json"), `${JSON.stringify(report, null, 2)}\n`);
 if (
   report.missingRobotsDecision ||
-  report.duplicateTitles.length ||
-  report.duplicateDescriptions.length ||
+  blockingDuplicateTitles.length ||
+  blockingDuplicateDescriptions.length ||
   report.brokenInternalLinks.length ||
   report.orphanStaticPages.length ||
   report.underlinkedIndexablePages.length

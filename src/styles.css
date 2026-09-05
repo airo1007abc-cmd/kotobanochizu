@@ -1783,6 +1783,9 @@ main:has(.prefecture-v2) { max-width: 1280px; }
 .regional-culture-grid footer { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: auto; padding-top: 16px; border-top: 1px solid #e1e4de; color: #6f786f; font-size: 10px; }
 .regional-culture-grid footer strong { color: #46594c; }
 .regional-culture-rights { margin: 20px 0 0; color: #7b827c; font-size: 10px; line-height: 1.8; }
+.regional-culture-more { display: flex; align-items: center; gap: 8px; margin: 24px auto 0; padding: 10px 16px; border: 1px solid #bdc9be; border-radius: 999px; background: transparent; color: var(--green); font: inherit; font-size: 12px; font-weight: 700; cursor: pointer; }
+.regional-culture-more svg { width: 15px; height: 15px; transition: transform .18s ease; }
+.regional-culture-more[aria-expanded="true"] svg { transform: rotate(180deg); }
 
 /* Region detail V2 */
 .region-v2 { padding: 28px 0 82px; }
