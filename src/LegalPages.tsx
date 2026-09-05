@@ -20,15 +20,34 @@ export function Privacy() {
         </div>
         <h2>現在、端末内に保存する情報</h2>
         <p>
-          お気に入り、リアクション、最近見たことば、デモ投稿内容をLocalStorageへ保存します。アカウント、氏名、メールアドレス、位置情報をサーバーで収集していません。
+          お気に入り、リアクション、最近見たことば、デモ投稿内容をLocalStorageへ保存します。投稿機能を通じて、アカウント、氏名、メールアドレス、位置情報を当サイトのサーバーへ送信することはありません。
+        </p>
+        <h2>アクセス解析</h2>
+        <p>
+          サイトの利用状況を把握し、内容と使いやすさを改善するためGoogle Analytics 4を利用しています。Google AnalyticsはCookie等を使用し、閲覧したページ、利用環境、参照元、おおよその地域などの利用情報を収集することがあります。当サイトでは氏名やメールアドレスをGoogle Analyticsへ送信しません。
+        </p>
+        <p>
+          収集情報の取り扱いは
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+            Googleプライバシーポリシー
+          </a>
+          および
+          <a href="https://support.google.com/analytics/answer/6004245" target="_blank" rel="noreferrer">
+            Google Analyticsのデータ保護に関する案内
+          </a>
+          をご確認ください。計測を望まない場合は、ブラウザのCookie設定または
+          <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noreferrer">
+            Google Analyticsオプトアウトアドオン
+          </a>
+          を利用できます。
         </p>
         <h2>音声・映像について</h2>
         <p>
           本番公開では、収録への同意と公開への同意を分け、公開範囲、二次利用、撤回方法を記録します。未成年者の記録は保護者同意を含む別の手続きを設けます。
         </p>
-        <h2>本番公開前に確定する事項</h2>
+        <h2>今後確定する事項</h2>
         <p>
-          運営者情報、問い合わせ先、利用するホスティング・解析・認証事業者、保存期間、削除請求、国外移転、Cookie管理を確定し、このページを正式なプライバシーポリシーへ更新します。
+          運営者情報、問い合わせ先、保存期間、削除請求、国外移転、Cookie同意管理を確定し、このページを正式なプライバシーポリシーへ更新します。
         </p>
         <h2>現在の表示情報</h2>
         <p>
