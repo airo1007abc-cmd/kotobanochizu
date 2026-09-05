@@ -1,0 +1,48 @@
+Ｏ　「ひぐら」の行事
+
+0105009|６|kjua higurasa: gozaska|きょうは　ひぐらさん〔盆の１６日に行なう子供のままごとあそび〕　ですか。
+0105010|５|hai higurasa: goande: omansa: ne:sanno tokoi iqkjanse: o|はい　ひぐらさん　ですから　あなた　姉さんの　所に　いらっしゃい　よ。
+0105011|６|me:jagemoso|まいりましょう。
+0105012|５|do:ka osaizjaq tamonse ne:sanga tokoi|どうか　いらっしゃって　ください。姉さんの　所へ。
+0105013|６|me:jagemoso:|まいりましょう。
+0105101|５|do:ka jadoi hoina osaizjaq tamonse|どうか　うちへ　それなら　いらっしゃって　ください。〔ここから５は姉の役となる〕
+0105102|６|doke suwareba josju gowaska|どこへ　坐れば　いい　ですか。
+0105103|５|soi gowaq na: omansa. iqban ko: nai ozjande otoko goande kamizan ho osaijaq tamohanka|そう　です　ね。あなたは　一番　こう　なん　ですから　男　ですから　上座の　方　いらっしゃって　くださいませんか。
+0105105|６|hai hai nna kokode josju gozasuka|はい　はい。それなら　ここで　よろしゅう　ございますか。
+0105106|５|hai sokode josu gozande|はい　そこで　よろしゅう　ございますから。
+0105107|６|kjoa naino goqso: goansokai|きょうは　なにの　御馳走　でしょうか。
+0105108|５|kjoa anesanga na: omansan suqna monno simonga omansa: naiga suq ozjasjtaka na:|きょうは　姉さんが　ね、あなたの　好きな　物を　しますが。あなたは　なにが　好き　でしたか　ね。
+0105110|６|kabotsjato karaimoto gozento sosjko tamonse|かぼちゃと　さつまいもと　御飯と　それだけ　ください。
+0105111|５|a so goaska. huna iqtoq omatsjaq tamoq na. gaqtsui kora mo kjoa higa moemohan na o: do:ju. mon gowahjka na:|あ　そう　ですか。それでは　ちょっと　お待ちになって　ください　な。まったく　こりゃ　もう　きょうは　火が　燃えません　ね。どういう　もの　ですか　ね。
+0105113|６|hai|はい。
+0105114|５|jobe tsjqto amega hwqtato goanso taqmonga gaqtsu nureq omansa: kora iqko: tetsiqmohanga iqtoq omaqtsjaq tamoq na: jaqpai kora kaneqkara joka hui senna heqtsi sija na:n mon gozando na: kora mo: omansa:|昨晩　ちょっと　雨が　降ったの　でしょう。焚き物が　まったく　濡れて　あなた　これは　一向　燃え付きませんが。しばらく　お待ちになって　ください　よ。やはり　これは　かねてから　よい　ように　しないと　急には　できは　しない　もの　です　ね、これは　もう　あなた。
+0105202|６|mo: haraga heq onde hajo: hannieden josju goande hajo. odasijaq tamonse|もう　腹が　へって　いるから　早く　半煮えでも　いい　ですから　早く　お出し　ください。
+0105204|５|mo iqtoq omatsijaq tamonse na. iqki dekemonde hara tsuqno naiga kiq onsa omansa: kora iqtoq kaseo siq omijaq tamonse: jadon joka otoqzjoga kiq ozjarea omansa: haraga heq oq tsjqse: hajo tamonse tamonse tsi jukata goansa o:  iqtoq kasei ozjaq tamohanka koko ma: omansa: soke ziqto siq ozjaq tamonse. na: dosjko omansa:ga hajo: tsi jaqtatsi kora taqmonga moen kotsi na: omansa: ikenmo iqmohande na: ma: iqtoq omaqtsjaq tamoq maq taqmonga mo ha moedaqmosjta moedaqmosjta son aida otsjao agejan sa:|もう　しばらく　お待ちになって　ください　よ、すぐに　できますから。ほら　隣りの　何々さんが　来て　いますわ。あなたは　あの　しばらく　手伝いを　して　みて　ください。うちの　いい　弟が　来て　いらして　あなた　腹が　へって　いる　と言って　早く　ください　ください　と　言っている　ところです　よ。しばらく　手伝いに　いらして　くださいませんか、ここに。まあ　あなたは　そこに　じっと　して　いらして　ください　よ。どれだけ　あなたが　早く　と　言っても　これは　焚き物が　もえない　ことには　ね、あなた　どうにも　なりませんから　ね。まあ　しばらく　お待ち　ください。まあ　焚き物が　も、あ、燃え出しました、燃え出しました。その　間に　お茶を　上げてなさい、それ。
+0105214|６|hai|はい。
+0105215|５|na iqtoq omatsjaq tamoq … kora mo otsjanbunna hajo: wakaseq makaste kjua: oqkasanno omansa: ozjaqtsjqse: ju koq goasjtade koen toq naka: omansa:mo ataiga tswkuqta mondoma: agahande na: nendzu. oqkasanno jokamonbaqkai tamoqsiageq ozjande: marekenna … kora kabotsjamo suq ozjasjtaka sosjte|ね、しばらく　お待ち　ください　…　これは　もう　お茶だけは　早く　沸かして　おきまして、今日は　お母さんが　あなたが　いらっしゃると　いう　こと　でしたから、そんな　ときで　なければ　あなたも　わたしが　作った　物などは　上がらないから　ね。年中　お母さんの　いい物ばっかり　おあがりになって　いらっしゃるので　たまには …、これは、かぼちゃも　すきで　いらっしゃいましたか、そして。
+0105305|６|hai hai|はい　はい。
+0105306|５|he: ataja mata kabotsja: agaran tsi omoq osjtadon na: haq mo gohanmo huqmosjtade gaqtsui kon higurasan nabea iqki kogaremondeja na: kogarea otokoina tamosun monzja naka tsjaqto goandonkara tsiqta kaqta kwse goq goando na iqtoq omotsjaq tamoq na: a so: omansa: sokon hio hwqkjaq tamonse hora gaqtsui kora mo: omansa: kon higurasa.n kama hjtoqde tandoka:|ほう、わたしは　また　かぼちゃは　上がらない　と　思って　いましたけれど　ね。ほら　もう　ごはんも　吹きましたよ。ほんとに　この　ひぐらの　鍋は　すぐに　こげつきますので　ね。おこげは　男には　食べさせる　ものでは　ない　というの　ですけれど　ちょっと　どうも　臭い　よう　です　ね。しばらく　おまち　ください　ね。あ　そう　あなた　そこの　火を　吹いて　ください。ほら。ほんとに　これは　もう　あなた　この　ひぐらさんの　釜　ひとつで　足りるでしょうか。
+0105313|６|ja: sora zju:bun taqdo:|やあ　それは　十分　足りるよ。
+0105314|５|n goaska: kamamo kora omansa: ozjaq koq na: hwtaq sjkoq ekea josju goasjtadon na: kasei kijaqta kora nmesanna iqtoq omatsijanse na: kon ataiga joka otoqzjoga omansa: tamoijaqto goande omansa: otoqzjomo kora: joka gosjateisa: goansa: tsi iqtoq omaqtsjaq tamonse: na: hara otsujumo dekeosjta na:… kabotsjawa tsiqta anma nmonaka kabotsja goandon ma kjua okibaijaq tamonse: do:ka|そうですか。かまも　これは　あなたが　いらっしゃる　こと　なら、ふたつ　用意して　おけば　よう　ございましたけれど　ね。手伝いに　来なさった　これは　梅さんは、しばらく　お待ちなさい　よ。この　わたしの　いい　弟が　あなた　召しあがるの　ですから、あなた　弟も　これは　いい　御舎弟さま　ですよ。しばらく　お待ち　ください。ほら　お汁も　できていました　ね。…　かぼちゃは　ちょっとは　あんまり　おいしくない　かぼちゃ　ですが、まあ　きょうは　我慢なさって　ください、どうか。
+0105405|６|hai|はい。
+0105406|５|haq dekemo:sjta na: hoinara ma:|はい、できました　ね。それなら　まあ。
+0105407|６|hai|はい。
+0105408|５|higurasan ohasiga kora tsiqta juka hui goansandonkara ma koide naikato okibaijaq tamonse iken gozansokai|ひぐらさんの　お箸が　これは　少しは　いい　ように　ございませんけれど、ま　これで　なんとか　我慢して　ください。どんな　でしょうか。
+0105410|６|hai|はい。
+0105411|５|ma do:ka oagaijaq tamonse|まあ　どうか、上がって　ください。
+0105412|６|n: kora joka okagen gowas|うん、これは　いい　お加減　です。
+0105413|５|omansa: maqto…|あなたは　もっと…
+0105414|６|n tsjqtobaqkai sioga kare gowas na:|うん　ちょっとばかり　塩が　からい　です　ね。
+0105415|５|a: so: goaska|ああ　そう　ですか。
+0105416|６|ha:|はい。
+0105501|５|e: omansa:ga hajo hajo: tsi ijan mon goande kora mo: honnokote nmesano tsjqta nandenka sio. joke oirejasjta. omansa. karaguq goande omansa:|ええ、あなたが、早く　早く　と　いわれる　もの　ですから　これは　もう　ほんとうに　梅さんが　少しは　多分　塩を　多く　おいれになった。あなた　辛口　ですから　あなた。
+0105504|６|ha: nnja kora: gobure:sa:na: hanasj zjaqdonkara anmai kora nmo goahan|はい。いや　これは　御無礼な　話　ですが、あまり　これは　おいしく　ありません。
+0105506|５|arai joq ndamo sen gjaqna omansa: nmesanmo hara seqkaq kjqse: kaseo sijaq tamoqtate:|あら　まあ。あらいやだ。そんなに　言いなさるな、あなた。梅さんも　ほら　折角　来て　手伝いを　なさって　くださったのに。
+0105508|６|n:nja nnja kora.|いや　いや　これは…
+0105509|５|goandokai na:|そうですか　ね。
+0105510|６|kora mo. hanniemo…|これは　もう　半煮えも…
+0105511|５|omansa:ga hajo hajo tsi ijande omansa: ataimo maiqdo poqto swq tokoo hora wasuretato goanga kora mo:|あなたが　早く　早く　と　言われるから　あなた　わたしも　もう一度　ポット　する〔火を通す〕　ところを　ほれ　忘れたの　ですが、これは　もう。
+0105513|６|gozennandena. aqze singa goando|御飯などには　ひどく　芯が　ありますよ。
+0105514|５|gowasuka|そうですか。
+0105515|６|ha.|はい。
+0105516|５|soiga jaqpai higurasa.n gohan tsjwto gandode omansa: zja: goansandokai na: higurasan gohan…|それが　やっぱり　ひぐらさんの　御飯　というの　でしょうよ、あなた。そうでは　ないでしょうか　ね、ひぐらさんの　御飯は…

@@ -1,0 +1,24 @@
+[
+  {
+    "area": "玖珠町・九重町",
+    "status": "review_required",
+    "sourceTitle": "玖珠地方の方言 : 方言の一部 3・4",
+    "author": "小野瑞穂",
+    "publicationPlace": "九重",
+    "holdings": [
+      "大分大学学術情報拠点（図書館）",
+      "国立国語研究所"
+    ],
+    "reason": "書誌と所蔵は確認できたが、ウェブ上で個別語の本文を直接確認できないため、日田の語を玖珠・九重へ一般化しない。",
+    "sourceUrl": "https://ci.nii.ac.jp/ncid/BB14685382"
+  },
+  {
+    "area": "玖珠町・九重町",
+    "status": "review_required",
+    "sourceTitle": "日田・玖珠地域の方言",
+    "author": "日高貢一郎",
+    "sourceContainer": "『日田・玖珠地域 : 自然・社会・教育』pp.437–450",
+    "reason": "大分県立図書館レファレンスで所在を確認済み。本文の個別語・地点を直接照合してから採用する。",
+    "sourceUrl": "https://crd.ndl.go.jp/reference/entry/reference/show?asc=desc&dtltbs=1&fi=8_21+3_%E6%96%87%E7%8C%AE%E7%B4%B9%E4%BB%8B&id=1000338726&ldtl=1&mcmd=25&page=ref_view&st=update&state=2200000045&type=reference"
+  }
+]

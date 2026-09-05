@@ -1,0 +1,263 @@
+{
+  "generatedAt": "2026-09-04",
+  "scope": "cumulative-editorial-changelog-through-batch-3-approved-changes",
+  "summary": {
+    "reviewedPages": 5,
+    "changedPages": 3,
+    "approvedProposedChanges": 5,
+    "heldProposedChanges": 2,
+    "rejectedPagesWithoutNewInformation": 2,
+    "changedFieldsIncludingMetadata": 12,
+    "addedSources": 2,
+    "productionDataChanged": true,
+    "totalRecordedChanges": 21,
+    "latestBatchChangedPages": 3,
+    "latestBatchChangedClaims": 3
+  },
+  "decisions": [
+    {
+      "id": "jp-46-kagoshima-022",
+      "word": "おじゃったもんせ",
+      "claims": [
+        { "claim": "reading", "decision": "APPROVE", "confidence": "high", "exactFormMatch": "exact", "sourceTier": 1, "reason": "鹿児島県資料の見出しと鹿屋市資料が現在語形と完全一致する。用例内の変化形は根拠に用いない。" },
+        { "claim": "grammar_and_usage_description", "decision": "APPROVE", "confidence": "high", "exactFormMatch": "exact", "sourceTier": 1, "reason": "県資料が語構成と丁寧な歓迎表現であることを明記する。" },
+        { "claim": "example_variant_ojattomonse", "decision": "HOLD", "confidence": "high", "exactFormMatch": "variant", "sourceTier": 1, "reason": "資料の用例は『おじゃっともんせ』で、現行見出し・例文の『おじゃったもんせ』と一致しない。活用・表記差の編集確認が必要。" }
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-049",
+      "word": "バシ",
+      "claims": [
+        { "claim": "meaning_usage_and_grammar", "decision": "APPROVE", "confidence": "high", "exactFormMatch": "variant", "sourceTier": 2, "reason": "査読形態を断定しない大学紀要論文だが、対象地域とbasiの二用法・統語条件が本文で明確。ローマ字と片仮名の差は読み確定には使わず、意味・用法だけを反映。" },
+        { "claim": "reading_bashi", "decision": "HOLD", "confidence": "medium", "exactFormMatch": "variant", "sourceTier": 2, "reason": "資料表記はbasiで、音声・アクセント・別資料の追認がない。" }
+      ]
+    },
+    {
+      "id": "jp-06-yamagata-001",
+      "word": "おしょうしな",
+      "claims": [
+        { "claim": "politeness_variants", "decision": "APPROVE", "confidence": "high", "exactFormMatch": "exact", "sourceTier": 1, "reason": "米沢市発行資料が見出し語、意味、丁寧形・気軽な形を明記する。" },
+        { "claim": "usage_example", "decision": "APPROVE", "confidence": "high", "exactFormMatch": "exact", "sourceTier": 1, "reason": "米沢市発行資料に短い用例と標準語説明が掲載され、現在の意味・地域と矛盾しない。" }
+      ]
+    },
+    { "id": "jp-05-akita-001", "word": "んだ", "decision": "REJECT", "reason": "新しい固有情報が得られておらず、既存記述が資料範囲を十分反映している。" },
+    { "id": "jp-05-akita-002", "word": "おっかねえ", "decision": "REJECT", "reason": "新しい固有情報が得られておらず、既存記述が資料範囲を十分反映している。" }
+  ],
+  "changes": [
+    {
+      "id": "jp-46-kagoshima-022", "field": "reading", "before": "", "after": "おじゃったもんせ",
+      "evidence": ["鹿児島県『今今日から使える 鹿児島の方言講座』", "鹿屋市『かのや移住サポートセンター』"],
+      "reason": "Tier 1資料2件の見出し・解説が現在語形とexact match。アクセントは確定していない。"
+    },
+    {
+      "id": "jp-46-kagoshima-022", "field": "description", "before": "資料掲載の一般的説明", "after": "薩摩・大隅地域、丁寧な歓迎表現、資料記載の『おじゃる』＋『たもんせ』を簡潔に記載", "evidence": ["鹿児島県『今今日から使える 鹿児島の方言講座』"], "reason": "対象語固有の語構成と使用場面をTier 1資料で確認。"
+    },
+    {
+      "id": "jp-46-kagoshima-022", "field": "additionalSources", "before": [], "after": ["鹿屋市『かのや移住サポートセンター』（2026）"], "evidence": ["https://www.city.kanoya.lg.jp/iju/oyakudachi/support.html"], "reason": "exact formと意味を独立した自治体資料で追認。"
+    },
+    {
+      "id": "jp-46-kagoshima-049", "field": "description", "before": "『～でも／～というわけではないのに』を一括表示", "after": "助詞的な例示用法と形式名詞的用法を分離し、後者に限って批判的態度を記載", "evidence": ["平塚雄亮『甑島里方言のbasi』2019, pp.84–92"], "reason": "論文がclaim単位で二用法と統語条件を明記。読みは変更しない。"
+    },
+    {
+      "id": "jp-06-yamagata-001", "field": "description", "before": "情報紙名・観光大使名としての使用", "after": "市資料が示す丁寧形『おしょうしなっし』と気軽な形『おしょうし』を追記", "evidence": ["米沢市『おしょうしな通信 創刊号（2026年6月号）』"], "reason": "Tier 1資料でexact formと語形別の丁寧度を確認。"
+    },
+    {
+      "id": "jp-06-yamagata-001", "field": "exampleDialect/exampleStandard", "before": "おしょうしな。／ありがとう。", "after": "毎度おしょうしな。／いつもありがとう。", "evidence": ["米沢市『おしょうしな通信 創刊号（2026年6月号）』"], "reason": "公的資料に掲載された短い用例と説明へ置換。"
+    },
+    {
+      "id": "jp-06-yamagata-001", "field": "additionalSources", "before": [], "after": ["米沢市『おしょうしな通信 創刊号（2026年6月号）』"], "evidence": ["https://www.city.yonezawa.yamagata.jp/material/files/group/20/furusato_260601.pdf"], "reason": "用例・丁寧度の直接根拠を追加。"
+    },
+    {
+      "id": "jp-40-fukuoka-006",
+      "word": "なおす",
+      "field": "description",
+      "changeType": "enhancement",
+      "before": "物を片付ける・収納する意味として掲載されている。 「なおす」は、博多（資料表記）を対象とする資料「博多弁を少しご紹介します」に掲載されています。語形・意味・地域に加えて掲載用例も確認済みです。現在の使用頻度、世代差、発音は追加調査中です。",
+      "after": "博多の「なおす」は、物を片付ける・収納する意味で使われます。資料は、ここで扱う用法が標準語の「修理する」とは異なることを明記し、「これなおしとって」という用例を掲載しています。現在の使用頻度、世代差、発音は追加調査中です。",
+      "claim": "博多の『なおす』は片付ける・収納する意味で、資料は標準語の『修理する』とは異なる用法と明記する。",
+      "evidence": [{"title":"博多弁を少しご紹介します","organization":"博多の魅力発信会議（事務局：福岡市博多区企画振興課）","publicationYear":null,"url":"https://hakatanomiryoku.com/mame/4375","sourceTier":1}],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "同形の標準語との意味差を、資料より強く断定せず明示した。"
+    },
+    {
+      "id": "jp-07-fukushima-001",
+      "word": "さすけねえ",
+      "field": "description",
+      "changeType": "enhancement",
+      "before": "「さすけねえ」は、福島県只見町の資料で「差し支えない・心配ない・大丈夫だ」と説明される会津地域のことばです。心配する相手を安心させる場面や、物事を引き受ける場面で使われる実例が掲載されています。地域や話者により「さすけね」となる例もあります。",
+      "after": "「さすけねえ」は、只見町の資料で「差し支えない・心配ない・大丈夫だ」と説明されることばです。心配する相手を安心させる場面や、物事を引き受ける場面の実例に加え、「ねっか」を前置した強調形「ねっかさすけねえ」も掲載されています。",
+      "claim": "資料掲載の意味範囲と強調形『ねっかさすけねえ』を整理する。",
+      "evidence": [{"title":"只見町 定住ガイドブック2021 方言編","organization":"只見町","publicationYear":"2021","url":"https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf","sourceTier":1}],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "公的資料が語義と強調形を明示する。資料で確認できない変種記述は補強対象に含めなかった。"
+    },
+    {
+      "id": "jp-43-kumamoto-003",
+      "word": "マチ",
+      "field": "description",
+      "changeType": "enhancement",
+      "before": "熊本市中心市街地を指す地域的な呼称。 「マチ」は、熊本市中心市街地・中央区を対象とする資料「熊本市へようこそ！中央区へようこそ！」に掲載されています。語形・意味・地域に加えて掲載用例も確認済みです。現在の使用頻度、世代差、発音は追加調査中です。",
+      "after": "熊本の「マチ」は、一般名詞の「町」ではなく、熊本市中心市街地を指す地域的な呼称です。熊本市資料では、熊本城や市役所、百貨店がある中心部に、上通・下通・新市街の三つの大きなアーケード街などが広がる区域を「マチ」と呼ぶと説明しています。",
+      "claim": "一般名詞と区別し、熊本市中心市街地を指す地域的用法を示す。",
+      "evidence": [{"title":"熊本市へようこそ！中央区へようこそ！","organization":"熊本市中央区役所総務企画課","publicationYear":null,"url":"https://www.city.kumamoto.jp/chuo/kiji00323740/5_23740_166195_up_VOQTRDC5.pdf","sourceTier":1}],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "使用範囲を熊本県全体へ拡張せず、資料が説明する熊本市中心部に限定した。"
+    },
+    {
+      "id": "jp-44-oita-001",
+      "word": "よだきい",
+      "field": "description",
+      "changeType": "enhancement",
+      "before": "大分の「よだきい」は「めんどくさい」を表すことばです。大分県の情報誌では、県外の友人から大分弁を尋ねられた際に教える代表例として、県出身者が「しゃーしい」とともに挙げています。行動や用事を面倒に感じる気持ちを表し、相手への返答では拒否的に響く場合があります。",
+      "after": "大分の「よだきい」は、面倒で、おっくうになり気が進まない状態を表します。大分県の情報誌では代表的な大分弁として挙げられ、用例資料では、使いに出ることへの気乗りのしなさや、やる気のない人を評する場面に記録されています。現在の地域差・世代差は未確認です。",
+      "claim": "『面倒』に加え、『おっくうで気が進まない』という資料上の意味幅を示す。",
+      "evidence": [{"title":"オオイタカテテ！読者座談会 〜前編〜","organization":"大分県","publicationYear":null,"url":"https://oita-katete.pref.oita.jp/web_magazine/zadankai_vol1/","sourceTier":1},{"title":"大分方言・用例集","organization":"大分県大阪事務所（旧ページ）","publicationYear":null,"url":"https://kansai.oita.jp/old/kyodo_ryori/hougen.html","sourceTier":1}],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "完全同義と断定せず、複数の公的資料から確認できる意味範囲と用例場面を要約した。"
+    },
+    {
+      "id": "jp-09-tochigi-001",
+      "word": "だいじ",
+      "field": "description",
+      "changeType": "enhancement",
+      "before": "佐野の「だいじ」は「大丈夫・問題ない」を表し、相手を安心させたり、支障がないと答えたりするときに使います。佐野市資料には、急がなくてもバスに間に合うと伝える用例があり、「大丈夫」から「ダイジョブ」「ダイジブ」を経た比較的新しい形とも説明されています。",
+      "after": "佐野の「だいじ」は「大丈夫・問題ない」を表し、相手を安心させたり支障がないと答えたりするときに使います。佐野市資料は「大丈夫」から変化した比較的新しい形で、ダイジブ・ダイジの使用中心は佐野、特にダイジは若い人も使うと記録しています。",
+      "claim": "佐野市資料に記録された成立過程、使用中心、若年層の使用を時点性付きで示す。",
+      "evidence": [{"title":"クラーネもダイジも気にすることはないの意","organization":"佐野市","publicationYear":null,"url":"https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/2/4971.html","sourceTier":1}],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "現在にも普遍化せず、『佐野市資料は記録しています』という資料上の記述として追加した。"
+    },
+    {
+      "id": "jp-16-toyama-001",
+      "word": "きときと",
+      "field": "standardJapanese",
+      "changeType": "meaning_refinement",
+      "before": "新鮮で生き生きしている",
+      "after": "新鮮な・生きがいい／元気で活力がある",
+      "claim": "鮮度用法と人・心身の活力用法をAND表現にせず分ける。",
+      "evidence": ["富山市「すしのまち とやま」", "富山県「みんなで参加しよう Q&A質問コーナー」", "富山県「元気とやまマスコット きときと君」", "富山大学「中学校国語科における言語単元の開発研究」"],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "複数のTier 1/2資料が「新鮮」「生きがいい」「元気」「活力」を別の対象・文脈で示す。",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": "jp-16-toyama-001",
+      "word": "きときと",
+      "field": "description",
+      "changeType": "meaning_refinement",
+      "before": "「きときと」は、富山市が「新鮮な、ピチピチとした」という意味で紹介する富山のことばです。市場、空港などの名称にも採用され、魚介の新鮮さを伝える場面で地域に親しまれています。「輝かしい」という印象を重ねた地域のコピーにも使われています。",
+      "after": "富山の「きときと」は、魚介などが新鮮で生きがいい状態を表します。富山県資料には、人や心身が元気で活力のある状態を表す用法もあります。行政の名称や企画では「輝かしい未来」などのイメージを重ねた例がありますが、これは基本語義と区別して扱います。",
+      "claim": "食物の鮮度、人・心身の活力、名称・企画上の比喩を区別する。",
+      "evidence": ["富山市「すしのまち とやま」", "富山県「元気とやまマスコット きときと君」", "富山大学「中学校国語科における言語単元の開発研究」"],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "基本語義と行政名称・企画上のイメージを混同せず、資料で確認できる範囲に限定した。",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": "jp-16-toyama-001",
+      "word": "きときと",
+      "field": "additionalSources",
+      "changeType": "source_addition",
+      "before": [],
+      "after": ["富山県 Q&A質問コーナー", "富山県 きときと君", "富山大学 言語単元の開発研究"],
+      "claim": "meaning refinementの根拠資料を構造化して追加する。",
+      "evidence": ["https://www.pref.toyama.jp/1021/kensei/kenseiunei/kensei/naruhodo/qa.html", "https://www.pref.toyama.jp/1021/kensei/kouhou/public/kitokitokun.html", "https://cerp.u-toyama.ac.jp/file/bulletin/bulletin2013.pdf"],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "既存一次資料と独立した公的・大学資料を重複なく追加した。",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": "jp-47-okinawa-001",
+      "word": "めんそーれ",
+      "field": "description",
+      "changeType": "region_refinement",
+      "before": "「めんそーれ」は、沖縄県の教材で「いらっしゃい」に対応する首里のことばとして紹介されています。人を迎える挨拶として使われ、県の教材には発音音声と、店を訪れた客を迎える会話例があります。宮古・八重山などでは別の表現があるため、沖縄県全域を一括りにはしません。",
+      "after": "「めんそーれ」は、沖縄県教材で「いらっしゃい」に対応する首里のことばとして紹介され、中南部の買い物会話にも記録されています。海洋博以降は観光・行政・空港などを通じて広く認知された経緯がありますが、現代の広域使用と伝統的な地域分布は区別して扱います。",
+      "claim": "首里・中南部の地域語と、観光・行政による現代の広域使用を分離する。",
+      "evidence": ["沖縄県「しまくとぅば教室」", "沖縄県「しまくとぅば読本 小学生」", "沖縄県議会会議録"],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "現代の広域認知を伝統的な沖縄県全域分布へ拡張しない。",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": "jp-47-okinawa-001",
+      "word": "めんそーれ",
+      "field": "additionalSources",
+      "changeType": "source_addition",
+      "before": ["しまくとぅば読本 小学生"],
+      "after": ["しまくとぅば読本 小学生", "沖縄県議会会議録（めんそーれーの広域使用経緯）"],
+      "claim": "現代の広域使用経緯の根拠を追加する。",
+      "evidence": ["https://www2.pref.okinawa.jp/oki/Gikairep1.nsf/481e05e7edaca1db49256f540004c033/424a296377bce4ab4925719200247dae?Click=&OpenDocument="],
+      "confidence": "high",
+      "exactFormMatch": "variant",
+      "reason": "表記差をvariantとして保持し、伝統的分布ではなく使用史claimだけに利用した。",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": "jp-35-yamaguchi-002",
+      "word": "あーた",
+      "field": "regionName",
+      "changeType": "correction",
+      "before": "県東部（岩国・柳井など）",
+      "after": "周南地方",
+      "claim": "地域メタデータを主要資料の対象範囲とmunicipalityに整合させる。",
+      "evidence": ["阿部啓治編「てれんこぽれんこ山口弁」", "同資料内「山口弁（周南地方）辞典」書誌説明"],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "主要資料は周南地方辞典の増補改訂版で、県東部という直接根拠はない。",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": "jp-35-yamaguchi-003",
+      "word": "ああぬく",
+      "field": "regionName",
+      "changeType": "correction",
+      "before": "県東部（岩国・柳井など）",
+      "after": "周南地方",
+      "claim": "資料対象とmunicipalityに合わせ、県東部ではなく周南地方として扱う。",
+      "evidence": ["阿部啓治編『てれんこぽれんこ山口弁』"],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "主要資料は『山口弁（周南地方）辞典』の増補改訂版で、現行municipalityも周南地域。",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": "jp-35-yamaguchi-004",
+      "word": "あーや こーや",
+      "field": "regionName",
+      "changeType": "correction",
+      "before": "県東部（岩国・柳井など）",
+      "after": "周南地方",
+      "claim": "資料対象とmunicipalityに合わせ、県東部ではなく周南地方として扱う。",
+      "evidence": ["阿部啓治編『てれんこぽれんこ山口弁』"],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "主要資料は『山口弁（周南地方）辞典』の増補改訂版で、現行municipalityも周南地域。",
+      "updatedAt": "2026-09-04"
+    },
+    {
+      "id": "jp-44-oita-023",
+      "word": "～よる",
+      "field": "description",
+      "changeType": "correction",
+      "before": "動作が進行中であることを示す継続形式。 「～よる」は、日田市天瀬町・大鶴本町を対象とする資料「要地方言の活用体系記述 大分県由布市庄内町方言」に掲載されています。語形・意味・地域に加えて掲載用例も確認済みです。現在の使用頻度、世代差、発音は追加調査中です。",
+      "after": "由布市庄内町の資料では「～よる」を動作の進行を示す形式とし、「～ちょる／～じょる」は主に完了・結果の継続を示すと記述しています。日田市天瀬町の資料にも進行形「～よる／～よーる」が記録されています。複数地点の資料をまとめたレコードであり、地点ごとの形と世代差は資料ごとに区別します。",
+      "claim": "由布市庄内町・日田市天瀬町の資料を混同せず、進行形と結果継続形を資料別に整理する。",
+      "evidence": ["松田美香『要地方言の活用体系記述 大分県由布市庄内町方言』", "松田美香『要地方言の活用体系記述 大分県日田市天瀬方言』"],
+      "confidence": "high",
+      "exactFormMatch": "exact",
+      "reason": "現行descriptionは由布市資料の題名と日田市の対象地点を誤って結び付けていた。region metadataはHOLDのまま変更しない。",
+      "updatedAt": "2026-09-04"
+    }
+  ],
+  "unchangedIdentityAndSeoFields": ["id", "slug", "prefectureCode", "municipality", "verificationStatus", "indexStatus", "canonical"]
+}

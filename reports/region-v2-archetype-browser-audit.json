@@ -1,0 +1,1105 @@
+{
+  "generatedAt": "2026-09-05",
+  "status": "PASSED",
+  "regions": 9,
+  "checks": 36,
+  "failures": [],
+  "results": [
+    {
+      "regionId": "jp-22-region-中部",
+      "regionName": "中部",
+      "prefectureId": "p22",
+      "expectedDialectCount": 226,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "version": "v2",
+      "h1": "中部のことば",
+      "prefectureLinks": [
+        "/prefectures/p22",
+        "/prefectures/p22"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-22-shizuoka-002",
+        "/dialects/jp-22-shizuoka-003",
+        "/dialects/jp-22-shizuoka-004",
+        "/dialects/jp-22-shizuoka-005",
+        "/dialects/jp-22-shizuoka-006",
+        "/dialects/jp-22-shizuoka-007"
+      ],
+      "siblingLinks": [
+        "/regions/jp-22-region-東部",
+        "/regions/jp-22-region-西部",
+        "/regions/jp-22-region-伊豆"
+      ],
+      "dialectCount": 226,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-22-region-中部",
+      "regionName": "中部",
+      "prefectureId": "p22",
+      "expectedDialectCount": 226,
+      "width": 1280,
+      "scrollWidth": 1265,
+      "version": "v2",
+      "h1": "中部のことば",
+      "prefectureLinks": [
+        "/prefectures/p22",
+        "/prefectures/p22"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-22-shizuoka-002",
+        "/dialects/jp-22-shizuoka-003",
+        "/dialects/jp-22-shizuoka-004",
+        "/dialects/jp-22-shizuoka-005",
+        "/dialects/jp-22-shizuoka-006",
+        "/dialects/jp-22-shizuoka-007"
+      ],
+      "siblingLinks": [
+        "/regions/jp-22-region-東部",
+        "/regions/jp-22-region-西部",
+        "/regions/jp-22-region-伊豆"
+      ],
+      "dialectCount": 226,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-22-region-中部",
+      "regionName": "中部",
+      "prefectureId": "p22",
+      "expectedDialectCount": 226,
+      "width": 768,
+      "scrollWidth": 753,
+      "version": "v2",
+      "h1": "中部のことば",
+      "prefectureLinks": [
+        "/prefectures/p22",
+        "/prefectures/p22"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-22-shizuoka-002",
+        "/dialects/jp-22-shizuoka-003",
+        "/dialects/jp-22-shizuoka-004",
+        "/dialects/jp-22-shizuoka-005",
+        "/dialects/jp-22-shizuoka-006",
+        "/dialects/jp-22-shizuoka-007"
+      ],
+      "siblingLinks": [
+        "/regions/jp-22-region-東部",
+        "/regions/jp-22-region-西部",
+        "/regions/jp-22-region-伊豆"
+      ],
+      "dialectCount": 226,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-22-region-中部",
+      "regionName": "中部",
+      "prefectureId": "p22",
+      "expectedDialectCount": 226,
+      "width": 390,
+      "scrollWidth": 390,
+      "version": "v2",
+      "h1": "中部のことば",
+      "prefectureLinks": [
+        "/prefectures/p22",
+        "/prefectures/p22"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-22-shizuoka-002",
+        "/dialects/jp-22-shizuoka-003",
+        "/dialects/jp-22-shizuoka-004",
+        "/dialects/jp-22-shizuoka-005",
+        "/dialects/jp-22-shizuoka-006",
+        "/dialects/jp-22-shizuoka-007"
+      ],
+      "siblingLinks": [
+        "/regions/jp-22-region-東部",
+        "/regions/jp-22-region-西部",
+        "/regions/jp-22-region-伊豆"
+      ],
+      "dialectCount": 226,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-01-region-道央",
+      "regionName": "道央",
+      "prefectureId": "p1",
+      "expectedDialectCount": 1,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "version": "v2",
+      "h1": "道央のことば",
+      "prefectureLinks": [
+        "/prefectures/p1",
+        "/prefectures/p1"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-01-hokkaido-001"
+      ],
+      "siblingLinks": [
+        "/regions/jp-01-region-道南",
+        "/regions/jp-01-region-道北",
+        "/regions/jp-01-region-道東"
+      ],
+      "dialectCount": 1,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-01-region-道央",
+      "regionName": "道央",
+      "prefectureId": "p1",
+      "expectedDialectCount": 1,
+      "width": 1280,
+      "scrollWidth": 1265,
+      "version": "v2",
+      "h1": "道央のことば",
+      "prefectureLinks": [
+        "/prefectures/p1",
+        "/prefectures/p1"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-01-hokkaido-001"
+      ],
+      "siblingLinks": [
+        "/regions/jp-01-region-道南",
+        "/regions/jp-01-region-道北",
+        "/regions/jp-01-region-道東"
+      ],
+      "dialectCount": 1,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-01-region-道央",
+      "regionName": "道央",
+      "prefectureId": "p1",
+      "expectedDialectCount": 1,
+      "width": 768,
+      "scrollWidth": 753,
+      "version": "v2",
+      "h1": "道央のことば",
+      "prefectureLinks": [
+        "/prefectures/p1",
+        "/prefectures/p1"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-01-hokkaido-001"
+      ],
+      "siblingLinks": [
+        "/regions/jp-01-region-道南",
+        "/regions/jp-01-region-道北",
+        "/regions/jp-01-region-道東"
+      ],
+      "dialectCount": 1,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-01-region-道央",
+      "regionName": "道央",
+      "prefectureId": "p1",
+      "expectedDialectCount": 1,
+      "width": 390,
+      "scrollWidth": 390,
+      "version": "v2",
+      "h1": "道央のことば",
+      "prefectureLinks": [
+        "/prefectures/p1",
+        "/prefectures/p1"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-01-hokkaido-001"
+      ],
+      "siblingLinks": [
+        "/regions/jp-01-region-道南",
+        "/regions/jp-01-region-道北",
+        "/regions/jp-01-region-道東"
+      ],
+      "dialectCount": 1,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-35-region-島嶼部（周防大島・平郡島など）",
+      "regionName": "島嶼部（周防大島・平郡島など）",
+      "prefectureId": "p35",
+      "expectedDialectCount": 10,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "version": "v2",
+      "h1": "島嶼部（周防大島・平郡島など）のことば",
+      "prefectureLinks": [
+        "/prefectures/p35",
+        "/prefectures/p35"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-35-yamaguchi-073",
+        "/dialects/jp-35-yamaguchi-074",
+        "/dialects/jp-35-yamaguchi-075",
+        "/dialects/jp-35-yamaguchi-076",
+        "/dialects/jp-35-yamaguchi-077",
+        "/dialects/jp-35-yamaguchi-078"
+      ],
+      "siblingLinks": [
+        "/regions/jp-35-region-県東部（岩国・柳井など）",
+        "/regions/jp-35-region-県中央部（山口・防府など）",
+        "/regions/jp-35-region-県西部（宇部・下関など）",
+        "/regions/jp-35-region-県北部（萩・長門など）",
+        "/regions/jp-35-region-周南地方"
+      ],
+      "dialectCount": 10,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-35-region-島嶼部（周防大島・平郡島など）",
+      "regionName": "島嶼部（周防大島・平郡島など）",
+      "prefectureId": "p35",
+      "expectedDialectCount": 10,
+      "width": 1280,
+      "scrollWidth": 1265,
+      "version": "v2",
+      "h1": "島嶼部（周防大島・平郡島など）のことば",
+      "prefectureLinks": [
+        "/prefectures/p35",
+        "/prefectures/p35"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-35-yamaguchi-073",
+        "/dialects/jp-35-yamaguchi-074",
+        "/dialects/jp-35-yamaguchi-075",
+        "/dialects/jp-35-yamaguchi-076",
+        "/dialects/jp-35-yamaguchi-077",
+        "/dialects/jp-35-yamaguchi-078"
+      ],
+      "siblingLinks": [
+        "/regions/jp-35-region-県東部（岩国・柳井など）",
+        "/regions/jp-35-region-県中央部（山口・防府など）",
+        "/regions/jp-35-region-県西部（宇部・下関など）",
+        "/regions/jp-35-region-県北部（萩・長門など）",
+        "/regions/jp-35-region-周南地方"
+      ],
+      "dialectCount": 10,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-35-region-島嶼部（周防大島・平郡島など）",
+      "regionName": "島嶼部（周防大島・平郡島など）",
+      "prefectureId": "p35",
+      "expectedDialectCount": 10,
+      "width": 768,
+      "scrollWidth": 753,
+      "version": "v2",
+      "h1": "島嶼部（周防大島・平郡島など）のことば",
+      "prefectureLinks": [
+        "/prefectures/p35",
+        "/prefectures/p35"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-35-yamaguchi-073",
+        "/dialects/jp-35-yamaguchi-074",
+        "/dialects/jp-35-yamaguchi-075",
+        "/dialects/jp-35-yamaguchi-076",
+        "/dialects/jp-35-yamaguchi-077",
+        "/dialects/jp-35-yamaguchi-078"
+      ],
+      "siblingLinks": [
+        "/regions/jp-35-region-県東部（岩国・柳井など）",
+        "/regions/jp-35-region-県中央部（山口・防府など）",
+        "/regions/jp-35-region-県西部（宇部・下関など）",
+        "/regions/jp-35-region-県北部（萩・長門など）",
+        "/regions/jp-35-region-周南地方"
+      ],
+      "dialectCount": 10,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-35-region-島嶼部（周防大島・平郡島など）",
+      "regionName": "島嶼部（周防大島・平郡島など）",
+      "prefectureId": "p35",
+      "expectedDialectCount": 10,
+      "width": 390,
+      "scrollWidth": 390,
+      "version": "v2",
+      "h1": "島嶼部（周防大島・平郡島など）のことば",
+      "prefectureLinks": [
+        "/prefectures/p35",
+        "/prefectures/p35"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-35-yamaguchi-073",
+        "/dialects/jp-35-yamaguchi-074",
+        "/dialects/jp-35-yamaguchi-075",
+        "/dialects/jp-35-yamaguchi-076",
+        "/dialects/jp-35-yamaguchi-077",
+        "/dialects/jp-35-yamaguchi-078"
+      ],
+      "siblingLinks": [
+        "/regions/jp-35-region-県東部（岩国・柳井など）",
+        "/regions/jp-35-region-県中央部（山口・防府など）",
+        "/regions/jp-35-region-県西部（宇部・下関など）",
+        "/regions/jp-35-region-県北部（萩・長門など）",
+        "/regions/jp-35-region-周南地方"
+      ],
+      "dialectCount": 10,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-47-region-宮古諸島",
+      "regionName": "宮古諸島",
+      "prefectureId": "p47",
+      "expectedDialectCount": 70,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "version": "v2",
+      "h1": "宮古諸島のことば",
+      "prefectureLinks": [
+        "/prefectures/p47",
+        "/prefectures/p47"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-47-okinawa-002",
+        "/dialects/jp-47-okinawa-003",
+        "/dialects/jp-47-okinawa-004",
+        "/dialects/jp-47-okinawa-005",
+        "/dialects/jp-47-okinawa-006",
+        "/dialects/jp-47-okinawa-007"
+      ],
+      "siblingLinks": [
+        "/regions/jp-47-region-沖縄本島北部・国頭地域",
+        "/regions/jp-47-region-沖縄本島中南部",
+        "/regions/jp-47-region-久米島",
+        "/regions/jp-47-region-八重山諸島",
+        "/regions/jp-47-region-与那国島",
+        "/regions/jp-47-region-大東諸島"
+      ],
+      "dialectCount": 70,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-47-region-宮古諸島",
+      "regionName": "宮古諸島",
+      "prefectureId": "p47",
+      "expectedDialectCount": 70,
+      "width": 1280,
+      "scrollWidth": 1265,
+      "version": "v2",
+      "h1": "宮古諸島のことば",
+      "prefectureLinks": [
+        "/prefectures/p47",
+        "/prefectures/p47"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-47-okinawa-002",
+        "/dialects/jp-47-okinawa-003",
+        "/dialects/jp-47-okinawa-004",
+        "/dialects/jp-47-okinawa-005",
+        "/dialects/jp-47-okinawa-006",
+        "/dialects/jp-47-okinawa-007"
+      ],
+      "siblingLinks": [
+        "/regions/jp-47-region-沖縄本島北部・国頭地域",
+        "/regions/jp-47-region-沖縄本島中南部",
+        "/regions/jp-47-region-久米島",
+        "/regions/jp-47-region-八重山諸島",
+        "/regions/jp-47-region-与那国島",
+        "/regions/jp-47-region-大東諸島"
+      ],
+      "dialectCount": 70,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-47-region-宮古諸島",
+      "regionName": "宮古諸島",
+      "prefectureId": "p47",
+      "expectedDialectCount": 70,
+      "width": 768,
+      "scrollWidth": 753,
+      "version": "v2",
+      "h1": "宮古諸島のことば",
+      "prefectureLinks": [
+        "/prefectures/p47",
+        "/prefectures/p47"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-47-okinawa-002",
+        "/dialects/jp-47-okinawa-003",
+        "/dialects/jp-47-okinawa-004",
+        "/dialects/jp-47-okinawa-005",
+        "/dialects/jp-47-okinawa-006",
+        "/dialects/jp-47-okinawa-007"
+      ],
+      "siblingLinks": [
+        "/regions/jp-47-region-沖縄本島北部・国頭地域",
+        "/regions/jp-47-region-沖縄本島中南部",
+        "/regions/jp-47-region-久米島",
+        "/regions/jp-47-region-八重山諸島",
+        "/regions/jp-47-region-与那国島",
+        "/regions/jp-47-region-大東諸島"
+      ],
+      "dialectCount": 70,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-47-region-宮古諸島",
+      "regionName": "宮古諸島",
+      "prefectureId": "p47",
+      "expectedDialectCount": 70,
+      "width": 390,
+      "scrollWidth": 390,
+      "version": "v2",
+      "h1": "宮古諸島のことば",
+      "prefectureLinks": [
+        "/prefectures/p47",
+        "/prefectures/p47"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-47-okinawa-002",
+        "/dialects/jp-47-okinawa-003",
+        "/dialects/jp-47-okinawa-004",
+        "/dialects/jp-47-okinawa-005",
+        "/dialects/jp-47-okinawa-006",
+        "/dialects/jp-47-okinawa-007"
+      ],
+      "siblingLinks": [
+        "/regions/jp-47-region-沖縄本島北部・国頭地域",
+        "/regions/jp-47-region-沖縄本島中南部",
+        "/regions/jp-47-region-久米島",
+        "/regions/jp-47-region-八重山諸島",
+        "/regions/jp-47-region-与那国島",
+        "/regions/jp-47-region-大東諸島"
+      ],
+      "dialectCount": 70,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-46-region-奄美",
+      "regionName": "奄美",
+      "prefectureId": "p46",
+      "expectedDialectCount": 0,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "version": "v2",
+      "h1": "奄美のことば",
+      "prefectureLinks": [
+        "/prefectures/p46",
+        "/prefectures/p46",
+        "/prefectures/p46"
+      ],
+      "dialectLinks": [],
+      "siblingLinks": [
+        "/regions/jp-46-region-薩摩",
+        "/regions/jp-46-region-大隅",
+        "/regions/jp-46-region-甑島",
+        "/regions/jp-46-region-種子島・屋久島"
+      ],
+      "dialectCount": 0,
+      "empty": true,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-46-region-奄美",
+      "regionName": "奄美",
+      "prefectureId": "p46",
+      "expectedDialectCount": 0,
+      "width": 1280,
+      "scrollWidth": 1265,
+      "version": "v2",
+      "h1": "奄美のことば",
+      "prefectureLinks": [
+        "/prefectures/p46",
+        "/prefectures/p46",
+        "/prefectures/p46"
+      ],
+      "dialectLinks": [],
+      "siblingLinks": [
+        "/regions/jp-46-region-薩摩",
+        "/regions/jp-46-region-大隅",
+        "/regions/jp-46-region-甑島",
+        "/regions/jp-46-region-種子島・屋久島"
+      ],
+      "dialectCount": 0,
+      "empty": true,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-46-region-奄美",
+      "regionName": "奄美",
+      "prefectureId": "p46",
+      "expectedDialectCount": 0,
+      "width": 768,
+      "scrollWidth": 753,
+      "version": "v2",
+      "h1": "奄美のことば",
+      "prefectureLinks": [
+        "/prefectures/p46",
+        "/prefectures/p46",
+        "/prefectures/p46"
+      ],
+      "dialectLinks": [],
+      "siblingLinks": [
+        "/regions/jp-46-region-薩摩",
+        "/regions/jp-46-region-大隅",
+        "/regions/jp-46-region-甑島",
+        "/regions/jp-46-region-種子島・屋久島"
+      ],
+      "dialectCount": 0,
+      "empty": true,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-46-region-奄美",
+      "regionName": "奄美",
+      "prefectureId": "p46",
+      "expectedDialectCount": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "version": "v2",
+      "h1": "奄美のことば",
+      "prefectureLinks": [
+        "/prefectures/p46",
+        "/prefectures/p46",
+        "/prefectures/p46"
+      ],
+      "dialectLinks": [],
+      "siblingLinks": [
+        "/regions/jp-46-region-薩摩",
+        "/regions/jp-46-region-大隅",
+        "/regions/jp-46-region-甑島",
+        "/regions/jp-46-region-種子島・屋久島"
+      ],
+      "dialectCount": 0,
+      "empty": true,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-09-region-県南",
+      "regionName": "県南",
+      "prefectureId": "p9",
+      "expectedDialectCount": 31,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "version": "v2",
+      "h1": "県南のことば",
+      "prefectureLinks": [
+        "/prefectures/p9",
+        "/prefectures/p9"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-09-tochigi-001",
+        "/dialects/jp-09-tochigi-002",
+        "/dialects/jp-09-tochigi-003",
+        "/dialects/jp-09-tochigi-004",
+        "/dialects/jp-09-tochigi-005",
+        "/dialects/jp-09-tochigi-006"
+      ],
+      "siblingLinks": [
+        "/regions/jp-09-region-県北",
+        "/regions/jp-09-region-県央"
+      ],
+      "dialectCount": 31,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-09-region-県南",
+      "regionName": "県南",
+      "prefectureId": "p9",
+      "expectedDialectCount": 31,
+      "width": 1280,
+      "scrollWidth": 1265,
+      "version": "v2",
+      "h1": "県南のことば",
+      "prefectureLinks": [
+        "/prefectures/p9",
+        "/prefectures/p9"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-09-tochigi-001",
+        "/dialects/jp-09-tochigi-002",
+        "/dialects/jp-09-tochigi-003",
+        "/dialects/jp-09-tochigi-004",
+        "/dialects/jp-09-tochigi-005",
+        "/dialects/jp-09-tochigi-006"
+      ],
+      "siblingLinks": [
+        "/regions/jp-09-region-県北",
+        "/regions/jp-09-region-県央"
+      ],
+      "dialectCount": 31,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-09-region-県南",
+      "regionName": "県南",
+      "prefectureId": "p9",
+      "expectedDialectCount": 31,
+      "width": 768,
+      "scrollWidth": 753,
+      "version": "v2",
+      "h1": "県南のことば",
+      "prefectureLinks": [
+        "/prefectures/p9",
+        "/prefectures/p9"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-09-tochigi-001",
+        "/dialects/jp-09-tochigi-002",
+        "/dialects/jp-09-tochigi-003",
+        "/dialects/jp-09-tochigi-004",
+        "/dialects/jp-09-tochigi-005",
+        "/dialects/jp-09-tochigi-006"
+      ],
+      "siblingLinks": [
+        "/regions/jp-09-region-県北",
+        "/regions/jp-09-region-県央"
+      ],
+      "dialectCount": 31,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-09-region-県南",
+      "regionName": "県南",
+      "prefectureId": "p9",
+      "expectedDialectCount": 31,
+      "width": 390,
+      "scrollWidth": 390,
+      "version": "v2",
+      "h1": "県南のことば",
+      "prefectureLinks": [
+        "/prefectures/p9",
+        "/prefectures/p9"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-09-tochigi-001",
+        "/dialects/jp-09-tochigi-002",
+        "/dialects/jp-09-tochigi-003",
+        "/dialects/jp-09-tochigi-004",
+        "/dialects/jp-09-tochigi-005",
+        "/dialects/jp-09-tochigi-006"
+      ],
+      "siblingLinks": [
+        "/regions/jp-09-region-県北",
+        "/regions/jp-09-region-県央"
+      ],
+      "dialectCount": 31,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-41-region-佐賀平野",
+      "regionName": "佐賀平野",
+      "prefectureId": "p41",
+      "expectedDialectCount": 15,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "version": "v2",
+      "h1": "佐賀平野のことば",
+      "prefectureLinks": [
+        "/prefectures/p41",
+        "/prefectures/p41"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-41-saga-002",
+        "/dialects/jp-41-saga-003",
+        "/dialects/jp-41-saga-004",
+        "/dialects/jp-41-saga-005",
+        "/dialects/jp-41-saga-006",
+        "/dialects/jp-41-saga-008"
+      ],
+      "siblingLinks": [
+        "/regions/jp-41-region-唐津・東松浦",
+        "/regions/jp-41-region-伊万里・西松浦",
+        "/regions/jp-41-region-杵島・藤津"
+      ],
+      "dialectCount": 15,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-41-region-佐賀平野",
+      "regionName": "佐賀平野",
+      "prefectureId": "p41",
+      "expectedDialectCount": 15,
+      "width": 1280,
+      "scrollWidth": 1265,
+      "version": "v2",
+      "h1": "佐賀平野のことば",
+      "prefectureLinks": [
+        "/prefectures/p41",
+        "/prefectures/p41"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-41-saga-002",
+        "/dialects/jp-41-saga-003",
+        "/dialects/jp-41-saga-004",
+        "/dialects/jp-41-saga-005",
+        "/dialects/jp-41-saga-006",
+        "/dialects/jp-41-saga-008"
+      ],
+      "siblingLinks": [
+        "/regions/jp-41-region-唐津・東松浦",
+        "/regions/jp-41-region-伊万里・西松浦",
+        "/regions/jp-41-region-杵島・藤津"
+      ],
+      "dialectCount": 15,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-41-region-佐賀平野",
+      "regionName": "佐賀平野",
+      "prefectureId": "p41",
+      "expectedDialectCount": 15,
+      "width": 768,
+      "scrollWidth": 753,
+      "version": "v2",
+      "h1": "佐賀平野のことば",
+      "prefectureLinks": [
+        "/prefectures/p41",
+        "/prefectures/p41"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-41-saga-002",
+        "/dialects/jp-41-saga-003",
+        "/dialects/jp-41-saga-004",
+        "/dialects/jp-41-saga-005",
+        "/dialects/jp-41-saga-006",
+        "/dialects/jp-41-saga-008"
+      ],
+      "siblingLinks": [
+        "/regions/jp-41-region-唐津・東松浦",
+        "/regions/jp-41-region-伊万里・西松浦",
+        "/regions/jp-41-region-杵島・藤津"
+      ],
+      "dialectCount": 15,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-41-region-佐賀平野",
+      "regionName": "佐賀平野",
+      "prefectureId": "p41",
+      "expectedDialectCount": 15,
+      "width": 390,
+      "scrollWidth": 390,
+      "version": "v2",
+      "h1": "佐賀平野のことば",
+      "prefectureLinks": [
+        "/prefectures/p41",
+        "/prefectures/p41"
+      ],
+      "dialectLinks": [
+        "/dialects/jp-41-saga-002",
+        "/dialects/jp-41-saga-003",
+        "/dialects/jp-41-saga-004",
+        "/dialects/jp-41-saga-005",
+        "/dialects/jp-41-saga-006",
+        "/dialects/jp-41-saga-008"
+      ],
+      "siblingLinks": [
+        "/regions/jp-41-region-唐津・東松浦",
+        "/regions/jp-41-region-伊万里・西松浦",
+        "/regions/jp-41-region-杵島・藤津"
+      ],
+      "dialectCount": 15,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "r7",
+      "regionName": "津軽",
+      "prefectureId": "p2",
+      "expectedDialectCount": 5,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "version": "v2",
+      "h1": "津軽のことば",
+      "prefectureLinks": [
+        "/prefectures/p2",
+        "/prefectures/p2"
+      ],
+      "dialectLinks": [
+        "/dialects/d19",
+        "/dialects/d20",
+        "/dialects/d22",
+        "/dialects/d5",
+        "/dialects/d6"
+      ],
+      "siblingLinks": [
+        "/regions/r8",
+        "/regions/r9"
+      ],
+      "dialectCount": 5,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "r7",
+      "regionName": "津軽",
+      "prefectureId": "p2",
+      "expectedDialectCount": 5,
+      "width": 1280,
+      "scrollWidth": 1265,
+      "version": "v2",
+      "h1": "津軽のことば",
+      "prefectureLinks": [
+        "/prefectures/p2",
+        "/prefectures/p2"
+      ],
+      "dialectLinks": [
+        "/dialects/d19",
+        "/dialects/d20",
+        "/dialects/d22",
+        "/dialects/d5",
+        "/dialects/d6"
+      ],
+      "siblingLinks": [
+        "/regions/r8",
+        "/regions/r9"
+      ],
+      "dialectCount": 5,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "r7",
+      "regionName": "津軽",
+      "prefectureId": "p2",
+      "expectedDialectCount": 5,
+      "width": 768,
+      "scrollWidth": 753,
+      "version": "v2",
+      "h1": "津軽のことば",
+      "prefectureLinks": [
+        "/prefectures/p2",
+        "/prefectures/p2"
+      ],
+      "dialectLinks": [
+        "/dialects/d19",
+        "/dialects/d20",
+        "/dialects/d22",
+        "/dialects/d5",
+        "/dialects/d6"
+      ],
+      "siblingLinks": [
+        "/regions/r8",
+        "/regions/r9"
+      ],
+      "dialectCount": 5,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "r7",
+      "regionName": "津軽",
+      "prefectureId": "p2",
+      "expectedDialectCount": 5,
+      "width": 390,
+      "scrollWidth": 390,
+      "version": "v2",
+      "h1": "津軽のことば",
+      "prefectureLinks": [
+        "/prefectures/p2",
+        "/prefectures/p2"
+      ],
+      "dialectLinks": [
+        "/dialects/d19",
+        "/dialects/d20",
+        "/dialects/d22",
+        "/dialects/d5",
+        "/dialects/d6"
+      ],
+      "siblingLinks": [
+        "/regions/r8",
+        "/regions/r9"
+      ],
+      "dialectCount": 5,
+      "empty": false,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-01-region-道南",
+      "regionName": "道南",
+      "prefectureId": "p1",
+      "expectedDialectCount": 0,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "version": "v2",
+      "h1": "道南のことば",
+      "prefectureLinks": [
+        "/prefectures/p1",
+        "/prefectures/p1",
+        "/prefectures/p1"
+      ],
+      "dialectLinks": [],
+      "siblingLinks": [
+        "/regions/jp-01-region-道央",
+        "/regions/jp-01-region-道北",
+        "/regions/jp-01-region-道東"
+      ],
+      "dialectCount": 0,
+      "empty": true,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-01-region-道南",
+      "regionName": "道南",
+      "prefectureId": "p1",
+      "expectedDialectCount": 0,
+      "width": 1280,
+      "scrollWidth": 1265,
+      "version": "v2",
+      "h1": "道南のことば",
+      "prefectureLinks": [
+        "/prefectures/p1",
+        "/prefectures/p1",
+        "/prefectures/p1"
+      ],
+      "dialectLinks": [],
+      "siblingLinks": [
+        "/regions/jp-01-region-道央",
+        "/regions/jp-01-region-道北",
+        "/regions/jp-01-region-道東"
+      ],
+      "dialectCount": 0,
+      "empty": true,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-01-region-道南",
+      "regionName": "道南",
+      "prefectureId": "p1",
+      "expectedDialectCount": 0,
+      "width": 768,
+      "scrollWidth": 753,
+      "version": "v2",
+      "h1": "道南のことば",
+      "prefectureLinks": [
+        "/prefectures/p1",
+        "/prefectures/p1",
+        "/prefectures/p1"
+      ],
+      "dialectLinks": [],
+      "siblingLinks": [
+        "/regions/jp-01-region-道央",
+        "/regions/jp-01-region-道北",
+        "/regions/jp-01-region-道東"
+      ],
+      "dialectCount": 0,
+      "empty": true,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    },
+    {
+      "regionId": "jp-01-region-道南",
+      "regionName": "道南",
+      "prefectureId": "p1",
+      "expectedDialectCount": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "version": "v2",
+      "h1": "道南のことば",
+      "prefectureLinks": [
+        "/prefectures/p1",
+        "/prefectures/p1",
+        "/prefectures/p1"
+      ],
+      "dialectLinks": [],
+      "siblingLinks": [
+        "/regions/jp-01-region-道央",
+        "/regions/jp-01-region-道北",
+        "/regions/jp-01-region-道東"
+      ],
+      "dialectCount": 0,
+      "empty": true,
+      "rawMissing": false,
+      "clipped": false,
+      "overflow": false
+    }
+  ]
+}

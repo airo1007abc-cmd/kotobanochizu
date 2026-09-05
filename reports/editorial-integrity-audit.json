@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-09-04T02:49:27.637Z",
+  "status": "PASSED",
+  "dialects": 1628,
+  "reports": 3,
+  "checks": {
+    "idsExist": true,
+    "sourceUrls": true,
+    "enums": true,
+    "approveEvidence": true,
+    "criticalConfidence": true,
+    "changelogBeforeAfter": true,
+    "duplicateSources": true,
+    "rawTokens": true
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "type": "duplicate_source_in_report",
+      "id": "jp-44-oita-001"
+    },
+    {
+      "type": "duplicate_source_in_production",
+      "id": "jp-32-shimane-001"
+    },
+    {
+      "type": "duplicate_source_in_production",
+      "id": "jp-31-tottori-001"
+    },
+    {
+      "type": "legacy_changelog_missing_change_type",
+      "id": "jp-46-kagoshima-022",
+      "field": "reading"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-46-kagoshima-022",
+      "field": "reading"
+    },
+    {
+      "type": "legacy_changelog_missing_change_type",
+      "id": "jp-46-kagoshima-022",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-46-kagoshima-022",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_change_type",
+      "id": "jp-46-kagoshima-022",
+      "field": "additionalSources"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-46-kagoshima-022",
+      "field": "additionalSources"
+    },
+    {
+      "type": "legacy_changelog_missing_change_type",
+      "id": "jp-46-kagoshima-049",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-46-kagoshima-049",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_change_type",
+      "id": "jp-06-yamagata-001",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-06-yamagata-001",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_change_type",
+      "id": "jp-06-yamagata-001",
+      "field": "exampleDialect/exampleStandard"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-06-yamagata-001",
+      "field": "exampleDialect/exampleStandard"
+    },
+    {
+      "type": "legacy_changelog_missing_change_type",
+      "id": "jp-06-yamagata-001",
+      "field": "additionalSources"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-06-yamagata-001",
+      "field": "additionalSources"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-40-fukuoka-006",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-07-fukushima-001",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-43-kumamoto-003",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-44-oita-001",
+      "field": "description"
+    },
+    {
+      "type": "legacy_changelog_missing_updated_at",
+      "id": "jp-09-tochigi-001",
+      "field": "description"
+    }
+  ]
+}

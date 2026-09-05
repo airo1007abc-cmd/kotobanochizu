@@ -1,0 +1,49 @@
+[
+  {
+    "id": "jp-06-yamagata-001",
+    "slug": "yamagata-おしょうしな",
+    "phrase": "おしょうしな",
+    "reading": "おしょうしな",
+    "standardJapanese": "ありがとう",
+    "description": "米沢の「おしょうしな」は「ありがとう」を意味する感謝のことばです。米沢市の資料では、「おしょうしなっし」をより丁寧な形、「おしょうし」を気軽な形として紹介し、「毎度おしょうしな」という用例も掲載しています。地域内の使い分けや世代差は追加調査中です。",
+    "exampleDialect": "毎度おしょうしな。",
+    "exampleStandard": "いつもありがとう。",
+    "prefectureCode": 6,
+    "prefectureName": "山形県",
+    "regionName": "置賜",
+    "municipality": "米沢市",
+    "ageGroups": ["unknown"],
+    "usageContexts": ["感謝", "地域からの情報発信"],
+    "emotionTags": ["感謝"],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "米沢市公式ページで、『おしょうしな』が米沢方言で『ありがとう』の意味であり、感謝を込めた情報発信に使われることを確認。",
+    "sourceTitle": "ふるさと納税情報紙『おしょうしな通信』",
+    "sourceOrganization": "米沢市",
+    "sourceUrl": "https://www.city.yonezawa.yamagata.jp/soshiki/5/1019/1_1/info/11198.html",
+    "sourceCheckedAt": "2026-09-01",
+    "evidenceScopes": ["phrase", "reading", "meaning", "region", "example", "usage"],
+    "additionalSources": [
+      {
+        "type": "official_reference",
+        "title": "おしょうしな通信 創刊号（2026年6月号）",
+        "organization": "米沢市産業部商工課ふるさと納税推進室",
+        "url": "https://www.city.yonezawa.yamagata.jp/material/files/group/20/furusato_260601.pdf",
+        "checkedAt": "2026-09-04",
+        "publicationYear": "2026",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": ["phrase", "meaning", "example", "usage"]
+      }
+    ],
+    "confidence": "high",
+    "recordingYear": null,
+    "audioUrl": null,
+    "videoUrl": null,
+    "needsAudio": true,
+    "audioPriority": 2,
+    "languageVariety": "japanese_dialect",
+    "updatedAt": "2026-09-04"
+  }
+]

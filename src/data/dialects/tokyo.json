@@ -1,0 +1,30 @@
+[
+  {
+    "id": "jp-13-tokyo-001",
+    "slug": "tokyo-うざったい",
+    "phrase": "うざったい",
+    "reading": "うざったい",
+    "standardJapanese": "わずらわしい",
+    "description": "東京都多摩周辺で使用例が報告される表現。公開前に地域話者または参照資料による追加確認が必要です。",
+    "exampleDialect": "「うざったい」を使う会話例は確認・収集中です。",
+    "exampleStandard": "「わずらわしい」に近い意味で使われる候補です。",
+    "prefectureCode": 13,
+    "prefectureName": "東京都",
+    "regionName": "多摩",
+    "municipality": null,
+    "ageGroups": ["unknown"],
+    "usageContexts": ["日常会話"],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "needs_review",
+    "sourceType": "source_pending",
+    "sourceNote": "全国初期整備候補。出典URLと地域内分布を人手で確認するまでneeds_review。",
+    "confidence": "low",
+    "recordingYear": null,
+    "audioUrl": null,
+    "videoUrl": null,
+    "needsAudio": true,
+    "audioPriority": 2,
+    "languageVariety": "japanese_dialect"
+  }
+]

@@ -1,0 +1,376 @@
+{
+  "generatedAt": "2026-09-04",
+  "status": "selection_only_research_not_started",
+  "count": 30,
+  "scoring": {
+    "indexable": 25,
+    "descriptionGap": "8–25",
+    "trustedSourcePotential": "6–20",
+    "ambiguity": "最大20",
+    "uniqueInformationPotential": "12–18"
+  },
+  "searchConsoleDataUsed": false,
+  "searchConsoleFiles": [],
+  "candidates": [
+    {
+      "id": "jp-05-akita-003",
+      "word": "しぇば",
+      "prefecture": "秋田県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明123文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-09-tochigi-002",
+      "word": "かがむ",
+      "prefecture": "栃木県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明113文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-12-chiba-003",
+      "word": "あっちんほー",
+      "prefecture": "千葉県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明117文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-17-ishikawa-003",
+      "word": "～のきゃ",
+      "prefecture": "石川県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明130文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-19-yamanashi-003",
+      "word": "いんめい",
+      "prefecture": "山梨県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明118文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-21-gifu-003",
+      "word": "あかん",
+      "prefecture": "岐阜県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明121文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-22-shizuoka-003",
+      "word": "おくう",
+      "prefecture": "静岡県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明109文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-23-aichi-003",
+      "word": "～ほかねえ",
+      "prefecture": "愛知県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明128文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-26-kyoto-002",
+      "word": "～さかい",
+      "prefecture": "京都府",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明134文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-28-hyogo-002",
+      "word": "ぴりぴり",
+      "prefecture": "兵庫県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明110文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-35-yamaguchi-003",
+      "word": "ああぬく",
+      "prefecture": "山口県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明133文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-39-kochi-002",
+      "word": "あて",
+      "prefecture": "高知県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明119文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-40-fukuoka-035",
+      "word": "あゆる",
+      "prefecture": "福岡県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明131文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-42-nagasaki-052",
+      "word": "あっぱよ〜",
+      "prefecture": "長崎県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明115文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-43-kumamoto-005",
+      "word": "ちゃんこ",
+      "prefecture": "熊本県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明125文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-44-oita-023",
+      "word": "～よる",
+      "prefecture": "大分県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明128文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-45-miyazaki-003",
+      "word": "そげん",
+      "prefecture": "宮崎県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明129文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-46-kagoshima-002",
+      "word": "がっつい",
+      "prefecture": "鹿児島県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明129文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-47-okinawa-002",
+      "word": "ムﾟー",
+      "prefecture": "沖縄県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明111文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-05-akita-004",
+      "word": "ふぐろ",
+      "prefecture": "秋田県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明131文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-09-tochigi-003",
+      "word": "うずぶれる",
+      "prefecture": "栃木県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明109文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-12-chiba-004",
+      "word": "おいねえ",
+      "prefecture": "千葉県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明119文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-17-ishikawa-004",
+      "word": "おらっちゃ",
+      "prefecture": "石川県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明128文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-19-yamanashi-004",
+      "word": "おべえとう",
+      "prefecture": "山梨県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明121文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-21-gifu-004",
+      "word": "めいぼ",
+      "prefecture": "岐阜県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明122文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-22-shizuoka-004",
+      "word": "ちょびちょびする",
+      "prefecture": "静岡県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明113文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-23-aichi-004",
+      "word": "～せせん",
+      "prefecture": "愛知県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明135文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-26-kyoto-003",
+      "word": "ほいで",
+      "prefecture": "京都府",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明133文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-28-hyogo-003",
+      "word": "さんこ",
+      "prefecture": "兵庫県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明112文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    },
+    {
+      "id": "jp-35-yamaguchi-004",
+      "word": "あーや こーや",
+      "prefecture": "山口県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明133文字、出典1件。既存のdescription_depth_reviewをclaim単位で確認する余地がある。"
+    }
+  ]
+}

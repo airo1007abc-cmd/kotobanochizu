@@ -1,0 +1,1327 @@
+{
+  "generatedAt": "2026-09-05",
+  "totalPrefectures": 47,
+  "totalDialects": 1643,
+  "prefectures": [
+    {
+      "prefectureId": "p1",
+      "prefectureCode": 1,
+      "prefectureName": "北海道",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "道央",
+        "道南",
+        "道北",
+        "道東"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "道央",
+      "longestRegionNameLength": 2,
+      "longestWord": "なまら",
+      "longestWordLength": 3,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p2",
+      "prefectureCode": 2,
+      "prefectureName": "青森県",
+      "dialectCount": 8,
+      "regionCount": 3,
+      "regionNames": [
+        "津軽",
+        "南部",
+        "下北"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 8,
+      "sourceCount": 0,
+      "sourceCoverage": 0,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "津軽",
+      "longestRegionNameLength": 2,
+      "longestWord": "めんこい",
+      "longestWordLength": 4,
+      "languageVarietyCount": 0,
+      "languageVarieties": [],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p3",
+      "prefectureCode": 3,
+      "prefectureName": "岩手県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "県北",
+        "盛岡周辺",
+        "県南",
+        "沿岸"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "盛岡周辺",
+      "longestRegionNameLength": 4,
+      "longestWord": "おでんせ",
+      "longestWordLength": 4,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p4",
+      "prefectureCode": 4,
+      "prefectureName": "宮城県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "仙台周辺",
+        "県北",
+        "県南",
+        "沿岸"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "仙台周辺",
+      "longestRegionNameLength": 4,
+      "longestWord": "いずい",
+      "longestWordLength": 3,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p5",
+      "prefectureCode": 5,
+      "prefectureName": "秋田県",
+      "dialectCount": 9,
+      "regionCount": 4,
+      "regionNames": [
+        "県北",
+        "県央",
+        "県南",
+        "男鹿半島"
+      ],
+      "indexableCount": 9,
+      "noindexCount": 0,
+      "sourceCount": 9,
+      "sourceCoverage": 1,
+      "verifiedCount": 9,
+      "verificationCoverage": 1,
+      "longestRegionName": "男鹿半島",
+      "longestRegionNameLength": 4,
+      "longestWord": "おっかねえ",
+      "longestWordLength": 5,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 1
+    },
+    {
+      "prefectureId": "p6",
+      "prefectureCode": 6,
+      "prefectureName": "山形県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "庄内",
+        "最上",
+        "村山",
+        "置賜"
+      ],
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 1,
+      "verificationCoverage": 1,
+      "longestRegionName": "庄内",
+      "longestRegionNameLength": 2,
+      "longestWord": "おしょうしな",
+      "longestWordLength": 6,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p7",
+      "prefectureCode": 7,
+      "prefectureName": "福島県",
+      "dialectCount": 1,
+      "regionCount": 3,
+      "regionNames": [
+        "会津",
+        "中通り",
+        "浜通り"
+      ],
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 1,
+      "verificationCoverage": 1,
+      "longestRegionName": "中通り",
+      "longestRegionNameLength": 3,
+      "longestWord": "さすけねえ",
+      "longestWordLength": 5,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p8",
+      "prefectureCode": 8,
+      "prefectureName": "茨城県",
+      "dialectCount": 1,
+      "regionCount": 5,
+      "regionNames": [
+        "県北",
+        "県央",
+        "県南",
+        "県西",
+        "鹿行"
+      ],
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 1,
+      "verificationCoverage": 1,
+      "longestRegionName": "県北",
+      "longestRegionNameLength": 2,
+      "longestWord": "ごじゃっぺ",
+      "longestWordLength": 5,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p9",
+      "prefectureCode": 9,
+      "prefectureName": "栃木県",
+      "dialectCount": 31,
+      "regionCount": 3,
+      "regionNames": [
+        "県北",
+        "県央",
+        "県南"
+      ],
+      "indexableCount": 31,
+      "noindexCount": 0,
+      "sourceCount": 31,
+      "sourceCoverage": 1,
+      "verifiedCount": 31,
+      "verificationCoverage": 1,
+      "longestRegionName": "県北",
+      "longestRegionNameLength": 2,
+      "longestWord": "ちょちょらっけ",
+      "longestWordLength": 7,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p10",
+      "prefectureCode": 10,
+      "prefectureName": "群馬県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "北毛",
+        "中毛",
+        "西毛",
+        "東毛"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "sourceCoverage": 0,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "北毛",
+      "longestRegionNameLength": 2,
+      "longestWord": "なっから",
+      "longestWordLength": 4,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p11",
+      "prefectureCode": 11,
+      "prefectureName": "埼玉県",
+      "dialectCount": 1,
+      "regionCount": 5,
+      "regionNames": [
+        "東部",
+        "中央",
+        "西部",
+        "北部",
+        "秩父"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "sourceCoverage": 0,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "東部",
+      "longestRegionNameLength": 2,
+      "longestWord": "かたす",
+      "longestWordLength": 3,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p12",
+      "prefectureCode": 12,
+      "prefectureName": "千葉県",
+      "dialectCount": 18,
+      "regionCount": 5,
+      "regionNames": [
+        "北西部",
+        "北東部",
+        "中央",
+        "南部",
+        "富津"
+      ],
+      "indexableCount": 17,
+      "noindexCount": 1,
+      "sourceCount": 17,
+      "sourceCoverage": 0.9444,
+      "verifiedCount": 17,
+      "verificationCoverage": 0.9444,
+      "longestRegionName": "北西部",
+      "longestRegionNameLength": 3,
+      "longestWord": "あっちんほー",
+      "longestWordLength": 6,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p13",
+      "prefectureCode": 13,
+      "prefectureName": "東京都",
+      "dialectCount": 1,
+      "regionCount": 3,
+      "regionNames": [
+        "23区",
+        "多摩",
+        "島しょ"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "sourceCoverage": 0,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "23区",
+      "longestRegionNameLength": 3,
+      "longestWord": "うざったい",
+      "longestWordLength": 5,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 1
+    },
+    {
+      "prefectureId": "p14",
+      "prefectureCode": 14,
+      "prefectureName": "神奈川県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "横浜・川崎",
+        "湘南",
+        "県央",
+        "県西"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "sourceCoverage": 0,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "横浜・川崎",
+      "longestRegionNameLength": 5,
+      "longestWord": "じゃん",
+      "longestWordLength": 3,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p15",
+      "prefectureCode": 15,
+      "prefectureName": "新潟県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "上越",
+        "中越",
+        "下越",
+        "佐渡"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "sourceCoverage": 0,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "上越",
+      "longestRegionNameLength": 2,
+      "longestWord": "なじらね",
+      "longestWordLength": 4,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p16",
+      "prefectureCode": 16,
+      "prefectureName": "富山県",
+      "dialectCount": 1,
+      "regionCount": 2,
+      "regionNames": [
+        "呉東",
+        "呉西"
+      ],
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 1,
+      "verificationCoverage": 1,
+      "longestRegionName": "呉東",
+      "longestRegionNameLength": 2,
+      "longestWord": "きときと",
+      "longestWordLength": 4,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p17",
+      "prefectureCode": 17,
+      "prefectureName": "石川県",
+      "dialectCount": 50,
+      "regionCount": 2,
+      "regionNames": [
+        "加賀",
+        "能登"
+      ],
+      "indexableCount": 49,
+      "noindexCount": 1,
+      "sourceCount": 49,
+      "sourceCoverage": 0.98,
+      "verifiedCount": 49,
+      "verificationCoverage": 0.98,
+      "longestRegionName": "加賀",
+      "longestRegionNameLength": 2,
+      "longestWord": "～ぞいや／～ぞいね",
+      "longestWordLength": 9,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p18",
+      "prefectureCode": 18,
+      "prefectureName": "福井県",
+      "dialectCount": 1,
+      "regionCount": 2,
+      "regionNames": [
+        "嶺北",
+        "嶺南"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "嶺北",
+      "longestRegionNameLength": 2,
+      "longestWord": "つるつるいっぱい",
+      "longestWordLength": 8,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p19",
+      "prefectureCode": 19,
+      "prefectureName": "山梨県",
+      "dialectCount": 11,
+      "regionCount": 2,
+      "regionNames": [
+        "国中",
+        "郡内"
+      ],
+      "indexableCount": 10,
+      "noindexCount": 1,
+      "sourceCount": 10,
+      "sourceCoverage": 0.9091,
+      "verifiedCount": 10,
+      "verificationCoverage": 0.9091,
+      "longestRegionName": "国中",
+      "longestRegionNameLength": 2,
+      "longestWord": "ひっちのやえん",
+      "longestWordLength": 7,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p20",
+      "prefectureCode": 20,
+      "prefectureName": "長野県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "北信",
+        "東信",
+        "中信",
+        "南信"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "北信",
+      "longestRegionNameLength": 2,
+      "longestWord": "ずく",
+      "longestWordLength": 2,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p21",
+      "prefectureCode": 21,
+      "prefectureName": "岐阜県",
+      "dialectCount": 9,
+      "regionCount": 2,
+      "regionNames": [
+        "美濃",
+        "飛騨"
+      ],
+      "indexableCount": 8,
+      "noindexCount": 1,
+      "sourceCount": 8,
+      "sourceCoverage": 0.8889,
+      "verifiedCount": 8,
+      "verificationCoverage": 0.8889,
+      "longestRegionName": "美濃",
+      "longestRegionNameLength": 2,
+      "longestWord": "ちょぼっと",
+      "longestWordLength": 5,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p22",
+      "prefectureCode": 22,
+      "prefectureName": "静岡県",
+      "dialectCount": 226,
+      "regionCount": 4,
+      "regionNames": [
+        "東部",
+        "中部",
+        "西部",
+        "伊豆"
+      ],
+      "indexableCount": 224,
+      "noindexCount": 2,
+      "sourceCount": 225,
+      "sourceCoverage": 0.9956,
+      "verifiedCount": 224,
+      "verificationCoverage": 0.9912,
+      "longestRegionName": "東部",
+      "longestRegionNameLength": 2,
+      "longestWord": "ガータリカァーッテ",
+      "longestWordLength": 9,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p23",
+      "prefectureCode": 23,
+      "prefectureName": "愛知県",
+      "dialectCount": 55,
+      "regionCount": 3,
+      "regionNames": [
+        "尾張",
+        "名古屋周辺",
+        "三河"
+      ],
+      "indexableCount": 54,
+      "noindexCount": 1,
+      "sourceCount": 55,
+      "sourceCoverage": 1,
+      "verifiedCount": 54,
+      "verificationCoverage": 0.9818,
+      "longestRegionName": "名古屋周辺",
+      "longestRegionNameLength": 5,
+      "longestWord": "ちょっこらちょいと",
+      "longestWordLength": 9,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p24",
+      "prefectureCode": 24,
+      "prefectureName": "三重県",
+      "dialectCount": 1,
+      "regionCount": 5,
+      "regionNames": [
+        "北勢",
+        "中勢",
+        "南勢",
+        "伊賀",
+        "東紀州"
+      ],
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 1,
+      "verificationCoverage": 1,
+      "longestRegionName": "東紀州",
+      "longestRegionNameLength": 3,
+      "longestWord": "ささって",
+      "longestWordLength": 4,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p25",
+      "prefectureCode": 25,
+      "prefectureName": "滋賀県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "湖南",
+        "湖東",
+        "湖北",
+        "湖西"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "sourceCoverage": 0,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "湖南",
+      "longestRegionNameLength": 2,
+      "longestWord": "ほっこりする",
+      "longestWordLength": 6,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p26",
+      "prefectureCode": 26,
+      "prefectureName": "京都府",
+      "dialectCount": 10,
+      "regionCount": 5,
+      "regionNames": [
+        "府内複数地域",
+        "京都市周辺",
+        "山城",
+        "丹波",
+        "丹後"
+      ],
+      "indexableCount": 10,
+      "noindexCount": 0,
+      "sourceCount": 10,
+      "sourceCoverage": 1,
+      "verifiedCount": 10,
+      "verificationCoverage": 1,
+      "longestRegionName": "府内複数地域",
+      "longestRegionNameLength": 6,
+      "longestWord": "ごめんやす",
+      "longestWordLength": 5,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p27",
+      "prefectureCode": 27,
+      "prefectureName": "大阪府",
+      "dialectCount": 7,
+      "regionCount": 4,
+      "regionNames": [
+        "大阪市",
+        "北摂",
+        "河内",
+        "泉州"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 7,
+      "sourceCount": 0,
+      "sourceCoverage": 0,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "大阪市",
+      "longestRegionNameLength": 3,
+      "longestWord": "知らんけど",
+      "longestWordLength": 5,
+      "languageVarietyCount": 0,
+      "languageVarieties": [],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p28",
+      "prefectureCode": 28,
+      "prefectureName": "兵庫県",
+      "dialectCount": 6,
+      "regionCount": 6,
+      "regionNames": [
+        "神戸",
+        "阪神",
+        "播磨",
+        "但馬",
+        "丹波",
+        "淡路"
+      ],
+      "indexableCount": 6,
+      "noindexCount": 0,
+      "sourceCount": 6,
+      "sourceCoverage": 1,
+      "verifiedCount": 6,
+      "verificationCoverage": 1,
+      "longestRegionName": "神戸",
+      "longestRegionNameLength": 2,
+      "longestWord": "べっちょない",
+      "longestWordLength": 6,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p29",
+      "prefectureCode": 29,
+      "prefectureName": "奈良県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "regionNames": [
+        "北和",
+        "中和",
+        "南和",
+        "吉野"
+      ],
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 1,
+      "verificationCoverage": 1,
+      "longestRegionName": "北和",
+      "longestRegionNameLength": 2,
+      "longestWord": "おとろしい",
+      "longestWordLength": 5,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p30",
+      "prefectureCode": 30,
+      "prefectureName": "和歌山県",
+      "dialectCount": 1,
+      "regionCount": 3,
+      "regionNames": [
+        "紀北",
+        "紀中",
+        "紀南"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "sourceCoverage": 1,
+      "verifiedCount": 0,
+      "verificationCoverage": 0,
+      "longestRegionName": "紀北",
+      "longestRegionNameLength": 2,
+      "longestWord": "つれもて",
+      "longestWordLength": 4,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p31",
+      "prefectureCode": 31,
+      "prefectureName": "鳥取県",
+      "dialectCount": 44,
+      "regionCount": 4,
+      "regionNames": [
+        "因幡・県東部",
+        "東伯耆・県中部",
+        "西伯耆・県西部",
+        "日野地域"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 44,
+      "sourceCount": 44,
+      "sourceCoverage": 1,
+      "verifiedCount": 44,
+      "verificationCoverage": 1,
+      "longestRegionName": "東伯耆・県中部",
+      "longestRegionNameLength": 7,
+      "longestWord": "カキョール／カイトル",
+      "longestWordLength": 10,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p32",
+      "prefectureCode": 32,
+      "prefectureName": "島根県",
+      "dialectCount": 62,
+      "regionCount": 3,
+      "regionNames": [
+        "出雲地域",
+        "石見地域",
+        "隠岐諸島"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 62,
+      "sourceCount": 62,
+      "sourceCoverage": 1,
+      "verifiedCount": 62,
+      "verificationCoverage": 1,
+      "longestRegionName": "出雲地域",
+      "longestRegionNameLength": 4,
+      "longestWord": "またきちゃんさい",
+      "longestWordLength": 8,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 1
+    },
+    {
+      "prefectureId": "p33",
+      "prefectureCode": 33,
+      "prefectureName": "岡山県",
+      "dialectCount": 71,
+      "regionCount": 4,
+      "regionNames": [
+        "備前地域",
+        "備中地域",
+        "美作地域",
+        "瀬戸内海島嶼部"
+      ],
+      "indexableCount": 1,
+      "noindexCount": 70,
+      "sourceCount": 71,
+      "sourceCoverage": 1,
+      "verifiedCount": 71,
+      "verificationCoverage": 1,
+      "longestRegionName": "瀬戸内海島嶼部",
+      "longestRegionNameLength": 7,
+      "longestWord": "a[sita]a a]mjaa hu[r-u ma]a",
+      "longestWordLength": 27,
+      "languageVarietyCount": 2,
+      "languageVarieties": [
+        "japanese_dialect",
+        "unknown"
+      ],
+      "islandRegionCount": 1
+    },
+    {
+      "prefectureId": "p34",
+      "prefectureCode": 34,
+      "prefectureName": "広島県",
+      "dialectCount": 64,
+      "regionCount": 5,
+      "regionNames": [
+        "広島市周辺・県西部",
+        "福山・尾道など県東部",
+        "呉・安芸南部",
+        "県北部・山間部",
+        "瀬戸内海島嶼部"
+      ],
+      "indexableCount": 1,
+      "noindexCount": 63,
+      "sourceCount": 64,
+      "sourceCoverage": 1,
+      "verifiedCount": 64,
+      "verificationCoverage": 1,
+      "longestRegionName": "福山・尾道など県東部",
+      "longestRegionNameLength": 10,
+      "longestWord": "−ない（敬意命令形）",
+      "longestWordLength": 10,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 2
+    },
+    {
+      "prefectureId": "p35",
+      "prefectureCode": 35,
+      "prefectureName": "山口県",
+      "dialectCount": 82,
+      "regionCount": 6,
+      "regionNames": [
+        "県東部（岩国・柳井など）",
+        "県中央部（山口・防府など）",
+        "県西部（宇部・下関など）",
+        "県北部（萩・長門など）",
+        "島嶼部（周防大島・平郡島など）",
+        "周南地方"
+      ],
+      "indexableCount": 31,
+      "noindexCount": 51,
+      "sourceCount": 82,
+      "sourceCoverage": 1,
+      "verifiedCount": 81,
+      "verificationCoverage": 0.9878,
+      "longestRegionName": "島嶼部（周防大島・平郡島など）",
+      "longestRegionNameLength": 15,
+      "longestWord": "ドーデショー キャエ。オボエマセン チャ。",
+      "longestWordLength": 21,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 1
+    },
+    {
+      "prefectureId": "p36",
+      "prefectureCode": 36,
+      "prefectureName": "徳島県",
+      "dialectCount": 61,
+      "regionCount": 5,
+      "regionNames": [
+        "徳島市周辺・県東部",
+        "鳴門・県北東部",
+        "阿南周辺・県南部",
+        "海部地域",
+        "吉野川中上流・県西部"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 61,
+      "sourceCount": 61,
+      "sourceCoverage": 1,
+      "verifiedCount": 60,
+      "verificationCoverage": 0.9836,
+      "longestRegionName": "吉野川中上流・県西部",
+      "longestRegionNameLength": 10,
+      "longestWord": "ヤネガコワル",
+      "longestWordLength": 6,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 1
+    },
+    {
+      "prefectureId": "p37",
+      "prefectureCode": 37,
+      "prefectureName": "香川県",
+      "dialectCount": 63,
+      "regionCount": 6,
+      "regionNames": [
+        "東讃地域",
+        "高松市周辺",
+        "中讃地域",
+        "西讃地域",
+        "県内地域未特定",
+        "島しょ"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 63,
+      "sourceCount": 63,
+      "sourceCoverage": 1,
+      "verifiedCount": 63,
+      "verificationCoverage": 1,
+      "longestRegionName": "県内地域未特定",
+      "longestRegionNameLength": 7,
+      "longestWord": "おなかがおきる",
+      "longestWordLength": 7,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 1
+    },
+    {
+      "prefectureId": "p38",
+      "prefectureCode": 38,
+      "prefectureName": "愛媛県",
+      "dialectCount": 60,
+      "regionCount": 5,
+      "regionNames": [
+        "東予",
+        "中予",
+        "南予",
+        "今治・しまなみ海道周辺の島嶼部",
+        "宇和海側の島嶼部（九島）"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 60,
+      "sourceCount": 59,
+      "sourceCoverage": 0.9833,
+      "verifiedCount": 59,
+      "verificationCoverage": 0.9833,
+      "longestRegionName": "今治・しまなみ海道周辺の島嶼部",
+      "longestRegionNameLength": 15,
+      "longestWord": "ドコデ　カイナハッタンジャロー",
+      "longestWordLength": 15,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 2
+    },
+    {
+      "prefectureId": "p39",
+      "prefectureCode": 39,
+      "prefectureName": "高知県",
+      "dialectCount": 88,
+      "regionCount": 5,
+      "regionNames": [
+        "県東部",
+        "高知市周辺・県中央部",
+        "県西部",
+        "四万十・幡多地域",
+        "嶺北など山間部"
+      ],
+      "indexableCount": 20,
+      "noindexCount": 68,
+      "sourceCount": 88,
+      "sourceCoverage": 1,
+      "verifiedCount": 88,
+      "verificationCoverage": 1,
+      "longestRegionName": "高知市周辺・県中央部",
+      "longestRegionNameLength": 10,
+      "longestWord": "あしゃ、いんでうちのまわりをせんといかん。",
+      "longestWordLength": 21,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p40",
+      "prefectureCode": 40,
+      "prefectureName": "福岡県",
+      "dialectCount": 57,
+      "regionCount": 4,
+      "regionNames": [
+        "福岡市周辺",
+        "北九州",
+        "筑豊",
+        "筑後"
+      ],
+      "indexableCount": 21,
+      "noindexCount": 36,
+      "sourceCount": 57,
+      "sourceCoverage": 1,
+      "verifiedCount": 57,
+      "verificationCoverage": 1,
+      "longestRegionName": "福岡市周辺",
+      "longestRegionNameLength": 5,
+      "longestWord": "おとんことんなか",
+      "longestWordLength": 8,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p41",
+      "prefectureCode": 41,
+      "prefectureName": "佐賀県",
+      "dialectCount": 47,
+      "regionCount": 4,
+      "regionNames": [
+        "佐賀平野",
+        "唐津・東松浦",
+        "伊万里・西松浦",
+        "杵島・藤津"
+      ],
+      "indexableCount": 0,
+      "noindexCount": 47,
+      "sourceCount": 47,
+      "sourceCoverage": 1,
+      "verifiedCount": 46,
+      "verificationCoverage": 0.9787,
+      "longestRegionName": "伊万里・西松浦",
+      "longestRegionNameLength": 7,
+      "longestWord": "あったらもんぎ",
+      "longestWordLength": 7,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 1
+    },
+    {
+      "prefectureId": "p42",
+      "prefectureCode": 42,
+      "prefectureName": "長崎県",
+      "dialectCount": 89,
+      "regionCount": 6,
+      "regionNames": [
+        "県南",
+        "県央",
+        "県北",
+        "五島",
+        "壱岐",
+        "対馬"
+      ],
+      "indexableCount": 12,
+      "noindexCount": 77,
+      "sourceCount": 89,
+      "sourceCoverage": 1,
+      "verifiedCount": 88,
+      "verificationCoverage": 0.9888,
+      "longestRegionName": "県南",
+      "longestRegionNameLength": 2,
+      "longestWord": "ニタカバンガチ",
+      "longestWordLength": 7,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 3
+    },
+    {
+      "prefectureId": "p43",
+      "prefectureCode": 43,
+      "prefectureName": "熊本県",
+      "dialectCount": 51,
+      "regionCount": 5,
+      "regionNames": [
+        "熊本周辺",
+        "県北",
+        "阿蘇",
+        "県南",
+        "天草"
+      ],
+      "indexableCount": 15,
+      "noindexCount": 36,
+      "sourceCount": 51,
+      "sourceCoverage": 1,
+      "verifiedCount": 50,
+      "verificationCoverage": 0.9804,
+      "longestRegionName": "熊本周辺",
+      "longestRegionNameLength": 4,
+      "longestWord": "いたうゑ／いたうゑっか",
+      "longestWordLength": 11,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p44",
+      "prefectureCode": 44,
+      "prefectureName": "大分県",
+      "dialectCount": 57,
+      "regionCount": 6,
+      "regionNames": [
+        "県内広域",
+        "北部",
+        "中部",
+        "西部",
+        "南部",
+        "豊肥"
+      ],
+      "indexableCount": 15,
+      "noindexCount": 42,
+      "sourceCount": 57,
+      "sourceCoverage": 1,
+      "verifiedCount": 57,
+      "verificationCoverage": 1,
+      "longestRegionName": "県内広域",
+      "longestRegionNameLength": 4,
+      "longestWord": "～トバイ／～ツバイ",
+      "longestWordLength": 9,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p45",
+      "prefectureCode": 45,
+      "prefectureName": "宮崎県",
+      "dialectCount": 72,
+      "regionCount": 4,
+      "regionNames": [
+        "県北",
+        "県央",
+        "県西",
+        "県南"
+      ],
+      "indexableCount": 12,
+      "noindexCount": 60,
+      "sourceCount": 72,
+      "sourceCoverage": 1,
+      "verifiedCount": 72,
+      "verificationCoverage": 1,
+      "longestRegionName": "県北",
+      "longestRegionNameLength": 2,
+      "longestWord": "いかはっとかの／いかはっとかな",
+      "longestWordLength": 15,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 0
+    },
+    {
+      "prefectureId": "p46",
+      "prefectureCode": 46,
+      "prefectureName": "鹿児島県",
+      "dialectCount": 84,
+      "regionCount": 5,
+      "regionNames": [
+        "薩摩",
+        "大隅",
+        "甑島",
+        "種子島・屋久島",
+        "奄美"
+      ],
+      "indexableCount": 21,
+      "noindexCount": 63,
+      "sourceCount": 84,
+      "sourceCoverage": 1,
+      "verifiedCount": 84,
+      "verificationCoverage": 1,
+      "longestRegionName": "種子島・屋久島",
+      "longestRegionNameLength": 7,
+      "longestWord": "おじゃったもんせ",
+      "longestWordLength": 8,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ],
+      "islandRegionCount": 3
+    },
+    {
+      "prefectureId": "p47",
+      "prefectureCode": 47,
+      "prefectureName": "沖縄県",
+      "dialectCount": 133,
+      "regionCount": 7,
+      "regionNames": [
+        "沖縄本島北部・国頭地域",
+        "沖縄本島中南部",
+        "久米島",
+        "宮古諸島",
+        "八重山諸島",
+        "与那国島",
+        "大東諸島"
+      ],
+      "indexableCount": 57,
+      "noindexCount": 76,
+      "sourceCount": 133,
+      "sourceCoverage": 1,
+      "verifiedCount": 133,
+      "verificationCoverage": 1,
+      "longestRegionName": "沖縄本島北部・国頭地域",
+      "longestRegionNameLength": 11,
+      "longestWord": "ムﾟーギヌ パージューシャ",
+      "longestWordLength": 13,
+      "languageVarietyCount": 1,
+      "languageVarieties": [
+        "ryukyuan_language"
+      ],
+      "islandRegionCount": 7
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="ことばの地図">
+  <rect width="512" height="512" rx="112" fill="#173f35"/>
+  <path d="M117 269c0-91 62-163 142-163s142 72 142 163c0 69-43 124-104 150l-41 62-25-53c-66-13-114-76-114-159Z" fill="#f9f5ea"/>
+  <path d="M169 252c31-40 66-59 105-59 35 0 61 13 78 40" fill="none" stroke="#b94e2d" stroke-width="25" stroke-linecap="round"/>
+  <circle cx="203" cy="290" r="15" fill="#173f35"/>
+  <circle cx="310" cy="290" r="15" fill="#173f35"/>
+  <path d="M207 343c28 24 62 24 94 0" fill="none" stroke="#173f35" stroke-width="18" stroke-linecap="round"/>
+</svg>

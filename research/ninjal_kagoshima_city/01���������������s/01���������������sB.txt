@@ -1,0 +1,47 @@
+Ｂ　主人を送り出す
+
+0100308|２|honna: mo itaq kuqde ne:|それなら　もう　行って　くるから　ね。
+0100309|１|hai|はい。
+0100310|２|kuqdon migaq aqdoga ne:|靴など　磨いて　あるだろう　ね。
+0100311|１|hai migeq goando|はい　磨いて　ありますよ。
+0100312|２|ne:nzju: waiga koqna: kuqnanda migakazi gondarake: sjtsjaqga|年中　お前と　きたら　靴などは　磨かず　ごみだらけに　してあるではないか。
+0100313|１|kjowa migeq goando|きょうは　磨いて　ありますよ。
+0100401|２|n: kjowa tsiqta oja osu naqde ne:|うん　きょうは　少しは　わたしは　遅く　なるから　ね。
+0100402|１|e: mata enkaibaq gowasjka|ええ。また　宴会でも　ありますか。
+0100403|２|nnja kjuwa kwatsjo:sa:to sodanga aqde tsiqto oso. narai|いいや　きょうは　課長さんと　相談が　あるから　ちょっと　遅く　なるよ。
+0100404|１|ne:ndzju katsjo:santoka nantoka kantoka juqse: osakebaqkai non kotsu kangeq ozjando na: omansa:|年中　課長さんとか　なんとか　かんとか　言って　お酒ばっかり　飲む　ことを　考えて　いらっしゃるの　ね、あなたは。
+0100406|２|oja sjo.tsjuwa honnokotsja sukanto jaqdonne: soimo tsutomengara sjkataga ne.to jo kora ne:|わたしは　焼酎は　本当は　好きではないの　だがね、それも　勤めの関係で　仕方が　ないのだ　よ、これは　ね。
+0100408|１|soimo soide enkaikara suruqto okerarea josju goandon omansa:mo mata|それは　それとして　宴会から　すっと　お帰りになれば　いい　ですのに、あなたときたら　また…
+0100410|２|sogen waiga ju:gotsja ikannai ne: uwajaqno sjto tenonzjoreba wagabaqkai ho:taimodoq wake:mo ikasj sande: iqdena: otswqkemo sena na:nde waja|そう　お前が　言うようには　いかないよ。ねえ、上役の　人たちと　いっしょにいれば　わたしばかり　ほうって帰る　わけにも　いかないし　三度に　一度は　お付合いも　しなければ　ならないのだよ　お前。
+0100413|１|uqno koqmo kangeqse: marekenna kodonno si…|うちの　ことも　考えて　たまには　子どもたち…
+0100414|２|uqno kotsja nezju: uqno kotsja nenzju. kangetsjoqto:|うちの　ことは　年中、うちの　ことは　年中　考えているのだ。
+0100415|１|mo kodonno siga omansama iqden netekara okeransa o: kodonga…|もう　子ども　たちが　あなた　いつでも　寝てから　お帰になるじゃない　の。子どもが…
+0100501|２|aja konmaega iqdo zjaqta gotsjaqga ne:|ああ　この前が　一度　だった　ようだが　ね。
+0100502|１|omansa: naiga zjaro:i ne:nzju zjaqte itsido zjanando tsi juqse:|あなた　なにが　とんでもない。年中　なのに　一度　だなど　と　言って。
+0100504|２|oimo mo toq zjaqde oboennai sera|わたしも　もう　年　だから　覚えてないよ、それは。
+0100505|１|mo soina: sjkata. goahande kjo.wa sora omansa: odeaqtana: kaerina kodonnosi an naja tsjto omijageden koq ozjaq tamoq o:|もう　それなら　仕方が　ありませんから　きょうは　それなら　あなた、おいでになったら　帰りには　子供たちに　あの　なにか　すこし　お土産でも　買って　いらっしゃって　ください　よ。
+0100507|２|amejan suqno amebaqguraide e:dokai ne:|飴屋の　筋〔通り〕の　飴なりとぐらいで　いいだろうか　ね。
+0100508|１|omansa:n amedoma nenzju goansa o naika hokan joka monno metateq okerarea josi goansa: o|あなたもう　飴などは　年中　あります　よ。なにか　他の　いい　ものを　見立てて　お帰りになれば　いい　でしょう　よ。
+0100510|２|nna: ma. kimuqganka koremoqdoma: kjudoma koq konna: waja|それなら　まあ　木目羹か　高麗餅ぐらいは　きょうぐらいは　買って　来ようよ　お前。
+0100511|１|doka sogen osijaq tamoq|どうか　そう　なさって　ください。
+0100512|１|tsjta hajo: okeraq na:|少しは　早く　お帰りなさい　よ。
+0100513|２|kjudoma hajo: modoran nara|きょうぐらいは　早く　かえらないと　いけない。
+0100514|１|hai itaq osaizjanse|はい　行って　いらっしゃい。
+0100515|２|itaq kuqde|いって　くるよ。
+0100516|１|hai kegao sen goq na:|はい、怪我を　しない　ように　ね。
+0100601|２|aq soika: hara ahjkono tanao mihikeq me: oja ahjkon niki kaqtswkeo wasuretai ne: iqtsjoqka miq miq kure: ne:|あっ、それから　ほら　あそこの　棚を　さがして　みろ。あれは　あそこ　に　書き付けを　忘れたよ　ね。はいっているか　見て　みて　くれ　よ。
+0100603|１|naino kaqtswke na:|なんの　書き付け　ですか。
+0100604|２|zjo:bukuroi iqzjoqta haq zjaga ne:|状袋に　はいっていた　はず　だが　ね。
+0100605|１|nna wa:ga agaqse: omihjkijarea josju goansa o:|それなら　自分で　あがって　お見付けになれば　いい　でしょう　よ。
+0100606|２|e: waigata iqko. oigatoo mihjkeq kureta kotsja naka jaq zja|えい、おまえは　いっこう　おれのを　見付けて　くれた　ことは　ない　奴　だ。
+0100608|１|omansa hiton naeta monna wakaran kote|あなた　人の　しまったものは　わからない　もの。
+0100609|２|e: mo jaka wa.ga mihjkuq soina:|えい、もういい。自分で　見つける　それなら。
+0100610|１|ha: waga omihjkejaq tamonsj|はい、自分で　お見付けになって　ください。
+0100611|２|mo: waigata oiga ju kotsu iqdomo kita koqga naka jaq zja|もう　おまえは　わしが　言う　ことを　一度も　聞いた　ことが　ない　奴　だ。
+0100612|１|na:iga na:iga: omansa:mo|なにが　なにが、あなたも。
+0100613|２|aqta aqta: mo: waga mihjkuq kogena mondoma|あった、あった、もう。自分で　見つける、こんな　ものぐらい。
+0100614|１|sa: zibunno kotsja zibunde senkote zibunno kotsja zibunde sjte ataiga si agega naq kota si aguqdon mo kodonno sjtsukemo dekemohando: sogen omansa: na:imo kaimo waga sezi oqse: hjtobaqkai tajoq oqtatsi dekun monna|そりゃ　自分の　ことは　自分で　しなくては　自分の　事は　自分で　して、わたしが　して　あげられる　ことは　して　あげるけれど。もう　子どもの　躾けも　できませんよ。そんなに　あなた　なにも　かにも　自分で　しないで　いて、人ばかり　頼って　いたって　できる　ものですか。
+0100702|２|soju. suqtoga okata tsju: mon zja a: mo: zikanga osu naqde mo: deq kuqde|それを　するのが　妻　という　もの　だ。ああ　もう　時間が　遅く　なるから　もう　行って　くるよ。
+0100704|１|ha:i itaq osaizjanse|はい、行って　いらっしゃい。
+0100705|２|kjua jaqpa osu naqdo nan tsjten|きょうは　やっぱり　遅く　なるぞ、なんと　いっても。
+0100706|１|sa: ikenden osianse: o mo si:han na o:|それなら　どうにでも　なさいませ　よ。もう　知りません　よ。

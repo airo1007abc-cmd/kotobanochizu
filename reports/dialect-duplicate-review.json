@@ -1,0 +1,511 @@
+{
+  "generatedAt": "2026-09-04",
+  "productionDataChanged": false,
+  "summary": {
+    "pages": 40,
+    "groups": 18,
+    "TRUE_DUPLICATE": 8,
+    "REGIONAL_VARIANT": 0,
+    "SAME_FORM_DIFFERENT_MEANING": 10,
+    "SEO_TEMPLATE_COLLISION": 0,
+    "UNCERTAIN": 0
+  },
+  "groups": [
+    {
+      "groupId": "content-duplicate-01",
+      "classification": "TRUE_DUPLICATE",
+      "pages": [
+        {
+          "id": "jp-38-ehime-047",
+          "word": "誰",
+          "meaning": "誰",
+          "prefecture": "愛媛県",
+          "region": "今治・しまなみ海道周辺の島嶼部"
+        },
+        {
+          "id": "jp-38-ehime-048",
+          "word": "誰",
+          "meaning": "誰",
+          "prefecture": "愛媛県",
+          "region": "今治・しまなみ海道周辺の島嶼部"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": true,
+        "canonicalCandidate": true,
+        "redirectCandidate": true,
+        "action": "原資料・例文・ID参照を人間確認してから代表URLを決定"
+      }
+    },
+    {
+      "groupId": "content-duplicate-02",
+      "classification": "TRUE_DUPLICATE",
+      "pages": [
+        {
+          "id": "jp-38-ehime-049",
+          "word": "どこ",
+          "meaning": "どこ",
+          "prefecture": "愛媛県",
+          "region": "今治・しまなみ海道周辺の島嶼部"
+        },
+        {
+          "id": "jp-38-ehime-050",
+          "word": "どこ",
+          "meaning": "どこ",
+          "prefecture": "愛媛県",
+          "region": "今治・しまなみ海道周辺の島嶼部"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": true,
+        "canonicalCandidate": true,
+        "redirectCandidate": true,
+        "action": "原資料・例文・ID参照を人間確認してから代表URLを決定"
+      }
+    },
+    {
+      "groupId": "content-duplicate-03",
+      "classification": "TRUE_DUPLICATE",
+      "pages": [
+        {
+          "id": "jp-38-ehime-051",
+          "word": "朝が",
+          "meaning": "朝が",
+          "prefecture": "愛媛県",
+          "region": "宇和海側の島嶼部（九島）"
+        },
+        {
+          "id": "jp-38-ehime-052",
+          "word": "朝が",
+          "meaning": "朝が",
+          "prefecture": "愛媛県",
+          "region": "宇和海側の島嶼部（九島）"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": true,
+        "canonicalCandidate": true,
+        "redirectCandidate": true,
+        "action": "原資料・例文・ID参照を人間確認してから代表URLを決定"
+      }
+    },
+    {
+      "groupId": "content-duplicate-04",
+      "classification": "TRUE_DUPLICATE",
+      "pages": [
+        {
+          "id": "jp-38-ehime-053",
+          "word": "烏",
+          "meaning": "烏",
+          "prefecture": "愛媛県",
+          "region": "宇和海側の島嶼部（九島）"
+        },
+        {
+          "id": "jp-38-ehime-054",
+          "word": "烏",
+          "meaning": "烏",
+          "prefecture": "愛媛県",
+          "region": "宇和海側の島嶼部（九島）"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": true,
+        "canonicalCandidate": true,
+        "redirectCandidate": true,
+        "action": "原資料・例文・ID参照を人間確認してから代表URLを決定"
+      }
+    },
+    {
+      "groupId": "content-duplicate-05",
+      "classification": "TRUE_DUPLICATE",
+      "pages": [
+        {
+          "id": "jp-38-ehime-055",
+          "word": "牛が",
+          "meaning": "牛が",
+          "prefecture": "愛媛県",
+          "region": "宇和海側の島嶼部（九島）"
+        },
+        {
+          "id": "jp-38-ehime-056",
+          "word": "牛が",
+          "meaning": "牛が",
+          "prefecture": "愛媛県",
+          "region": "宇和海側の島嶼部（九島）"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": true,
+        "canonicalCandidate": true,
+        "redirectCandidate": true,
+        "action": "原資料・例文・ID参照を人間確認してから代表URLを決定"
+      }
+    },
+    {
+      "groupId": "content-duplicate-06",
+      "classification": "TRUE_DUPLICATE",
+      "pages": [
+        {
+          "id": "jp-38-ehime-057",
+          "word": "桜",
+          "meaning": "桜",
+          "prefecture": "愛媛県",
+          "region": "宇和海側の島嶼部（九島）"
+        },
+        {
+          "id": "jp-38-ehime-058",
+          "word": "桜",
+          "meaning": "桜",
+          "prefecture": "愛媛県",
+          "region": "宇和海側の島嶼部（九島）"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": true,
+        "canonicalCandidate": true,
+        "redirectCandidate": true,
+        "action": "原資料・例文・ID参照を人間確認してから代表URLを決定"
+      }
+    },
+    {
+      "groupId": "content-duplicate-07",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-34-hiroshima-002",
+          "word": "よう",
+          "meaning": "よく／しばしば",
+          "prefecture": "広島県",
+          "region": "広島市周辺・県西部"
+        },
+        {
+          "id": "jp-34-hiroshima-003",
+          "word": "よう",
+          "meaning": "よく／たくさん",
+          "prefecture": "広島県",
+          "region": "広島市周辺・県西部"
+        },
+        {
+          "id": "jp-34-hiroshima-004",
+          "word": "よう",
+          "meaning": "よく／はっきりと・十分に",
+          "prefecture": "広島県",
+          "region": "広島市周辺・県西部"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    },
+    {
+      "groupId": "content-duplicate-08",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-34-hiroshima-005",
+          "word": "よう＋動詞＋ん",
+          "meaning": "よく／十分には〜ない",
+          "prefecture": "広島県",
+          "region": "広島市周辺・県西部"
+        },
+        {
+          "id": "jp-34-hiroshima-006",
+          "word": "よう＋動詞＋ん",
+          "meaning": "心情上〜できない",
+          "prefecture": "広島県",
+          "region": "広島市周辺・県西部"
+        },
+        {
+          "id": "jp-34-hiroshima-007",
+          "word": "よう＋動詞＋ん",
+          "meaning": "能力上〜できない",
+          "prefecture": "広島県",
+          "region": "広島市周辺・県西部"
+        },
+        {
+          "id": "jp-34-hiroshima-008",
+          "word": "よう＋動詞＋ん",
+          "meaning": "内的条件により〜できない",
+          "prefecture": "広島県",
+          "region": "広島市周辺・県西部"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    },
+    {
+      "groupId": "content-duplicate-09",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-34-hiroshima-023",
+          "word": "うがす",
+          "meaning": "はがす",
+          "prefecture": "広島県",
+          "region": "福山・尾道など県東部"
+        },
+        {
+          "id": "jp-34-hiroshima-024",
+          "word": "うがす",
+          "meaning": "掘り起こす",
+          "prefecture": "広島県",
+          "region": "福山・尾道など県東部"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    },
+    {
+      "groupId": "content-duplicate-10",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-34-hiroshima-029",
+          "word": "しゅむ",
+          "meaning": "しみる・浸透する",
+          "prefecture": "広島県",
+          "region": "福山・尾道など県東部"
+        },
+        {
+          "id": "jp-34-hiroshima-030",
+          "word": "しゅむ",
+          "meaning": "鼻をかむ",
+          "prefecture": "広島県",
+          "region": "福山・尾道など県東部"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    },
+    {
+      "groupId": "content-duplicate-11",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-34-hiroshima-045",
+          "word": "カコー",
+          "meaning": "書こう",
+          "prefecture": "広島県",
+          "region": "県北部・山間部"
+        },
+        {
+          "id": "jp-34-hiroshima-046",
+          "word": "カコー",
+          "meaning": "書くだろう",
+          "prefecture": "広島県",
+          "region": "県北部・山間部"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    },
+    {
+      "groupId": "content-duplicate-12",
+      "classification": "TRUE_DUPLICATE",
+      "pages": [
+        {
+          "id": "jp-39-kochi-086",
+          "word": "サル",
+          "meaning": "可能を表す助動詞（～できる）",
+          "prefecture": "高知県",
+          "region": "嶺北など山間部"
+        },
+        {
+          "id": "jp-39-kochi-088",
+          "word": "サル",
+          "meaning": "可能を表す助動詞（～できる）",
+          "prefecture": "高知県",
+          "region": "嶺北など山間部"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": true,
+        "canonicalCandidate": true,
+        "redirectCandidate": true,
+        "action": "原資料・例文・ID参照を人間確認してから代表URLを決定"
+      }
+    },
+    {
+      "groupId": "content-duplicate-13",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-33-okayama-048",
+          "word": "チカマーリ",
+          "meaning": "近道",
+          "prefecture": "岡山県",
+          "region": "美作地域"
+        },
+        {
+          "id": "jp-33-okayama-049",
+          "word": "チカマーリ",
+          "meaning": "近所・近回り",
+          "prefecture": "岡山県",
+          "region": "美作地域"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    },
+    {
+      "groupId": "content-duplicate-14",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-33-okayama-059",
+          "word": "しろえび",
+          "meaning": "アカエビ",
+          "prefecture": "岡山県",
+          "region": "備中地域"
+        },
+        {
+          "id": "jp-33-okayama-060",
+          "word": "しろえび",
+          "meaning": "シバエビ",
+          "prefecture": "岡山県",
+          "region": "備中地域"
+        },
+        {
+          "id": "jp-33-okayama-061",
+          "word": "しろえび",
+          "meaning": "サルエビ",
+          "prefecture": "岡山県",
+          "region": "備中地域"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    },
+    {
+      "groupId": "content-duplicate-15",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-33-okayama-062",
+          "word": "がく",
+          "meaning": "クロソイ",
+          "prefecture": "岡山県",
+          "region": "備中地域"
+        },
+        {
+          "id": "jp-33-okayama-063",
+          "word": "がく",
+          "meaning": "タケノコメバル",
+          "prefecture": "岡山県",
+          "region": "備中地域"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    },
+    {
+      "groupId": "content-duplicate-16",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-32-shimane-040",
+          "word": "あんじょー",
+          "meaning": "兄さん",
+          "prefecture": "島根県",
+          "region": "石見地域"
+        },
+        {
+          "id": "jp-32-shimane-041",
+          "word": "あんじょー",
+          "meaning": "年上で親しい他人の男性",
+          "prefecture": "島根県",
+          "region": "石見地域"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    },
+    {
+      "groupId": "content-duplicate-17",
+      "classification": "TRUE_DUPLICATE",
+      "pages": [
+        {
+          "id": "jp-32-shimane-049",
+          "word": "チンカモ",
+          "meaning": "友達",
+          "prefecture": "島根県",
+          "region": "隠岐諸島"
+        },
+        {
+          "id": "jp-32-shimane-050",
+          "word": "チンカモ",
+          "meaning": "友達",
+          "prefecture": "島根県",
+          "region": "隠岐諸島"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": true,
+        "canonicalCandidate": true,
+        "redirectCandidate": true,
+        "action": "原資料・例文・ID参照を人間確認してから代表URLを決定"
+      }
+    },
+    {
+      "groupId": "content-duplicate-18",
+      "classification": "SAME_FORM_DIFFERENT_MEANING",
+      "pages": [
+        {
+          "id": "jp-36-tokushima-036",
+          "word": "ナグル",
+          "meaning": "草をなぎ倒すように刈る",
+          "prefecture": "徳島県",
+          "region": "吉野川中上流・県西部"
+        },
+        {
+          "id": "jp-36-tokushima-037",
+          "word": "ナグル",
+          "meaning": "草を手で抜く",
+          "prefecture": "徳島県",
+          "region": "吉野川中上流・県西部"
+        }
+      ],
+      "proposal": {
+        "mergeCandidate": false,
+        "canonicalCandidate": false,
+        "redirectCandidate": false,
+        "action": "意味差を本文とSEO titleで明示し、独立レコードを維持する方向で確認"
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+Ｎ　旅行にさそう
+
+0104206|２|dokoiq na kjowa|どこへ行く〔「どこ行き」の意〕んですか、きょうは。
+0104207|３|atai iqtoq sokon saqzui kemonni iqkata gowanga|わたし　ちょっと　その　さきまで　買物に　行くところ　ですよ。
+0104208|２|omanse: konmaike: ataja juo: juo: tsi omo:tsjoqtaga iqko. i:dasazi oqtaga ima dannasa: ruq zja tsi ju:monsa o: doke itaq oijaqtona|あなたに　この前から　わたしは　言おう　言おう　と　思っていたが、いっこう　言い出さずに　いたが、いま　旦那さんが　留守　だ　と　いいます　ね。どこへ　行って　いらっしゃるのですか。
+0104211|３|ibusuki itaq ondo:|指宿へ　行って　いますよ。
+0104212|２|honna: na:|そんなら　ね、
+0104213|３|ha:|はあ。
+0104301|２|nisantsi modoijantona: sakuraziman hennni na: joka toko jaga tsjuga iqdodoma ataito tenon itaq minso ja.|２、３日　お帰りにならないのなら、桜島の　あたりにね、いい　ところ　だ　というが、一度ぐらいは　わたしと　いっしょに　行って　みましょう　よ。
+0104303|３|i:ja omansa: mo: omansa:to saruq oqtana: omansaadon oqsankara gararuqga|いや、あなた、もう　あなたと　歩いて　いたなら　おたくの　奥さんに　怒られるよ。
+0104305|２|nnja okataga ima oran mon zjaqde sora|いや、家内が　いま　いない　もの　だから、そら。
+0104306|３|usoo ijanna jubemo oijaqtaga|嘘を　言いなさるな。ゆうべも　いらっしゃったよ。
+0104307|２|nnja kesase: na iqtoq hwkuokase: haqtsiqta mon zjaqde soide|いや、けさ　ね　ちょっと　福岡へ　行ってしまった　もの　だから、それで。
+0104308|３|hwkuoka: naigoqna: mata|福岡は　何しにですか、また。
+0104309|２|jadon muqmega na:|うちの　娘が　ね。
+0104310|３|hun|ふん。
+0104311|２|sannu sjtato|お産を　したのだ。
+0104312|３|e: nanbanmesa:gana:|ほう。何番目〔のお子さん〕がですか。
+0104313|２|hoide haqmeq nmaretato|それで　初めて　生まれたんだ。
+0104314|３|naina kasjtan muqmezjona:|何ですか、頭の　娘さん〔長女〕ですか。
+0104315|２|ai jo|あの　娘よ。
+0104316|３|e: zjaqtatona doqtsi gowasjtaka|そう。そうだったんですか。どっち　でしたか。
+0104401|２|onagonko|女の子。
+0104402|３|e:|そう。
+0104403|２|hoide maq sogen kotsja josi gowanga na: tonikaq omansa:to iqdodoma itaq miro goq aq tsi ma dannasa:baqkai iqdoki asubazi. ataitomo iqdodoma asuq sarukjarea ete tsi ataja nenzju juo: tsi omoq oqdon kora kjowa joka tokoide o:tade|それで、まあ、そんな　ことは　いい　ですけど　ね、とにかく　あなたと　一度ぐらいは　行って　みたいのだ　よ。まあ、旦那さん〔と〕ばかり　いっしょに　遊ばないで　わたしとも　一度ぐらいは　遊んで　お歩きになれば　いいのに　と　わたしは　年中　言おう　と　思って　いるけど、これは　きょうは　いい　ところで　会ったね。
+0104407|３|n:da mo kon ozisannu mire ma nai kangeq ojaqtoka|いやあだ。もう　この　おじさんを　ごらん　まあ。何を　考えて　いらっしゃるのか。
+0104408|２|soen ijaqzjaro tsi omo:tsjoqtato hoidon na: ma. koja monowa sodan zjaqde tsjokoqto nege koqzja ne: hanniq buraiburai asuq wake toqno hanahjdon siq katarea mata kimo wako naqtsj siwamo nodai suq tsi wake o na:|そのように　言われるだろう　と　思っていたよ。でも　ね、まあ　これは、ものは　相談　だから、ちょっと　長い　ことでは　ない、半日　ぶらりぶらり　遊んで　若い　時の　話でも　して、話せば　また　気も　若く　なって　皺も　伸びたり　する　という　わけ　よ　ねえ。
+0104412|３|omansa: sakuraziman hennni itaq mijan daiga miqtsjoika sirentaqdo:|あなた　桜島の　あたりに　行って　ごらんなさい。だれが　見ているか　しれないのだわよ。
+0104414|２|miqtsjoq toka too naqtai tsjko: naqtai ko: siq aimeba e:to|見ている　ときは　遠く　なったり　近く　なったり　こう　して　歩けば　いいよ。
+0104415|３|i:jana ko.q omansa: imagoro an hedon uqkabuqse: itaq mijan|いやな、ことよ。あなた　今ごろ　あの　灰でも　かぶりに　行って　みなさい。
+0104501|２|jaqpai soen ijaqga omansa: ataiga anmai suqzja nakatoka na:|やっぱり　そんなに　おっしゃるよ。あなたは　わたしが　あんまり　好きでは　ないのか　ねえ。
+0104502|３|ozisanni ataiga horetanara: omansaadon oqsanga omansa: tsunoo hajaszjaroga|おじさんに　わたしが　ほれたなら、おたくの　奥さんが　あなた、角を　生やすだろうよ。
+0104504|２|nnja ojasta sende ma. ojasu hjta ima hwkuokai haqtsjtade mi mien tokoi haqtsjtaqtsjoqde tsjodo jokato zjaqdon na:|いや、生やしは　しないよ。まあ　生やす　人は　いま　福岡へ　行ってしまったので、み、見えない　ところへ　行ってしまっているので　ちょうど　いいんだ　けど　ねえ。
+0104506|３|so:iga omansa: zingudonno obasantaqga miq ojaqde o:|それが　あなた、神宮さんの　おばさんたちが　見て　いらっしゃる　よ。
+0104507|２|ha: honni zingudonno obasan tsi ju: hjtoga oijarai na: jakamasi: hjton…|はあ、ほんとに　神宮さんの　おばさん　と　いう　人が　いらっしゃる　ねえ。やかましい　人が
+0104509|３|a:|ああ。
+0104510|２|aqsan… i:jaqdo na:|あの人が…　おっしゃる　ねえ。
+0104511|３|… o:|…　そう。
+0104512|２|soiga otorosi: don ma. iqdodoma na: ataitomo asuq saruqkjaqtana: jokaro tsi omo:tsjoqto jaga na:|それが　おそろしい。でも、まあ　一度ぐらいは　ねえ　わたしとも　遊んで　歩いたら　よかろう　と　思っているの　だが　ね。
+0104514|３|asubi ikeba o:|遊びに　行けば　ね、
+0104515|２|n:|うん。
+0104516|３|na: nai goqsoo siaska:|ねえ、何　ごちそうを　してくれますか。
+0104601|２|ma: ahjkohenni ra:menga aq tsi juga aidon…|まあ　あそこらへんに　ラーメンが　ある　と　いうよ、あれでも…
+0104602|３|n:damo ataja son ra:menna hjtoqmo swkan|おやまあ、わたしは　その　ラーメンは　ちっとも　好きでない。
+0104603|２|soina: naiga suq zjareba sogen ijaqna: iqban joka goqso:o omansa: suqnatoo kwaqsjaguqga|それなら　何が　好き　であれば。そんなに　おっしゃるなら　一番　いい　ごちそうを　あなたの　好きなのを　食べさせてあげるよ。
+0104605|３|i:jana koq zja omansa:to tenon saroq oqtana: omansa: ahjkoka:mo kokoka:mo mega hika.q tsjoqsime jaga|いやあな　こと　だ。あなたと　いっしょに　歩いて　いたら　あなた、あそこからも　ここからも　目が　光って、大変　だよ。
+0104607|２|agena joka niseto tenoq oijaqtaga tsj ko: judoga|あんな　いい　青年と　連れだって　いらしたよ　と、こう　いうだろうよ。
+0104608|３|ha: omansa:o siran hjta oimohan na o: mijadado:ide|はあ　あなたを　知らない　人は　おりませんよ　ね、宮田通りで。
+0104609|２|joka nisen hode sogen aqte ju:mei zjaqto jaqde kora na:|いい　青年の　方で、そうで　あって、有名　なの　だから、これは　ねえ。
+0104610|３|ha:a a:ra taq takemoqdonno ozisanto kanmurasanno tenon oijaqtaga ma doke iqkjaqta mon zjarokai tsi ijanso omansa:|はあ。ああら、〔武〕　武元さんの　おじさんと　神村さんが　つれだって　いらしたが、まあ、どこへ　行った　の　だろうか　と　言われるでしょう　あなた。
+0104612|２|sa. mo ju:mondo na:|そりゃ　もう　言うでしょう　ね。
+0104613|３|ha:a|はあ。
+0104614|２|nnja antoka waja tsjo.do iqdoki hinnaise: tsi ieba soide sun koq zjaqto jaqde omansa:… iqdoki hinnaise:… oja sakurazimazui ju:ga aqto… koide sun koq zjaqto jaga sakurazimade daika ota toq…|いや、あの時は　ねえ、ちょうど　いっしょに　なって　と　言えば、それで　済む　こと　なん　だよ、あなた。…　いっしょに　なったが、…　おれは　桜島まで　用が　あるよ。…　これで　すむ　こと　なの　だよ。桜島で　誰か　会った　とき…
+0104702|３|omansa:ga goq soen hwtoka koede ieba mo daimo kaimo kiq oijansa o: ma tsi:qto tsinke koede ju.q kon kote o:|あなたの　ように　そんなに　大きい　声で　言えば、もう　だれも　かれも　聞いて　いらっしゃいます　よ。もう　少し　小さい　声で　言って　来ない　ことには　ね。
+0104704|２|ma ataja kon tsin soiga nnja koja ataiga koea zigoe zjaq mon zjaqde koja ikenmo sija na:nto jaq hoide…|ま、わたしは　この　ちい…、それが、いや、これは　わたしの　声は　地声　だ　もの　だから　これは　どうにも　なら　ないん　だ。それで…
+0104706|３|omansa jadon siga modoq kiq mija:n sa: aqdze koq zjaqde o:|あなた、うちの　人が　もどって　来て　みなさい。それは　大変な　こと　だから　ね。
+0104708|２|soa sodona kotsja naq to sjqtoqto sora|そりゃ　大変な　ことに　なる　よ。知ってるよ、それは。
+0104709|３|a: ataimo imaka: modoq tokoimo nakaja: miq kurui jaqmo oimohan na o:|ええ。わたしも　今から　帰る　ところも　なければ　世話を　する　人も　おられない　よ　ね。
+0104711|２|nnja sora sodoi nai…|いや　そりゃ　大事件に　なる…
+0104712|３|omansa: hoina: iqsjo mijaska|あなたは　それなら　一生　見てくださるか。
+0104713|２|soja mi:ja na:nto|そりゃ　みることは　できないよ。
+0104714|３|soina: i:jana koq zja|それなら　いやな　こと　だ。
+0104715|２|miro tsjuqse: omansa:o sasotaqzja ne: tada hi:tedoma asuqke itana: ikenna: tsi ko:…|見よう　といって　あなたを　誘ったのでは　ない。ただ　一日ぐらいは　遊びに　行ったなら　どうですか　と、こう…
+0104801|３|mo omansa:mo son tosi naqteka: omansa: ikuq na: iqtai|もう　あなたも　その　年に　なって、あなた　いくつですか　ね、いったい。
+0104802|２|toqno kotsu ijaqna toqno kotsu tosjto koja beq zjaqde|年の　ことを　言いなさるな、年の　ことを。年と　これは　別　だから。
+0104803|３|n:damo omansa sogentoga aqdoka|まあ　あなた、そんなことが　あるだろうか。
+0104804|２|sora: kono mitsja beq zjaq tsju: mukasjka: ijaqto jaqde|そりゃ、この　道は　別　だ　と　昔から　言われているん　だから。
+0104805|３|hn so.kai na.|ふうん、そうですか　ね。
+0104806|２|ha: kono mitsja beq…|はあ、この　道は　別…
+0104807|３|ma ataiga iqtoq kanmurasensei tanneq kuqde|まあ、わたしが　ちょっと　上村先生に　尋ねて　来るから。
+0104808|２|sogen kotsu hjte tannuq monnja hjtoga soikwseka hjtoga warejaqga|そんな　ことを　人に　尋ねる　ものか。人が　それこそ　人が　お笑いになる。
+0104810|３|zjansokai na:|そうでしょうか　ねえ。
+0104811|２|o: tannejaqna ma: aqtsi iqga|そうだ、尋ねなさるな。まあ、あっちへ　行くよ。
+0104812|３|mo: omansa: na: ataja kodonga ugo: oqde o: ho sureba na: ahjkoka:mo kokoka:mo mega hjkaqtsjonsa…|もう　あなた　ね、わたしは　子供が　たくさん　いるから　ね。そうすれば　ね、　あそこからも　ここからも　目が　光っていますよ…
+0104814|２|mega hjkaqdo na:|目が　光るよ　ね。
+0104815|３|hoide jaqsemohanga|それで、だめですよ。
+0104816|２|jaqsemohanka na: zannenna koq…|だめですか　ねえ。残念な　こと…
+0104901|３|koena koq tsua go:han|こんな　こと　って　ありません。
+0104902|２|n:nja nnja iqdo ikenka sjq tanondana: kiq kurea sja:nmekai tsi omoq na: konmaika: neazi teo kae sina kae agen ijaqta toka kogen juo: kogen ijaqta toka agen juo tsi omo:q…|いや。いや、一度　どうにか　して、頼んだなら　来て　くれは　しまいか　と　思ってね、この前から　寝ないで　手を　かえ、品を　かえ、ああ　おっしゃった　ときは　こう　言おう、こう　おっしゃった　ときは　ああ　言おう　と　思って…
+0104905|３|mo soijoqka omansa: hara jadon sjtan gokedontaqga oijansa o|もう　それよりか　あなた、ほら　うちの　下の　後家さんたちが　おいでです　よ。
+0104906|２|honni:|なるほど。
+0104907|３|ha: ansi.den juq mijahanka|はあ、あの人にでも　言って　みませんか。
+0104908|２|ma honni aimo zjaq aimo zjaqdon aqpai inmo o: swtatoto swkantoga oi jona hude dosjten kakaijowantoga oqga aidoko jo ningenmo na: ansina dosjten juo gotsja no.sj…|ま　なるほど　あれも　そうだ。あれも　そうだけど、やっぱり　犬も　ね、好きなものと　好きでないものとが　いる　ような　もので、どうしても　相手にならないのが　いるが、ああいうもの　だよ　人間も　ね。あんな人には　どうしても　言い　たくは　なし…
+0104911|３|nda:mo soen koq zja ai zjoqna kotsu ijaq koq jo|そう、そういう　こと　だ。じょうずな　ことを　おっしゃる　こと　よ。
+0104912|２|dosjten kora kjqkjan hu zja na: ma konnja hjtoban ma mo kangeq miq kuijaq o|どうしても　これは　聞いてくださらない　よう　だ　ね。まあ　今晩　一晩、まあ、もう　考えて　みて　下さい　よ。
+0104914|３|n: mo joka kagenni omekijahanka omansa:mo otokon joqde kiqzaman naka kotsu ijanna|うん　もう　いい　かげんに　思い切ってくださいませんか。あなたも　男の　くせに　だらしの　ない　ことを　言いなさるな。
+0104916|２|nnja koja zaman ne: soitowa tsigo:to jaqtsi saqka: iqkaqsjaguqto jaqdon wakaijanka na:|いや、これは　面目　ない。それとは　違うの　だと、さっきから　教えてあげるの　だけれど、おわかりにならないか　ねえ。
+0105002|３|nnja mo omansan ju: koqdon kiq oqtana: sora de:aragoq zjaq|いいや　もう　あなたの　言う　ことなんか　聞いて　いたら、そりゃ　大変なこと　だ。
+0105003|２|naiga aragoq zjaq  tsj sogen ju.tatsj kosjko tanonto jaqde otokoga iqdodoma un tsi juq kurosona mon zja|なにが　大変　だっ　て。そんなに　言ったって、これほど　頼むの　だから　男が。一度ぐらいは、うん　と　言って　くれそうな　もの　だ。
+0105005|３|o: sogen ju: utsi hora jadon muqmega sokon saqkara kjtaga sora|あ　そう　言っている　うちに、ほら、うちの　娘が　そこの　さきから　来たよ、そら。
+0105007|２|kjta honni modoq kjta na:…|来た、ほんとに。帰って　来た　ねえ。…
+0105008|３|ha: mo hajo modorana:…|はあ、もう　早く　帰らなければ…

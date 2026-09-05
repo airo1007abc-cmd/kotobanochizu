@@ -1,0 +1,20 @@
+Ｍ　伝言の礼をのべる
+
+0104101|３|hara kontsjara gozasjta|おや　こんにちは。
+0104102|４|hara kontsiwa|おや　こんちは。
+0104103|３|konmaja: mo: ojaqtosa: osaizjasjtsjo: na: mo:|この前は　もう、お疲れさまで　ございましたでしょう　ね、もう。
+0104104|４|koja… ojaqto goasjtsuro.|これは…　お疲れ　でしたでしよう。
+0104105|３|kon maja: takemotosanni dengonno sjq tamosjte|この前は　武元さんに　伝言を　して　下さって。
+0104106|４|a: ahjkode hjoqtsi eta mon goande na: mata an…|ああ、あそこで　ひょっと　会った　もの　ですから　ねえ、また　あの…
+0104107|３|aigato mosjagemosjta|ありがとう　ございました。
+0104108|４|an toq gaqtsui ko: omo omosjtekaqta mon goande na: mata juqkuito kataq miro goq 〔goasjta〕 mon goande|あの時　とても　こう　おも、おもしろかった　もの　ですから　ねえ、また　ゆっくりと　話して　みたかった　ものですから。
+0104110|３|seqkaq asubi.… nai siq morjagetato goasjtadonkaran gaqtsui|せっかく　遊びに…　何　して　いただいたの　でしたけれども　どうも、
+0104111|４|ijaija|いえいえ。
+0104112|３|isogasi mon goande kora agaiagemo simohanzi|いそがしい　もの　ですから　これは　伺いも　しませずに、
+0104113|４|hai|ええ。
+0104114|３|suman koq goasjta|すまない　こと　でした〔申訳ございませんでした〕。
+0104201|４|i::ja mata do:ka hjtotsu ohiman tokja do:ka…|いいえ。また　どうか　ひとつ　おひまの　ときは　どうか…
+0104202|３|mata do:ka to:q toka joq joraqsjaq tamonse|また　どうか　通る　ときは、よ、寄らせて　ください。
+0104203|４|hai do:ka ojoq tamonse|はい。どうか　お寄り　ください。
+0104204|３|soinara mo. aigato mosjagemosjta|それなら　もう、ありがとう　ございました。
+0104205|４|aq|〔おじぎをしながら発する音〕

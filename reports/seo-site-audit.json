@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-03T14:40:59.707Z",
+  "totalStaticPages": 2315,
+  "indexable": 1014,
+  "noindex": 1301,
+  "missingRobotsDecision": 0,
+  "duplicateTitles": [
+    {
+      "value": "あんじょーの意味・使い方（益田市・大田市・島根県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-32-shimane-040",
+        "/dialects/jp-32-shimane-041"
+      ]
+    },
+    {
+      "value": "チンカモの意味・使い方（隠岐の島町・島根県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-32-shimane-049",
+        "/dialects/jp-32-shimane-050"
+      ]
+    },
+    {
+      "value": "チカマーリの意味・使い方（奈義町・岡山県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-33-okayama-048",
+        "/dialects/jp-33-okayama-049"
+      ]
+    },
+    {
+      "value": "しろえびの意味・使い方（倉敷市・岡山県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-33-okayama-059",
+        "/dialects/jp-33-okayama-060",
+        "/dialects/jp-33-okayama-061"
+      ]
+    },
+    {
+      "value": "がくの意味・使い方（倉敷市・岡山県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-33-okayama-062",
+        "/dialects/jp-33-okayama-063"
+      ]
+    },
+    {
+      "value": "ようの意味・使い方（広島県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-34-hiroshima-002",
+        "/dialects/jp-34-hiroshima-003",
+        "/dialects/jp-34-hiroshima-004"
+      ]
+    },
+    {
+      "value": "よう＋動詞＋んの意味・使い方（広島県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-34-hiroshima-005",
+        "/dialects/jp-34-hiroshima-006",
+        "/dialects/jp-34-hiroshima-007",
+        "/dialects/jp-34-hiroshima-008"
+      ]
+    },
+    {
+      "value": "うがすの意味・使い方（福山市・広島県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-34-hiroshima-023",
+        "/dialects/jp-34-hiroshima-024"
+      ]
+    },
+    {
+      "value": "しゅむの意味・使い方（福山市・広島県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-34-hiroshima-029",
+        "/dialects/jp-34-hiroshima-030"
+      ]
+    },
+    {
+      "value": "カコーの意味・使い方（三次市・広島県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-34-hiroshima-045",
+        "/dialects/jp-34-hiroshima-046"
+      ]
+    },
+    {
+      "value": "ナグルの意味・使い方（三好市・徳島県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-36-tokushima-036",
+        "/dialects/jp-36-tokushima-037"
+      ]
+    },
+    {
+      "value": "誰の意味・使い方（今治市・愛媛県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-38-ehime-047",
+        "/dialects/jp-38-ehime-048"
+      ]
+    },
+    {
+      "value": "どこの意味・使い方（今治市・愛媛県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-38-ehime-049",
+        "/dialects/jp-38-ehime-050"
+      ]
+    },
+    {
+      "value": "朝がの意味・使い方（宇和島市・愛媛県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-38-ehime-051",
+        "/dialects/jp-38-ehime-052"
+      ]
+    },
+    {
+      "value": "烏の意味・使い方（宇和島市・愛媛県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-38-ehime-053",
+        "/dialects/jp-38-ehime-054"
+      ]
+    },
+    {
+      "value": "牛がの意味・使い方（宇和島市・愛媛県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-38-ehime-055",
+        "/dialects/jp-38-ehime-056"
+      ]
+    },
+    {
+      "value": "桜の意味・使い方（宇和島市・愛媛県）｜ことばの地図",
+      "paths": [
+        "/dialects/jp-38-ehime-057",
+        "/dialects/jp-38-ehime-058"
+      ]
+    }
+  ],
+  "duplicateDescriptions": [
+    {
+      "value": "島根県・隠岐諸島での「チンカモ」の使用例。標準語では「友達」。確認状態と地域差を明示して紹介します。",
+      "paths": [
+        "/dialects/jp-32-shimane-049",
+        "/dialects/jp-32-shimane-050"
+      ]
+    },
+    {
+      "value": "愛媛県・今治・しまなみ海道周辺の島嶼部での「誰」の使用例。標準語では「誰」。確認状態と地域差を明示して紹介します。",
+      "paths": [
+        "/dialects/jp-38-ehime-047",
+        "/dialects/jp-38-ehime-048"
+      ]
+    },
+    {
+      "value": "愛媛県・今治・しまなみ海道周辺の島嶼部での「どこ」の使用例。標準語では「どこ」。確認状態と地域差を明示して紹介します。",
+      "paths": [
+        "/dialects/jp-38-ehime-049",
+        "/dialects/jp-38-ehime-050"
+      ]
+    },
+    {
+      "value": "愛媛県・宇和海側の島嶼部（九島）での「朝が」の使用例。標準語では「朝が」。確認状態と地域差を明示して紹介します。",
+      "paths": [
+        "/dialects/jp-38-ehime-051",
+        "/dialects/jp-38-ehime-052"
+      ]
+    },
+    {
+      "value": "愛媛県・宇和海側の島嶼部（九島）での「烏」の使用例。標準語では「烏」。確認状態と地域差を明示して紹介します。",
+      "paths": [
+        "/dialects/jp-38-ehime-053",
+        "/dialects/jp-38-ehime-054"
+      ]
+    },
+    {
+      "value": "愛媛県・宇和海側の島嶼部（九島）での「牛が」の使用例。標準語では「牛が」。確認状態と地域差を明示して紹介します。",
+      "paths": [
+        "/dialects/jp-38-ehime-055",
+        "/dialects/jp-38-ehime-056"
+      ]
+    },
+    {
+      "value": "愛媛県・宇和海側の島嶼部（九島）での「桜」の使用例。標準語では「桜」。確認状態と地域差を明示して紹介します。",
+      "paths": [
+        "/dialects/jp-38-ehime-057",
+        "/dialects/jp-38-ehime-058"
+      ]
+    },
+    {
+      "value": "高知県・嶺北など山間部での「サル」の使用例。標準語では「可能を表す助動詞（～できる）」。確認状態と地域差を明示して紹介します。",
+      "paths": [
+        "/dialects/jp-39-kochi-086",
+        "/dialects/jp-39-kochi-088"
+      ]
+    }
+  ],
+  "brokenInternalLinks": [],
+  "orphanStaticPages": [],
+  "underlinkedIndexablePages": []
+}

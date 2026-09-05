@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-09-05",
+  "status": "PASSED",
+  "failures": [],
+  "results": [
+    {
+      "id": "jp-41-region-佐賀平野",
+      "expected": 15,
+      "count": 15,
+      "pref": "p41",
+      "region": "jp-41-region-佐賀平野"
+    },
+    {
+      "id": "jp-47-region-宮古諸島",
+      "expected": 70,
+      "count": 70,
+      "pref": "p47",
+      "region": "jp-47-region-宮古諸島"
+    },
+    {
+      "id": "jp-01-region-道南",
+      "expected": 0,
+      "count": 0,
+      "pref": "p1",
+      "region": "jp-01-region-道南"
+    }
+  ]
+}

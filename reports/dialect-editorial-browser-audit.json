@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-04",
+  "engine": "Google Chrome headless via DevTools Protocol",
+  "viewports": [1440, 390],
+  "pages": [
+    {"id":"jp-46-kagoshima-022","h1":"おじゃったもんせ","sourceCount":2,"at1440":{"innerWidth":1440,"scrollWidth":1425,"horizontalOverflow":false},"at390":{"innerWidth":390,"scrollWidth":390,"horizontalOverflow":false},"rawMissingTokenExposed":false,"seoMetadataPresent":true},
+    {"id":"jp-46-kagoshima-049","h1":"バシ","sourceCount":1,"at1440":{"innerWidth":1440,"scrollWidth":1425,"horizontalOverflow":false},"at390":{"innerWidth":390,"scrollWidth":390,"horizontalOverflow":false},"rawMissingTokenExposed":false,"seoMetadataPresent":true},
+    {"id":"jp-06-yamagata-001","h1":"おしょうしな","sourceCount":2,"at1440":{"innerWidth":1440,"scrollWidth":1425,"horizontalOverflow":false},"at390":{"innerWidth":390,"scrollWidth":390,"horizontalOverflow":false},"rawMissingTokenExposed":false,"seoMetadataPresent":true}
+  ],
+  "checks": {
+    "meaningDuplicatedAsNuance": false,
+    "generatedNuanceAdded": false,
+    "sourceRendering": "passed",
+    "exampleRendering": "passed",
+    "verificationAndPendingState": "passed",
+    "titleDescriptionCanonicalRouteBehavior": "unchanged",
+    "horizontalOverflow": "none"
+  },
+  "note": "390px画像を単純なChrome --window-sizeで撮るとChrome自体の最小レイアウト幅により切れて見える場合があるため、合否はDevTools ProtocolのEmulation.setDeviceMetricsOverride後のinnerWidth/scrollWidthで判定した。"
+}

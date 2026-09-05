@@ -1,0 +1,72 @@
+Ｃ　主人をむかえる
+
+0100707|２|…《唄》　tsj mo:q kjta do: akenka:|《唄》　って。帰って　きた　ぞ。開けないか。
+0100708|１|hai|はい。
+0100709|２|konnja jokurotsjorande ne:|今夜は　酔っていないから　ね。
+0100710|１|hai okaennasai akemosjtado|はい、お帰りなさい。開けましたよ。
+0100711|２|n:|うん。
+0100712|１|hai|はい。
+0100713|２|e: mina kodonnu siwa netaka|ええ、みんな　子供　たちは　寝たか。
+0100801|１|hai mo jasunmosjta|はい　もう　休みました。
+0100802|２|minna okie: tsjue okie: tsj|皆　起きろ　と言え　起きろ　と。
+0100803|１|mo omansa: mo asjta gaqko:ga goansa:o sogen…|もう　あなた　もう、あした　学校が　ありますよ。そんなに…
+0100804|２|kimuqgan-ja: koremoqnando koq kjtade okie ima kue: tsj|木目羹や　高麗餅など　買って　来たから、起きろ　いま　食え　って。
+0100805|１|sonna murina koto ju:tatsi omansa:mo asjta gaqkoi deranna: narante imaka: okosjte sogenna monno tamorasjte iqmohande asjtano asade josi goansa o…|そんな　無理な　ことを　言ったって、あなたも、あした　学校へ　出なければ　ならないのに　いまから　起こして　そんな　物を　食べさせて　いけませんから　あしたの　朝で　よろしいです　よ…。
+0100808|２|sogenna koqga jaqsjen nai|そんな　ことが　いけないんだ。
+0100809|１|i:ja|いいえ。
+0100810|２|ima oiga kwasuqde. okos… okosje:|いま　おれが　食わせるから。おこ…　起こせ。
+0100811|１|i:ja kjowa okosja na:hando|いいえ、きょうは　起こしては　いけません。
+0100812|２|e: so:ja jo:sj soena: mo: waito hwtaide wake toqno hanahjdon kataq asubokai ne:|ああ　そうか。よし。それなら　もう　お前と　二人で　若い　時の　話でも　語って　遊ぼうか　ね。
+0100814|１|do:n omansa:mo okasjunnaka|でも　あなたも　みっともない。
+0100815|２|okasjunnaka tsi daimo kjtsja oija:nga|みっともない　って　誰も　聞いては　いないだろうに。
+0100816|１|n.damo 〔n:da mo sitan〕 daimo kjtsjoran tsjtenka: omansamo daika mitsjoqka si:mohan na o: naio okataijaqto gowahjka|あきれた　もう　知らない。誰も　聞いてはいない　といったって　あなた　だれか　見ているか　しりません　よ。なにを　お話しになるの　ですか。
+0100903|２|ma: waito gozenken banno hanahj zjaqten jokadon sonta anmai katainiki jai ne: ikura tosj toqten|まあ　おまえと　嫁入りの　晩の　話　だって　いいけれど、そんなのは　あんまり　話しにくい　よ　ね、いくら　年を　取っても。
+0100905|１|hai se:n goando naio okataijaqto gowahjka mo hajo: jasumjaq o mo: jokuroq osaijande|はい、そうで　ございますよ。なにを　お話しになるの　ですか。もう　早く　お休みなさい　よ。もう　酔っぱらって　いらっしゃるから。
+0100907|２|n: a: sogen ieba noqdonka: moro:ta osjo:tsju:ga ahjke tsiqto nokoqzjoqta haq zjaga|うん、ああ　そう　いえば　乃木さんから　もらった　お焼酎が　あそこに　ちょっと　残っていた　はず　だが。
+0100909|１|hai|はい。
+0100910|２|aito ne: siokaraga aqtsuroga katsuon siokaraga tsjqto nokoq oqta haq zjai ma tsiqto nomaseq mija:nka|あれと　ね、塩辛が　あっただろうが。鰹の　塩辛が　すこし　残って　いた　はずだ。もう　すこし　飲ませて　見ないか。
+0100912|１|ma:da onomijaqto gowahjka|まだ　お飲みになるの　ですか。
+0100913|２|ma tsiqto nomea neqda|もう　すこし　飲めば　寝るよ。
+0100914|１|mo: jo:si goansa o sosjko nonzjoqse: mata ahjtanbanden agereba jo:si goansa o|もう　いい　でしょう、それだけ　飲んでいて。また　あすの晩でも　あがれば　いい　でしょう。
+0100916|２|nnja honnokote neqga sohjko kurozjokade hjtoq nomea mo neqde siokarato kurozjoka iqpe. nomea konnja mo neqde e: joka jaq zjaqde honni omaja: mukahjkara beqpin zjaqtaga oi: sjotsju nomasuq koqdakea kora mo kansin zja ne: soide|いや　ほんとうに　寝るよ。それだけ　黒ヂョカで　ひとつ　飲めば　もう　寝るから。塩辛と　黒ヂョカ　いっぱい　飲めば　今夜〔は〕　もう　寝るから。ええ、いい　奴　だから。ほんとうに　お前は　昔から　別嬪　だったが、おれに　焼酎を　飲ませる　ことだけは　これはもう　感心　だ　ね。それで…
+0101005|１|sogen homeq morawasjten jo:si goande|そんなに　ほめて　もらわなくても　いい　ですから。
+0101006|２|a nnja homuqtoja nega waiga honnokote ne sokodakea kansin sjtsjorai hoide konnja ma nomaseq me.|あ、いや　褒めるのでは　ないが、お前〔には〕　ほんとに　ね　そこだけは　感心　しているよ。それで　今夜は　まあ　飲ませて　みろ。
+0101008|１|omannsa:mo sogen omomi… sogen zunbai jokuroq ozjaqte mada…|あなたはもう　そんなに　お飲み…、そんなに　たいへん　酔って　いらっしゃって　まだ…
+0101010|２|doke. jokuro:tsjoqka oja. tsjqtosoqton sjotsjude jokuro jaqzja naka sjotsju:nandode sono jokuro:tsja ikan|なにを　酔っているか。おれは　ちょっとやそっとの　焼酎で　酔う　奴では　ない。焼酎なんかで　その、酔っては　いかん。
+0101012|１|soina tsui:qto agemonde na:|それなら　すこし　上げますから　ね。
+0101013|２|n tsi:qtode jokaga n tsiqtode joka|うん　すこしで　いいよ。うん すこしで　いいよ。
+0101014|１|siokaramo gowahjka|塩辛も　ですか。
+0101015|２|siokara n: n:|塩辛、うん　うん。
+0101016|１|hai|はい。
+0101101|２|kora:|これは。
+0101102|１|hai agemonde na: mesjagaimose|はい　上げますから　ね、お飲みなさい。
+0101103|２|aqtaiga soke tsjanto ja:qtsjoise: kaketsjoq tsiga wariga n.no…|あるんだが、そこに　ちゃんと　やっていて　隠しているのが　悪いんだ。うん…
+0101105|１|kaketsjoija simohando|隠していは　しませんよ。
+0101106|２|honni:|ほんとに。
+0101107|１|meqsjagemose|お飲みなさい。
+0101108|２|n sora: itadakanna:|うん、それは　いただかねば。
+0101109|１|hai|はい。
+0101110|２|n: jaqpai sjotsju zjarai me: an ne: oiga kjowa ne: do.sjto kataikatai jaqtato jo: waigaadono okatamo wake toka joka ogozjo jaqtsurodon oigaadontomo joka ogozjo jaqta tsj ko: juq ne. don oigaadon okatan ho:ga modoqta toka ne sjotsjuo nomase qtsi ieba nomasuq tokoiga mata e wai tsi waigadonta anmai nomasen tsi hanasi zjaqtaga jadon okata: sjotsjuo nomasuq tokoidakewa korewa ju. deketa onago zjarai tsju: kataikatai jo|うん、やっぱり　焼酎　だなあ。あのね、おれが　きょうは　ね、友だちと　おしゃべりしたん　だったが　ね、お前のところの　女房も　若い　時は　いい　娘　だったろうけれど、おれのところのも　いい　娘　だった　って。こう　いってね、でも　おれのところの　女房の　方が　〔家に〕帰った　時は　ね　焼酎を　飲ませろ　と　言えば　飲ませる　ところが、また　いいわい　と、お前のところは　あんまり　飲ませない　という　話　だったが、家の　女房は　焼酎を　飲ませる　ところだけは　これは　よく　できた　女　だわい　といって　おしゃべりしたんだ　よ。
+0101202|１|mo sogen kotsu. omansa:mo waga okatan koqnando homuqto hjtoga waromondo|もう　そんな　ことを、あなたも　自分の　女房の　事など　ほめると　人が　笑いますよ。
+0101204|２|warudokai ne:|笑うだろうか　ね。
+0101205|１|waruto omansa:mo:|笑いますよ、あなたもう。
+0101206|２|sora mo:…|それは　もう〔そうだが〕…
+0101207|１|okasjka|変ですよ。
+0101208|２|… waga okatan kotsu katan monzja ne: ne: soina:|…　自分の　女房の　ことを　話す　ものでは　ない　ね、それなら。
+0101209|１|ha: soimo beqpin zjaqtoka nantoka kantoka sonna kotsu. ju:to hjtoga waromondo omansa: hanankega naga:ka tsi|はい　それも　別嬪　だとか　なんとか　かんとか　そんな　ことを　言うと　人が　笑いますよ、あなた　鼻の毛が　長い　って。
+0101211|２|waru.ka ne: e: hanankega nage: tsjutoka hanankega nage: tsjuta toka a ikanto zja ne: ara:|笑うか　ね。鼻の毛が　長い　というときは　鼻の毛が　長い　といった　ときは　いけないん　だ　ね、あれは。
+01012113|１|sora: iqmohanto: omansa:mo tsjtoa omansa. joka tsjohjde utadoma uteja:… a: oharabuhjdon utoqse: sohjte ojasumijanse hajo na:|それは　いけませんよ、あなたも。ちょっとは　あなた　いい　調子で　歌でも　歌いなさい…　小原節でも　歌って　そして　お休みなさい、早く。ね。
+0101216|２|…《唄》 tsui jo ne:|《唄》　って　ね。
+0101301|１|hai|はい。
+0101302|２|soika: naika jaqtaga jo:|それから　なにか　だったが　ね。
+0101303|１|maruni|「丸に」
+0101304|２|〔m〕aruni ija soijo wasurejoqto ikando|「丸に」　いや　それだ。忘れていたら　いかんぞ。
+0101305|１|zju.nozino maruni|「十の字の、丸に」
+0101306|２|…《唄》 tsi ju:to jaqdo:ga|《唄》　と　いうん　だろうが。
+0101307|１|hai joi joi joijasaqto|はい　《囃》
+0101308|２|e sogen iwanna ikanto …《唄》 tsj ju.tono arai ne:|そう　言わないと　いかんぞ。《唄》　と　いうのが　あるよね。
+0101309|１|mo: jua goahanka ojasumijanse hajo|もう　いいでは　ありませんか。お休みなさい、早く。
+0101310|２|ma tsiq… ma: tsi.qto nokoqtsjoranka sjotsjuwa|もう　ち…　もう　ちょっと　残っていないか、焼酎は。
+0101311|１|i:ja mo gowahan|いいえ　もう　ありません。
+0101312|２|mo: ne.qga mo: soina: tsintsin nerokai ne:|もう　ねるから。もう　それなら　ほつほつ　寝ようか　ね。
+0101313|１|haq mo ojasumijaq tamoq|はい　もう　お休みになって　ください。

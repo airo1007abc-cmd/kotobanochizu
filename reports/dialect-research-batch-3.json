@@ -1,0 +1,2715 @@
+{
+  "generatedAt": "2026-09-04",
+  "status": "research_and_proposals_only",
+  "productionDataChanged": false,
+  "summary": {
+    "pages": 30,
+    "approve": 3,
+    "hold": 2,
+    "reject": 26,
+    "confidence": {
+      "high": 30,
+      "medium": 1,
+      "low": 0
+    },
+    "formMatch": {
+      "exact": 30,
+      "variant": 0,
+      "uncertain": 1
+    },
+    "pagesWithNewInformation": 3,
+    "alreadySufficientPages": 26,
+    "correctionCandidatePages": 4,
+    "regionCandidates": 3,
+    "entrySplitCandidates": 1,
+    "readingCandidates": 0,
+    "sourceAttestedExamplePages": 25,
+    "sourceTiers": {
+      "tier1": 25,
+      "tier3": 4,
+      "tier2": 1
+    }
+  },
+  "setReviews": [
+    {
+      "set": 1,
+      "pages": [
+        "jp-05-akita-003",
+        "jp-09-tochigi-002",
+        "jp-12-chiba-003",
+        "jp-17-ishikawa-003",
+        "jp-19-yamanashi-003"
+      ],
+      "checks": {
+        "tier12Prioritized": true,
+        "homonymsChecked": true,
+        "regionMatched": true,
+        "exactNotOverstated": true,
+        "noRedundantEnhancement": true,
+        "noOverclaim": true
+      }
+    },
+    {
+      "set": 2,
+      "pages": [
+        "jp-21-gifu-003",
+        "jp-22-shizuoka-003",
+        "jp-23-aichi-003",
+        "jp-26-kyoto-002",
+        "jp-28-hyogo-002"
+      ],
+      "checks": {
+        "tier12Prioritized": true,
+        "homonymsChecked": true,
+        "regionMatched": true,
+        "exactNotOverstated": true,
+        "noRedundantEnhancement": true,
+        "noOverclaim": true
+      }
+    },
+    {
+      "set": 3,
+      "pages": [
+        "jp-35-yamaguchi-003",
+        "jp-39-kochi-002",
+        "jp-40-fukuoka-035",
+        "jp-42-nagasaki-052",
+        "jp-43-kumamoto-005"
+      ],
+      "checks": {
+        "tier12Prioritized": true,
+        "homonymsChecked": true,
+        "regionMatched": true,
+        "exactNotOverstated": true,
+        "noRedundantEnhancement": true,
+        "noOverclaim": true
+      }
+    },
+    {
+      "set": 4,
+      "pages": [
+        "jp-44-oita-023",
+        "jp-45-miyazaki-003",
+        "jp-46-kagoshima-002",
+        "jp-47-okinawa-002",
+        "jp-05-akita-004"
+      ],
+      "checks": {
+        "tier12Prioritized": true,
+        "homonymsChecked": true,
+        "regionMatched": true,
+        "exactNotOverstated": true,
+        "noRedundantEnhancement": true,
+        "noOverclaim": true
+      }
+    },
+    {
+      "set": 5,
+      "pages": [
+        "jp-09-tochigi-003",
+        "jp-12-chiba-004",
+        "jp-17-ishikawa-004",
+        "jp-19-yamanashi-004",
+        "jp-21-gifu-004"
+      ],
+      "checks": {
+        "tier12Prioritized": true,
+        "homonymsChecked": true,
+        "regionMatched": true,
+        "exactNotOverstated": true,
+        "noRedundantEnhancement": true,
+        "noOverclaim": true
+      }
+    },
+    {
+      "set": 6,
+      "pages": [
+        "jp-22-shizuoka-004",
+        "jp-23-aichi-004",
+        "jp-26-kyoto-003",
+        "jp-28-hyogo-003",
+        "jp-35-yamaguchi-004"
+      ],
+      "checks": {
+        "tier12Prioritized": true,
+        "homonymsChecked": true,
+        "regionMatched": true,
+        "exactNotOverstated": true,
+        "noRedundantEnhancement": true,
+        "noOverclaim": true
+      }
+    }
+  ],
+  "pages": [
+    {
+      "batchSet": 1,
+      "id": "jp-05-akita-003",
+      "word": "しぇば",
+      "prefecture": "秋田県",
+      "currentData": {
+        "reading": "しぇば",
+        "meaning": "すると・それなら",
+        "description": "男鹿市脇本大倉の「しぇば」は、前の内容を受けて「すると」「それなら」と話を進める接続表現として1967年録音に記録されています。ナマハゲの振る舞い、鳥の来訪、昔の苦労を語る複数の対話に現れます。仮定と結果の細かな違い、現在の使用頻度は未確認です。",
+        "exampleDialect": "しぇば、こんど御免してくれって。",
+        "exampleStandard": "すると、今度は勘弁してくださいと言って。",
+        "region": "男鹿半島",
+        "municipality": "男鹿市脇本大倉",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-05-akita-003-source-1",
+          "title": "方言録音資料シリーズ6 秋田県男鹿市脇本大倉方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://repository.ninjal.ac.jp/record/3042/files/kk_hgrs_006.pdf",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-05-akita-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-05-akita-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "しぇば、こんど御免してくれって。",
+          "standard": "すると、今度は勘弁してくださいと言って。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-05-akita-003-source-1",
+          "originalText": "しぇば、こんど御免してくれって。",
+          "location": "資料7頁の sjeba と逐語対訳「すると」を確認。資料6・8頁などにも話を受ける用例がある。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-05-akita-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 1,
+      "id": "jp-09-tochigi-002",
+      "word": "かがむ",
+      "prefecture": "栃木県",
+      "currentData": {
+        "reading": "かがむ",
+        "meaning": "寒さで指がかじかむ",
+        "description": "佐野方言の「かがむ」は、寒さで手の指がこわばり、曲がって思うように動かない「かじかむ」状態を表します。佐野市の解説では、共通語で姿勢を低くする「かがむ」と形が同じでも、指先が寒さで硬直する状態に意味が移った表現とされています。",
+        "exampleDialect": "あんまりサミーもんだから、手の指がカガンジャッタ。",
+        "exampleStandard": "あまりに寒いものだから、手の指がかじかんでしまった。",
+        "region": "県南",
+        "municipality": "佐野市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-09-tochigi-002-source-1",
+          "title": "状態を表す「寒さ」の方言あれこれ",
+          "organization": "佐野市",
+          "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4986.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-09-tochigi-002-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-09-tochigi-002-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "あんまりサミーもんだから、手の指がカガンジャッタ。",
+          "standard": "あまりに寒いものだから、手の指がかじかんでしまった。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-09-tochigi-002-source-1",
+          "originalText": "あんまりサミーもんだから、手の指がカガンジャッタ。",
+          "location": "佐野市公式の方言連載で、意味・用例・共通語の同形語との違いを確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-09-tochigi-002-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 1,
+      "id": "jp-12-chiba-003",
+      "word": "あっちんほー",
+      "prefecture": "千葉県",
+      "currentData": {
+        "reading": "あっちんほー",
+        "meaning": "あちらの方",
+        "description": "富津市公式の方言表にある「あっちんほー」は、話し手から離れた「あちらの方」を指す表現です。資料では、誰かがあちらの方向へ行ったと伝える使用例が示されています。距離の程度、方角の限定、人物以外を指す用法、現在の使用頻度は確認できません。",
+        "exampleDialect": "あっちんほーへ行ったよ。",
+        "exampleStandard": "あちらの方へ行ったよ。",
+        "region": "富津",
+        "municipality": "富津市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-12-chiba-003-source-1",
+          "title": "ふっつの方言",
+          "organization": "富津市",
+          "url": "https://www.city.futtsu.lg.jp/0000000795.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-12-chiba-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-12-chiba-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "あっちんほーへ行ったよ。",
+          "standard": "あちらの方へ行ったよ。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-12-chiba-003-source-1",
+          "originalText": "あっちんほーへ行ったよ。",
+          "location": "富津市公式ページの表で語形、意味「あちらの方」、使用例を確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-12-chiba-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 1,
+      "id": "jp-17-ishikawa-003",
+      "word": "～のきゃ",
+      "prefecture": "石川県",
+      "currentData": {
+        "reading": "のきゃ",
+        "meaning": "～ですよね",
+        "description": "珠洲市の「～のきゃ」は、「～ですよね」に当たる文末表現として、市公式の方言表に記録されています。資料には「そうですよね」と相手へ同意や確認を示す短い用例があり、会話の文末での働きを確認できます。声調による違い、丁寧さの程度、現在の使用頻度や世代差は未確認です。",
+        "exampleDialect": "そうやのきゃ。",
+        "exampleStandard": "そうですよね。",
+        "region": "能登",
+        "municipality": "珠洲市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-17-ishikawa-003-source-1",
+          "title": "方言",
+          "organization": "珠洲市",
+          "url": "https://www.city.suzu.lg.jp/site/kankou/1800.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-17-ishikawa-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-17-ishikawa-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "そうやのきゃ。",
+          "standard": "そうですよね。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-17-ishikawa-003-source-1",
+          "originalText": "そうやのきゃ。",
+          "location": "珠洲市公式観光サイトの方言表で、語形・標準語訳・用例と用例訳を確認。現在の使用実態は未確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-17-ishikawa-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 1,
+      "id": "jp-19-yamanashi-003",
+      "word": "いんめい",
+      "prefecture": "山梨県",
+      "currentData": {
+        "reading": "いんめい",
+        "meaning": "少し",
+        "description": "早川町奈良田の「いんめい」は、「少し」を表す語として、町教育委員会刊行資料の方言表に記録されています。資料には何かを少量求める短い依頼例があり、量の程度を示す用法を確認できます。現代の日常会話での頻度や使用世代、発音の詳細は未確認です。",
+        "exampleDialect": "いんめい下さい。",
+        "exampleStandard": "少し下さい。",
+        "region": "国中",
+        "municipality": "早川町奈良田",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-19-yamanashi-003-source-1",
+          "title": "早川町の方言",
+          "organization": "早川町・早川町教育委員会",
+          "url": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-19-yamanashi-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-19-yamanashi-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "いんめい下さい。",
+          "standard": "少し下さい。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-19-yamanashi-003-source-1",
+          "originalText": "いんめい下さい。",
+          "location": "早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-19-yamanashi-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 2,
+      "id": "jp-21-gifu-003",
+      "word": "あかん",
+      "prefecture": "岐阜県",
+      "currentData": {
+        "reading": "あかん",
+        "meaning": "だめ・いけない",
+        "description": "垂井町岩手漆原の「あかん」は、「だめ」「いけない」に当たる否定的な判断の表現です。1967年録音では、目にほこりやばい菌が入る危険を強く制止する発話や、補聴器を着けなければならないと述べる会話に現れます。現在の使用範囲や語調の差は未確認です。",
+        "exampleDialect": "あかん、あかん、あかんて。",
+        "exampleStandard": "だめ、だめ、だめだって。",
+        "region": "美濃",
+        "municipality": "垂井町岩手漆原",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-21-gifu-003-source-1",
+          "title": "方言録音資料シリーズ4 岐阜県不破郡垂井町岩手方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://mmsrv.ninjal.ac.jp/hogenrokuon_siryo/",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-21-gifu-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-21-gifu-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "あかん、あかん、あかんて。",
+          "standard": "だめ、だめ、だめだって。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-21-gifu-003-source-1",
+          "originalText": "あかん、あかん、あかんて。",
+          "location": "資料0400912の音韻表記 akaN akaN akaNte と標準語対訳「だめ、だめ、だめだって」を確認。0400601ほかにも「だめ」に対応する複数用例がある。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-21-gifu-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 2,
+      "id": "jp-22-shizuoka-003",
+      "word": "おくう",
+      "prefecture": "静岡県",
+      "currentData": {
+        "reading": "おくう",
+        "meaning": "ください",
+        "description": "焼津の「おくう」は、市の方言資料で「ください」に対応する表現として紹介されています。物を求めるときだけでなく、「やめておくう」のように動詞に続け、行為をやめてほしいと頼む補助動詞的な使い方も記録されている点が特徴です。",
+        "exampleDialect": "どう、ひとつおくう。",
+        "exampleStandard": "どれ、ひとつください。",
+        "region": "中部",
+        "municipality": "焼津市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-22-shizuoka-003-source-1",
+          "title": "方言「あ行」",
+          "organization": "焼津市歴史民俗資料館",
+          "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/a-gyou.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-22-shizuoka-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-22-shizuoka-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "どう、ひとつおくう。",
+          "standard": "どれ、ひとつください。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-22-shizuoka-003-source-1",
+          "originalText": "どう、ひとつおくう。",
+          "location": "焼津市歴史民俗資料館の方言ページで、意味・用例・補助動詞としての用法を確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-22-shizuoka-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 2,
+      "id": "jp-23-aichi-003",
+      "word": "～ほかねえ",
+      "prefecture": "愛知県",
+      "currentData": {
+        "reading": "ほかねえ",
+        "meaning": "～しかない",
+        "description": "小牧市藤島の「～ほかねえ」は、数量を限定する「～しかない」に当たる表現として1967年録音に記録されています。小牧方面のバスについて、日中は一本しかなく不便だと説明する発話に現れます。名詞以外への接続、否定との文法関係、現在の使用頻度や世代差は未確認です。",
+        "exampleDialect": "日中は一本ほかねえ。小牧行きは不便だわな。",
+        "exampleStandard": "日中は一本しかない。小牧行きは不便だ。",
+        "region": "尾張",
+        "municipality": "小牧市藤島",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-23-aichi-003-source-1",
+          "title": "方言録音資料シリーズ10 愛知県小牧市藤島方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://repository.ninjal.ac.jp/record/3046/files/kk_hgrs_010.pdf",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-23-aichi-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-23-aichi-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "日中は一本ほかねえ。小牧行きは不便だわな。",
+          "standard": "日中は一本しかない。小牧行きは不便だ。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-23-aichi-003-source-1",
+          "originalText": "日中は一本ほかねえ。小牧行きは不便だわな。",
+          "location": "資料6頁の音韻表記 iqpoNhoka næ: と直下の標準語対訳「1本しか 無い」を確認。見出しは数量語を除いた形。録音時77歳の男性話者。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-23-aichi-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 2,
+      "id": "jp-26-kyoto-002",
+      "word": "～さかい",
+      "prefecture": "京都府",
+      "currentData": {
+        "reading": "さかい",
+        "meaning": "～ので・～から",
+        "description": "京都市方言の「～さかい」は、理由や原因を示す「～ので」「～から」に当たる接続表現です。1964年録音では、旧家の品を若い家族が大切にしているため出せないと説明する60代女性の発話や、20代女性が行動の理由を述べる自然会話に記録されています。接続形による差は未確認です。",
+        "exampleDialect": "大事にしてるもんどすさかい、なかなか出さはらへんの。",
+        "exampleStandard": "大事にしているものですから、なかなか出しませんの。",
+        "region": "京都市周辺",
+        "municipality": "京都市（録音地点非公表）",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-26-kyoto-002-source-1",
+          "title": "方言録音資料シリーズ11 京都市方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://mmsrv.ninjal.ac.jp/hogenrokuon_siryo/",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-26-kyoto-002-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-26-kyoto-002-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "大事にしてるもんどすさかい、なかなか出さはらへんの。",
+          "standard": "大事にしているものですから、なかなか出しませんの。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-26-kyoto-002-source-1",
+          "originalText": "大事にしてるもんどすさかい、なかなか出さはらへんの。",
+          "location": "資料1100610の deqsakaini と標準語対訳「ですから」を確認。1100505、1112211など異なる世代の話者にも複数用例がある。例文は音韻表記と対訳から保守的に仮名化。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-26-kyoto-002-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 2,
+      "id": "jp-28-hyogo-002",
+      "word": "ぴりぴり",
+      "prefecture": "兵庫県",
+      "currentData": {
+        "reading": "ぴりぴり",
+        "meaning": "雨がごく弱く降る様子",
+        "description": "播州地域の「ぴりぴり」は、西脇市の公式資料で、雨の降り方が「ポツポツ」よりやや弱い様子を表すことばとして紹介されています。痛みや緊張を表す共通語の「ぴりぴり」と同じ形ですが、この用法では空模様や降り始めを伝える表現です。",
+        "exampleDialect": "雨がぴりぴり降ってきたなぁ。",
+        "exampleStandard": "雨がごく弱く降ってきたね。",
+        "region": "播磨",
+        "municipality": "西脇市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-28-hyogo-002-source-1",
+          "title": "転入される方へのご案内（播州弁辞典）",
+          "organization": "西脇市",
+          "url": "https://www.city.nishiwaki.lg.jp/material/files/group/61/tennyusarerukatahenogoannnai.pdf",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-28-hyogo-002-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-28-hyogo-002-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "雨がぴりぴり降ってきたなぁ。",
+          "standard": "雨がごく弱く降ってきたね。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-28-hyogo-002-source-1",
+          "originalText": "雨がぴりぴり降ってきたなぁ。",
+          "location": "西脇市の転入者向け公式案内にある播州弁辞典で、意味と用例を確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-28-hyogo-002-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 3,
+      "id": "jp-35-yamaguchi-003",
+      "word": "ああぬく",
+      "prefecture": "山口県",
+      "currentData": {
+        "reading": "ああぬく",
+        "meaning": "仰向く・上を向く",
+        "description": "周南地方の「ああぬく」は、「仰向く」「上を向く」を表す動詞として、2024年版『てれんこぽれんこ山口弁』に記録されています。資料には上を向いて見るよう促す例文があり、「ああぬけ」は仰向けの意味とも説明されています。活用の全体、地域内分布、現在の使用頻度は未確認です。",
+        "exampleDialect": "ああぬいて見いやー。",
+        "exampleStandard": "上を向いて見なさい。",
+        "region": "県東部（岩国・柳井など）",
+        "municipality": "周南地域",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-35-yamaguchi-003-source-1",
+          "title": "てれんこぽれんこ山口弁",
+          "organization": "阿部啓治（編）・萩市立図書館",
+          "url": "https://hagilib.city.hagi.lg.jp/hagilib-archive/image/863.pdf",
+          "sourceTier": 3,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-35-yamaguchi-003-claim-1",
+          "field": "regionName",
+          "claim": "資料対象とmunicipalityに合わせ、県東部ではなく周南地方として扱う。",
+          "evidence": [
+            "jp-35-yamaguchi-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "APPROVE",
+          "changeType": "correction",
+          "reason": "主要資料は『山口弁（周南地方）辞典』の増補改訂版。現行municipalityも周南地域で、県東部（岩国・柳井など）の直接根拠はない。"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "ああぬいて見いやー。",
+          "standard": "上を向いて見なさい。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-35-yamaguchi-003-source-1",
+          "originalText": "ああぬいて見いやー。",
+          "location": "阿部啓治編、萩市立図書館デジタルアーカイブ公開資料の見出し2で、意味・派生形・二つの用例を確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "regionName",
+          "status": "approve",
+          "finding": "主要資料は『山口弁（周南地方）辞典』の増補改訂版。現行municipalityも周南地域で、県東部（岩国・柳井など）の直接根拠はない。"
+        }
+      ],
+      "proposedChanges": [
+        {
+          "field": "regionName",
+          "before": "県東部（岩国・柳井など）",
+          "after": "周南地方",
+          "claim": "資料対象とmunicipalityに合わせ、県東部ではなく周南地方として扱う。",
+          "evidence": [
+            "jp-35-yamaguchi-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "APPROVE",
+          "changeType": "correction",
+          "reason": "主要資料は『山口弁（周南地方）辞典』の増補改訂版。現行municipalityも周南地域で、県東部（岩国・柳井など）の直接根拠はない。"
+        }
+      ],
+      "approvedClaims": [
+        "jp-35-yamaguchi-003-claim-1"
+      ],
+      "heldClaims": [],
+      "rejectedClaims": [],
+      "unresolved": [],
+      "correctionCandidates": [
+        {
+          "field": "regionName",
+          "decision": "APPROVE",
+          "reason": "主要資料は『山口弁（周南地方）辞典』の増補改訂版。現行municipalityも周南地域で、県東部（岩国・柳井など）の直接根拠はない。"
+        }
+      ],
+      "recommendation": "APPROVE claimのみ人間確認後にpatch化。今回は本番反映しない。"
+    },
+    {
+      "batchSet": 3,
+      "id": "jp-39-kochi-002",
+      "word": "あて",
+      "prefecture": "高知県",
+      "currentData": {
+        "reading": "あて",
+        "meaning": "私",
+        "description": "高知市朝倉米田の「あて」は、話し手自身を指す一人称「私」です。1967年録音の女性話者が、しばてんの昔話を語る場面で繰り返し使用しています。原資料の注では男女共用とされる一方、当時すでに高知市の若い人はほとんど使わないと記録されています。",
+        "exampleDialect": "あてが、これからその話をしちゃうき。",
+        "exampleStandard": "私が、これからその話をしてあげるから。",
+        "region": "高知市周辺・県中央部",
+        "municipality": "高知市朝倉米田",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-39-kochi-002-source-1",
+          "title": "方言録音資料シリーズ5 高知県高知市朝倉米田方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://mmsrv.ninjal.ac.jp/hogenrokuon_siryo/",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-39-kochi-002-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-39-kochi-002-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "あてが、これからその話をしちゃうき。",
+          "standard": "私が、これからその話をしてあげるから。"
+        },
+        {
+          "type": "editorial_example",
+          "source": "jp-39-kochi-002-source-1",
+          "originalText": "あてが、これからその話をしちゃうき。",
+          "location": "資料0500501注1が ate・atei を男女共用の一人称と説明し、高知市では若者がほとんど使わないと記録。0500602の ate~ga と対訳「わたしが」を例文化。録音時72歳の女性話者。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-39-kochi-002-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 3,
+      "id": "jp-40-fukuoka-035",
+      "word": "あゆる",
+      "prefecture": "福岡県",
+      "currentData": {
+        "reading": "あゆる",
+        "meaning": "落ちる",
+        "description": "落下する意味。 「あゆる」は、筑後市を対象とする資料「日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選」に掲載されています。語形・意味・地域に加えて掲載用例も確認済みです。現在の使用頻度、世代差、発音は追加調査中です。",
+        "exampleDialect": "柿が熟して、木からあゆるのを見た。",
+        "exampleStandard": "柿が熟して、木から落ちるのを見た。",
+        "region": "筑後",
+        "municipality": "筑後市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-40-fukuoka-035-source-1",
+          "title": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選",
+          "organization": "筑後市教育委員会",
+          "url": "https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-02",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-40-fukuoka-035-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-40-fukuoka-035-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "柿が熟して、木からあゆるのを見た。",
+          "standard": "柿が熟して、木から落ちるのを見た。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-40-fukuoka-035-source-1",
+          "originalText": "柿が熟して、木からあゆるのを見た。",
+          "location": "筑後市教育委員会の「残したい方言50選」に方言・意味・使い方を掲載。 掲載箇所: pp.3-4 (PDF表示上の掲載箇所)。 2026年現在の世代別頻度・アクセント未確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-40-fukuoka-035-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 3,
+      "id": "jp-42-nagasaki-052",
+      "word": "あっぱよ〜",
+      "prefecture": "長崎県",
+      "currentData": {
+        "reading": "あっぱよー",
+        "meaning": "驚き・恐怖の際に発する言葉",
+        "description": "「あっぱよ〜」は、新上五島町（地区差あり）のことばとして資料「五島弁講座」に収録され、標準語の「驚き・恐怖の際に発する言葉」にあたると説明されています。掲載用例も同じ資料で確認していますが、現在の使用頻度や世代差は追加調査中です。",
+        "exampleDialect": "（鹿が飛び出してきて）あっぱよ～",
+        "exampleStandard": "（鹿が飛び出してきて）びっくりした",
+        "region": "五島",
+        "municipality": "新上五島町",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-42-nagasaki-052-source-1",
+          "title": "五島弁講座",
+          "organization": "新上五島町ポータルサイト（新上五島町地域情報）",
+          "url": "https://shinkamigoto.com/tour/about/dialect",
+          "sourceTier": 3,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-02",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-42-nagasaki-052-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-42-nagasaki-052-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "（鹿が飛び出してきて）あっぱよ～",
+          "standard": "（鹿が飛び出してきて）びっくりした"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-42-nagasaki-052-source-1",
+          "originalText": "（鹿が飛び出してきて）あっぱよ～",
+          "location": "サイトは新上五島町内でよく聞いたり使われる代表的方言として掲載。地区差があることも別の町公式資料で明記。 地区単位の分布・世代差は追加確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-42-nagasaki-052-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 3,
+      "id": "jp-43-kumamoto-005",
+      "word": "ちゃんこ",
+      "prefecture": "熊本県",
+      "currentData": {
+        "reading": "ちゃんこ",
+        "meaning": "お座り",
+        "description": "子どもなどに座るよう促す際の表現として掲載される。 「ちゃんこ」は、熊本市中央区を対象とする資料「熊本市へようこそ！中央区へようこそ！」に掲載されています。語形・意味・地域に加えて掲載用例も確認済みです。現在の使用頻度、世代差、発音は追加調査中です。",
+        "exampleDialect": "ここにちゃんこして",
+        "exampleStandard": "ここにお座りして",
+        "region": "熊本周辺",
+        "municipality": "熊本市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-43-kumamoto-005-source-1",
+          "title": "熊本市へようこそ！中央区へようこそ！",
+          "organization": "熊本市中央区役所総務企画課",
+          "url": "https://www.city.kumamoto.jp/chuo/kiji00323740/5_23740_166195_up_VOQTRDC5.pdf",
+          "sourceTier": 3,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-02",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-43-kumamoto-005-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-43-kumamoto-005-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "ここにちゃんこして",
+          "standard": "ここにお座りして"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-43-kumamoto-005-source-1",
+          "originalText": "ここにちゃんこして",
+          "location": "掲載箇所: pp.5-6。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-43-kumamoto-005-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 4,
+      "id": "jp-44-oita-023",
+      "word": "～よる",
+      "prefecture": "大分県",
+      "currentData": {
+        "reading": "～よる",
+        "meaning": "～ている（動作の進行）",
+        "description": "動作が進行中であることを示す継続形式。 「～よる」は、日田市天瀬町・大鶴本町を対象とする資料「要地方言の活用体系記述 大分県由布市庄内町方言」に掲載されています。語形・意味・地域に加えて掲載用例も確認済みです。現在の使用頻度、世代差、発音は追加調査中です。",
+        "exampleDialect": "イマー ネンガジョー カキヨルンジャ。",
+        "exampleStandard": "今、年賀状を書いているのだ。",
+        "region": "西部",
+        "municipality": "佐伯市・竹田市等・由布市庄内町 日田市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-44-oita-023-source-1",
+          "title": "要地方言の活用体系記述 大分県由布市庄内町方言",
+          "organization": "松田美香／方言文法研究会",
+          "url": "https://hougen.sakura.ne.jp/shuppan/2017/3-15.pdf",
+          "sourceTier": 2,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-02",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-44-oita-023-claim-1",
+          "field": "description",
+          "claim": "由布市庄内町・日田市天瀬町等の資料を混同せず、進行のヨルと結果継続のチョル／ジョルを資料別に整理する。",
+          "evidence": [
+            "jp-44-oita-023-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "APPROVE",
+          "changeType": "correction",
+          "reason": "現行descriptionは由布市資料の題名に日田市天瀬町・大鶴本町を対象地点として結び付けており、資料と地域の対応が不正確。"
+        },
+        {
+          "id": "jp-44-oita-023-claim-2",
+          "field": "regionName",
+          "claim": "西部以外の佐伯市・竹田市等を含む複数地点を単一regionへどう正規化するか再検討する。",
+          "evidence": [
+            "jp-44-oita-023-source-1"
+          ],
+          "confidence": "medium",
+          "exactFormMatch": "uncertain",
+          "decision": "HOLD",
+          "changeType": "region_refinement",
+          "reason": "既存municipalityが西部・南部の地点を併記しており、大幅な地域変更には人間確認が必要。"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "イマー ネンガジョー カキヨルンジャ。",
+          "standard": "今、年賀状を書いているのだ。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-44-oita-023-source-1",
+          "originalText": "イマー ネンガジョー カキヨルンジャ。",
+          "location": "由布市庄内町資料は「ヨル」を動作進行、「チョル／ジョル」を主に完了・結果継続として記述。 南部資料B20（https://www.fukujo.ac.jp/university/burger_editor/burger_editor/dl/54__YjIw.pdf）でも「ている（進行）＝～ヨル／～ヨン」を確認。 佐伯市『市報さいき』2019年8月号（https://www.city.saiki.oita.jp/kiji0033490/3_3490_shiryou1_xmmnjk16.pdf）でも特徴的な語尾「～よる」が挙げられている。 追加資料：松田美香『要地方言の活用体系記述 大分県日田市天瀬方言』（https://hougen.sakura.ne.jp/shuppan/2025/09_katsuyo06.pdf）pp.70–71。日田市天瀬町では動作進行に「-ョール／ヨル」を用い、若年層では「ヨン／ヨー」が多い。例「ハナコワ イマ テレビ ミヨル。」も確認した。 掲載箇所: p.150。  候補資料では「中部・西部・南部」でも確認されているため、主地域を「西部」として整理し、他地域の分布は注記として保持する。  原資料の世代表記: 若年層（日田のヨン／ヨー形）、高年層（日田市天瀬町）、高年層（由布市庄内町の調査話者）。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "approve",
+          "finding": "現行descriptionは由布市資料の題名に日田市天瀬町・大鶴本町を対象地点として結び付けており、資料と地域の対応が不正確。"
+        },
+        {
+          "field": "regionName",
+          "status": "hold",
+          "finding": "既存municipalityが西部・南部の地点を併記しており、大幅な地域変更には人間確認が必要。"
+        }
+      ],
+      "proposedChanges": [
+        {
+          "field": "description",
+          "before": "動作が進行中であることを示す継続形式。 「～よる」は、日田市天瀬町・大鶴本町を対象とする資料「要地方言の活用体系記述 大分県由布市庄内町方言」に掲載されています。語形・意味・地域に加えて掲載用例も確認済みです。現在の使用頻度、世代差、発音は追加調査中です。",
+          "after": "由布市庄内町の資料では「～よる」を動作の進行を示す形式とし、「～ちょる／～じょる」は主に完了・結果の継続を示すと記述しています。日田市天瀬町の資料にも進行形「～よる／～よーる」が記録されています。複数地点の資料をまとめたレコードであり、地点ごとの形と世代差は資料ごとに区別します。",
+          "claim": "由布市庄内町・日田市天瀬町等の資料を混同せず、進行のヨルと結果継続のチョル／ジョルを資料別に整理する。",
+          "evidence": [
+            "jp-44-oita-023-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "APPROVE",
+          "changeType": "correction",
+          "reason": "現行descriptionは由布市資料の題名に日田市天瀬町・大鶴本町を対象地点として結び付けており、資料と地域の対応が不正確。"
+        },
+        {
+          "field": "regionName",
+          "before": "西部",
+          "after": null,
+          "claim": "西部以外の佐伯市・竹田市等を含む複数地点を単一regionへどう正規化するか再検討する。",
+          "evidence": [
+            "jp-44-oita-023-source-1"
+          ],
+          "confidence": "medium",
+          "exactFormMatch": "uncertain",
+          "decision": "HOLD",
+          "changeType": "region_refinement",
+          "reason": "既存municipalityが西部・南部の地点を併記しており、大幅な地域変更には人間確認が必要。"
+        }
+      ],
+      "approvedClaims": [
+        "jp-44-oita-023-claim-1"
+      ],
+      "heldClaims": [
+        "jp-44-oita-023-claim-2"
+      ],
+      "rejectedClaims": [],
+      "unresolved": [
+        "既存municipalityが西部・南部の地点を併記しており、大幅な地域変更には人間確認が必要。"
+      ],
+      "correctionCandidates": [
+        {
+          "field": "description",
+          "decision": "APPROVE",
+          "reason": "現行descriptionは由布市資料の題名に日田市天瀬町・大鶴本町を対象地点として結び付けており、資料と地域の対応が不正確。"
+        },
+        {
+          "field": "regionName",
+          "decision": "HOLD",
+          "reason": "既存municipalityが西部・南部の地点を併記しており、大幅な地域変更には人間確認が必要。"
+        }
+      ],
+      "recommendation": "APPROVE claimのみ人間確認後にpatch化。今回は本番反映しない。"
+    },
+    {
+      "batchSet": 4,
+      "id": "jp-45-miyazaki-003",
+      "word": "そげん",
+      "prefecture": "宮崎県",
+      "currentData": {
+        "reading": "そげん",
+        "meaning": "そんなに",
+        "description": "都城市上長飯町の「そげん」は、「そんなに」を表す指示・程度表現として、1963年録音の自然対話に記録されています。資料には、日照の程度、考え方、苗の状態などについて話す複数の用例があります。対象や後続表現による細かな用法、現在の使用頻度や世代差は未確認です。",
+        "exampleDialect": "そげん考えちょっどん。",
+        "exampleStandard": "そんなに考えているけれど。",
+        "region": "県西",
+        "municipality": "都城市上長飯町",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-45-miyazaki-003-source-1",
+          "title": "方言録音資料シリーズ2 宮崎県都城市方言録音資料",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://mmsrv.ninjal.ac.jp/hogenrokuon_siryo/",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-45-miyazaki-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-45-miyazaki-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "そげん考えちょっどん。",
+          "standard": "そんなに考えているけれど。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-45-miyazaki-003-source-1",
+          "originalText": "そげん考えちょっどん。",
+          "location": "資料文94の音韻表記 sogeN kaNgecjoqdoN と標準語訳「そんなに 考えているけど」を確認。仮名例は音韻表記を保守的に転写。録音時36歳の男性話者。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-45-miyazaki-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 4,
+      "id": "jp-46-kagoshima-002",
+      "word": "がっつい",
+      "prefecture": "鹿児島県",
+      "currentData": {
+        "reading": "がっつい",
+        "meaning": "ほんとに・本当に",
+        "description": "旧笠沙町片浦の「がっつい」は、「ほんとに」「本当に」に当たる強調表現として、1966年録音の複数の対話に記録されています。資料では、大火を思い出して身の毛がよだつと述べる発話や、蓬摘みに行けない嘆きに現れます。現在の使用頻度、世代差、強調の程度は未確認です。",
+        "exampleDialect": "火事ちなれば、がっつい身の毛がよだっが。",
+        "exampleStandard": "火事となれば、本当に身の毛がよだつよ。",
+        "region": "薩摩",
+        "municipality": "旧笠沙町片浦",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-46-kagoshima-002-source-1",
+          "title": "方言録音資料シリーズ3 鹿児島県川辺郡笠沙町片浦方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://mmsrv.ninjal.ac.jp/hogenrokuon_siryo/",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-46-kagoshima-002-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-46-kagoshima-002-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "火事ちなれば、がっつい身の毛がよだっが。",
+          "standard": "火事となれば、本当に身の毛がよだつよ。"
+        },
+        {
+          "type": "editorial_example",
+          "source": "jp-46-kagoshima-002-source-1",
+          "originalText": "火事ちなれば、がっつい身の毛がよだっが。",
+          "location": "資料の対話1・文1113に gaqcui と標準語訳「ほんとに」を確認。例文は音韻表記と対訳を基に保守的に仮名転写。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-46-kagoshima-002-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 4,
+      "id": "jp-47-okinawa-002",
+      "word": "ムﾟー",
+      "prefecture": "沖縄県",
+      "currentData": {
+        "reading": "んー（唇を閉じる鼻音）",
+        "meaning": "芋",
+        "description": "「ムﾟー」は、旧上野村野原方言で「芋」を表す名詞です。宮古島市総合博物館紀要は、唇を閉じる鼻音で始まる語として示し、芋掘りへ行く用例を掲載しています。同じ表記で「熟れる」「紡ぐ」の動詞もあるため、文脈による区別が必要です。",
+        "exampleDialect": "ムﾟープイﾟガ イクｽ。",
+        "exampleStandard": "芋掘りに行く。",
+        "region": "宮古諸島",
+        "municipality": "宮古島市上野野原",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-47-okinawa-002-source-1",
+          "title": "方言辞典づくりから見えた宮古島方言の特性",
+          "organization": "宮古島市総合博物館",
+          "url": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/hakubutsukan/files/p.95-120.pdf",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-47-okinawa-002-claim-1",
+          "field": "entrySplit",
+          "claim": "同じ表記に『芋』『熟れる』『紡ぐ』があるため、語義ごとの別レコード化を検討する。",
+          "evidence": [
+            "jp-47-okinawa-002-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "HOLD",
+          "changeType": "entry_split_review",
+          "reason": "現在ページは名詞『芋』に限定できているが、資料上の同形動詞を同一ページへ統合せず、独立語形・例文を確認してから分割する。"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "ムﾟープイﾟガ イクｽ。",
+          "standard": "芋掘りに行く。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-47-okinawa-002-source-1",
+          "originalText": "ムﾟープイﾟガ イクｽ。",
+          "location": "宮古島市総合博物館紀要第30号で、旧上野村野原方言の見出し語、意味、音声表記、用例と日本語訳を確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "entrySplit",
+          "status": "hold",
+          "finding": "現在ページは名詞『芋』に限定できているが、資料上の同形動詞を同一ページへ統合せず、独立語形・例文を確認してから分割する。"
+        }
+      ],
+      "proposedChanges": [
+        {
+          "field": "entrySplit",
+          "before": null,
+          "after": null,
+          "claim": "同じ表記に『芋』『熟れる』『紡ぐ』があるため、語義ごとの別レコード化を検討する。",
+          "evidence": [
+            "jp-47-okinawa-002-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "HOLD",
+          "changeType": "entry_split_review",
+          "reason": "現在ページは名詞『芋』に限定できているが、資料上の同形動詞を同一ページへ統合せず、独立語形・例文を確認してから分割する。"
+        }
+      ],
+      "approvedClaims": [],
+      "heldClaims": [
+        "jp-47-okinawa-002-claim-1"
+      ],
+      "rejectedClaims": [],
+      "unresolved": [
+        "現在ページは名詞『芋』に限定できているが、資料上の同形動詞を同一ページへ統合せず、独立語形・例文を確認してから分割する。"
+      ],
+      "correctionCandidates": [
+        {
+          "field": "entrySplit",
+          "decision": "HOLD",
+          "reason": "現在ページは名詞『芋』に限定できているが、資料上の同形動詞を同一ページへ統合せず、独立語形・例文を確認してから分割する。"
+        }
+      ],
+      "recommendation": "追加資料または人間確認までHOLD。"
+    },
+    {
+      "batchSet": 4,
+      "id": "jp-05-akita-004",
+      "word": "ふぐろ",
+      "prefecture": "秋田県",
+      "currentData": {
+        "reading": "ふぐろ",
+        "meaning": "フクロウ",
+        "description": "男鹿市脇本大倉の「ふぐろ」は、鳥の「フクロウ」を指す地域語として1967年録音に記録されています。資料の解説も、この地域ではフクロウを「フグロ」ということが見えると明記し、話者は生息を尋ねる問いに答えています。鳥種の呼び分け、現在の使用頻度や世代差は未確認です。",
+        "exampleDialect": "ふぐろだば、います。",
+        "exampleStandard": "フクロウは、います。",
+        "region": "男鹿半島",
+        "municipality": "男鹿市脇本大倉",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-05-akita-004-source-1",
+          "title": "方言録音資料シリーズ6 秋田県男鹿市脇本大倉方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://repository.ninjal.ac.jp/record/3042/files/kk_hgrs_006.pdf",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-05-akita-004-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-05-akita-004-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "ふぐろだば、います。",
+          "standard": "フクロウは、います。"
+        },
+        {
+          "type": "editorial_example",
+          "source": "jp-05-akita-004-source-1",
+          "originalText": "ふぐろだば、います。",
+          "location": "資料9頁の解説が「このあたりでフクロウをフグロという」と明記。10頁の fuguro-daba emasu と逐語対訳を例文化。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-05-akita-004-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 5,
+      "id": "jp-09-tochigi-003",
+      "word": "うずぶれる",
+      "prefecture": "栃木県",
+      "currentData": {
+        "reading": "うずぶれる",
+        "meaning": "寒さで縮こまり震える",
+        "description": "佐野方言の「うずぶれる」は、寒さで体を縮めて震える状態を表します。佐野市の公式解説は、もとは寒さと無関係に「みすぼらしく活気がない」ことを表した江戸ことばが、佐野で寒さによる身体状態へ意味を変えたものと説明しています。",
+        "exampleDialect": "唇をドドメイロにしてウズブレテッカラ、よっぽどサミーンダンベー。",
+        "exampleStandard": "唇を青紫色にして震えているから、よほど寒いのだろう。",
+        "region": "県南",
+        "municipality": "佐野市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-09-tochigi-003-source-1",
+          "title": "状態を表す「寒さ」の方言あれこれ",
+          "organization": "佐野市",
+          "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4986.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-09-tochigi-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-09-tochigi-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "唇をドドメイロにしてウズブレテッカラ、よっぽどサミーンダンベー。",
+          "standard": "唇を青紫色にして震えているから、よほど寒いのだろう。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-09-tochigi-003-source-1",
+          "originalText": "唇をドドメイロにしてウズブレテッカラ、よっぽどサミーンダンベー。",
+          "location": "佐野市公式の方言連載で、意味・用例・江戸ことばからの意味変化に関する解説を確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-09-tochigi-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 5,
+      "id": "jp-12-chiba-004",
+      "word": "おいねえ",
+      "prefecture": "千葉県",
+      "currentData": {
+        "reading": "おいねえ",
+        "meaning": "しょうがない・良くない",
+        "description": "富津市公式の方言表にある「おいねえ」は、「しょうがない」「良くない」に当たる表現です。資料では、出来が悪いため仕方がないと評価する使用例が示されています。単なる品質評価と諦めの気持ちのどちらが中心か、併記形「おいない」との差は未確認です。",
+        "exampleDialect": "出来がわりーで、おいねえよう。",
+        "exampleStandard": "出来が悪くて、しょうがないよ。",
+        "region": "富津",
+        "municipality": "富津市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-12-chiba-004-source-1",
+          "title": "ふっつの方言",
+          "organization": "富津市",
+          "url": "https://www.city.futtsu.lg.jp/0000000795.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-12-chiba-004-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-12-chiba-004-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "出来がわりーで、おいねえよう。",
+          "standard": "出来が悪くて、しょうがないよ。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-12-chiba-004-source-1",
+          "originalText": "出来がわりーで、おいねえよう。",
+          "location": "富津市公式ページの表で「おいねえ／おいない」、意味「しょうがない／良くない」と使用例を確認。記事は例文に現れる形を見出しにした。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-12-chiba-004-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 5,
+      "id": "jp-17-ishikawa-004",
+      "word": "おらっちゃ",
+      "prefecture": "石川県",
+      "currentData": {
+        "reading": "おらっちゃ",
+        "meaning": "私たち",
+        "description": "珠洲市の「おらっちゃ」は、「私たち」を表す一人称複数の語として、市公式の方言表に記録されています。資料には、自分たちが先に帰ることを告げる例文があり、話し手を含む集団を指す用法を確認できます。相手との関係による使い分け、現在の使用頻度や世代差は未確認です。",
+        "exampleDialect": "おらっちゃ、先に帰るじゃ。",
+        "exampleStandard": "私たちは、先に帰りますよ。",
+        "region": "能登",
+        "municipality": "珠洲市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-17-ishikawa-004-source-1",
+          "title": "方言",
+          "organization": "珠洲市",
+          "url": "https://www.city.suzu.lg.jp/site/kankou/1800.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-17-ishikawa-004-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-17-ishikawa-004-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "おらっちゃ、先に帰るじゃ。",
+          "standard": "私たちは、先に帰りますよ。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-17-ishikawa-004-source-1",
+          "originalText": "おらっちゃ、先に帰るじゃ。",
+          "location": "珠洲市公式観光サイトの方言表で、語形・標準語訳・用例と用例訳を確認。現在の使用実態は未確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-17-ishikawa-004-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 5,
+      "id": "jp-19-yamanashi-004",
+      "word": "おべえとう",
+      "prefecture": "山梨県",
+      "currentData": {
+        "reading": "おべえとう",
+        "meaning": "驚いた",
+        "description": "早川町奈良田の「おべえとう」は、「驚いた」という反応を表す語として、町教育委員会刊行資料に記録されています。暗がりに人が立っていて驚いた場面の例文があり、突然の出来事への反応として確認できます。現在の使用頻度、世代差、語調の強さは未確認です。",
+        "exampleDialect": "暗闇に人が立っていて、おべえとう。",
+        "exampleStandard": "暗闇に人が立っていて、驚いた。",
+        "region": "国中",
+        "municipality": "早川町奈良田",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-19-yamanashi-004-source-1",
+          "title": "早川町の方言",
+          "organization": "早川町・早川町教育委員会",
+          "url": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-19-yamanashi-004-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-19-yamanashi-004-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "暗闇に人が立っていて、おべえとう。",
+          "standard": "暗闇に人が立っていて、驚いた。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-19-yamanashi-004-source-1",
+          "originalText": "暗闇に人が立っていて、おべえとう。",
+          "location": "早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-19-yamanashi-004-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 5,
+      "id": "jp-21-gifu-004",
+      "word": "めいぼ",
+      "prefecture": "岐阜県",
+      "currentData": {
+        "reading": "めいぼ",
+        "meaning": "ものもらい",
+        "description": "垂井町岩手漆原の「めいぼ」は、まぶたにできる「ものもらい」を指す語です。1967年録音では、目の腫れについて話す女性二人の会話で、膿が出たかを尋ね、医者で処置した経緯を続ける場面に記録されています。病名の厳密な対応や現在の地域分布は未確認です。",
+        "exampleDialect": "ほんで、めいぼ、うんだんか。",
+        "exampleStandard": "それで、ものもらいは膿んだの？",
+        "region": "美濃",
+        "municipality": "垂井町岩手漆原",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-21-gifu-004-source-1",
+          "title": "方言録音資料シリーズ4 岐阜県不破郡垂井町岩手方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://mmsrv.ninjal.ac.jp/hogenrokuon_siryo/",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-21-gifu-004-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-21-gifu-004-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "ほんで、めいぼ、うんだんか。",
+          "standard": "それで、ものもらいは膿んだの？"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-21-gifu-004-source-1",
+          "originalText": "ほんで、めいぼ、うんだんか。",
+          "location": "資料0400916の音韻表記 miNbo に仮名対訳「めいぼ」、続く0401001に meNbo があり、文脈ではものもらいを指す。表記揺れのうち対訳に示された「めいぼ」を見出し化。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-21-gifu-004-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 6,
+      "id": "jp-22-shizuoka-004",
+      "word": "ちょびちょびする",
+      "prefecture": "静岡県",
+      "currentData": {
+        "reading": "ちょびちょびする",
+        "meaning": "余計な口や手を出す・おせっかいをする",
+        "description": "焼津の「ちょびちょびする」は、よく分からないことにも口や手を出す、おせっかいな振る舞いを表すことばです。焼津市の資料は、相手が嫌われかねないと忠告する用例とともに、通常は良い意味では使われないという評価上の注意を示しています。",
+        "exampleDialect": "他人の仕事までちょびちょびして、今に嫌われるよ。",
+        "exampleStandard": "他人の仕事にまで口や手を出していると、そのうち嫌われるよ。",
+        "region": "中部",
+        "municipality": "焼津市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-22-shizuoka-004-source-1",
+          "title": "方言「た行」",
+          "organization": "焼津市歴史民俗資料館",
+          "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ta-gyou.html",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-22-shizuoka-004-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-22-shizuoka-004-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "他人の仕事までちょびちょびして、今に嫌われるよ。",
+          "standard": "他人の仕事にまで口や手を出していると、そのうち嫌われるよ。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-22-shizuoka-004-source-1",
+          "originalText": "他人の仕事までちょびちょびして、今に嫌われるよ。",
+          "location": "焼津市歴史民俗資料館の方言ページで、意味・忠告の用例・否定的な語感を確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-22-shizuoka-004-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 6,
+      "id": "jp-23-aichi-004",
+      "word": "～せせん",
+      "prefecture": "愛知県",
+      "currentData": {
+        "reading": "せせん",
+        "meaning": "～しない・本当にしない",
+        "description": "小牧市藤島の「～せせん」は、強い打消しの「本当に～しない」に当たる形として資料の方言特徴に明記されています。1967年録音では、家で話しても子どもたちはそのような出来事があったとは全く承知しない、と述べる発話に現れます。接続条件、否定の強さ、現在の使用範囲は未確認です。",
+        "exampleDialect": "子どもんとら、そーちせせんわ。",
+        "exampleStandard": "子どもたちは、承知しない。",
+        "region": "尾張",
+        "municipality": "小牧市藤島",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-23-aichi-004-source-1",
+          "title": "方言録音資料シリーズ10 愛知県小牧市藤島方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://repository.ninjal.ac.jp/record/3046/files/kk_hgrs_010.pdf",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-23-aichi-004-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-23-aichi-004-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "子どもんとら、そーちせせんわ。",
+          "standard": "子どもたちは、承知しない。"
+        },
+        {
+          "type": "editorial_example",
+          "source": "jp-23-aichi-004-source-1",
+          "originalText": "子どもんとら、そーちせせんわ。",
+          "location": "資料2頁が sjonise:seN を「本当にしない・打消」と説明。7頁の sjo:cise:seNwa と逐語対訳「承知しない」を例文化。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-23-aichi-004-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 6,
+      "id": "jp-26-kyoto-003",
+      "word": "ほいで",
+      "prefecture": "京都府",
+      "currentData": {
+        "reading": "ほいで",
+        "meaning": "それで",
+        "description": "京都市方言の「ほいで」は、前の話を受けて次の出来事へ進む「それで」に当たる接続表現です。1964年録音では、60代女性が京都案内や島原見物の経緯を語る場面と、20代女性が淡路旅行の予定を話す自然会話に現れます。資料には「そいで」「ほんで」に近い形も記録されています。",
+        "exampleDialect": "ほいで、みんなで泳ごか言うてんねん。",
+        "exampleStandard": "それで、みんなで泳ごうかと言っているのよ。",
+        "region": "京都市周辺",
+        "municipality": "京都市（録音地点非公表）",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-26-kyoto-003-source-1",
+          "title": "方言録音資料シリーズ11 京都市方言",
+          "organization": "国立国語研究所 話しことば研究室",
+          "url": "https://mmsrv.ninjal.ac.jp/hogenrokuon_siryo/",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage",
+            "history"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-26-kyoto-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-26-kyoto-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "ほいで、みんなで泳ごか言うてんねん。",
+          "standard": "それで、みんなで泳ごうかと言っているのよ。"
+        },
+        {
+          "type": "editorial_example",
+          "source": "jp-26-kyoto-003-source-1",
+          "originalText": "ほいで、みんなで泳ごか言うてんねん。",
+          "location": "資料1108016の hoide と標準語対訳「それで」を確認。1102006など60代話者にも同じ対応の用例がある。例文は音韻表記を保守的に仮名転写。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-26-kyoto-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 6,
+      "id": "jp-28-hyogo-003",
+      "word": "さんこ",
+      "prefecture": "兵庫県",
+      "currentData": {
+        "reading": "さんこ",
+        "meaning": "散らかっている状態",
+        "description": "播州地域の「さんこ」は、西脇市の公式資料で、物が散らかっている状態を表すことばとして掲載されています。訪ねてきた人を部屋へ通す際の会話例があり、「散らかしているけれど」と室内の状態を断ってから招き入れる場面で使われています。",
+        "exampleDialect": "さんこにしとっけんど、どうぞ。",
+        "exampleStandard": "散らかしていますけれど、どうぞ。",
+        "region": "播磨",
+        "municipality": "西脇市",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-28-hyogo-003-source-1",
+          "title": "転入される方へのご案内（播州弁辞典）",
+          "organization": "西脇市",
+          "url": "https://www.city.nishiwaki.lg.jp/material/files/group/61/tennyusarerukatahenogoannnai.pdf",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-28-hyogo-003-claim-1",
+          "field": "description",
+          "claim": "既存説明は語形・意味・地域・用法・資料上の制約を既に反映している。",
+          "evidence": [
+            "jp-28-hyogo-003-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "REJECT",
+          "changeType": "verification",
+          "reason": "already_sufficient"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "さんこにしとっけんど、どうぞ。",
+          "standard": "散らかしていますけれど、どうぞ。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-28-hyogo-003-source-1",
+          "originalText": "さんこにしとっけんど、どうぞ。",
+          "location": "西脇市の転入者向け公式案内にある播州弁辞典で、意味と来客時の用例を確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "description",
+          "status": "reject",
+          "finding": "already_sufficient"
+        }
+      ],
+      "proposedChanges": [],
+      "approvedClaims": [],
+      "heldClaims": [],
+      "rejectedClaims": [
+        "jp-28-hyogo-003-claim-1"
+      ],
+      "unresolved": [],
+      "correctionCandidates": [],
+      "recommendation": "新しい固有情報がなく既存説明を維持。"
+    },
+    {
+      "batchSet": 6,
+      "id": "jp-35-yamaguchi-004",
+      "word": "あーや こーや",
+      "prefecture": "山口県",
+      "currentData": {
+        "reading": "あーや こーや",
+        "meaning": "あれやこれや・何やかや",
+        "description": "周南地方の「あーや こーや」は、「あれやこれや」「何やかや」を表す連語として、2024年版『てれんこぽれんこ山口弁』に記録されています。資料には、いろいろと言わないでほしいと相手へ頼む例文があります。列挙する対象の範囲、語調、地域内分布、現在の使用頻度は未確認です。",
+        "exampleDialect": "あーや こーや、言いさんないね。",
+        "exampleStandard": "あれやこれや、言わないでよ。",
+        "region": "県東部（岩国・柳井など）",
+        "municipality": "周南地域",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "sources": [
+        {
+          "id": "jp-35-yamaguchi-004-source-1",
+          "title": "てれんこぽれんこ山口弁",
+          "organization": "阿部啓治（編）・萩市立図書館",
+          "url": "https://hagilib.city.hagi.lg.jp/hagilib-archive/image/863.pdf",
+          "sourceTier": 3,
+          "exactFormMatch": "exact",
+          "checkedAt": "2026-09-01",
+          "evidenceScopes": [
+            "phrase",
+            "reading",
+            "meaning",
+            "region",
+            "example",
+            "usage"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "jp-35-yamaguchi-004-claim-1",
+          "field": "regionName",
+          "claim": "資料対象とmunicipalityに合わせ、県東部ではなく周南地方として扱う。",
+          "evidence": [
+            "jp-35-yamaguchi-004-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "APPROVE",
+          "changeType": "correction",
+          "reason": "主要資料は『山口弁（周南地方）辞典』の増補改訂版。現行municipalityも周南地域で、県東部（岩国・柳井など）の直接根拠はない。"
+        }
+      ],
+      "examples": [
+        {
+          "type": "existing_example",
+          "dialect": "あーや こーや、言いさんないね。",
+          "standard": "あれやこれや、言わないでよ。"
+        },
+        {
+          "type": "source_attested",
+          "source": "jp-35-yamaguchi-004-source-1",
+          "originalText": "あーや こーや、言いさんないね。",
+          "location": "阿部啓治編、萩市立図書館デジタルアーカイブ公開資料の見出し4で、意味・用例・標準語訳を確認。",
+          "exactFormMatch": "exact"
+        }
+      ],
+      "researchFindings": [
+        {
+          "field": "regionName",
+          "status": "approve",
+          "finding": "主要資料は『山口弁（周南地方）辞典』の増補改訂版。現行municipalityも周南地域で、県東部（岩国・柳井など）の直接根拠はない。"
+        }
+      ],
+      "proposedChanges": [
+        {
+          "field": "regionName",
+          "before": "県東部（岩国・柳井など）",
+          "after": "周南地方",
+          "claim": "資料対象とmunicipalityに合わせ、県東部ではなく周南地方として扱う。",
+          "evidence": [
+            "jp-35-yamaguchi-004-source-1"
+          ],
+          "confidence": "high",
+          "exactFormMatch": "exact",
+          "decision": "APPROVE",
+          "changeType": "correction",
+          "reason": "主要資料は『山口弁（周南地方）辞典』の増補改訂版。現行municipalityも周南地域で、県東部（岩国・柳井など）の直接根拠はない。"
+        }
+      ],
+      "approvedClaims": [
+        "jp-35-yamaguchi-004-claim-1"
+      ],
+      "heldClaims": [],
+      "rejectedClaims": [],
+      "unresolved": [],
+      "correctionCandidates": [
+        {
+          "field": "regionName",
+          "decision": "APPROVE",
+          "reason": "主要資料は『山口弁（周南地方）辞典』の増補改訂版。現行municipalityも周南地域で、県東部（岩国・柳井など）の直接根拠はない。"
+        }
+      ],
+      "recommendation": "APPROVE claimのみ人間確認後にpatch化。今回は本番反映しない。"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "generatedAt": "2026-09-04",
+  "purpose": "P1編集・資料調査フローのパイロット。確認済み資料に基づく変更案のみを作成する。",
+  "policy": {
+    "productionDataChanged": false,
+    "aiGeneratedFactsSaved": false,
+    "lowConfidenceChangesEligibleForProduction": false
+  },
+  "summary": {
+    "pageCount": 5,
+    "readingConfirmedCount": 2,
+    "meaningStrengthenableCount": 3,
+    "descriptionStrengthenableCount": 3,
+    "exampleCandidateCount": 2,
+    "unchangedForInsufficientNewEvidenceCount": 2,
+    "proposedChangeCountByConfidence": { "high": 6, "medium": 1, "low": 0 }
+  },
+  "pages": [
+    {
+      "id": "jp-46-kagoshima-022",
+      "word": "おじゃったもんせ",
+      "selectionReason": "指定されたreading_verification最優先ページ。県と市の公的資料を相互照合できる。",
+      "currentData": {
+        "reading": "",
+        "meaning": "おいでくださいませ／お越しください",
+        "description": "「おじゃったもんせ」は「おいでくださいませ／お越しください」を表す語として、鹿屋市ほかを対象とする資料「県政広報資料（おじゃったもんせ解説）」に掲載されています。語形・意味・地域と掲載用例を資料で確認しています。現在の使用頻度、世代差、発音は追加調査中です。",
+        "example": { "dialect": "鹿児島にどうぞおじゃったもんせ", "standard": "鹿児島へどうぞお越しください。" },
+        "source": "鹿児島県「県政広報資料（おじゃったもんせ解説）」",
+        "region": "鹿児島県・大隅・鹿屋市ほか",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "researchFindings": [
+        { "category": "reading", "claim": "仮名表記に基づく読みは『おじゃったもんせ』。アクセント・音調は未確定。", "status": "confirmed", "evidenceIds": ["KAG-01", "KAG-02"] },
+        { "category": "meaning", "claim": "鹿児島県資料は『おいでくださいました』、鹿屋市は『お越しください』と説明しており、来訪者を迎える丁寧な表現として確認できる。", "status": "confirmed", "evidenceIds": ["KAG-01", "KAG-02"] },
+        { "category": "grammar", "claim": "県資料は、尊敬語『おじゃる』と『くださいませ』の意味を持つ『たもんせ』を合わせた表現と説明する。", "status": "confirmed", "evidenceIds": ["KAG-01"] },
+        { "category": "usage_area", "claim": "県資料は薩摩・大隅地域の表現として掲載し、鹿屋市も実際の歓迎・移住案内で使用している。", "status": "confirmed", "evidenceIds": ["KAG-01", "KAG-02"] }
+      ],
+      "evidence": [
+        { "id": "KAG-01", "title": "今今日から使える 鹿児島の方言講座", "publisher": "鹿児島県", "year": "2018", "location": "Graph KAGOSHIMA掲載頁（PDF検索結果の『おじゃったもんせ』項）", "url": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf", "status": "confirmed" },
+        { "id": "KAG-02", "title": "かのや移住サポートセンター", "publisher": "鹿屋市", "year": "2026（更新）", "location": "『おじゃったもんせかのや』節", "url": "https://www.city.kanoya.lg.jp/iju/oyakudachi/support.html", "status": "supporting" }
+      ],
+      "proposedChanges": [
+        { "category": "A", "field": "reading", "current": "", "proposed": "おじゃったもんせ", "confidence": "high", "evidenceIds": ["KAG-01", "KAG-02"], "reviewStatus": "human_review_required" },
+        { "category": "F", "field": "description", "current": "語構成の説明なし", "proposed": "県資料が説明する『おじゃる』＋『たもんせ』の構成と、薩摩・大隅地域で来訪者を迎える丁寧な表現であることを、出典範囲を明示して追記する。", "confidence": "high", "evidenceIds": ["KAG-01"], "reviewStatus": "human_review_required" },
+        { "category": "C", "field": "exampleCandidate", "current": "鹿児島にどうぞおじゃったもんせ", "proposed": "県資料掲載の用例『鹿児島にどうぞおじゃっともんせ』は表記が現行例と異なるため、原文記録として別管理し、置換は編集者が判断する。", "confidence": "high", "evidenceIds": ["KAG-01"], "reviewStatus": "human_review_required" }
+      ],
+      "unresolved": ["アクセント・音調", "現在の世代差・使用頻度", "『おじゃった／おじゃっと』の表記・活用差の整理"],
+      "recommendation": "読みはhighで反映候補。説明補強と例文表記差は編集レビュー後に反映する。"
+    },
+    {
+      "id": "jp-46-kagoshima-049",
+      "word": "バシ",
+      "selectionReason": "指定されたreading_verification最優先ページ。大学論文が語形・統語・二つの機能を詳述する。",
+      "currentData": {
+        "reading": "",
+        "meaning": "～でも／～というわけではないのに",
+        "description": "「バシ」は「～でも／～というわけではないのに」を表す語として、上甑町里を対象とする資料「甑島里方言の例示形式に関する研究」に掲載されています。語形・意味・地域と掲載用例を資料で確認しています。現在の使用頻度、世代差、発音は追加調査中です。",
+        "example": { "dialect": "tanpoonibasi itacjaroo.", "standard": "田んぼにでも行ったんだろう。" },
+        "source": "平塚雄亮『甑島里方言のbasi』",
+        "region": "鹿児島県・甑島・上甑町里",
+        "verificationStatus": "reference_confirmed",
+        "indexStatus": "indexable"
+      },
+      "researchFindings": [
+        { "category": "reading", "claim": "論文の語形はbasi。日本語サイト上の読み候補は『ばし』だが、今回は単独の研究資料による確認でアクセント情報もない。", "status": "supporting", "evidenceIds": ["KAG-03"] },
+        { "category": "meaning", "claim": "助詞的用法では例示、形式名詞的用法では『そうであるわけではない』を表し、後者には批判的態度が伴うと記述される。", "status": "confirmed", "evidenceIds": ["KAG-03"] },
+        { "category": "grammar", "claim": "格助詞・名詞に後接し、動詞テ形・連用形には後接しないという統語制約が報告される。", "status": "confirmed", "evidenceIds": ["KAG-03"] }
+      ],
+      "evidence": [
+        { "id": "KAG-03", "title": "甑島里方言のbasi", "publisher": "大阪大学大学院文学研究科社会言語学研究室", "author": "平塚雄亮", "year": "2019", "location": "阪大社会言語学研究ノート16, pp.84–92（抄録および本文）", "url": "https://doi.org/10.18910/73641", "status": "confirmed" }
+      ],
+      "proposedChanges": [
+        { "category": "A", "field": "reading", "current": "", "proposed": "ばし", "confidence": "medium", "evidenceIds": ["KAG-03"], "reviewStatus": "human_review_required" },
+        { "category": "B/F", "field": "description", "current": "二つの意味を一文で併記", "proposed": "例示を表す助詞的用法と、『そうであるわけではない』を表す形式名詞的用法を分け、後者に限って資料記載の批判的態度を説明する。統語制約も資料に帰属させて記載する。", "confidence": "high", "evidenceIds": ["KAG-03"], "reviewStatus": "human_review_required" }
+      ],
+      "unresolved": ["別資料による読みの追認", "アクセント・音調", "現在の使用頻度・世代差", "語源（論文も未確定とする）"],
+      "recommendation": "意味・文法の補強はhigh。読み『ばし』はmediumのため、追加資料または音声確認後の反映が望ましい。"
+    },
+    {
+      "id": "jp-06-yamagata-001",
+      "word": "おしょうしな",
+      "selectionReason": "米沢市の複数資料があり、実際の用例と丁寧度の異なる形を資料で確認できる。",
+      "currentData": {
+        "reading": "おしょうしな", "meaning": "ありがとう", "description": "米沢の「おしょうしな」は「ありがとう」を意味する感謝のことばです。米沢市は、ふるさと納税情報紙を「おしょうしな通信」と名付け、感謝の気持ちを込めて届けると説明しています。市の観光大使名にも用いられており、米沢を象徴する地域表現として公的に紹介されています。", "example": { "dialect": "おしょうしな。", "standard": "ありがとう。" }, "source": "米沢市『おしょうしな通信』", "region": "山形県・置賜・米沢市", "verificationStatus": "reference_confirmed", "indexStatus": "indexable"
+      },
+      "researchFindings": [
+        { "category": "meaning", "claim": "米沢市の複数ページが米沢方言で『ありがとう』の意味と明記する。", "status": "confirmed", "evidenceIds": ["YAM-01", "YAM-02"] },
+        { "category": "usage", "claim": "市発行紙は『毎度おしょうしな』を『いつもありがとう』の例として示す。", "status": "confirmed", "evidenceIds": ["YAM-03"] },
+        { "category": "nuance", "claim": "同資料は『おしょうしなっし』をより丁寧、『おしょうし』を気軽な形として紹介する。", "status": "confirmed", "evidenceIds": ["YAM-03"] }
+      ],
+      "evidence": [
+        { "id": "YAM-01", "title": "ふるさと納税情報紙『おしょうしな通信』", "publisher": "米沢市", "year": "2026（更新）", "location": "ページ冒頭", "url": "https://www.city.yonezawa.yamagata.jp/soshiki/5/1019/1_1/info/11198.html", "status": "confirmed" },
+        { "id": "YAM-02", "title": "おしょうしな観光大使", "publisher": "米沢市", "year": "2026（更新）", "location": "注意書き", "url": "https://www.city.yonezawa.yamagata.jp/category/kanko_iju/1/5219.html", "status": "supporting" },
+        { "id": "YAM-03", "title": "おしょうしな通信 創刊号", "publisher": "米沢市産業部商工課ふるさと納税推進室", "year": "2026", "location": "『使ってみよう！米沢の方言』欄", "url": "https://www.city.yonezawa.yamagata.jp/material/files/group/20/furusato_260601.pdf", "status": "confirmed" }
+      ],
+      "proposedChanges": [
+        { "category": "D/H", "field": "description", "current": "語形差・丁寧度の説明なし", "proposed": "米沢市資料に帰属させ、『おしょうしなっし』はより丁寧、『おしょうし』は気軽な形として紹介されていることを追記する。", "confidence": "high", "evidenceIds": ["YAM-03"], "reviewStatus": "human_review_required" },
+        { "category": "C", "field": "exampleCandidate", "current": "おしょうしな。", "proposed": "毎度おしょうしな。／いつもありがとう。", "confidence": "high", "evidenceIds": ["YAM-03"], "reviewStatus": "human_review_required", "note": "資料掲載例。転載範囲と表記を編集者が確認してから採用する。" }
+      ],
+      "unresolved": ["丁寧度の地域内差・世代差", "アクセント", "米沢市外の置賜地域での分布"],
+      "recommendation": "公的資料に固有用例と語形差があるため、説明・用例ともhighの反映候補。"
+    },
+    {
+      "id": "jp-05-akita-001",
+      "word": "んだ",
+      "selectionReason": "国立国語研究所の録音資料に複数の実例があり、既存説明の深さを検証できる。",
+      "currentData": { "reading": "んだ", "meaning": "そうだ", "description": "男鹿市脇本大倉の「んだ」は、相手の話を肯定する「そうだ」に当たる応答として1967年録音に繰り返し記録されています。雁やフクロウ、昔の暮らしについて、聞き手の問いや説明を受けて短く同意する場面に現れます。声調、丁寧さ、現在の使用頻度や世代差は未確認です。", "example": { "dialect": "んだ、んだ。", "standard": "そうだ、そうだ。" }, "source": "国立国語研究所『方言録音資料シリーズ6』", "region": "秋田県・男鹿市脇本大倉", "verificationStatus": "reference_confirmed", "indexStatus": "indexable" },
+      "researchFindings": [{ "category": "source", "claim": "1967年2月26日に男鹿市脇本大倉で収録された話者情報付き資料であり、既存の意味・用例・場面説明は資料範囲内にある。", "status": "confirmed", "evidenceIds": ["AKI-01"] }],
+      "evidence": [{ "id": "AKI-01", "title": "方言録音資料シリーズ6 秋田県男鹿市脇本大倉方言", "publisher": "国立国語研究所 話しことば研究室", "year": "録音1967", "location": "資料10頁・13頁ほか（Ndaと逐語対訳）", "url": "https://repository.ninjal.ac.jp/record/3042/files/kk_hgrs_006.pdf", "status": "confirmed" }],
+      "proposedChanges": [],
+      "unresolved": ["現代の使用頻度・世代差", "声調・丁寧さ", "男鹿市全域への一般化可否"],
+      "recommendation": "既存説明はすでに固有情報を十分含む。新資料がない段階では長文化せず変更しない。"
+    },
+    {
+      "id": "jp-05-akita-002",
+      "word": "おっかねえ",
+      "selectionReason": "同じ録音資料内に複数の対比例があり、既存説明の資料忠実性を検証できる。",
+      "currentData": { "reading": "おっかねえ", "meaning": "怖い・恐ろしい", "description": "男鹿市脇本大倉の「おっかねえ」は、「怖い」「恐ろしい」を表す形として1967年録音に記録されています。昔のナマハゲは恐ろしく、子どもが隠れたという回想や、今は以前ほど恐ろしくないという比較に現れます。恐怖以外の意味、語調、現在の使用範囲は未確認です。", "example": { "dialect": "昔のナマハゲだば、ほんとにおっかねえって。", "standard": "昔のナマハゲは、本当に怖いといって。" }, "source": "国立国語研究所『方言録音資料シリーズ6』", "region": "秋田県・男鹿市脇本大倉", "verificationStatus": "reference_confirmed", "indexStatus": "indexable" },
+      "researchFindings": [{ "category": "usage", "claim": "資料は昔のナマハゲを恐ろしいとする回想と、現在との比較の中で当該形を記録しており、既存説明はその限定を保っている。", "status": "confirmed", "evidenceIds": ["AKI-01"] }],
+      "evidence": [{ "id": "AKI-01", "title": "方言録音資料シリーズ6 秋田県男鹿市脇本大倉方言", "publisher": "国立国語研究所 話しことば研究室", "year": "録音1967", "location": "資料5–6頁（oqkanee / oqkaneeqteと逐語対訳）", "url": "https://repository.ninjal.ac.jp/record/3042/files/kk_hgrs_006.pdf", "status": "confirmed" }],
+      "proposedChanges": [],
+      "unresolved": ["現代の使用範囲・世代差", "語調", "恐怖以外の意味", "男鹿市全域への一般化可否"],
+      "recommendation": "既存説明は資料固有の場面をすでに反映している。新資料がない段階では変更しない。"
+    }
+  ]
+}

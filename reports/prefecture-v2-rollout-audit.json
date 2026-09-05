@@ -1,0 +1,632 @@
+{
+  "generatedAt": "2026-09-05",
+  "status": "PASSED",
+  "expectedPrefectures": 47,
+  "actualPrefectures": 47,
+  "expectedDialects": 1643,
+  "actualDialects": 1643,
+  "indexStatus": {
+    "indexable": 630,
+    "noindex": 1013,
+    "total": 1643
+  },
+  "v2Selection": {
+    "expected": 47,
+    "configuredMode": "all",
+    "rollbackMode": "off"
+  },
+  "representativeLimit": 6,
+  "contentMutation": false,
+  "regionClassificationMutation": false,
+  "failures": [],
+  "prefectures": [
+    {
+      "id": "p1",
+      "name": "北海道",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "青森県",
+      "dialectCount": 8,
+      "regionCount": 3,
+      "indexableCount": 0,
+      "noindexCount": 8,
+      "sourceCount": 0,
+      "verifiedCount": 0,
+      "languageVarieties": []
+    },
+    {
+      "id": "p3",
+      "name": "岩手県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "宮城県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p5",
+      "name": "秋田県",
+      "dialectCount": 9,
+      "regionCount": 4,
+      "indexableCount": 9,
+      "noindexCount": 0,
+      "sourceCount": 9,
+      "verifiedCount": 9,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p6",
+      "name": "山形県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "verifiedCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p7",
+      "name": "福島県",
+      "dialectCount": 1,
+      "regionCount": 3,
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "verifiedCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p8",
+      "name": "茨城県",
+      "dialectCount": 1,
+      "regionCount": 5,
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "verifiedCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p9",
+      "name": "栃木県",
+      "dialectCount": 31,
+      "regionCount": 3,
+      "indexableCount": 31,
+      "noindexCount": 0,
+      "sourceCount": 31,
+      "verifiedCount": 31,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p10",
+      "name": "群馬県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p11",
+      "name": "埼玉県",
+      "dialectCount": 1,
+      "regionCount": 5,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p12",
+      "name": "千葉県",
+      "dialectCount": 18,
+      "regionCount": 5,
+      "indexableCount": 17,
+      "noindexCount": 1,
+      "sourceCount": 17,
+      "verifiedCount": 17,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p13",
+      "name": "東京都",
+      "dialectCount": 1,
+      "regionCount": 3,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p14",
+      "name": "神奈川県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p15",
+      "name": "新潟県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p16",
+      "name": "富山県",
+      "dialectCount": 1,
+      "regionCount": 2,
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "verifiedCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p17",
+      "name": "石川県",
+      "dialectCount": 50,
+      "regionCount": 2,
+      "indexableCount": 49,
+      "noindexCount": 1,
+      "sourceCount": 49,
+      "verifiedCount": 49,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p18",
+      "name": "福井県",
+      "dialectCount": 1,
+      "regionCount": 2,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p19",
+      "name": "山梨県",
+      "dialectCount": 11,
+      "regionCount": 2,
+      "indexableCount": 10,
+      "noindexCount": 1,
+      "sourceCount": 10,
+      "verifiedCount": 10,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p20",
+      "name": "長野県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p21",
+      "name": "岐阜県",
+      "dialectCount": 9,
+      "regionCount": 2,
+      "indexableCount": 8,
+      "noindexCount": 1,
+      "sourceCount": 8,
+      "verifiedCount": 8,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p22",
+      "name": "静岡県",
+      "dialectCount": 226,
+      "regionCount": 4,
+      "indexableCount": 224,
+      "noindexCount": 2,
+      "sourceCount": 225,
+      "verifiedCount": 224,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p23",
+      "name": "愛知県",
+      "dialectCount": 55,
+      "regionCount": 3,
+      "indexableCount": 54,
+      "noindexCount": 1,
+      "sourceCount": 55,
+      "verifiedCount": 54,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p24",
+      "name": "三重県",
+      "dialectCount": 1,
+      "regionCount": 5,
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "verifiedCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p25",
+      "name": "滋賀県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 0,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p26",
+      "name": "京都府",
+      "dialectCount": 10,
+      "regionCount": 5,
+      "indexableCount": 10,
+      "noindexCount": 0,
+      "sourceCount": 10,
+      "verifiedCount": 10,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p27",
+      "name": "大阪府",
+      "dialectCount": 7,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 7,
+      "sourceCount": 0,
+      "verifiedCount": 0,
+      "languageVarieties": []
+    },
+    {
+      "id": "p28",
+      "name": "兵庫県",
+      "dialectCount": 6,
+      "regionCount": 6,
+      "indexableCount": 6,
+      "noindexCount": 0,
+      "sourceCount": 6,
+      "verifiedCount": 6,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p29",
+      "name": "奈良県",
+      "dialectCount": 1,
+      "regionCount": 4,
+      "indexableCount": 1,
+      "noindexCount": 0,
+      "sourceCount": 1,
+      "verifiedCount": 1,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p30",
+      "name": "和歌山県",
+      "dialectCount": 1,
+      "regionCount": 3,
+      "indexableCount": 0,
+      "noindexCount": 1,
+      "sourceCount": 1,
+      "verifiedCount": 0,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p31",
+      "name": "鳥取県",
+      "dialectCount": 44,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 44,
+      "sourceCount": 44,
+      "verifiedCount": 44,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p32",
+      "name": "島根県",
+      "dialectCount": 62,
+      "regionCount": 3,
+      "indexableCount": 0,
+      "noindexCount": 62,
+      "sourceCount": 62,
+      "verifiedCount": 62,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p33",
+      "name": "岡山県",
+      "dialectCount": 71,
+      "regionCount": 4,
+      "indexableCount": 1,
+      "noindexCount": 70,
+      "sourceCount": 71,
+      "verifiedCount": 71,
+      "languageVarieties": [
+        "japanese_dialect",
+        "unknown"
+      ]
+    },
+    {
+      "id": "p34",
+      "name": "広島県",
+      "dialectCount": 64,
+      "regionCount": 5,
+      "indexableCount": 1,
+      "noindexCount": 63,
+      "sourceCount": 64,
+      "verifiedCount": 64,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p35",
+      "name": "山口県",
+      "dialectCount": 82,
+      "regionCount": 6,
+      "indexableCount": 31,
+      "noindexCount": 51,
+      "sourceCount": 82,
+      "verifiedCount": 81,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p36",
+      "name": "徳島県",
+      "dialectCount": 61,
+      "regionCount": 5,
+      "indexableCount": 0,
+      "noindexCount": 61,
+      "sourceCount": 61,
+      "verifiedCount": 60,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p37",
+      "name": "香川県",
+      "dialectCount": 63,
+      "regionCount": 6,
+      "indexableCount": 0,
+      "noindexCount": 63,
+      "sourceCount": 63,
+      "verifiedCount": 63,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p38",
+      "name": "愛媛県",
+      "dialectCount": 60,
+      "regionCount": 5,
+      "indexableCount": 0,
+      "noindexCount": 60,
+      "sourceCount": 59,
+      "verifiedCount": 59,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p39",
+      "name": "高知県",
+      "dialectCount": 88,
+      "regionCount": 5,
+      "indexableCount": 20,
+      "noindexCount": 68,
+      "sourceCount": 88,
+      "verifiedCount": 88,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p40",
+      "name": "福岡県",
+      "dialectCount": 57,
+      "regionCount": 4,
+      "indexableCount": 21,
+      "noindexCount": 36,
+      "sourceCount": 57,
+      "verifiedCount": 57,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p41",
+      "name": "佐賀県",
+      "dialectCount": 47,
+      "regionCount": 4,
+      "indexableCount": 0,
+      "noindexCount": 47,
+      "sourceCount": 47,
+      "verifiedCount": 46,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p42",
+      "name": "長崎県",
+      "dialectCount": 89,
+      "regionCount": 6,
+      "indexableCount": 12,
+      "noindexCount": 77,
+      "sourceCount": 89,
+      "verifiedCount": 88,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p43",
+      "name": "熊本県",
+      "dialectCount": 51,
+      "regionCount": 5,
+      "indexableCount": 15,
+      "noindexCount": 36,
+      "sourceCount": 51,
+      "verifiedCount": 50,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p44",
+      "name": "大分県",
+      "dialectCount": 57,
+      "regionCount": 6,
+      "indexableCount": 15,
+      "noindexCount": 42,
+      "sourceCount": 57,
+      "verifiedCount": 57,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p45",
+      "name": "宮崎県",
+      "dialectCount": 72,
+      "regionCount": 4,
+      "indexableCount": 12,
+      "noindexCount": 60,
+      "sourceCount": 72,
+      "verifiedCount": 72,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p46",
+      "name": "鹿児島県",
+      "dialectCount": 84,
+      "regionCount": 5,
+      "indexableCount": 21,
+      "noindexCount": 63,
+      "sourceCount": 84,
+      "verifiedCount": 84,
+      "languageVarieties": [
+        "japanese_dialect"
+      ]
+    },
+    {
+      "id": "p47",
+      "name": "沖縄県",
+      "dialectCount": 133,
+      "regionCount": 7,
+      "indexableCount": 57,
+      "noindexCount": 76,
+      "sourceCount": 133,
+      "verifiedCount": 133,
+      "languageVarieties": [
+        "ryukyuan_language"
+      ]
+    }
+  ]
+}

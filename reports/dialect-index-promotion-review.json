@@ -1,0 +1,1110 @@
+{
+  "generatedAt": "2026-09-04",
+  "productionIndexChanged": false,
+  "methodology": "登録済み一次・学術資料と現行claimの対応を編集監査。検索順位や言語学的正確性の断定ではない。",
+  "summary": {
+    "total": 31,
+    "READY": 4,
+    "NEAR_READY": 18,
+    "NOT_READY": 0,
+    "HOLD": 9
+  },
+  "pages": [
+    {
+      "id": "jp-40-fukuoka-011",
+      "word": "なんしようと？",
+      "prefecture": "福岡県",
+      "region": "福岡市周辺",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "なにをしていますか？",
+      "source": {
+        "title": "福岡市南区共生プロジェクト 多文化共生ガイドブック",
+        "organization": "福岡市南区",
+        "url": "https://www.city.fukuoka.lg.jp/minamiku/k-shinko/shisei/gaikokujintochikijuminnokoryujigyo/documents/tabunkakyosei_guidebook.pdf",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-012",
+      "word": "～やけん",
+      "prefecture": "福岡県",
+      "region": "福岡市周辺",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "～だから",
+      "source": {
+        "title": "福岡市南区共生プロジェクト 多文化共生ガイドブック",
+        "organization": "福岡市南区",
+        "url": "https://www.city.fukuoka.lg.jp/minamiku/k-shinko/shisei/gaikokujintochikijuminnokoryujigyo/documents/tabunkakyosei_guidebook.pdf",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-013",
+      "word": "よかよ",
+      "prefecture": "福岡県",
+      "region": "福岡市周辺",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "いいですよ",
+      "source": {
+        "title": "福岡市南区共生プロジェクト 多文化共生ガイドブック",
+        "organization": "福岡市南区",
+        "url": "https://www.city.fukuoka.lg.jp/minamiku/k-shinko/shisei/gaikokujintochikijuminnokoryujigyo/documents/tabunkakyosei_guidebook.pdf",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-014",
+      "word": "どげんしたと？",
+      "prefecture": "福岡県",
+      "region": "福岡市周辺",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "どうしましたか？",
+      "source": {
+        "title": "福岡市南区共生プロジェクト 多文化共生ガイドブック",
+        "organization": "福岡市南区",
+        "url": "https://www.city.fukuoka.lg.jp/minamiku/k-shinko/shisei/gaikokujintochikijuminnokoryujigyo/documents/tabunkakyosei_guidebook.pdf",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-015",
+      "word": "すいとー",
+      "prefecture": "福岡県",
+      "region": "福岡市周辺",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "好きです",
+      "source": {
+        "title": "福岡市南区共生プロジェクト 多文化共生ガイドブック",
+        "organization": "福岡市南区",
+        "url": "https://www.city.fukuoka.lg.jp/minamiku/k-shinko/shisei/gaikokujintochikijuminnokoryujigyo/documents/tabunkakyosei_guidebook.pdf",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-016",
+      "word": "バリ",
+      "prefecture": "福岡県",
+      "region": "福岡市周辺",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "とても",
+      "source": {
+        "title": "福岡市南区共生プロジェクト 多文化共生ガイドブック",
+        "organization": "福岡市南区",
+        "url": "https://www.city.fukuoka.lg.jp/minamiku/k-shinko/shisei/gaikokujintochikijuminnokoryujigyo/documents/tabunkakyosei_guidebook.pdf",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-057",
+      "word": "～シャル",
+      "prefecture": "福岡県",
+      "region": "筑豊",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "尊敬を表す敬語形式",
+      "source": {
+        "title": "福岡県筑豊地区における方言敬語の記述的研究―飯塚市と田川市にみるシャルの性質",
+        "organization": "塩川奈々美",
+        "url": "https://bibdb.ninjal.ac.jp/bunken/ja/article/100000181499",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "usage"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-002",
+      "word": "リバテープ",
+      "prefecture": "熊本県",
+      "region": "熊本周辺",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "絆創膏",
+      "source": {
+        "title": "熊本市へようこそ！中央区へようこそ！",
+        "organization": "熊本市中央区役所総務企画課",
+        "url": "https://www.city.kumamoto.jp/chuo/kiji00323740/5_23740_166195_up_VOQTRDC5.pdf",
+        "sourceTier": 3,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-035",
+      "word": "アッコイショ",
+      "prefecture": "熊本県",
+      "region": "県南",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "publication_basis_review"
+      ],
+      "currentMeaning": "しまった",
+      "source": {
+        "title": "広報やつしろ 2024年1月号 やつしろ知っ得クイズ",
+        "organization": "八代市",
+        "url": "https://www.city.yatsushiro.lg.jp/kiji00321294/3_21294_115112_up_qrge0ua0.pdf",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "example"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": true,
+      "decision": "READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": []
+    },
+    {
+      "id": "jp-43-kumamoto-038",
+      "word": "オイギャン",
+      "prefecture": "熊本県",
+      "region": "県南",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "私のうちに／私の家のほうに",
+      "source": {
+        "title": "日本のふるさとことば集成 第19巻 佐賀・長崎・熊本",
+        "organization": "国立国語研究所",
+        "url": "https://mmsrv.ninjal.ac.jp/hogendanwa_db/list06/index.html",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-039",
+      "word": "オドマ",
+      "prefecture": "熊本県",
+      "region": "県南",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "私／私たち",
+      "source": {
+        "title": "日本のふるさとことば集成 第19巻 佐賀・長崎・熊本",
+        "organization": "国立国語研究所",
+        "url": "https://mmsrv.ninjal.ac.jp/hogendanwa_db/list06/index.html",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "usage"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-040",
+      "word": "オドンギャサミャ",
+      "prefecture": "熊本県",
+      "region": "県南",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "私たちの家のほうへ",
+      "source": {
+        "title": "日本のふるさとことば集成 第19巻 佐賀・長崎・熊本",
+        "organization": "国立国語研究所",
+        "url": "https://mmsrv.ninjal.ac.jp/hogendanwa_db/list06/index.html",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-041",
+      "word": "クバイ",
+      "prefecture": "熊本県",
+      "region": "県南",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "配り",
+      "source": {
+        "title": "日本のふるさとことば集成 第19巻 佐賀・長崎・熊本",
+        "organization": "国立国語研究所",
+        "url": "https://mmsrv.ninjal.ac.jp/hogendanwa_db/list06/index.html",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-042",
+      "word": "いくっしぇな",
+      "prefecture": "熊本県",
+      "region": "天草",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "行くので",
+      "source": {
+        "title": "天草方言集 第九版 天草方言〔珍語萬語〕",
+        "organization": "鶴田功（天草Webの駅掲載）",
+        "url": "https://hougen.amakusa-web.jp/MyHp/Pub/Free.aspx?CNo=3",
+        "sourceTier": 3,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-017",
+      "word": "なしなる",
+      "prefecture": "長崎県",
+      "region": "県央",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "なくなる、なくなってしまう",
+      "source": {
+        "title": "新編大村市史 第5巻 民俗編 第三章 ことばと伝承",
+        "organization": "大村市",
+        "url": "https://www.city.omura.nagasaki.jp/rekishi/kyoiku/shishi/omurashishi/dai5kan/documents/02-3minzoku3.pdf",
+        "sourceTier": 3,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "usage"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-023",
+      "word": "ほっつらかす",
+      "prefecture": "長崎県",
+      "region": "県央",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "ちらかす",
+      "source": {
+        "title": "新編大村市史 第5巻 民俗編 第三章 ことばと伝承",
+        "organization": "大村市",
+        "url": "https://www.city.omura.nagasaki.jp/rekishi/kyoiku/shishi/omurashishi/dai5kan/documents/02-3minzoku3.pdf",
+        "sourceTier": 3,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "usage"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-44-oita-013",
+      "word": "ごたんなぁ",
+      "prefecture": "大分県",
+      "region": "中部",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "publication_basis_review"
+      ],
+      "currentMeaning": "～ようですね",
+      "source": {
+        "title": "うすきあるき MAP 2「臼杵弁講座～桜まつり編～」",
+        "organization": "臼杵市",
+        "url": "https://www.city.usuki.oita.jp/docs/2015090900015/file_contents/MAP2.pdf",
+        "sourceTier": 3,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "example"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": true,
+      "decision": "READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": []
+    },
+    {
+      "id": "jp-44-oita-017",
+      "word": "～けん",
+      "prefecture": "大分県",
+      "region": "南部",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "publication_basis_review"
+      ],
+      "currentMeaning": "～ので",
+      "source": {
+        "title": "うすきあるき MAP 2「臼杵弁講座～桜まつり編～」",
+        "organization": "臼杵市",
+        "url": "https://www.city.usuki.oita.jp/docs/2015090900015/file_contents/MAP2.pdf",
+        "sourceTier": 3,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "example"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": true,
+      "decision": "READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": []
+    },
+    {
+      "id": "jp-44-oita-019",
+      "word": "むぞうらしい",
+      "prefecture": "大分県",
+      "region": "南部",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "publication_basis_review"
+      ],
+      "currentMeaning": "かわいらしい",
+      "source": {
+        "title": "方言「むぞうらしい」の用例はないか",
+        "organization": "大分県立図書館（レファレンス協同データベース）",
+        "url": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000030515&page=ref_view",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "example"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": true,
+      "decision": "READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": []
+    },
+    {
+      "id": "jp-44-oita-024",
+      "word": "～ちょん",
+      "prefecture": "大分県",
+      "region": "南部",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "～ている（結果状態・既然）",
+      "source": {
+        "title": "大分県南部方言（竹田市等） 医療・福祉関係 方言語彙",
+        "organization": "熊本支援方言プロジェクト",
+        "url": "https://www.fukujo.ac.jp/university/burger_editor/burger_editor/dl/54__YjIw.pdf",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "usage"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-44-oita-037",
+      "word": "ヨカ",
+      "prefecture": "大分県",
+      "region": "西部",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "良い",
+      "source": {
+        "title": "要地方言の活用体系記述 大分県日田市天瀬方言",
+        "organization": "松田美香／方言文法研究会",
+        "url": "https://hougen.sakura.ne.jp/shuppan/2025/09_katsuyo06.pdf",
+        "sourceTier": 3,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region",
+          "usage"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-44-oita-047",
+      "word": "ジョウモン",
+      "prefecture": "大分県",
+      "region": "西部",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "美人",
+      "source": {
+        "title": "大分県日田地方の方言の特徴について知りたい。例文があればなお良い。",
+        "organization": "大分県立図書館（レファレンス協同データベース）",
+        "url": "https://crd.ndl.go.jp/reference/entry/reference/show?asc=desc&dtltbs=1&fi=8_21+3_%E6%96%87%E7%8C%AE%E7%B4%B9%E4%BB%8B&id=1000338726&ldtl=1&mcmd=25&page=ref_view&st=update&state=2200000045&type=reference",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "meaning",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "NEAR_READY",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "地域・意味・出典を持つ独立レコード候補。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "登録資料の該当箇所再確認",
+        "source_attested用例または例文なしでも独立価値があるかの編集確認"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-043",
+      "word": "よかぐら",
+      "prefecture": "山口県",
+      "region": "県中央部（山口・防府など）",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "夜神楽",
+      "source": {
+        "title": "山口県徳地方言のアクセント―名詞のアクセント体系と複合名詞のアクセント規則について―",
+        "organization": "山口県立大学",
+        "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "HOLD",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "標準語と同形で、現状の固有情報はアクセント資料に依存。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "アクセント資料が語形を裏付けても、標準語と同形の語を独立方言ページにする固有価値の編集判断"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-044",
+      "word": "あまがえる",
+      "prefecture": "山口県",
+      "region": "県中央部（山口・防府など）",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "雨蛙",
+      "source": {
+        "title": "山口県徳地方言のアクセント―名詞のアクセント体系と複合名詞のアクセント規則について―",
+        "organization": "山口県立大学",
+        "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "HOLD",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "標準語と同形で、現状の固有情報はアクセント資料に依存。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "アクセント資料が語形を裏付けても、標準語と同形の語を独立方言ページにする固有価値の編集判断"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-045",
+      "word": "かたぐるま",
+      "prefecture": "山口県",
+      "region": "県中央部（山口・防府など）",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "肩車",
+      "source": {
+        "title": "山口県徳地方言のアクセント―名詞のアクセント体系と複合名詞のアクセント規則について―",
+        "organization": "山口県立大学",
+        "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "HOLD",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "標準語と同形で、現状の固有情報はアクセント資料に依存。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "アクセント資料が語形を裏付けても、標準語と同形の語を独立方言ページにする固有価値の編集判断"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-046",
+      "word": "こだから",
+      "prefecture": "山口県",
+      "region": "県中央部（山口・防府など）",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "子宝",
+      "source": {
+        "title": "山口県徳地方言のアクセント―名詞のアクセント体系と複合名詞のアクセント規則について―",
+        "organization": "山口県立大学",
+        "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "HOLD",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "標準語と同形で、現状の固有情報はアクセント資料に依存。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "アクセント資料が語形を裏付けても、標準語と同形の語を独立方言ページにする固有価値の編集判断"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-047",
+      "word": "きごころ",
+      "prefecture": "山口県",
+      "region": "県中央部（山口・防府など）",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "気心",
+      "source": {
+        "title": "山口県徳地方言のアクセント―名詞のアクセント体系と複合名詞のアクセント規則について―",
+        "organization": "山口県立大学",
+        "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "HOLD",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "標準語と同形で、現状の固有情報はアクセント資料に依存。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "アクセント資料が語形を裏付けても、標準語と同形の語を独立方言ページにする固有価値の編集判断"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-048",
+      "word": "きたまくら",
+      "prefecture": "山口県",
+      "region": "県中央部（山口・防府など）",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "北枕",
+      "source": {
+        "title": "山口県徳地方言のアクセント―名詞のアクセント体系と複合名詞のアクセント規則について―",
+        "organization": "山口県立大学",
+        "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "HOLD",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "標準語と同形で、現状の固有情報はアクセント資料に依存。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "アクセント資料が語形を裏付けても、標準語と同形の語を独立方言ページにする固有価値の編集判断"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-049",
+      "word": "あまがさ",
+      "prefecture": "山口県",
+      "region": "県中央部（山口・防府など）",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "雨傘",
+      "source": {
+        "title": "山口県徳地方言のアクセント―名詞のアクセント体系と複合名詞のアクセント規則について―",
+        "organization": "山口県立大学",
+        "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "HOLD",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "標準語と同形で、現状の固有情報はアクセント資料に依存。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "アクセント資料が語形を裏付けても、標準語と同形の語を独立方言ページにする固有価値の編集判断"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-050",
+      "word": "はるさめ",
+      "prefecture": "山口県",
+      "region": "県中央部（山口・防府など）",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "春雨",
+      "source": {
+        "title": "山口県徳地方言のアクセント―名詞のアクセント体系と複合名詞のアクセント規則について―",
+        "organization": "山口県立大学",
+        "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "HOLD",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "標準語と同形で、現状の固有情報はアクセント資料に依存。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "アクセント資料が語形を裏付けても、標準語と同形の語を独立方言ページにする固有価値の編集判断"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-051",
+      "word": "みずうみ",
+      "prefecture": "山口県",
+      "region": "県中央部（山口・防府など）",
+      "indexStatus": "noindex",
+      "currentIssues": [
+        "missing_example"
+      ],
+      "currentMeaning": "湖",
+      "source": {
+        "title": "山口県徳地方言のアクセント―名詞のアクセント体系と複合名詞のアクセント規則について―",
+        "organization": "山口県立大学",
+        "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": [
+          "phrase",
+          "reading",
+          "region"
+        ]
+      },
+      "sourceCount": 1,
+      "hasReading": true,
+      "hasExample": false,
+      "decision": "HOLD",
+      "evidenceAssessment": "登録済み資料あり。資料のauthorityとrecordの語形・意味・地域の対応を再評価。",
+      "uniquenessAssessment": "標準語と同形で、現状の固有情報はアクセント資料に依存。",
+      "duplicateRisk": "none_detected",
+      "requiredProductionChanges": [],
+      "remainingChecks": [
+        "アクセント資料が語形を裏付けても、標準語と同形の語を独立方言ページにする固有価値の編集判断"
+      ]
+    }
+  ]
+}

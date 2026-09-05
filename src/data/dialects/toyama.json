@@ -1,0 +1,72 @@
+[
+  {
+    "id": "jp-16-toyama-001",
+    "slug": "toyama-きときと",
+    "phrase": "きときと",
+    "reading": "きときと",
+    "standardJapanese": "新鮮な・生きがいい／元気で活力がある",
+    "description": "富山の「きときと」は、魚介などが新鮮で生きがいい状態を表します。富山県資料には、人や心身が元気で活力のある状態を表す用法もあります。行政の名称や企画では「輝かしい未来」などのイメージを重ねた例がありますが、これは基本語義と区別して扱います。",
+    "exampleDialect": "きときとのネタを揃えた寿司屋。",
+    "exampleStandard": "新鮮な寿司ネタを揃えた寿司屋。",
+    "prefectureCode": 16,
+    "prefectureName": "富山県",
+    "regionName": "呉東",
+    "municipality": "富山市",
+    "ageGroups": ["unknown"],
+    "usageContexts": ["日常会話"],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "富山市は『きときと』を富山の方言とし、『新鮮な、ピチピチとした』意味で地元に親しまれると説明。『生き生き』の語義、呉西限定の分布、例文は追加確認が必要。",
+    "sourceTitle": "すしのまち とやま",
+    "sourceOrganization": "富山市",
+    "sourceUrl": "https://www.city.toyama.lg.jp/bunka/kanko/1015608.html",
+    "sourceCheckedAt": "2026-09-01",
+    "sourcePublicationYear": "2024",
+    "sourceTier": 1,
+    "sourceExactFormMatch": "exact",
+    "evidenceScopes": ["phrase", "reading", "meaning", "region", "example", "usage"],
+    "additionalSources": [
+      {
+        "type": "official_reference",
+        "title": "みんなで参加しよう Q&A質問コーナー",
+        "organization": "富山県",
+        "url": "https://www.pref.toyama.jp/1021/kensei/kenseiunei/kensei/naruhodo/qa.html",
+        "checkedAt": "2026-09-04",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": ["phrase", "meaning", "usage"]
+      },
+      {
+        "type": "official_reference",
+        "title": "「元気とやまマスコット きときと君」について",
+        "organization": "富山県",
+        "url": "https://www.pref.toyama.jp/1021/kensei/kouhou/public/kitokitokun.html",
+        "checkedAt": "2026-09-04",
+        "publicationYear": "2026",
+        "sourceTier": 1,
+        "exactFormMatch": "exact",
+        "evidenceScopes": ["phrase", "meaning", "usage"]
+      },
+      {
+        "type": "academic_reference",
+        "title": "中学校国語科における言語単元の開発研究",
+        "organization": "富山大学人間発達科学研究実践総合センター",
+        "url": "https://cerp.u-toyama.ac.jp/file/bulletin/bulletin2013.pdf",
+        "checkedAt": "2026-09-04",
+        "publicationYear": "2013",
+        "sourceTier": 2,
+        "exactFormMatch": "exact",
+        "evidenceScopes": ["phrase", "meaning", "usage"]
+      }
+    ],
+    "confidence": "high",
+    "recordingYear": null,
+    "audioUrl": null,
+    "videoUrl": null,
+    "needsAudio": true,
+    "audioPriority": 2,
+    "languageVariety": "japanese_dialect"
+  }
+]

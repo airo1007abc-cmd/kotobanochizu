@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vercel/
+.chrome-audit/
+tmp/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db

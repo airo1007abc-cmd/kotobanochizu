@@ -1,0 +1,63 @@
+（ロ）食糧事情のこと
+
+0405906|Ｍ|dareka sjaN koqcino ho:ene miNna sokaisite mietaqte|誰か　しらないが　こちらの　方へね、皆　疎開して　きていられたって？
+0405908|Ｋ|ho:zja miNna soke:site kitena|そうだ、皆　疎開して　きてね。
+0405909|Ｍ|macino ho:no stoa|町の　方の　人が？
+0405910|Ｋ|hu:N maci watasimo to:kjo:karana: imo:toa soke:site kitoqtadena|フーン、町　私の所も　東京からねー、妹が　疎開して　来ていたからね。
+0405912|Ｍ|oba:saNmo kokoni dareka siraN sokaisitoqtato iqtadesjo:|おばあさんも　「此所に　誰か　しらが　疎開していた」と　言ったでしょう。
+0405914|Ａ|kokoni gozaqta hiasino kojanina: gozaqtawana: :saqte ju: sito huta:ri o:katano ie kite gozaqtawana darezo kaNzo kojae|ここに　居られた。東の　小屋にねー　居られたよねー、愛さんと　いう　人　二人が。大ていの　家へ　来て　いられたよね、誰か　かれかが、小屋へ。
+0406003|Ｋ|soke:site kitemo naNnimo ano zibuNwa seNso:zibuNwa taberu moN araheNna: h:kju:baqkaside|疎開して　きても　何も　あの　頃は、戦争の頃は、食べる　物が　無いよねー、配給ばかりで。
+0406006|Ｍ|koqci hoNdemo no:jo: stoqtanjaro|こちらは、それでも、農業を　していたんでしょう。
+0406007|Ｋ|hu:N no:jo: stoqtade zjaaimodemo tabetoqtaNja|フーン、農業を　していたので　馬鈴薯でも　食べていたんだよ。
+0406009|Ｍ|a: zjaaimo okomewa|あー、馬鈴薯、お米は？
+0406010|Ｋ|okomewa aqtakedomo jaqpaisina h:kju:destajaro huNde iqkura zibuNno dokode okome toqtemo h:kju:jaqtadena storiatari saNo:nara saNo: nio:nara nio:ateNdenaN doNdakeqteqte soNdakeka nokosasite moraehenaNda|お米は　あったけれども　やはりね、配給だったでしょう。それで　いくら　自分の　所で　お米を　とっても　配給だったからね、一人当り　三合なら　三合、二合なら　二合宛でね、どれだけと言ったって　それだけしか　残させて　もらえなかった。
+0406015|Ｍ|a: sore zeNbu dasite mauno atowa ato zeNbu dasite mauno|あー、それ　全部　出して　しまうの？　残りは、残りは　全部　出して　しまうの？
+0406101|Ｋ|ikutari oqte naNbjo:teqtena kimaqtotaNdena soreizjo:wa nokosaqsite moraehenaNdade miNna d:te maqta huNde jaqpasi sono h:kju:de tabetekoto omouto hjakusjo:wa nakanaka he:kju:dewa taberarehenaNda|幾人　居て　何俵といってね、決まっていたのでね、それ以上は　残させて　もらえなかったので　皆　出して　しまった。それで、やはり、その　配給で　食べて行こうと　思うと、百姓は　なかなか　配給では　食べられなかった。
+0406106|Ｍ|nani jaqtotano|何を　やっていたの？
+0406107|Ｋ|huNde ok: ozo:suiozja （Ａ ozijajaqta） 《笑》 mui gjo:saNja watasiNdokowa ozijajara oke: kire:jaqtade muibaqka gjo:saN iretena: hote tabeta|それで　おかゆ、お雑炊をだね、（Ａ　おじやだった）　《笑》　麦を　たくさんだよ、私の所は。おじやや　おかゆは　嫌いだったから、麦ばかり　たくさん　入れてねー、そして　食べた。
+0406111|Ａ|huNna moNzjaqtani|そんな　ものだったよ。
+0406112|Ｋ|kodomoNta:mo oke:ja ozijaNta taberuno ijajade muihaNbakumesidemo e:de muide gjo:saN iretekure ju:ta mui gjo:saN iretewa|子供達も　おかゆや　おじやなど　食べるのは　いやだから　「麦半白飯でも　よいから　麦　たくさん　入れてくれ」　と言った。麦を　たくさん　入れては…
+0406115|Ａ|abura iqto:ka nito: jobuN nokosu sonona: curasaqcjuqte doNdake kuro:site aqcie cjoboqto koqcie cjoboqto kakuite nito:baka jobuN kose:runoana: Nnamono|余分を　一斗か　二斗　余分に　残す、そのねー、つらさといって、どれだけか　苦労をして、あちらへ　少し　こちらへ　少し　隠して、二斗ばかり　余分を　作るのがねー、そんなもの、
+0406203|Ｍ|naNde keNsani kuruno|どうして？　検査に　来るの？
+0406204|Ａ|keNsani kurude Nde hosite ome: t:te: naNdaN cukuqtorude doNdake dase:te Ndake dasaNto akaheN Nde omahaN nito:ka sokora kakusunoa doNdake omahaN|検査に　来るから、それで、そして　あなた、大てい　「何段　作っているから　どれだけ　出せ」といって、それだけ　出さないと　いけない。それで　あなた、二斗か　そこら　隠すのが　どれだけ、あなた。
+0406208|Ｍ|huNde dokoe kakustano|それで　どこへ　隠したの？
+0406209|Ａ|arujo:na hanasia ho:zjanina: huNna saNo:aqte cjutakate ohjakusjo:zjaqtara saNo:atede oreNjaro huNde ma:|大ざっぱな　話として、そうだねー、そんな、三合宛　といっても　お百姓だったら　三合宛では　居られないでしょう。それで　まあ、
+0406212|Ｋ|jo: taberudena: hjakusjo:wa|よく　食べるからねー、百姓は。
+0406213|Ａ|naNzjana nito:baka omahaN jobuN nokosunoa dokoe kakuso:kato|何だね、二斗ばかり、あなた、余分を　残すのが、どこへ　隠そうかと。
+0406215|Ｋ|sorekara mukasiwa ho: ano: asa tabete ohiru tabete ocjazukeqcju tabemastajaro saNzini （Ａ nizini） hoNde mo: he:kju:ni naqtekara tabereNjo:ni naqte maqtaNdesuna:|それから　昔は　その、あのー、朝　食べて　お昼に　食べて　お茶漬というのを　食べたでしょう、三時に。（Ａ　二時に）　それで　もう、配給に　なってから　食べられない様に　なって　しまったんですよねー。
+0406303|Ａ|Nde mo: saNdozikijaro: horamo: mazui moNdemo|それで　もう　三度食でしょう、それはもう、まずい　物でも、
+0406305|Ｋ|Nde nakanaka h:kju:dakedewana: tarahenaNdaNdesu huNde miNna naNjana oke: tabetari ozija tabetari|それで、なかなか　配給だけではねー、足らなかったのです。それで　皆　何だね、おかゆを　食べたり　おじやを　食べたり。
+0406308|Ｍ|jasaiwa aqtajaro|野菜は　あったでしょう。
+0406309|Ｋ|hu:N jasaiwa zibuNdokode cukurudena:|フーン、野菜は　自分の所で　作るからねー。
+0406310|Ａ|jas:Ntena so: hara hukureheN naN iqtoru jas: jas: kore icudemona: gaqkojasumini kitemo jas: uN jas:baqkade hara hukureke: taqta hoNtoni jas:kicie:ja|野菜なんてね、そう　腹が　ふくれない。何を　言っている、「野菜　野菜」と、この子は　いつでもねー、学校の休みに　来ても　野菜、ウン、野菜ばかりで　腹が　ふくれるかね？　ただ。本当に　野菜気違いだ。
+0406314|Ｋ|hoNdemo e:ni jas:wana kusurijade （Ｍ ne:） jas: taberu kodenakerana zjo:buni ne:enadene|それでも　いいよ、野菜はね　薬だから。（Ｍ　ネー）　野菜を　食べる　子でなければ　丈夫では　ないそうだからね。
+0406401|Ａ|naNzja sjaNa omahaN 《笑》 hoNtoni jasa:zja stocu ju:to hutacumeni|何だか　しらないが　あなた　《笑》。本当に　「野菜野菜」と、何か　言うと　二言めには。
+0406403|Ｋ|imano iNsutaNtobaqkadewa akaNto jas: tabena|今の　インスタントばかりでは　いけないと、野菜を　食べなければ。
+0406405|Ａ|haraguwe:wa i:wana|腹ぐあいは　いいよね。
+0406406|Ｋ|imano moNwa mui tabezu cjoboqto moqte:ne:deto omoqte muiwa kusurijadeto omoqte cjoboqto iretemo bucubucu surutara naNtaraqte ia waru naqtataraqtena|今の　者は　麦を　食べない、少し、もったいなからと　思って、麦は　薬だからと　思って　少し　入れても、「ブツブツ　する」とか　何とか言って、「胃が　悪く　なった」とか言ってね
+0406410|Ｍ|hoNto watasi mui ireteto ju:to ireN iwaqseru kono sto|本当？　私が　「麦を　入れて」と　言うと　「入れない」と言われる、この　人。
+0406412|Ｋ|muiwa ireta ho:ana: （Ａ cjoqto irenaNna） gohaNmo oisi:si|麦は　入れた　方がねー　（Ａ　少し　入れなければ）　御飯も　おいしいし。
+0406414|Ａ|hjakueNa: koqteqtena:|百円分　買ってきてねー。
+0406415|Ｋ|huNde watasiN dokomo jo: tamani kaqte kurukedo hjakueNno hukuro cjoqtomo aNbajo: simaeta koto araheN miNna ijaarude jaqpa ireN ho:ana|それで　私の　所も　よく、時たま、買って　くるけれど、百円分の　袋が　少しも、ぐあいよく　なくなった　事が　ない。皆　いやがるので　やはり　入れない　方がね。
+0406503|Ｍ|imawa mui kaqte kuruno|今は　麦を　買って　くるの？
+0406504|Ａ|mo: da:remo|もう　誰も。
+0406505|Ｋ|ima kjo:sjucu site maudeqsjaro tori orusina: huNde cjoboqtocucu mukasiwa iqpjo:cu cuitejana cuite maqte tabetakedona: mo: soNnani tabeheNmoN|今は　供出　して　しまうでしょう。それに鶏が　居るしねー、それで　少しずつ。昔は　一俵ずつ　ついてだね、ついて　もらって　食べたけれどねー、もう　そんなに　食べないもの。
+0406509|Ｍ|mui cukuraheN|麦は　作らない？
+0406510|Ｋ|mui cukuqtewa arukedona bi:rumuia|麦　作っては　あるけれどね、ビール麦が。
+0406511|Ｍ|a: bi:rumui|あー、ビール麦。
+0406512|Ａ|mukasiwa niwarikarana: iretaNzjawana miNna|昔は　二割からねー、入れたんだよね、みんな。
+0406513|Ｍ|imamo ireja i:jaN|今も　入れれば　いいじゃないの？
+0406514|Ｋ|ho:ja imamo ireruto i:Njakedona: sorea akaNana: bocubocu suruqtara ia waru naqtateraqte 《笑》 tabeheNde ze:takuN naqta|そうだ、今も　入れれば　いいんだけれどねー、それが　だめだがねー。「ボツボツ　する」とか　「胃が　悪く　なった」とか言って　《笑》　食べないから　ぜいたくに　なった。
+0406601|Ａ|zjakedona: okomedemona: aside cukunoa hoNto asiN darutena: ba:cjaNta kita zibuN okome cukeqte iwastara okomeo aside toNko: toNko:te naNe: bo: cukete:te cuitajaro hoNtoni ere:mona: kini cukamaqtoqte nakanaka|だけどねー、お米でもねー　足で　つくのが、本当に　足が　だるくてねー、おばあさん達が　来た　頃は　「お米を　つけ」と　言われたら、お米を　足で　トンコー　トンコーと　長い　棒　つけておいて　ついたでしょう。本当に　つらいものねー、木に　つかまっていて、なかなか…
+0406607|Ｍ|mo: zibuNde cuita|もう　自分で　ついた？
+0406608|Ｋ|zibuNde aside cuita （Ｍ hu:N） asinina nae: ki sono sakini cjo:do kinemite:namoNna heqcuitoru moNjade koqcide humutose:a toNko toNko aaruNjawa|自分で、足で　ついた。（Ｍ　フーン）　足にね　長い　木…　その　先に　恰度　きねの様なものがね、くっついている　ものだから、こちらで　踏むと　トンコ　トンコ　上るんだよ。
+0406612|Ａ|sojaqte miNna ucide cuitaNja sorekara suisja deqteqtena|そうやって　皆　家で　ついたんだ。それから、水車が　できてきてね。
+0406614|Ｍ|de hucu:wa okomewa muito ciau jacu are cukaheNkane|で、ふつうは　お米は？　麦と　違う　もの、あれは　つかないのかね？
+0406616|Ｋ|okome cuitajo|お米は　ついたよ。
+0406701|Ｍ|okomemo zibuNde cuitano iede|お米も　自分で　ついたの？　家で、
+0406702|Ａ|taberu okome|食べる　お米。
+0406703|Ｋ|muiwa ano zibuN dokode cuitemona ume: koto cukeNdena: huNde kurumajade cuite maqtaNja|麦は　あの　頃　どこで　ついてもね、うまく　は　つけなくてねー、それで　車屋で　ついて　もらったんだよ。
+0406706|Ｍ|iqsjo:biNde okome cuita|一升瓶で　お米を　ついた？
+0406707|Ｋ|soNna zibuNwa ano: seNso:zibuNdesuwana: miNna h:kju:no stoana: ero: ano: ima terebide jaqte gozaru ohanasaN icumo kamo iqsjo:biNno nakade cuite gozaru|そんな　頃は、あの　戦争中の頃ですよねー、昔　配給の　人がねー、大変、あのー、今　テレビで　やって　いられる　おはなさん、いつも　かも　一升瓶の　中で　ついて　いられる。
+0406711|Ｍ|hu:N soNna koto aqtano|フーン、そんな　事が　あったの？
+0406712|Ｋ|huN sojaqtena: miNna ho: kuroideqsjaro kurome:de moraqtemo sjoNne: moNjade miNna macino stowa ano iqsjo:biNno nakadena kojaqte cuqcukinahaqtaenawana: watasira: hoNna koto jaqta koto ne:kedona: （Ａ ho:zja） kurotemo jaqpa suisjade cuitarinaNka simastakedona:|フン、そうやってねー、皆　黒いでしょう、玄米で　もらっても　しょうがない　ものだから、皆　町の　人は　あの、一升瓶の　中でね、こうやって　つっつきなさったそうだよねー。私等は　そんな　事を　やった　事が　ないけれどねー。（Ａ　そうだよ）　玄米でも　やはり　水車で　ついたりなんか　しましたけれどねー。

@@ -1,0 +1,513 @@
+{
+  "generatedAt": "2026-09-04",
+  "productionDataChanged": false,
+  "summary": {
+    "total": 27,
+    "SOURCE_FOUND": 0,
+    "PARTIAL": 1,
+    "NOT_FOUND": 26,
+    "CONFLICT": 0
+  },
+  "pages": [
+    {
+      "id": "d3",
+      "word": "なおす",
+      "prefecture": "大阪府",
+      "region": "大阪市",
+      "currentMeaning": "片づける",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d4",
+      "word": "ほんま？",
+      "prefecture": "大阪府",
+      "region": "河内",
+      "currentMeaning": "本当？",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d5",
+      "word": "めんこい",
+      "prefecture": "青森県",
+      "region": "津軽",
+      "currentMeaning": "かわいい",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d6",
+      "word": "けっぱる",
+      "prefecture": "青森県",
+      "region": "津軽",
+      "currentMeaning": "がんばる",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d7",
+      "word": "だべ",
+      "prefecture": "青森県",
+      "region": "南部",
+      "currentMeaning": "でしょう",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d14",
+      "word": "なんぼ？",
+      "prefecture": "大阪府",
+      "region": "大阪市",
+      "currentMeaning": "いくら？",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d15",
+      "word": "知らんけど",
+      "prefecture": "大阪府",
+      "region": "大阪市",
+      "currentMeaning": "確かではないけれど",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d16",
+      "word": "いけず",
+      "prefecture": "大阪府",
+      "region": "河内",
+      "currentMeaning": "意地悪",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d17",
+      "word": "ほかす",
+      "prefecture": "大阪府",
+      "region": "泉州",
+      "currentMeaning": "捨てる",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d18",
+      "word": "あかん",
+      "prefecture": "大阪府",
+      "region": "大阪市",
+      "currentMeaning": "だめ",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d19",
+      "word": "まいね",
+      "prefecture": "青森県",
+      "region": "津軽",
+      "currentMeaning": "だめ・よくない",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d20",
+      "word": "わいは",
+      "prefecture": "青森県",
+      "region": "津軽",
+      "currentMeaning": "まあ・驚いた",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d21",
+      "word": "なげる",
+      "prefecture": "青森県",
+      "region": "南部",
+      "currentMeaning": "捨てる",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d22",
+      "word": "けやぐ",
+      "prefecture": "青森県",
+      "region": "津軽",
+      "currentMeaning": "友だち",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "d23",
+      "word": "めじゃ",
+      "prefecture": "青森県",
+      "region": "下北",
+      "currentMeaning": "おいしい",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-12-chiba-001",
+      "word": "あおなじみ",
+      "prefecture": "千葉県",
+      "region": "北西部",
+      "currentMeaning": "青あざ",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-38-ehime-001",
+      "word": "いってこうわい",
+      "prefecture": "愛媛県",
+      "region": "中予",
+      "currentMeaning": "行って帰ってきます",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-21-gifu-001",
+      "word": "えらい",
+      "prefecture": "岐阜県",
+      "region": "美濃",
+      "currentMeaning": "疲れた・つらい",
+      "indexStatus": "noindex",
+      "decision": "PARTIAL",
+      "evidence": [
+        {
+          "title": "岐阜県公開資料内の使用例",
+          "organization": "岐阜県",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/411966.pdf",
+          "sourceTier": 1,
+          "exactFormMatch": "exact",
+          "supports": [
+            "語形",
+            "『大変』に近い文脈上の用法"
+          ]
+        }
+      ],
+      "verified": [
+        "語形",
+        "使用文脈"
+      ],
+      "unresolved": [
+        "地域分布",
+        "読みの資料上の明示",
+        "辞書的意味の直接定義"
+      ],
+      "note": "公的資料に用例はあるが、辞書的定義・分布を確定するには不足。"
+    },
+    {
+      "id": "jp-10-gunma-001",
+      "word": "なっから",
+      "prefecture": "群馬県",
+      "region": "中毛",
+      "currentMeaning": "かなり・ずいぶん",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-17-ishikawa-001",
+      "word": "だら",
+      "prefecture": "石川県",
+      "region": "加賀",
+      "currentMeaning": "ばか・愚か",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-14-kanagawa-001",
+      "word": "じゃん",
+      "prefecture": "神奈川県",
+      "region": "横浜・川崎",
+      "currentMeaning": "ではないか・でしょう",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-15-niigata-001",
+      "word": "なじらね",
+      "prefecture": "新潟県",
+      "region": "中越",
+      "currentMeaning": "いかがですか",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-11-saitama-001",
+      "word": "かたす",
+      "prefecture": "埼玉県",
+      "region": "東部",
+      "currentMeaning": "片づける",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-25-shiga-001",
+      "word": "ほっこりする",
+      "prefecture": "滋賀県",
+      "region": "湖東",
+      "currentMeaning": "疲れる・一息つく",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-22-shizuoka-001",
+      "word": "だら",
+      "prefecture": "静岡県",
+      "region": "中部",
+      "currentMeaning": "でしょう",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-13-tokyo-001",
+      "word": "うざったい",
+      "prefecture": "東京都",
+      "region": "多摩",
+      "currentMeaning": "わずらわしい",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    },
+    {
+      "id": "jp-19-yamanashi-001",
+      "word": "ほうけ",
+      "prefecture": "山梨県",
+      "region": "国中",
+      "currentMeaning": "そうなのか",
+      "indexStatus": "noindex",
+      "decision": "NOT_FOUND",
+      "evidence": [],
+      "verified": [],
+      "unresolved": [
+        "語形",
+        "意味",
+        "地域",
+        "出典"
+      ],
+      "note": "リポジトリ登録資料および今回の公的Web探索で確定資料を得られず。推測追加しない。"
+    }
+  ]
+}

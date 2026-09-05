@@ -1,0 +1,30 @@
+Ｋ　人に伝言をたのむ
+
+0103308|４|e: an o: kon mae: an huzinkwaikwande hanahjga goasjta na:|ええ　あのね、この　前　あの　婦人会館で　話が　ありました　ねえ。
+0103309|２|ha: ha:|ええ　ええ。
+0103310|４|omansa: oboete…|あなた　覚えて…
+0103311|２|hai|ええ。
+0103312|４|an toq eagemosjta an obasan nan tsi ohjto goasjtake na:|あの　時　お会いした　あの　おばさん　何　という　おかた　でしたかしら　ねえ。
+0103313|２|a: hamadasan|ああ、浜田さん。
+0103401|４|hamadasan na:|浜田さんです　ねえ。
+0103402|２|hai|ええ。
+0103403|４|ano hjte. na:|あの　人に　ねえ。
+0103404|２|hai|ええ。
+0103405|４|anmai goandon hjtotsu: ojaqta tokja hjtotsu dengonno tanomiagemonde|すみませんが　ひとつ　いらした　時は　ひとつ　伝言を　お願いしますので。
+0103407|２|hai hai|ええ　ええ。
+0103408|４|zitsja. na.|実は　ねえ。
+0103409|２|hai|はい。
+0103410|４|ma. ahjkode haqmeq e:ageq sohjte ma: a: tegetege… kimosjtaga…|まあ　あすこで　初めて　お会いして　そして　まあ　ええ、たいがい…　して来ましたが…
+0103412|２|ha:|はあ。
+0103413|４|hizjo.ni ma. omosjto okasju sjq na:|非常に　まあ　面白く　おかしく　して　ねえ、
+0103414|２|ha:|はあ。
+0103415|４|nai goasjtade|そういうこと　でしたので、
+0103416|２|hai|はあ。
+0103501|４|mata iqka hjtotsu: juqkuito hjtoq kataimeageq mimonsoja tsj|また　いつか　ひとつ　ゆっくりと　ひとつ　お話して　見ましょうよ　って。
+0103502|２|hai|はい。
+0103503|４|soide ma tsugon joka tokja: aqtsio otoijaq tokja: hjtotsu joq omjaq tamohanka tsi ju jona hui|それで　まあ　つごうの　いい　時は、あっちを　お通りになる　時は　ひとつ　寄って　ごらんになって　くださいませんか　と　いう　ような　ふうに。
+0103505|２|ha|はい。
+0103506|４|do.ka hjtotsu|どうか　ひとつ。
+0103507|２|sogen konda o.ta toka juq eqmonde|そう　今度　会った　時は　言って　おきますから。
+0103508|４|hai tanomiagemonde do.ka hjtotsu|はい。お願いしますから、どうか　ひとつ。
+0103509|２|kasjkomasjta|かしこまりました。

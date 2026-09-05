@@ -1,0 +1,80 @@
+[
+  {
+    "id": "jp-19-yamanashi-001",
+    "slug": "yamanashi-ほうけ",
+    "phrase": "ほうけ",
+    "reading": "ほうけ",
+    "standardJapanese": "そうなのか",
+    "description": "山梨県国中周辺で使用例が報告される表現。公開前に地域話者または参照資料による追加確認が必要です。",
+    "exampleDialect": "「ほうけ」を使う会話例は確認・収集中です。",
+    "exampleStandard": "「そうなのか」に近い意味で使われる候補です。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": null,
+    "ageGroups": ["unknown"],
+    "usageContexts": ["日常会話"],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "needs_review",
+    "sourceType": "source_pending",
+    "sourceNote": "全国初期整備候補。出典URLと地域内分布を人手で確認するまでneeds_review。",
+    "confidence": "low",
+    "recordingYear": null,
+    "audioUrl": null,
+    "videoUrl": null,
+    "needsAudio": true,
+    "audioPriority": 2,
+    "languageVariety": "japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-002","slug":"yamanashi-hayakawa-akayakan","phrase":"あかやかん","reading":"あかやかん","standardJapanese":"はげ頭",
+    "description":"早川町奈良田の「あかやかん」は、頭髪のない頭を指す語として、町教育委員会刊行資料の方言表に記録されています。資料には人物の頭を述べる例文もありますが、容姿を直接評する表現は相手を傷つけるおそれがあります。現在の使用頻度や世代差は未確認です。",
+    "exampleDialect":"あの人の頭は、あかやかんだ。","exampleStandard":"あの人の頭は、はげ頭だ。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["人の外見を述べる場面"],"emotionTags":["注意が必要"],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-003","slug":"yamanashi-hayakawa-inmei","phrase":"いんめい","reading":"いんめい","standardJapanese":"少し",
+    "description":"早川町奈良田の「いんめい」は、「少し」を表す語として、町教育委員会刊行資料の方言表に記録されています。資料には何かを少量求める短い依頼例があり、量の程度を示す用法を確認できます。現代の日常会話での頻度や使用世代、発音の詳細は未確認です。",
+    "exampleDialect":"いんめい下さい。","exampleStandard":"少し下さい。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["少量を求める場面","日常会話"],"emotionTags":[],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-004","slug":"yamanashi-hayakawa-obeeto","phrase":"おべえとう","reading":"おべえとう","standardJapanese":"驚いた",
+    "description":"早川町奈良田の「おべえとう」は、「驚いた」という反応を表す語として、町教育委員会刊行資料に記録されています。暗がりに人が立っていて驚いた場面の例文があり、突然の出来事への反応として確認できます。現在の使用頻度、世代差、語調の強さは未確認です。",
+    "exampleDialect":"暗闇に人が立っていて、おべえとう。","exampleStandard":"暗闇に人が立っていて、驚いた。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["驚いたとき","日常会話"],"emotionTags":["驚き"],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-005","slug":"yamanashi-hayakawa-kaatorumai","phrase":"かあとるまい","reading":"かあとるまい","standardJapanese":"肩車",
+    "description":"早川町奈良田の「かあとるまい」は、「肩車」を表す語として、町教育委員会刊行資料の方言表に記録されています。資料には赤ちゃんが肩車を喜ぶ場面の例文があり、人を肩に乗せる遊びや動作を指すことが分かります。現在の使用頻度や使用世代は未確認です。",
+    "exampleDialect":"あの赤ちゃんは、かあとるまいを喜ぶ。","exampleStandard":"あの赤ちゃんは、肩車を喜ぶ。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["子どもとの遊び","日常会話"],"emotionTags":["喜び"],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-006","slug":"yamanashi-hayakawa-gai","phrase":"がい","reading":"がい","standardJapanese":"多い・たくさん",
+    "description":"早川町奈良田の「がい」は、「多い」「たくさん」を表す語として、町教育委員会刊行資料の方言表に記録されています。資料では水を多く与えるよう促す例文が示され、量の多さを表す用法を確認できます。同形語との区別、現在の使用頻度や世代差は未確認です。",
+    "exampleDialect":"水をがいにやりなさい。","exampleStandard":"水をたくさんやりなさい。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["量を表す場面","作業の指示"],"emotionTags":[],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-007","slug":"yamanashi-hayakawa-kibisho","phrase":"きびしょ","reading":"きびしょ","standardJapanese":"土瓶・小さいやかん",
+    "description":"早川町奈良田の「きびしょ」は、「土瓶」または「小さいやかん」を指す語として、町教育委員会刊行資料に記録されています。資料には、きびしょへお茶を入れる例文があり、飲み物を入れる身近な道具の呼称だと分かります。材質や形の厳密な範囲、現在の頻度は未確認です。",
+    "exampleDialect":"きびしょにお茶を入れる。","exampleStandard":"土瓶にお茶を入れる。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["茶を入れる場面","生活道具の呼称"],"emotionTags":[],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。語義の道具範囲と現在の使用実態は未確認。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-008","slug":"yamanashi-hayakawa-kinpoji","phrase":"きんぽうじ","reading":"きんぽうじ","standardJapanese":"ふきのとう",
+    "description":"早川町奈良田の「きんぽうじ」は、「ふきのとう」を指す語として、町教育委員会刊行資料の方言表に記録されています。資料には春の訪れと芽吹きを結び付けた例文があり、季節の植物名としての使い方を確認できます。植物の採取文化や現在の使用頻度、世代差は未確認です。",
+    "exampleDialect":"今年も春だ。きんぽうじが出たぞ。","exampleStandard":"今年も春だ。ふきのとうが出たぞ。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["春の植物を話す場面","季節の会話"],"emotionTags":["季節感"],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-009","slug":"yamanashi-hayakawa-kunnepuru","phrase":"くんねぷる","reading":"くんねぷる","standardJapanese":"居眠り",
+    "description":"早川町奈良田の「くんねぷる」は、「居眠り」を表す語として、町教育委員会刊行資料の方言表に記録されています。資料には、ある人がよく居眠りをするという例文があり、眠る行為を名詞として述べる用法を確認できます。例文中の人物から使用世代は推定せず、現在の頻度も未確認です。",
+    "exampleDialect":"あのおばあさんは、くんねぷるばかり。","exampleStandard":"あのおばあさんは、居眠りばかりしている。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["眠っている様子を述べる場面","日常会話"],"emotionTags":[],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。例文中の人物属性は話者層の根拠にしていない。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-010","slug":"yamanashi-hayakawa-daiyabin","phrase":"だいやびん","reading":"だいやびん","standardJapanese":"崖",
+    "description":"早川町奈良田の「だいやびん」は、「崖」を指す語として、町教育委員会刊行資料の方言表に記録されています。資料には崖が多い山の危険を述べる例文があり、地形と安全を話す場面での用法を確認できます。見出しと例文には表記差があり、発音や現在の頻度は未確認です。",
+    "exampleDialect":"あの山は、だいやびんが多くて危ない。","exampleStandard":"あの山は、崖が多くて危ない。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["地形を説明する場面","危険を伝える場面"],"emotionTags":["注意"],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。原資料では見出し『だいやびん』に対し例文表記が『ダイヤピン』。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  },
+  {
+    "id":"jp-19-yamanashi-011","slug":"yamanashi-hayakawa-hicchinoyaen","phrase":"ひっちのやえん","reading":"ひっちのやえん","standardJapanese":"非常に暗い",
+    "description":"早川町奈良田の「ひっちのやえん」は、「非常に暗い」状態を表す語として、町教育委員会刊行資料に記録されています。資料には夜道が暗く危険だと注意する例文があり、強い暗さを述べる用法を確認できます。語の構成、暗さの程度差、現在の使用頻度や世代差は未確認です。",
+    "exampleDialect":"今夜はひっちのやえんで、危険だぞ。","exampleStandard":"今夜は非常に暗くて、危険だぞ。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["夜道の暗さを述べる場面","危険を知らせる場面"],"emotionTags":["注意"],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "review_required": [
+    {
+      "phrase": "ぬっか",
+      "regionName": "県南",
+      "reason": "長崎市公式ページで方言表記は確認したが、意味が画像内のため今回の機械抽出では意味監査未完了。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "かずむ",
+      "regionName": "県南",
+      "reason": "同上。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "ねまる",
+      "regionName": "県南",
+      "reason": "同上。対馬のネマルとは別地域・意味の可能性があるため統合禁止。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "こやらしい",
+      "regionName": "県南",
+      "reason": "西海市公式PDF検索結果で候補確認。該当ページ本文の再確認待ち。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "たんぎ",
+      "regionName": "県南",
+      "reason": "西彼杵半島でタヌキを指す候補。公式PDF該当ページの再確認待ち。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "あやす",
+      "regionName": "県央",
+      "reason": "諫早市宗方地区民話の対訳中に現れるが、ページが個別に諫早弁と定義していない。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "トーンボする",
+      "regionName": "県央",
+      "reason": "同上。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "へー",
+      "regionName": "県北",
+      "reason": "波佐見の農村側でハエを指すとの議会記録候補。該当会議録ページの直接再確認待ち。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "ひゃー",
+      "regionName": "県北",
+      "reason": "波佐見の窯業集落側でハエを指すとの議会記録候補。該当会議録ページの直接再確認待ち。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "なんしょいんとでー",
+      "regionName": "壱岐",
+      "reason": "勝本浦地域サイトに『何しているんですか』との対訳例あり。ただし自治体・学術資料による独立確認が未了。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "いいっぺえ",
+      "regionName": "壱岐",
+      "reason": "壱岐観光ナビの壱州弁看板に出るが、ページに語単位の標準語訳がないため採用保留。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "あいけん",
+      "regionName": "壱岐",
+      "reason": "同上。",
+      "verificationStatus": "review_required"
+    },
+    {
+      "phrase": "こうち",
+      "regionName": "壱岐",
+      "reason": "同上。",
+      "verificationStatus": "review_required"
+    }
+  ],
+  "rejected": [
+    {
+      "phrase": "ばってん",
+      "reason": "既存データとの重複。語自体は長崎市資料で確認可能。",
+      "verificationStatus": "rejected"
+    },
+    {
+      "phrase": "クーラー",
+      "reason": "長崎市資料自身が長崎弁とは違うと説明。",
+      "verificationStatus": "rejected"
+    }
+  ]
+}

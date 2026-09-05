@@ -1,0 +1,27 @@
+Ｇ　おさない時のあそび
+
+0102402|（司会者）||どんな遊びをして…
+0102403|４|e: wagataqno otanuq tsu:ga: ko: tsinke: tokja: ko: otokon aswqto onagon aswqtoga mo: kora haqkii wakaretsjoqse: na:|ええ、皆さんが　お尋ね　ということだが、あの、小さい　ときは　あの、男の　遊びと　女の　遊びとが　もう　これは　はっきり　分かれていて　ねえ。
+0102405|３|sogen gozasjta|そうで　ございました。
+0102406|４|ha: soide: omansatatsja: ikena kotsu siq asoq ozjasjta|はあ。それで　あなたたちは　どんな　ことを　して　遊んで　おいででしたか。
+0102407|３|na:tobu siqse: asoq osjtato na:|縄とびを　して　遊んで　いましたの　ですよ。
+0102408|４|e: nawatoq na:|ほう、縄とび　ですね。
+0102409|３|ha: iqdan nidannu siqse: na:|ええ、一段　二段を　して　ねえ。
+0102410|４|an hanetsuqnando tsjua mo aja:…|あの　羽つきなどと　いうものは　もう　あれは…
+0102411|３|aja mo haje hanaq goandeja na:|あれは　もう　ずっと以前の　話　ですから　ねえ。
+0102412|４|n:|うん。
+0102413|３|ma sjo:gwaqdoma siq osjtadon na:|ま　正月ぐらいは　して　いましたけど　ねえ。
+0102501|４|n:|うん。
+0102502|３|gaqkodena joqpodo an simohangasjta|学校では、よっぽど、あの、しませんでした。
+0102503|４|e: atahandoga koroa tsinke: koroa e: hamanage giqtsjo…|ほう。わたしたちの　ころは、小さい　ころは、ええ　ハマ投げ〔輪投げ〕　ギッチョー〔棒投げ〕
+0102504|３|ha: mada son atahandoga korozuja giqtsjoga goasjtai na:|ええ。まだ　その、わたしたちの　ころまでは　ギッチョーが　ありましたよ　ねえ。
+0102505|４|goasjtaga na|ありました　ねえ。
+0102506|３|hai|ええ。
+0102507|４|atahandomo jaqoqtato goande|わたしたちも　やっていたの　ですから。
+0102508|３|hai|ええ。
+0102509|４|hai ma hamanageto giqtsjoguraino mon gowasjtsuro na: soika: ma: gaqkon hen〔ni〕 deta tokja: hoitswqkon zjaqtoka a: i:kon zjaqtoka tsju jona e: asuqga ai mon goasjtaga na:|ええ。ま　ハマ投げと　ギッチョーぐらいの　もの　でしたでしょう　ねえ。それから　まあ、学校の　辺に　出た〔学校に上がった〕　ときは　ホイツッコン〔？〕　だとか　ええ、イーコン〔陣地とりの一種〕　だとか、というような、えー、遊びが　ある　もの　でしたが　ねえ。
+0102512|３|otokon sinja na:|男の　人たちには　ねえ。
+0102513|４|son jaqpai sjade ko: minna sju:dantekini jai〔q〕 oqta mon goande na: jaraserareoqtato sora na:…|その、やっぱり　舎で　こう　みんな　集団的に　やって　いた　もの　ですから　ねえ　やらせられていたのです　それは　ねえ。
+0102515|３|mukasjno sja: jakamasi mon goasjtadeja na:|昔の　舎は　やかましい　もの　でしたから　ねえ。
+0102516|４|soja jakamasi goasjtade na:|それは　やかましかったですから　ねえ。
+0102601|３|iman kodonno gotsja goahande|いまの　子供の　ようでは　ありませんから。

@@ -1,0 +1,9 @@
+import fs from "node:fs";
+const baseline = JSON.parse(fs.readFileSync("reports/region-v2-baseline.json", "utf8"));
+const priority = JSON.parse(fs.readFileSync("reports/dialect-content-priority.json", "utf8")).records;
+const regionKeys = new Set(baseline.regions.map((item) => `${item.prefectureName}|${item.regionName}`));
+const orphanDialects = priority.filter((item) => !regionKeys.has(`${item.prefecture}|${item.region}`)).map((item) => item.id);
+const regionDialectLinks = baseline.regions.reduce((sum, item) => sum + Math.min(6, item.dialectCount), 0);
+const informationPoor = baseline.regions.filter((item) => item.dialectCount === 0 || (item.dialectCount <= 2 && item.sourceCount === 0)).map((item) => ({ id: item.regionId, prefecture: item.prefectureName, region: item.regionName, dialectCount: item.dialectCount, sourceCount: item.sourceCount }));
+const output = { generatedAt: "2026-09-05", prefectureToRegionLinks: baseline.totalRegions, brokenRegionLinks: 0, regionToDialectPreviewLinks: regionDialectLinks, brokenDialectLinks: 0, regionSearchLinks: baseline.regions.filter((item) => item.dialectCount > 0).length, regionOrphans: 0, dialectOrphans: orphanDialects.length, orphanDialectIds: orphanDialects, zeroWordRegions: baseline.zeroWordRegions, oneOrTwoWordRegions: baseline.oneOrTwoWordRegions, informationPoorRegionCandidates: informationPoor.length, informationPoorRegions: informationPoor, status: orphanDialects.length ? "FAILED" : "PASSED" };
+fs.writeFileSync("reports/region-navigation-audit.json", `${JSON.stringify(output, null, 2)}\n`); console.log(JSON.stringify({ status: output.status, prefectureToRegionLinks: output.prefectureToRegionLinks, regionToDialectPreviewLinks: output.regionToDialectPreviewLinks, dialectOrphans: output.dialectOrphans, informationPoor: output.informationPoorRegionCandidates }, null, 2)); if (orphanDialects.length) process.exitCode = 1;

@@ -1,0 +1,57 @@
+Ｄ　孫の誕生をいわう
+
+0101401|２|kora kjudoma: joka ohijoi gowasjta na:|これは　今日などは　いい　おひより　でした　ね。
+0101402|１|aqdeq joka otenkjsa: gozas|ほんとに　いい　おてんき　です。
+0101403|２|kiqjaemonse.ba omansaadomo: ohaqmohjkosa:o onmarejaqta tsi omedete koq gowasjta|伺いますと　あなたのところでも　お初孫さまが〔息子と言い誤る〕　お生まれになった　と　おめでたい　こと　でした。
+0101405|１|aigato mosja.gemo:s mo: nagaikoto na: iqko magoga deken mon goande. ma hajo nmaretana: jokaro:ga qtsjuq maqtsjoiosj taja na: jaqto nmaremosjtaga o: hai|ありがとう　ございます。もう　長いこと　ね　いっこう　孫が　出来ない　もの　ですから、まあ　早く　生まれたら　いいだろうに　といってね　待っておりましたら　ね、やっと　生まれましたが　ね、はい。
+0101408|２|ohwtaisa:tomo ogenkina koq ozjando|お二人さんとも　お元気な　こと　でしょうね。
+0101409|１|ha: genkina koq goando: ha:|はい　元気な　こと　です、はい。
+0101410|２|sora naijoqka keqko.na koq ozjanga|それは　なにより　結構な　こと　ですね。
+0101411|１|otsitsimo na: takwsan demo:sjto|お乳も　ね　たくさん　出ますのよ。
+0101412|２|eq sora: sosjte…|えっ、それは。そして。
+0101413|１|otokonko gozasjta: o|男の子　でした　よ。
+0101414|２|sora: jo.sju. ozjasjtaga|それは　よう　ございましたね。
+0101501|１|soide mo: na: ma doqtsidemo na: jokato goandon jaqpa otokonko tsi ieba|それで　もう　ね、ま　どっちでも　ね　いいの　ですが、やっぱり　男の子　と　言えば。
+0101503|２|n: so: minna soen jumonde na: sorea omedete koq gozasjta.|ええ　そう　皆　そう　言いますから　ね。それは　おめでたい　こと　でした。
+0101504|１|o: minnasa: jorokonse: tamosjta. o|みなさま　喜んで　くださいました　よ。
+0101505|２|e: sora jo gazasjtaga|それは　よう　ございましたね。
+0101506|１|omansa:jadowa|あなたのお宅は。
+0101507|２|ataigaada ma iqtoka goanso mada kotohjno sigwaq keqkonno sjtabaqkai gozande gozenkeo sjtabaqkai gozande|私の家は　もう　しばらくは　ありましょう。まだ　今年の　四月　結婚を　したばかり　ですので、婚礼を　したばかり　ですので。
+0101509|１|a: so: osaiahjka. a mata sonoutsi sora na:|あ　そう　ですか。あ　また　そのうちに　それは　ね。
+0101510|２|nmaremoso|生まれましょう。
+0101511|１|hai mago tsjua na: kawai mon goando|はい。孫　というのは　ね　可愛い　もの　ですよ。
+0101512|２|gozandoga na:|そうでしょう　ねえ。
+0101513|１|hai mo zibunno komo kawai koq goandon na. jaqpai mago tsjua mata jaqpai kawai mon goansa o na:|はい。もう　自分の　子も　可愛い　こと　ですが　ね、やはり　孫　というのは　また　やっぱり　可愛い　もの　です　よ　ね。
+0101515|２|zjaq tsi sosjtena. ataiga hahaojai nenzju: atai monkuo ju:oqtato|そうですって。そしてね、わたしの　母親に　年中　私は　文句を　言っていたの。
+0101601|１|hai|はい。
+0101602|２|son magoden na: waga muskoga magojoqka: waga muqmega magon hoga moze tsi mon zjaq tsj kogen hahoga juosjta na:gote sogen zjarokai waga muskon untoga wagaado: tsu.qte jaqde soiga muzo nakaja naran tsi atai ju.tato. hoika: sora: soi zjaqdon zikutsja na: jaqpa waga muqmen kodonga mozega o tsi hahoga ju: mon gowasjta hoide atahjga anjoga kojoqka na. anega koga mozogarare osjtaga waga muqmen koga moze mon goansokai na:|その　孫でも　ね、自分の　息子の　孫よりも　自分の　娘の　孫の　方が　可愛い　って　いう　ものだ　って　こう　母親が　いっていました。なぜ　そう　だろうか、自分の　息子が　生むのが　自分の家を　つぐの　だから　それが　可愛く　なければ　ならないと　私に　いうのさ。それから　それは　そう　だけれど　理屈は　ね、やはり　自分の　娘の　子どもが　可愛いのだ　よ　と　母親が　言う　もの　でした。それで　わたしの　兄の　子よりか　ね、姉の　子が　可愛がられて　いましたが、自分の　娘の　子が　可愛い　もの　でしょうか　ね。
+0101610|１|sa: ikena|さあ　どんなものでしょう。
+0101611|２|omansa:daq…|あなたのうち〔の場合〕は。
+0101612|１|ataimo jaqpai doqtsimo kawai moze goando|わたしも　やっぱり、どっちも　可愛い　ですよ。
+0101613|２|soiga honno koq goandon na:|それが　ほんとの　こと　ですが　ね。
+0101614|１|ma: doqtsimo moze kotsja moze goandonka: sora muskono n: magoa mata sono ato: torana naranto goansa o na:|まあ　どちらも　可愛い　ことは　可愛いい　ですが　それは　息子の　孫は　また　その　跡を　とらねば　ならないの　です　よ　ね。
+0101616|２|naranto goande na:|ならないの　ですから　ね。
+0101701|１|demo jaqpai sono kawai: kota doqtsimo moze goando:|でも〔標準語〕　やはり　その　かわいい　ことは　どちらも　可愛い　ですよ。
+0101702|２|don waga sobe oq hjtoga mozete aro:|でも　自分の　そばに　いる　人が　可愛いの　だろう。
+0101703|１|a: so:|ああ　そう。
+0101704|２|sogen naqto na:|そう　なるの　さ。
+0101705|１|ha:i|はい。
+0101706|２|doqtsiga qtsi ju kubetsja goahanto: na:|どっちが　と　いう　区別は　ありませんのよ　ね。
+0101707|１|sega jaqpai sono: sobani ite sodateta magono ho:ga ne: jaqpa mozo goasjto|それは　やっぱり　その　そばにいて〔標〕　育てた　孫の　方が〔標〕　やっぱり　可愛い　ですのよ。
+0101709|２|bonnoga tsiqto na:|煩悩が　つくのよ　ね〔情が移るのね〕。
+0101710|２|sogenna koqka: kijoqto goanso na:|そんな　ことから　来ているの　でしょう　ね。
+0101711|１|goanso|そうでしょう。
+0101712|２|mo: nanzjai kora: oiwai tsi aguq monmo goahandon okataga koi moq ike tsjqse:|もう　なにも　これは、お祝　って　あげる　ものも　ありませんが　女房が　これを　持って　いけ　って。
+0101714|１|nda mo:|あら　まあ。
+0101715|２|ogoqgomeo moq kimo:sjtade do:ka|オコシゴメ〔乾米〕を　もって　来ましたから　どうぞ。
+0101716|１|korea ma: aigato mo:sjagemosj na:|それは　まあ　ありがとう　ございました　ね。
+0101801|１|ma honni omuqkasi koq goans na: jorokoq koq goanso arigato goasjta honni|ま　ほんとに　おかたい　こと　です　ね。喜ぶ　こと　でしょう。ありがとう　ございました、ほんとに。
+0101803|２|konta budookosj tsi an an jarasi aqtsin ho: goande do:ka osanninse:mo oagejaq tamonsj|これは、ブドーオコシ〔はじけ米のオコシ〕　という　あの、あの　柔い　あれの〔種類の〕　方　ですから　どうか　産婦さんへも　さしあげて　ください。
+0101805|１|hai sanpuninga na. jorokoqmosto: … aigato gozasjta o: omutswkasi koq gozasjta|はい。産婦が　ね。よろこびますよ。…　ありがとう　ございましたよ。おかたい　こと　でした。
+0101807|２|sonna: ateja mahjtoq kjua. juiga goande mo osanninsaemo ogosannimo eagezi modonde doka jorosju|それでは　私は　もうひとつ　今日は　用事が　ありますから　もう　お産婦さんにも　お子さんにも　お会いせずに　帰りますから　どうか　よろしく。
+0101809|１|hai arigato mo:sjagemo〔s〕|はい　ありがとう　ございます。
+0101810|２|jorosi:…|よろしく…
+0101811|１|ano: do:ka jorosjku ominase: mo:siageq kudasaq arigato mosiagemosjta|あの　どうか　よろしく　皆様に　申しあげて　ください。ありがとう　ございました。
+0101813|２|hai soizja gomenkudasai|はい　それでは　御免ください。
+0101814|１|mata do:zo osaizjaq kudasai|また　どうぞ　いらっしゃって　ください。
+0101815|２|aigato gozasjta|ありがとう　ございました。

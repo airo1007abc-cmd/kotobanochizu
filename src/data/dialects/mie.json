@@ -1,0 +1,46 @@
+[
+  {
+    "id": "jp-24-mie-001",
+    "slug": "mie-ささって",
+    "phrase": "ささって",
+    "reading": "ささって",
+    "standardJapanese": "明日から数えて3日後・明々後日",
+    "description": "三重県で使われる「ささって」は、明日、あさってに続く3日後を指すことばです。県公式資料では、県外出身者との日程相談で意味が伝わらない場面が紹介されています。地域外の人と約束するときは、誤解を避けるため日付を併記するのが安全です。",
+    "exampleDialect": "ほしたら、ささってにしよか。",
+    "exampleStandard": "それでは、3日後にしましょうか。",
+    "prefectureCode": 24,
+    "prefectureName": "三重県",
+    "regionName": "北勢",
+    "municipality": "川越町（使用例）",
+    "ageGroups": ["unknown"],
+    "usageContexts": ["日常会話"],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "三重県民手帳の公式特集資料で語形・意味・日程相談の用例を確認。",
+    "sourceTitle": "2026年版三重県民手帳 特集ページ",
+    "sourceOrganization": "三重県",
+    "sourceUrl": "https://www.pref.mie.lg.jp/common/content/001217528.pdf",
+    "sourceCheckedAt": "2026-09-01",
+    "evidenceScopes": ["phrase", "reading", "meaning", "region", "example", "usage"],
+    "additionalSources": [
+      {
+        "type": "official_reference",
+        "title": "みえの仕事さがしch. 県内企業インタビュー",
+        "organization": "三重県",
+        "url": "https://www.shigotosagashi.pref.mie.lg.jp/interview_post/%E6%B8%85%E7%94%B0%E8%BB%8C%E9%81%93%E5%B7%A5%E6%A5%AD%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%EF%BC%88%E5%B7%9D%E8%B6%8A%E7%94%BA%EF%BC%89%E3%80%80%E3%80%80%E6%B5%A6%E6%A9%8B-%E5%88%A9%E5%85%B8/",
+        "note": "三重特有の表現として3日後を指すことと、日程の約束で注意が必要なことを確認。",
+        "checkedAt": "2026-09-01",
+        "evidenceScopes": ["meaning", "region", "usage"]
+      }
+    ],
+    "confidence": "high",
+    "recordingYear": null,
+    "audioUrl": null,
+    "videoUrl": null,
+    "needsAudio": true,
+    "audioPriority": 2,
+    "languageVariety": "japanese_dialect"
+  }
+]

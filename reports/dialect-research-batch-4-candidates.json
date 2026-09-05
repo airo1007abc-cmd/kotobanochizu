@@ -1,0 +1,494 @@
+{
+  "generatedAt": "2026-09-04",
+  "status": "selection_only_research_not_started",
+  "count": 40,
+  "safeguards": [
+    "第1〜3バッチとResolution Batchの対象を除外",
+    "indexable/P1を優先",
+    "都道府県の偏りを抑制",
+    "検索需要は推測しない",
+    "本番データは変更しない"
+  ],
+  "candidates": [
+    {
+      "id": "jp-05-akita-005",
+      "word": "みみづぐ",
+      "prefecture": "秋田県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明126文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-09-tochigi-004",
+      "word": "くさばっこ",
+      "prefecture": "栃木県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明116文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-12-chiba-005",
+      "word": "おだす",
+      "prefecture": "千葉県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明118文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-17-ishikawa-005",
+      "word": "わっちゃ",
+      "prefecture": "石川県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明129文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-19-yamanashi-005",
+      "word": "かあとるまい",
+      "prefecture": "山梨県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明119文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-21-gifu-005",
+      "word": "ほんで",
+      "prefecture": "岐阜県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明124文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-22-shizuoka-005",
+      "word": "ならい",
+      "prefecture": "静岡県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明113文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-23-aichi-005",
+      "word": "ほで",
+      "prefecture": "愛知県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明131文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-26-kyoto-004",
+      "word": "～はる",
+      "prefecture": "京都府",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明136文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-28-hyogo-004",
+      "word": "おく",
+      "prefecture": "兵庫県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明111文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-35-yamaguchi-005",
+      "word": "あいた",
+      "prefecture": "山口県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明137文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-39-kochi-003",
+      "word": "いよいよ",
+      "prefecture": "高知県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明121文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-40-fukuoka-036",
+      "word": "あがしこ",
+      "prefecture": "福岡県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明132文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-42-nagasaki-053",
+      "word": "おとろしか",
+      "prefecture": "長崎県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明104文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-43-kumamoto-007",
+      "word": "さしより",
+      "prefecture": "熊本県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明124文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-44-oita-025",
+      "word": "～っち／～ち",
+      "prefecture": "大分県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明129文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-45-miyazaki-004",
+      "word": "どげん",
+      "prefecture": "宮崎県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明128文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-46-kagoshima-003",
+      "word": "まこて",
+      "prefecture": "鹿児島県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明128文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-47-okinawa-003",
+      "word": "ムﾟーアキャーダ",
+      "prefecture": "沖縄県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明114文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-05-akita-006",
+      "word": "くなんしぇ",
+      "prefecture": "秋田県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明123文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-09-tochigi-005",
+      "word": "せーふろ",
+      "prefecture": "栃木県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明117文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-12-chiba-006",
+      "word": "おらが",
+      "prefecture": "千葉県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明115文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-17-ishikawa-006",
+      "word": "がんちょ",
+      "prefecture": "石川県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明127文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-19-yamanashi-006",
+      "word": "がい",
+      "prefecture": "山梨県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明120文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-21-gifu-006",
+      "word": "ほうじゃ",
+      "prefecture": "岐阜県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明130文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-22-shizuoka-006",
+      "word": "われ",
+      "prefecture": "静岡県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明121文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-23-aichi-006",
+      "word": "～やっとる",
+      "prefecture": "愛知県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明133文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-26-kyoto-007",
+      "word": "きっすい",
+      "prefecture": "京都府",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明133文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-28-hyogo-005",
+      "word": "せんどぶり",
+      "prefecture": "兵庫県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明112文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-35-yamaguchi-006",
+      "word": "あいだけ",
+      "prefecture": "山口県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明139文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-39-kochi-004",
+      "word": "～のうし",
+      "prefecture": "高知県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明116文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-40-fukuoka-037",
+      "word": "あせがる",
+      "prefecture": "福岡県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明133文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-42-nagasaki-055",
+      "word": "みじょか",
+      "prefecture": "長崎県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明109文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-43-kumamoto-008",
+      "word": "どぎゃん？",
+      "prefecture": "熊本県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明121文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-44-oita-026",
+      "word": "～ごつ",
+      "prefecture": "大分県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明110文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-45-miyazaki-005",
+      "word": "～ちょる",
+      "prefecture": "宮崎県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明128文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-46-kagoshima-004",
+      "word": "あたい",
+      "prefecture": "鹿児島県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明136文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-47-okinawa-004",
+      "word": "ムﾟーアロー",
+      "prefecture": "沖縄県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明114文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-05-akita-007",
+      "word": "あぐだえ",
+      "prefecture": "秋田県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明129文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    },
+    {
+      "id": "jp-09-tochigi-006",
+      "word": "やぶ",
+      "prefecture": "栃木県",
+      "currentQuality": "B",
+      "currentIssues": [
+        "description_depth_review"
+      ],
+      "researchPotential": "high",
+      "editorialImpact": 81,
+      "selectionReason": "indexable/P1。説明114文字、出典1件。第1〜3バッチとResolution Batchを除外し、description_depth_reviewをclaim単位で確認する候補。"
+    }
+  ]
+}

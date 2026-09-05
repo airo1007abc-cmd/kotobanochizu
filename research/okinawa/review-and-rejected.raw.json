@@ -1,0 +1,126 @@
+{
+  "dataset": "ことばの地図・沖縄県 地域言語 要確認・除外",
+  "checkedAt": "2026-09-03",
+  "records": [
+    {
+      "id": "jp-47-okinawa-077",
+      "slug": "okinawa-077",
+      "phrase": "オジャリャレ",
+      "reading": "",
+      "standardJapanese": "いらっしゃい",
+      "description": "",
+      "exampleDialect": "",
+      "exampleStandard": "",
+      "prefectureCode": 47,
+      "prefectureName": "沖縄県",
+      "regionName": "大東諸島",
+      "languageVariety": "unknown",
+      "municipality": "南大東村",
+      "locality": "南大東島",
+      "ageGroups": [],
+      "usageContexts": [],
+      "usageFrequency": "unknown",
+      "verificationStatus": "needs_review",
+      "sourceType": "official_reference",
+      "sourceTitle": "危機的な状況にある言語・方言の実態に関する調査研究（八丈方言関連）",
+      "sourceOrganization": "文化庁",
+      "sourceUrl": "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/kikigengo/jittaichosa/pdf/kikigengo_ryukyu_h26.pdf",
+      "sourcePage": "南北大東島に残る八丈方言に関する記述",
+      "sourceCheckedAt": "2026-09-03",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region",
+        "usage"
+      ],
+      "sourceNote": "文化庁資料は南大東島で「オジャリャレ（いらっしゃい）」が空港や店舗などで積極的に使用される例を記す。一方、ユネスコ分類では南北大東島を八丈語側として扱う旨を別の文化庁資料が示すため、指定された3値では languageVariety を unknown とした。",
+      "nuance": "",
+      "usageCaution": "",
+      "relatedTerms": [],
+      "regionalDifferences": "",
+      "etymology": "",
+      "needsAudio": true,
+      "audioUrl": null,
+      "additionalReview": "大東諸島の地域語として公開する場合、八丈語系を japanese_dialect に写像してよいかサイト方針の確認が必要。"
+    },
+    {
+      "id": "jp-47-okinawa-078",
+      "slug": "okinawa-078",
+      "phrase": "クロブ",
+      "reading": "",
+      "standardJapanese": "アホウドリ",
+      "description": "",
+      "exampleDialect": "",
+      "exampleStandard": "",
+      "prefectureCode": 47,
+      "prefectureName": "沖縄県",
+      "regionName": "大東諸島",
+      "languageVariety": "unknown",
+      "municipality": "北大東村",
+      "locality": "北大東島",
+      "ageGroups": [],
+      "usageContexts": [],
+      "usageFrequency": "unknown",
+      "verificationStatus": "needs_review",
+      "sourceType": "local_planning_document",
+      "sourceTitle": "「北大東島の燐鉱山由来の文化的景観」保存計画",
+      "sourceOrganization": "北大東島文化的景観保存計画関係資料",
+      "sourceUrl": "https://uracdesign.com/wp-content/uploads/2023/01/18dc0dc55694a397e077d71810034bc1.pdf",
+      "sourcePage": "p.49 黒部岬の説明",
+      "sourceCheckedAt": "2026-09-03",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region",
+        "history"
+      ],
+      "sourceNote": "保存計画資料は、黒部岬の「黒部」が八丈方言でアホウドリを意味する「クロブ」に由来すると記す。ただし、現代の北大東島で独立語として使用される頻度・場面はこの資料だけでは確認できない。",
+      "nuance": "",
+      "usageCaution": "",
+      "relatedTerms": [],
+      "regionalDifferences": "",
+      "etymology": "",
+      "needsAudio": true,
+      "audioUrl": null,
+      "additionalReview": "現代語彙としての使用実態、読み、八丈語系の分類ラベルを追加確認する。"
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "byRegion": {
+      "大東諸島": 2
+    },
+    "byLanguageVariety": {
+      "unknown": 2
+    },
+    "byVerificationStatus": {
+      "needs_review": 2
+    },
+    "exampleConfirmed": 0,
+    "readingConfirmed": 0,
+    "bySourceType": {
+      "official_reference": 1,
+      "local_planning_document": 1
+    }
+  },
+  "duplicateMerges": [
+    {
+      "action": "not_merged",
+      "note": "同一概念（例：花、豚、口）でも伊平屋・宮古・八重山・与那国で語形が異なるため、地域差を保持して別レコードとした。"
+    },
+    {
+      "action": "not_duplicated",
+      "note": "同じ地点・同じ語について仮名表記と音韻/音声表記が併記される場合、別レコードにはせず phrase と reading に分けた。"
+    }
+  ],
+  "difficultJudgments": [
+    "大東諸島は文化庁資料で八丈語/八丈方言との関係が示されるが、指定された languageVariety の3値では単純に ryukyuan_language とできないため unknown とした。",
+    "沖縄伊平屋村田名は北部地域の地点として採用したが、個々の語について国頭語・沖縄語のどちらに属するかを推測で固定していない。",
+    "久米島は報告書全体では『久米島方言』、節名には『沖縄語久米島謝名堂方言』という表記があるため、その原表記を sourceNote に残した。"
+  ],
+  "additionalResearchRegions": [
+    "大東諸島：南大東・北大東の語彙集、談話、自然な用例を確認できる一次・公的資料の追加調査が必要。",
+    "沖縄本島北部：伊平屋以外（国頭村、大宜味村、今帰仁村等）の地点差を増やすと地域代表性が高まる。",
+    "八重山諸島：石垣島川平・波照間以外（西表、竹富、黒島等）の地点差を追加するとよい。"
+  ]
+}

@@ -1,0 +1,1458 @@
+{
+  "generatedAt": "2026-09-05T03:01:21.020Z",
+  "status": "PASSED",
+  "registeredItems": 14,
+  "prefecturesCovered": 4,
+  "regionLinkedItems": 4,
+  "prefectureOnlyItems": 10,
+  "byPrefecture": {
+    "p41": 3,
+    "p42": 5,
+    "p46": 3,
+    "p47": 3
+  },
+  "byType": {
+    "archive": 3,
+    "audio": 3,
+    "book": 2,
+    "conversation": 2,
+    "song": 2,
+    "video": 2
+  },
+  "byRightsStatus": {
+    "official_link": 14
+  },
+  "integrity": {
+    "duplicateIds": 0,
+    "nonHttpsSources": 0,
+    "missingOrganizations": 0,
+    "missingRightsNotes": 0,
+    "copiedMediaFiles": 0
+  },
+  "unresolvedMappings": [
+    {
+      "id": "culture-nagasaki-cojads",
+      "municipality": "平戸市",
+      "reason": "資料の採録地点は確認済みだが、現在の6区分への対応を一次資料から断定しない"
+    },
+    {
+      "id": "culture-okinawa-shuri-audio",
+      "municipality": "首里",
+      "reason": "首里の教材であることは確認済みだが、県内地域IDをUI都合で推測しない"
+    },
+    {
+      "id": "culture-saga-morodomi-history",
+      "municipality": "旧諸富町",
+      "reason": "町史の所在地は確認済みだが、現在の地域ID対応を資料だけで確定していない"
+    }
+  ],
+  "contentFollowup": {
+    "totalRegions": 195,
+    "zeroWordRegions": 77,
+    "informationPoorRegions": 88,
+    "validationWarnings": 809,
+    "validationWarningCategories": {
+      "exampleAwaitingConfirmation": 800,
+      "duplicateCandidate": 9,
+      "reviewItemWithoutNote": 0
+    },
+    "dialectDisplayIssueCounts": {
+      "missing_source": 27,
+      "missing_reading": 621,
+      "missing_example": 800
+    },
+    "zeroWordQueue": [
+      {
+        "regionId": "jp-01-region-道南",
+        "prefecture": "北海道",
+        "region": "道南",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-01-region-道北",
+        "prefecture": "北海道",
+        "region": "道北",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-01-region-道東",
+        "prefecture": "北海道",
+        "region": "道東",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-03-region-県北",
+        "prefecture": "岩手県",
+        "region": "県北",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-03-region-県南",
+        "prefecture": "岩手県",
+        "region": "県南",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-03-region-沿岸",
+        "prefecture": "岩手県",
+        "region": "沿岸",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-04-region-県北",
+        "prefecture": "宮城県",
+        "region": "県北",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-04-region-県南",
+        "prefecture": "宮城県",
+        "region": "県南",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-04-region-沿岸",
+        "prefecture": "宮城県",
+        "region": "沿岸",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-05-region-県北",
+        "prefecture": "秋田県",
+        "region": "県北",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-05-region-県央",
+        "prefecture": "秋田県",
+        "region": "県央",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-05-region-県南",
+        "prefecture": "秋田県",
+        "region": "県南",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-06-region-庄内",
+        "prefecture": "山形県",
+        "region": "庄内",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-06-region-最上",
+        "prefecture": "山形県",
+        "region": "最上",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-06-region-村山",
+        "prefecture": "山形県",
+        "region": "村山",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-07-region-中通り",
+        "prefecture": "福島県",
+        "region": "中通り",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-07-region-浜通り",
+        "prefecture": "福島県",
+        "region": "浜通り",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-08-region-県北",
+        "prefecture": "茨城県",
+        "region": "県北",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-08-region-県南",
+        "prefecture": "茨城県",
+        "region": "県南",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-08-region-県西",
+        "prefecture": "茨城県",
+        "region": "県西",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-08-region-鹿行",
+        "prefecture": "茨城県",
+        "region": "鹿行",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-09-region-県北",
+        "prefecture": "栃木県",
+        "region": "県北",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-09-region-県央",
+        "prefecture": "栃木県",
+        "region": "県央",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-10-region-北毛",
+        "prefecture": "群馬県",
+        "region": "北毛",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-10-region-西毛",
+        "prefecture": "群馬県",
+        "region": "西毛",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-10-region-東毛",
+        "prefecture": "群馬県",
+        "region": "東毛",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-11-region-中央",
+        "prefecture": "埼玉県",
+        "region": "中央",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-11-region-西部",
+        "prefecture": "埼玉県",
+        "region": "西部",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-11-region-北部",
+        "prefecture": "埼玉県",
+        "region": "北部",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-11-region-秩父",
+        "prefecture": "埼玉県",
+        "region": "秩父",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-12-region-北東部",
+        "prefecture": "千葉県",
+        "region": "北東部",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-12-region-中央",
+        "prefecture": "千葉県",
+        "region": "中央",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-12-region-南部",
+        "prefecture": "千葉県",
+        "region": "南部",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-13-region-23区",
+        "prefecture": "東京都",
+        "region": "23区",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-13-region-島しょ",
+        "prefecture": "東京都",
+        "region": "島しょ",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-14-region-湘南",
+        "prefecture": "神奈川県",
+        "region": "湘南",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-14-region-県央",
+        "prefecture": "神奈川県",
+        "region": "県央",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-14-region-県西",
+        "prefecture": "神奈川県",
+        "region": "県西",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-15-region-上越",
+        "prefecture": "新潟県",
+        "region": "上越",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-15-region-下越",
+        "prefecture": "新潟県",
+        "region": "下越",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-15-region-佐渡",
+        "prefecture": "新潟県",
+        "region": "佐渡",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-16-region-呉西",
+        "prefecture": "富山県",
+        "region": "呉西",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-18-region-嶺南",
+        "prefecture": "福井県",
+        "region": "嶺南",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-19-region-郡内",
+        "prefecture": "山梨県",
+        "region": "郡内",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-20-region-東信",
+        "prefecture": "長野県",
+        "region": "東信",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-20-region-中信",
+        "prefecture": "長野県",
+        "region": "中信",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-20-region-南信",
+        "prefecture": "長野県",
+        "region": "南信",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-21-region-飛騨",
+        "prefecture": "岐阜県",
+        "region": "飛騨",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-22-region-東部",
+        "prefecture": "静岡県",
+        "region": "東部",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-22-region-西部",
+        "prefecture": "静岡県",
+        "region": "西部",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-22-region-伊豆",
+        "prefecture": "静岡県",
+        "region": "伊豆",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-23-region-名古屋周辺",
+        "prefecture": "愛知県",
+        "region": "名古屋周辺",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-24-region-中勢",
+        "prefecture": "三重県",
+        "region": "中勢",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-24-region-南勢",
+        "prefecture": "三重県",
+        "region": "南勢",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-24-region-伊賀",
+        "prefecture": "三重県",
+        "region": "伊賀",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-24-region-東紀州",
+        "prefecture": "三重県",
+        "region": "東紀州",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-25-region-湖南",
+        "prefecture": "滋賀県",
+        "region": "湖南",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-25-region-湖北",
+        "prefecture": "滋賀県",
+        "region": "湖北",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-25-region-湖西",
+        "prefecture": "滋賀県",
+        "region": "湖西",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-26-region-山城",
+        "prefecture": "京都府",
+        "region": "山城",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-26-region-丹波",
+        "prefecture": "京都府",
+        "region": "丹波",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-26-region-丹後",
+        "prefecture": "京都府",
+        "region": "丹後",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-27-region-北摂",
+        "prefecture": "大阪府",
+        "region": "北摂",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-28-region-神戸",
+        "prefecture": "兵庫県",
+        "region": "神戸",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-28-region-阪神",
+        "prefecture": "兵庫県",
+        "region": "阪神",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-28-region-但馬",
+        "prefecture": "兵庫県",
+        "region": "但馬",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-28-region-丹波",
+        "prefecture": "兵庫県",
+        "region": "丹波",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-28-region-淡路",
+        "prefecture": "兵庫県",
+        "region": "淡路",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-29-region-北和",
+        "prefecture": "奈良県",
+        "region": "北和",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-29-region-中和",
+        "prefecture": "奈良県",
+        "region": "中和",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-29-region-南和",
+        "prefecture": "奈良県",
+        "region": "南和",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-30-region-紀中",
+        "prefecture": "和歌山県",
+        "region": "紀中",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-30-region-紀南",
+        "prefecture": "和歌山県",
+        "region": "紀南",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-37-region-島しょ",
+        "prefecture": "香川県",
+        "region": "島しょ",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-44-region-豊肥",
+        "prefecture": "大分県",
+        "region": "豊肥",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-46-region-奄美",
+        "prefecture": "鹿児島県",
+        "region": "奄美",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      },
+      {
+        "regionId": "jp-47-region-大東諸島",
+        "prefecture": "沖縄県",
+        "region": "大東諸島",
+        "priority": "P2",
+        "action": "source_research_before_content_addition"
+      }
+    ],
+    "informationPoorQueue": [
+      {
+        "id": "jp-01-region-道南",
+        "prefecture": "北海道",
+        "region": "道南",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-01-region-道北",
+        "prefecture": "北海道",
+        "region": "道北",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-01-region-道東",
+        "prefecture": "北海道",
+        "region": "道東",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "r8",
+        "prefecture": "青森県",
+        "region": "南部",
+        "dialectCount": 2,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "r9",
+        "prefecture": "青森県",
+        "region": "下北",
+        "dialectCount": 1,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-03-region-県北",
+        "prefecture": "岩手県",
+        "region": "県北",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-03-region-県南",
+        "prefecture": "岩手県",
+        "region": "県南",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-03-region-沿岸",
+        "prefecture": "岩手県",
+        "region": "沿岸",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-04-region-県北",
+        "prefecture": "宮城県",
+        "region": "県北",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-04-region-県南",
+        "prefecture": "宮城県",
+        "region": "県南",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-04-region-沿岸",
+        "prefecture": "宮城県",
+        "region": "沿岸",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-05-region-県北",
+        "prefecture": "秋田県",
+        "region": "県北",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-05-region-県央",
+        "prefecture": "秋田県",
+        "region": "県央",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-05-region-県南",
+        "prefecture": "秋田県",
+        "region": "県南",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-06-region-庄内",
+        "prefecture": "山形県",
+        "region": "庄内",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-06-region-最上",
+        "prefecture": "山形県",
+        "region": "最上",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-06-region-村山",
+        "prefecture": "山形県",
+        "region": "村山",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-07-region-中通り",
+        "prefecture": "福島県",
+        "region": "中通り",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-07-region-浜通り",
+        "prefecture": "福島県",
+        "region": "浜通り",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-08-region-県北",
+        "prefecture": "茨城県",
+        "region": "県北",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-08-region-県南",
+        "prefecture": "茨城県",
+        "region": "県南",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-08-region-県西",
+        "prefecture": "茨城県",
+        "region": "県西",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-08-region-鹿行",
+        "prefecture": "茨城県",
+        "region": "鹿行",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-09-region-県北",
+        "prefecture": "栃木県",
+        "region": "県北",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-09-region-県央",
+        "prefecture": "栃木県",
+        "region": "県央",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-10-region-北毛",
+        "prefecture": "群馬県",
+        "region": "北毛",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-10-region-中毛",
+        "prefecture": "群馬県",
+        "region": "中毛",
+        "dialectCount": 1,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-10-region-西毛",
+        "prefecture": "群馬県",
+        "region": "西毛",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-10-region-東毛",
+        "prefecture": "群馬県",
+        "region": "東毛",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-11-region-東部",
+        "prefecture": "埼玉県",
+        "region": "東部",
+        "dialectCount": 1,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-11-region-中央",
+        "prefecture": "埼玉県",
+        "region": "中央",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-11-region-西部",
+        "prefecture": "埼玉県",
+        "region": "西部",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-11-region-北部",
+        "prefecture": "埼玉県",
+        "region": "北部",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-11-region-秩父",
+        "prefecture": "埼玉県",
+        "region": "秩父",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-12-region-北西部",
+        "prefecture": "千葉県",
+        "region": "北西部",
+        "dialectCount": 1,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-12-region-北東部",
+        "prefecture": "千葉県",
+        "region": "北東部",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-12-region-中央",
+        "prefecture": "千葉県",
+        "region": "中央",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-12-region-南部",
+        "prefecture": "千葉県",
+        "region": "南部",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-13-region-23区",
+        "prefecture": "東京都",
+        "region": "23区",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-13-region-多摩",
+        "prefecture": "東京都",
+        "region": "多摩",
+        "dialectCount": 1,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-13-region-島しょ",
+        "prefecture": "東京都",
+        "region": "島しょ",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-14-region-横浜・川崎",
+        "prefecture": "神奈川県",
+        "region": "横浜・川崎",
+        "dialectCount": 1,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-14-region-湘南",
+        "prefecture": "神奈川県",
+        "region": "湘南",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-14-region-県央",
+        "prefecture": "神奈川県",
+        "region": "県央",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-14-region-県西",
+        "prefecture": "神奈川県",
+        "region": "県西",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-15-region-上越",
+        "prefecture": "新潟県",
+        "region": "上越",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-15-region-中越",
+        "prefecture": "新潟県",
+        "region": "中越",
+        "dialectCount": 1,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-15-region-下越",
+        "prefecture": "新潟県",
+        "region": "下越",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-15-region-佐渡",
+        "prefecture": "新潟県",
+        "region": "佐渡",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-16-region-呉西",
+        "prefecture": "富山県",
+        "region": "呉西",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-18-region-嶺南",
+        "prefecture": "福井県",
+        "region": "嶺南",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-19-region-郡内",
+        "prefecture": "山梨県",
+        "region": "郡内",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-20-region-東信",
+        "prefecture": "長野県",
+        "region": "東信",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-20-region-中信",
+        "prefecture": "長野県",
+        "region": "中信",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-20-region-南信",
+        "prefecture": "長野県",
+        "region": "南信",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-21-region-飛騨",
+        "prefecture": "岐阜県",
+        "region": "飛騨",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-22-region-東部",
+        "prefecture": "静岡県",
+        "region": "東部",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-22-region-西部",
+        "prefecture": "静岡県",
+        "region": "西部",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-22-region-伊豆",
+        "prefecture": "静岡県",
+        "region": "伊豆",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-23-region-名古屋周辺",
+        "prefecture": "愛知県",
+        "region": "名古屋周辺",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-24-region-中勢",
+        "prefecture": "三重県",
+        "region": "中勢",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-24-region-南勢",
+        "prefecture": "三重県",
+        "region": "南勢",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-24-region-伊賀",
+        "prefecture": "三重県",
+        "region": "伊賀",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-24-region-東紀州",
+        "prefecture": "三重県",
+        "region": "東紀州",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-25-region-湖南",
+        "prefecture": "滋賀県",
+        "region": "湖南",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-25-region-湖東",
+        "prefecture": "滋賀県",
+        "region": "湖東",
+        "dialectCount": 1,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-25-region-湖北",
+        "prefecture": "滋賀県",
+        "region": "湖北",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-25-region-湖西",
+        "prefecture": "滋賀県",
+        "region": "湖西",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-26-region-山城",
+        "prefecture": "京都府",
+        "region": "山城",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-26-region-丹波",
+        "prefecture": "京都府",
+        "region": "丹波",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-26-region-丹後",
+        "prefecture": "京都府",
+        "region": "丹後",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-27-region-北摂",
+        "prefecture": "大阪府",
+        "region": "北摂",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "r5",
+        "prefecture": "大阪府",
+        "region": "河内",
+        "dialectCount": 2,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "r6",
+        "prefecture": "大阪府",
+        "region": "泉州",
+        "dialectCount": 1,
+        "sourceCount": 0,
+        "priority": "P1",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-28-region-神戸",
+        "prefecture": "兵庫県",
+        "region": "神戸",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-28-region-阪神",
+        "prefecture": "兵庫県",
+        "region": "阪神",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-28-region-但馬",
+        "prefecture": "兵庫県",
+        "region": "但馬",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-28-region-丹波",
+        "prefecture": "兵庫県",
+        "region": "丹波",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-28-region-淡路",
+        "prefecture": "兵庫県",
+        "region": "淡路",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-29-region-北和",
+        "prefecture": "奈良県",
+        "region": "北和",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-29-region-中和",
+        "prefecture": "奈良県",
+        "region": "中和",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-29-region-南和",
+        "prefecture": "奈良県",
+        "region": "南和",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-30-region-紀中",
+        "prefecture": "和歌山県",
+        "region": "紀中",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-30-region-紀南",
+        "prefecture": "和歌山県",
+        "region": "紀南",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-37-region-島しょ",
+        "prefecture": "香川県",
+        "region": "島しょ",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-44-region-豊肥",
+        "prefecture": "大分県",
+        "region": "豊肥",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-46-region-奄美",
+        "prefecture": "鹿児島県",
+        "region": "奄美",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      },
+      {
+        "id": "jp-47-region-大東諸島",
+        "prefecture": "沖縄県",
+        "region": "大東諸島",
+        "dialectCount": 0,
+        "sourceCount": 0,
+        "priority": "P2",
+        "action": "source_research"
+      }
+    ],
+    "lowSourcePrefectures": [
+      {
+        "prefectureId": "p2",
+        "prefecture": "青森県",
+        "dialectCount": 8,
+        "sourceCoverage": 0,
+        "priority": "P1"
+      },
+      {
+        "prefectureId": "p10",
+        "prefecture": "群馬県",
+        "dialectCount": 1,
+        "sourceCoverage": 0,
+        "priority": "P1"
+      },
+      {
+        "prefectureId": "p11",
+        "prefecture": "埼玉県",
+        "dialectCount": 1,
+        "sourceCoverage": 0,
+        "priority": "P1"
+      },
+      {
+        "prefectureId": "p13",
+        "prefecture": "東京都",
+        "dialectCount": 1,
+        "sourceCoverage": 0,
+        "priority": "P1"
+      },
+      {
+        "prefectureId": "p14",
+        "prefecture": "神奈川県",
+        "dialectCount": 1,
+        "sourceCoverage": 0,
+        "priority": "P1"
+      },
+      {
+        "prefectureId": "p15",
+        "prefecture": "新潟県",
+        "dialectCount": 1,
+        "sourceCoverage": 0,
+        "priority": "P1"
+      },
+      {
+        "prefectureId": "p25",
+        "prefecture": "滋賀県",
+        "dialectCount": 1,
+        "sourceCoverage": 0,
+        "priority": "P1"
+      },
+      {
+        "prefectureId": "p27",
+        "prefecture": "大阪府",
+        "dialectCount": 7,
+        "sourceCoverage": 0,
+        "priority": "P1"
+      }
+    ]
+  }
+}

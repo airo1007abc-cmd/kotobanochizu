@@ -1,0 +1,23 @@
+表記について
+
+〔指定の字母以外に使用した字母、および使用した補助記号〕
+
+字母・補助
+記号の種類　　語例と意味　　（標準語訳）　　　 音価についての注記　
+
+    ti        ko:ti         （高知）　　　　　〔ti〕
+    tu        kikutuka      （聞くんだって）　〔tu〕〔tu〕
+   tja        ju:tjaru      （言ってやる）　　〔ta〕〔ta〕
+   tju        omo:tju:      （思っている）　　〔tu〕〔tu〕
+   tjo        hakaitjoku    （はかせておく）　〔to〕〔to〕
+    di        waradi        （わらぢ）　　　　〔di〕
+    du        siraNduku     （知らずに）　　　〔du〕〔du〕
+　 dja        sukidja       （好きだ）　　　　〔da〕
+   dju
+   djo        hanadjo:tiN   （鼻ぢょうちん）　〔do〕
+  （　）　　　挿入句的
+
+１．　標準語訳に適当に「ぢ」「づ」を使用した。
+２．　オノマトペアのわかち書きの表記にやや統一を欠いたところがある。
+３．　鼻音化は濃淡があり、あまりはっきりしないものも一応体系的に表記した。（~d 　~g）Nの後のd、gは~を記さなかった。
+４．　do~dai kibarikiqtjoqta やdo~dai ikioikiqtju: などのdo~daiの最初のd、goNgoN goNgoN などの最初のgなども少し鼻音化が認められるようであるが、テキストには~を記さなかった。

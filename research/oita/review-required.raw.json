@@ -1,0 +1,80 @@
+[
+  {
+    "area": "玖珠町・九重町",
+    "status": "review_required",
+    "sourceTitle": "玖珠地方の方言 : 方言の一部 3・4",
+    "sourceOrganization": "小野瑞穂",
+    "sourceUrl": "https://ci.nii.ac.jp/ncid/BB14685382",
+    "reason": "書誌・所蔵は確認済みだが、個別語本文をウェブ上で直接確認できないため未採用。"
+  },
+  {
+    "area": "玖珠町・九重町",
+    "status": "review_required",
+    "sourceTitle": "日田・玖珠地域の方言",
+    "sourceOrganization": "日高貢一郎",
+    "sourceUrl": "https://crd.ndl.go.jp/reference/entry/reference/show?id=1000338726&page=ref_view",
+    "reason": "所在は確認済み。玖珠・九重へ語を付与する前に本文の個別語・地点を照合する。"
+  },
+  {
+    "area": "宇佐市・安心院・院内",
+    "status": "review_required",
+    "sourceTitle": "宇佐・院内・安心院地域の方言",
+    "sourceOrganization": "日高貢一郎",
+    "sourceUrl": "https://repository.ninjal.ac.jp/",
+    "reason": "研究書誌は確認できるが、今回のウェブ調査では語彙本文を直接確認できていない。"
+  },
+  {
+    "area": "宇佐市",
+    "status": "review_required",
+    "sourceTitle": "日本語諸方言コーパス COJADS（大分県宇佐市）",
+    "sourceOrganization": "国立国語研究所",
+    "sourceUrl": "https://www2.ninjal.ac.jp/cojads/",
+    "reason": "宇佐市の自然談話データが公開対象であることは確認済み。個別語の抽出・文脈確認を別工程で行う。"
+  },
+  {
+    "area": "姫島村",
+    "status": "review_required",
+    "sourceTitle": "大分県東国東郡姫島村方言に於ける方言性向語彙資料",
+    "sourceOrganization": "井上博文",
+    "sourceUrl": "https://ndlsearch.ndl.go.jp/",
+    "reason": "論文の存在・掲載範囲は確認済みだが、個別語本文へのオンラインアクセスが限定的なため未採用。"
+  },
+  {
+    "area": "姫島村",
+    "status": "review_required",
+    "sourceTitle": "大分県姫島方言の研究",
+    "sourceOrganization": "広島大学方言研究会",
+    "sourceUrl": "https://ci.nii.ac.jp/",
+    "reason": "書誌・所蔵を確認。個別語の本文照合前なので件数には含めない。"
+  },
+  {
+    "area": "中津市山国町溝部",
+    "status": "review_required",
+    "sourceTitle": "大分県方言談話資料（中津市山国町溝部）",
+    "sourceOrganization": "国立国語研究所",
+    "sourceUrl": "https://repository.ninjal.ac.jp/",
+    "reason": "談話資料の所在を確認。科研費資料の実例と突合し、追加用例を得る候補。"
+  },
+  {
+    "area": "豊後高田市呉崎",
+    "status": "review_required",
+    "sourceTitle": "大分県方言の世代差・地域差を扱う談話研究",
+    "sourceOrganization": "杉村孝夫ほか",
+    "sourceUrl": "https://repository.ninjal.ac.jp/",
+    "reason": "世代差の会話資料は確認できるが、会話断片を独立語彙として水増しせず保留。"
+  },
+  {
+    "area": "宇佐市・中津市",
+    "status": "review_required",
+    "phrase": "～ちこ",
+    "standardJapanese": "～だよ／～するよ（強調）",
+    "sourceTitle": "実は「いいちこ」も!? 声に出しち読みてー大分弁",
+    "sourceOrganization": "三和酒類株式会社（いいちこスタイル）",
+    "sourceUrl": "https://style.iichiko.co.jp/attraction/20240705/0332/",
+    "reason": "地域企業の記事で宇佐市・中津市の強調表現として具体的に説明されるが、自治体・大学・国語研等の上位資料による文法形式の裏付けをまだ取得していないため、公開候補には入れず追加確認待ちとする。",
+    "relatedTerms": [
+      "いいちこ",
+      "そうちこ"
+    ]
+  }
+]

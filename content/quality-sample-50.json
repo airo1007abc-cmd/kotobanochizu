@@ -1,0 +1,1348 @@
+{
+  "version": 3,
+  "target": 50,
+  "cohortRule": "品質ゲート合格済みを優先し、次に公的出典登録済み候補を選ぶ",
+  "policy": "全項目を満たすまでindexableにしない",
+  "entries": [
+    {
+      "sampleOrder": 1,
+      "contentId": "jp-05-akita-001",
+      "phrase": "んだ",
+      "prefectureName": "秋田県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 2,
+      "contentId": "jp-05-akita-002",
+      "phrase": "おっかねえ",
+      "prefectureName": "秋田県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 3,
+      "contentId": "jp-05-akita-003",
+      "phrase": "しぇば",
+      "prefectureName": "秋田県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 4,
+      "contentId": "jp-05-akita-004",
+      "phrase": "ふぐろ",
+      "prefectureName": "秋田県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 5,
+      "contentId": "jp-05-akita-005",
+      "phrase": "みみづぐ",
+      "prefectureName": "秋田県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 6,
+      "contentId": "jp-05-akita-006",
+      "phrase": "くなんしぇ",
+      "prefectureName": "秋田県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 7,
+      "contentId": "jp-05-akita-007",
+      "phrase": "あぐだえ",
+      "prefectureName": "秋田県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 8,
+      "contentId": "jp-05-akita-008",
+      "phrase": "えがねえ",
+      "prefectureName": "秋田県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 9,
+      "contentId": "jp-05-akita-009",
+      "phrase": "なんぎ",
+      "prefectureName": "秋田県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 10,
+      "contentId": "jp-06-yamagata-001",
+      "phrase": "おしょうしな",
+      "prefectureName": "山形県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 11,
+      "contentId": "jp-07-fukushima-001",
+      "phrase": "さすけねえ",
+      "prefectureName": "福島県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 12,
+      "contentId": "jp-08-ibaraki-001",
+      "phrase": "ごじゃっぺ",
+      "prefectureName": "茨城県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 13,
+      "contentId": "jp-09-tochigi-001",
+      "phrase": "だいじ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 14,
+      "contentId": "jp-09-tochigi-002",
+      "phrase": "かがむ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 15,
+      "contentId": "jp-09-tochigi-003",
+      "phrase": "うずぶれる",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 16,
+      "contentId": "jp-09-tochigi-004",
+      "phrase": "くさばっこ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 17,
+      "contentId": "jp-09-tochigi-005",
+      "phrase": "せーふろ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 18,
+      "contentId": "jp-09-tochigi-006",
+      "phrase": "やぶ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 19,
+      "contentId": "jp-09-tochigi-007",
+      "phrase": "のめんど",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 20,
+      "contentId": "jp-09-tochigi-008",
+      "phrase": "たなぎねこ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 21,
+      "contentId": "jp-09-tochigi-009",
+      "phrase": "けじろう",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 22,
+      "contentId": "jp-09-tochigi-010",
+      "phrase": "ぎご",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 23,
+      "contentId": "jp-09-tochigi-011",
+      "phrase": "してんごてん",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 24,
+      "contentId": "jp-09-tochigi-012",
+      "phrase": "たっぺ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 25,
+      "contentId": "jp-09-tochigi-013",
+      "phrase": "のだつ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 26,
+      "contentId": "jp-09-tochigi-014",
+      "phrase": "せーた",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 27,
+      "contentId": "jp-09-tochigi-015",
+      "phrase": "はま",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 28,
+      "contentId": "jp-09-tochigi-016",
+      "phrase": "おぞい",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 29,
+      "contentId": "jp-09-tochigi-017",
+      "phrase": "じぐるー",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 30,
+      "contentId": "jp-09-tochigi-018",
+      "phrase": "どずける",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 31,
+      "contentId": "jp-09-tochigi-019",
+      "phrase": "ちょちょらっけ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 32,
+      "contentId": "jp-09-tochigi-020",
+      "phrase": "そそらっけ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 33,
+      "contentId": "jp-09-tochigi-021",
+      "phrase": "どぶくれる",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 34,
+      "contentId": "jp-09-tochigi-022",
+      "phrase": "ひっくるける",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 35,
+      "contentId": "jp-09-tochigi-023",
+      "phrase": "ちょーがんに",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 36,
+      "contentId": "jp-09-tochigi-024",
+      "phrase": "おなんご",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 37,
+      "contentId": "jp-09-tochigi-025",
+      "phrase": "なんこんぼ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 38,
+      "contentId": "jp-09-tochigi-026",
+      "phrase": "ありんどん",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 39,
+      "contentId": "jp-09-tochigi-027",
+      "phrase": "せっちょする",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 40,
+      "contentId": "jp-09-tochigi-028",
+      "phrase": "くらーね",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 41,
+      "contentId": "jp-09-tochigi-029",
+      "phrase": "ふっこし",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 42,
+      "contentId": "jp-09-tochigi-030",
+      "phrase": "みみきりかぜ",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 43,
+      "contentId": "jp-09-tochigi-031",
+      "phrase": "ふきっつぁらし",
+      "prefectureName": "栃木県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage",
+        "history"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 44,
+      "contentId": "jp-12-chiba-002",
+      "phrase": "あにした",
+      "prefectureName": "千葉県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 45,
+      "contentId": "jp-12-chiba-003",
+      "phrase": "あっちんほー",
+      "prefectureName": "千葉県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 46,
+      "contentId": "jp-12-chiba-004",
+      "phrase": "おいねえ",
+      "prefectureName": "千葉県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 47,
+      "contentId": "jp-12-chiba-005",
+      "phrase": "おだす",
+      "prefectureName": "千葉県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 48,
+      "contentId": "jp-12-chiba-006",
+      "phrase": "おらが",
+      "prefectureName": "千葉県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 49,
+      "contentId": "jp-12-chiba-007",
+      "phrase": "かんだち",
+      "prefectureName": "千葉県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    },
+    {
+      "sampleOrder": 50,
+      "contentId": "jp-12-chiba-008",
+      "phrase": "くむ",
+      "prefectureName": "千葉県",
+      "sourceStatus": "evidence_complete",
+      "verifiedScopes": [
+        "phrase",
+        "reading",
+        "meaning",
+        "region",
+        "example",
+        "usage"
+      ],
+      "requiredChecks": [
+        "固有の検索意図",
+        "一次または信頼できる資料",
+        "表記・読み・意味・地域の一致",
+        "100〜160字の固有要約",
+        "自然な例文の権利と真正性",
+        "関連ページ2件以上",
+        "編集者による最終確認"
+      ],
+      "status": "quality_gate_passed",
+      "indexStatus": "indexable"
+    }
+  ]
+}

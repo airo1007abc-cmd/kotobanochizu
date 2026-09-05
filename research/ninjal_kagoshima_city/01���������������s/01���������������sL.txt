@@ -1,0 +1,70 @@
+Ｌ　その伝言をつたえる
+
+0103510|２|hara hamaqdonno…|おや　浜田さんの…
+0103511|３|hara kontsjada gazasjta: doke ozjasjtaka.|おや　こんにちは。どこへ　いらっしゃいましたか。
+0103512|２|iqtoq tenmonkwanzui|ちょっと　天文館まで。
+0103513|３|hn:|へえ。
+0103601|２|mo kjowa sjotsjuwa nonzja oranto|もう　きょうは　焼酎は　飲んでは　いないよ。
+0103602|３|ara mou sjtan|あら　もう　しらない。
+0103603|２|aq soen ieba konmae o:|あっ、そう　いえば、この前　ね、
+0103604|３|ha:|はあ。
+0103605|２|huzinkwaikanni joka nisesa:to ojasjtsuro.ga|婦人会館で　いい　青年と　お会いになったでしょう。
+0103606|３|hai hai|はい　はい。
+0103607|２|anoqsa:ga nanden omansa:ga swki. naijaqta jona hu: o|あの人は　なんでも　あなたが　好きに　なられた　ようです　よ。
+0103608|３|n:da mo sjtan hogena kotsja: naka|あら、まあ　知らない、そんな　ことは　ない。
+0103609|２|hoide na: son toq dengonnu sijaqtato|それで　ね、その　とき　伝言を　なさったよ。
+0103610|３|ha: nan tsjqse:na|はあ、なんと　言ってですか。
+0103611|２|an an toq waqdze omosjte kotsu saseq moroqse: na: uresjkaqta tsj|あの、あのとき　大変　おもしろい　ことを　させて　もらって　ねえ、うれしかった　って。
+0103613|３|e:|ええ。
+0103614|２|mezurasi: hjtoto kataise. hoide aqtsin henden otoijaq toka na aswqke ozjaq tamohanka tsi nanzjai goqso:wa gowahandon na juqkuito omansa:to kataq miro goq aq tsi|めずらしい　人と　話して、そして　あっちの　あたりでも　お通りになる　ときは　ね、遊びに　いらっしゃって　くださいませんか　って　何も　ごちそうは　ございませんが　ね、　ゆっくりと　あなたと　話して　みたい　って。
+0103701|２|zitsja: an an-jatsja na:|実は　あの　あいつは　ね、
+0103702|３|hai|はい。
+0103703|２|ima jamome zjaqto sora|いま　やもめ　だよ、そら。
+0103704|３|hu:n gozaska|ふうん、そうですか。
+0103705|２|hoide na:|それで　ねえ。
+0103706|３|hai|はい。
+0103707|２|naika kiga aqto gowanga omansa:|何か　気が　あるの　ですよ、あなた。
+0103708|３|ndamo sogena koqga gowansoka|まあ、そんな　ことが　あるでしょうか。
+0103709|２|… sogen zjaro jona hu: gowanga o soide na:|そう だろう　ような　ふう　です　ね。それで　ね。
+0103710|３|he:|へえ。
+0103711|２|aqtsin hendon otoijaq toka. na|あっちの　あたりでも　お通りになる　ときは　ね、
+0103712|３|hai|はい。
+0103713|２|juqkuito kataro goq aqde.|ゆっくりと　話したい　から、
+0103714|３|hai|はい。
+0103715|２|asubi joq omijaq tamohanka mo gaqtsui soa honkide ju.monde o:|遊びに　寄って　みて　くださいませんか〔と〕、もう　まったく、そら、本気で　言いますから　ね。
+0103716|３|e: aigato mosiagemosj na: mata himaga aq toka agaijagemonde omansa: ojaqta toka sogen juq okjaq tamonse:|ええ、ありがとう　ございます　ね。また　暇が　あるときは　うかがいますから　あなた　お会いになった　ときは　そう　言っておいて　下さい。
+0103802|２|honno koq ataiga annai swqto edon|ほんとうは、わたしが　案内　すると　いいけど。
+0103803|３|hai|はい。
+0103804|２|sonta mo: hwtaino hoga joka jona hu zjaqta atai…|そのことは　もう　ふたりの　方が　いい　よう　でした、わたし…
+0103805|３|e:|ええ。
+0103806|２|ataito ataito iqdoki ke.towa iwanzjaqta an-jaqga|わたしと、わたしと　いっしょに　来いとは　言わなかった、あのやつめ。
+0103807|３|e: so:na|ええ、そうですか。
+0103808|２|ataimo ke. tsi ju:kato omo:tsjoq… sogen ju: warozja naka an-jaqga|わたしも　来い　と　いうかと　思っていた〔が〕　そう　言う　やつじゃ　ない、あいつが。
+0103810|３|e:|ええ。
+0103811|２|anoqsa:baqkai na:|あの人ばかり　ね。
+0103812|３|ha:|はあ。
+0103813|２|kiq onmjaq tamohanka tsj ko:|来て　みて　くださいませんか　と、こうだった。
+0103814|３|e:|え。
+0103815|２|hoina: soen jumoso tsi sontoka jumosjta ataja munen nakade muqto kjtato|それなら　そう　言いましょう　と、そのときは　言いました。わたしは　胸の　中で　むっと　来たよ。
+0103901|３|n:damo…|あら…
+0103902|２|oina ketowa kjsjkejuwazi…|おれには　来いとは　言いやがらずに…
+0103903|３|sogen omansa:mo rinkio senden e:to:|そう　あなたも　しっとを　しなくても　いいのよ。
+0103904|２|kaqta zinkio suq goq nanga na:|なんとなく〔「変った」の意〕　しっと　する　ように　なりますよ　ね。
+0103905|３|n:damo siran|あら　いやだ。
+0103906|２|sogen juwazi a iqdodoma aswqke iqkjaq tamoq|そう　言わないで、一度ぐらいは　遊びに　行って　ください。
+0103907|３|a: sorja itaq mimohanna:|ああ、それは　行って　みなければ〔なりません〕。
+0103908|２|n ahjko ju:to jaqde ha: moine koq zja|あれほど　言うの　だから　そりゃ　かわいそうな　こと　だ。
+0103909|２|aja mo jamome zjaq mon goande na.|あれは　もう　やもめ　だ　もの　ですから　ね。
+0103910|３|ha:|はあ。
+0103911|２|hoide omansaijona wake hjtoto jaqpai tokina. kataq miro goq goandode|それで　あなたのような　若い　人と　やっぱり　ときには　話して　みたい　でしょうよ。
+0103913|３|n:damo|まあ。
+0103914|２|nanzjai okasi koqmo naimo sija simohanga itaqtsjoq mijan|なにも　変な　ことも　なにも　しや　しませんよ。行っておいて　ごらんなさい。
+0103915|３|ndamo: konoqsa: okasi: kotsu ijaq koq jo|いやだ、この人は　おかしい　ことを　おっしゃる　こと　よ。
+0103916|２|nanga okasi: kotsu… ataja soja dengon zjaqto jaqde omansa: atai nanzai…|なにが　おかしい　ことを…　わたしは　それは　伝言　なの　だから　あなた、わたしは　何も…
+0104002|３|omansa: jukataga okasi goansa: omansa:|あなた、言い方が　おかしい　ですわ　あなた。
+0104003|２|u:n soen ieba soi zjaqdonka. nakao toimoqta sohjkobaqkai kanguqde soen hinnaqto|うん、そう　言えば　そう　だけれどもね、仲を　とりもつ者は　そのくらいは　考えるから　そう　なってしまうのだよ。
+0104005|３|n:damo siran takemoqdonno ozisan tsi kogena kotsu ijaq hjto tsi sirannaqta haqmeq sjqtsjoqta|あら　いやだ。武元さんの　おじさん　というのは、こんな　ことを　おっしゃる　人　とは　知らなかった。初めて　知った。
+0104007|２|u:n iqki soen ataigata iqki sogen hinnaqto don aiga anmai agen tanon mon zjaqde agena kotsja juwan jaq zjaqtaga na:|うん。すぐ　そう　わたしのは　すぐ　そう　なってしまうんだよ。でも、あれが　あんまり　あんなに　頼む　もの　だから、あんな　ことは　言わない　やつ　だったが　ね。
+0104010|３|ha:|はあ。
+0104011|２|joqbodo omanse: ki.ga mutato zjaro gotsjaq mata omansa: otokoga swkosona tsurao sjtsjoijarai|よっぽど　あなたに　気が　向いたの　らしい　ようだ。また　あなたは　男が　好きになるような　顔を　していらっしゃるわい。
+0104013|３|ndamo sjta::n kogena odahuki na: ma: aigate koq gowahj na: mo: do:ka ma: jorosu. mo:siagejaq tamoq|あら　いやだ。こんな　お多福に　ですか。まあ　ありがたい　こと　です　ね。もう　どうか　まあ　よろしく　お申しあげになって　ください。

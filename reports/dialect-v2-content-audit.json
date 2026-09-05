@@ -1,0 +1,8419 @@
+{
+  "total": 1643,
+  "warnings": {
+    "missingReading": 621,
+    "missingDescription": 0,
+    "missingMeaning": 0,
+    "missingExample": 800,
+    "missingSource": 27,
+    "regionPending": 0
+  },
+  "contentAuditDialectCount": 965,
+  "visualSample": [
+    {
+      "id": "jp-41-saga-001",
+      "word": "がばい",
+      "prefecture": "佐賀県"
+    },
+    {
+      "id": "jp-38-ehime-039",
+      "word": "ドコデ　カイナハッタンジャロー",
+      "prefecture": "愛媛県"
+    },
+    {
+      "id": "jp-34-hiroshima-001",
+      "word": "たいぎい",
+      "prefecture": "広島県"
+    },
+    {
+      "id": "jp-43-kumamoto-010",
+      "word": "あくしゃうつ",
+      "prefecture": "熊本県"
+    },
+    {
+      "id": "jp-46-kagoshima-044",
+      "word": "さるっが",
+      "prefecture": "鹿児島県"
+    },
+    {
+      "id": "jp-36-tokushima-006",
+      "word": "ダンナイ",
+      "prefecture": "徳島県"
+    },
+    {
+      "id": "jp-33-okayama-021",
+      "word": "a[sita]a a]mjaa hu[r-u ma]a",
+      "prefecture": "岡山県"
+    },
+    {
+      "id": "jp-33-okayama-020",
+      "word": "o[mee ni]mo wa[karo]o no]o",
+      "prefecture": "岡山県"
+    },
+    {
+      "id": "jp-33-okayama-028",
+      "word": "ハナコガ　マドー　アケタラ　ムシガ　ハエッテ　キタ。",
+      "prefecture": "岡山県"
+    },
+    {
+      "id": "jp-33-okayama-031",
+      "word": "ハナカー　テレビュー　ミント　ホンバー　ヨミョール。",
+      "prefecture": "岡山県"
+    },
+    {
+      "id": "jp-33-okayama-019",
+      "word": "o[mee ni]mo wa[karo]o ga",
+      "prefecture": "岡山県"
+    },
+    {
+      "id": "jp-46-kagoshima-046",
+      "word": "つらさげ芋",
+      "prefecture": "鹿児島県"
+    },
+    {
+      "id": "jp-38-ehime-040",
+      "word": "ヨンヂャンナハレ",
+      "prefecture": "愛媛県"
+    },
+    {
+      "id": "jp-33-okayama-017",
+      "word": "ta[be]raa",
+      "prefecture": "岡山県"
+    },
+    {
+      "id": "jp-33-okayama-016",
+      "word": "i[ka]a",
+      "prefecture": "岡山県"
+    },
+    {
+      "id": "jp-16-toyama-001",
+      "word": "きときと",
+      "prefecture": "富山県"
+    },
+    {
+      "id": "jp-47-okinawa-001",
+      "word": "めんそーれ",
+      "prefecture": "沖縄県"
+    },
+    {
+      "id": "jp-44-oita-001",
+      "word": "よだきい",
+      "prefecture": "大分県"
+    },
+    {
+      "id": "jp-42-nagasaki-021",
+      "word": "とぜんなか",
+      "prefecture": "長崎県"
+    },
+    {
+      "id": "d3",
+      "word": "なおす",
+      "prefecture": "大阪府"
+    },
+    {
+      "id": "d4",
+      "word": "ほんま？",
+      "prefecture": "大阪府"
+    },
+    {
+      "id": "d5",
+      "word": "めんこい",
+      "prefecture": "青森県"
+    },
+    {
+      "id": "d6",
+      "word": "けっぱる",
+      "prefecture": "青森県"
+    },
+    {
+      "id": "d7",
+      "word": "だべ",
+      "prefecture": "青森県"
+    },
+    {
+      "id": "d14",
+      "word": "なんぼ？",
+      "prefecture": "大阪府"
+    },
+    {
+      "id": "d15",
+      "word": "知らんけど",
+      "prefecture": "大阪府"
+    },
+    {
+      "id": "d16",
+      "word": "いけず",
+      "prefecture": "大阪府"
+    },
+    {
+      "id": "d17",
+      "word": "ほかす",
+      "prefecture": "大阪府"
+    },
+    {
+      "id": "d18",
+      "word": "あかん",
+      "prefecture": "大阪府"
+    },
+    {
+      "id": "jp-23-aichi-001",
+      "word": "でら",
+      "prefecture": "愛知県"
+    },
+    {
+      "id": "jp-05-akita-001",
+      "word": "んだ",
+      "prefecture": "秋田県"
+    },
+    {
+      "id": "jp-12-chiba-001",
+      "word": "あおなじみ",
+      "prefecture": "千葉県"
+    },
+    {
+      "id": "jp-18-fukui-001",
+      "word": "つるつるいっぱい",
+      "prefecture": "福井県"
+    },
+    {
+      "id": "jp-40-fukuoka-001",
+      "word": "いぼる",
+      "prefecture": "福岡県"
+    },
+    {
+      "id": "jp-07-fukushima-001",
+      "word": "さすけねえ",
+      "prefecture": "福島県"
+    },
+    {
+      "id": "jp-21-gifu-001",
+      "word": "えらい",
+      "prefecture": "岐阜県"
+    },
+    {
+      "id": "jp-10-gunma-001",
+      "word": "なっから",
+      "prefecture": "群馬県"
+    },
+    {
+      "id": "jp-01-hokkaido-001",
+      "word": "なまら",
+      "prefecture": "北海道"
+    },
+    {
+      "id": "jp-28-hyogo-001",
+      "word": "べっちょない",
+      "prefecture": "兵庫県"
+    },
+    {
+      "id": "jp-08-ibaraki-001",
+      "word": "ごじゃっぺ",
+      "prefecture": "茨城県"
+    }
+  ],
+  "issues": [
+    {
+      "id": "d3",
+      "word": "なおす",
+      "prefecture": "大阪府",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d4",
+      "word": "ほんま？",
+      "prefecture": "大阪府",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d5",
+      "word": "めんこい",
+      "prefecture": "青森県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d6",
+      "word": "けっぱる",
+      "prefecture": "青森県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d7",
+      "word": "だべ",
+      "prefecture": "青森県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d14",
+      "word": "なんぼ？",
+      "prefecture": "大阪府",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d15",
+      "word": "知らんけど",
+      "prefecture": "大阪府",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d16",
+      "word": "いけず",
+      "prefecture": "大阪府",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d17",
+      "word": "ほかす",
+      "prefecture": "大阪府",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d18",
+      "word": "あかん",
+      "prefecture": "大阪府",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d19",
+      "word": "まいね",
+      "prefecture": "青森県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d20",
+      "word": "わいは",
+      "prefecture": "青森県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d21",
+      "word": "なげる",
+      "prefecture": "青森県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d22",
+      "word": "けやぐ",
+      "prefecture": "青森県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "d23",
+      "word": "めじゃ",
+      "prefecture": "青森県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-12-chiba-001",
+      "word": "あおなじみ",
+      "prefecture": "千葉県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-001",
+      "word": "いってこうわい",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-002",
+      "word": "イヤタイ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-003",
+      "word": "タンネル",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-004",
+      "word": "ゴーゲニ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-005",
+      "word": "タシッポ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-006",
+      "word": "オンカレル",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-007",
+      "word": "ゴーゴー",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-008",
+      "word": "シテッカー",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-009",
+      "word": "オイデマヘ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-010",
+      "word": "ンダ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-011",
+      "word": "ベーロ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-012",
+      "word": "スボ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-013",
+      "word": "イズミ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-014",
+      "word": "ほんで",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-015",
+      "word": "ケン",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-016",
+      "word": "トンギョー",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-017",
+      "word": "カガス",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-018",
+      "word": "オクレ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-019",
+      "word": "ケー",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-020",
+      "word": "ホージャロ　ゲー",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-021",
+      "word": "テイレギ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-022",
+      "word": "アギト",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-023",
+      "word": "アズル",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-024",
+      "word": "ガイナ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-025",
+      "word": "ツバエル",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-026",
+      "word": "センチ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-027",
+      "word": "ソーダス　カ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-028",
+      "word": "ハーイ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-029",
+      "word": "キーテ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-030",
+      "word": "シテ　ヤンナハラン　カ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-031",
+      "word": "シチョル",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-032",
+      "word": "ヅツナイ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-033",
+      "word": "カタタン",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-034",
+      "word": "オガメ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-035",
+      "word": "ルイチュー",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-036",
+      "word": "アル　ゾカ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-037",
+      "word": "タカデ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-038",
+      "word": "ソーダス　ナーシ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-039",
+      "word": "ドコデ　カイナハッタンジャロー",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-040",
+      "word": "ヨンヂャンナハレ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-041",
+      "word": "ジャガイモ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-042",
+      "word": "カントイモ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-043",
+      "word": "コーボーイモ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-044",
+      "word": "ダンナシュ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-045",
+      "word": "グベンシャ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-046",
+      "word": "ネヤ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-047",
+      "word": "誰",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-048",
+      "word": "誰",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-049",
+      "word": "どこ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-050",
+      "word": "どこ",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-051",
+      "word": "朝が",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-052",
+      "word": "朝が",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-053",
+      "word": "烏",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-054",
+      "word": "烏",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-055",
+      "word": "牛が",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-056",
+      "word": "牛が",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-057",
+      "word": "桜",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-058",
+      "word": "桜",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-059",
+      "word": "飴",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-38-ehime-060",
+      "word": "雨",
+      "prefecture": "愛媛県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-001",
+      "word": "いぼる",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-002",
+      "word": "えずい",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-011",
+      "word": "なんしようと？",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-012",
+      "word": "～やけん",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-013",
+      "word": "よかよ",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-014",
+      "word": "どげんしたと？",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-015",
+      "word": "すいとー",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-016",
+      "word": "バリ",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-018",
+      "word": "けんど",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-019",
+      "word": "あく",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-020",
+      "word": "うちのん",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-021",
+      "word": "かど",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-022",
+      "word": "もーがんこ",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-023",
+      "word": "どし",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-024",
+      "word": "きばりて",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-025",
+      "word": "いっけんけん",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-026",
+      "word": "のーなった",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-027",
+      "word": "おごる",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-028",
+      "word": "せく",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-029",
+      "word": "しろしー",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-030",
+      "word": "そがーな",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-031",
+      "word": "～ごとある",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-032",
+      "word": "かてる",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-033",
+      "word": "～とか",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-034",
+      "word": "せんどこー",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-055",
+      "word": "～け",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-056",
+      "word": "～き",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-40-fukuoka-057",
+      "word": "～シャル",
+      "prefecture": "福岡県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-21-gifu-001",
+      "word": "えらい",
+      "prefecture": "岐阜県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-10-gunma-001",
+      "word": "なっから",
+      "prefecture": "群馬県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-002",
+      "word": "よう",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-003",
+      "word": "よう",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-004",
+      "word": "よう",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-005",
+      "word": "よう＋動詞＋ん",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-006",
+      "word": "よう＋動詞＋ん",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-007",
+      "word": "よう＋動詞＋ん",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-008",
+      "word": "よう＋動詞＋ん",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-009",
+      "word": "よう＋可能動詞＋ん",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-010",
+      "word": "よう知らん",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-011",
+      "word": "よう見ん",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-012",
+      "word": "ホイジャカラ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-013",
+      "word": "−んさい",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-014",
+      "word": "−んさいや",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-015",
+      "word": "−ない（敬意命令形）",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-016",
+      "word": "鼻",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-017",
+      "word": "花",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-018",
+      "word": "柄",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-019",
+      "word": "いなす",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-020",
+      "word": "いぬる",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-021",
+      "word": "いろう",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-022",
+      "word": "いわえる",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-023",
+      "word": "うがす",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-024",
+      "word": "うがす",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-025",
+      "word": "おらぶ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-026",
+      "word": "かごむ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-027",
+      "word": "かなぐる",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-028",
+      "word": "きっぽ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-029",
+      "word": "しゅむ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-030",
+      "word": "しゅむ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-031",
+      "word": "そべら",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-032",
+      "word": "たう",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-033",
+      "word": "たわん",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-034",
+      "word": "つくねる",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-035",
+      "word": "にがる",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-036",
+      "word": "なまける",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-037",
+      "word": "アカェー",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-038",
+      "word": "ヘーッテ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-039",
+      "word": "オモェー",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-040",
+      "word": "フリー",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-041",
+      "word": "ドコニ イキャー",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-042",
+      "word": "カェータ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-043",
+      "word": "カキンサイ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-044",
+      "word": "カキンサンナ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-045",
+      "word": "カコー",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-046",
+      "word": "カコー",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-047",
+      "word": "カクマー",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-048",
+      "word": "カキャー",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-049",
+      "word": "カカン",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-050",
+      "word": "カキャーセン",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-051",
+      "word": "カキョール",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-052",
+      "word": "カキタェー",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-053",
+      "word": "キタ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-054",
+      "word": "オーギタ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-055",
+      "word": "アキギタ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-056",
+      "word": "キタゴチ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-057",
+      "word": "タトエゴチ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-058",
+      "word": "マジ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-059",
+      "word": "サクラマジ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-060",
+      "word": "ヤマジ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-061",
+      "word": "アナジ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-062",
+      "word": "ハヤテ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-063",
+      "word": "キタアナジ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-34-hiroshima-064",
+      "word": "ゴガツノタニシ",
+      "prefecture": "広島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-17-ishikawa-001",
+      "word": "だら",
+      "prefecture": "石川県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-001",
+      "word": "じょんならん",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-002",
+      "word": "あすない",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-003",
+      "word": "あっぱがお",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-004",
+      "word": "いただきさん",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-005",
+      "word": "いぬ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-006",
+      "word": "いわえる",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-007",
+      "word": "おとんぼ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-008",
+      "word": "おとっちゃま",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-009",
+      "word": "おらぶ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-010",
+      "word": "がいに",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-011",
+      "word": "けっこい",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-012",
+      "word": "こんまい",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-013",
+      "word": "ごらえる",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-014",
+      "word": "てがう",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-015",
+      "word": "へらこい",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-016",
+      "word": "まがる",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-017",
+      "word": "まんでがん",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-018",
+      "word": "めげる",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-019",
+      "word": "よぼう",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-020",
+      "word": "おなかがおきる",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-021",
+      "word": "しのべる",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-022",
+      "word": "おぶ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-023",
+      "word": "うったて",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-024",
+      "word": "ずんやり",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-025",
+      "word": "～をかす",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-026",
+      "word": "えらい",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-027",
+      "word": "むつごい",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-028",
+      "word": "まける",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-029",
+      "word": "じゅじゅむ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-030",
+      "word": "よおけ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-031",
+      "word": "あずる",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-032",
+      "word": "はじかい",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-033",
+      "word": "ぶに",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-034",
+      "word": "こっぽり",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-035",
+      "word": "オキンカイ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-036",
+      "word": "オキナ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-037",
+      "word": "タベテン",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-038",
+      "word": "セー",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-039",
+      "word": "オキヨー",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-040",
+      "word": "シラベテミー",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-041",
+      "word": "シー",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-042",
+      "word": "モッテイキマイ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-043",
+      "word": "カエランカイ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-044",
+      "word": "ケン",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-045",
+      "word": "マイナ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-046",
+      "word": "マイヨ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-047",
+      "word": "マイダー",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-048",
+      "word": "マエ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-049",
+      "word": "マヘ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-050",
+      "word": "マーセ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-051",
+      "word": "マイ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-052",
+      "word": "イタラ エエ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-053",
+      "word": "トテカエル",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-054",
+      "word": "モテイク",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-055",
+      "word": "ケッコニ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-056",
+      "word": "オモテ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-057",
+      "word": "ツコテ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-058",
+      "word": "ワロテ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-059",
+      "word": "オモトテ",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-060",
+      "word": "なんしょん",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-061",
+      "word": "なんしょんな",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-062",
+      "word": "つか",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-37-kagawa-063",
+      "word": "いた",
+      "prefecture": "香川県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-020",
+      "word": "こよん",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-021",
+      "word": "きやんせ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-022",
+      "word": "おじゃったもんせ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-023",
+      "word": "きばれ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-024",
+      "word": "ぐらしい",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-025",
+      "word": "とぜんね",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-026",
+      "word": "ジャッドニー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-027",
+      "word": "ドゲイダ？",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-028",
+      "word": "ワガランド",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-029",
+      "word": "ヒッチャユイ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-030",
+      "word": "キュ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-031",
+      "word": "キニュ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-032",
+      "word": "サダッ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-033",
+      "word": "ミン",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-034",
+      "word": "ざい",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-035",
+      "word": "たっもん",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-036",
+      "word": "シッタレ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-037",
+      "word": "アンヤン",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-038",
+      "word": "アネジョ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-039",
+      "word": "キョデ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-040",
+      "word": "ウッカタ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-041",
+      "word": "けね",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-042",
+      "word": "ヤウッ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-043",
+      "word": "でっどん",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-044",
+      "word": "さるっが",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-045",
+      "word": "うのばい",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-046",
+      "word": "つらさげ芋",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-047",
+      "word": "わっぜ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-048",
+      "word": "茶いっぺ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-049",
+      "word": "バシ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-050",
+      "word": "ドモ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-051",
+      "word": "ドーグ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-052",
+      "word": "ギー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-053",
+      "word": "ンーマカ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-054",
+      "word": "オットイ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-055",
+      "word": "オユイ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-056",
+      "word": "フト",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-057",
+      "word": "フタイ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-058",
+      "word": "イオ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-059",
+      "word": "イガワ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-060",
+      "word": "モス",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-061",
+      "word": "カナ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-062",
+      "word": "コー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-063",
+      "word": "ラル",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-064",
+      "word": "ニャー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-065",
+      "word": "おーきに",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-066",
+      "word": "おかべ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-067",
+      "word": "アナゼ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-068",
+      "word": "ナエ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-069",
+      "word": "ガセ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-070",
+      "word": "インバ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-071",
+      "word": "ツクランピョー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-072",
+      "word": "ウンダラー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-073",
+      "word": "アッコ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-074",
+      "word": "サナー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-075",
+      "word": "ギリー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-076",
+      "word": "ナッカ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-077",
+      "word": "ケリャー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-078",
+      "word": "オヨ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-079",
+      "word": "スバトー",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-080",
+      "word": "キムル",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-081",
+      "word": "ワスル",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-082",
+      "word": "テ",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-083",
+      "word": "ゴテアル",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-46-kagoshima-084",
+      "word": "ヤ／ヤル",
+      "prefecture": "鹿児島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-14-kanagawa-001",
+      "word": "じゃん",
+      "prefecture": "神奈川県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-021",
+      "word": "あげる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-022",
+      "word": "うかうかする",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-023",
+      "word": "おびちょー",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-024",
+      "word": "ことうた",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-025",
+      "word": "さびる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-026",
+      "word": "しらんなる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-027",
+      "word": "ずつない",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-028",
+      "word": "ぞいぞいする／ぞんぞんする",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-029",
+      "word": "たごる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-030",
+      "word": "ほろせ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-031",
+      "word": "まける",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-032",
+      "word": "おまん",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-033",
+      "word": "～ゆう",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-034",
+      "word": "～ちゅう",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-035",
+      "word": "～ちょった",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-036",
+      "word": "なにしゆうがー？",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-037",
+      "word": "水",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-038",
+      "word": "しばてん",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-039",
+      "word": "おんしゃ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-040",
+      "word": "あしゃ、いんでうちのまわりをせんといかん。",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-041",
+      "word": "そうかん。",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-042",
+      "word": "仕事をしうて。",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-043",
+      "word": "いーん",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-044",
+      "word": "まけまけ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-045",
+      "word": "どくれちゅう",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-046",
+      "word": "だれこける",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-047",
+      "word": "りこもん／りこい",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-048",
+      "word": "く",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-049",
+      "word": "ひやい",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-050",
+      "word": "ねこすら",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-051",
+      "word": "ちく〳〵",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-052",
+      "word": "じようり",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-053",
+      "word": "いちま",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-054",
+      "word": "おんし",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-055",
+      "word": "～ガ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-056",
+      "word": "～ザッタ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-057",
+      "word": "～キニ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-058",
+      "word": "～ケンド",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-059",
+      "word": "あらける",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-060",
+      "word": "えどる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-061",
+      "word": "かるう",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-062",
+      "word": "こたう",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-063",
+      "word": "ざまに",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-064",
+      "word": "ざんじ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-065",
+      "word": "じるい",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-066",
+      "word": "たいそい",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-067",
+      "word": "たろばあ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-068",
+      "word": "ちゃがまる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-069",
+      "word": "どしたち",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-070",
+      "word": "へち",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-071",
+      "word": "ひやい",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-072",
+      "word": "まいまいする",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-073",
+      "word": "まっと",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-074",
+      "word": "～しよる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-075",
+      "word": "～ちょう",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-076",
+      "word": "りぐる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-077",
+      "word": "ソーニカーラン",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-078",
+      "word": "ノーガワリー",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-079",
+      "word": "たんねる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-080",
+      "word": "かわるにかあらん",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-081",
+      "word": "ちょうどえい",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-082",
+      "word": "ロイロイ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-083",
+      "word": "のうがえ",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-084",
+      "word": "はちきん",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-085",
+      "word": "りぐる",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-086",
+      "word": "サル",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-087",
+      "word": "バー",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-39-kochi-088",
+      "word": "サル",
+      "prefecture": "高知県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-001",
+      "word": "たいぎゃ",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-002",
+      "word": "リバテープ",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-012",
+      "word": "とつけむにゃあ",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-013",
+      "word": "がまだす",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-014",
+      "word": "やおいかん",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-015",
+      "word": "ひやがり",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-016",
+      "word": "びっき",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-017",
+      "word": "てれっと",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-018",
+      "word": "ててんご",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-019",
+      "word": "ずんだれ",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-020",
+      "word": "しゃあづち",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-021",
+      "word": "ばっじゃす",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-022",
+      "word": "シルシー",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-023",
+      "word": "ウゼネー",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-024",
+      "word": "ズル",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-025",
+      "word": "セツク",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-026",
+      "word": "シレル",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-028",
+      "word": "ひっと出る",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-034",
+      "word": "ちなもい",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-038",
+      "word": "オイギャン",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-039",
+      "word": "オドマ",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-040",
+      "word": "オドンギャサミャ",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-041",
+      "word": "クバイ",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-042",
+      "word": "いくっしぇな",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-043",
+      "word": "いたうゑ／いたうゑっか",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-044",
+      "word": "おいがすいで",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-045",
+      "word": "からいもほりかんもい",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-046",
+      "word": "くい／くいで",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-047",
+      "word": "こいもん",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-048",
+      "word": "しぃまい",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-049",
+      "word": "そどやがや",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-050",
+      "word": "ぬーどっど",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-43-kumamoto-051",
+      "word": "メダイ",
+      "prefecture": "熊本県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-001",
+      "word": "てげ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-014",
+      "word": "あったれこっしなったが",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-015",
+      "word": "あんべらしゅ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-016",
+      "word": "いかんなんげな",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-017",
+      "word": "やっくだはり",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-018",
+      "word": "あんべ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-019",
+      "word": "いお／いよ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-020",
+      "word": "いっちゃが",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-021",
+      "word": "うっせる",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-022",
+      "word": "おーきん",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-023",
+      "word": "およばん",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-024",
+      "word": "おらぶ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-025",
+      "word": "からう",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-026",
+      "word": "がんたれ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-027",
+      "word": "きばる",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-028",
+      "word": "ぐらしぃ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-029",
+      "word": "こんめー",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-030",
+      "word": "さるく",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-031",
+      "word": "しごつ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-032",
+      "word": "よだきぃ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-033",
+      "word": "ゴゼムケ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-034",
+      "word": "つねんね",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-035",
+      "word": "てにゃわん",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-036",
+      "word": "ほいっぺ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-037",
+      "word": "よかんべ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-038",
+      "word": "あえちょる",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-039",
+      "word": "しのべる",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-040",
+      "word": "あたれ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-041",
+      "word": "ちょかんきり",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-042",
+      "word": "てげてげ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-043",
+      "word": "なんきも",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-044",
+      "word": "ヅンブリ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-045",
+      "word": "いかはっとかの／いかはっとかな",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-046",
+      "word": "すぐっ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-047",
+      "word": "あけっぽ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-048",
+      "word": "あなんぼ（うど）",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-049",
+      "word": "とりこのふし",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-050",
+      "word": "ぐわん",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-051",
+      "word": "やかんたぎり",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-052",
+      "word": "あてっぽし",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-053",
+      "word": "あんどする",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-054",
+      "word": "おおなぐ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-055",
+      "word": "うろたゆる",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-056",
+      "word": "ほがす",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-057",
+      "word": "ほげた",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-058",
+      "word": "よわみそ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-059",
+      "word": "のさん",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-060",
+      "word": "ぎめ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-061",
+      "word": "コエ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-062",
+      "word": "ワラ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-063",
+      "word": "ビッキョ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-064",
+      "word": "マンカンメシ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-065",
+      "word": "バブタ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-066",
+      "word": "ガグレ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-067",
+      "word": "てなむ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-068",
+      "word": "じょじょん／じょじょんな",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-069",
+      "word": "んだもしたん",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-070",
+      "word": "すんくじら",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-071",
+      "word": "そがらし",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-45-miyazaki-072",
+      "word": "アマメ",
+      "prefecture": "宮崎県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-002",
+      "word": "すずるっ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-003",
+      "word": "がんにゃ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-004",
+      "word": "おてつく",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-005",
+      "word": "いっとき",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-006",
+      "word": "えっとなか",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-007",
+      "word": "ちんごよんご",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-008",
+      "word": "なして",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-009",
+      "word": "ぬすくる",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-010",
+      "word": "のうなる",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-011",
+      "word": "めんめん",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-012",
+      "word": "手のごい",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-013",
+      "word": "うっちょく",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-014",
+      "word": "まいっちょ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-015",
+      "word": "アラカブ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-016",
+      "word": "ガワッパ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-017",
+      "word": "なしなる",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-018",
+      "word": "こんび",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-019",
+      "word": "おなご",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-020",
+      "word": "ひなか",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-021",
+      "word": "とぜんなか",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-022",
+      "word": "いなう",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-023",
+      "word": "ほっつらかす",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-024",
+      "word": "つんぬく",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-025",
+      "word": "モヤモン",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-026",
+      "word": "さるく",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-027",
+      "word": "ドクスラ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-028",
+      "word": "インダク",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-029",
+      "word": "ナガセ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-030",
+      "word": "サントク",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-031",
+      "word": "キビショ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-032",
+      "word": "アイタ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-033",
+      "word": "タモトギモン",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-034",
+      "word": "へへのじゅう",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-035",
+      "word": "かたる",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-038",
+      "word": "あい",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-039",
+      "word": "うんにゃ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-046",
+      "word": "にき",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-047",
+      "word": "アゴ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-048",
+      "word": "カットッポ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-049",
+      "word": "ガゼ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-050",
+      "word": "カンコロ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-051",
+      "word": "カタシ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-054",
+      "word": "たまがる",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-056",
+      "word": "じこもん",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-057",
+      "word": "やぜらしか",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-058",
+      "word": "びっつんなか",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-060",
+      "word": "へっぱ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-068",
+      "word": "ちんたか",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-069",
+      "word": "のんぺ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-070",
+      "word": "ツジ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-071",
+      "word": "カワ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-072",
+      "word": "タキ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-073",
+      "word": "春一番",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-076",
+      "word": "おおきに",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-077",
+      "word": "わむ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-078",
+      "word": "さえ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-079",
+      "word": "ヤンバン",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-080",
+      "word": "ペー",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-081",
+      "word": "チョンガ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-082",
+      "word": "パカチ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-083",
+      "word": "コーコイモ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-084",
+      "word": "シケー",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-085",
+      "word": "ニタカバンガチ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-086",
+      "word": "ネマル",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-087",
+      "word": "オラブ",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-088",
+      "word": "アユム",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-42-nagasaki-089",
+      "word": "〜ち",
+      "prefecture": "長崎県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-15-niigata-001",
+      "word": "なじらね",
+      "prefecture": "新潟県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-44-oita-002",
+      "word": "ヌキー",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-003",
+      "word": "シャーシー",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-004",
+      "word": "タマガル",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-005",
+      "word": "エーラシー",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-007",
+      "word": "コンメー",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-008",
+      "word": "ネキ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-009",
+      "word": "ナオス",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-010",
+      "word": "アシンハラ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-011",
+      "word": "ユーロ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-012",
+      "word": "トリコンブシ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-018",
+      "word": "見ゆる",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-44-oita-021",
+      "word": "やおねぇ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-024",
+      "word": "～ちょん",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-029",
+      "word": "ウロヨコイ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-030",
+      "word": "いんげ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-031",
+      "word": "うっとどー",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-032",
+      "word": "アゴタン",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-033",
+      "word": "オックリ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-034",
+      "word": "イスル",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-037",
+      "word": "ヨカ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-042",
+      "word": "エジー",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-047",
+      "word": "ジョウモン",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-048",
+      "word": "アケンヒ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-049",
+      "word": "アド",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-050",
+      "word": "イコロ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-051",
+      "word": "イノチキ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-052",
+      "word": "オテショウ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-053",
+      "word": "ワクド",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-054",
+      "word": "ゴショウブン",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-055",
+      "word": "ムテエナ",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-44-oita-056",
+      "word": "トゼネー",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-44-oita-057",
+      "word": "～デ（ー）",
+      "prefecture": "大分県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-002",
+      "word": "デーガ スリャー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-003",
+      "word": "ドケー イクンナラ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-004",
+      "word": "アメ フッテキタデ。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-005",
+      "word": "セー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-006",
+      "word": "ケー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-007",
+      "word": "ミー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-008",
+      "word": "カカン",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-009",
+      "word": "テャー [tjaː]",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-010",
+      "word": "テュー [tjuː]／テョー [tjoː]",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-011",
+      "word": "ヤメー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-012",
+      "word": "i[k-i-ne]e",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-013",
+      "word": "ta[be]-nee",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-014",
+      "word": "ki-[ne]e",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-015",
+      "word": "si-[ne]e",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-016",
+      "word": "i[ka]a",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-017",
+      "word": "ta[be]raa",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-018",
+      "word": "so[ko] ni a[ro]o ga",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-019",
+      "word": "o[mee ni]mo wa[karo]o ga",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-020",
+      "word": "o[mee ni]mo wa[karo]o no]o",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-021",
+      "word": "a[sita]a a]mjaa hu[r-u ma]a",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-022",
+      "word": "イマカラ　トモダチー　テガミュー　カク。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-023",
+      "word": "イエー　モドッテ　スグニ　テガミュー　カエータ。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-024",
+      "word": "カエータ　テガミュー　ナンベンモ　ヨミカエース。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-025",
+      "word": "アブナエーケー　シャドー　アルクナ。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-026",
+      "word": "ヒルカラ　アメガ　フロー ナー。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-027",
+      "word": "ハルン　ナリャー　ハナガ　サク。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-028",
+      "word": "ハナコガ　マドー　アケタラ　ムシガ　ハエッテ　キタ。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-029",
+      "word": "アサナー　アンマリ　テレビュー　ミン。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-030",
+      "word": "ハナカー　キニョー　テレビュー　ミナンダ。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-031",
+      "word": "ハナカー　テレビュー　ミント　ホンバー　ヨミョール。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-032",
+      "word": "アカェ／アケー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-033",
+      "word": "ナェ／ネー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-034",
+      "word": "ゴッツォー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-035",
+      "word": "ミミュー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-036",
+      "word": "シェーフ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-037",
+      "word": "はぶてる",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-038",
+      "word": "いたしー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-039",
+      "word": "くらわす",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-040",
+      "word": "たちまち",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-041",
+      "word": "すける",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-042",
+      "word": "みてる",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-043",
+      "word": "やっちもねー",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-044",
+      "word": "グイ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-045",
+      "word": "ソゲ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-046",
+      "word": "てんぐるま",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-047",
+      "word": "てんぐるさん",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-048",
+      "word": "チカマーリ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-049",
+      "word": "チカマーリ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-050",
+      "word": "田中さんが歌いよる。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-051",
+      "word": "斎藤さんはその場所を知っとる。",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-052",
+      "word": "コケル",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-053",
+      "word": "モクレル",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-054",
+      "word": "ソーメンダコ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-055",
+      "word": "たもり",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-056",
+      "word": "よしのごち",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-057",
+      "word": "べーか",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-058",
+      "word": "もだこ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-059",
+      "word": "しろえび",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-060",
+      "word": "しろえび",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-061",
+      "word": "しろえび",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-062",
+      "word": "がく",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-063",
+      "word": "がく",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-064",
+      "word": "あおぎざみ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-065",
+      "word": "あかぎざみ",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-066",
+      "word": "ががな",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-067",
+      "word": "がっちょごち",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-068",
+      "word": "しおふき",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-069",
+      "word": "す",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-070",
+      "word": "すくも",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-33-okayama-071",
+      "word": "はぜま",
+      "prefecture": "岡山県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-058",
+      "word": "ふゎー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-059",
+      "word": "はー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-060",
+      "word": "ぱー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-061",
+      "word": "はー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-062",
+      "word": "わたー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-063",
+      "word": "ばた",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-064",
+      "word": "ばだ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-065",
+      "word": "ばた",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-066",
+      "word": "ふゎなー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-067",
+      "word": "はな",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-068",
+      "word": "ぱな",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-069",
+      "word": "はな",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-070",
+      "word": "にしはじ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-071",
+      "word": "んすかでぃ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-072",
+      "word": "にしかじ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-073",
+      "word": "にちかでぃ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-074",
+      "word": "ふぇー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-075",
+      "word": "はい",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-076",
+      "word": "ぱい",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-077",
+      "word": "はい",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-078",
+      "word": "わらー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-079",
+      "word": "ばら",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-080",
+      "word": "ばら",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-081",
+      "word": "ばら",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-082",
+      "word": "ちぬ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-083",
+      "word": "つぬ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-084",
+      "word": "つぃぬ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-085",
+      "word": "んぬん",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-086",
+      "word": "はーぎー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-087",
+      "word": "かぎ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-088",
+      "word": "かい",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-089",
+      "word": "かき゚",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-090",
+      "word": "はかー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-091",
+      "word": "はか",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-092",
+      "word": "ぱか",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-093",
+      "word": "はが",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-094",
+      "word": "‘わー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-095",
+      "word": "わー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-096",
+      "word": "おー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-097",
+      "word": "わー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-098",
+      "word": "くぬーふ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-099",
+      "word": "ふにゅー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-100",
+      "word": "ふにふ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-101",
+      "word": "んにん",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-102",
+      "word": "くち",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-103",
+      "word": "ふつ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-104",
+      "word": "ふつぃ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-105",
+      "word": "‘てぃー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-106",
+      "word": "しちゃー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-107",
+      "word": "った",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-108",
+      "word": "すぃた",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-109",
+      "word": "‘たー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-110",
+      "word": "あちゃー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-111",
+      "word": "あちゃ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-112",
+      "word": "はっつぁ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-113",
+      "word": "あった",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-114",
+      "word": "ひー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-115",
+      "word": "みじ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-116",
+      "word": "やま",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-117",
+      "word": "かーら",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-118",
+      "word": "はし",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-119",
+      "word": "むい",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-120",
+      "word": "ふし",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-121",
+      "word": "かんない",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-122",
+      "word": "うーみ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-123",
+      "word": "しな",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-124",
+      "word": "かじ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-125",
+      "word": "うゎー",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-126",
+      "word": "あみ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-127",
+      "word": "あみむゆーし",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-128",
+      "word": "あみふいぎさん",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-130",
+      "word": "んけーかじ",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-131",
+      "word": "いちばな",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-132",
+      "word": "みづぃぐすい",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-47-okinawa-133",
+      "word": "しゅいくとぅば",
+      "prefecture": "沖縄県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-001",
+      "word": "がばい",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-002",
+      "word": "やーのめし",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-003",
+      "word": "きんぱんしゃ",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-004",
+      "word": "あったらもんぎ",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-005",
+      "word": "あばおろし",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-006",
+      "word": "つくるぶく",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-007",
+      "word": "とぜんなか",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-008",
+      "word": "ない",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-009",
+      "word": "よくー",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-010",
+      "word": "むーらしか",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-011",
+      "word": "ねまっ",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-012",
+      "word": "あばかん",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-013",
+      "word": "つーばつ",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-014",
+      "word": "ざっとなか",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-015",
+      "word": "ちかっと",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-016",
+      "word": "あーも",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-017",
+      "word": "どがんじゃい",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-018",
+      "word": "あいやん",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-019",
+      "word": "あっちやごうし",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-020",
+      "word": "あもよ",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-021",
+      "word": "いけと",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-022",
+      "word": "いたぐら",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-023",
+      "word": "ううすっぽく",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-024",
+      "word": "えせなむ",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-025",
+      "word": "えんば",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-026",
+      "word": "てしやにん",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-027",
+      "word": "どうけいる",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-028",
+      "word": "いんま",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-029",
+      "word": "からびる",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-030",
+      "word": "ちょろっと",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-031",
+      "word": "ひとせん",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-032",
+      "word": "ぐるりする",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-033",
+      "word": "くれんかい",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-034",
+      "word": "こすか",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-035",
+      "word": "こちょばいか",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-036",
+      "word": "ころっと",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-037",
+      "word": "なんちゅうかい",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-038",
+      "word": "ごっとい",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-039",
+      "word": "ぞーたん",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-040",
+      "word": "そいぎんた",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-041",
+      "word": "ちゃーがつか",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-042",
+      "word": "せからしか",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-043",
+      "word": "きゅうか～",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-044",
+      "word": "おらぶ",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-045",
+      "word": "よろいすっ",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-41-saga-046",
+      "word": "ととしか",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-41-saga-047",
+      "word": "ひだるか",
+      "prefecture": "佐賀県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-11-saitama-001",
+      "word": "かたす",
+      "prefecture": "埼玉県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-25-shiga-001",
+      "word": "ほっこりする",
+      "prefecture": "滋賀県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-001",
+      "word": "だんだん",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-002",
+      "word": "ズーサン",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-003",
+      "word": "エネ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-004",
+      "word": "ボサイク",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-005",
+      "word": "シェンシェー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-006",
+      "word": "ジェニ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-007",
+      "word": "クワズ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-008",
+      "word": "エイグワ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-009",
+      "word": "かんなー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-010",
+      "word": "かんなさん",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-011",
+      "word": "ばげかた",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-012",
+      "word": "よんべがた",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-013",
+      "word": "ばんげ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-014",
+      "word": "てんこ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-015",
+      "word": "てんこつ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-016",
+      "word": "おとご",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-017",
+      "word": "おとんぼ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-018",
+      "word": "いきゃー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-019",
+      "word": "くーだわ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-020",
+      "word": "はやこと",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-021",
+      "word": "こらかー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-022",
+      "word": "おわえこー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-023",
+      "word": "おんさるかなー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-024",
+      "word": "さいちん",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-025",
+      "word": "さいちんやく",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-026",
+      "word": "さえん",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-027",
+      "word": "さえん",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-028",
+      "word": "なおす",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-029",
+      "word": "なして",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-030",
+      "word": "ちゃをはえる",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-031",
+      "word": "はしかいい",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-032",
+      "word": "はしる",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-033",
+      "word": "たいがたい",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-034",
+      "word": "たお",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-035",
+      "word": "たかなっとる",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-036",
+      "word": "まくれる",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-037",
+      "word": "またきちゃんさい",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-038",
+      "word": "ろしない",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-039",
+      "word": "ごいせ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-040",
+      "word": "あんじょー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-041",
+      "word": "あんじょー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-042",
+      "word": "チート",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-043",
+      "word": "ハイエー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-044",
+      "word": "ハヤエー",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-045",
+      "word": "エット",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-046",
+      "word": "ガイナ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-047",
+      "word": "ドーント",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-048",
+      "word": "マット",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-049",
+      "word": "チンカモ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-050",
+      "word": "チンカモ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-051",
+      "word": "しゃばる",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-052",
+      "word": "チャノコ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-053",
+      "word": "ツンをカウ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-054",
+      "word": "ジゲシゴト",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-055",
+      "word": "オジ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-056",
+      "word": "がい",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-057",
+      "word": "ちょいちょい",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-058",
+      "word": "ええだわい",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-059",
+      "word": "ごせ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-060",
+      "word": "なんかしぃ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-061",
+      "word": "アサリ",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-32-shimane-062",
+      "word": "くろや",
+      "prefecture": "島根県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-22-shizuoka-001",
+      "word": "だら",
+      "prefecture": "静岡県",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-002",
+      "word": "セコイ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-003",
+      "word": "ツッツォ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-005",
+      "word": "ヤネガコワル",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-006",
+      "word": "ダンナイ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-008",
+      "word": "オブケル",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-009",
+      "word": "サラバエル",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-010",
+      "word": "ソラ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-011",
+      "word": "グッチュー",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-012",
+      "word": "ヤドシ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-013",
+      "word": "ソバエ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-014",
+      "word": "シェンジェン",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-016",
+      "word": "ジョ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-017",
+      "word": "〜ヘンダ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-018",
+      "word": "つっつぉ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-019",
+      "word": "じまぜ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-020",
+      "word": "たーつ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-022",
+      "word": "できる",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-023",
+      "word": "どんぶか",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-024",
+      "word": "ふご",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-025",
+      "word": "タッチェ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-026",
+      "word": "アリンド",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-027",
+      "word": "ミジョイ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-028",
+      "word": "イソシイ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-029",
+      "word": "メゲル",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-030",
+      "word": "ヨツメル",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-031",
+      "word": "タゴル",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-032",
+      "word": "ゴート",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-033",
+      "word": "ホーベタ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-034",
+      "word": "マケル",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-035",
+      "word": "クダク",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-036",
+      "word": "ナグル",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-037",
+      "word": "ナグル",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-038",
+      "word": "ジェ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-040",
+      "word": "ヨーケ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-041",
+      "word": "トロクロ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-042",
+      "word": "ウキャータイ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-043",
+      "word": "コザーナ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-044",
+      "word": "タウ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-045",
+      "word": "ゴソオカク",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-046",
+      "word": "ジブンク",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-047",
+      "word": "メグ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-049",
+      "word": "オッキョイ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-050",
+      "word": "土",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-053",
+      "word": "あち",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-054",
+      "word": "いさましかよ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-055",
+      "word": "ぎゅんぱ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-056",
+      "word": "ざまな",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-057",
+      "word": "しびたびより",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-058",
+      "word": "ちゃっちゃ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-059",
+      "word": "デキ",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-060",
+      "word": "にちょな",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-061",
+      "word": "めんどい",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-13-tokyo-001",
+      "word": "うざったい",
+      "prefecture": "東京都",
+      "issues": [
+        "missing_source"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-001",
+      "word": "だんだん",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-002",
+      "word": "アソバイヤ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-003",
+      "word": "スンマセン",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-004",
+      "word": "キガワルイ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-005",
+      "word": "ヨーケ、ジョーニ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-006",
+      "word": "オットロシイ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-007",
+      "word": "スンマセンナア",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-008",
+      "word": "サブイ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-009",
+      "word": "クタブレル",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-010",
+      "word": "ヨダキイ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-011",
+      "word": "きなんせ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-012",
+      "word": "から",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-013",
+      "word": "カケル／カケレル",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-014",
+      "word": "クエン／クエレン",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-015",
+      "word": "ミラレル／ミレル",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-016",
+      "word": "ヨー カカン",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-017",
+      "word": "ヨー セン",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-018",
+      "word": "オラレル",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-019",
+      "word": "コラレル",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-020",
+      "word": "カキョール／カイトル",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-021",
+      "word": "ミヨッジ／ミトッジ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-022",
+      "word": "ミチャーワイ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-023",
+      "word": "がいな",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-024",
+      "word": "えしこに",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-025",
+      "word": "鳥籠",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-026",
+      "word": "藁籠",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-027",
+      "word": "花籠",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-028",
+      "word": "筆箱",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-029",
+      "word": "下駄箱",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-030",
+      "word": "屑箱",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-031",
+      "word": "箸箱",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-032",
+      "word": "ごみ箱",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-033",
+      "word": "靴箱",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-034",
+      "word": "さんだがない",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-035",
+      "word": "いんぜぇ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-036",
+      "word": "ずんど",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-037",
+      "word": "とぶ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-038",
+      "word": "はしる",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-039",
+      "word": "ひぃさん",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-040",
+      "word": "だだくさな",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-041",
+      "word": "へねる",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-042",
+      "word": "いかばる",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-043",
+      "word": "にょうばんこ",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-31-tottori-044",
+      "word": "たったも",
+      "prefecture": "鳥取県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-033",
+      "word": "カナフグ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-034",
+      "word": "デゴン",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-035",
+      "word": "タイワン",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-036",
+      "word": "カラスガイ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-037",
+      "word": "マツンボ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-038",
+      "word": "アカイカ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-039",
+      "word": "ワタリガニ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-040",
+      "word": "ゲイシャガニ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-041",
+      "word": "アカアシ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-042",
+      "word": "ギロ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-043",
+      "word": "よかぐら",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-044",
+      "word": "あまがえる",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-045",
+      "word": "かたぐるま",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-046",
+      "word": "こだから",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-047",
+      "word": "きごころ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-048",
+      "word": "きたまくら",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-049",
+      "word": "あまがさ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-050",
+      "word": "はるさめ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-051",
+      "word": "みずうみ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-052",
+      "word": "せなか",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-053",
+      "word": "いっちょったん？",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-054",
+      "word": "探したっちゃ。",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-055",
+      "word": "来んにゃあ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-056",
+      "word": "おっちゃってですか",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-057",
+      "word": "カンバレ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-058",
+      "word": "アビタクム",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-059",
+      "word": "アナジ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-060",
+      "word": "ハエニシ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-061",
+      "word": "ドネージャッタロー カェエ。",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-062",
+      "word": "ソエソエ。",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-063",
+      "word": "オイキンサンセ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-064",
+      "word": "ミーシャイ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-065",
+      "word": "イキサェエル",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-066",
+      "word": "オッテジャ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-067",
+      "word": "ネバッチャッタ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-068",
+      "word": "オカエリマシタ デ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-069",
+      "word": "キヤーレ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-070",
+      "word": "オー。マメナ マメナ。",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-071",
+      "word": "サーリャ ノンタ。",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-072",
+      "word": "ドーデショー キャエ。オボエマセン チャ。",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-073",
+      "word": "ノーマイ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-074",
+      "word": "ワー",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-075",
+      "word": "ワ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-076",
+      "word": "ミンサイ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-077",
+      "word": "トミー",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-078",
+      "word": "〜トサイガ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-079",
+      "word": "オギンチャン",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-080",
+      "word": "ゲイシャ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-081",
+      "word": "ギッチョ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-082",
+      "word": "スミイカ",
+      "prefecture": "山口県",
+      "issues": [
+        "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-19-yamanashi-001",
+      "word": "ほうけ",
+      "prefecture": "山梨県",
+      "issues": [
+        "missing_source"
+      ]
+    }
+  ]
+}

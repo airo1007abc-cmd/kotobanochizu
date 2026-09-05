@@ -1,0 +1,52 @@
+Ｆ　初対面の世間話
+
+0101911|３|haqmeq oagemosjta|初めて　お会いしました。
+0102001|４|kora honni…|これは　ほんとに
+0102002|３|do:ka ma jorosu otanomosjagemonde|どうか　ま　よろしく　お願い申しあげますよ。
+0102003|４|jorosju do:zo koqtsjkoso mo do:mo e: gobure. goandon omansa: kagosiman nmare goaska|よろしく　どうぞ　こっちこそ　もう、どうぞ。えー、失礼　ですが　あなたは　鹿児島の　生まれ　ですか。
+0102005|３|hai|ええ。
+0102006|４|e: kagosima: doko goas|ほう、鹿児島は　どちら　です。
+0102007|３|ima honsekja: nanrinzi goasjto o|いま　本籍は　南林寺　ですの　よ。
+0102008|４|he: nanrinzi na:|ほう、南林寺　ですか。
+0102009|３|hai moton an hakaban atoo seirio siqse:|ええ。元の　あの　墓場の　あとを　整理を　して、
+0102010|４|he:|へえ。
+0102011|３|siga haraisageta asko goasjto|市が　払い下げた　あそこ　ですの。
+0102012|４|hoqto an: daitsjwsa:n…|すると　あの　大中さま〔松原神社〕の…
+0102013|３|hai daitsjwsan sjtan ho:|ええ　大中さまの　下の　方。
+0102014|４|he: mo ano henga hara gaqtsui mo mukaqno hu:ga zenzen nosjte na:|ほう。もう　あの　辺が　ほら　まったく　もう　昔の　ふうが　全然　なくて　ねえ。
+0102016|３|hai|ええ。
+0102101|４|ma kondon nan tsimoska na: sjkukaisei tsimoska aide atahandomo son kaetsio ginzani moromosjte na: soika: jadon anjoga oja mo agen tokoizja kurasja dekende doqka hokan tokoi naorannja tsju wakede sosto mata kanzjamatsi: kaetsio kaeq moromosjte na:|ま　今度の　何　と言いますか　ねえ、市区改正　と言いますか、あれで　わたしたちも　その、換地を　銀座に　もらいまして　ねえ。それから　うちの　兄が　おれは　もう　あんな　所では　暮らすことは　できないから　どこか　ほかの　所に　変わらなくては　という　わけで、そすと　また　加治屋町に　換地を　換えて　もらいまして　ねえ。
+0102106|３|e: gozasjtaka|ほう　そうでございましたか。
+0102107|４|son sodaqga sodaq zjaq mon goande|その、育ちが　育ち　だ　もの　ですから。
+0102108|３|atahandomo moto an taken tsjo:do nisj-eqno maen hwtoka toi oqtato goandon na:|わたしたちも　もと　あの　武町の　ちょうど　西駅の　前の　大きな　通りに　いたの　ですけど　ねえ。
+0102110|４|e: mo:…|ほう、もう…
+0102111|３|askon sino tsio haraisagega aq tsjuqse:|あそこの　市の　土地を　払い下げが　ある　といって…
+0102112|４|e: e:|ほう　ほう。
+0102113|３|… ma zibunno totsio kota hoga jokaro tsjqse:…|…　まあ　自分の　土地を　買った　方が　よかろう　と言って…
+0102114|４|e:|ほう。
+0102115|３|naoikata goasjtato|引っこした　のでしたよ。
+0102116|４|ma 〔atasidondoga〕 ko: mada sodaqta koroa mo: maqto ko: busjto ko:… qto ko: wakaretsjoise: na: gaqtsu mo: tokuni jadon ojaqnandoga…|ま　〔わたしたちが〕　こう、まだ　育った　ころは、もう　町と　こう、武士と　こう…　と　こう　分かれていて　ねえ、まったく　もう　とくに〔標〕　うちの　おやじなんかが…
+0102203|３|hoqto gaqkoa sjo:gaqkoa doko ozjasjtaka|そうすると　学校は　小学校は　どこで　いらっしゃいましたか。
+0102204|４|sjogaqkoa daijamasjo:gaqko goasjta|小学校は　ダイヤマ〔？〕小学校　でした。
+0102205|３|e: atahanda matsubara goandeja na:|ほう、わたしたちは　松原小学校　ですので　ねえ。
+0102206|４|goanso. na:|そうでしょう　ねえ。
+0102207|３|hai|ええ。
+0102208|４|saisjo tsju kjo.inga oqta haq goandon sjqtsjoijahanka na:|税所　という　教員が　いた　はず　ですが　御存知ではありませんか　ね。
+0102209|３|i:ja|いいえ。
+0102210|４|onagon kjoinga|女の　教員が。
+0102211|３|masumiqsensei tsjqse: imadani oijaq hjtonara nago goandon na:|益満先生　といって　いまだに　おられる　人なら　長い　ですけれど　ねえ。
+0102213|４|a: a: masumiqsensei na:|ああ　ああ　益満先生です　ね。
+0102214|３|hai naga:ka senseino na:|ええ、長くいる　先生が　ね。
+0102215|４|hai|ええ。
+0102216|４|aiga atahandoga jo:tsienni iqtoq kiq moroq osjtato|彼女が　わたしたちの　幼稚園に　しばらく　来て　もらって　いたんです。
+0102301|３|ha: so:na|はあ　そうですか。
+0102302|４|hai|ええ。
+0102303|３|ainara mo: oiga muqmenkoa mada oqtaka tsiqse: na:|あの人なら　もう　わたしの　女の子は　まだ　いたか　といって　ねえ、
+0102304|４|e: e: e:|ほう、ほう。
+0102305|３|ima zjaqten densjan nakade oeba kon huqtoka monno tswkamaeq atama nadejando: 《笑》|今　でも　電車の　中で　会えば　この　大きい　者を　つかまえて　頭を　お撫でになりますよ　《笑》。
+0102307|４|hoide ma sora n: jadon ojaq tsjuga mezurasi: senkoqde na: n: sjkamo son sjotsjunonno jamaimohoide kora ma: wake. koro tokjoi itaqse: tokjode aqze benkjo. sjte n: hjsamiqko:n bjo:kin toq sono kanbjo:ni koqtsi modoq kimosjte na:|それで　まあ、それは、うちの　おやじ　というのが　珍らしい　仙骨で　ねえ　しかも〔標〕　その、焼酎飲みの　くだ巻きやで、こりゃ　まあ　若い　ころ　東京に　行って　東京で　うんと　勉強　して　島津久光公の　病気の　とき、その　看病に　こっちに　帰って　来まして　ねえ、
+0102311|３|hae:|ほう。
+0102312|４|soi:kara ma: hjsamiqko.n n: senseikaku tsju wakede…|それから　まあ　久光公の　先生格　という　わけで…
+0102313|３|ha: soi ozjaska|はあ　そうで　いらっしゃいますか。
+0102314|４|hoide ma: sogena koq zjaqta mon goande na: kaqkoa jakamasju iwaruisi benkjoa saseraruisi koqtsia ma soa son benkjon hoa zen:zen… 《笑》|それで　まあ　そんな　こと　だった　もの　ですからねえ、かっこう〔みなり〕は　やかましく　言われるし、勉強は　させられるし、こっちは　まあ　そりゃ　その、勉強の　方は　全然〔にが手で…〕　《笑》
+0102401|３|mukahjno buke goandea na: sora mo:|昔の　武家　ですから　ねえ、そりゃ　もう…

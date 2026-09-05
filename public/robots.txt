@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Sitemap is added after the production origin is finalized.

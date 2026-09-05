@@ -1,0 +1,86 @@
+４．蓬だんご
+
+録音日時　１９６６年１１月１９日
+録音場所　笠沙町片浦金宮荘
+　　　　　（旅館）
+
+話し手
+（略号）　（氏名）　（性別）　（生年）　（職業）　（居住歴）
+　Ｍ　前田ナツエ　女　明治４２年生　商業　既出
+　Ｙ　山中房子　〃　大正１２年生　農業　既出
+
+解説：路上で蓬つみから帰る女に出合い互に蓬だんごを作って他郷の子供などに送ってやらなければならない話を交す。
+
+0303601|Ｍ|husakosa:N|房子さん
+0303602|Ｙ|hai|はい。
+0303603|Ｍ|koNniciwa:|今日は。
+0303604|Ｙ|koNniciwa|今日は。
+0303605|Ｍ|waqze:ka［58］ tenege kabuqte kagai［59］ karute doke iqkjasitakao|あれまあ　手拭　かぶって　かがり　せおうて　どこへ　行かれたんです。|［58］「禍」にカ語尾をつけた形。おそろしい。すごいなどの意から、副詞として大変、実にの意にも用いるが、ここでは感動詞的。［59］縄で荒めにあんだ袋で、野菜・芋類を入れる。
+0303607|Ｙ|huqcuNke iNmosita|蓬つみに　行きました。
+0303608|Ｍ|e: mo saNgaqno seqmo cikazuqmoNde na: aN|ええ、もう　３月の　節句も　近づきますから　ね。あのう、
+0303609|Ｙ|hai|はい。
+0303701|Ｍ|huqga mo deq ositakao|蓬が　もう　出て　いましたか。
+0303702|Ｙ|hai de ositado doqsai|はい。出て　いましたよ、たくさん。
+0303703|Ｍ|e: ataimo huqcuNke ikaNna sumaNci omotaqdoNkaraN kora mo gaqcui iqkote iqdahimoha:N|ええ　私も　蓬つみに　行かなければ　いけないと　思うのだけれど、ほんとに　一向　行けません。
+0303705|Ｙ|hai|はい。
+0303706|Ｍ|sosiq［60］||［60］言いさし。
+0303707|Ｙ|utoN hamaN［61］ o:|大当の　浜の　ね、|［61］地名。
+0303708|Ｍ|hai|はい。
+0303709|Ｙ|ueNmoi［62］ga do・hikodeN deq oNdo|上のあたりが　どれだけでも　出て　いますよ。|［62］moiは「あたり・辺」の意。
+0303710|Ｍ|e: zjahika ahikoataja|ええ、そうですか　あそこあたりは。
+0303711|Ｙ|…ahikoNmoja|あそこのあたりは。
+0303712|Ｍ|ahiko〔a〕taja hiataiga jokaNde na:|あそこあたりは　日当りが　いいですから　ね。
+0303713|Ｙ|hai|はい。
+0303714|Ｍ|e: mo saNgaqno seqga cikazuqmosita na:|ええ、もう　３月の　節句が　近づきました　ね。
+0303715|Ｙ|hai|はい。
+0303716|Ｍ|ataimo hajo site o: aN dagomo kodomonimo okuqte jaraNna sumaNtaqdoNkara omo oi koqbaqkaide iqkote gaqcui kane:mohaNna kora na:|私も　早く　して　ね　団子も　子供にも　送って　やらなければ　いけないのだけれど　思って　いる　ことばかりで　一向　ほんとに　叶いませんよ　こら　ね。
+0303803|Ｙ|hai|はい。
+0303804|Ｍ|omaNsataka iqdeN seN site iqga naijaNde jokaNdo:N mo iqgoro cukuijahikao dagowa:|あなたがたは　いつでも　そう　して　行け　ますので　よろしいですが　いつ頃　作られますの　団子は。
+0303806|Ｙ|dago na:|団子です　ね。
+0303807|Ｍ|hai|はい。
+0303808|Ｙ|saNgaqno seNno jaqpai hini cuqmohaNnara na:|３月の　節句の　やはり　日に　搗きませんなら　ね。
+0303809|Ｍ|saNgaqno a〔N〕hino miqkaN hini cukuijahika|３月の　あの日の　３日の　日に　作られますか。
+0303810|Ｙ|hai|はい。
+0303811|Ｍ|atainaNda kodome okuraNna suNmohaNde na:|私なんか　子供に　送らなければ　いけないですから　ね。
+0303812|Ｙ|hai|はい。
+0303813|Ｍ|ciqta hajo cukuqte:|少しは　早く　作って、
+0303814|Ｙ|hai|はい。
+0303815|Ｍ|aNmai nuku naraN uci hajo: ano okuihaNna uemaNdogao:|あまり　暖く　ならない　うちに　早く、あのう　送りませんと　腐りましょう。
+0303901|Ｙ|hai|はい。
+0303902|Ｍ|soide iqga jokaqhjara mo hajo jomagimo toike ikaNna sumaN sumaNci omokarade na:|それで　いつが　よいやら、もう　早く　蓬も　取りに　行かないと　いけない　いけないと　思いながら　ね。
+0303904|Ｙ|hai|はい。
+0303905|Ｍ|mata taqkosaNnideN toqte moremohaNnara o: site ano mata hajo okuimohaNna hora ju:biNkjoqga mo iqdoki naqte: dagoN jamaga dekemoNde hara na:|また　辰子さんにでも　採って　貰いませんなら　ね。そして　あのう　また　早く　送りませんなら　ほら、郵便局が　もう　同じ時に　なって　団子の　山が　出来ますから　ほら　ね。
+0303909|Ｙ|hai|はい。
+0303910|Ｍ|kocucuNga iqdoki naNseba: omaNsataka dokezja okuijahaNtona|小包が　一度に　なりますと。あなた達は　どこへも　送りなさらないとですか。
+0303912|Ｙ|okuimosito: ataidomo ko:beni|送りますの、私たちも　神戸に。
+0303913|Ｍ|ko:bese: okuijahika|神戸へ　送られるのですか。
+0303914|Ｙ|imoqga hai itaq oNde|妹が　はい、行って　いますから。
+0303915|Ｍ|e: miNna jorokuqbjaNde na:|ええ　みんな　喜ばれますから　ね。
+0303916|Ｙ|ha:i ma: dagoga iqbaN joka cumo〔N〕de hora na:|はい。まあ　団子が　一番　よい　といいますから　ほら　ね。
+0304001|Ｍ|ha:i sosite o:|はあい。そして　ね、
+0304002|Ｙ|inakaN a:ziga dete:|田舎の　味が　出て。
+0304003|Ｍ|hutekoq cukuijahika daNgo:|たくさん　作られますか　団子を。
+0304004|Ｙ|ha:i ma nisubaqkai|はーい、まあ　２升ばかり
+0304005|Ｍ|nisubaqkai|２升ばかり？
+0304006|Ｙ|hai|はい。
+0304007|Ｍ|mo ataja kotosa na: kodomoga naNniNmo decjoNde gosubaqkai cute|もう　私は　今年は　ね、子供が　何人も　出ていますので　５升ばかり　搗いて、
+0304009|Ｙ|bojo|おや
+0304010|Ｍ|hajo dago: site okuraNna suNmohaNgaci|早く　団子を　して　送らなければ　いけないと。
+0304011|Ｙ|wazeka:|大変なこと。
+0304012|Ｍ|mata se:doNkaraN［63］ taqkoni tanoNde o:|また　そうだけれど　辰子に　頼んで　ね、|［63］soidoNkaraNがそうきこえるのだろう。
+0304013|Ｙ|hai|はい。
+0304014|Ｍ|kozuqde［64］ morotai nai〔si〕tai・seNna sumaNto goaNsa sora|つき叩いて　貰ったり、なにしたりしなければ　いけないの　ですよ　それは。|［64］kozuq（杵でつき砕く）
+0304016|Ｙ|kozuqkataga nohimohaN na:|つき叩くのが　たまりません　ね。
+0304101|Ｍ|ha:i zjaqcumoNdo: mo ataja mo…|はあい。そうだそうですよ。もう　私は　もう…
+0304102|Ｙ|〔temamega〕 deketai|手豆が　出来たり
+0304103|Ｍ|hai naigoq cueba taqkosaN taqkosaN cute taqkonibaqkai cukuq moroto goaNde|はい、何事　ていえば　辰子さん　辰子さん　といって、辰子にばかり　作って　貰うの　ですよ。
+0304105|Ｙ|ha:i|はあい。
+0304106|Ｍ|kotohidoma waga teo kakete cukuraNna sumaNgato omote na:|今年あたりは　自分の　手を　かけて、作らなければ　いけないと　思って　ね。
+0304108|Ｙ|cuqga naijahikao|搗くことが　できますか。
+0304109|Ｍ|hai cuqga nahito: omaNsa ciqtozuqdeN|はい、搗け　ますのよ　あなた　少しずつでも。
+0304110|Ｙ|gote［65］mo kanawaN goq naijaNdo hora|腕も　叶わない　ように　なられますよ　ほら。|［65］「五体」から来ている。
+0304111|Ｍ|Nmaka dago jaNde na: saNgaqno seqno dagowa:|うまい　団子　ですから　ね、３月の　節句の　団子は。
+0304112|Ｙ|ha:i|はあい。
+0304113|Ｍ|miNna jorokude kodomoN-siga maqcjoNsao|みんな　喜んで　子供の連中が　待っていますよ。
+0304114|Ｙ|jahiga na:|そうですよ　ね。
+0304115|Ｍ|hai|はい。

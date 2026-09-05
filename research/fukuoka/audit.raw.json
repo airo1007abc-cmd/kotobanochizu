@@ -1,0 +1,16 @@
+{
+  "public_unique_count": 57,
+  "review_required_count": 5,
+  "by_region_counting_cross_region_records": {
+    "福岡市周辺": 16,
+    "北九州": 18,
+    "筑後": 20,
+    "筑豊": 5
+  },
+  "exact_duplicate_phrases": {},
+  "merge_notes": [
+    "～ちゃ: 北九州＋筑豊を1件へ統合",
+    "かてる/かってる/かてて: 同一動詞系列として1件へ統合",
+    "なおす・ねまる・はらかく等の筑後側重複は新規登録せず既存福岡市周辺項目の地域追加候補"
+  ]
+}

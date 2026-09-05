@@ -1,0 +1,46 @@
+[
+  {
+    "id": "jp-29-nara-001",
+    "slug": "nara-おとろしい",
+    "phrase": "おとろしい",
+    "reading": "おとろしい",
+    "standardJapanese": "恐ろしい",
+    "description": "「おとろしい」は、奈良県十津川村の方言資料で「おそろしい」に対応する形容詞として記録されています。同村の昔話では、身震いするほど怖かった出来事を振り返る場面に現れます。標準語との違いは主に語中の音で、感情の強さは前後の文脈によります。",
+    "exampleDialect": "まっこと、おとろしいことじゃったよ。",
+    "exampleStandard": "本当に、恐ろしいことだったよ。",
+    "prefectureCode": 29,
+    "prefectureName": "奈良県",
+    "regionName": "吉野",
+    "municipality": "十津川村",
+    "ageGroups": ["unknown"],
+    "usageContexts": ["日常会話"],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "十津川村公式アーカイブの方言集で語形と意味を確認。",
+    "sourceTitle": "十津川方言集「お」",
+    "sourceOrganization": "十津川村",
+    "sourceUrl": "https://www.vill.totsukawa.lg.jp/bridge/folklore/hougen/o/",
+    "sourceCheckedAt": "2026-09-01",
+    "evidenceScopes": ["phrase", "reading", "meaning", "region"],
+    "additionalSources": [
+      {
+        "type": "official_reference",
+        "title": "十津川郷の昔話（61）～（70）まで",
+        "organization": "十津川村",
+        "url": "https://www.vill.totsukawa.lg.jp/bridge/folklore/old-tale/old-tale61-70/",
+        "note": "話者・再話者を明記した昔話本文で、恐怖を振り返る文脈の短い用例を確認。",
+        "checkedAt": "2026-09-01",
+        "evidenceScopes": ["region", "example", "usage"]
+      }
+    ],
+    "confidence": "high",
+    "recordingYear": null,
+    "audioUrl": null,
+    "videoUrl": null,
+    "needsAudio": true,
+    "audioPriority": 2,
+    "languageVariety": "japanese_dialect"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "jp-15-niigata-001",
+    "slug": "niigata-なじらね",
+    "phrase": "なじらね",
+    "reading": "なじらね",
+    "standardJapanese": "いかがですか",
+    "description": "新潟県中越周辺で使用例が報告される表現。公開前に地域話者または参照資料による追加確認が必要です。",
+    "exampleDialect": "「なじらね」を使う会話例は確認・収集中です。",
+    "exampleStandard": "「いかがですか」に近い意味で使われる候補です。",
+    "prefectureCode": 15,
+    "prefectureName": "新潟県",
+    "regionName": "中越",
+    "municipality": null,
+    "ageGroups": ["unknown"],
+    "usageContexts": ["日常会話"],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "needs_review",
+    "sourceType": "source_pending",
+    "sourceNote": "全国初期整備候補。出典URLと地域内分布を人手で確認するまでneeds_review。",
+    "confidence": "low",
+    "recordingYear": null,
+    "audioUrl": null,
+    "videoUrl": null,
+    "needsAudio": true,
+    "audioPriority": 2,
+    "languageVariety": "japanese_dialect"
+  }
+]

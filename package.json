@@ -1,0 +1,53 @@
+{
+  "name": "kotoba-no-chizu",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/static-pages.mjs && node scripts/verify-build.mjs",
+    "build:static": "node scripts/static-pages.mjs",
+    "release:check": "node scripts/release-check.mjs",
+    "release:preview": "npm run lint && npm run test && npm run validate:data && npm run seo:audit && npm run seo:audit:meanings && npm run seo:audit:regions && npm run seo:audit:culture && npm run seo:audit:contexts && npm run build && npm run seo:site-audit && node scripts/preview-release-check.mjs",
+    "verify:build": "node scripts/verify-build.mjs",
+    "typecheck": "tsc -b --pretty false",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "validate:data": "node scripts/data-tools.mjs validate",
+    "data:stats": "node scripts/data-tools.mjs stats"
+    ,"seo:audit": "node scripts/seo-audit.mjs"
+    ,"seo:audit:meanings": "node scripts/meaning-audit.mjs"
+    ,"seo:audit:regions": "node scripts/region-guide-audit.mjs"
+    ,"seo:audit:culture": "node scripts/culture-guide-audit.mjs"
+    ,"seo:audit:contexts": "node scripts/context-guide-audit.mjs"
+    ,"seo:plan": "node scripts/content-plan.mjs"
+    ,"seo:check-candidates": "node scripts/check-candidates.mjs"
+    ,"seo:site-audit": "node scripts/seo-site-audit.mjs"
+    ,"audit:content-priority": "node scripts/dialect-content-priority.mjs"
+    ,"audit:editorial-integrity": "node scripts/editorial-integrity-audit.mjs"
+    ,"audit:regional-culture": "node scripts/regional-culture-audit.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "lucide-react": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "typescript-eslint": "latest",
+    "vitest": "latest",
+    "prettier": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-05",
+  "status": "PASSED",
+  "expectedRegions": 195,
+  "actualRegions": 195,
+  "expectedV2": 195,
+  "v2": 195,
+  "v1": 0,
+  "zeroWordRegions": 77,
+  "oneOrTwoWordRegions": 25,
+  "indexableRegionPages": 0,
+  "noindexRegionPages": 195,
+  "representativeLimit": 6,
+  "regionDataMutation": false,
+  "dialectDataMutation": false,
+  "configuredMode": "all",
+  "rollbackMode": "off",
+  "failures": []
+}

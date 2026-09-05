@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-02",
+  "recordCount": 57,
+  "exactPhraseDuplicates": {},
+  "normalizedPhraseCandidates": {},
+  "sameStandardJapaneseCandidates": {
+    "うるさい": [
+      "jp-44-oita-002",
+      "jp-44-oita-043"
+    ]
+  },
+  "manualMergeDecisions": [
+    {
+      "canonicalId": "jp-44-oita-005",
+      "canonicalPhrase": "ムゲネー",
+      "mergedOrRelatedForms": [
+        "ムゲネエ"
+      ],
+      "decision": "既存レコードに統合済み"
+    },
+    {
+      "canonicalId": "jp-44-oita-003",
+      "canonicalPhrase": "タマガル",
+      "mergedOrRelatedForms": [
+        "タマガン",
+        "タマグル",
+        "タマグン"
+      ],
+      "decision": "既存レコードに統合済み"
+    },
+    {
+      "canonicalId": "jp-44-oita-004",
+      "canonicalPhrase": "エーラシー",
+      "mergedOrRelatedForms": [
+        "エラシー"
+      ],
+      "decision": "既存レコードに統合済み"
+    },
+    {
+      "canonicalId": "jp-44-oita-011",
+      "canonicalPhrase": "トリコンブシ",
+      "mergedOrRelatedForms": [
+        "アシノグリグリ"
+      ],
+      "decision": "同一標準語項目の異形として関連語に統合済み"
+    },
+    {
+      "phrase": "～ちこ",
+      "decision": "review_requiredへ移動",
+      "reason": "地域企業記事のみでは公開根拠として弱いため、上位資料の確認待ち。"
+    }
+  ],
+  "note": "正規化一致・同義は自動削除せず、地域差・機能差を確認して人手判断する。"
+}
