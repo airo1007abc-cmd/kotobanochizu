@@ -1,32 +1,35 @@
 {
-  "generatedAt": "2026-09-05T12:29:37.501Z",
-  "total": 22,
-  "prefecturesCovered": 6,
-  "regionLinked": 11,
+  "generatedAt": "2026-09-05T12:33:38.133Z",
+  "total": 25,
+  "prefecturesCovered": 9,
+  "regionLinked": 13,
   "byPrefecture": {
+    "p12": 1,
+    "p14": 1,
     "p2": 2,
     "p22": 1,
+    "p27": 1,
     "p41": 3,
     "p42": 10,
     "p46": 3,
     "p47": 3
   },
   "byType": {
-    "archive": 5,
-    "audio": 4,
+    "archive": 6,
+    "audio": 5,
     "book": 4,
     "conversation": 5,
     "song": 2,
-    "video": 2
+    "video": 3
   },
   "byAccessType": {
-    "external_link": 22
+    "external_link": 25
   },
   "byRightsStatus": {
-    "official_link": 22
+    "official_link": 25
   },
   "byLanguageVariety": {
-    "japanese_dialect": 11,
+    "japanese_dialect": 14,
     "not_recorded": 6,
     "ryukyuan_language": 5
   },
@@ -72,16 +75,8 @@
       "prefecture": "埼玉県"
     },
     {
-      "prefectureId": "p12",
-      "prefecture": "千葉県"
-    },
-    {
       "prefectureId": "p13",
       "prefecture": "東京都"
-    },
-    {
-      "prefectureId": "p14",
-      "prefecture": "神奈川県"
     },
     {
       "prefectureId": "p15",
@@ -126,10 +121,6 @@
     {
       "prefectureId": "p26",
       "prefecture": "京都府"
-    },
-    {
-      "prefectureId": "p27",
-      "prefecture": "大阪府"
     },
     {
       "prefectureId": "p28",

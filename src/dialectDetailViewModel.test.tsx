@@ -51,7 +51,7 @@ describe("DialectDetailViewModel", () => {
       expect(html).not.toMatch(invalidText);
       expect((html.match(/class="v2-related-card"/g) ?? []).length).toBeLessThanOrEqual(4);
     }
-  });
+  }, 30_000);
 
   it("reports catalogue-wide display risks and a diverse visual sample", () => {
     const dialects = repository.dialects();

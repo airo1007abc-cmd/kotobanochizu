@@ -1,34 +1,37 @@
 {
-  "generatedAt": "2026-09-05T12:29:29.270Z",
+  "generatedAt": "2026-09-05T12:33:37.424Z",
   "status": "PASSED",
-  "registeredItems": 22,
-  "prefecturesCovered": 6,
-  "regionLinkedItems": 11,
-  "prefectureOnlyItems": 11,
+  "registeredItems": 25,
+  "prefecturesCovered": 9,
+  "regionLinkedItems": 13,
+  "prefectureOnlyItems": 12,
   "byPrefecture": {
+    "p12": 1,
+    "p14": 1,
     "p2": 2,
     "p22": 1,
+    "p27": 1,
     "p41": 3,
     "p42": 10,
     "p46": 3,
     "p47": 3
   },
   "byType": {
-    "archive": 5,
-    "audio": 4,
+    "archive": 6,
+    "audio": 5,
     "book": 4,
     "conversation": 5,
     "song": 2,
-    "video": 2
+    "video": 3
   },
   "byRightsStatus": {
-    "official_link": 22
+    "official_link": 25
   },
   "byAccessType": {
-    "external_link": 22
+    "external_link": 25
   },
   "byLanguageVariety": {
-    "japanese_dialect": 11,
+    "japanese_dialect": 14,
     "ryukyuan_language": 5,
     "undefined": 6
   },
@@ -53,8 +56,8 @@
   ],
   "liveLinkAudit": {
     "performed": true,
-    "checked": 21,
-    "reachable": 21,
+    "checked": 24,
+    "reachable": 24,
     "restrictedOrUnresolved": 0,
     "broken": 0,
     "results": [
@@ -203,6 +206,27 @@
         "status": 200,
         "ok": true,
         "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hama-kotoba.html",
+        "result": "reachable"
+      },
+      {
+        "url": "https://www.pref.chiba.lg.jp/kkbunka/b-shinkou/jigyou/minwa-cd.html",
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.pref.chiba.lg.jp/kkbunka/b-shinkou/jigyou/minwa-cd.html",
+        "result": "reachable"
+      },
+      {
+        "url": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/oshirase/yokohama-kamishibai.html",
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/oshirase/yokohama-kamishibai.html",
+        "result": "reachable"
+      },
+      {
+        "url": "https://www.city.higashiosaka.lg.jp/cmsfiles/contents/0000005/5718/050915.pdf",
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.city.higashiosaka.lg.jp/cmsfiles/contents/0000005/5718/050915.pdf",
         "result": "reachable"
       }
     ]

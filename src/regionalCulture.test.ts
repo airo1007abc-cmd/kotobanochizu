@@ -9,7 +9,7 @@ describe("regional culture archive", () => {
     const prefectureIds = new Set(repository.prefectures().map((item) => item.id));
     const regionIds = new Set(repository.regions().map((item) => item.id));
 
-    expect(items).toHaveLength(22);
+    expect(items).toHaveLength(25);
     expect(new Set(items.map((item) => item.id)).size).toBe(items.length);
     expect(
       items.every(
@@ -72,5 +72,12 @@ describe("regional culture archive", () => {
   it("keeps Aomori Nambu and Shimokita evidence on their exact regions", () => {
     expect(repository.cultureItems({ regionId: "r8" }).map((item) => item.id)).toContain("culture-aomori-nambu-postcard-archive");
     expect(repository.cultureItems({ regionId: "r9" }).map((item) => item.id)).toContain("culture-aomori-shimokita-mutsu-report");
+  });
+
+  it("links only sources with an exact current-region correspondence", () => {
+    expect(repository.cultureItems({ regionId: "jp-14-region-横浜・川崎" }).map((item) => item.id)).toContain("culture-kanagawa-yokohama-kamishibai");
+    expect(repository.cultureItems({ regionId: "r5" }).map((item) => item.id)).toContain("culture-osaka-kawachi-dialect-lecture");
+    expect(repository.cultureItems({ regionId: "jp-12-region-北西部" }).map((item) => item.id)).not.toContain("culture-chiba-folktale-audio");
+    expect(repository.cultureItems({ prefectureId: "p12" }).map((item) => item.id)).toContain("culture-chiba-folktale-audio");
   });
 });
