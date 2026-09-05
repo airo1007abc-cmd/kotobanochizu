@@ -1,16 +1,19 @@
 {
-  "generatedAt": "2026-09-05T12:42:07.564Z",
-  "total": 28,
-  "prefecturesCovered": 11,
-  "regionLinked": 16,
+  "generatedAt": "2026-09-05T12:49:00.373Z",
+  "total": 32,
+  "prefecturesCovered": 14,
+  "regionLinked": 21,
   "byPrefecture": {
+    "p10": 1,
+    "p11": 1,
     "p12": 1,
     "p13": 1,
     "p14": 1,
     "p15": 2,
     "p2": 2,
     "p22": 1,
-    "p27": 1,
+    "p25": 1,
+    "p27": 2,
     "p41": 3,
     "p42": 10,
     "p46": 3,
@@ -19,19 +22,19 @@
   "byType": {
     "archive": 6,
     "audio": 5,
-    "book": 5,
+    "book": 9,
     "conversation": 7,
     "song": 2,
     "video": 3
   },
   "byAccessType": {
-    "external_link": 28
+    "external_link": 32
   },
   "byRightsStatus": {
-    "official_link": 28
+    "official_link": 32
   },
   "byLanguageVariety": {
-    "japanese_dialect": 17,
+    "japanese_dialect": 21,
     "not_recorded": 6,
     "ryukyuan_language": 5
   },
@@ -69,14 +72,6 @@
       "prefecture": "栃木県"
     },
     {
-      "prefectureId": "p10",
-      "prefecture": "群馬県"
-    },
-    {
-      "prefectureId": "p11",
-      "prefecture": "埼玉県"
-    },
-    {
       "prefectureId": "p16",
       "prefecture": "富山県"
     },
@@ -107,10 +102,6 @@
     {
       "prefectureId": "p24",
       "prefecture": "三重県"
-    },
-    {
-      "prefectureId": "p25",
-      "prefecture": "滋賀県"
     },
     {
       "prefectureId": "p26",

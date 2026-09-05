@@ -9,7 +9,7 @@ describe("regional culture archive", () => {
     const prefectureIds = new Set(repository.prefectures().map((item) => item.id));
     const regionIds = new Set(repository.regions().map((item) => item.id));
 
-    expect(items).toHaveLength(28);
+    expect(items).toHaveLength(32);
     expect(new Set(items.map((item) => item.id)).size).toBe(items.length);
     expect(
       items.every(
@@ -77,12 +77,16 @@ describe("regional culture archive", () => {
   it("links only sources with an exact current-region correspondence", () => {
     expect(repository.cultureItems({ regionId: "jp-14-region-横浜・川崎" }).map((item) => item.id)).toContain("culture-kanagawa-yokohama-kamishibai");
     expect(repository.cultureItems({ regionId: "r5" }).map((item) => item.id)).toContain("culture-osaka-kawachi-dialect-lecture");
-    expect(repository.cultureItems({ regionId: "jp-12-region-北西部" }).map((item) => item.id)).not.toContain("culture-chiba-folktale-audio");
+    expect(repository.cultureItems({ regionId: "jp-12-region-北西部" }).map((item) => item.id)).toContain("culture-chiba-folktale-audio");
     expect(repository.cultureItems({ prefectureId: "p12" }).map((item) => item.id)).toContain("culture-chiba-folktale-audio");
     expect(repository.cultureItems({ regionId: "jp-15-region-中越" }).map((item) => item.id)).toEqual(expect.arrayContaining([
       "culture-niigata-chuetsu-dialect-record",
       "culture-niigata-mishima-folktales",
     ]));
     expect(repository.cultureItems({ regionId: "jp-13-region-多摩" }).map((item) => item.id)).toContain("culture-tokyo-tama-dialect-resource");
+    expect(repository.cultureItems({ regionId: "jp-25-region-湖東" }).map((item) => item.id)).toContain("culture-shiga-koto-grammar-research");
+    expect(repository.cultureItems({ regionId: "r6" }).map((item) => item.id)).toContain("culture-osaka-senshu-dialect-research");
+    expect(repository.cultureItems({ regionId: "jp-10-region-中毛" }).map((item) => item.id)).toContain("culture-gunma-chumo-folktale-bibliography");
+    expect(repository.cultureItems({ regionId: "jp-11-region-東部" }).map((item) => item.id)).toContain("culture-saitama-east-kasukabe-dialect-record");
   });
 });

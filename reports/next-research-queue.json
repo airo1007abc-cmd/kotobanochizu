@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T12:42:07.564Z",
+  "generatedAt": "2026-09-05T12:49:00.373Z",
   "total": 13,
   "byPriority": {
     "P1": 13
@@ -57,10 +57,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD",
-      "cultureEvidence": [],
-      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
+      "cultureEvidence": [
+        {
+          "id": "culture-gunma-chumo-folktale-bibliography",
+          "title": "中毛を含む上州の民話とわらべうた",
+          "sourceOrganization": "前橋市立図書館",
+          "sourceUrl": "https://www.tosyokan.city.maebashi.gunma.jp/licsxp-opac/WOpacTifTilDetailToKanRenDetailAction.do?kanrenflg=1&returnflg=&tilcodtmp=1009916538710"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -71,10 +78,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD",
-      "cultureEvidence": [],
-      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
+      "cultureEvidence": [
+        {
+          "id": "culture-saitama-east-kasukabe-dialect-record",
+          "title": "春日部周辺の話しことば・訛語・方言",
+          "sourceOrganization": "春日部市",
+          "sourceUrl": "https://www.city.kasukabe.lg.jp/material/files/group/66/06_regplan_ch04.pdf"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -85,10 +99,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD",
-      "cultureEvidence": [],
-      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
+      "cultureEvidence": [
+        {
+          "id": "culture-chiba-folktale-audio",
+          "title": "方言で語り継ぐ千葉の民話",
+          "sourceOrganization": "千葉県",
+          "sourceUrl": "https://www.pref.chiba.lg.jp/kkbunka/b-shinkou/jigyou/minwa-cd.html"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -168,10 +189,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD",
-      "cultureEvidence": [],
-      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
+      "cultureEvidence": [
+        {
+          "id": "culture-shiga-koto-grammar-research",
+          "title": "湖東方言の活用体系と地域差",
+          "sourceOrganization": "方言文法研究会",
+          "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2021_online/7_online-02.pdf"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -203,10 +231,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD",
-      "cultureEvidence": [],
-      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
+      "cultureEvidence": [
+        {
+          "id": "culture-osaka-senshu-dialect-research",
+          "title": "泉州方言の区画と泉南の特徴",
+          "sourceOrganization": "桃山学院大学エクステンション・センター",
+          "sourceUrl": "https://www.andrew.ac.jp/extension-center/society_auditor/extension_college/2022.html"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "dialect",
