@@ -19,6 +19,7 @@ const walk = async (dir) => {
 const files = await walk(dist);
 const htmlFiles = files.filter((file) => file.endsWith("index.html"));
 const failures = [];
+const siteOrigin = process.env.SITE_URL?.replace(/\/$/, "");
 if (htmlFiles.length < 300)
   failures.push(`static route entries: ${htmlFiles.length}/300以上`);
 
@@ -34,6 +35,10 @@ for (const file of htmlFiles) {
     failures.push(`${label}: SEO公開判定なし`);
   if (!html.includes('"@type":"BreadcrumbList"'))
     failures.push(`${label}: BreadcrumbListなし`);
+  if (siteOrigin && !html.includes(`<meta property="og:url" content="${siteOrigin}`))
+    failures.push(`${label}: production og:urlなし`);
+  if (siteOrigin && !html.includes(`<link rel="canonical" href="${siteOrigin}`))
+    failures.push(`${label}: production canonicalなし`);
 }
 
 const required = [

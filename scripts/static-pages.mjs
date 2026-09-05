@@ -496,8 +496,12 @@ const render = (route, title, description) => {
   const canonical = siteOrigin
     ? `    <link rel="canonical" href="${escapeAttribute(`${siteOrigin}${route}`)}" />\n`
     : "";
+  const ogUrl = siteOrigin
+    ? `    <meta property="og:url" content="${escapeAttribute(`${siteOrigin}${route}`)}" />\n`
+    : "";
   let html = template
     .replace(/\s*<link\s+rel="canonical"\s+href="[^"]*"\s*\/>/g, "")
+    .replace(/\s*<meta\s+property="og:url"\s+content="[^"]*"\s*\/>/g, "")
     .replace(/<title>.*?<\/title>/, `<title>${escapeAttribute(title)}</title>`)
     .replace(
       /<meta\s+name="description"\s+content="[^"]*"\s*\/>/s,
@@ -511,7 +515,7 @@ const render = (route, title, description) => {
       /<meta\s+property="og:description"\s+content="[^"]*"\s*\/>/s,
       `<meta property="og:description" content="${escapeAttribute(description)}" />`,
     )
-    .replace("    <title>", `${canonical}    <title>`)
+    .replace("    <title>", `${canonical}${ogUrl}    <title>`)
     .replace(
       "    <title>",
       `    <meta name="robots" content="${indexable ? "index,follow" : "noindex,follow"}" />\n    <script type="application/ld+json">${breadcrumbJson(route, title)}</script>\n    <title>`,
