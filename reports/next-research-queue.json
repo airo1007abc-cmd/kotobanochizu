@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T12:33:38.133Z",
+  "generatedAt": "2026-09-05T12:42:07.564Z",
   "total": 13,
   "byPriority": {
     "P1": 13
@@ -15,8 +15,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
-      "decision": "HOLD"
+      "action": "claim_mapping_review",
+      "decision": "HOLD",
+      "cultureEvidence": [
+        {
+          "id": "culture-aomori-nambu-postcard-archive",
+          "title": "南部ことばを記した方言絵はがき",
+          "sourceOrganization": "青森県史デジタルアーカイブス",
+          "sourceUrl": "https://kenshi-archives.pref.aomori.lg.jp/il/meta_pub/G0000004pic_07988-07"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -27,8 +36,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
-      "decision": "HOLD"
+      "action": "claim_mapping_review",
+      "decision": "HOLD",
+      "cultureEvidence": [
+        {
+          "id": "culture-aomori-shimokita-mutsu-report",
+          "title": "青森県むつ方言の調査報告",
+          "sourceOrganization": "国立国語研究所",
+          "sourceUrl": "https://repository.ninjal.ac.jp/record/3008/files/Research_Report_on_Mutsu.pdf"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -40,7 +58,9 @@
         "source_missing"
       ],
       "action": "public_source_research",
-      "decision": "HOLD"
+      "decision": "HOLD",
+      "cultureEvidence": [],
+      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
     },
     {
       "entityType": "region",
@@ -52,7 +72,9 @@
         "source_missing"
       ],
       "action": "public_source_research",
-      "decision": "HOLD"
+      "decision": "HOLD",
+      "cultureEvidence": [],
+      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
     },
     {
       "entityType": "region",
@@ -64,7 +86,9 @@
         "source_missing"
       ],
       "action": "public_source_research",
-      "decision": "HOLD"
+      "decision": "HOLD",
+      "cultureEvidence": [],
+      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
     },
     {
       "entityType": "region",
@@ -75,8 +99,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
-      "decision": "HOLD"
+      "action": "claim_mapping_review",
+      "decision": "HOLD",
+      "cultureEvidence": [
+        {
+          "id": "culture-tokyo-tama-dialect-resource",
+          "title": "多摩の在来方言を地域資源として見る",
+          "sourceOrganization": "国立国語研究所",
+          "sourceUrl": "https://repository.ninjal.ac.jp/records/2750"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -87,8 +120,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
-      "decision": "HOLD"
+      "action": "claim_mapping_review",
+      "decision": "HOLD",
+      "cultureEvidence": [
+        {
+          "id": "culture-kanagawa-yokohama-kamishibai",
+          "title": "横浜の民話を演じる地域紙芝居",
+          "sourceOrganization": "横浜市教育委員会・横浜市立図書館",
+          "sourceUrl": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/oshirase/yokohama-kamishibai.html"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -99,8 +141,23 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
-      "decision": "HOLD"
+      "action": "claim_mapping_review",
+      "decision": "HOLD",
+      "cultureEvidence": [
+        {
+          "id": "culture-niigata-chuetsu-dialect-record",
+          "title": "中越方言の談話と調査記録",
+          "sourceOrganization": "国立国語研究所",
+          "sourceUrl": "https://repository.ninjal.ac.jp/record/2288/files/kksrc_010-03.pdf"
+        },
+        {
+          "id": "culture-niigata-mishima-folktales",
+          "title": "三島地域の民話を未来へつなぐ",
+          "sourceOrganization": "長岡市",
+          "sourceUrl": "https://www.city.nagaoka.niigata.jp/shisei/cate08/minyou/syoukai.html"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -112,7 +169,9 @@
         "source_missing"
       ],
       "action": "public_source_research",
-      "decision": "HOLD"
+      "decision": "HOLD",
+      "cultureEvidence": [],
+      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
     },
     {
       "entityType": "region",
@@ -123,8 +182,17 @@
       "issues": [
         "source_missing"
       ],
-      "action": "public_source_research",
-      "decision": "HOLD"
+      "action": "claim_mapping_review",
+      "decision": "HOLD",
+      "cultureEvidence": [
+        {
+          "id": "culture-osaka-kawachi-dialect-lecture",
+          "title": "河内弁を記録する地域講座",
+          "sourceOrganization": "東大阪市",
+          "sourceUrl": "https://www.city.higashiosaka.lg.jp/cmsfiles/contents/0000005/5718/050915.pdf"
+        }
+      ],
+      "holdReason": "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない"
     },
     {
       "entityType": "region",
@@ -136,7 +204,9 @@
         "source_missing"
       ],
       "action": "public_source_research",
-      "decision": "HOLD"
+      "decision": "HOLD",
+      "cultureEvidence": [],
+      "holdReason": "現行地域へ安全に対応付けられる公的方言資料の探索が必要"
     },
     {
       "entityType": "dialect",

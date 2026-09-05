@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-09-05T12:33:37.424Z",
+  "generatedAt": "2026-09-05T12:41:45.996Z",
   "status": "PASSED",
-  "registeredItems": 25,
-  "prefecturesCovered": 9,
-  "regionLinkedItems": 13,
+  "registeredItems": 28,
+  "prefecturesCovered": 11,
+  "regionLinkedItems": 16,
   "prefectureOnlyItems": 12,
   "byPrefecture": {
     "p12": 1,
+    "p13": 1,
     "p14": 1,
+    "p15": 2,
     "p2": 2,
     "p22": 1,
     "p27": 1,
@@ -19,19 +21,19 @@
   "byType": {
     "archive": 6,
     "audio": 5,
-    "book": 4,
-    "conversation": 5,
+    "book": 5,
+    "conversation": 7,
     "song": 2,
     "video": 3
   },
   "byRightsStatus": {
-    "official_link": 25
+    "official_link": 28
   },
   "byAccessType": {
-    "external_link": 25
+    "external_link": 28
   },
   "byLanguageVariety": {
-    "japanese_dialect": 14,
+    "japanese_dialect": 17,
     "ryukyuan_language": 5,
     "undefined": 6
   },
@@ -56,8 +58,8 @@
   ],
   "liveLinkAudit": {
     "performed": true,
-    "checked": 24,
-    "reachable": 24,
+    "checked": 27,
+    "reachable": 27,
     "restrictedOrUnresolved": 0,
     "broken": 0,
     "results": [
@@ -227,6 +229,27 @@
         "status": 200,
         "ok": true,
         "finalUrl": "https://www.city.higashiosaka.lg.jp/cmsfiles/contents/0000005/5718/050915.pdf",
+        "result": "reachable"
+      },
+      {
+        "url": "https://repository.ninjal.ac.jp/record/2288/files/kksrc_010-03.pdf",
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://repository.ninjal.ac.jp/record/2288/files/kksrc_010-03.pdf",
+        "result": "reachable"
+      },
+      {
+        "url": "https://www.city.nagaoka.niigata.jp/shisei/cate08/minyou/syoukai.html",
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.city.nagaoka.niigata.jp/shisei/cate08/minyou/syoukai.html",
+        "result": "reachable"
+      },
+      {
+        "url": "https://repository.ninjal.ac.jp/records/2750",
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://repository.ninjal.ac.jp/records/2750",
         "result": "reachable"
       }
     ]

@@ -1,11 +1,13 @@
 {
-  "generatedAt": "2026-09-05T12:33:38.133Z",
-  "total": 25,
-  "prefecturesCovered": 9,
-  "regionLinked": 13,
+  "generatedAt": "2026-09-05T12:42:07.564Z",
+  "total": 28,
+  "prefecturesCovered": 11,
+  "regionLinked": 16,
   "byPrefecture": {
     "p12": 1,
+    "p13": 1,
     "p14": 1,
+    "p15": 2,
     "p2": 2,
     "p22": 1,
     "p27": 1,
@@ -17,19 +19,19 @@
   "byType": {
     "archive": 6,
     "audio": 5,
-    "book": 4,
-    "conversation": 5,
+    "book": 5,
+    "conversation": 7,
     "song": 2,
     "video": 3
   },
   "byAccessType": {
-    "external_link": 25
+    "external_link": 28
   },
   "byRightsStatus": {
-    "official_link": 25
+    "official_link": 28
   },
   "byLanguageVariety": {
-    "japanese_dialect": 14,
+    "japanese_dialect": 17,
     "not_recorded": 6,
     "ryukyuan_language": 5
   },
@@ -73,14 +75,6 @@
     {
       "prefectureId": "p11",
       "prefecture": "埼玉県"
-    },
-    {
-      "prefectureId": "p13",
-      "prefecture": "東京都"
-    },
-    {
-      "prefectureId": "p15",
-      "prefecture": "新潟県"
     },
     {
       "prefectureId": "p16",

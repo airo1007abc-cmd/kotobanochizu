@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T12:33:38.133Z",
+  "generatedAt": "2026-09-05T12:42:07.564Z",
   "total": 88,
   "byPriority": {
     "P1": 11,
@@ -13,6 +13,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -24,6 +25,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -35,6 +37,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -46,8 +49,16 @@
       "dialectCount": 2,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [
+        {
+          "id": "culture-aomori-nambu-postcard-archive",
+          "title": "南部ことばを記した方言絵はがき",
+          "sourceOrganization": "青森県史デジタルアーカイブス",
+          "sourceUrl": "https://kenshi-archives.pref.aomori.lg.jp/il/meta_pub/G0000004pic_07988-07"
+        }
+      ],
       "priority": "P1",
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD_until_evidence"
     },
     {
@@ -57,8 +68,16 @@
       "dialectCount": 1,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [
+        {
+          "id": "culture-aomori-shimokita-mutsu-report",
+          "title": "青森県むつ方言の調査報告",
+          "sourceOrganization": "国立国語研究所",
+          "sourceUrl": "https://repository.ninjal.ac.jp/record/3008/files/Research_Report_on_Mutsu.pdf"
+        }
+      ],
       "priority": "P1",
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD_until_evidence"
     },
     {
@@ -68,6 +87,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -79,6 +99,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -90,6 +111,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -101,6 +123,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -112,6 +135,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -123,6 +147,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -134,6 +159,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -145,6 +171,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -156,6 +183,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -167,6 +195,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -178,6 +207,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -189,6 +219,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -200,6 +231,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -211,6 +243,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -222,6 +255,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -233,6 +267,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -244,6 +279,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -255,6 +291,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -266,6 +303,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -277,6 +315,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -288,6 +327,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -299,6 +339,7 @@
       "dialectCount": 1,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P1",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -310,6 +351,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -321,6 +363,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -332,6 +375,7 @@
       "dialectCount": 1,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P1",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -343,6 +387,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -354,6 +399,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -365,6 +411,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -376,6 +423,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -387,6 +435,7 @@
       "dialectCount": 1,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P1",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -398,6 +447,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -409,6 +459,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -420,6 +471,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -431,6 +483,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -442,8 +495,16 @@
       "dialectCount": 1,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [
+        {
+          "id": "culture-tokyo-tama-dialect-resource",
+          "title": "多摩の在来方言を地域資源として見る",
+          "sourceOrganization": "国立国語研究所",
+          "sourceUrl": "https://repository.ninjal.ac.jp/records/2750"
+        }
+      ],
       "priority": "P1",
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD_until_evidence"
     },
     {
@@ -453,6 +514,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -464,8 +526,16 @@
       "dialectCount": 1,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [
+        {
+          "id": "culture-kanagawa-yokohama-kamishibai",
+          "title": "横浜の民話を演じる地域紙芝居",
+          "sourceOrganization": "横浜市教育委員会・横浜市立図書館",
+          "sourceUrl": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/library/oshirase/yokohama-kamishibai.html"
+        }
+      ],
       "priority": "P1",
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD_until_evidence"
     },
     {
@@ -475,6 +545,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -486,6 +557,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -497,6 +569,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -508,6 +581,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -519,8 +593,22 @@
       "dialectCount": 1,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [
+        {
+          "id": "culture-niigata-chuetsu-dialect-record",
+          "title": "中越方言の談話と調査記録",
+          "sourceOrganization": "国立国語研究所",
+          "sourceUrl": "https://repository.ninjal.ac.jp/record/2288/files/kksrc_010-03.pdf"
+        },
+        {
+          "id": "culture-niigata-mishima-folktales",
+          "title": "三島地域の民話を未来へつなぐ",
+          "sourceOrganization": "長岡市",
+          "sourceUrl": "https://www.city.nagaoka.niigata.jp/shisei/cate08/minyou/syoukai.html"
+        }
+      ],
       "priority": "P1",
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD_until_evidence"
     },
     {
@@ -530,6 +618,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -541,6 +630,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -552,6 +642,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -563,6 +654,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -574,6 +666,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -585,6 +678,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -596,6 +690,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -607,6 +702,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -618,6 +714,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -629,6 +726,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -640,6 +738,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -651,6 +750,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -662,6 +762,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -673,6 +774,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -684,6 +786,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -695,6 +798,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -706,6 +810,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -717,6 +822,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -728,6 +834,7 @@
       "dialectCount": 1,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P1",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -739,6 +846,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -750,6 +858,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -761,6 +870,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -772,6 +882,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -783,6 +894,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -794,6 +906,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -805,8 +918,16 @@
       "dialectCount": 2,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [
+        {
+          "id": "culture-osaka-kawachi-dialect-lecture",
+          "title": "河内弁を記録する地域講座",
+          "sourceOrganization": "東大阪市",
+          "sourceUrl": "https://www.city.higashiosaka.lg.jp/cmsfiles/contents/0000005/5718/050915.pdf"
+        }
+      ],
       "priority": "P1",
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD_until_evidence"
     },
     {
@@ -816,6 +937,7 @@
       "dialectCount": 1,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P1",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -827,6 +949,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -838,6 +961,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -849,6 +973,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -860,6 +985,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -871,6 +997,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -882,6 +1009,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -893,6 +1021,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -904,6 +1033,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -915,6 +1045,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -926,6 +1057,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -937,6 +1069,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -948,6 +1081,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"
@@ -959,8 +1093,22 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [
+        {
+          "id": "culture-amami-shimauta",
+          "title": "歌い継ぐ奄美の島唄",
+          "sourceOrganization": "鹿児島県",
+          "sourceUrl": "https://www.pref.kagoshima.jp/ab10/kyoiku-bunka/bunka/shinko/h25amamishimauta.html"
+        },
+        {
+          "id": "culture-amami-language-text",
+          "title": "島唄から学ぶ奄美のことば",
+          "sourceOrganization": "鹿児島県",
+          "sourceUrl": "https://www.pref.kagoshima.jp/ab10/kyoiku-bunka/bunka/shinko/simautatext.html"
+        }
+      ],
       "priority": "P2",
-      "action": "public_source_research",
+      "action": "claim_mapping_review",
       "decision": "HOLD_until_evidence"
     },
     {
@@ -970,6 +1118,7 @@
       "dialectCount": 0,
       "sourceCount": 0,
       "sourceCoverage": 0,
+      "cultureEvidence": [],
       "priority": "P2",
       "action": "public_source_research",
       "decision": "HOLD_until_evidence"

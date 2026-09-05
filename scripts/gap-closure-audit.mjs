@@ -81,7 +81,17 @@ const zeroRegions = regionBaseline.regions.filter((item) => item.dialectCount ==
 const informationPoor = navigation.informationPoorRegions.map((region) => {
   const sourceCoverage = region.dialectCount ? region.sourceCount / region.dialectCount : 0;
   const priority = region.dialectCount === 0 ? "P2" : region.sourceCount === 0 ? "P1" : "P2";
-  return { ...region, sourceCoverage: Number(sourceCoverage.toFixed(4)), priority, action: region.sourceCount === 0 ? "public_source_research" : "editorial_depth_review", decision: "HOLD_until_evidence" };
+  const cultureEvidence = culture.filter((item) => item.regionId === region.id).map((item) => ({ id: item.id, title: item.title, sourceOrganization: item.sourceOrganization, sourceUrl: item.sourceUrl }));
+  return {
+    ...region,
+    sourceCoverage: Number(sourceCoverage.toFixed(4)),
+    cultureEvidence,
+    priority,
+    action: region.sourceCount === 0
+      ? cultureEvidence.length > 0 ? "claim_mapping_review" : "public_source_research"
+      : "editorial_depth_review",
+    decision: "HOLD_until_evidence",
+  };
 });
 
 const issues = dialectAudit.issues ?? [];
@@ -108,7 +118,7 @@ const dialectQueueItem = (item, priority) => {
 const researchQueue = [
   ...priorityRecords.filter((item) => item.priority === "P0").map((item) => dialectQueueItem(item, "P0")),
   ...zeroRegions.filter((item) => item.priority === "P1").map((item) => ({ entityType: "region", id: item.regionId, label: item.region, prefecture: item.prefecture, priority: item.priority, issues: [item.classification], action: item.action, decision: "HOLD" })),
-  ...informationPoor.filter((item) => item.priority === "P1").map((item) => ({ entityType: "region", id: item.id, label: item.region, prefecture: item.prefecture, priority: "P1", issues: [item.sourceCount === 0 ? "source_missing" : "information_poor"], action: item.action, decision: "HOLD" })),
+  ...informationPoor.filter((item) => item.priority === "P1").map((item) => ({ entityType: "region", id: item.id, label: item.region, prefecture: item.prefecture, priority: "P1", issues: [item.sourceCount === 0 ? "source_missing" : "information_poor"], action: item.action, decision: "HOLD", cultureEvidence: item.cultureEvidence, holdReason: item.cultureEvidence.length > 0 ? "地域に対応する公的文化資料は確認済みだが、個別方言claimへの対応は未確認。語形・意味・採録地点を照合するまで出典へ転用しない" : "現行地域へ安全に対応付けられる公的方言資料の探索が必要" })),
   ...priorityRecords.filter((item) => item.priority === "P1").map((item) => dialectQueueItem(item, "P1")),
 ];
 
