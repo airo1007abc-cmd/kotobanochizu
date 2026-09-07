@@ -1,3 +1,4 @@
+import { isIndexableRecord } from "../src/evidencePolicy.mjs";
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
@@ -6,12 +7,7 @@ const dialectFiles = (await readdir(join(root, "src/data/dialects"))).filter((fi
 const dialects = (await Promise.all(dialectFiles.map(async (file) => JSON.parse(await readFile(join(root, "src/data/dialects", file), "utf8"))))).flat();
 const comparisons = JSON.parse(await readFile(join(root, "src/data/meaning-comparisons.json"), "utf8"));
 const dialectById = new Map(dialects.map((item) => [item.id, item]));
-const confirmed = new Set(["verified", "reference_confirmed", "community_confirmed"]);
-const requiredScopes = ["phrase", "reading", "meaning", "region", "example", "usage"];
-const isGrounded = (item) => {
-  const scopes = new Set([...(item?.evidenceScopes ?? []), ...(item?.additionalSources ?? []).flatMap((source) => source.evidenceScopes ?? [])]);
-  return Boolean(item && confirmed.has(item.verificationStatus) && item.sourceTitle && item.sourceUrl && item.sourceCheckedAt && item.description?.length >= 100 && item.description.length <= 160 && item.exampleDialect && item.exampleStandard && requiredScopes.every((scope) => scopes.has(scope)));
-};
+const isGrounded = isIndexableRecord;
 const duplicateValues = (field) => {
   const groups = new Map();
   for (const item of comparisons) {

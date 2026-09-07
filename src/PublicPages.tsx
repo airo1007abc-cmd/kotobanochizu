@@ -93,11 +93,12 @@ export function EditorialPolicy() {
         </ol>
         <h2>現在地について</h2>
         <p>
-          現在の収録内容は体験設計を検証するデモおよび確認待ち候補です。確認済み件数が0件であることも含め、現状を公開しています。件数のために出典や話者を作ることはありません。
+          現在{repository.dialects().length}語を収録し、{reviewed}語に参照・地域確認の状態を記録しています。確認済みの項目は各語の出典欄で示します。読み・例文・世代差など未確認の情報を補完せず、県や閲覧地域の全域へ使用範囲を広げません。
         </p>
         <div className="notice">
           誤り、地域差、表現への懸念を見つけた場合の訂正・削除窓口は、本番運営者情報の確定後に常設します。
         </div>
+        <details className="archive-links"><summary>旧デモ使用例について</summary><p>初期の画面検証に使った記録です。根拠資料として扱わず、検索エンジンの対象外にしています。</p><ul>{repository.archivedDialects().filter(d=>!['d1','d2'].includes(d.id)).map(d=><li key={d.id}><Link to={`/dialects/${d.id}`}>{d.phrase} — {d.standardJapanese}（確認前デモ）</Link></li>)}</ul></details>
       </div>
     </section>
   );

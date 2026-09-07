@@ -1,3 +1,4 @@
+import { isIndexableRecord } from "../src/evidencePolicy.mjs";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
@@ -5,14 +6,7 @@ const root = process.cwd();
 const dialectDir = join(root, "src/data/dialects");
 const files = (await readdir(dialectDir)).filter((file) => file.endsWith(".json"));
 const dialects = (await Promise.all(files.map(async (file) => JSON.parse(await readFile(join(dialectDir, file), "utf8"))))).flat();
-const confirmed = new Set(["verified", "reference_confirmed", "community_confirmed"]);
-const classify = (item) => {
-  const scopes = new Set([...(item.evidenceScopes ?? []), ...(item.additionalSources ?? []).flatMap((source) => source.evidenceScopes ?? [])]);
-  const grounded = confirmed.has(item.verificationStatus) && item.sourceTitle?.trim() && item.sourceUrl?.trim() && item.sourceCheckedAt?.trim() && ["phrase", "reading", "meaning", "region", "example", "usage"].every((scope) => scopes.has(scope));
-  if (grounded && item.description?.trim().length >= 100 && item.description.trim().length <= 160 && item.exampleDialect?.trim() && item.exampleStandard?.trim()) return "indexable";
-  if (item.phrase?.trim() && item.standardJapanese?.trim() && item.description?.trim()) return "review_required";
-  return "noindex";
-};
+const classify = item => isIndexableRecord(item) ? 'indexable' : item.phrase?.trim() && item.standardJapanese?.trim() && item.description?.trim() ? 'review_required' : 'noindex';
 const normalized = (value) => value.normalize("NFKC").toLowerCase().replace(/[\s、。！？・]/g, "");
 const duplicateGroups = (field) => {
   const groups = new Map();

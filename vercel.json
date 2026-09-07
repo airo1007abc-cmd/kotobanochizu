@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/dialects/d1",
+      "destination": "/dialects/jp-40-fukuoka-011",
+      "permanent": true
+    },
+    {
+      "source": "/dialects/d2",
+      "destination": "/dialects/jp-40-fukuoka-016",
+      "permanent": true
+    }
+  ]
+}

@@ -1,5 +1,7 @@
+import { NotFound } from "./NotFound";
+import { Breadcrumbs } from "./Breadcrumbs";
 import { ArrowRight, BookOpen, MapPin } from "lucide-react";
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import guideData from "./data/region-guides.json";
 import { repository } from "./repository";
 
@@ -29,7 +31,7 @@ const confirmedStatuses = new Set(["verified", "reference_confirmed", "community
 export function RegionGuide() {
   const { slug } = useParams();
   const guide = guides.find((item) => item.slug === slug);
-  if (!guide) return <Navigate to="/prefectures" replace />;
+  if (!guide) return <NotFound />;
   const prefectureId = repository
     .prefectures()
     .find((item) => item.name === guide.prefectureName)?.id;
@@ -47,11 +49,7 @@ export function RegionGuide() {
 
   return (
     <article className="region-guide-page">
-      <nav className="breadcrumbs" aria-label="パンくず">
-        <Link to="/">ホーム</Link><span>/</span>
-        <Link to="/prefectures">地域から探す</Link><span>/</span>
-        <span>{guide.regionLabel}</span>
-      </nav>
+      <Breadcrumbs />
       <header className="page-head region-guide-head">
         <span className="eyebrow">REGIONAL LANGUAGE ARCHIVE</span>
         <h1>{guide.title.replace(/｜.+$/, "")}</h1>

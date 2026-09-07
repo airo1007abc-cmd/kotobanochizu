@@ -1,8 +1,9 @@
+import { Breadcrumbs } from "./Breadcrumbs";
+import { ArchiveLinks } from "./ArchiveLinks";
 import {
   ArrowRight,
   BookOpen,
   CheckCircle2,
-  Home,
   MapPin,
   Search,
   Send,
@@ -18,20 +19,7 @@ export function RegionDetailV2({ vm }: { vm: RegionDetailViewModel }) {
       className="region-v2"
       data-region-detail-version={import.meta.env.DEV ? "v2" : undefined}
     >
-      <nav className="prefecture-v2-breadcrumb" aria-label="パンくず">
-        <Link to="/">
-          <Home />
-          ホーム
-        </Link>
-        <span>/</span>
-        <Link to="/prefectures">地域を探す</Link>
-        <span>/</span>
-        <Link to={`/prefectures/${vm.prefecture.id}`}>
-          {vm.prefecture.name}
-        </Link>
-        <span>/</span>
-        <span>{vm.name}</span>
-      </nav>
+      <Breadcrumbs />
       <header className="region-v2-hero">
         <div>
           <span className="eyebrow">
@@ -70,7 +58,7 @@ export function RegionDetailV2({ vm }: { vm: RegionDetailViewModel }) {
             {vm.prefecture.name}に属する「{vm.name}」
           </p>
           <small>
-            地域境界の正確なpolygonデータがないため、県の位置のみ表示しています。
+            この地図は県の位置を示します。閲覧地域や方言の境界は示していません。
           </small>
         </aside>
       </header>
@@ -159,6 +147,7 @@ export function RegionDetailV2({ vm }: { vm: RegionDetailViewModel }) {
         </section>
       )}
 
+      <ArchiveLinks prefectureId={vm.prefecture.id} regionId={vm.id} />
       <RegionalCultureSection
         title={`${vm.name}のことばと文化`}
         items={vm.cultureItems}

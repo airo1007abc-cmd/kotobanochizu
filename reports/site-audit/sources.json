@@ -1,0 +1,1928 @@
+{
+  "generatedAt": "2026-09-07T23:42:07.939Z",
+  "scope": "URL availability and repository evidence metadata; not a re-verification of every linguistic claim",
+  "records": 1628,
+  "missingSource": [
+    "jp-12-chiba-001",
+    "jp-38-ehime-001",
+    "jp-21-gifu-001",
+    "jp-10-gunma-001",
+    "jp-17-ishikawa-001",
+    "jp-14-kanagawa-001",
+    "jp-15-niigata-001",
+    "jp-11-saitama-001",
+    "jp-25-shiga-001",
+    "jp-22-shizuoka-001",
+    "jp-13-tokyo-001",
+    "jp-19-yamanashi-001"
+  ],
+  "missingReading": 620,
+  "missingExample": 800,
+  "unknownLanguage": [
+    "jp-33-okayama-055",
+    "jp-33-okayama-056",
+    "jp-33-okayama-057",
+    "jp-33-okayama-058",
+    "jp-33-okayama-059",
+    "jp-33-okayama-060",
+    "jp-33-okayama-061",
+    "jp-33-okayama-062",
+    "jp-33-okayama-063",
+    "jp-33-okayama-064",
+    "jp-33-okayama-065",
+    "jp-33-okayama-066",
+    "jp-33-okayama-067",
+    "jp-33-okayama-068",
+    "jp-33-okayama-069",
+    "jp-33-okayama-070",
+    "jp-33-okayama-071"
+  ],
+  "sourceUrls": 320,
+  "success": 307,
+  "reviewRequired": [
+    {
+      "url": "https://kochike-fish.pref.kochi.lg.jp/news/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%BF%E3%81%AA%E3%81%BF%E4%B8%B8%E3%80%80%E6%A3%AE%E5%85%89%E7%A4%BE%E9%95%B7/",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf"
+    },
+    {
+      "url": "https://dictionary.goo.ne.jp/leaf/dialect/2928/m0u/",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf"
+    },
+    {
+      "url": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf"
+    },
+    {
+      "url": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf"
+    },
+    {
+      "url": "https://saseboechan.com/2020/05/04/sasebobenrecapep202005/",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://saseboechan.com/2020/05/15/sasebobenrecapep202005-2/",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www2.pref.okinawa.jp/oki/Gikairep1.nsf/481e05e7edaca1db49256f540004c033/424a296377bce4ab4925719200247dae?Click=&OpenDocument=",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf"
+    },
+    {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji0031915/3_1915_2059_up_s83vsuhq.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.yatsushiro.lg.jp/dynamic/_error/error404.aspx"
+    },
+    {
+      "url": "https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf"
+    },
+    {
+      "url": "https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf"
+    }
+  ],
+  "duplicateReassessment": [
+    {
+      "ids": [
+        "jp-38-ehime-047",
+        "jp-38-ehime-048"
+      ],
+      "decision": "KEEP_SEPARATE_HOLD_MERGE",
+      "reason": "既存の記録地点・話者・資料注記に差がある。表記・意味・閲覧区分の一致だけでは同一記録と認定しない。",
+      "records": [
+        {
+          "id": "jp-38-ehime-047",
+          "municipality": "今治市",
+          "description": "「誰」は「誰」を表す語として、今治市・伯方島を対象とする資料「芸予諸島方言アクセントデータベース「名詞・第3世代」」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、今治市・伯方島の「誰」を「誰」とする「芸予諸島方言アクセントデータベース「名詞・第3世代」」の記録範囲に限定して紹介します。",
+          "sourceNote": "資料分類: 芸予諸島方言アクセントデータベース。話者 U・M氏（2000f）。当該語の型は「1」。凡例では〈式〉を有しない場合、数字は〈下げ核〉の位置を示し、0は無核。凡例URL: https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/01.pdf 掲載箇所: 名詞・第3世代 PDF p.2（「誰」「どこ」行）。 語彙そのものの地域限定性ではなく、地点間のアクセント差を示すレコード。原表記の型番号を保持。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/meishi3.pdf"
+        },
+        {
+          "id": "jp-38-ehime-048",
+          "municipality": "今治市",
+          "description": "「誰」は「誰」を表す語として、今治市・大三島（旧大三島町）を対象とする資料「芸予諸島方言アクセントデータベース「名詞・第3世代」」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、今治市・大三島（旧大三島町）の「誰」を「誰」とする「芸予諸島方言アクセントデータベース「名詞・第3世代」」の記録範囲に限定して紹介します。",
+          "sourceNote": "資料分類: 芸予諸島方言アクセントデータベース。話者 K・M氏（1991f）。当該語の型は「0」。凡例では〈式〉を有しない場合、数字は〈下げ核〉の位置を示し、0は無核。凡例URL: https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/01.pdf 掲載箇所: 名詞・第3世代 PDF p.2（「誰」「どこ」行）。 語彙そのものの地域限定性ではなく、地点間のアクセント差を示すレコード。原表記の型番号を保持。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/meishi3.pdf"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "jp-38-ehime-049",
+        "jp-38-ehime-050"
+      ],
+      "decision": "KEEP_SEPARATE_HOLD_MERGE",
+      "reason": "既存の記録地点・話者・資料注記に差がある。表記・意味・閲覧区分の一致だけでは同一記録と認定しない。",
+      "records": [
+        {
+          "id": "jp-38-ehime-049",
+          "municipality": "今治市",
+          "description": "「どこ」は「どこ」を表す語として、今治市・伯方島を対象とする資料「芸予諸島方言アクセントデータベース「名詞・第3世代」」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、今治市・伯方島の「どこ」を「どこ」とする「芸予諸島方言アクセントデータベース「名詞・第3世代」」の記録範囲に限定して紹介します。",
+          "sourceNote": "資料分類: 芸予諸島方言アクセントデータベース。話者 U・M氏（2000f）。当該語の型は「1」。凡例では〈式〉を有しない場合、数字は〈下げ核〉の位置を示し、0は無核。凡例URL: https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/01.pdf 掲載箇所: 名詞・第3世代 PDF p.2（「誰」「どこ」行）。 語彙そのものの地域限定性ではなく、地点間のアクセント差を示すレコード。原表記の型番号を保持。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/meishi3.pdf"
+        },
+        {
+          "id": "jp-38-ehime-050",
+          "municipality": "今治市",
+          "description": "「どこ」は「どこ」を表す語として、今治市・大三島（旧大三島町）を対象とする資料「芸予諸島方言アクセントデータベース「名詞・第3世代」」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、今治市・大三島（旧大三島町）の「どこ」を「どこ」とする「芸予諸島方言アクセントデータベース「名詞・第3世代」」の記録範囲に限定して紹介します。",
+          "sourceNote": "資料分類: 芸予諸島方言アクセントデータベース。話者 K・M氏（1991f）。当該語の型は「0」。凡例では〈式〉を有しない場合、数字は〈下げ核〉の位置を示し、0は無核。凡例URL: https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/01.pdf 掲載箇所: 名詞・第3世代 PDF p.2（「誰」「どこ」行）。 語彙そのものの地域限定性ではなく、地点間のアクセント差を示すレコード。原表記の型番号を保持。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/meishi3.pdf"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "jp-38-ehime-051",
+        "jp-38-ehime-052"
+      ],
+      "decision": "KEEP_SEPARATE_HOLD_MERGE",
+      "reason": "既存の記録地点・話者・資料注記に差がある。表記・意味・閲覧区分の一致だけでは同一記録と認定しない。",
+      "records": [
+        {
+          "id": "jp-38-ehime-051",
+          "municipality": "宇和島市",
+          "description": "「朝が」は「朝が」を表す語として、宇和島市・九島・百の浦を対象とする資料「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、宇和島市・九島・百の浦の「朝が」を「朝が」とする「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」の記録範囲に限定して紹介します。",
+          "sourceNote": "清水誠治(2006)が金田一春彦(1974)の代表例を再掲・比較。当該地点の原表記は「HHL」。同論文の記号定義では H=高、L=低、F=拍内下降（H→L）。金田一資料の話者生年は不明。 掲載箇所: p.47（先行研究比較の語例表）。 清水(2006)の再掲表で確認。公開表示で音声・アクセントを固定的に説明する場合は、金田一(1974)原典照合も推奨。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja"
+        },
+        {
+          "id": "jp-38-ehime-052",
+          "municipality": "宇和島市",
+          "description": "「朝が」は「朝が」を表す語として、宇和島市・九島・本九島を対象とする資料「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、宇和島市・九島・本九島の「朝が」を「朝が」とする「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」の記録範囲に限定して紹介します。",
+          "sourceNote": "清水誠治(2006)が金田一春彦(1974)の代表例を再掲・比較。当該地点の原表記は「LHL」。同論文の記号定義では H=高、L=低、F=拍内下降（H→L）。金田一資料の話者生年は不明。 掲載箇所: p.47（先行研究比較の語例表）。 清水(2006)の再掲表で確認。公開表示で音声・アクセントを固定的に説明する場合は、金田一(1974)原典照合も推奨。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "jp-38-ehime-053",
+        "jp-38-ehime-054"
+      ],
+      "decision": "KEEP_SEPARATE_HOLD_MERGE",
+      "reason": "既存の記録地点・話者・資料注記に差がある。表記・意味・閲覧区分の一致だけでは同一記録と認定しない。",
+      "records": [
+        {
+          "id": "jp-38-ehime-053",
+          "municipality": "宇和島市",
+          "description": "「烏」は「烏」を表す語として、宇和島市・九島・百の浦を対象とする資料「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、宇和島市・九島・百の浦の「烏」を「烏」とする「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」の記録範囲に限定して紹介します。",
+          "sourceNote": "清水誠治(2006)が金田一春彦(1974)の代表例を再掲・比較。当該地点の原表記は「HHL」。同論文の記号定義では H=高、L=低、F=拍内下降（H→L）。金田一資料の話者生年は不明。 掲載箇所: p.47（先行研究比較の語例表）。 清水(2006)の再掲表で確認。公開表示で音声・アクセントを固定的に説明する場合は、金田一(1974)原典照合も推奨。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja"
+        },
+        {
+          "id": "jp-38-ehime-054",
+          "municipality": "宇和島市",
+          "description": "「烏」は「烏」を表す語として、宇和島市・九島・本九島を対象とする資料「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、宇和島市・九島・本九島の「烏」を「烏」とする「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」の記録範囲に限定して紹介します。",
+          "sourceNote": "清水誠治(2006)が金田一春彦(1974)の代表例を再掲・比較。当該地点の原表記は「LHL」。同論文の記号定義では H=高、L=低、F=拍内下降（H→L）。金田一資料の話者生年は不明。 掲載箇所: p.47（先行研究比較の語例表）。 清水(2006)の再掲表で確認。公開表示で音声・アクセントを固定的に説明する場合は、金田一(1974)原典照合も推奨。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "jp-38-ehime-055",
+        "jp-38-ehime-056"
+      ],
+      "decision": "KEEP_SEPARATE_HOLD_MERGE",
+      "reason": "既存の記録地点・話者・資料注記に差がある。表記・意味・閲覧区分の一致だけでは同一記録と認定しない。",
+      "records": [
+        {
+          "id": "jp-38-ehime-055",
+          "municipality": "宇和島市",
+          "description": "「牛が」は「牛が」を表す語として、宇和島市・九島・百の浦を対象とする資料「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、宇和島市・九島・百の浦の「牛が」を「牛が」とする「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」の記録範囲に限定して紹介します。",
+          "sourceNote": "清水誠治(2006)が金田一春彦(1974)の代表例を再掲・比較。当該地点の原表記は「LHH」。同論文の記号定義では H=高、L=低、F=拍内下降（H→L）。金田一資料の話者生年は不明。 掲載箇所: p.47（先行研究比較の語例表）。 清水(2006)の再掲表で確認。公開表示で音声・アクセントを固定的に説明する場合は、金田一(1974)原典照合も推奨。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja"
+        },
+        {
+          "id": "jp-38-ehime-056",
+          "municipality": "宇和島市",
+          "description": "「牛が」は「牛が」を表す語として、宇和島市・九島・本九島を対象とする資料「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、宇和島市・九島・本九島の「牛が」を「牛が」とする「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」の記録範囲に限定して紹介します。",
+          "sourceNote": "清水誠治(2006)が金田一春彦(1974)の代表例を再掲・比較。当該地点の原表記は「LLH」。同論文の記号定義では H=高、L=低、F=拍内下降（H→L）。金田一資料の話者生年は不明。 掲載箇所: p.47（先行研究比較の語例表）。 清水(2006)の再掲表で確認。公開表示で音声・アクセントを固定的に説明する場合は、金田一(1974)原典照合も推奨。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "jp-38-ehime-057",
+        "jp-38-ehime-058"
+      ],
+      "decision": "KEEP_SEPARATE_HOLD_MERGE",
+      "reason": "既存の記録地点・話者・資料注記に差がある。表記・意味・閲覧区分の一致だけでは同一記録と認定しない。",
+      "records": [
+        {
+          "id": "jp-38-ehime-057",
+          "municipality": "宇和島市",
+          "description": "「桜」は「桜」を表す語として、宇和島市・九島・百の浦を対象とする資料「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、宇和島市・九島・百の浦の「桜」を「桜」とする「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」の記録範囲に限定して紹介します。",
+          "sourceNote": "清水誠治(2006)が金田一春彦(1974)の代表例を再掲・比較。当該地点の原表記は「LHH」。同論文の記号定義では H=高、L=低、F=拍内下降（H→L）。金田一資料の話者生年は不明。 掲載箇所: p.47（先行研究比較の語例表）。 清水(2006)の再掲表で確認。公開表示で音声・アクセントを固定的に説明する場合は、金田一(1974)原典照合も推奨。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja"
+        },
+        {
+          "id": "jp-38-ehime-058",
+          "municipality": "宇和島市",
+          "description": "「桜」は「桜」を表す語として、宇和島市・九島・本九島を対象とする資料「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、宇和島市・九島・本九島の「桜」を「桜」とする「清水誠治「宇和島市九島方言アクセントについて―調査報告内容のズレの理由と、変遷についての再考―」『日本語の研究』2巻2号」の記録範囲に限定して紹介します。",
+          "sourceNote": "清水誠治(2006)が金田一春彦(1974)の代表例を再掲・比較。当該地点の原表記は「LLH」。同論文の記号定義では H=高、L=低、F=拍内下降（H→L）。金田一資料の話者生年は不明。 掲載箇所: p.47（先行研究比較の語例表）。 清水(2006)の再掲表で確認。公開表示で音声・アクセントを固定的に説明する場合は、金田一(1974)原典照合も推奨。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "jp-39-kochi-086",
+        "jp-39-kochi-088"
+      ],
+      "decision": "KEEP_SEPARATE_HOLD_MERGE",
+      "reason": "既存の記録地点・話者・資料注記に差がある。表記・意味・閲覧区分の一致だけでは同一記録と認定しない。",
+      "records": [
+        {
+          "id": "jp-39-kochi-086",
+          "municipality": "梼原町",
+          "description": "「サル」は「可能を表す助動詞（～できる）」を表す語として、梼原町を対象とする資料「消滅に瀕した高知県限界集落方言の緊急調査研究」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、梼原町の「サル」を「可能を表す助動詞（～できる）」とする「消滅に瀕した高知県限界集落方言の緊急調査研究」の記録範囲に限定して紹介します。",
+          "sourceNote": "研究成果「高知県梼原町方言の可能表現—中村市方言との比較—」で可能助動詞「サル」を扱う。 掲載箇所: 研究概要・研究成果。 研究概要から形式・機能・地点を確認。細かな活用条件や自然会話例は原論文で再確認が望ましい。 原資料の地域表記: 嶺北など山間部（資料上：梼原町方言）。サイト上は「嶺北など山間部」に整理。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://cir.nii.ac.jp/crid/1040282256732146944"
+        },
+        {
+          "id": "jp-39-kochi-088",
+          "municipality": "香美市",
+          "description": "「サル」は「可能を表す助動詞（～できる）」を表す語として、香美市・旧香美郡物部村市宇月谷を対象とする資料「高知県物部村市宇月谷方言における可能助動詞「サル」に関する覚え書」に掲載されています。語形・意味・地域を確認し、自然な会話用例は追加調査中です。 本項では、香美市・旧香美郡物部村市宇月谷の「サル」を「可能を表す助動詞（～できる）」とする「高知県物部村市宇月谷方言における可能助動詞「サル」に関する覚え書」の記録範囲に限定して紹介します。",
+          "sourceNote": "橋尾直和（2002）。調査地点を物部村市宇月谷とする。旧物部村は2006年3月1日に土佐山田町・香北町と合併して香美市となった。 掲載箇所: 第1巻第1号 研究ノート。 原資料の地域表記: 嶺北など山間部（資料上：物部村市宇月谷方言）。サイト上は「嶺北など山間部」に整理。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www.ryuikiken.org/pub/src/src0101.pdf"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "jp-32-shimane-049",
+        "jp-32-shimane-050"
+      ],
+      "decision": "KEEP_SEPARATE_HOLD_MERGE",
+      "reason": "既存の記録地点・話者・資料注記に差がある。表記・意味・閲覧区分の一致だけでは同一記録と認定しない。",
+      "records": [
+        {
+          "id": "jp-32-shimane-049",
+          "municipality": "隠岐の島町",
+          "description": "資料上、隠岐諸島で「チンカモ」は「友達」の意味・用法として確認される。 本項では、隠岐の島町・五箇の「チンカモ」を「友達」とする「「日本の危機言語・方言の記録とドキュメンテーションの作成」隠岐の島方言調査報告書」の記録範囲に限定して紹介します。",
+          "sourceNote": "五箇回答に「『チンカモ』は『友達』の意」と注記。 掲載箇所: 文法調査例文 No.73、印刷ページ92付近。 五箇の調査回答として登録。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www2.ninjal.ac.jp/past-projects/endangered/Research%20Report%20on%20Okinoshima%20Dialect.pdf"
+        },
+        {
+          "id": "jp-32-shimane-050",
+          "municipality": "隠岐の島町",
+          "description": "資料上、隠岐諸島で「チンカモ」は「友達」の意味・用法として確認される。 本項では、隠岐の島町・都万の「チンカモ」を「友達」とする「「日本の危機言語・方言の記録とドキュメンテーションの作成」隠岐の島方言調査報告書」の記録範囲に限定して紹介します。",
+          "sourceNote": "都万回答に「※チンカモは大人のみ」と明記。 掲載箇所: 文法調査例文 No.73、印刷ページ92付近。 資料の「大人のみ」という年齢注記を保持。具体的年代は不明。 候補資料の言語区分: japanese_dialect。",
+          "sourceUrl": "https://www2.ninjal.ac.jp/past-projects/endangered/Research%20Report%20on%20Okinoshima%20Dialect.pdf"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "url": "https://hagilib.city.hagi.lg.jp/hagilib-archive/image/863.pdf",
+      "status": 200,
+      "finalUrl": "https://hagilib.city.hagi.lg.jp/hagilib-archive/image/863.pdf"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/3046/files/kk_hgrs_010.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/3046/files/kk_hgrs_010.pdf"
+    },
+    {
+      "url": "https://www.town.kota.lg.jp/uploaded/attachment/13567.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.kota.lg.jp/uploaded/attachment/13567.pdf"
+    },
+    {
+      "url": "https://www.town.kota.lg.jp/uploaded/attachment/1925.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.kota.lg.jp/uploaded/attachment/1925.pdf"
+    },
+    {
+      "url": "https://www.town.kota.lg.jp/uploaded/attachment/2414.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.kota.lg.jp/uploaded/attachment/2414.pdf"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/3042/files/kk_hgrs_006.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/3042/files/kk_hgrs_006.pdf"
+    },
+    {
+      "url": "https://www.city.futtsu.lg.jp/0000000795.html",
+      "status": 200,
+      "finalUrl": "https://www.city.futtsu.lg.jp/0000000795.html"
+    },
+    {
+      "url": "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/54/view/7258",
+      "status": 200,
+      "finalUrl": "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/54/view/7258"
+    },
+    {
+      "url": "https://www.city.saijo.ehime.jp/site/mizunorekishikan/lineup12-1.html",
+      "status": 200,
+      "finalUrl": "https://www.city.saijo.ehime.jp/site/mizunorekishikan/lineup12-1.html"
+    },
+    {
+      "url": "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/54/view/7259",
+      "status": 200,
+      "finalUrl": "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/54/view/7259"
+    },
+    {
+      "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/shi/teiregi.html",
+      "status": 200,
+      "finalUrl": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/rekishibunka/bunkazai/shi/teiregi.html"
+    },
+    {
+      "url": "https://i-manabi.jp/system/regionals/regionals/ecode:3/60/view/14496",
+      "status": 200,
+      "finalUrl": "https://i-manabi.jp/system/regionals/regionals/ecode:3/60/view/14496"
+    },
+    {
+      "url": "https://www.i-manabi.jp/system/regionals/regionals/ecode:3/58/view/13693",
+      "status": 200,
+      "finalUrl": "https://www.i-manabi.jp/system/regionals/regionals/ecode:3/58/view/13693"
+    },
+    {
+      "url": "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/54/view/7257",
+      "status": 200,
+      "finalUrl": "https://www.i-manabi.jp/system/regionals/regionals/ecode:2/54/view/7257"
+    },
+    {
+      "url": "https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/meishi3.pdf",
+      "status": 200,
+      "finalUrl": "https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/meishi3.pdf"
+    },
+    {
+      "url": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja",
+      "status": 200,
+      "finalUrl": "https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja"
+    },
+    {
+      "url": "https://www.city.fukui.lg.jp/kankou/kankou/jouhou/p018481.html",
+      "status": 200,
+      "finalUrl": "https://www.city.fukui.lg.jp/kankou/kankou/jouhou/p018481.html"
+    },
+    {
+      "url": "https://hakatanomiryoku.com/mame/4375",
+      "status": 200,
+      "finalUrl": "https://hakatanomiryoku.com/mame/4375"
+    },
+    {
+      "url": "https://www.city.fukuoka.lg.jp/minamiku/k-shinko/shisei/gaikokujintochikijuminnokoryujigyo/documents/tabunkakyosei_guidebook.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.fukuoka.lg.jp/minamiku/k-shinko/shisei/gaikokujintochikijuminnokoryujigyo/documents/tabunkakyosei_guidebook.pdf"
+    },
+    {
+      "url": "https://ypir.lib.yamaguchi-u.ac.jp/bg/1096",
+      "status": 200,
+      "finalUrl": "https://ypir.lib.yamaguchi-u.ac.jp/bg/1096"
+    },
+    {
+      "url": "https://catalog.lib.kyushu-u.ac.jp/opac_download_md/4493115/026_p065.pdf",
+      "status": 200,
+      "method": "GET",
+      "finalUrl": "https://catalog.lib.kyushu-u.ac.jp/opac_download_md/4493115/026_p065.pdf"
+    },
+    {
+      "url": "https://bibdb.ninjal.ac.jp/bunken/ja/article/100000181499",
+      "status": 200,
+      "finalUrl": "https://bibdb.ninjal.ac.jp/bunken/ja/article/100000181499"
+    },
+    {
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf"
+    },
+    {
+      "url": "https://mmsrv.ninjal.ac.jp/hogenrokuon_siryo/",
+      "status": 200,
+      "finalUrl": "https://mmsrv.ninjal.ac.jp/hogenrokuon_siryo/"
+    },
+    {
+      "url": "https://www.pref.hiroshima.lg.jp/soshiki/19/1178070843217.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.hiroshima.lg.jp/soshiki/19/1178070843217.html"
+    },
+    {
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/012/320/116425.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/012/320/116425.pdf"
+    },
+    {
+      "url": "https://www.ls-japan.org/modules/documents/LSJpapers/meeting/159/handouts/ws4/W-4-1_159.pdf",
+      "status": 200,
+      "finalUrl": "https://www.ls-japan.org/modules/documents/LSJpapers/meeting/159/handouts/ws4/W-4-1_159.pdf"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/2271/files/kksrc_013-15.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/2271/files/kksrc_013-15.pdf"
+    },
+    {
+      "url": "https://www2.sal.tohoku.ac.jp/ling/TSL34/TSL34all.pdf",
+      "status": 200,
+      "finalUrl": "https://www2.sal.tohoku.ac.jp/ling/TSL34/TSL34all.pdf"
+    },
+    {
+      "url": "https://hiroshima.repo.nii.ac.jp/record/2033764/files/AN10364361_5_21.pdf",
+      "status": 200,
+      "method": "GET",
+      "finalUrl": "https://nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com/contents/hiroshima_repo_nii_ac_jp/97/f5/e938-7b62-4ffc-aaf9-9c91d4a26080/data"
+    },
+    {
+      "url": "https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/239682.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/239682.pdf"
+    },
+    {
+      "url": "https://hougen.sakura.ne.jp/shuppan/2017/3-13.pdf",
+      "status": 200,
+      "finalUrl": "https://hougen.sakura.ne.jp/shuppan/2017/3-13.pdf"
+    },
+    {
+      "url": "https://www.city.nishiwaki.lg.jp/material/files/group/61/tennyusarerukatahenogoannnai.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.nishiwaki.lg.jp/material/files/group/61/tennyusarerukatahenogoannnai.pdf"
+    },
+    {
+      "url": "https://web.pref.hyogo.lg.jp/nhk02/documents/dai4kaikisoubukaigijiroku.pdf",
+      "status": 200,
+      "finalUrl": "https://web.pref.hyogo.lg.jp/nhk02/documents/dai4kaikisoubukaigijiroku.pdf"
+    },
+    {
+      "url": "https://www.city.kasama.lg.jp/kouhou.php?category=1&code=787&mode=detail",
+      "status": 200,
+      "finalUrl": "https://www.city.kasama.lg.jp/kouhou.php?category=1&code=787&mode=detail"
+    },
+    {
+      "url": "https://www.city.suzu.lg.jp/site/kankou/1800.html",
+      "status": 200,
+      "finalUrl": "https://www.city.suzu.lg.jp/site/kankou/1800.html"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/3045/files/kk_hgrs_009.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/3045/files/kk_hgrs_009.pdf"
+    },
+    {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/2/4927.html",
+      "status": 200,
+      "finalUrl": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/2/4927.html"
+    },
+    {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/2/4923.html",
+      "status": 200,
+      "finalUrl": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/2/4923.html"
+    },
+    {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/2/4925.html",
+      "status": 200,
+      "finalUrl": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/2/4925.html"
+    },
+    {
+      "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/2/4924.html",
+      "status": 200,
+      "finalUrl": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/3/2/4924.html"
+    },
+    {
+      "url": "https://www.pref.akita.lg.jp/uploads/public/archive_0000007537_00/h24umifesuta.pdf",
+      "status": 200,
+      "finalUrl": "https://www.pref.akita.lg.jp/uploads/public/archive_0000007537_00/h24umifesuta.pdf"
+    },
+    {
+      "url": "https://www.city.sakaide.lg.jp/uploaded/attachment/20634.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.sakaide.lg.jp/uploaded/attachment/20634.pdf"
+    },
+    {
+      "url": "https://www.library.pref.kagawa.lg.jp/know/local/local_8001",
+      "status": 200,
+      "finalUrl": "https://www.library.pref.kagawa.lg.jp/know/local/local_8001"
+    },
+    {
+      "url": "https://www.pref.kagawa.lg.jp/documents/14715/76_77.pdf",
+      "status": 200,
+      "finalUrl": "https://www.pref.kagawa.lg.jp/documents/14715/76_77.pdf"
+    },
+    {
+      "url": "https://www.city.sakaide.lg.jp/uploaded/attachment/10219.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.sakaide.lg.jp/uploaded/attachment/10219.pdf"
+    },
+    {
+      "url": "https://www.tufs.ac.jp/ts/personal/kazama/shigen/7/Shiraishi.pdf",
+      "status": 200,
+      "finalUrl": "https://www.tufs.ac.jp/ts/personal/kazama/shigen/7/Shiraishi.pdf"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/2272/files/kksrc_013-16.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/2272/files/kksrc_013-16.pdf"
+    },
+    {
+      "url": "https://kagawa-u.repo.nii.ac.jp/record/2149/files/AN00038237_151_L047.pdf",
+      "status": 200,
+      "method": "GET",
+      "finalUrl": "https://nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com/contents/kagawa_u_repo_nii_ac_jp/7a/3a/ba01-bdfd-4c8a-9fc9-28326c51a53f/data"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/3043/files/kk_hgrs_007.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/3043/files/kk_hgrs_007.pdf"
+    },
+    {
+      "url": "https://www.city.akune.lg.jp/soshikikarasagasu/somuka/hishokohogakari/4/1063.html",
+      "status": 200,
+      "finalUrl": "https://www.city.akune.lg.jp/soshikikarasagasu/somuka/hishokohogakari/4/1063.html"
+    },
+    {
+      "url": "https://www.city.satsumasendai.lg.jp/ijuteiju/shinchaku_ichiran/12064.html",
+      "status": 200,
+      "finalUrl": "https://www.city.satsumasendai.lg.jp/ijuteiju/shinchaku_ichiran/12064.html"
+    },
+    {
+      "url": "https://hiroshima.repo.nii.ac.jp/records/2025281",
+      "status": 200,
+      "method": "HEAD",
+      "finalUrl": "https://hiroshima.repo.nii.ac.jp/records/2025281"
+    },
+    {
+      "url": "https://www.city.kanoya.lg.jp/iju/oyakudachi/support.html",
+      "status": 200,
+      "finalUrl": "https://www.city.kanoya.lg.jp/iju/oyakudachi/support.html"
+    },
+    {
+      "url": "https://www.city.kagoshima.lg.jp/soumu/shichoshitu/kouhou/hougen.html",
+      "status": 200,
+      "finalUrl": "https://www.city.kagoshima.lg.jp/soumu/shichoshitu/kouhou/hougen.html"
+    },
+    {
+      "url": "https://www.city.minamikyushu.lg.jp/sport_bunka_kyoiku/rekishi_bunkazai/2/1/9517.html",
+      "status": 200,
+      "finalUrl": "https://www.city.minamikyushu.lg.jp/sport_bunka_kyoiku/rekishi_bunkazai/2/1/9517.html"
+    },
+    {
+      "url": "https://odjl.net/jisho.html",
+      "status": 200,
+      "finalUrl": "https://odjl.net/jisho.html"
+    },
+    {
+      "url": "https://www.city.kanoya.lg.jp/kankou/bunka/kanko/omiyage/kitada-sarugga.html",
+      "status": 200,
+      "finalUrl": "https://www.city.kanoya.lg.jp/kankou/bunka/kanko/omiyage/kitada-sarugga.html"
+    },
+    {
+      "url": "https://www.city.tarumizu.lg.jp/chiiki/kurashi/machi/chikisinkou/oono.html",
+      "status": 200,
+      "finalUrl": "https://www.city.tarumizu.lg.jp/chiiki/kurashi/machi/chikisinkou/oono.html"
+    },
+    {
+      "url": "https://www.city.tarumizu.lg.jp/nosei/koi/miryoku/miwaku/nochikusan/satsumaimo.html",
+      "status": 200,
+      "finalUrl": "https://www.city.tarumizu.lg.jp/nosei/koi/miryoku/miwaku/nochikusan/satsumaimo.html"
+    },
+    {
+      "url": "https://www.city.soo.kagoshima.jp/gyousei/kihunituite/files/ka.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.soo.kagoshima.jp/gyousei/kihunituite/files/ka.pdf"
+    },
+    {
+      "url": "https://www.city.shibushi.lg.jp/uploaded/attachment/15369.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.shibushi.lg.jp/uploaded/attachment/15369.pdf"
+    },
+    {
+      "url": "https://ir.library.osaka-u.ac.jp/repo/ouka/all/73641/sln16-084.pdf",
+      "status": 200,
+      "finalUrl": "https://ir.library.osaka-u.ac.jp/repo/ouka/all/73641/sln16-084.pdf"
+    },
+    {
+      "url": "https://www.chikyu.ac.jp/People_Nature/pdf/project_kubozono001.pdf",
+      "status": 200,
+      "finalUrl": "https://www.chikyu.ac.jp/People_Nature/pdf/project_kubozono001.pdf"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=15030&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=15030&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=14662&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=14662&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=15155&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=15155&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=14534&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=14534&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=15099&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=15099&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=14397&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=14397&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=14422&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=14422&lang=ja"
+    },
+    {
+      "url": "https://www2.ninjal.ac.jp/past-projects/j-int/wp-jint/wp-content/uploads/2016/03/%E6%A3%AE%E5%85%88%E7%94%9F_%E6%9C%80%E7%B5%82%E7%A8%BF1.28.pdf",
+      "status": 200,
+      "finalUrl": "https://www2.ninjal.ac.jp/past-projects/j-int/wp-jint/wp-content/uploads/2016/03/%E6%A3%AE%E5%85%88%E7%94%9F_%E6%9C%80%E7%B5%82%E7%A8%BF1.28.pdf"
+    },
+    {
+      "url": "https://www.city.nishinoomote.lg.jp/material/files/group/87/tiikikeikaku.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.nishinoomote.lg.jp/material/files/group/87/tiikikeikaku.pdf"
+    },
+    {
+      "url": "https://www.city.nishinoomote.lg.jp/material/files/group/91/koukusihougen.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.nishinoomote.lg.jp/material/files/group/91/koukusihougen.pdf"
+    },
+    {
+      "url": "https://kochike-fish.pref.kochi.lg.jp/news/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%BF%E3%81%AA%E3%81%BF%E4%B8%B8%E3%80%80%E6%A3%AE%E5%85%89%E7%A4%BE%E9%95%B7/",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.kochi-u.ac.jp/kms/ff_famed/pdf/tosaben.pdf",
+      "status": 200,
+      "finalUrl": "https://www.kochi-u.ac.jp/kms/ff_famed/pdf/tosaben.pdf"
+    },
+    {
+      "url": "https://u-kochi.repo.nii.ac.jp/record/2152/files/07-%E4%BA%BA%E6%96%87%E3%83%BB%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E7%B7%A8-073-086.pdf",
+      "status": 200,
+      "method": "GET",
+      "finalUrl": "https://nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com/contents/u_kochi_repo_nii_ac_jp/78/07/8228-b799-4b12-bf56-e687a543fffb/data"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/files/original/c95d9aca5ac2aac366f17eff845d0bb870397244.pdf",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/files/original/c95d9aca5ac2aac366f17eff845d0bb870397244.pdf"
+    },
+    {
+      "url": "https://www.bunka.go.jp/tokei_hakusho_shuppan/hakusho_nenjihokokusho/archive/pdf/93882201_03.pdf",
+      "status": 200,
+      "finalUrl": "https://www.bunka.go.jp/tokei_hakusho_shuppan/hakusho_nenjihokokusho/archive/pdf/93882201_03.pdf"
+    },
+    {
+      "url": "https://inakagurashi.kochi.jp/muroto",
+      "status": 200,
+      "finalUrl": "https://inakagurashi.kochi.jp/muroto"
+    },
+    {
+      "url": "https://ir.library.osaka-u.ac.jp/repo/ouka/all/103859/gb_124-125_A077.pdf",
+      "status": 200,
+      "finalUrl": "https://ir.library.osaka-u.ac.jp/repo/ouka/all/103859/gb_124-125_A077.pdf"
+    },
+    {
+      "url": "https://www.city.tosashimizu.kochi.jp/iju/news/12835.html",
+      "status": 200,
+      "finalUrl": "https://www.city.tosashimizu.kochi.jp/iju/news/12835.html"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/3044/files/kk_hgrs_008.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/3044/files/kk_hgrs_008.pdf"
+    },
+    {
+      "url": "https://www.kochi-u.ac.jp/about/public-relations/tanneru-radio/",
+      "status": 200,
+      "finalUrl": "https://www.kochi-u.ac.jp/about/public-relations/tanneru-radio/"
+    },
+    {
+      "url": "https://www.town.nakatosa.lg.jp/life/detail.php?hdnKey=1708",
+      "status": 200,
+      "finalUrl": "https://www.town.nakatosa.lg.jp/life/detail.php?hdnKey=1708"
+    },
+    {
+      "url": "https://www.town.nakatosa.lg.jp/download/?fid=16188&id=1624&t=LD",
+      "status": 200,
+      "finalUrl": "https://www.town.nakatosa.lg.jp/download/?fid=16188&id=1624&t=LD"
+    },
+    {
+      "url": "https://www.city.susaki.lg.jp/download/?fid=28975&id=180&t=LD",
+      "status": 200,
+      "finalUrl": "https://www.city.susaki.lg.jp/download/?fid=28975&id=180&t=LD"
+    },
+    {
+      "url": "https://www.town.ochi.kochi.jp/storage/files/soumu/kouhou/2023/202308.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.ochi.kochi.jp/storage/files/soumu/kouhou/2023/202308.pdf"
+    },
+    {
+      "url": "https://www.town.shimanto.lg.jp/tanikanjo/",
+      "status": 200,
+      "finalUrl": "https://www.town.shimanto.lg.jp/tanikanjo/"
+    },
+    {
+      "url": "https://www.town.shimanto.lg.jp/download/?fid=24084&id=65&t=KHN",
+      "status": 200,
+      "finalUrl": "https://www.town.shimanto.lg.jp/download/?fid=24084&id=65&t=KHN"
+    },
+    {
+      "url": "https://cir.nii.ac.jp/crid/1040282256732146944",
+      "status": 202,
+      "finalUrl": "https://cir.nii.ac.jp/crid/1040282256732146944"
+    },
+    {
+      "url": "https://www.ryuikiken.org/pub/src/src0101.pdf",
+      "status": 200,
+      "finalUrl": "https://www.ryuikiken.org/pub/src/src0101.pdf"
+    },
+    {
+      "url": "https://www.city.kumamoto.jp/chuo/kiji00323740/5_23740_166195_up_VOQTRDC5.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.kumamoto.jp/chuo/kiji00323740/5_23740_166195_up_VOQTRDC5.pdf"
+    },
+    {
+      "url": "https://www.city.kumamoto.jp/sicho/kiji00351353/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.kumamoto.jp/sicho/kiji00351353/index.html"
+    },
+    {
+      "url": "https://www.city.tamana.lg.jp/q/aview/177/18289.html",
+      "status": 200,
+      "finalUrl": "https://www.city.tamana.lg.jp/q/aview/177/18289.html"
+    },
+    {
+      "url": "https://www.fukujo.ac.jp/university/kumamoto_project/a62",
+      "status": 200,
+      "finalUrl": "https://www.fukujo.ac.jp/university/kumamoto_project/a62"
+    },
+    {
+      "url": "https://minamiasoijyuu.jp/minamiaso-word/",
+      "status": 200,
+      "finalUrl": "https://minamiasoijyuu.jp/minamiaso-word/"
+    },
+    {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00323584/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yatsushiro.lg.jp/kiji00323584/index.html"
+    },
+    {
+      "url": "https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf"
+    },
+    {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00317271/3_17271_81462_up_c265tto4.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.yatsushiro.lg.jp/kiji00317271/3_17271_81462_up_c265tto4.pdf"
+    },
+    {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji00321294/3_21294_115112_up_qrge0ua0.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.yatsushiro.lg.jp/kiji00321294/3_21294_115112_up_qrge0ua0.pdf"
+    },
+    {
+      "url": "https://mmsrv.ninjal.ac.jp/hogendanwa_db/list06/index.html",
+      "status": 200,
+      "finalUrl": "https://mmsrv.ninjal.ac.jp/hogendanwa_db/list06/index.html"
+    },
+    {
+      "url": "https://hougen.amakusa-web.jp/MyHp/Pub/Free.aspx?CNo=3",
+      "status": 200,
+      "finalUrl": "https://hougen.amakusa-web.jp/MyHp/Pub/Free.aspx?CNo=3"
+    },
+    {
+      "url": "https://www.pref.kyoto.jp/shoshi/news/documents/28fureainet.pdf",
+      "status": 200,
+      "finalUrl": "https://www.pref.kyoto.jp/shoshi/news/documents/28fureainet.pdf"
+    },
+    {
+      "url": "https://wakutobi.city.kyoto.lg.jp/kentei/answer/kiso23/a03_6.html",
+      "status": 200,
+      "finalUrl": "https://wakutobi.city.kyoto.lg.jp/kentei/answer/kiso23/a03_6.html"
+    },
+    {
+      "url": "https://www.pref.mie.lg.jp/common/content/001217528.pdf",
+      "status": 200,
+      "finalUrl": "https://www.pref.mie.lg.jp/common/content/001217528.pdf"
+    },
+    {
+      "url": "https://www.shigotosagashi.pref.mie.lg.jp/interview_post/%E6%B8%85%E7%94%B0%E8%BB%8C%E9%81%93%E5%B7%A5%E6%A5%AD%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%EF%BC%88%E5%B7%9D%E8%B6%8A%E7%94%BA%EF%BC%89%E3%80%80%E3%80%80%E6%B5%A6%E6%A9%8B-%E5%88%A9%E5%85%B8/",
+      "status": 200,
+      "finalUrl": "https://www.shigotosagashi.pref.mie.lg.jp/interview_post/%E6%B8%85%E7%94%B0%E8%BB%8C%E9%81%93%E5%B7%A5%E6%A5%AD%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%EF%BC%88%E5%B7%9D%E8%B6%8A%E7%94%BA%EF%BC%89%E3%80%80%E3%80%80%E6%B5%A6%E6%A9%8B-%E5%88%A9%E5%85%B8/"
+    },
+    {
+      "url": "https://miyazaki-u.repo.nii.ac.jp/record/6764/files/%E5%AE%AE%E5%B4%8E%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E5%AD%A6%E9%83%A8%E7%B4%80%E8%A6%81100%E5%8F%B7_p182-201.pdf",
+      "status": 200,
+      "finalUrl": "https://miyazaki-u.repo.nii.ac.jp/record/6764/files/%E5%AE%AE%E5%B4%8E%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E5%AD%A6%E9%83%A8%E7%B4%80%E8%A6%81100%E5%8F%B7_p182-201.pdf"
+    },
+    {
+      "url": "https://www.miyazaki-c.ed.jp/himukagaku/unit/yume_05/page2.html",
+      "status": 200,
+      "finalUrl": "https://www.miyazaki-c.ed.jp/himukagaku/unit/yume_05/page2.html"
+    },
+    {
+      "url": "https://www.city.kushima.lg.jp/main/city/upload/b05f490606eafabb7cea23d88685c1bdf9590eb8.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.kushima.lg.jp/main/city/upload/b05f490606eafabb7cea23d88685c1bdf9590eb8.pdf"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/entry/reference/show?id=1000059076",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/reference/show?id=1000059076"
+    },
+    {
+      "url": "https://www.town.kunitomi.miyazaki.jp/main/like/5b00a2eb4c5b5fd1b558d524c40ead42.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.kunitomi.miyazaki.jp/main/like/5b00a2eb4c5b5fd1b558d524c40ead42.pdf"
+    },
+    {
+      "url": "https://dictionary.goo.ne.jp/leaf/dialect/2928/m0u/",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.town.kawaminami.miyazaki.jp/uploaded/attachment/1701.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.kawaminami.miyazaki.jp/uploaded/attachment/1701.pdf"
+    },
+    {
+      "url": "https://www.jstage.jst.go.jp/article/gengo/163/0/163_1/_pdf",
+      "status": 200,
+      "finalUrl": "https://www.jstage.jst.go.jp/article/gengo/163/0/163_1/_pdf"
+    },
+    {
+      "url": "https://www.town.miyazaki-misato.lg.jp/kiji003335/3_335_1_%E3%81%95%E3%81%84%E3%81%94%E3%81%86%E3%81%AE%E6%96%B9%E8%A8%80.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.miyazaki-misato.lg.jp/kiji003335/3_335_1_%E3%81%95%E3%81%84%E3%81%94%E3%81%86%E3%81%AE%E6%96%B9%E8%A8%80.pdf"
+    },
+    {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/entry/reference/show?id=1000035445",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/reference/show?id=1000035445"
+    },
+    {
+      "url": "https://www.city.miyakonojo.miyazaki.jp/soshiki/60/3783.html",
+      "status": 200,
+      "finalUrl": "https://www.city.miyakonojo.miyazaki.jp/soshiki/60/3783.html"
+    },
+    {
+      "url": "https://www.city.kobayashi.lg.jp/material/files/group/7/150827102405201508271144040f.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.kobayashi.lg.jp/material/files/group/7/150827102405201508271144040f.pdf"
+    },
+    {
+      "url": "https://www.town.mimata.lg.jp/upload/file/01soumu/05kouhou/01_%E5%BA%83%E5%A0%B1%E3%81%BF%E3%81%BE%E3%81%9F/2017/201702.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.mimata.lg.jp/upload/file/01soumu/05kouhou/01_%E5%BA%83%E5%A0%B1%E3%81%BF%E3%81%BE%E3%81%9F/2017/201702.pdf"
+    },
+    {
+      "url": "https://www.pref.nagano.lg.jp/kenko-choju/kenko/kenko/kenko/undou/documents/zukugaido.pdf",
+      "status": 200,
+      "finalUrl": "https://www.pref.nagano.lg.jp/kenko-choju/kenko/kenko/kenko/undou/documents/zukugaido.pdf"
+    },
+    {
+      "url": "https://www.city.nagasaki.lg.jp/nagazine/jigemon/020107/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.nagasaki.lg.jp/nagazine/jigemon/020107/index.html"
+    },
+    {
+      "url": "https://www.city.nagasaki.lg.jp/nagazine/jigemon/",
+      "status": 200,
+      "finalUrl": "https://www.city.nagasaki.lg.jp/nagazine/jigemon/"
+    },
+    {
+      "url": "https://shinkamigoto.com/tour/about/dialect",
+      "status": 200,
+      "finalUrl": "https://shinkamigoto.com/tour/about/dialect"
+    },
+    {
+      "url": "https://www.town.togitsu.nagasaki.jp/soshikikarasagasu/shakaikyoikuka/shakaikyoikukakari/kanko_sangyo_event/1/2/1350.html",
+      "status": 200,
+      "finalUrl": "https://www.town.togitsu.nagasaki.jp/soshikikarasagasu/shakaikyoikuka/shakaikyoikukakari/kanko_sangyo_event/1/2/1350.html"
+    },
+    {
+      "url": "https://www.city.omura.nagasaki.jp/rekishi/kyoiku/shishi/omurashishi/dai5kan/documents/02-3minzoku3.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.omura.nagasaki.jp/rekishi/kyoiku/shishi/omurashishi/dai5kan/documents/02-3minzoku3.pdf"
+    },
+    {
+      "url": "https://www.city.isahaya.nagasaki.jp/",
+      "status": 200,
+      "finalUrl": "https://www.city.isahaya.nagasaki.jp/"
+    },
+    {
+      "url": "https://www.city.isahaya.nagasaki.jp/soshiki/51/7899.html",
+      "status": 200,
+      "finalUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/51/7899.html"
+    },
+    {
+      "url": "https://www.city.unzen.nagasaki.jp/kiji0037951/3_7951_shiryou1_sriim457.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.unzen.nagasaki.jp/kiji0037951/3_7951_shiryou1_sriim457.pdf"
+    },
+    {
+      "url": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf"
+    },
+    {
+      "url": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf"
+    },
+    {
+      "url": "https://saseboechan.com/2020/05/04/sasebobenrecapep202005/",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/27/kihonkousou02.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.iki.nagasaki.jp/material/files/group/27/kihonkousou02.pdf"
+    },
+    {
+      "url": "https://www.jihishuppansalon.com/%E5%A3%B1%E5%B2%90%E5%B3%B6%E3%81%AE%E6%96%B9%E8%A8%80%E4%BA%8B%E4%BE%8B%E9%9B%86%E3%80%80%E3%81%8D%EF%BD%9E%E3%81%A1%E3%81%BF-%E3%81%97%E3%82%83%E3%81%B9%E3%81%A3%E3%81%A1%E3%81%BF/",
+      "status": 200,
+      "finalUrl": "https://www.jihishuppansalon.com/%E5%A3%B1%E5%B2%90%E5%B3%B6%E3%81%AE%E6%96%B9%E8%A8%80%E4%BA%8B%E4%BE%8B%E9%9B%86%E3%80%80%E3%81%8D%EF%BD%9E%E3%81%A1%E3%81%BF-%E3%81%97%E3%82%83%E3%81%B9%E3%81%A3%E3%81%A1%E3%81%BF/"
+    },
+    {
+      "url": "https://www.city.iki.nagasaki.jp/material/files/group/40/katsumoto9.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.iki.nagasaki.jp/material/files/group/40/katsumoto9.pdf"
+    },
+    {
+      "url": "https://www.ikikankou.com/feature/katsumoto_asaichi",
+      "status": 200,
+      "finalUrl": "https://www.ikikankou.com/feature/katsumoto_asaichi"
+    },
+    {
+      "url": "https://kansaigaidai.repo.nii.ac.jp/record/6387/files/r073_13.pdf",
+      "status": 200,
+      "finalUrl": "https://kansaigaidai.repo.nii.ac.jp/record/6387/files/r073_13.pdf"
+    },
+    {
+      "url": "https://www.city.tsushima.nagasaki.jp/gyousei/soshiki/soumu/somuka/shisei20syunen/5361.html",
+      "status": 200,
+      "finalUrl": "https://www.city.tsushima.nagasaki.jp/gyousei/soshiki/soumu/somuka/shisei20syunen/5361.html"
+    },
+    {
+      "url": "https://www.vill.totsukawa.lg.jp/bridge/folklore/hougen/o/",
+      "status": 200,
+      "finalUrl": "https://www.vill.totsukawa.lg.jp/bridge/folklore/hougen/o/"
+    },
+    {
+      "url": "https://www.vill.totsukawa.lg.jp/bridge/folklore/old-tale/old-tale61-70/",
+      "status": 200,
+      "finalUrl": "https://www.vill.totsukawa.lg.jp/bridge/folklore/old-tale/old-tale61-70/"
+    },
+    {
+      "url": "https://oita-katete.pref.oita.jp/web_magazine/zadankai_vol1/",
+      "status": 200,
+      "finalUrl": "https://oita-katete.pref.oita.jp/web_magazine/zadankai_vol1/"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000140258&page=ref_view",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000140258&page=ref_view"
+    },
+    {
+      "url": "https://kansai.oita.jp/old/kyodo_ryori/hougen.html",
+      "status": 200,
+      "finalUrl": "https://kansai.oita.jp/old/kyodo_ryori/hougen.html"
+    },
+    {
+      "url": "https://www.fukujo.ac.jp/university/burger_editor/burger_editor/dl/54__YjIw.pdf",
+      "status": 200,
+      "finalUrl": "https://www.fukujo.ac.jp/university/burger_editor/burger_editor/dl/54__YjIw.pdf"
+    },
+    {
+      "url": "https://www.fukujo.ac.jp/university/burger_editor/burger_editor/dl/56__YjMw.pdf",
+      "status": 200,
+      "finalUrl": "https://www.fukujo.ac.jp/university/burger_editor/burger_editor/dl/56__YjMw.pdf"
+    },
+    {
+      "url": "https://www.city.usuki.oita.jp/docs/2015090900015/file_contents/MAP2.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.usuki.oita.jp/docs/2015090900015/file_contents/MAP2.pdf"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000030515&page=ref_view",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000030515&page=ref_view"
+    },
+    {
+      "url": "https://www.city.saiki.oita.jp/kiji00311506/3_11506_up_j83xne66.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.saiki.oita.jp/kiji00311506/3_11506_up_j83xne66.pdf"
+    },
+    {
+      "url": "https://hougen.sakura.ne.jp/shuppan/2017/3-15.pdf",
+      "status": 200,
+      "finalUrl": "https://hougen.sakura.ne.jp/shuppan/2017/3-15.pdf"
+    },
+    {
+      "url": "https://oer.mc.beppu-u.ac.jp/assets/files/oa/r3/notsu_20230624.pdf",
+      "status": 200,
+      "finalUrl": "https://oer.mc.beppu-u.ac.jp/assets/files/oa/r3/notsu_20230624.pdf"
+    },
+    {
+      "url": "https://oer.mc.beppu-u.ac.jp/assets/files/oa/r3/notsu33-re.pdf",
+      "status": 200,
+      "finalUrl": "https://oer.mc.beppu-u.ac.jp/assets/files/oa/r3/notsu33-re.pdf"
+    },
+    {
+      "url": "https://hougen.sakura.ne.jp/shuppan/2025/09_katsuyo06.pdf",
+      "status": 200,
+      "finalUrl": "https://hougen.sakura.ne.jp/shuppan/2025/09_katsuyo06.pdf"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/entry/reference/show?asc=desc&dtltbs=1&fi=8_21+3_%E6%96%87%E7%8C%AE%E7%B4%B9%E4%BB%8B&id=1000338726&ldtl=1&mcmd=25&page=ref_view&st=update&state=2200000045&type=reference",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/reference/show?asc=desc&dtltbs=1&fi=8_21+3_%E6%96%87%E7%8C%AE%E7%B4%B9%E4%BB%8B&id=1000338726&ldtl=1&mcmd=25&page=ref_view&st=update&state=2200000045&type=reference"
+    },
+    {
+      "url": "https://www.city.kunisaki.oita.jp/uploaded/attachment/21698.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.kunisaki.oita.jp/uploaded/attachment/21698.pdf"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000312755&page=ref_view",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000312755&page=ref_view"
+    },
+    {
+      "url": "https://kaken.nii.ac.jp/ja/file/KAKENHI-PROJECT-21520473/21520473seika.pdf",
+      "status": 200,
+      "finalUrl": "https://kaken.nii.ac.jp/ja/file/KAKENHI-PROJECT-21520473/21520473seika.pdf"
+    },
+    {
+      "url": "https://cir.nii.ac.jp/crid/1050871701580004992",
+      "status": 202,
+      "finalUrl": "https://cir.nii.ac.jp/crid/1050871701580004992"
+    },
+    {
+      "url": "https://www.city.tamano.lg.jp/uploaded/attachment/8482.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.tamano.lg.jp/uploaded/attachment/8482.pdf"
+    },
+    {
+      "url": "https://hougen.sakura.ne.jp/shuppan/2017/3-12.pdf",
+      "status": 200,
+      "finalUrl": "https://hougen.sakura.ne.jp/shuppan/2017/3-12.pdf"
+    },
+    {
+      "url": "https://saseboechan.com/2020/05/15/sasebobenrecapep202005-2/",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/event/doc/260315_takubo.pdf",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/event/doc/260315_takubo.pdf"
+    },
+    {
+      "url": "https://hougen.sakura.ne.jp/shuppan/2022/07_KR3301.pdf",
+      "status": 200,
+      "finalUrl": "https://hougen.sakura.ne.jp/shuppan/2022/07_KR3301.pdf"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/2270/files/kksrc_013-14.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/2270/files/kksrc_013-14.pdf"
+    },
+    {
+      "url": "https://www.city.kasaoka.okayama.jp/uploaded/attachment/9003.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.kasaoka.okayama.jp/uploaded/attachment/9003.pdf"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000021302",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000021302&page=ref_view"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000032753",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000032753&page=ref_view"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000048650",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000048650&page=ref_view"
+    },
+    {
+      "url": "https://seijo.repo.nii.ac.jp/record/5210/files/013-01-002.pdf",
+      "status": 200,
+      "method": "GET",
+      "finalUrl": "https://nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com/contents/seijo_repo_nii_ac_jp/3b/e0/d8ed-6055-44fa-8d5c-80968145367d/data"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000324449",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000324449&page=ref_view"
+    },
+    {
+      "url": "https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000086987",
+      "status": 200,
+      "finalUrl": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000086987&page=ref_view"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/detail-80900.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okayama.jp/page/detail-80900.html"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/detail-80902.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okayama.jp/page/detail-80902.html"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/detail-80872.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okayama.jp/page/detail-80872.html"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/detail-80875.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okayama.jp/page/detail-80875.html"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/detail-80878.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okayama.jp/page/detail-80878.html"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/detail-80894.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okayama.jp/page/detail-80894.html"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/detail-80883.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okayama.jp/page/detail-80883.html"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/detail-80899.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okayama.jp/page/detail-80899.html"
+    },
+    {
+      "url": "https://www.pref.okayama.jp/page/detail-80887.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okayama.jp/page/detail-80887.html"
+    },
+    {
+      "url": "https://www.pref.okinawa.lg.jp/kyoiku/kodomo/1002688/1002689/1002690.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.okinawa.lg.jp/kyoiku/kodomo/1002688/1002689/1002690.html"
+    },
+    {
+      "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/011/776/tokuhonsyoup18-51.pdf",
+      "status": 200,
+      "finalUrl": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/011/776/tokuhonsyoup18-51.pdf"
+    },
+    {
+      "url": "https://www2.pref.okinawa.jp/oki/Gikairep1.nsf/481e05e7edaca1db49256f540004c033/424a296377bce4ab4925719200247dae?Click=&OpenDocument=",
+      "status": 0,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/hakubutsukan/files/p.95-120.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/hakubutsukan/files/p.95-120.pdf"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=7081&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=7081&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=25342&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=25342&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=6652&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=6652&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=21877&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=21877&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=13531&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=13531&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=8939&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=8939&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=12816&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=12816&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=10962&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=10962&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=6115&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=6115&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=10928&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=10928&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=22701&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=22701&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=21836&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=21836&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=27478&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=27478&lang=ja"
+    },
+    {
+      "url": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=25766&lang=ja",
+      "status": 200,
+      "finalUrl": "https://kikigengo.ninjal.ac.jp/data/tango/detail?id=25766&lang=ja"
+    },
+    {
+      "url": "https://www2.ninjal.ac.jp/past-projects/endangered/Research%20Report%20on%20Kumejima.pdf",
+      "status": 200,
+      "finalUrl": "https://www2.ninjal.ac.jp/past-projects/endangered/Research%20Report%20on%20Kumejima.pdf"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/940940",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/940940"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/948399",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/948399"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/935021",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/935021"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/935040",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/935040"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/935032",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/935032"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/935036",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/935036"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/944335",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/944335"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/938864",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/938864"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/942800",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/942800"
+    },
+    {
+      "url": "https://ninda.ninjal.ac.jp/s/omolo/item/945868",
+      "status": 200,
+      "finalUrl": "https://ninda.ninjal.ac.jp/s/omolo/item/945868"
+    },
+    {
+      "url": "https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/29086712.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/29086712.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/24600339.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/24600339.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/17893503.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/17893503.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/73581470.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/73581470.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/32160302.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/32160302.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/60167029.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/60167029.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/95796179.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/95796179.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/07839310.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/07839310.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/19631435.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/19631435.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/74298843.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/74298843.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/00399008.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/00399008.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/39688064.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/39688064.pdf"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/2275/files/kksrc_013-19.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/2275/files/kksrc_013-19.pdf"
+    },
+    {
+      "url": "https://www.town.yoshinogari.lg.jp/material/files/group/8/555.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.yoshinogari.lg.jp/material/files/group/8/555.pdf"
+    },
+    {
+      "url": "https://www.city.ogi.lg.jp/site_files/file/004_k_zousin/shokuiku/shokuiku.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.ogi.lg.jp/site_files/file/004_k_zousin/shokuiku/shokuiku.pdf"
+    },
+    {
+      "url": "https://www.town.genkai.lg.jp/site/kankou/88072.html",
+      "status": 200,
+      "finalUrl": "https://www.town.genkai.lg.jp/site/kankou/88072.html"
+    },
+    {
+      "url": "https://www.city.imari.lg.jp/secure/28166/40.jpg",
+      "status": 200,
+      "finalUrl": "https://www.city.imari.lg.jp/secure/28166/40.jpg"
+    },
+    {
+      "url": "https://www.city.imari.lg.jp/secure/28166/43.jpg",
+      "status": 200,
+      "finalUrl": "https://www.city.imari.lg.jp/secure/28166/43.jpg"
+    },
+    {
+      "url": "https://www.city.imari.lg.jp/secure/28166/45.jpg",
+      "status": 200,
+      "finalUrl": "https://www.city.imari.lg.jp/secure/28166/45.jpg"
+    },
+    {
+      "url": "https://www.town.shiroishi.lg.jp/chousei_machi/_3088/_3096.html",
+      "status": 200,
+      "finalUrl": "https://www.town.shiroishi.lg.jp/chousei_machi/_3088/_3096.html"
+    },
+    {
+      "url": "https://umakamap.jp/",
+      "status": 200,
+      "finalUrl": "https://umakamap.jp/"
+    },
+    {
+      "url": "https://www.city.ureshino.lg.jp/kurashi/calendar/_19428.html?blockId=121839&calendarFrom=20111101&calendarMode=article&mode=0",
+      "status": 200,
+      "finalUrl": "https://www.city.ureshino.lg.jp/kurashi/calendar/_19428.html?blockId=121839&calendarFrom=20111101&calendarMode=article&mode=0"
+    },
+    {
+      "url": "https://www.city.ureshino.lg.jp/shisei/koho_kocho/_21598/628/_29679/628_copy_7.html",
+      "status": 200,
+      "finalUrl": "https://www.city.ureshino.lg.jp/shisei/koho_kocho/_21598/628/_29679/628_copy_7.html"
+    },
+    {
+      "url": "https://www.city.ureshino.lg.jp/shisei/koho_kocho/_21598/628/_28949/628_copy.html",
+      "status": 200,
+      "finalUrl": "https://www.city.ureshino.lg.jp/shisei/koho_kocho/_21598/628/_28949/628_copy.html"
+    },
+    {
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1397007890024/files/kouhouizumo201405_7page.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1397007890024/files/kouhouizumo201405_7page.pdf"
+    },
+    {
+      "url": "https://www2.ninjal.ac.jp/past-projects/endangered/Research%20Report%20on%20Izumo.pdf",
+      "status": 200,
+      "finalUrl": "https://www2.ninjal.ac.jp/past-projects/endangered/Research%20Report%20on%20Izumo.pdf"
+    },
+    {
+      "url": "https://www.city.hamada.shimane.jp/www/contents/1001000002486/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.hamada.shimane.jp/www/contents/1001000002486/index.html"
+    },
+    {
+      "url": "https://www.city.hamada.shimane.jp/www/contents/1001000002488/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.hamada.shimane.jp/www/contents/1001000002488/index.html"
+    },
+    {
+      "url": "https://www.city.hamada.shimane.jp/www/contents/1001000002490/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.hamada.shimane.jp/www/contents/1001000002490/index.html"
+    },
+    {
+      "url": "https://www.city.hamada.shimane.jp/www/contents/1001000002491/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.hamada.shimane.jp/www/contents/1001000002491/index.html"
+    },
+    {
+      "url": "https://www.city.hamada.shimane.jp/www/contents/1001000002489/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.hamada.shimane.jp/www/contents/1001000002489/index.html"
+    },
+    {
+      "url": "https://www.city.hamada.shimane.jp/www/contents/1001000002492/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.hamada.shimane.jp/www/contents/1001000002492/index.html"
+    },
+    {
+      "url": "https://www.city.hamada.shimane.jp/www/contents/1001000002494/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.hamada.shimane.jp/www/contents/1001000002494/index.html"
+    },
+    {
+      "url": "https://hiroshima.repo.nii.ac.jp/records/2031608",
+      "status": 200,
+      "method": "HEAD",
+      "finalUrl": "https://hiroshima.repo.nii.ac.jp/records/2031608"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/1273/files/kkrep_064.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/1273/files/kkrep_064.pdf"
+    },
+    {
+      "url": "https://www2.ninjal.ac.jp/past-projects/endangered/Research%20Report%20on%20Okinoshima%20Dialect.pdf",
+      "status": 200,
+      "finalUrl": "https://www2.ninjal.ac.jp/past-projects/endangered/Research%20Report%20on%20Okinoshima%20Dialect.pdf"
+    },
+    {
+      "url": "https://www.town.ama.shimane.jp/torikumi-shisetsu/shisetsu/amamaru",
+      "status": 200,
+      "finalUrl": "https://www.town.ama.shimane.jp/torikumi-shisetsu/shisetsu/amamaru"
+    },
+    {
+      "url": "https://takuhi-shrine.com/material.html",
+      "status": 200,
+      "finalUrl": "https://takuhi-shrine.com/material.html"
+    },
+    {
+      "url": "https://okikouiki.jp/care-insurance/wp-content/uploads/sites/3/2021/03/4f1d8f206f73a0a1864fffbd9ecab44a.pdf",
+      "status": 200,
+      "finalUrl": "https://okikouiki.jp/care-insurance/wp-content/uploads/sites/3/2021/03/4f1d8f206f73a0a1864fffbd9ecab44a.pdf"
+    },
+    {
+      "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/a-gyou.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/a-gyou.html"
+    },
+    {
+      "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ta-gyou.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ta-gyou.html"
+    },
+    {
+      "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/na-gyou.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/na-gyou.html"
+    },
+    {
+      "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ra-gyou.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ra-gyou.html"
+    },
+    {
+      "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ma-gyou.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ma-gyou.html"
+    },
+    {
+      "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ka-gyou.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ka-gyou.html"
+    },
+    {
+      "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/sa-gyou.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/sa-gyou.html"
+    },
+    {
+      "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ha-gyou.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ha-gyou.html"
+    },
+    {
+      "url": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ya-gyou.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yaizu.lg.jp/museum/rekimin/bunkazai/kotoba/hogen/ya-gyou.html"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/3049/files/kk_hgrs_013.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/3049/files/kk_hgrs_013.pdf"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/3050/files/kk_hgrs_014.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/3050/files/kk_hgrs_014.pdf"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/2/4971.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/2/4971.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4986.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4986.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/7/5025.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/7/5025.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/1/4954.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/1/4954.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/2/8822.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/2/8822.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/7/5028.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/7/5028.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/5/8859.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/5/8859.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4995.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4995.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/7/8878.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/7/8878.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/3/8837.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/3/8837.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/3/4973.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/3/4973.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/3/8838.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/3/8838.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/3/4977.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/3/4977.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/3/4979.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/3/4979.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/3/8834.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/3/8834.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/4/8849.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/4/8849.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4996.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4996.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4993.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4993.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/9/8913.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/9/8913.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/4/8846.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/4/8846.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4990.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4990.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4985.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4985.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4994.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/7/4/4994.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/4/8848.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/4/8848.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/6/8866.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/6/8866.html"
+    },
+    {
+      "url": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/6/8867.html",
+      "status": 200,
+      "finalUrl": "https://www.city.sano.lg.jp/kurashi_gyosei/shiseijoho_nyusatsu/sanoshinogaiyo/intro/2/6/8867.html"
+    },
+    {
+      "url": "https://iju.pref.tokushima.lg.jp/interview/1284/",
+      "status": 200,
+      "finalUrl": "https://iju.pref.tokushima.lg.jp/interview/1284/"
+    },
+    {
+      "url": "https://library.bunmori.tokushima.jp/digital/webkiyou/61/149-160.pdf",
+      "status": 200,
+      "finalUrl": "https://library.bunmori.tokushima.jp/digital/webkiyou/61/149-160.pdf"
+    },
+    {
+      "url": "https://library.bunmori.tokushima.jp/digital/webkiyou/64/091-098.pdf",
+      "status": 200,
+      "finalUrl": "https://library.bunmori.tokushima.jp/digital/webkiyou/64/091-098.pdf"
+    },
+    {
+      "url": "https://library.bunmori.tokushima.jp/digital/webkiyou/62/113-124.pdf",
+      "status": 200,
+      "finalUrl": "https://library.bunmori.tokushima.jp/digital/webkiyou/62/113-124.pdf"
+    },
+    {
+      "url": "https://library.bunmori.tokushima.jp/digital/webkiyou/60/163-174.pdf",
+      "status": 200,
+      "finalUrl": "https://library.bunmori.tokushima.jp/digital/webkiyou/60/163-174.pdf"
+    },
+    {
+      "url": "https://library.bunmori.tokushima.jp/digital/webkiyou/63/049-060.pdf",
+      "status": 200,
+      "finalUrl": "https://library.bunmori.tokushima.jp/digital/webkiyou/63/049-060.pdf"
+    },
+    {
+      "url": "https://www.city.yonago.lg.jp/dandanbus/",
+      "status": 200,
+      "finalUrl": "https://www.city.yonago.lg.jp/dandanbus/"
+    },
+    {
+      "url": "https://www.pref.tottori.lg.jp/28531.htm",
+      "status": 200,
+      "finalUrl": "https://www.pref.tottori.lg.jp/28531.htm"
+    },
+    {
+      "url": "https://www.city.tottori.lg.jp/page/2239.html",
+      "status": 200,
+      "finalUrl": "https://www.city.tottori.lg.jp/page/2239.html"
+    },
+    {
+      "url": "https://www.library.pref.tottori.jp/information/cat16/cat5/3-2.html",
+      "status": 200,
+      "finalUrl": "https://www.library.pref.tottori.jp/information/cat16/cat5/3-2.html"
+    },
+    {
+      "url": "https://hougen.sakura.ne.jp/shuppan/2018/4-08.pdf",
+      "status": 200,
+      "finalUrl": "https://hougen.sakura.ne.jp/shuppan/2018/4-08.pdf"
+    },
+    {
+      "url": "https://www.city.yonago.lg.jp/16771.htm",
+      "status": 200,
+      "finalUrl": "https://www.city.yonago.lg.jp/16771.htm"
+    },
+    {
+      "url": "https://www.city.yonago.lg.jp/37881.htm",
+      "status": 200,
+      "finalUrl": "https://www.city.yonago.lg.jp/37881.htm"
+    },
+    {
+      "url": "https://repository.ninjal.ac.jp/record/826/files/papers1007.pdf",
+      "status": 200,
+      "finalUrl": "https://repository.ninjal.ac.jp/record/826/files/papers1007.pdf"
+    },
+    {
+      "url": "https://www.pref.tottori.lg.jp/item/774392.htm",
+      "status": 200,
+      "finalUrl": "https://www.pref.tottori.lg.jp/item/774392.htm"
+    },
+    {
+      "url": "https://www.town.nichinan.lg.jp/soshikikarasagasu/kikakuka/syoukougyou/tattamokado/index.html",
+      "status": 200,
+      "finalUrl": "https://www.town.nichinan.lg.jp/soshikikarasagasu/kikakuka/syoukougyou/tattamokado/index.html"
+    },
+    {
+      "url": "https://www.city.toyama.lg.jp/bunka/kanko/1015608.html",
+      "status": 200,
+      "finalUrl": "https://www.city.toyama.lg.jp/bunka/kanko/1015608.html"
+    },
+    {
+      "url": "https://www.pref.toyama.jp/1021/kensei/kenseiunei/kensei/naruhodo/qa.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.toyama.jp/1021/kensei/kenseiunei/kensei/naruhodo/qa.html"
+    },
+    {
+      "url": "https://www.pref.toyama.jp/1021/kensei/kouhou/public/kitokitokun.html",
+      "status": 200,
+      "finalUrl": "https://www.pref.toyama.jp/1021/kensei/kouhou/public/kitokitokun.html"
+    },
+    {
+      "url": "https://cerp.u-toyama.ac.jp/file/bulletin/bulletin2013.pdf",
+      "status": 200,
+      "finalUrl": "https://cerp.u-toyama.ac.jp/file/bulletin/bulletin2013.pdf"
+    },
+    {
+      "url": "https://www.pref.wakayama.lg.jp/prefg/050301/050301/siryou/index_d/fil/centerdayori5.pdf",
+      "status": 200,
+      "finalUrl": "https://www.pref.wakayama.lg.jp/prefg/050301/050301/siryou/index_d/fil/centerdayori5.pdf"
+    },
+    {
+      "url": "https://www.city.yonezawa.yamagata.jp/soshiki/5/1019/1_1/info/11198.html",
+      "status": 200,
+      "finalUrl": "https://www.city.yonezawa.yamagata.jp/soshiki/5/1019/1_1/info/11198.html"
+    },
+    {
+      "url": "https://www.city.yonezawa.yamagata.jp/material/files/group/20/furusato_260601.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.yonezawa.yamagata.jp/material/files/group/20/furusato_260601.pdf"
+    },
+    {
+      "url": "https://www.pref.yamaguchi.lg.jp/uploaded/life/286842_541410_misc.pdf",
+      "status": 200,
+      "finalUrl": "https://www.pref.yamaguchi.lg.jp/uploaded/life/286842_541410_misc.pdf"
+    },
+    {
+      "url": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983",
+      "status": 200,
+      "finalUrl": "https://ypir.lib.yamaguchi-u.ac.jp/yp/554/files/143983"
+    },
+    {
+      "url": "https://www.city.shimonoseki.lg.jp/uploaded/attachment/93590.pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.shimonoseki.lg.jp/uploaded/attachment/93590.pdf"
+    },
+    {
+      "url": "https://ypir.lib.yamaguchi-u.ac.jp/bg/910/files/136238",
+      "status": 200,
+      "finalUrl": "https://ypir.lib.yamaguchi-u.ac.jp/bg/910/files/136238"
+    },
+    {
+      "url": "https://ypir.lib.yamaguchi-u.ac.jp/bg/971/files/136305",
+      "status": 200,
+      "finalUrl": "https://ypir.lib.yamaguchi-u.ac.jp/bg/971/files/136305"
+    },
+    {
+      "url": "https://ypir.lib.yamaguchi-u.ac.jp/bg/1234/files/136570",
+      "status": 200,
+      "finalUrl": "https://ypir.lib.yamaguchi-u.ac.jp/bg/1234/files/136570"
+    },
+    {
+      "url": "https://ypir.lib.yamaguchi-u.ac.jp/bg/1054/files/136390",
+      "status": 200,
+      "finalUrl": "https://ypir.lib.yamaguchi-u.ac.jp/bg/1054/files/136390"
+    },
+    {
+      "url": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html"
+    },
+    {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji0031915/3_1915_2059_up_s83vsuhq.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.yatsushiro.lg.jp/dynamic/_error/error404.aspx"
+    },
+    {
+      "url": "https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf"
+    },
+    {
+      "url": "https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf"
+    }
+  ]
+}

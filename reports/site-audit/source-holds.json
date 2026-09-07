@@ -1,0 +1,328 @@
+{
+  "checkedAt": "2026-09-07T23:42:07.939Z",
+  "explanation": "HTTP到達性の未解決事項。資料内容の誤りとは断定せず、既存情報・確認日・公開判定を維持。移転先・書誌と該当箇所の再確認が必要。",
+  "holds": [
+    {
+      "url": "https://kochike-fish.pref.kochi.lg.jp/news/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%BF%E3%81%AA%E3%81%BF%E4%B8%B8%E3%80%80%E6%A3%AE%E5%85%89%E7%A4%BE%E9%95%B7/",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-39-kochi-001",
+          "indexable": true,
+          "sourceTitle": "株式会社みなみ丸 森光社長"
+        }
+      ]
+    },
+    {
+      "url": "https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-40-fukuoka-035",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-036",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-037",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-038",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-039",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-040",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-041",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-042",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-043",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-044",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-045",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-046",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-047",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-048",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-049",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-050",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-051",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-052",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-053",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-054",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        }
+      ]
+    },
+    {
+      "url": "https://dictionary.goo.ne.jp/leaf/dialect/2928/m0u/",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-37-kagawa-062",
+          "indexable": false,
+          "sourceTitle": "全国方言辞典（佐藤亮一編・三省堂／goo辞書掲載）「つか（香川の方言）」"
+        },
+        {
+          "id": "jp-37-kagawa-063",
+          "indexable": false,
+          "sourceTitle": "全国方言辞典（佐藤亮一編・三省堂／goo辞書掲載）「つか（香川の方言）」"
+        }
+      ]
+    },
+    {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-45-miyazaki-044",
+          "indexable": false,
+          "sourceTitle": "宮崎市文化財関係公開資料（地域の地名伝承）"
+        }
+      ]
+    },
+    {
+      "url": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-45-miyazaki-058",
+          "indexable": false,
+          "sourceTitle": "延岡市立図書館公開資料（「延岡のことば」紹介）"
+        },
+        {
+          "id": "jp-45-miyazaki-059",
+          "indexable": false,
+          "sourceTitle": "延岡市立図書館公開資料（「延岡のことば」紹介）"
+        }
+      ]
+    },
+    {
+      "url": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-46-kagoshima-022",
+          "indexable": true,
+          "sourceTitle": "県政広報資料（おじゃったもんせ解説）"
+        }
+      ]
+    },
+    {
+      "url": "https://saseboechan.com/2020/05/04/sasebobenrecapep202005/",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-42-nagasaki-036",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-037",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-038",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-039",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-040",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        }
+      ]
+    },
+    {
+      "url": "https://saseboechan.com/2020/05/15/sasebobenrecapep202005-2/",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-42-nagasaki-041",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-042",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-043",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-044",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-045",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        }
+      ]
+    },
+    {
+      "url": "https://www2.pref.okinawa.jp/oki/Gikairep1.nsf/481e05e7edaca1db49256f540004c033/424a296377bce4ab4925719200247dae?Click=&OpenDocument=",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-47-okinawa-001",
+          "indexable": true,
+          "sourceTitle": "しまくとぅば教室"
+        }
+      ]
+    },
+    {
+      "url": "https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-42-nagasaki-046",
+          "indexable": false,
+          "sourceTitle": "広報させぼ『カンカン山んにき』"
+        }
+      ]
+    },
+    {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji0031915/3_1915_2059_up_s83vsuhq.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.yatsushiro.lg.jp/dynamic/_error/error404.aspx",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-43-kumamoto-033",
+          "indexable": true,
+          "sourceTitle": "いっそDEフェスタ2015実施概要"
+        }
+      ]
+    },
+    {
+      "url": "https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-32-shimane-039",
+          "indexable": false,
+          "sourceTitle": "道の駅「ごいせ仁摩」施設案内（「ごいせ」の説明）"
+        }
+      ]
+    },
+    {
+      "url": "https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf",
+      "decision": "HOLD_SOURCE_ACCESS",
+      "records": [
+        {
+          "id": "jp-41-saga-001",
+          "indexable": false,
+          "sourceTitle": "行ってみてひったまがった"
+        }
+      ]
+    }
+  ]
+}

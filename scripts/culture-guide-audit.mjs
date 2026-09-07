@@ -1,3 +1,4 @@
+import { isIndexableRecord } from "../src/evidencePolicy.mjs";
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 const root = process.cwd();
@@ -5,9 +6,7 @@ const files = (await readdir(join(root, "src/data/dialects"))).filter((file) => 
 const dialects = (await Promise.all(files.map(async (file) => JSON.parse(await readFile(join(root, "src/data/dialects", file), "utf8"))))).flat();
 const guides = JSON.parse(await readFile(join(root, "src/data/culture-guides.json"), "utf8"));
 const byId = new Map(dialects.map((item) => [item.id, item]));
-const required = ["phrase", "reading", "meaning", "region", "example", "usage"];
-const confirmed = new Set(["verified", "reference_confirmed", "community_confirmed"]);
-const grounded = (item) => { const scopes = new Set([...(item?.evidenceScopes ?? []), ...(item?.additionalSources ?? []).flatMap((source) => source.evidenceScopes ?? [])]); return Boolean(item && confirmed.has(item.verificationStatus) && item.description?.length >= 100 && item.description.length <= 160 && item.sourceTitle && item.sourceUrl && item.sourceCheckedAt && item.exampleDialect && item.exampleStandard && required.every((scope) => scopes.has(scope))); };
+const grounded = isIndexableRecord;
 const duplicate = (field) => { const map = new Map(); for (const item of guides) { const key = String(item[field] ?? "").normalize("NFKC").replace(/\s/g, ""); map.set(key, [...(map.get(key) ?? []), item.id]); } return [...map.values()].filter((ids) => ids.length > 1); };
 const duplicateSets = (() => { const map = new Map(); for (const item of guides) { const key = [...item.dialectIds].sort().join("|"); map.set(key, [...(map.get(key) ?? []), item.id]); } return [...map.values()].filter((ids) => ids.length > 1); })();
 const failures = [];

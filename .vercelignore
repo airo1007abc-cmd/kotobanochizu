@@ -1,3 +1,14 @@
 .chrome-audit/
 node_modules/
 reports/screenshots/
+tmp/
+.git-hold/
+research/
+research_*.zip
+reports/
+artifacts/
+docs/
+supabase/
+dist/
+*.tsbuildinfo
+.env*

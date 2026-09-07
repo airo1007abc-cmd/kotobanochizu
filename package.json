@@ -15,19 +15,21 @@
     "format": "prettier --write .",
     "test": "vitest run",
     "validate:data": "node scripts/data-tools.mjs validate",
-    "data:stats": "node scripts/data-tools.mjs stats"
-    ,"seo:audit": "node scripts/seo-audit.mjs"
-    ,"seo:audit:meanings": "node scripts/meaning-audit.mjs"
-    ,"seo:audit:regions": "node scripts/region-guide-audit.mjs"
-    ,"seo:audit:culture": "node scripts/culture-guide-audit.mjs"
-    ,"seo:audit:contexts": "node scripts/context-guide-audit.mjs"
-    ,"seo:plan": "node scripts/content-plan.mjs"
-    ,"seo:check-candidates": "node scripts/check-candidates.mjs"
-    ,"seo:site-audit": "node scripts/seo-site-audit.mjs"
-    ,"audit:content-priority": "node scripts/dialect-content-priority.mjs"
-    ,"audit:editorial-integrity": "node scripts/editorial-integrity-audit.mjs"
-    ,"audit:regional-culture": "node scripts/regional-culture-audit.mjs"
-    ,"audit:gap-closure": "node scripts/gap-closure-audit.mjs"
+    "data:stats": "node scripts/data-tools.mjs stats",
+    "seo:audit": "node scripts/seo-audit.mjs",
+    "seo:audit:meanings": "node scripts/meaning-audit.mjs",
+    "seo:audit:regions": "node scripts/region-guide-audit.mjs",
+    "seo:audit:culture": "node scripts/culture-guide-audit.mjs",
+    "seo:audit:contexts": "node scripts/context-guide-audit.mjs",
+    "seo:plan": "node scripts/content-plan.mjs",
+    "seo:check-candidates": "node scripts/check-candidates.mjs",
+    "seo:site-audit": "node scripts/seo-site-audit.mjs",
+    "audit:content-priority": "node scripts/dialect-content-priority.mjs",
+    "audit:editorial-integrity": "node scripts/editorial-integrity-audit.mjs",
+    "audit:regional-culture": "node scripts/regional-culture-audit.mjs",
+    "audit:gap-closure": "node scripts/gap-closure-audit.mjs",
+    "audit:site": "node scripts/site-audit.mjs after --check",
+    "audit:sources": "node scripts/source-link-audit.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

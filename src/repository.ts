@@ -92,6 +92,7 @@ export interface ContentRepository {
   regions(prefectureId?: string): Region[];
   dialects(filters?: DialectQuery): Dialect[];
   dialect(id: string): Dialect | undefined;
+  archivedDialects(): Dialect[];
   conversations(): Conversation[];
   conversation(id: string): Conversation | undefined;
   comparisons(): typeof comparisons;
@@ -116,7 +117,12 @@ export const repository: ContentRepository = {
           d.verificationStatus === filters.verificationStatus) &&
         (!filters?.q ||
           searchIndex.get(d.id)?.includes(normalizeJapanese(filters.q))),
-    ),
+    ).sort((a,b)=>{
+      const q=normalizeJapanese(filters?.q || '');
+      if(!q) return 0;
+      const rank=(d:Dialect)=>normalizeJapanese(d.phrase)===q?0:normalizeJapanese(d.reading)===q?1:normalizeJapanese(d.standardJapanese)===q?2:3;
+      return rank(a)-rank(b);
+    }),
   dialect: (id: string) =>
     allDialects.find((d) =>
       d.id ===
@@ -124,7 +130,8 @@ export const repository: ContentRepository = {
         d1: "jp-40-fukuoka-011",
         d2: "jp-40-fukuoka-016",
       }[id] ?? id),
-    ),
+    ) ?? [...dialects, ...moreDialects].find(d=>d.id===id),
+  archivedDialects: () => [...dialects, ...moreDialects].filter(d=>!allDialects.some(item=>item.id===d.id)),
   conversations: () => allConversations,
   conversation: (id: string) => allConversations.find((c) => c.id === id),
   comparisons: () => comparisons,

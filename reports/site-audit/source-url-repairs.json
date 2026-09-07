@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-09-07T23:41:59.266Z",
+  "changes": [
+    {
+      "file": "src/data/dialects/hiroshima.json",
+      "from": "https://ir.lib.hiroshima-u.ac.jp/25247/files/22473",
+      "to": "https://hiroshima.repo.nii.ac.jp/records/2025281",
+      "count": 12,
+      "reason": "公式移転先のHTTP 200とcitation_title一致を確認。語形・意味・参照日は変更しない。"
+    },
+    {
+      "file": "src/data/dialects/okayama.json",
+      "from": "https://ir.lib.hiroshima-u.ac.jp/41620/files/8452",
+      "to": "https://hiroshima.repo.nii.ac.jp/records/2031608",
+      "count": 1,
+      "reason": "公式移転先のHTTP 200とcitation_title一致を確認。語形・意味・参照日は変更しない。"
+    }
+  ]
+}

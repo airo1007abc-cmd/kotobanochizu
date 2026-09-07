@@ -1,3 +1,4 @@
+import { NotFound } from "./NotFound";
 import { lazy, Suspense, useEffect, useState } from "react";
 import {
   NavLink,
@@ -6,7 +7,6 @@ import {
   Routes,
   useParams,
   useSearchParams,
-  useLocation,
 } from "react-router-dom";
 import {
   BookOpen,
@@ -24,6 +24,7 @@ import {
   Layers3,
   ShieldCheck,
 } from "lucide-react";
+import { PageHead } from "./PageHead";
 import { repository } from "./repository";
 import { JapanPrefectureMap } from "./JapanPrefectureMap";
 import { DialectDetailV2 } from "./DialectDetailV2";
@@ -47,10 +48,6 @@ import {
 } from "./storage";
 import { hasPublishableAudio, type Dialect } from "./domain";
 import { isPreview, siteConfig } from "./siteConfig";
-import meaningComparisonData from "./data/meaning-comparisons.json";
-import regionGuideData from "./data/region-guides.json";
-import cultureGuideData from "./data/culture-guides.json";
-import contextGuideData from "./data/context-guides.json";
 const AdminPage = lazy(() =>
   import("./AdminPage").then((module) => ({ default: module.AdminPage })),
 );
@@ -109,116 +106,9 @@ const verificationLabel = (status: Dialect["verificationStatus"]) =>
         ? "地域確認"
         : "参照確認";
 function Shell() {
-  const { pathname } = useLocation();
-  useEffect(() => {
-    const titles: Record<string, string> = {
-      "/": "ことばの地図｜声と暮らしでたどる日本の地域言語文化",
-      "/prefectures": "47都道府県のことば｜ことばの地図",
-      "/search": "方言・地域のことばを検索｜ことばの地図",
-      "/compare": "全国ことばくらべ｜ことばの地図",
-      "/meanings": "一つの意味、全国のことば｜ことばの地図",
-      "/editorial-policy": "編集方針と信頼性｜ことばの地図",
-      "/for-organizations": "自治体・教育・研究機関の方へ｜ことばの地図",
-      "/sustainability": "文化を支える仕組み｜ことばの地図",
-      "/corrections": "訂正・権利の申請｜ことばの地図",
-    };
-    const descriptions: Record<string, string> = {
-      "/": "日本全国の方言と地域のことばを、土地・世代・暮らしの場面・確認状態とともに残す地域言語文化アーカイブ。",
-      "/prefectures":
-        "47都道府県、171の地域区分から、暮らしのことばを探せます。",
-      "/search":
-        "方言、読み、標準語、地域、世代、暮らしの場面、確認状態から使用例を検索できます。",
-      "/meanings":
-        "ありがとう、とても、がんばる。一つの意味が各地でどう響くかを横断して比べます。",
-      "/editorial-policy":
-        "確認状態、出典、話者の権利を明示する、ことばの地図の編集方針です。",
-      "/sustainability":
-        "基本の文化アーカイブを無料で開きながら、個人支援と組織向けサービスで継続する方針です。",
-      "/corrections":
-        "誤り、地域差、権利侵害、同意撤回について知らせるための受付です。",
-    };
-    const dialectMatch = pathname.match(/^\/dialects\/([^/]+)$/);
-    const dialect = dialectMatch
-      ? repository.dialect(decodeURIComponent(dialectMatch[1]))
-      : undefined;
-    const prefectureMatch = pathname.match(/^\/prefectures\/([^/]+)$/);
-    const prefecture = prefectureMatch
-      ? repository.prefectures().find((item) => item.id === prefectureMatch[1])
-      : undefined;
-    const regionMatch = pathname.match(/^\/regions\/([^/]+)$/);
-    const region = regionMatch
-      ? repository.regions().find((item) => item.id === decodeURIComponent(regionMatch[1]))
-      : undefined;
-    const regionPrefecture = region
-      ? repository.prefectures().find((item) => item.id === region.prefectureId)
-      : undefined;
-    const meaningMatch = pathname.match(/^\/meanings\/([^/]+)$/);
-    const meaningComparison = meaningMatch
-      ? meaningComparisonData.find((item) => item.slug === meaningMatch[1])
-      : undefined;
-    const regionGuideMatch = pathname.match(/^\/guides\/regions\/([^/]+)$/);
-    const regionGuide = regionGuideMatch
-      ? regionGuideData.find((item) => item.slug === regionGuideMatch[1])
-      : undefined;
-    const cultureGuideMatch = pathname.match(/^\/guides\/culture\/([^/]+)$/);
-    const cultureGuide = cultureGuideMatch
-      ? cultureGuideData.find((item) => item.slug === cultureGuideMatch[1])
-      : undefined;
-    const contextGuideMatch = pathname.match(/^\/stories\/([^/]+)$/);
-    const contextGuide = contextGuideMatch
-      ? contextGuideData.find((item) => item.slug === contextGuideMatch[1])
-      : undefined;
-    const title = dialect
-      ? `${dialect.phrase}の意味・使い方（${dialect.municipality ? `${dialect.municipality}・` : ""}${prefName(dialect.prefectureId)}）｜ことばの地図`
-      : prefecture
-        ? `${prefecture.name}の方言・地域のことば｜ことばの地図`
-        : region && regionPrefecture
-          ? `${region.name}の方言・地域のことば（${regionPrefecture.name}）｜ことばの地図`
-          : meaningComparison
-          ? `${meaningComparison.title}｜ことばの地図`
-          : regionGuide
-            ? `${regionGuide.title}｜ことばの地図`
-            : cultureGuide
-              ? `${cultureGuide.title}｜ことばの地図`
-              : contextGuide
-                ? `${contextGuide.title}｜ことばの地図`
-                : (titles[pathname] ?? "ことばの地図｜日本の地域言語文化アーカイブ");
-    const description = dialect
-      ? `${prefName(dialect.prefectureId)}・${regionName(dialect.regionId)}での「${dialect.phrase}」の使用例。標準語では「${dialect.standardJapanese}」。確認状態と地域差を明示しています。`
-      : prefecture
-        ? `${prefecture.name}で受け継がれる方言と地域のことばを、地域差・世代・使用場面・確認状態とともに紹介します。`
-        : region && regionPrefecture
-          ? `${regionPrefecture.name}・${region.name}で記録された方言と地域のことばを、出典・確認状態・地域内の記録地点とともに紹介します。`
-          : meaningComparison
-          ? meaningComparison.description
-          : regionGuide
-            ? regionGuide.description
-            : cultureGuide
-              ? cultureGuide.description
-              : contextGuide
-                ? contextGuide.description
-                : (descriptions[pathname] ??
-                  "日本全国の方言と地域のことばを、土地・世代・暮らしの場面・確認状態とともに残す地域言語文化アーカイブ。");
-    document.title = title;
-    document
-      .querySelector('meta[name="description"]')
-      ?.setAttribute("content", description);
-    document
-      .querySelector('meta[property="og:title"]')
-      ?.setAttribute("content", title);
-    document
-      .querySelector('meta[property="og:description"]')
-      ?.setAttribute("content", description);
-    const pageUrl = `${window.location.origin}${pathname}`;
-    document
-      .querySelector('link[rel="canonical"]')
-      ?.setAttribute("href", pageUrl);
-    document
-      .querySelector('meta[property="og:url"]')
-      ?.setAttribute("content", pageUrl);
-  }, [pathname]);
   return (
     <>
+      <PageHead />
       <a className="skip-link" href="#main-content">
         本文へ移動
       </a>
@@ -226,7 +116,7 @@ function Shell() {
         <div className="preview-banner" role="status">
           <b>公開プレビュー</b>
           <span>
-            掲載内容は確認待ちの使用例です。研究・引用の確定資料ではありません。
+            資料確認済みの記録と確認待ちの候補を区別して掲載しています。各語の出典と確認範囲をご覧ください。
           </span>
           <Link to="/editorial-policy">確認状態を見る</Link>
         </div>
@@ -366,7 +256,7 @@ function MobileNav() {
   );
 }
 function Home() {
-  const featured = repository.dialects().slice(0, 3),
+  const featured = repository.dialects().filter(d=>d.source?.url && d.source.evidenceScopes?.includes("meaning")).slice(0, 3),
     talk = repository.conversations()[0];
   return (
     <>
@@ -396,10 +286,10 @@ function Home() {
               47<small>都道府県</small>
             </b>
             <b>
-              171<small>地域区分</small>
+              {repository.regions().length}<small>閲覧地域区分</small>
             </b>
             <b>
-              67<small>現在の使用例</small>
+              {repository.dialects().length}<small>収録されたことば</small>
             </b>
           </div>
         </div>
@@ -409,9 +299,9 @@ function Home() {
           <small>何をしているの？</small>
           <div>
             <span className="badge">福岡市周辺</span>
-            <button aria-label="音声サンプル未収録">
+            <button disabled aria-label="音声サンプル未収録">
               <Volume2 />
-              声をきく
+              音声未収録
             </button>
           </div>
           <i>※ デモコンテンツ</i>
@@ -435,7 +325,7 @@ function Home() {
           <small>01 / PLACE</small>
           <h2>土地から、たどる</h2>
           <p>
-            県境だけでは捉えられない171の地域区分から、暮らしのことばを探します。
+            {repository.regions().length}の閲覧地域から、記録地点と出典をたどります。
           </p>
           <ArrowRight />
         </Link>
@@ -1095,6 +985,7 @@ function SearchPage() {
     status = params.get("status") ?? "";
   const setFilter = (key: string, value: string) => {
     const next = new URLSearchParams(params);
+    next.delete('page');
     if (value) next.set(key, value);
     else next.delete(key);
     setParams(next, { replace: true });
@@ -1113,6 +1004,12 @@ function SearchPage() {
       ? (status as Dialect["verificationStatus"])
       : undefined,
   });
+  const pageSize=24;
+  const totalPages=Math.max(1,Math.ceil(result.length/pageSize));
+  const requestedPage=Number(params.get('page')||'1');
+  const page=Number.isSafeInteger(requestedPage)?Math.min(totalPages,Math.max(1,requestedPage)):1;
+  useEffect(()=>{if(window.location.hash==='#search-results') document.getElementById('search-results')?.scrollIntoView();},[page]);
+  const pageTarget=(value:number)=>{const next=new URLSearchParams(params);if(value===1)next.delete('page');else next.set('page',String(value));return `/search?${next.toString()}`;};
   return (
     <section>
       <div className="page-head">
@@ -1136,6 +1033,7 @@ function SearchPage() {
             if (e.target.value) next.set("pref", e.target.value);
             else next.delete("pref");
             next.delete("region");
+            next.delete('page');
             setParams(next, { replace: true });
           }}
         >
@@ -1205,19 +1103,20 @@ function SearchPage() {
           </button>
         )}
       </div>
-      <div className="result-summary">
+      <div className="result-summary" id="search-results" aria-live="polite">
         <p>
           <strong>{result.length}</strong>件の使用例
         </p>
-        <span>全{all.length}件から検索・絞り込み</span>
+        <span>{result.length ? `${(page-1)*pageSize+1}〜${Math.min(page*pageSize,result.length)}件を表示` : `全${all.length}件から検索・絞り込み`}</span>
       </div>
       <div className="card-grid">
-        {result.map((d) => (
+        {result.slice((page-1)*pageSize,page*pageSize).map((d) => (
           <DialectCard key={d.id} d={d} />
         ))}
       </div>
+      {totalPages>1&&<nav className="search-pagination" aria-label="検索結果のページ"><span>{page} / {totalPages}ページ</span>{page>1&&<Link className="button secondary" to={pageTarget(page-1)+'#search-results'}>前の24件</Link>}{page<totalPages&&<Link className="button secondary" to={pageTarget(page+1)+'#search-results'}>次の24件</Link>}</nav>}
       {!result.length && (
-        <Empty text="まだ掲載されていないことばです。あなたの地域での使い方を投稿してみませんか？" />
+        <div className="empty"><h2>条件に一致する記録がありません</h2><p>表記を短くするか、地域・世代などの条件を減らしてお試しください。</p><button className="button secondary" onClick={()=>setParams({},{replace:true})}>検索条件をクリア</button></div>
       )}
     </section>
   );
@@ -1611,11 +1510,6 @@ function Empty({ text }: { text: string }) {
         ことばを教える
       </Link>
     </div>
-  );
-}
-function NotFound() {
-  return (
-    <Empty text="お探しのページは見つかりませんでした。地域の一覧から、ことばを探してみてください。" />
   );
 }
 export default Shell;

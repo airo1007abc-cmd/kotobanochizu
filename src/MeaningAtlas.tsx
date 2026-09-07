@@ -1,6 +1,8 @@
+import { NotFound } from "./NotFound";
+import { Breadcrumbs } from "./Breadcrumbs";
 import { ArrowRight, Layers3, Search } from "lucide-react";
 import { useMemo, useState } from "react";
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { normalizeJapanese } from "./japaneseSearch";
 import { repository } from "./repository";
 import type { Dialect } from "./domain";
@@ -140,18 +142,14 @@ export function MeaningAtlas() {
 export function MeaningComparison() {
   const { slug } = useParams();
   const comparison = meaningComparisons.find((item) => item.slug === slug);
-  if (!comparison) return <Navigate to="/meanings" replace />;
+  if (!comparison) return <NotFound />;
   const items = comparison.dialectIds
     .map((id) => repository.dialect(id))
     .filter((item): item is Dialect => Boolean(item));
 
   return (
     <article className="meaning-atlas meaning-comparison-detail">
-      <nav className="breadcrumbs" aria-label="パンくず">
-        <Link to="/">ホーム</Link><span>/</span>
-        <Link to="/meanings">意味から比べる</Link><span>/</span>
-        <span>{comparison.meaning}</span>
-      </nav>
+      <Breadcrumbs />
       <header className="page-head atlas-head">
         <span className="eyebrow">{comparison.indexStatus === "indexable" ? "VERIFIED MEANING COMPARISON" : "REVIEW REQUIRED"}</span>
         <h1>{comparison.title.replace(/｜.+$/, "")}</h1>
@@ -174,7 +172,7 @@ export function MeaningComparison() {
               <span>{item.reading}／{item.standardJapanese}</span>
               <p>{item.exampleDialect}</p>
               <p className="translation">{item.exampleStandard}</p>
-              <i className={`verification ${item.verificationStatus}`}>参照確認</i>
+              <i className={`verification ${item.verificationStatus}`}>{['verified','reference_confirmed','community_confirmed'].includes(item.verificationStatus) ? '参照・地域確認' : '確認待ち候補'}</i>
               <ArrowRight />
             </Link>
           ))}

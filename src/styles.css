@@ -2603,6 +2603,17 @@ main:has(.dialect-v2) { max-width: 1280px; }
   color: inherit;
 }
 
+.archive-links { margin-block: 2rem; padding: 1.25rem; background: #f5f0e6; border-radius: 12px; overflow-wrap: anywhere; }
+.archive-links summary { cursor: pointer; padding: .75rem 0; font-weight: 700; }
+.search-pagination { display:flex; flex-wrap:wrap; align-items:center; gap:1rem; margin-block:2rem; }
+#search-results { scroll-margin-top: 6rem; }
+.archive-links li { margin-block: .5rem; }
+.archive-links a { display: inline-block; padding-block: .4rem; }
+.v2-source-list > div { margin-block: 1rem; overflow-wrap: anywhere; }
+.v2-source-list small { display: block; margin-top: .4rem; }
+.v2-source-list summary { cursor: pointer; padding-block: .75rem; }
+.real-japan-map svg .interactive-prefecture:focus-visible path { stroke: #172d23 !important; stroke-width: 10px !important; }
+
 @media (max-width: 640px) {
   .preview-banner {
     align-items: flex-start;

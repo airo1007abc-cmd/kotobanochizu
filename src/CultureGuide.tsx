@@ -1,5 +1,7 @@
+import { NotFound } from "./NotFound";
+import { Breadcrumbs } from "./Breadcrumbs";
 import { ArrowRight, BookOpen, Layers3 } from "lucide-react";
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import cultureData from "./data/culture-guides.json";
 import { repository } from "./repository";
 import type { Dialect } from "./domain";
@@ -15,11 +17,11 @@ const guides = cultureData as CultureGuideRecord[];
 export function CultureGuide() {
   const { slug } = useParams();
   const guide = guides.find((item) => item.slug === slug);
-  if (!guide) return <Navigate to="/" replace />;
+  if (!guide) return <NotFound />;
   const dialects = guide.dialectIds.map((id) => repository.dialect(id)).filter((item): item is Dialect => Boolean(item));
   return (
     <article className="region-guide-page culture-guide-page">
-      <nav className="breadcrumbs" aria-label="パンくず"><Link to="/">ホーム</Link><span>/</span><span>文化・歴史</span><span>/</span><span>{guide.category}</span></nav>
+      <Breadcrumbs />
       <header className="page-head region-guide-head">
         <span className="eyebrow">LANGUAGE &amp; CULTURE</span>
         <h1>{guide.title.replace(/｜.+$/, "")}</h1>

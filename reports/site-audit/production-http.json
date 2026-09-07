@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-09-07T23:49:32.437Z",
+  "results": [
+    {
+      "url": "https://kotobanochizu.jp/robots.txt",
+      "status": 200,
+      "location": null,
+      "body": "User-agent: *\nAllow: /\nSitemap: https://kotobanochizu.jp/sitemap.xml\n"
+    },
+    {
+      "url": "https://kotobanochizu.jp/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><sitemap><loc>https://kotobanochizu.jp/sitemap-1.xml</loc></sitemap><sitemap><loc>https://kotobanochizu.jp/sitemap-2.xml</loc></sitemap><sitemap><loc>https://kotobanochizu.jp/sitemap-3.xml</loc></sitemap></sitemapindex>"
+    },
+    {
+      "url": "https://kotobanochizu.jp/does-not-exist-audit",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/404"
+    },
+    {
+      "url": "https://kotobanochizu.jp/dialects/d1",
+      "status": 308,
+      "location": "/dialects/jp-40-fukuoka-011"
+    },
+    {
+      "url": "https://kotobanochizu.jp/dialects/d2",
+      "status": 308,
+      "location": "/dialects/jp-40-fukuoka-016"
+    },
+    {
+      "url": "https://kotobanochizu.jp/prefectures/p42/",
+      "status": 308,
+      "location": "/prefectures/p42"
+    },
+    {
+      "url": "https://www.kotobanochizu.jp/prefectures/p42",
+      "status": 308,
+      "location": "https://kotobanochizu.jp/prefectures/p42"
+    },
+    {
+      "url": "http://kotobanochizu.jp/prefectures/p42",
+      "status": 308,
+      "location": "https://kotobanochizu.jp/prefectures/p42"
+    },
+    {
+      "url": "https://kotobanochizu.jp/?utm_source=audit",
+      "status": 200,
+      "location": null,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/"
+    }
+  ]
+}

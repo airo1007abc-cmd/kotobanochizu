@@ -1,3 +1,4 @@
+import { isIndexableRecord } from "../src/evidencePolicy.mjs";
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
@@ -5,12 +6,7 @@ const root = process.cwd();
 const files = (await readdir(join(root, "src/data/dialects"))).filter((file) => file.endsWith(".json"));
 const dialects = (await Promise.all(files.map(async (file) => JSON.parse(await readFile(join(root, "src/data/dialects", file), "utf8"))))).flat();
 const guides = JSON.parse(await readFile(join(root, "src/data/region-guides.json"), "utf8"));
-const requiredScopes = ["phrase", "reading", "meaning", "region", "example", "usage"];
-const confirmed = new Set(["verified", "reference_confirmed", "community_confirmed"]);
-const grounded = (item) => {
-  const scopes = new Set([...(item.evidenceScopes ?? []), ...(item.additionalSources ?? []).flatMap((source) => source.evidenceScopes ?? [])]);
-  return confirmed.has(item.verificationStatus) && item.description?.length >= 100 && item.description.length <= 160 && item.sourceTitle && item.sourceUrl && item.sourceCheckedAt && item.exampleDialect && item.exampleStandard && requiredScopes.every((scope) => scopes.has(scope));
-};
+const grounded = isIndexableRecord;
 const selected = (guide) => dialects.filter((item) =>
   item.prefectureName === guide.prefectureName &&
   ((Array.isArray(guide.selector.dialectIds) && guide.selector.dialectIds.includes(item.id)) ||

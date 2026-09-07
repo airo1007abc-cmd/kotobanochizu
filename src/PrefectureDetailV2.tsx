@@ -1,5 +1,7 @@
+import { Breadcrumbs } from "./Breadcrumbs";
+import { ArchiveLinks } from "./ArchiveLinks";
 import { useEffect, useRef, useState } from "react";
-import { ArrowRight, BookOpen, CheckCircle2, Home, MapPin, Search, Send } from "lucide-react";
+import { ArrowRight, BookOpen, CheckCircle2, MapPin, Search, Send } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { PrefectureDetailViewModel } from "./prefectureDetailViewModel";
 import { prefectureMapLabels } from "./JapanPrefectureMap";
@@ -31,10 +33,7 @@ export function PrefectureLocatorMap({ prefectureName }: { prefectureName: strin
 export function PrefectureDetailV2({ vm }: { vm: PrefectureDetailViewModel }) {
   return (
     <article className="prefecture-v2" data-prefecture-detail-version={import.meta.env.DEV ? "v2" : undefined}>
-      <nav className="prefecture-v2-breadcrumb" aria-label="パンくず">
-        <Link to="/"><Home aria-hidden="true" />ホーム</Link><span>/</span>
-        <Link to="/prefectures">地域を探す</Link><span>/</span><span>{vm.name}</span>
-      </nav>
+      <Breadcrumbs />
 
       <header className="prefecture-v2-hero">
         <div>
@@ -90,6 +89,7 @@ export function PrefectureDetailV2({ vm }: { vm: PrefectureDetailViewModel }) {
         <Link className="prefecture-v2-all-link" to={vm.searchTarget}><Search aria-hidden="true" /><span><strong>{vm.name}のことばをすべて見る</strong><small>{vm.totalDialectCount}語から、読み・意味・確認状態で絞り込めます</small></span><ArrowRight aria-hidden="true" /></Link>
       </section>}
 
+      <ArchiveLinks prefectureId={vm.id} />
       <RegionalCultureSection title={`${vm.name}のことばと文化`} items={vm.cultureItems} />
 
       <section className="prefecture-v2-archive" aria-labelledby="saga-archive-title">

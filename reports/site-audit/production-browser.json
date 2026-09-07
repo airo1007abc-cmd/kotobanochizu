@@ -1,0 +1,321 @@
+{
+  "checkedAt": "2026-09-07T23:55:20.549Z",
+  "origin": "https://kotobanochizu.jp",
+  "method": "実ブラウザのviewportとDOM確認、実クリック・キー・フォーム入力。スクリーンリーダー・実機適合の認定ではない。",
+  "screens": [
+    {
+      "width": 390,
+      "path": "/",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/"
+    },
+    {
+      "width": 390,
+      "path": "/prefectures",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/prefectures"
+    },
+    {
+      "width": 390,
+      "path": "/prefectures/p42",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/prefectures/p42"
+    },
+    {
+      "width": 390,
+      "path": "/prefectures/p47",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/prefectures/p47"
+    },
+    {
+      "width": 390,
+      "path": "/regions/r1",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/regions/r1"
+    },
+    {
+      "width": 390,
+      "path": "/regions/jp-47-region-与那国島",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/regions/jp-47-region-%E4%B8%8E%E9%82%A3%E5%9B%BD%E5%B3%B6"
+    },
+    {
+      "width": 390,
+      "path": "/dialects/jp-05-akita-001",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/dialects/jp-05-akita-001"
+    },
+    {
+      "width": 390,
+      "path": "/dialects/jp-40-fukuoka-011",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/dialects/jp-40-fukuoka-011"
+    },
+    {
+      "width": 390,
+      "path": "/search",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/search"
+    },
+    {
+      "width": 390,
+      "path": "/does-not-exist-audit",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/404"
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/"
+    },
+    {
+      "width": 768,
+      "path": "/prefectures",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/prefectures"
+    },
+    {
+      "width": 768,
+      "path": "/prefectures/p42",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/prefectures/p42"
+    },
+    {
+      "width": 768,
+      "path": "/prefectures/p47",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/prefectures/p47"
+    },
+    {
+      "width": 768,
+      "path": "/regions/r1",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/regions/r1"
+    },
+    {
+      "width": 768,
+      "path": "/regions/jp-47-region-与那国島",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/regions/jp-47-region-%E4%B8%8E%E9%82%A3%E5%9B%BD%E5%B3%B6"
+    },
+    {
+      "width": 768,
+      "path": "/dialects/jp-05-akita-001",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/dialects/jp-05-akita-001"
+    },
+    {
+      "width": 768,
+      "path": "/dialects/jp-40-fukuoka-011",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/dialects/jp-40-fukuoka-011"
+    },
+    {
+      "width": 768,
+      "path": "/search",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/search"
+    },
+    {
+      "width": 768,
+      "path": "/does-not-exist-audit",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/404"
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/"
+    },
+    {
+      "width": 1440,
+      "path": "/prefectures",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/prefectures"
+    },
+    {
+      "width": 1440,
+      "path": "/prefectures/p42",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/prefectures/p42"
+    },
+    {
+      "width": 1440,
+      "path": "/prefectures/p47",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/prefectures/p47"
+    },
+    {
+      "width": 1440,
+      "path": "/regions/r1",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/regions/r1"
+    },
+    {
+      "width": 1440,
+      "path": "/regions/jp-47-region-与那国島",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/regions/jp-47-region-%E4%B8%8E%E9%82%A3%E5%9B%BD%E5%B3%B6"
+    },
+    {
+      "width": 1440,
+      "path": "/dialects/jp-05-akita-001",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "index,follow",
+      "canonical": "https://kotobanochizu.jp/dialects/jp-05-akita-001"
+    },
+    {
+      "width": 1440,
+      "path": "/dialects/jp-40-fukuoka-011",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/dialects/jp-40-fukuoka-011"
+    },
+    {
+      "width": 1440,
+      "path": "/search",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/search"
+    },
+    {
+      "width": 1440,
+      "path": "/does-not-exist-audit",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "namelessButtons": 0,
+      "robots": "noindex,follow",
+      "canonical": "https://kotobanochizu.jp/404"
+    }
+  ],
+  "interactions": {
+    "map": {
+      "keyboardTargets": 47,
+      "selectedByEnter": "長崎県",
+      "prefectureLink": "/prefectures/p42",
+      "metadataUpdated": true
+    },
+    "search": [
+      {
+        "term": "なおす",
+        "count": 4
+      },
+      {
+        "term": "ナマラ",
+        "count": 1
+      },
+      {
+        "term": "かわいい",
+        "count": 3
+      },
+      {
+        "term": "男鹿市",
+        "count": 9
+      },
+      {
+        "term": "zz-no-such-word-987",
+        "count": 0
+      }
+    ],
+    "pagination": {
+      "page": 2,
+      "range": "25〜48",
+      "total": 1643
+    },
+    "prefectureFilter": {
+      "prefecture": "p42",
+      "pageReset": true,
+      "total": 89
+    },
+    "regionFilter": {
+      "region": "jp-42-region-対馬",
+      "total": 13
+    }
+  }
+}

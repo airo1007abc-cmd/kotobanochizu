@@ -1,3 +1,4 @@
+import { Breadcrumbs } from "./Breadcrumbs";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import {
@@ -5,7 +6,6 @@ import {
   BookOpen,
   Feather,
   Heart,
-  Home,
   MapPin,
   MessageCircle,
   ShieldCheck,
@@ -95,10 +95,7 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
       className="dialect-v2"
       data-dialect-detail-version={import.meta.env.DEV ? "v2" : undefined}
     >
-      <nav className="v2-breadcrumb" aria-label="パンくず">
-        <Link to="/"><Home />ホーム</Link><span>›</span><Link to="/search">ことばを探す</Link><span>›</span>
-        <Link to={`/prefectures/${vm.prefecture.id}`}>{pref}</Link><span>›</span><span>{vm.word}</span>
-      </nav>
+      <Breadcrumbs />
 
       <header className="v2-hero">
         <div className="v2-word">
@@ -119,7 +116,8 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
         </div>
         <aside className="v2-summary-card">
           <dl>
-            <div><dt>使用地域</dt><dd>{vm.locationSummary}</dd></div>
+            <div><dt>閲覧区分</dt><dd>{pref}・{region}</dd></div>
+            {vm.locationBadges.length>0&&<div><dt>記録地点</dt><dd>{vm.locationBadges.join('・')}</dd></div>}
             <div><dt>意味</dt><dd>{vm.meanings[0] ?? "確認中"}</dd></div>
             <div><dt>確認状況</dt><dd>{vm.verificationLabel}</dd></div>
             {vm.updatedAt && <div><dt>最終更新</dt><dd>{vm.updatedAt}</dd></div>}
@@ -154,7 +152,8 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
             <div className="v2-section-block v2-region-section">
               <div>
                 <h2><MapPin />使われる地域</h2>
-                <p>{vm.locationSummary}での記録です。県内全域への分布や地域差は資料確認中です。</p>
+                <p>{vm.locationBadges.length ? `資料の記録地点：${vm.locationBadges.join('・')}` : '記録地点の詳細は出典をご確認ください。'}</p>
+                <p>閲覧区分：{pref}・{region}。この区分全域で使われることを意味しません。</p>
                 <Link className="v2-outline-link" to={`/regions/${vm.primaryRegion.id}`}>地域のことば一覧を見る<ArrowRight /></Link>
               </div>
               <ArchiveRegionMap prefecture={pref} />
@@ -167,7 +166,7 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
               </div>
               <div className="v2-source-record">
                 <span>出典{vm.sources.length > 1 ? `（${vm.sources.length}件）` : ""}</span>
-                {vm.sources.length ? <div className="v2-source-list">{vm.sources.slice(0, 3).map((source, index) => <p key={`${source.url ?? source.title ?? "source"}-${index}`}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title ?? "出典資料"}<ArrowRight /></a> : source.title ?? "資料確認中"}{source.organization && <small>{source.organization}</small>}{source.recordingYear && <small>記録年：{source.recordingYear}年</small>}</p>)}</div> : <p>資料確認中</p>}
+                {vm.sources.length ? <div className="v2-source-list">{vm.sources.map((source, index) => <div key={`${source.url ?? source.title ?? "source"}-${index}`}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title ?? "出典資料"}<ArrowRight /></a> : source.title ?? "資料確認中"}{source.organization && <small>{source.organization}</small>}{source.checkedAt && <small>参照確認日：<time dateTime={source.checkedAt}>{source.checkedAt}</time></small>}{source.checkedFields.length > 0 && <small>この資料で確認：{source.checkedFields.join('・')}</small>}{source.recordingYear && <small>記録年：{source.recordingYear}年</small>}{source.note && <details><summary>掲載箇所・資料の注記</summary><p>{source.note}</p></details>}</div>)}</div> : <p>資料確認中</p>}
               </div>
               <div className="v2-verification-groups">
                 <div><strong><ShieldCheck />確認済み</strong><p>{vm.verifiedItems.length ? vm.verifiedItems.join("・") : "確認範囲を整理中"}</p></div>

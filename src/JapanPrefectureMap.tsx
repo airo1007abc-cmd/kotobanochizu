@@ -21,13 +21,14 @@ export function JapanPrefectureMap({ prefectures, regions }: { prefectures: MapP
   const mapRef = useRef<HTMLDivElement>(null);
   const [selectedId, setSelectedId] = useState<string>();
   const [mapReady, setMapReady] = useState(false);
+  const [mapFailed, setMapFailed] = useState(false);
   const selected = prefectures.find((item) => item.id === selectedId);
   const selectedRegions = regions.filter((item) => item.prefectureId === selectedId);
 
   useEffect(() => {
     let disposed = false;
     const cleanups: Array<() => void> = [];
-    fetch("/japan-prefectures.svg").then((response) => response.text()).then((markup) => {
+    fetch("/japan-prefectures.svg").then((response) => { if (!response.ok) throw new Error('Map unavailable'); return response.text(); }).then((markup) => {
       if (disposed || !mapRef.current) return;
       mapRef.current.innerHTML = markup;
       const svg = mapRef.current.querySelector("svg");
@@ -35,6 +36,8 @@ export function JapanPrefectureMap({ prefectures, regions }: { prefectures: MapP
       svg.removeAttribute("width");
       svg.removeAttribute("height");
       svg.setAttribute("aria-label", "都道府県境を示した日本地図");
+      svg.setAttribute("role", "group");
+      svg.setAttribute("aria-describedby", "map-instructions");
       Object.entries(prefectureMapLabels).forEach(([label, prefectureName]) => {
         const group = svg.querySelector(`[inkscape\\:label="${label}"]`);
         const prefecture = prefectures.find((item) => item.name === prefectureName);
@@ -43,7 +46,12 @@ export function JapanPrefectureMap({ prefectures, regions }: { prefectures: MapP
         group.classList.add("interactive-prefecture");
         group.setAttribute("role", "button");
         group.setAttribute("tabindex", "0");
-        group.setAttribute("aria-label", `${prefectureName}を選択`);
+        group.setAttribute("aria-label", `${prefectureName}：収録${prefecture.dialectCount}語・${prefecture.regionCount}閲覧地域。選択して地域を表示`);
+        group.setAttribute("aria-pressed", "false");
+        group.setAttribute("aria-controls", "map-region-panel");
+        const title = document.createElementNS('http://www.w3.org/2000/svg','title');
+        title.textContent=`${prefectureName}：${prefecture.dialectCount}語・${prefecture.regionCount}地域`;
+        group.prepend(title);
         group.setAttribute("data-prefecture-id", prefecture.id);
         const choose = () => setSelectedId(prefecture.id);
         const keydown = (event: Event) => {
@@ -55,7 +63,7 @@ export function JapanPrefectureMap({ prefectures, regions }: { prefectures: MapP
         cleanups.push(() => { group.removeEventListener("click", choose); group.removeEventListener("keydown", keydown); });
       });
       setMapReady(true);
-    });
+    }).catch(() => { if(!disposed) {setMapFailed(true);setMapReady(true);} });
     return () => { disposed = true; cleanups.forEach((cleanup) => cleanup()); };
   }, [prefectures]);
 
@@ -64,7 +72,6 @@ export function JapanPrefectureMap({ prefectures, regions }: { prefectures: MapP
       const isSelected = item.getAttribute("data-prefecture-id") === selectedId;
       item.classList.toggle("is-selected", isSelected);
       item.setAttribute("aria-pressed", String(isSelected));
-      if (isSelected) item.parentNode?.appendChild(item);
     });
   }, [selectedId, mapReady]);
 
@@ -73,18 +80,20 @@ export function JapanPrefectureMap({ prefectures, regions }: { prefectures: MapP
       <div className="real-map-intro">
         <span className="eyebrow">都道府県境から選ぶ</span>
         <h2 id="map-title">日本地図から地域を探す</h2>
-        <p>都道府県を選ぶと、その土地の地域区分を表示します。</p>
+        <p id="map-instructions">県をクリック・タップ、またはTabキーで移動してEnter・スペースで選択すると、閲覧地域を表示します。県境や閲覧区分は、言語学的な方言境界を示しません。</p>
+        <a href="#map-region-panel">地域の選択結果へ移動</a>
       </div>
       <div className="real-map-layout">
         <div className={`real-japan-map ${mapReady ? "is-ready" : ""}`} ref={mapRef} aria-busy={!mapReady} />
-        <aside className="map-region-panel" aria-live="polite">
+        {mapFailed && <p role="status">地図を読み込めませんでした。下の都道府県一覧から地域を選べます。</p>}
+        <aside id="map-region-panel" tabIndex={-1} className="map-region-panel" aria-live="polite">
           {selected ? <>
             <div className="map-region-panel-head"><span>{selected.area}</span><h3>{selected.name}</h3><p>{selected.dialectCount}件のことば・{selected.regionCount}地域</p></div>
             <div className="map-region-links">
               {selectedRegions.map((region) => <Link key={region.id} to={`/regions/${region.id}`}><MapPin /><span><b>{region.name}</b><small>{region.description}</small></span><ArrowRight /></Link>)}
             </div>
             <Link className="map-prefecture-all" to={`/prefectures/${selected.id}`}>{selected.name}のすべてを見る <ArrowRight /></Link>
-          </> : <div className="map-empty-state"><MapPin /><h3>地図から都道府県を選択</h3><p>県内の文化圏や地域区分がここに表示されます。</p><small>例：長崎県 → 県南・県央・県北・五島・壱岐・対馬</small></div>}
+          </> : <div className="map-empty-state"><MapPin /><h3>地図から都道府県を選択</h3><p>県内を探すための閲覧地域がここに表示されます。</p><small>地図のほか、下の都道府県一覧からも探せます。</small></div>}
         </aside>
       </div>
       <small className="map-credit">地図データ: PA4KEV / japan-vector-map（MIT License）</small>
