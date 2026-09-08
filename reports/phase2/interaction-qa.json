@@ -1,0 +1,37 @@
+{
+  "environment": "Chrome browser automation; Windows; 332/390/1440 CSS pixel viewports; no physical mobile or screen reader test",
+  "keyboard": {
+    "skipToMain": true,
+    "mapEnter": true,
+    "mapSpace": true,
+    "mapTabSequence": true,
+    "mapButtons": 47,
+    "focusVisible": "SVG focused path dark stroke 10px",
+    "selectedState": "aria-pressed and region panel verified",
+    "searchZeroResults": true,
+    "memoSaveReloadDelete": true
+  },
+  "landmarks": "main/nav/footer and labelled controls present",
+  "dialogs": "No modal/dialog in public UI",
+  "touch": "390px viewport: map click selected Okinawa, no horizontal overflow; mobile menu targets ~73x35.75 CSS px (>=24px minimum). Small prefecture polygons have accessible text alternatives. Real finger input not tested.",
+  "localAccessibility": {
+    "home": 100,
+    "map": 100,
+    "search": 100,
+    "word": 100,
+    "prefecture": 100,
+    "region": 100,
+    "memo": 100,
+    "policy": 100
+  },
+  "productionVerification": {
+    "deployment": "dpl_D4Zip1prRmzb6ebEJAy7MbudemHF",
+    "sourceCommit": "04979b7582ea5a4090ca12f606acc43bcba990c5",
+    "homeFooterVerified": true,
+    "representativePages": 9,
+    "mapKeyboard": true,
+    "policyLazyContentVerified": true,
+    "sourceRecoveryVisible": true,
+    "css": "/assets/index-Cnay0zAh.css"
+  }
+}

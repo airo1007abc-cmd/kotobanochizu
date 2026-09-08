@@ -1,0 +1,6 @@
+{
+  "change": "Schedule GA4 after first paint with bounded fallback",
+  "result": "Not adopted: local lab Performance stayed 47/100. No demonstrated benefit; preserve original analytics loading and semantics.",
+  "score": 47,
+  "deployed": false
+}

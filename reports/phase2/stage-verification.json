@@ -1,0 +1,110 @@
+[
+  {
+    "name": "home",
+    "path": "/",
+    "status": "200",
+    "expected": 200,
+    "h1": 1,
+    "canonical": "https://kotobanochizu.jp/",
+    "robots": "index,follow",
+    "demo": false,
+    "sourceArchive": false,
+    "recoveredURL": false
+  },
+  {
+    "name": "map",
+    "path": "/prefectures",
+    "status": "200",
+    "expected": 200,
+    "h1": 1,
+    "canonical": "https://kotobanochizu.jp/prefectures",
+    "robots": "index,follow",
+    "demo": false,
+    "sourceArchive": false,
+    "recoveredURL": false
+  },
+  {
+    "name": "search",
+    "path": "/search",
+    "status": "200",
+    "expected": 200,
+    "h1": 1,
+    "canonical": "https://kotobanochizu.jp/search",
+    "robots": "noindex,follow",
+    "demo": false,
+    "sourceArchive": false,
+    "recoveredURL": false
+  },
+  {
+    "name": "prefecture",
+    "path": "/prefectures/p40",
+    "status": "200",
+    "expected": 200,
+    "h1": 1,
+    "canonical": "https://kotobanochizu.jp/prefectures/p40",
+    "robots": "index,follow",
+    "demo": false,
+    "sourceArchive": false,
+    "recoveredURL": false
+  },
+  {
+    "name": "region",
+    "path": "/regions/r1",
+    "status": "200",
+    "expected": 200,
+    "h1": 1,
+    "canonical": "https://kotobanochizu.jp/regions/r1",
+    "robots": "noindex,follow",
+    "demo": false,
+    "sourceArchive": false,
+    "recoveredURL": false
+  },
+  {
+    "name": "word",
+    "path": "/dialects/jp-40-fukuoka-035",
+    "status": "200",
+    "expected": 200,
+    "h1": 1,
+    "canonical": "https://kotobanochizu.jp/dialects/jp-40-fukuoka-035",
+    "robots": "index,follow",
+    "demo": false,
+    "sourceArchive": false,
+    "recoveredURL": true
+  },
+  {
+    "name": "archive",
+    "path": "/dialects/jp-32-shimane-039",
+    "status": "200",
+    "expected": 200,
+    "h1": 1,
+    "canonical": "https://kotobanochizu.jp/dialects/jp-32-shimane-039",
+    "robots": "noindex,follow",
+    "demo": false,
+    "sourceArchive": true,
+    "recoveredURL": false
+  },
+  {
+    "name": "policy",
+    "path": "/editorial-policy",
+    "status": "200",
+    "expected": 200,
+    "h1": 1,
+    "canonical": "https://kotobanochizu.jp/editorial-policy",
+    "robots": "index,follow",
+    "demo": false,
+    "sourceArchive": false,
+    "recoveredURL": false
+  },
+  {
+    "name": "404",
+    "path": "/phase2-page-does-not-exist",
+    "status": "404",
+    "expected": 404,
+    "h1": 1,
+    "canonical": "https://kotobanochizu.jp/404",
+    "robots": "noindex,follow",
+    "demo": false,
+    "sourceArchive": false,
+    "recoveredURL": false
+  }
+]

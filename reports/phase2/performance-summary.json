@@ -1,0 +1,108 @@
+{
+  "method": "Lighthouse 13.4.1 mobile simulated lab; single run; field INP/CrUX not available",
+  "before": [
+    {
+      "name": "home",
+      "performance": 76,
+      "accessibility": 95,
+      "lcpMs": 3434.7225000000003,
+      "cls": 0,
+      "tbtMs": 516.5
+    },
+    {
+      "name": "map",
+      "performance": 57.99999999999999,
+      "accessibility": 95,
+      "lcpMs": 5667.46,
+      "cls": 0,
+      "tbtMs": 345.5
+    },
+    {
+      "name": "search",
+      "performance": 62,
+      "accessibility": 94,
+      "lcpMs": 5143.244000000001,
+      "cls": 0,
+      "tbtMs": 426
+    },
+    {
+      "name": "word",
+      "performance": 65,
+      "accessibility": 96,
+      "lcpMs": 4981.013,
+      "cls": 0,
+      "tbtMs": 356.5
+    }
+  ],
+  "after": [
+    {
+      "name": "home",
+      "performance": 60,
+      "accessibility": 100,
+      "lcpMs": 5929.43,
+      "cls": 0,
+      "tbtMs": 252,
+      "observedLcpMs": 1230,
+      "ga4ScriptLoaded": true,
+      "ga4CollectRequested": true
+    },
+    {
+      "name": "map",
+      "performance": 72,
+      "accessibility": 100,
+      "lcpMs": 3932.978,
+      "cls": 0,
+      "tbtMs": 329.5,
+      "observedLcpMs": 363,
+      "ga4ScriptLoaded": true,
+      "ga4CollectRequested": true
+    },
+    {
+      "name": "search",
+      "performance": 63,
+      "accessibility": 100,
+      "lcpMs": 5001.0960000000005,
+      "cls": 0,
+      "tbtMs": 416,
+      "observedLcpMs": 231,
+      "ga4ScriptLoaded": true,
+      "ga4CollectRequested": true
+    },
+    {
+      "name": "word",
+      "performance": 62,
+      "accessibility": 100,
+      "lcpMs": 5734.327,
+      "cls": 0,
+      "tbtMs": 366,
+      "observedLcpMs": 1505,
+      "ga4ScriptLoaded": true,
+      "ga4CollectRequested": true
+    }
+  ],
+  "repeats": [
+    {
+      "name": "home",
+      "performance": 64,
+      "accessibility": 100,
+      "lcpMs": 5431.871999999999,
+      "cls": 0,
+      "tbtMs": 339,
+      "observedLcpMs": 1256,
+      "ga4ScriptLoaded": true,
+      "ga4CollectRequested": true
+    },
+    {
+      "name": "word",
+      "performance": 65,
+      "accessibility": 100,
+      "lcpMs": 5297.4220000000005,
+      "cls": 0,
+      "tbtMs": 329.5,
+      "observedLcpMs": 400,
+      "ga4ScriptLoaded": true,
+      "ga4CollectRequested": true
+    }
+  ],
+  "interpretation": "Mobile simulated lab LCP remains above target, especially home and word; do not claim overall CWV success. Map LCP and home TBT improved. Field performance/INP not measured. Full catalog and client rerender remain architectural costs. Analytics delay experiment not adopted because no measured benefit."
+}

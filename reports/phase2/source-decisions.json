@@ -34,7 +34,7 @@
       "cause": "SSL証明書期限切れ",
       "newUrl": null,
       "archiveUrl": null,
-      "evidence": "県の既存記事を検索で確認。通常TLSで証明書期限切れ。検証を無効化せずHOLD。",
+      "evidence": "県の既存記事を検索で確認。通常TLSで証明書期限切れ。検証を無効化せずHOLD。 Archive APIでも当該URLの保存版を取得できなかった。",
       "retrieval": {
         "i": 0,
         "status": 35,

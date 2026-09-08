@@ -4,7 +4,7 @@
 
 Phase 1の57f33f681e8c4d7be66b16e96847a6d8950c7641をorigin/codex/site-audit-2026-09へ保存し、mainへfast-forward、origin/mainへpushした。Phase 2はcodex/editorial-readiness-phase2で実装。force push・reset・既存変更破棄はしていない。
 初回のpushは自動承認レビューで送信先の帰属確認を求められた。認証アカウントとGitHub公開リポジトリ所有者の一致を読み取り確認し、変更に秘密情報がないことを検査後、再レビューでpush承認・実行済み。認証情報の抽出・環境変数のダウンロードはしていない。
-本番反映後の結果は末尾に追記する。
+実装コミットcf8710aと地図補足文のコントラスト修正04979b7をmain・作業ブランチ双方へpush済み。本番ソースは04979b7582ea5a4090ca12f606acc43bcba990c5。検証報告の追記は別コミットで保存。
 
 ## 公開画面の改善
 
@@ -24,7 +24,7 @@ Phase 1の57f33f681e8c4d7be66b16e96847a6d8950c7641をorigin/codex/site-audit-202
 
 | # | 資料 | 原因 | 記録数 | 判断 | URL | 根拠 |
 |---|---|---|---:|---|---|---|
-| 1 | 株式会社みなみ丸 森光社長 | SSL証明書期限切れ | 1 | HOLD | [元URL](https://kochike-fish.pref.kochi.lg.jp/news/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%BF%E3%81%AA%E3%81%BF%E4%B8%B8%E3%80%80%E6%A3%AE%E5%85%89%E7%A4%BE%E9%95%B7/) | 県の既存記事を検索で確認。通常TLSで証明書期限切れ。検証を無効化せずHOLD。 |
+| 1 | 株式会社みなみ丸 森光社長 | SSL証明書期限切れ | 1 | HOLD | [元URL](https://kochike-fish.pref.kochi.lg.jp/news/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%BF%E3%81%AA%E3%81%BF%E4%B8%B8%E3%80%80%E6%A3%AE%E5%85%89%E7%A4%BE%E9%95%B7/) | 県の既存記事を検索で確認。通常TLSで証明書期限切れ。検証を無効化せずHOLD。Archive APIにも保存版なし。 |
 | 2 | 日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選 | PDF移転 | 20 | RECOVERED | [元URL](https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf) / [移転先](https://www.city.chikugo.lg.jp/var/rev0/0056/6602/1191179333.pdf) | 筑後市の現行資料一覧から同名PDFを取得。表題・発行主体・残したい方言50選の20語を照合（PDF 3〜4頁）。 |
 | 3 | 全国方言辞典（佐藤亮一編・三省堂／goo辞書掲載）「つか（香川の方言）」 | DNS解決失敗 | 2 | RECOVERED_ARCHIVE | [元URL](https://dictionary.goo.ne.jp/leaf/dialect/2928/m0u/) / [保存版](https://web.archive.org/web/20250620210444/https://dictionary.goo.ne.jp/leaf/dialect/2928/m0u/) | 保存版の「つか」本文に意味「下さい」、東讃では「いた」と明記。辞書の資料格付けは変更しない。 |
 | 4 | 宮崎市文化財関係公開資料（地域の地名伝承） | HTTP 404 | 1 | RECOVERED_ARCHIVE | [元URL](https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf) / [保存版](https://web.archive.org/web/20241215072559/https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf) | 保存PDF 28頁（本文25頁）ヅンブリ島伝説に語形・水を被る意味・田吉の地域を確認。 |
@@ -59,3 +59,26 @@ Lighthouse 13.4.1（axeによる自動検査を含む）、Chrome headless、モ
 生成URL 2,316：index 1,044、noindex 1,270、redirect 2。audit:siteのnoindex=1,272は転送HTML2件を含む表示。
 H1欠落0、パンくず不存在0、broken internal links 0、orphan 0、canonical不整合0、構造化データ不正0、sitemap 1,044・不整合0。
 Phase 1の51 testsを維持し、端末内メモの分離保存・破損データ、未確認表示・作業メモ除外を追加。lint/typecheck/test/buildと全URLの軽量静的監査を実施。全国JSON 1,628件validationはerrors=0、既存未確認例文など809warningsを保持。
+
+## 本番反映後の結果
+
+Vercel公式CLIのリモートビルド・生成検査が成功。2026-09-08にdeployment dpl_D4Zip1prRmzb6ebEJAy7MbudemHF（https://kotobanochizu-26vksy339-catholic-web.vercel.app）をproductionへpromote成功。
+[kotobanochizu.jp](https://kotobanochizu.jp/)で最終CSS index-Cnay0zAh.css、ホーム紹介、footer、地図、検索、福岡県、福岡市周辺、筑後の修復語、大田の保存版、編集方針、404を実ブラウザ確認。代表9ページはH1各1、canonical・robots正当、不要デモなし、モバイル横はみ出しなし。編集方針の遅延読込後もH1・本文の表示を確認した。
+県・地域補足文を再修正し、最終のローカル自動Accessibilityはhome/map/search/word/prefecture/region/memo/policyの8ページすべて100。本番4ページも100。スコアは包括的アクセシビリティ適合の証明ではない。
+
+### 本番Lighthouse（モバイル、同じシミュレーション設定）
+
+| ページ | Performance 前→後 | LCP 前→後 | TBT 前→後 | CLS 後 | Accessibility 前→後 |
+|---|---|---|---|---|---|
+| home | 76→60 | 3.43s→5.93s | 517→252ms | 0 | 95→100 |
+| map | 58→72 | 5.67s→3.93s | 346→330ms | 0 | 95→100 |
+| search | 62→63 | 5.14s→5.00s | 426→416ms | 0 | 94→100 |
+| word | 65→62 | 4.98s→5.73s | 357→366ms | 0 | 96→100 |
+
+ホーム再測定：64点、LCP 5.43s、TBT339ms。単語再測定：65点、LCP5.30s、TBT330ms。初回計測の不利な結果も保持した。地図の改善とホームのJSブロッキング減少は確認できたが、全ページのLCP改善は達成していない。ホームのLCPは改修前より遅く、残課題として扱う。実利用INP・CrUXは未取得で、Core Web Vitals合格を宣言しない。
+初期アプリJSは198,048→134,562 bytes（非圧縮、約32%減）。フォント/画像追加なし。残る主なコストは全カタログの初期ロード、React再描画、GA4。GA4の描画後ロードもローカル実験したが、Performance47点のままで改善根拠がなく採用していない。元のGA4設定・読込を保持。本番のLighthouseでGA4スクリプトの読込も確認。
+[Googleの第三者スクリプト最適化資料](https://web.dev/articles/efficiently-load-third-party-javascript)を参考に検討したが、計測データを犠牲にする変更や根拠のない大規模hydration改修は採用しなかった。閲覧不能や大きなレイアウト移動は検出されていないが、低速モバイル条件のLCPには継続改善が必要。
+
+最終採用コードのテストは55件（既存51+追加4）。実験時のみ追加した2件は不採用コードとともに取り除いた。lint/typecheck/test/build成功。最終本番の軽量crawl結果はreports/site-audit/phase2-production.jsonに保存。
+
+本番軽量crawlの最終結果：2,316 URL、index1,044 / noindex1,270 / redirect2。HTTP失敗・H1欠落・パンくず不存在・内部リンク切れ・孤立・canonical不整合はすべて0。本番検索入力後の0件案内と、本番地図のキーボード選択も確認済み。
