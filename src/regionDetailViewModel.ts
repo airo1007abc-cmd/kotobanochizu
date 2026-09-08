@@ -46,7 +46,7 @@ export function createRegionDetailViewModel(region: Region, prefecture: Prefectu
     prefecture: { id: prefecture.id, name: prefecture.name, area: prefecture.area },
     dialectCount: dialects.length, sourcedCount, confirmedCount, needsReviewCount: dialects.length - confirmedCount,
     languageVarieties: varieties.map((id) => ({ id, label: labels[id] })), municipalities,
-    featuredWords: ranked.slice(0, 6).map((item) => ({ id: item.id, word: item.phrase, reading: text(item.reading), meaning: item.standardJapanese, municipality: text(item.municipality), verificationLabel: confirmed(item) ? "参照確認" : "確認継続中" })),
+    featuredWords: ranked.slice(0, 6).map((item) => ({ id: item.id, word: item.phrase, reading: text(item.reading), meaning: item.standardJapanese, municipality: text(item.municipality), verificationLabel: confirmed(item) ? "資料確認" : "確認継続中" })),
     siblingRegions: siblings.map((item) => ({ id: item.id, name: item.name, dialectCount: prefectureDialects.filter((dialect) => dialect.regionId === item.id).length, current: item.id === region.id })),
     hasWords: dialects.length > 0, hasSources: sourcedCount > 0, hasLocations: municipalities.length > 0,
     searchTarget: `/search?pref=${prefecture.id}&region=${encodeURIComponent(region.id)}`,

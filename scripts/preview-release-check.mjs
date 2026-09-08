@@ -19,23 +19,23 @@ for (const path of required) {
   );
 }
 
-const sourceFiles = ["src/App.tsx", "src/Corrections.tsx", "src/LegalPages.tsx"];
+const sourceFiles = ["src/App.tsx", "src/Corrections.tsx", "src/LegalPages.tsx", "src/LocalMemo.tsx"];
 const source = (
   await Promise.all(sourceFiles.map((path) => readFile(join(root, path), "utf8")))
 ).join("\n");
-for (const phrase of ["公開プレビュー", "確認待ち", "端末内デモ受付"]) {
+for (const phrase of ["資料と確認状態について", "この端末に保存する", "運営者へ送信"]) {
   if (!source.includes(phrase)) failures.push(`表示文言「${phrase}」がありません`);
 }
 
 console.log(
   JSON.stringify(
     {
-      status: failures.length ? "BLOCKED" : "PREVIEW_READY",
-      scope: "未確認データを明示した公開プレビュー",
+      status: failures.length ? "BLOCKED" : "EDITORIAL_READY",
+      scope: "資料ごとの確認範囲と端末内保存を明示した公開サイト",
       warnings: [
         "文化資料としての正式公開判定ではありません",
-        "投稿・訂正は運営者へ送信されず端末内にのみ保存されます",
-        "運営主体・問い合わせ先が未設定の場合は未確定表示になります",
+        "ことばのメモは端末内保存。訂正の受付フォームはありません",
+        "運営主体・問い合わせ先が未設定の場合は掲載されていないことを明示します",
       ],
       failures,
     },

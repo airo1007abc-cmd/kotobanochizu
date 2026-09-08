@@ -1,0 +1,13 @@
+{"i":0,"status":35,"response":"000  https://kochike-fish.pref.kochi.lg.jp/news/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%BF%E3%81%AA%E3%81%BF%E4%B8%B8%E3%80%80%E6%A3%AE%E5%85%89%E7%A4%BE%E9%95%B7/","error":"curl: (35) schannel: next InitializeSecurityContext failed: SEC_E_CERT_EXPIRED (0x80090328) - ��M�����ؖ����̊������؂�Ă��܂��B\r\n"}
+{"i":1,"status":0,"response":"404 text/html; charset=UTF-8 https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf","error":""}
+{"i":2,"status":6,"response":"000  https://dictionary.goo.ne.jp/leaf/dialect/2928/m0u/","error":"curl: (6) Could not resolve host: dictionary.goo.ne.jp\r\n"}
+{"i":3,"status":0,"response":"404 text/html; charset=UTF-8 https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf","error":""}
+{"i":4,"status":0,"response":"404 text/html https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf","error":""}
+{"i":5,"status":0,"response":"404 text/html https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf","error":""}
+{"i":6,"status":6,"response":"000  https://saseboechan.com/2020/05/04/sasebobenrecapep202005/","error":"curl: (6) Could not resolve host: saseboechan.com\r\n"}
+{"i":7,"status":6,"response":"000  https://saseboechan.com/2020/05/15/sasebobenrecapep202005-2/","error":"curl: (6) Could not resolve host: saseboechan.com\r\n"}
+{"i":8,"status":6,"response":"000  https://www2.pref.okinawa.jp/oki/Gikairep1.nsf/481e05e7edaca1db49256f540004c033/424a296377bce4ab4925719200247dae?Click=&OpenDocument=","error":"curl: (6) Could not resolve host: www2.pref.okinawa.jp\r\n"}
+{"i":9,"status":0,"response":"404 text/html https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf","error":""}
+{"i":10,"status":0,"response":"404 text/html; charset=utf-8 https://www.city.yatsushiro.lg.jp/dynamic/_error/error404.aspx","error":""}
+{"i":11,"status":0,"response":"404 text/html;charset=utf-8 https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf","error":""}
+{"i":12,"status":0,"response":"404 text/html https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf","error":""}

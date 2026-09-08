@@ -37,7 +37,7 @@ export function RegionDetailV2({ vm }: { vm: RegionDetailViewModel }) {
             </div>
             <div>
               <strong>{vm.confirmedCount}</strong>
-              <span>参照確認</span>
+              <span>資料確認</span>
             </div>
             <div>
               <strong>{vm.sourcedCount}</strong>
@@ -107,7 +107,7 @@ export function RegionDetailV2({ vm }: { vm: RegionDetailViewModel }) {
       ) : (
         <section className="region-v2-empty">
           <span className="eyebrow">ARCHIVE STATUS</span>
-          <h2>収録準備中</h2>
+          <h2>この地域の記録はありません</h2>
           <p>
             この地域区分には、現在公開できることばの記録がありません。県内のほかの地域から探索できます。
           </p>
@@ -140,7 +140,7 @@ export function RegionDetailV2({ vm }: { vm: RegionDetailViewModel }) {
               <strong>確認状況</strong>
               <p>
                 {vm.sourcedCount}語に出典情報、{vm.confirmedCount}
-                語に参照確認があります。
+                語に資料確認があります。
               </p>
             </div>
           </div>

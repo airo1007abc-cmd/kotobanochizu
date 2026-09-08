@@ -1,4 +1,5 @@
 import type { Dialect, SourceMetadata } from "./domain";
+import { recordDescription, isEditorialExampleNotice } from "./editorialDisplay";
 
 const missingTokens = new Set(["unknown", "null", "undefined", "未記録"]);
 const scopeLabels: Record<string, string> = {
@@ -74,6 +75,7 @@ const normalizeExamples = (dialect: Dialect & FutureDialectFields): DialectDetai
     const dialectText = optionalText(record.dialect ?? record.exampleDialect);
     const standardText = optionalText(record.standard ?? record.exampleStandard);
     if (!dialectText || !standardText) return [];
+    if (isEditorialExampleNotice(dialectText)) return [];
     const key = `${dialectText}\u0000${standardText}`;
     if (seen.has(key)) return [];
     seen.add(key);
@@ -145,7 +147,7 @@ export function createDialectDetailViewModel(
     word: optionalText(dialect.phrase) ?? "表記確認中",
     reading: optionalText(dialect.reading),
     meanings,
-    description: optionalText(dialect.description),
+    description: optionalText(recordDescription(dialect.description)),
     nuance: optionalText(dialect.nuance),
     examples,
     prefecture: { id: dialect.prefectureId, name: prefectureName },

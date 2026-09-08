@@ -1,9 +1,6 @@
 import {
-  Building2,
-  GraduationCap,
   HeartHandshake,
   Scale,
-  Sparkles,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -14,7 +11,7 @@ export function Sustainability() {
         <span className="eyebrow">SUSTAINABLE CULTURE</span>
         <h1>文化を閉じずに、続けていく。</h1>
         <p>
-          調べるための基本機能を無料で開きながら、収録・確認・保存に必要な費用を、個人支援と組織向けサービスで支える方針です。
+          調べるための基本機能を無料で開きながら、収録・確認・保存を続けるための方針を示しています。有料プランや寄付の受付は行っていません。
         </p>
       </div>
       <div className="public-promise">
@@ -26,35 +23,6 @@ export function Sustainability() {
             文化資料への入口を有料の壁で閉じません。料金が発生する場合は、追加の保存容量、教材運用、共同制作、専門的なデータ提供など、明確な付加価値に対して設定します。
           </p>
         </div>
-      </div>
-      <div className="revenue-grid">
-        <article>
-          <Sparkles />
-          <small>INDIVIDUAL</small>
-          <h2>個人サポーター</h2>
-          <p>
-            広告なし、学習履歴同期、家族アーカイブの追加容量など。正式価格は原価と需要を検証してから提示します。
-          </p>
-          <span>公開後の検証候補</span>
-        </article>
-        <article>
-          <Building2 />
-          <small>REGIONAL</small>
-          <h2>自治体・文化施設</h2>
-          <p>
-            共同収録、地域特集、展示、観光音声ガイド。話者への謝礼と地域への成果還元を見積に含めます。
-          </p>
-          <span>最初に検証する収益源</span>
-        </article>
-        <article>
-          <GraduationCap />
-          <small>EDUCATION</small>
-          <h2>教育・研究</h2>
-          <p>
-            教材、教員向け運用、権利処理済みデータセット、研究API。利用範囲と再配布条件を契約単位で管理します。
-          </p>
-          <span>連携先と共同設計</span>
-        </article>
       </div>
       <div className="policy-copy">
         <h2>収益化で守る5つの原則</h2>

@@ -74,6 +74,9 @@ const render = async (page) => {
     '<div id="root"></div>',
     `<div id="root">${await renderPage(page.path)}</div>`,
   );
+  if (page.path === "/prefectures" || /^\/(prefectures|regions|dialects)\//.test(page.path)) {
+    html = html.replace("</head>", '<link rel="preload" href="/japan-prefectures.svg" as="fetch" crossorigin="anonymous" /></head>');
+  }
   return html;
 };
 for (const [i, page] of allPageMetadata.entries()) {

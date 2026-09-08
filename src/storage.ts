@@ -41,6 +41,12 @@ const collection = (key: string) => ({
   },
 });
 export const favorites = collection("kotoba:favorites:v1");
+type LocalNote = { id: string; phrase: string; detail: string };
+const isNotes = (value: unknown): value is LocalNote[] => Array.isArray(value) && value.length <= 50 && value.every(item => item && typeof item.id === "string" && typeof item.phrase === "string" && typeof item.detail === "string");
+export const memoStore = {
+  all: () => readJson("kotoba:memos:v1", [], isNotes),
+  save: (notes: LocalNote[]) => isNotes(notes) && writeJson("kotoba:memos:v1", notes),
+};
 export const regionFavorites = collection("kotoba:region-favorites:v1");
 export const recentDialects = {
   all: () => readJson("kotoba:recent:v1", [], isStrings),

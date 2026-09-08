@@ -1,3 +1,5 @@
+import { SourceAvailability } from "./SourceAvailability";
+import { recordDescription } from "./editorialDisplay";
 import { NotFound } from "./NotFound";
 import { lazy, Suspense, useEffect, useState } from "react";
 import {
@@ -24,6 +26,8 @@ import {
   Layers3,
   ShieldCheck,
 } from "lucide-react";
+import { allPageMetadata, isIndexableDialect } from "./seo";
+import { ArchiveConversation, ConversationSources, ArchivedQuiz } from "./PublicArchivePages";
 import { PageHead } from "./PageHead";
 import { repository } from "./repository";
 import { JapanPrefectureMap } from "./JapanPrefectureMap";
@@ -35,16 +39,11 @@ import { RegionDetailV2 } from "./RegionDetailV2";
 import { createRegionDetailViewModel } from "./regionDetailViewModel";
 import { shouldUseRegionDetailV2 } from "./regionDetailVersion";
 import { USE_DIALECT_DETAIL_V2 } from "./dialectDetailVersion";
-import {
-  createSubmission,
-  submissionSchema,
-  type SubmissionInput,
-} from "./submission";
+import { LocalMemo } from "./LocalMemo";
 import {
   favorites,
   reactionStore,
   recentDialects,
-  submissionStore,
 } from "./storage";
 import { hasPublishableAudio, type Dialect } from "./domain";
 import { isPreview, siteConfig } from "./siteConfig";
@@ -93,18 +92,19 @@ const Sustainability = lazy(() =>
 const Corrections = lazy(() =>
   import("./Corrections").then((module) => ({ default: module.Corrections })),
 );
+const contextLabel = (value: string) => ({ greeting: "挨拶", thanks: "お礼", visitor_greeting: "来訪時の挨拶", farewell: "別れの挨拶" }[value] ?? value);
 const prefName = (id: string) =>
   repository.prefectures().find((p) => p.id === id)?.name ?? "";
 const regionName = (id: string) =>
   repository.regions().find((r) => r.id === id)?.name ?? "";
 const verificationLabel = (status: Dialect["verificationStatus"]) =>
   status === "needs_review"
-    ? "要確認候補"
+    ? "資料を確認中"
     : status === "demo_candidate" || status === "demo"
-      ? "デモ使用例"
+      ? "資料未確認の旧使用例"
       : status === "community_confirmed" || status === "community"
-        ? "地域確認"
-        : "参照確認";
+        ? "話者による確認あり"
+        : "資料による確認あり";
 function Shell() {
   return (
     <>
@@ -114,7 +114,7 @@ function Shell() {
       </a>
       {isPreview && (
         <div className="preview-banner" role="status">
-          <b>公開プレビュー</b>
+          <b>資料と確認状態について</b>
           <span>
             資料確認済みの記録と確認待ちの候補を区別して掲載しています。各語の出典と確認範囲をご覧ください。
           </span>
@@ -125,19 +125,19 @@ function Shell() {
         <Link className="brand" to="/">
           <span>こ</span>ことばの地図
         </Link>
-        <nav>
+        <nav aria-label="主なメニュー">
           <NavLink to="/prefectures">地域を探す</NavLink>
           <NavLink to="/search">ことば検索</NavLink>
           <NavLink to="/compare">全国くらべ</NavLink>
           <NavLink to="/meanings">意味の地図</NavLink>
-          <NavLink to="/quiz">クイズ</NavLink>
+          <NavLink to="/editorial-policy">編集方針</NavLink>
         </nav>
         <Link className="button small" to="/submit">
           <Send size={17} />
-          ことばを残す
+          ことばをメモする
         </Link>
       </header>
-      <main id="main-content">
+      <main id="main-content" tabIndex={-1}>
         <Suspense
           fallback={
             <div className="route-loading" role="status">
@@ -200,17 +200,17 @@ function Shell() {
             <Link to="/editorial-policy">編集方針と信頼性</Link>
             <Link to="/for-organizations">自治体・教育・研究機関の方へ</Link>
             <Link to="/sustainability">文化を支える仕組み</Link>
-            <Link to="/submit">ことばを残す</Link>
+            <Link to="/submit">ことばをメモする</Link>
             <Link to="/privacy">プライバシー</Link>
-            <Link to="/terms">利用・投稿・権利</Link>
-            <Link to="/corrections">訂正・権利の申請</Link>
+            <Link to="/terms">利用と権利</Link>
+            <Link to="/corrections">訂正・問い合わせについて</Link>
           </div>
         </div>
         <p className="muted">
           掲載内容は地域・家庭・世代で異なる使用例です。確認状態と出典を明示し、未確認情報を監修済み資料として扱いません。
         </p>
         <p className="muted site-operator">
-          運営：{siteConfig.operatorName ?? "公開準備チーム（正式名称は確定後に掲載）"}
+          {siteConfig.operatorName ? `運営：${siteConfig.operatorName}` : "ことばの地図については編集方針をご覧ください。"}
           {siteConfig.supportEmail && (
             <>
               {" · "}
@@ -231,7 +231,7 @@ function Shell() {
 }
 function MobileNav() {
   return (
-    <nav className="mobile-nav">
+    <nav className="mobile-nav" aria-label="モバイルメニュー">
       <NavLink to="/">
         <HomeIcon />
         ホーム
@@ -250,14 +250,15 @@ function MobileNav() {
       </NavLink>
       <NavLink to="/submit">
         <Send />
-        投稿
+        メモ
       </NavLink>
     </nav>
   );
 }
 function Home() {
-  const featured = repository.dialects().filter(d=>d.source?.url && d.source.evidenceScopes?.includes("meaning")).slice(0, 3),
-    talk = repository.conversations()[0];
+  const featured = repository.dialects().filter(isIndexableDialect).slice(0, 3);
+  const spotlight = featured[0];
+  const comparisons = allPageMetadata.filter(p => p.indexable && p.path.startsWith("/meanings/")).slice(0, 3);
   return (
     <>
       <section className="hero">
@@ -294,17 +295,11 @@ function Home() {
           </div>
         </div>
         <aside className="speech">
-          <span className="tape">今日のことば</span>
-          <p>なんしようと？</p>
-          <small>何をしているの？</small>
-          <div>
-            <span className="badge">福岡市周辺</span>
-            <button disabled aria-label="音声サンプル未収録">
-              <Volume2 />
-              音声未収録
-            </button>
-          </div>
-          <i>※ デモコンテンツ</i>
+          <span className="tape">資料からひとこと</span>
+          <p>{spotlight.phrase}</p>
+          <small>{spotlight.standardJapanese}</small>
+          <div><span className="badge">{spotlight.municipality || regionName(spotlight.regionId)}</span></div>
+          <Link to={`/dialects/${spotlight.id}`}>記録と出典を読む <ArrowRight /></Link>
         </aside>
       </section>
       <section className="archive-manifesto">
@@ -352,9 +347,9 @@ function Home() {
         <div className="title">
           <div>
             <small>どんな声を思い出す？</small>
-            <h2 id="situation-title">暮らしの場面から聞いてみる</h2>
+            <h2 id="situation-title">暮らしの場面から探す</h2>
           </div>
-          <Link to="/conversations">会話をすべて見る →</Link>
+          <Link to="/conversations">会話・発話資料を読む →</Link>
         </div>
         <div className="situation-scroll">
           {[
@@ -386,47 +381,13 @@ function Home() {
           ))}
         </div>
       </section>
-      <section className="warm">
-        <Title
-          eyebrow="会話から感じる"
-          title="人の声が聞こえることば"
-          link="/conversations"
-        />
-        <Link to={`/conversations/${talk.id}`} className="talk-card">
-          <div className="video">
-            <MessageCircle />
-            <span>音声・字幕デモ</span>
-          </div>
-          <div>
-            <span className="badge">
-              {prefName(talk.prefectureId)}・{regionName(talk.regionId)}
-            </span>
-            <h3>{talk.title}</h3>
-            <p>{talk.description}</p>
-            {talk.lines.slice(0, 2).map((l, i) => (
-              <blockquote key={i}>
-                <b>{l.speaker}</b>「{l.dialectText}」
-              </blockquote>
-            ))}
-          </div>
-        </Link>
-      </section>
-      <section>
+  <section>
         <Title
           eyebrow="同じ気持ち、ちがう響き"
           title="日本中の言い方をくらべよう"
           link="/compare"
         />
-        <div className="compare-preview">
-          {repository
-            .comparisons()
-            .slice(0, 3)
-            .map((x) => (
-              <Link to="/compare" key={x.id}>
-                <small>{x.prompt}</small>
-                <strong>{x.entries.map((e) => e.phrase).join("　/　")}</strong>
-              </Link>
-            ))}
+        <div className="compare-preview">{comparisons.map(page => <Link to={page.path} key={page.path}><strong>{page.title.replace('｜ことばの地図','')}</strong><small>地域ごとの記録と資料を読む</small></Link>)}
         </div>
       </section>
       <section className="contribute">
@@ -434,11 +395,11 @@ function Home() {
         <div>
           <h2>あなたの家のことばも、地図のひとつ。</h2>
           <p>
-            正解を決める投稿ではありません。地域・家庭・世代で使われる一つの例として、教えてください。
+            思い出したことばを、この端末にメモできます。サイトへの送信・公開はされません。
           </p>
         </div>
         <Link className="button" to="/submit">
-          ことばを残す
+          ことばをメモする
         </Link>
       </section>
     </>
@@ -476,7 +437,7 @@ function DialectCard({ d }: { d: Dialect }) {
       </div>
       <h3>{d.phrase}</h3>
       <p className="translation">「{d.standardJapanese}」</p>
-      <p>{d.description}</p>
+      <p>{recordDescription(d.description)}</p>
       <div className="tags">
         {d.emotionTags.map((t) => (
           <span key={t}>#{t}</span>
@@ -590,7 +551,7 @@ function Prefecture() {
           </div>
         </>
       ) : (
-        <Empty text="この県のデモコンテンツは準備中です。あなたの地域のことばを教えてください。" />
+        <Empty text="この条件に合う記録はありません。地域や検索条件を変えてお探しください。" />
       )}
     </section>
   );
@@ -702,7 +663,7 @@ function DialectDetail() {
             )}
           </div>
           <h2>ことばのニュアンス</h2>
-          <p>{d.description}</p>
+          <p>{recordDescription(d.description)}</p>
           <section className="record-meta" aria-labelledby="record-meta-title">
             <div className="record-meta-head">
               <div>
@@ -727,7 +688,7 @@ function DialectDetail() {
               </div>
               <div>
                 <dt>使われる場面</dt>
-                <dd>{d.usageContexts.join("、")}</dd>
+                <dd>{d.usageContexts.map(contextLabel).join("、")}</dd>
               </div>
               <div>
                 <dt>使用頻度</dt>
@@ -746,8 +707,9 @@ function DialectDetail() {
                       {d.source.organization ? `（${d.source.organization}）` : ""}
                     </a>
                   ) : (
-                    (d.source?.title ?? d.source?.note ?? "出典確認前のデモ使用例")
+                    (d.source?.title ?? d.source?.note ?? "資料未確認の旧使用例")
                   )}
+                  <SourceAvailability url={d.source?.url} />
                 </dd>
               </div>
               <div>
@@ -782,6 +744,7 @@ function DialectDetail() {
                     ) : (
                       source.title
                     )}
+                    <SourceAvailability url={source.url} />
                   </dd>
                 </div>
               ))}
@@ -828,7 +791,7 @@ function DialectDetail() {
           ) : (
             <div className="audio-pending">
               <Volume2 />
-              <b>音声は準備中です</b>
+              <b>音声は収録していません</b>
               <p>収録・公開同意と撤回窓口を確認できた音声だけを掲載します。</p>
             </div>
           )}
@@ -891,90 +854,8 @@ function DialectDetailV2Preview() {
   if (!dialect) return <NotFound />;
   return <DialectDetailV2 dialect={dialect} />;
 }
-function Conversations() {
-  return (
-    <section>
-      <div className="page-head">
-        <span className="eyebrow">暮らしの場面から</span>
-        <h1>地域の会話</h1>
-        <p>
-          単語だけでは伝わらない間合いや温度を、短い会話から感じてみましょう。
-        </p>
-      </div>
-      <div className="card-grid">
-        {repository.conversations().map((c) => (
-          <Link className="card" to={`/conversations/${c.id}`} key={c.id}>
-            <span className="badge">
-              {prefName(c.prefectureId)}・{regionName(c.regionId)}
-            </span>
-            <h3>{c.title}</h3>
-            <p>{c.description}</p>
-            <small>
-              {c.usageContext}・話者 {c.speakers.length}人
-            </small>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-}
-function ConversationDetail() {
-  const { id } = useParams(),
-    c = repository.conversation(id ?? "");
-  const [standard, setStandard] = useState(true);
-  if (!c) return <NotFound />;
-  return (
-    <section>
-      <Breadcrumb>
-        <Link to="/conversations">会話</Link> / {c.title}
-      </Breadcrumb>
-      <div className="page-head">
-        <span className="badge">
-          {prefName(c.prefectureId)}・{regionName(c.regionId)}
-        </span>
-        <h1>{c.title}</h1>
-        <p>{c.description}</p>
-      </div>
-      <div className="subtitle-toggle">
-        <button
-          className={!standard ? "selected" : ""}
-          onClick={() => setStandard(false)}
-        >
-          方言だけ
-        </button>
-        <button
-          className={standard ? "selected" : ""}
-          onClick={() => setStandard(true)}
-        >
-          標準語訳つき
-        </button>
-      </div>
-      <div className="dialogue">
-        {c.lines.map((l, i) => (
-          <div className={i % 2 ? "right" : ""} key={i}>
-            <small>{l.speaker}</small>
-            <p>
-              {l.dialectId ? (
-                <Link to={`/dialects/${l.dialectId}`}>{l.dialectText}</Link>
-              ) : (
-                l.dialectText
-              )}
-            </p>
-            {standard && <span>{l.standardText}</span>}
-          </div>
-        ))}
-      </div>
-      <div className="notice">
-        字幕情報を添えたデモ会話です。音声・動画は権利と同意を確認した素材のみ掲載する方針です。
-      </div>
-      <p className="correction-action">
-        <Link to={`/corrections?conversation=${encodeURIComponent(c.id)}`}>
-          この会話の訂正・権利について知らせる
-        </Link>
-      </p>
-    </section>
-  );
-}
+function Conversations() { return <ConversationSources />; }
+function ConversationDetail() { const {id} = useParams(); return <ArchiveConversation id={id ?? ''} />; }
 function SearchPage() {
   const [params, setParams] = useSearchParams();
   const q = params.get("q") ?? "",
@@ -1074,10 +955,10 @@ function SearchPage() {
           >
             <option value="">すべて</option>
             {context && !contexts.includes(context) && (
-              <option>{context}</option>
+              <option value={context}>{contextLabel(context)}</option>
             )}
             {contexts.map((item) => (
-              <option key={item}>{item}</option>
+              <option key={item} value={item}>{contextLabel(item)}</option>
             ))}
           </select>
         </label>
@@ -1088,10 +969,10 @@ function SearchPage() {
             onChange={(e) => setFilter("status", e.target.value)}
           >
             <option value="">すべて</option>
-            <option value="needs_review">要確認候補</option>
-            <option value="demo">デモ使用例</option>
-            <option value="community_confirmed">地域確認</option>
-            <option value="reference_confirmed">参照確認</option>
+            <option value="needs_review">資料を確認中</option>
+            <option value="demo">資料未確認の旧使用例</option>
+            <option value="community_confirmed">話者による確認あり</option>
+            <option value="reference_confirmed">資料による確認あり</option>
           </select>
         </label>
         {(q || pref || region || age || context || status) && (
@@ -1103,6 +984,7 @@ function SearchPage() {
           </button>
         )}
       </div>
+      <h2 className="sr-only">検索結果</h2>
       <div className="result-summary" id="search-results" aria-live="polite">
         <p>
           <strong>{result.length}</strong>件の使用例
@@ -1121,114 +1003,8 @@ function SearchPage() {
     </section>
   );
 }
-function Compare() {
-  return (
-    <section>
-      <div className="page-head">
-        <span className="eyebrow">同じ気持ち、ちがう響き</span>
-        <h1>全国ことばくらべ</h1>
-        <p>
-          同じ場面のひとことを、福岡・大阪・青森の使用例で比べてみましょう。
-        </p>
-      </div>
-      <div className="comparison-list">
-        {repository.comparisons().map((x) => (
-          <article key={x.id}>
-            <h2>「{x.prompt}」</h2>
-            <div>
-              {x.entries.map((e) => (
-                <Link
-                  to={`/prefectures/${e.prefectureId}`}
-                  key={e.prefectureId}
-                >
-                  <small>{prefName(e.prefectureId)}</small>
-                  <strong>{e.phrase}</strong>
-                </Link>
-              ))}
-            </div>
-          </article>
-        ))}
-      </div>
-    </section>
-  );
-}
-function Quiz() {
-  const qs = repository.quizzes();
-  const [index, setIndex] = useState(0),
-    [chosen, setChosen] = useState<number>(),
-    [score, setScore] = useState(0);
-  if (index >= qs.length)
-    return (
-      <section className="quiz-result">
-        <Sparkles />
-        <h1>
-          {qs.length}問中 {score}問正解！
-        </h1>
-        <p>ことばの違いを楽しんでくれて、ありがとうございます。</p>
-        <button
-          className="button"
-          onClick={() => {
-            setIndex(0);
-            setScore(0);
-            setChosen(undefined);
-          }}
-        >
-          もう一度あそぶ
-        </button>
-      </section>
-    );
-  const q = qs[index];
-  return (
-    <section className="quiz">
-      <span className="eyebrow">
-        ことばクイズ　{index + 1} / {qs.length}
-      </span>
-      <div className="progress">
-        <i style={{ width: `${(index / qs.length) * 100}%` }} />
-      </div>
-      <h1>{q.question}</h1>
-      <div className="choices">
-        {q.choices.map((c, i) => (
-          <button
-            disabled={chosen !== undefined}
-            className={
-              chosen === undefined
-                ? ""
-                : i === q.answer
-                  ? "correct"
-                  : i === chosen
-                    ? "wrong"
-                    : ""
-            }
-            onClick={() => {
-              setChosen(i);
-              if (i === q.answer) setScore((s) => s + 1);
-            }}
-            key={c}
-          >
-            <span>{"ABCD"[i]}</span>
-            {c}
-          </button>
-        ))}
-      </div>
-      {chosen !== undefined && (
-        <div className="answer">
-          <b>{chosen === q.answer ? "正解！" : "おしい！"}</b>
-          <p>{q.explanation}</p>
-          <button
-            className="button"
-            onClick={() => {
-              setIndex((x) => x + 1);
-              setChosen(undefined);
-            }}
-          >
-            次の問題へ
-          </button>
-        </div>
-      )}
-    </section>
-  );
-}
+function Compare() { return <section><div className="page-head"><h1>全国ことばくらべ</h1><p>意味ごとに、資料で確認された地域の表現をたどれます。</p></div><Link className="button" to="/meanings">意味から地域の記録を比べる</Link></section>; }
+function Quiz() { return <ArchivedQuiz />; }
 function Favorites() {
   const [, render] = useState(0),
     items = repository.dialects().filter((d) => favorites.has(d.id));
@@ -1262,252 +1038,15 @@ function Favorites() {
     </section>
   );
 }
-function Submit() {
-  const [pref, setPref] = useState(""),
-    [done, setDone] = useState(false),
-    [preview, setPreview] = useState<SubmissionInput | null>(null),
-    [errors, setErrors] = useState<string[]>([]);
-  if (done)
-    return (
-      <section className="quiz-result">
-        <Sparkles />
-        <h1>ことばを受け取りました</h1>
-        <p>
-          投稿は端末内のデモ受付として扱われ、公開はされません。地域のことばを残してくださり、ありがとうございます。
-        </p>
-        <Link className="button" to="/">
-          ホームへ戻る
-        </Link>
-      </section>
-    );
-  if (preview)
-    return (
-      <section>
-        <div className="page-head">
-          <span className="eyebrow">送信前の確認</span>
-          <h1>この「使用例」を残しますか？</h1>
-          <p>
-            正解を登録するのではなく、あなたが知っている一つの記憶として受け取ります。
-          </p>
-        </div>
-        <div className="submission-preview">
-          <span className="badge">{prefName(preview.prefectureId)}</span>
-          <h2>{preview.phrase}</h2>
-          <p className="translation">
-            標準語では「{preview.standardJapanese}」
-          </p>
-          <dl>
-            <div>
-              <dt>地域</dt>
-              <dd>{regionName(preview.regionId ?? "")}</dd>
-            </div>
-            <div>
-              <dt>使う場面</dt>
-              <dd>{preview.usageContext}</dd>
-            </div>
-            <div>
-              <dt>例文・記憶</dt>
-              <dd>{preview.example || "記載なし"}</dd>
-            </div>
-          </dl>
-          <div className="actions">
-            <button
-              className="button secondary"
-              onClick={() => setPreview(null)}
-            >
-              入力に戻る
-            </button>
-            <button
-              className="button"
-              onClick={() => {
-                submissionStore.save(createSubmission(preview));
-                setDone(true);
-              }}
-            >
-              この内容で送る
-            </button>
-          </div>
-        </div>
-      </section>
-    );
-  return (
-    <section>
-      <div className="page-head">
-        <span className="eyebrow">あなたの記憶を、未来へ</span>
-        <h1>地域のことばを教えてください</h1>
-        <p>
-          「正解」を決めるのではなく、あなたの地域・家庭・世代で使われている一つの例としてお聞きします。
-        </p>
-      </div>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          const data = Object.fromEntries(new FormData(e.currentTarget));
-          const parsed = submissionSchema.safeParse({
-            type: data.type,
-            prefectureId: data.prefectureId,
-            regionId: data.regionId,
-            phrase: data.phrase,
-            standardJapanese: data.standardJapanese,
-            example: data.example,
-            usageContext: data.usageContext,
-            ageGroup: data.ageGroup,
-            learnedFrom: data.learnedFrom,
-            stillUsed: data.stillUsed === "yes",
-            recordingConsent: false,
-            rightsOwnershipConfirmed: data.ownership === "on",
-            thirdPartyPrivacyConfirmed: data.privacy === "on",
-            publicationConsent: data.publication === "on",
-            consentVersion: "submission-consent-v1",
-          });
-          if (!parsed.success) {
-            setErrors(parsed.error.issues.map((x) => x.message));
-            return;
-          }
-          setPreview(parsed.data);
-        }}
-      >
-        <label>
-          投稿の種類
-          <select name="type">
-            <option value="dialect">方言・ことば</option>
-            <option value="conversation">会話の一場面</option>
-          </select>
-        </label>
-        <div className="form-row">
-          <label>
-            都道府県 <b>必須</b>
-            <select
-              name="prefectureId"
-              value={pref}
-              onChange={(e) => {
-                setPref(e.target.value);
-                const regionSelect = e.currentTarget.form?.elements.namedItem(
-                  "regionId",
-                ) as HTMLSelectElement | null;
-                if (regionSelect) regionSelect.value = "";
-              }}
-            >
-              <option value="">選択してください</option>
-              {repository.prefectures().map((p) => (
-                <option value={p.id} key={p.id}>
-                  {p.name}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label>
-            地域 <b>必須</b>
-            <select name="regionId" disabled={!pref}>
-              <option value="">
-                {pref ? "選択してください" : "先に都道府県を選択"}
-              </option>
-              {(pref ? repository.regions(pref) : []).map((r) => (
-                <option value={r.id} key={r.id}>
-                  {r.name}
-                </option>
-              ))}
-            </select>
-          </label>
-        </div>
-        <label>
-          ことば <b>必須</b>
-          <input name="phrase" placeholder="例：なんしようと？" />
-        </label>
-        <label>
-          標準語ではどんな意味？ <b>必須</b>
-          <input name="standardJapanese" placeholder="例：何をしているの？" />
-        </label>
-        <label>
-          使い方・例文
-          <textarea
-            name="example"
-            placeholder="どんな相手に、どんな場面で使いますか？"
-          />
-        </label>
-        <label>
-          使う場面
-          <select name="usageContext">
-            <option>日常会話</option>
-            <option>家庭</option>
-            <option>仕事</option>
-            <option>食事</option>
-            <option>お祭り・行事</option>
-          </select>
-        </label>
-        <div className="form-row">
-          <label>
-            主に使う世代
-            <select name="ageGroup">
-              <option value="">わからない</option>
-              <option>10〜30代</option>
-              <option>40〜60代</option>
-              <option>70代以上</option>
-              <option>全年代</option>
-            </select>
-          </label>
-          <label>
-            今も使いますか？
-            <select name="stillUsed">
-              <option value="yes">今も使う</option>
-              <option value="no">昔・記憶の中で使う</option>
-            </select>
-          </label>
-        </div>
-        <label>
-          誰から知りましたか？
-          <input
-            name="learnedFrom"
-            placeholder="例：祖母、地域の友人、自分の家庭"
-          />
-        </label>
-        <div className="upload">
-          <Volume2 />
-          <b>音声・動画（準備中）</b>
-          <span>保存先に接続後、安全なアップロードを提供します。</span>
-        </div>
-        <fieldset className="consent-fieldset">
-          <legend>
-            投稿前の確認 <b>すべて必須</b>
-          </legend>
-          <label className="check">
-            <input type="checkbox" name="ownership" />
-            この文章は自分の経験・記憶にもとづき、自分が提供できる内容です。
-          </label>
-          <label className="check">
-            <input type="checkbox" name="privacy" />
-            第三者の氏名、連絡先、顔、声など、許可のない個人情報を含めていません。
-          </label>
-          <label className="check">
-            <input type="checkbox" name="publication" />
-            審査のために保存され、確認状態を付けて公開される可能性があることに同意します。
-          </label>
-          <p>
-            音声・映像の公開同意は別途取得します。この同意だけで音声・映像を公開したり、商用利用したりしません。
-          </p>
-        </fieldset>
-        {errors.length > 0 && (
-          <div className="errors" role="alert">
-            {errors.map((e) => (
-              <p key={e}>{e}</p>
-            ))}
-          </div>
-        )}
-        <button className="button" type="submit">
-          内容を確認して送る
-        </button>
-      </form>
-    </section>
-  );
-}
+function Submit() { return <LocalMemo />; }
 function Empty({ text }: { text: string }) {
   return (
     <div className="empty">
       <BookOpen />
-      <h2>まだ、ここには余白があります</h2>
+      <h2>表示できる記録がありません</h2>
       <p>{text}</p>
-      <Link className="button secondary" to="/submit">
-        ことばを教える
+      <Link className="button secondary" to="/search">
+        ことばを検索する
       </Link>
     </div>
   );

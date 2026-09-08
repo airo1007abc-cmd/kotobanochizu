@@ -1,0 +1,512 @@
+{
+  "checkedAt": "2026-09-08",
+  "summary": {
+    "urls": 13,
+    "records": 42,
+    "recoveredLive": {
+      "urls": 2,
+      "records": 21
+    },
+    "recoveredArchive": {
+      "urls": 9,
+      "records": 19
+    },
+    "hold": {
+      "urls": 2,
+      "records": 2
+    }
+  },
+  "decisions": [
+    {
+      "url": "https://kochike-fish.pref.kochi.lg.jp/news/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%BF%E3%81%AA%E3%81%BF%E4%B8%B8%E3%80%80%E6%A3%AE%E5%85%89%E7%A4%BE%E9%95%B7/",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "HOLD",
+      "records": [
+        {
+          "id": "jp-39-kochi-001",
+          "indexable": true,
+          "sourceTitle": "株式会社みなみ丸 森光社長"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 1,
+      "cause": "SSL証明書期限切れ",
+      "newUrl": null,
+      "archiveUrl": null,
+      "evidence": "県の既存記事を検索で確認。通常TLSで証明書期限切れ。検証を無効化せずHOLD。",
+      "retrieval": {
+        "i": 0,
+        "status": 35,
+        "response": "000  https://kochike-fish.pref.kochi.lg.jp/news/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%BF%E3%81%AA%E3%81%BF%E4%B8%B8%E3%80%80%E6%A3%AE%E5%85%89%E7%A4%BE%E9%95%B7/",
+        "error": "curl: (35) schannel: next InitializeSecurityContext failed: SEC_E_CERT_EXPIRED (0x80090328) - ��M�����ؖ����̊������؂�Ă��܂��B\r\n"
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf",
+      "decision": "RECOVERED",
+      "records": [
+        {
+          "id": "jp-40-fukuoka-035",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-036",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-037",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-038",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-039",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-040",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-041",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-042",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-043",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-044",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-045",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-046",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-047",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-048",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-049",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-050",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-051",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-052",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-053",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        },
+        {
+          "id": "jp-40-fukuoka-054",
+          "indexable": true,
+          "sourceTitle": "日本的な言葉遣いを大切に（案）～方言（筑後弁）の校内掲示をお願いします～／残したい方言50選"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 20,
+      "cause": "PDF移転",
+      "newUrl": "https://www.city.chikugo.lg.jp/var/rev0/0056/6602/1191179333.pdf",
+      "archiveUrl": null,
+      "evidence": "筑後市の現行資料一覧から同名PDFを取得。表題・発行主体・残したい方言50選の20語を照合（PDF 3〜4頁）。",
+      "retrieval": {
+        "i": 1,
+        "status": 0,
+        "response": "404 text/html; charset=UTF-8 https://www.city.chikugo.lg.jp/var/rev0/0054/1841/1191179333.pdf",
+        "error": ""
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://dictionary.goo.ne.jp/leaf/dialect/2928/m0u/",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "RECOVERED_ARCHIVE",
+      "records": [
+        {
+          "id": "jp-37-kagawa-062",
+          "indexable": false,
+          "sourceTitle": "全国方言辞典（佐藤亮一編・三省堂／goo辞書掲載）「つか（香川の方言）」"
+        },
+        {
+          "id": "jp-37-kagawa-063",
+          "indexable": false,
+          "sourceTitle": "全国方言辞典（佐藤亮一編・三省堂／goo辞書掲載）「つか（香川の方言）」"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 2,
+      "cause": "DNS解決失敗",
+      "newUrl": null,
+      "archiveUrl": "https://web.archive.org/web/20250620210444/https://dictionary.goo.ne.jp/leaf/dialect/2928/m0u/",
+      "evidence": "保存版の「つか」本文に意味「下さい」、東讃では「いた」と明記。辞書の資料格付けは変更しない。",
+      "retrieval": {
+        "i": 2,
+        "status": 6,
+        "response": "000  https://dictionary.goo.ne.jp/leaf/dialect/2928/m0u/",
+        "error": "curl: (6) Could not resolve host: dictionary.goo.ne.jp\r\n"
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf",
+      "decision": "RECOVERED_ARCHIVE",
+      "records": [
+        {
+          "id": "jp-45-miyazaki-044",
+          "indexable": false,
+          "sourceTitle": "宮崎市文化財関係公開資料（地域の地名伝承）"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 1,
+      "cause": "HTTP 404",
+      "newUrl": null,
+      "archiveUrl": "https://web.archive.org/web/20241215072559/https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf",
+      "evidence": "保存PDF 28頁（本文25頁）ヅンブリ島伝説に語形・水を被る意味・田吉の地域を確認。",
+      "retrieval": {
+        "i": 3,
+        "status": 0,
+        "response": "404 text/html; charset=UTF-8 https://www.city.miyazaki.miyazaki.jp/fs/5/3/1/9/2/4/_/531924.pdf",
+        "error": ""
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf",
+      "decision": "RECOVERED_ARCHIVE",
+      "records": [
+        {
+          "id": "jp-45-miyazaki-058",
+          "indexable": false,
+          "sourceTitle": "延岡市立図書館公開資料（「延岡のことば」紹介）"
+        },
+        {
+          "id": "jp-45-miyazaki-059",
+          "indexable": false,
+          "sourceTitle": "延岡市立図書館公開資料（「延岡のことば」紹介）"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 2,
+      "cause": "HTTP 404",
+      "newUrl": null,
+      "archiveUrl": "https://web.archive.org/web/20240507075423/https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf",
+      "evidence": "保存PDF 1頁、Vol.152の延岡のことば紹介で2語の意味を確認。現行図書館のバックナンバーは2024年以降のみ。",
+      "retrieval": {
+        "i": 4,
+        "status": 0,
+        "response": "404 text/html https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/16087.pdf",
+        "error": ""
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf",
+      "decision": "RECOVERED_ARCHIVE",
+      "records": [
+        {
+          "id": "jp-46-kagoshima-022",
+          "indexable": true,
+          "sourceTitle": "県政広報資料（おじゃったもんせ解説）"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 1,
+      "cause": "HTTP 404",
+      "newUrl": null,
+      "archiveUrl": "https://web.archive.org/web/20220812235614/http://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf",
+      "evidence": "保存PDF 1頁（誌面31頁）の鹿児島の方言講座で語形・意味・薩摩大隅・例文を確認。",
+      "retrieval": {
+        "i": 5,
+        "status": 0,
+        "response": "404 text/html https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf",
+        "error": ""
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://saseboechan.com/2020/05/04/sasebobenrecapep202005/",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "RECOVERED_ARCHIVE",
+      "records": [
+        {
+          "id": "jp-42-nagasaki-036",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-037",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-038",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-039",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-040",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 5,
+      "cause": "DNS解決失敗",
+      "newUrl": null,
+      "archiveUrl": "https://web.archive.org/web/20260315013020/http://saseboechan.com/2020/05/04/sasebobenrecapep202005/",
+      "evidence": "同じURLの保存本文（総集編1）で5語の説明を確認。動画の発音は再確認していない。",
+      "retrieval": {
+        "i": 6,
+        "status": 6,
+        "response": "000  https://saseboechan.com/2020/05/04/sasebobenrecapep202005/",
+        "error": "curl: (6) Could not resolve host: saseboechan.com\r\n"
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://saseboechan.com/2020/05/15/sasebobenrecapep202005-2/",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "RECOVERED_ARCHIVE",
+      "records": [
+        {
+          "id": "jp-42-nagasaki-041",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-042",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-043",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-044",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        },
+        {
+          "id": "jp-42-nagasaki-045",
+          "indexable": false,
+          "sourceTitle": "Let’s speak SASEBO-BEN! 佐世保弁動画"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 5,
+      "cause": "DNS解決失敗",
+      "newUrl": null,
+      "archiveUrl": "https://web.archive.org/web/20260508114025/https://saseboechan.com/2020/05/15/sasebobenrecapep202005-2/",
+      "evidence": "同じURLの保存本文（総集編2）で5語の説明を確認。動画の発音は再確認していない。",
+      "retrieval": {
+        "i": 7,
+        "status": 6,
+        "response": "000  https://saseboechan.com/2020/05/15/sasebobenrecapep202005-2/",
+        "error": "curl: (6) Could not resolve host: saseboechan.com\r\n"
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://www2.pref.okinawa.jp/oki/Gikairep1.nsf/481e05e7edaca1db49256f540004c033/424a296377bce4ab4925719200247dae?Click=&OpenDocument=",
+      "status": 0,
+      "error": "TypeError: fetch failed",
+      "decision": "HOLD",
+      "records": [
+        {
+          "id": "jp-47-okinawa-001",
+          "indexable": true,
+          "sourceTitle": "しまくとぅば教室"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 1,
+      "cause": "DNS解決失敗",
+      "newUrl": null,
+      "archiveUrl": null,
+      "evidence": "旧議会URLはDNS失敗。Archive APIに当該URLの保存版なし。主出典の確認を取り消す根拠ではなく、追加資料の来歴のみHOLD。",
+      "retrieval": {
+        "i": 8,
+        "status": 6,
+        "response": "000  https://www2.pref.okinawa.jp/oki/Gikairep1.nsf/481e05e7edaca1db49256f540004c033/424a296377bce4ab4925719200247dae?Click=&OpenDocument=",
+        "error": "curl: (6) Could not resolve host: www2.pref.okinawa.jp\r\n"
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf",
+      "decision": "RECOVERED_ARCHIVE",
+      "records": [
+        {
+          "id": "jp-42-nagasaki-046",
+          "indexable": false,
+          "sourceTitle": "広報させぼ『カンカン山んにき』"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 1,
+      "cause": "HTTP 404",
+      "newUrl": null,
+      "archiveUrl": "https://web.archive.org/web/20230731215736/https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf",
+      "evidence": "保存PDF 1頁（誌面4〜5頁）、脚注にカンカン山んにき＝カンカン山の辺りと明記。",
+      "retrieval": {
+        "i": 9,
+        "status": 0,
+        "response": "404 text/html https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf",
+        "error": ""
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://www.city.yatsushiro.lg.jp/kiji0031915/3_1915_2059_up_s83vsuhq.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.yatsushiro.lg.jp/dynamic/_error/error404.aspx",
+      "decision": "RECOVERED_ARCHIVE",
+      "records": [
+        {
+          "id": "jp-43-kumamoto-033",
+          "indexable": true,
+          "sourceTitle": "いっそDEフェスタ2015実施概要"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 1,
+      "cause": "HTTP 404",
+      "newUrl": null,
+      "archiveUrl": "https://web.archive.org/web/20240518111553/https://www.city.yatsushiro.lg.jp/kiji0031915/3_1915_2059_up_s83vsuhq.pdf",
+      "evidence": "保存PDF 9頁、いっそDEフェスタ2015実施概要に八代地域・みんな一緒にの意味を確認。",
+      "retrieval": {
+        "i": 10,
+        "status": 0,
+        "response": "404 text/html; charset=utf-8 https://www.city.yatsushiro.lg.jp/dynamic/_error/error404.aspx",
+        "error": ""
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf",
+      "decision": "RECOVERED_ARCHIVE",
+      "records": [
+        {
+          "id": "jp-32-shimane-039",
+          "indexable": false,
+          "sourceTitle": "道の駅「ごいせ仁摩」施設案内（「ごいせ」の説明）"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 1,
+      "cause": "HTTP 404",
+      "newUrl": null,
+      "archiveUrl": "https://web.archive.org/web/20220308022058/https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf",
+      "evidence": "保存PDF 1頁を描画確認。「ごいせのはなし1」に仁摩地域・いらっしゃいませを明記。",
+      "retrieval": {
+        "i": 11,
+        "status": 0,
+        "response": "404 text/html;charset=utf-8 https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf",
+        "error": ""
+      },
+      "indexabilityChanged": false
+    },
+    {
+      "url": "https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf",
+      "status": 404,
+      "method": "GET",
+      "finalUrl": "https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf",
+      "decision": "RECOVERED",
+      "records": [
+        {
+          "id": "jp-41-saga-001",
+          "indexable": false,
+          "sourceTitle": "行ってみてひったまがった"
+        }
+      ],
+      "checkedAt": "2026-09-08",
+      "affectedRecords": 1,
+      "cause": "PDF移転",
+      "newUrl": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/003/883/_________________________2.pdf",
+      "archiveUrl": null,
+      "evidence": "千歳市移転PDF 4頁に佐賀のがばい＝すごい・とても。学校交流報告の範囲に留めnoindex維持。",
+      "retrieval": {
+        "i": 12,
+        "status": 0,
+        "response": "404 text/html https://www.city.chitose.lg.jp/fs/6/3/1/4/1/8/_/________________________.pdf",
+        "error": ""
+      },
+      "indexabilityChanged": false
+    }
+  ]
+}

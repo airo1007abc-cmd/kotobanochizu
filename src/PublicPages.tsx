@@ -1,9 +1,6 @@
 import {
-  BookOpenCheck,
-  Building2,
   Database,
   Ear,
-  Globe2,
   ShieldCheck,
 } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -35,7 +32,7 @@ export function EditorialPolicy() {
           <ShieldCheck />
           <h2>確認状態を隠さない</h2>
           <p>
-            文献確認、地域話者による確認、投稿候補、デモを区別して表示します。未確認情報を監修済みの事実として扱いません。
+            文献確認、地域話者による確認、確認途中の候補、資料未確認の旧使用例を区別して表示します。未確認情報を監修済みの事実として扱いません。
           </p>
         </article>
         <article>
@@ -60,19 +57,19 @@ export function EditorialPolicy() {
         </div>
         <div>
           <strong>{reviewed}</strong>
-          <span>確認済みとして公開可能</span>
+          <span>資料・話者の確認記録あり</span>
         </div>
         <div>
           <strong>{repository.prefectures().length}</strong>
-          <span>都道府県カバレッジ</span>
+          <span>収録する都道府県</span>
         </div>
       </div>
       <div className="policy-copy">
-        <h2>公開までの流れ</h2>
+        <h2>記録を確かめる手順</h2>
         <ol>
           <li>
             <b>受け取る</b>
-            <span>投稿を一つの記憶・使用例として受け取ります。</span>
+            <span>収集した情報を一つの記憶・使用例として扱います。</span>
           </li>
           <li>
             <b>確かめる</b>
@@ -91,14 +88,14 @@ export function EditorialPolicy() {
             <span>確度と根拠を表示し、訂正可能な記録として公開します。</span>
           </li>
         </ol>
-        <h2>現在地について</h2>
+        <h2>確認状態の読み方</h2><p>「資料による確認あり」は文献などに確認の記録があること、「話者による確認あり」は地域話者の確認があることを表します。「資料を確認中」は裏付けの確認が完了していません。読みなどが未確認の場合は、推測で補いません。</p><h2>収録状況</h2>
         <p>
           現在{repository.dialects().length}語を収録し、{reviewed}語に参照・地域確認の状態を記録しています。確認済みの項目は各語の出典欄で示します。読み・例文・世代差など未確認の情報を補完せず、県や閲覧地域の全域へ使用範囲を広げません。
         </p>
         <div className="notice">
-          誤り、地域差、表現への懸念を見つけた場合の訂正・削除窓口は、本番運営者情報の確定後に常設します。
+          確認済みという表示は、すべての項目や現在の使用範囲を保証するものではありません。各語の出典欄で「この資料で確認」の項目と注記をご覧ください。
         </div>
-        <details className="archive-links"><summary>旧デモ使用例について</summary><p>初期の画面検証に使った記録です。根拠資料として扱わず、検索エンジンの対象外にしています。</p><ul>{repository.archivedDialects().filter(d=>!['d1','d2'].includes(d.id)).map(d=><li key={d.id}><Link to={`/dialects/${d.id}`}>{d.phrase} — {d.standardJapanese}（確認前デモ）</Link></li>)}</ul></details>
+        <p><Link to="/corrections">訂正・問い合わせについて</Link></p><details className="archive-links"><summary>以前の使用例と機能について</summary><p><Link to="/conversations">会話例の掲載終了と発話資料</Link> · <Link to="/quiz">クイズの掲載終了</Link></p><p>初期の画面検証に使った記録です。根拠資料として扱わず、検索エンジンの対象外にしています。</p><ul>{repository.archivedDialects().filter(d=>!['d1','d2'].includes(d.id)).map(d=><li key={d.id}><Link to={`/dialects/${d.id}`}>{d.phrase} — {d.standardJapanese}（資料未確認）</Link></li>)}</ul></details>
       </div>
     </section>
   );
@@ -114,35 +111,12 @@ export function ForOrganizations() {
           自治体、学校、大学、博物館、図書館、地域団体とともに、記録・教育・展示に耐える地域言語アーカイブを育てます。
         </p>
       </div>
-      <div className="principle-grid">
-        <article>
-          <Building2 />
-          <h2>自治体・文化施設</h2>
-          <p>
-            住民参加型の収録、地域特集、展示用コンテンツ、観光音声ガイドの企画基盤を提供します。
-          </p>
-        </article>
-        <article>
-          <BookOpenCheck />
-          <h2>学校・大学</h2>
-          <p>
-            授業教材、地域探究、聞き取り調査、研究用エクスポートを、権利条件に合わせて設計します。
-          </p>
-        </article>
-        <article>
-          <Globe2 />
-          <h2>世界への発信</h2>
-          <p>
-            日本語学習者向けの音声、ローマ字、直訳、文化的ニュアンスを段階的に多言語化します。
-          </p>
-        </article>
-      </div>
       <div className="partnership-cta">
         <div>
-          <small>準備中の連携メニュー</small>
-          <h2>共同収録・教材・展示・データ提供</h2>
+          <small>資料の利用について</small>
+          <h2>授業や地域の調べものに</h2>
           <p>
-            公開前のため申込受付はまだ行いません。運営主体と連絡窓口の確定後、条件と費用を透明に掲載します。
+            出典リンクから発行元の資料をご確認ください。教材や展示などで資料を再利用する際は、発行元の利用条件に従ってください。現在、共同制作やデータ提供の申込受付は行っていません。
           </p>
         </div>
         <Link className="button secondary" to="/editorial-policy">

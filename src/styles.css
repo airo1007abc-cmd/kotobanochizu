@@ -2623,3 +2623,8 @@ main:has(.dialect-v2) { max-width: 1280px; }
     text-align: left;
   }
 }
+
+/* Keep supporting text readable on the paper and white surfaces. */
+.journey-grid > a > small, .mobile-nav > a, .card > small,
+.v2-source-cta > div > span { color: #566359; }
+.journey-grid > a > small { opacity: 1; }

@@ -115,8 +115,8 @@ export function MeaningAtlas() {
                   <span>{item.reading}</span>
                   <i className={`verification ${item.verificationStatus}`}>
                     {item.verificationStatus === "needs_review"
-                      ? "要確認候補"
-                      : "デモ使用例"}
+                      ? "資料を確認中"
+                      : "資料未確認の旧使用例"}
                   </i>
                   <ArrowRight />
                 </Link>
@@ -172,7 +172,7 @@ export function MeaningComparison() {
               <span>{item.reading}／{item.standardJapanese}</span>
               <p>{item.exampleDialect}</p>
               <p className="translation">{item.exampleStandard}</p>
-              <i className={`verification ${item.verificationStatus}`}>{['verified','reference_confirmed','community_confirmed'].includes(item.verificationStatus) ? '参照・地域確認' : '確認待ち候補'}</i>
+              <i className={`verification ${item.verificationStatus}`}>{['verified','reference_confirmed','community_confirmed'].includes(item.verificationStatus) ? '資料・話者の確認あり' : '資料を確認中'}</i>
               <ArrowRight />
             </Link>
           ))}

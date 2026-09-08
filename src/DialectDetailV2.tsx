@@ -1,3 +1,5 @@
+import { SourceAvailability } from "./SourceAvailability";
+import { recordDescription } from "./editorialDisplay";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
@@ -69,7 +71,7 @@ function RelatedCard({ item, reason }: { item: Dialect; reason: string }) {
       <span>{reason}</span>
       <h3>{item.phrase}</h3>
       <strong>{item.standardJapanese}</strong>
-      <p>{item.description}</p>
+      <p>{recordDescription(item.description)}</p>
       <small><MapPin /> {prefectureName(item.prefectureId)}・{regionName(item.regionId)}</small>
     </Link>
   );
@@ -102,7 +104,7 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
           <span className="v2-pref-label">{pref}のことば</span>
           <div className="v2-word-title">
             <h1 className={vm.word.length >= 14 ? "is-very-long" : vm.word.length >= 8 ? "is-long" : ""}>{vm.word}</h1>
-            {hasPublishableAudio(d) ? <audio controls preload="none" src={d.audioUrl} /> : <span className="v2-audio-pending" title="音声は準備中です"><Volume2 />音声準備中</span>}
+            {hasPublishableAudio(d) ? <audio controls preload="none" src={d.audioUrl} /> : <span className="v2-audio-pending" title="音声は収録していません"><Volume2 />音声未収録</span>}
           </div>
           <p className="v2-reading">［{vm.reading ?? "読み確認中"}］</p>
           <p className="v2-translation">{vm.meanings[0] ?? "意味確認中"}</p>
@@ -166,7 +168,7 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
               </div>
               <div className="v2-source-record">
                 <span>出典{vm.sources.length > 1 ? `（${vm.sources.length}件）` : ""}</span>
-                {vm.sources.length ? <div className="v2-source-list">{vm.sources.map((source, index) => <div key={`${source.url ?? source.title ?? "source"}-${index}`}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title ?? "出典資料"}<ArrowRight /></a> : source.title ?? "資料確認中"}{source.organization && <small>{source.organization}</small>}{source.checkedAt && <small>参照確認日：<time dateTime={source.checkedAt}>{source.checkedAt}</time></small>}{source.checkedFields.length > 0 && <small>この資料で確認：{source.checkedFields.join('・')}</small>}{source.recordingYear && <small>記録年：{source.recordingYear}年</small>}{source.note && <details><summary>掲載箇所・資料の注記</summary><p>{source.note}</p></details>}</div>)}</div> : <p>資料確認中</p>}
+                {vm.sources.length ? <div className="v2-source-list">{vm.sources.map((source, index) => <div key={`${source.url ?? source.title ?? "source"}-${index}`}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title ?? "出典資料"}<ArrowRight /></a> : source.title ?? "資料確認中"}<SourceAvailability url={source.url} />{source.organization && <small>{source.organization}</small>}{source.checkedAt && <small>資料確認日：<time dateTime={source.checkedAt}>{source.checkedAt}</time></small>}{source.checkedFields.length > 0 && <small>この資料で確認：{source.checkedFields.join('・')}</small>}{source.recordingYear && <small>記録年：{source.recordingYear}年</small>}{source.note && <details><summary>掲載箇所・資料の注記</summary><p>{source.note}</p></details>}</div>)}</div> : <p>資料確認中</p>}
               </div>
               <div className="v2-verification-groups">
                 <div><strong><ShieldCheck />確認済み</strong><p>{vm.verifiedItems.length ? vm.verifiedItems.join("・") : "確認範囲を整理中"}</p></div>
@@ -200,8 +202,8 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
       )}
 
       <section className="v2-contribute">
-        <span><Feather /></span><div><h2>方言の記録をみんなでつくる</h2><p>あなたの地域のことば、使い方、思い出をぜひ教えてください。</p></div>
-        <Link className="button" to="/submit">ことばの情報を投稿する<ArrowRight /></Link>
+        <span><Feather /></span><div><h2>覚えておきたいことばをメモする</h2><p>思い出したことばを端末内に保存できます。サイトへの送信・公開はされません。</p></div>
+        <Link className="button" to="/submit">ことばをメモする<ArrowRight /></Link>
       </section>
     </article>
   );

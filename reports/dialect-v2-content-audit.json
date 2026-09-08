@@ -4,11 +4,11 @@
     "missingReading": 620,
     "missingDescription": 0,
     "missingMeaning": 0,
-    "missingExample": 800,
+    "missingExample": 828,
     "missingSource": 27,
     "regionPending": 0
   },
-  "contentAuditDialectCount": 964,
+  "contentAuditDialectCount": 973,
   "visualSample": [
     {
       "id": "jp-41-saga-001",
@@ -333,10 +333,19 @@
       ]
     },
     {
+      "id": "jp-23-aichi-001",
+      "word": "でら",
+      "prefecture": "愛知県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
       "id": "jp-12-chiba-001",
       "word": "あおなじみ",
       "prefecture": "千葉県",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     },
@@ -345,6 +354,7 @@
       "word": "いってこうわい",
       "prefecture": "愛媛県",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     },
@@ -868,6 +878,14 @@
       ]
     },
     {
+      "id": "jp-18-fukui-001",
+      "word": "つるつるいっぱい",
+      "prefecture": "福井県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
       "id": "jp-40-fukuoka-001",
       "word": "いぼる",
       "prefecture": "福岡県",
@@ -1096,6 +1114,7 @@
       "word": "えらい",
       "prefecture": "岐阜県",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     },
@@ -1104,6 +1123,7 @@
       "word": "なっから",
       "prefecture": "群馬県",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     },
@@ -1671,11 +1691,28 @@
       ]
     },
     {
+      "id": "jp-01-hokkaido-001",
+      "word": "なまら",
+      "prefecture": "北海道",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
       "id": "jp-17-ishikawa-001",
       "word": "だら",
       "prefecture": "石川県",
       "issues": [
+        "missing_example",
         "missing_source"
+      ]
+    },
+    {
+      "id": "jp-03-iwate-001",
+      "word": "おでんせ",
+      "prefecture": "岩手県",
+      "issues": [
+        "missing_example"
       ]
     },
     {
@@ -2514,7 +2551,8 @@
       "word": "ンーマカ",
       "prefecture": "鹿児島県",
       "issues": [
-        "missing_reading"
+        "missing_reading",
+        "missing_example"
       ]
     },
     {
@@ -2522,7 +2560,8 @@
       "word": "オットイ",
       "prefecture": "鹿児島県",
       "issues": [
-        "missing_reading"
+        "missing_reading",
+        "missing_example"
       ]
     },
     {
@@ -2530,7 +2569,8 @@
       "word": "オユイ",
       "prefecture": "鹿児島県",
       "issues": [
-        "missing_reading"
+        "missing_reading",
+        "missing_example"
       ]
     },
     {
@@ -2538,7 +2578,8 @@
       "word": "フト",
       "prefecture": "鹿児島県",
       "issues": [
-        "missing_reading"
+        "missing_reading",
+        "missing_example"
       ]
     },
     {
@@ -2546,7 +2587,8 @@
       "word": "フタイ",
       "prefecture": "鹿児島県",
       "issues": [
-        "missing_reading"
+        "missing_reading",
+        "missing_example"
       ]
     },
     {
@@ -2554,7 +2596,8 @@
       "word": "イオ",
       "prefecture": "鹿児島県",
       "issues": [
-        "missing_reading"
+        "missing_reading",
+        "missing_example"
       ]
     },
     {
@@ -2562,7 +2605,8 @@
       "word": "イガワ",
       "prefecture": "鹿児島県",
       "issues": [
-        "missing_reading"
+        "missing_reading",
+        "missing_example"
       ]
     },
     {
@@ -2789,6 +2833,7 @@
       "word": "じゃん",
       "prefecture": "神奈川県",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     },
@@ -3662,6 +3707,14 @@
       ]
     },
     {
+      "id": "jp-04-miyagi-001",
+      "word": "いずい",
+      "prefecture": "宮城県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
       "id": "jp-45-miyazaki-001",
       "word": "てげ",
       "prefecture": "宮崎県",
@@ -4197,6 +4250,14 @@
       "prefecture": "宮崎県",
       "issues": [
         "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-20-nagano-001",
+      "word": "ずく",
+      "prefecture": "長野県",
+      "issues": [
         "missing_example"
       ]
     },
@@ -4741,6 +4802,7 @@
       "word": "なじらね",
       "prefecture": "新潟県",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     },
@@ -6637,6 +6699,7 @@
       "word": "かたす",
       "prefecture": "埼玉県",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     },
@@ -6645,6 +6708,7 @@
       "word": "ほっこりする",
       "prefecture": "滋賀県",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     },
@@ -7178,7 +7242,16 @@
       "word": "だら",
       "prefecture": "静岡県",
       "issues": [
+        "missing_example",
         "missing_source"
+      ]
+    },
+    {
+      "id": "jp-36-tokushima-001",
+      "word": "せこい",
+      "prefecture": "徳島県",
+      "issues": [
+        "missing_example"
       ]
     },
     {
@@ -7603,6 +7676,7 @@
       "word": "うざったい",
       "prefecture": "東京都",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     },
@@ -7977,6 +8051,22 @@
       "prefecture": "鳥取県",
       "issues": [
         "missing_reading",
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-30-wakayama-001",
+      "word": "つれもて",
+      "prefecture": "和歌山県",
+      "issues": [
+        "missing_example"
+      ]
+    },
+    {
+      "id": "jp-35-yamaguchi-001",
+      "word": "ぶち",
+      "prefecture": "山口県",
+      "issues": [
         "missing_example"
       ]
     },
@@ -8404,6 +8494,7 @@
       "word": "ほうけ",
       "prefecture": "山梨県",
       "issues": [
+        "missing_example",
         "missing_source"
       ]
     }

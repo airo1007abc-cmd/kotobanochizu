@@ -43,7 +43,7 @@ export function PrefectureDetailV2({ vm }: { vm: PrefectureDetailViewModel }) {
           <div className="prefecture-v2-stats" aria-label={`${vm.name}の収録状況`}>
             <div><strong>{vm.totalDialectCount}</strong><span>収録語</span></div>
             <div><strong>{vm.regionCount}</strong><span>地域区分</span></div>
-            <div><strong>{vm.confirmedCount}</strong><span>参照確認</span></div>
+            <div><strong>{vm.confirmedCount}</strong><span>資料確認</span></div>
             <div><strong>{vm.sourcedCount}</strong><span>出典あり</span></div>
           </div>
           {vm.languageVarieties.length > 0 && <p className="prefecture-v2-varieties">収録データの言語区分：{vm.languageVarieties.map((item) => item.label).join("、")}</p>}
@@ -64,7 +64,7 @@ export function PrefectureDetailV2({ vm }: { vm: PrefectureDetailViewModel }) {
           {vm.regions.map((region, index) => (
             <Link to={`/regions/${region.id}`} key={region.id}>
               <span className="prefecture-v2-region-number">{String(index + 1).padStart(2, "0")}</span>
-              <span><small>{region.dialectCount}語を収録・{region.confirmedCount}語を参照確認</small><strong>{region.name}</strong><em>{region.description}</em></span>
+              <span><small>{region.dialectCount}語を収録・{region.confirmedCount}語を資料確認</small><strong>{region.name}</strong><em>{region.description}</em></span>
               <ArrowRight aria-hidden="true" />
             </Link>
           ))}

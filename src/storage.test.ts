@@ -1,11 +1,26 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { favorites } from "./storage";
+import { favorites, memoStore } from "./storage";
 const memory = new Map<string, string>();
 Object.defineProperty(globalThis, "localStorage", {
   value: {
     getItem: (k: string) => memory.get(k) ?? null,
     setItem: (k: string, v: string) => memory.set(k, v),
   },
+});
+describe("local memos", () => {
+  beforeEach(() => memory.clear());
+  it("persists and removes notes without creating a submission", () => {
+    const notes = [{ id: "one", phrase: "覚えておきたいことば", detail: "祖母から聞いた記憶" }];
+    expect(memoStore.save(notes)).toBe(true);
+    expect(memoStore.all()).toEqual(notes);
+    expect(memory.has("kotoba:submissions:v1")).toBe(false);
+    expect(memoStore.save([])).toBe(true);
+    expect(memoStore.all()).toEqual([]);
+  });
+  it("handles malformed browser data", () => {
+    memory.set("kotoba:memos:v1", '{"unexpected":true}');
+    expect(memoStore.all()).toEqual([]);
+  });
 });
 describe("favorites", () => {
   beforeEach(() => memory.clear());
