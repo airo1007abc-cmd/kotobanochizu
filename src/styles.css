@@ -2628,3 +2628,5 @@ main:has(.dialect-v2) { max-width: 1280px; }
 .journey-grid > a > small, .mobile-nav > a, .card > small,
 .v2-source-cta > div > span { color: #566359; }
 .journey-grid > a > small { opacity: 1; }
+.prefecture-v2-locator > small { color: #566359; }
+.prefecture-v2-archive .eyebrow { color: #9c4027; }
