@@ -9,16 +9,21 @@ Goalの要求とこの恒久安全ルールが衝突する場合は、黙って�
 
 ## Git and Worktrees
 
-- 原則を `1 Goal = 1 Codex chat = 1 branch = 1 worktree` とする。
+- 原則を `1 Goal = 1 Codex chat = 1 worktree = 1 eventual branch` とする。
 - code、data、research、source、SEO、生成物、docsを含むRepository変更をmain上で行わない。
 - 作業開始時に現在のpath、branch、HEAD、working tree、起点mainを確認する。
-- mainがcleanでremoteと同期していることを確認してから、Goal専用branch/worktreeを作る。
+- mainがcleanでremoteと同期していることを確認してから、Goal専用worktreeを作る。通常の手動Git worktreeは、Goal専用branch付きで作成してよい。
+- Codex-managed worktreeがdetached HEADで開始することは正常な状態として許可する。
+- detached HEADのGoal専用worktree内では、調査、編集、実装、validationを開始してよい。
 - branchは原則 `codex/<goal-name>` とし、同じbranchを複数worktreeでcheckoutしない。
+- commitまたはpushする前までに、Goal専用の `codex/<goal-name>` branchをそのworktree上に作成する。
+- branch作成後も同じGoal、Codex chat、worktreeを継続し、別Goalを混ぜない。
 - 実装、生成、validation、commitはGoal専用worktree内だけで行う。
 - unrelated taskや、別Goalで扱うべき修正を同じbranchへ混ぜない。
 - userの既存変更をreset、stash、上書き、削除しない。
 - history rewrite、force push、無断rebaseを行わない。
 - merge前に最新mainとの差分、競合、validation結果を確認する。
+- detached HEAD上で作った変更を失わないよう、worktree削除、切替、cleanup前にbranchとcommitの状態を確認する。
 - merge確認前にbranchまたはworktreeを削除しない。
 - merge、remote同期、必要なProduction QAが完了するまでcleanupしない。
 
