@@ -5,10 +5,10 @@
 ## Core Rule
 
 ```text
-1 Goal = 1 branch = 1 worktree = 1 Codex chat
+1 Goal = 1 Codex chat = 1 worktree = 1 eventual branch
 ```
 
-同じGoalの修正、QA、review対応は同じ組に留める。Goalが変わる場合は新branch、新worktree、新Codex chatへ分離する。
+同じGoalの修正、QA、review対応は同じ組に留める。Goalが変わる場合は新branch、新worktree、新Codex chatへ分離する。Codex-managed worktreeはdetached HEADで開始してよく、commitまたはpushまでにGoal専用branchを作成する。
 
 ## Baseline
 
@@ -39,6 +39,28 @@ worktreeをrepository内部や `.git` 配下へ作らない。巨大な万能bra
 
 ## Standard Lifecycle
 
+### Codex-managed worktree
+
+Codex UIでmanaged/persistent worktreeを作成した場合は、次の流れを標準とする。各Goalのpromptへbranch初期化用の定型文を追加する必要はない。
+
+```text
+main Project
+↓
+Codex UIでGoal用worktreeを作成
+↓
+detached HEADでも正常
+↓
+そのworktreeの新しいCodex chatへ本来のGoalをそのまま投入
+↓
+Goal内で調査・編集・実装・validation
+↓
+commitまたはpush前にGoal専用branchを作成
+↓
+commit → push → PR → main
+```
+
+detached HEADのまま調査、編集、実装、validationを進めてよい。branchは原則 `codex/<goal-name>` とし、作成後も同じGoal、Codex chat、worktreeを継続する。変更を失わないよう、branch作成前のworktree切替・削除・cleanupは行わず、実行前にbranchとcommitの状態を確認する。
+
 ### 1. Confirm clean, current main
 
 ```powershell
@@ -52,7 +74,7 @@ git rev-list --left-right --count main...origin/main
 
 statusがcleanでない、またはahead / behindが `0 0` でない場合は作業を止め、状態を記録する。reset、stash、rebase、force pushで整えない。
 
-### 2. Create one task branch and worktree
+### 2. Create one task worktree and eventual branch
 
 ```powershell
 git worktree add C:\Projects\hougen-worktrees\lcp-home -b codex/lcp-home main
@@ -61,6 +83,12 @@ git status --short --branch
 ```
 
 作成前に同名branchと同名directoryが存在しないことを確認する。
+
+上記は通常の手動Git worktreeで、最初からbranchを作成する例である。Codex-managed worktreeではdetached HEADのまま開始し、Step 4とStep 5を進めてよい。その場合はStep 6のcommitまたはpush前までに、同じworktree上で次を実行する。
+
+```powershell
+git switch -c codex/<task-name>
+```
 
 ### 3. Bootstrap the worktree
 
@@ -94,6 +122,8 @@ git diff --check
 `audit:*` commandはtracked `reports/` を更新し得る。実行前後にdiffを確認し、意図したreportだけをcommitする。生成物のtimestamp更新だけを無関係なcommitへ混ぜない。
 
 ### 6. Commit and push
+
+Codex-managed worktreeがまだdetached HEADの場合は、先にGoal専用branchを作成する。
 
 ```powershell
 git diff --stat
@@ -165,7 +195,8 @@ merge、remote同期、Production QA、必要な証跡保存がすべて完了�
 
 - Goal、非対象範囲、完了条件を1文で定義した。
 - main repositoryがcleanで、mainとorigin/mainが一致する。
-- 新branch / worktree名が一意で、baselineが正しい。
+- 新worktree名が一意で、baselineが正しい。branchを先に作る場合はbranch名も一意である。
+- Codex-managed worktreeがdetached HEADの場合は正常な開始状態として記録し、commitまたはpush前に作るGoal専用branch名を確認した。
 - Node 24.xと `npm ci` を確認した。
 - 必要なlocal env、Vercel link、portを安全に分離した。
 - data、reports、migration、lockfileのowner競合がない。
