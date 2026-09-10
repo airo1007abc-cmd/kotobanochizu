@@ -184,4 +184,3 @@ Suitability: **SAFE**
 2. `codex/source-hold-recovery` — 高知・沖縄等のHOLDを出典単位で回復し、content ownershipを試行する。
 3. `codex/noindex-quality-promotion` — noindex候補を品質基準で小分けに昇格し、SEOと編集判断を分離する。
 4. `codex/editorial-research-pipeline` — raw research、review、published data、generated reportの境界とownershipを整備する。
-

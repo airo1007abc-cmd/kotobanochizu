@@ -187,4 +187,3 @@ merge、remote同期、Production QA、必要な証跡保存がすべて完了�
 - Production smoke testを記録した。
 - worktreeがcleanで、未統合commitがない。
 - cleanupは上記確認後にだけ実施する。
-
