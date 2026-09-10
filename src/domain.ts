@@ -18,6 +18,7 @@ export type SourceMetadata = {
   url?: string;
   note?: string;
   checkedAt?: string;
+  page?: string;
   publicationYear?: string;
   sourceTier?: 1 | 2 | 3 | 4;
   exactFormMatch?: "exact" | "variant" | "uncertain";
@@ -74,6 +75,10 @@ export type Dialect = {
   prefectureId: string;
   regionId: string;
   municipality?: string;
+  /** Exact source wording for the evidenced area; separate from navigation region. */
+  evidenceRegion?: string;
+  /** Narrower place names preserved verbatim from the source. */
+  locality?: string;
   ageGroups: string[];
   usageContexts: string[];
   emotionTags: string[];
@@ -101,6 +106,12 @@ export type Dialect = {
     "japanese_dialect" | "ryukyuan_language" | "ainu_loanword" | "unknown";
   needsAudio?: boolean;
   audioPriority?: 1 | 2 | 3;
+  nuance?: string;
+  usageCaution?: string;
+  relatedTerms?: string[];
+  regionalDifferences?: string;
+  etymology?: string;
+  additionalReview?: string;
   createdAt: string;
   updatedAt: string;
   reactions: { use: number; heard: number; new: number };

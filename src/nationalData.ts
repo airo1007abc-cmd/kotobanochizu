@@ -15,6 +15,8 @@ type RawDialect = {
   prefectureName: string;
   regionName: string;
   municipality: string | null;
+  evidenceRegion?: string;
+  locality?: string | null;
   ageGroups: string[];
   usageContexts: string[];
   emotionTags: string[];
@@ -26,6 +28,7 @@ type RawDialect = {
   sourceOrganization?: string;
   sourceUrl?: string;
   sourceCheckedAt?: string;
+  sourcePage?: string;
   sourcePublicationYear?: string;
   sourceTier?: 1 | 2 | 3 | 4;
   sourceExactFormMatch?: "exact" | "variant" | "uncertain";
@@ -38,6 +41,12 @@ type RawDialect = {
   needsAudio: boolean;
   audioPriority: 1 | 2 | 3;
   languageVariety: NonNullable<Dialect["languageVariety"]>;
+  nuance?: string;
+  usageCaution?: string;
+  relatedTerms?: string[];
+  regionalDifferences?: string;
+  etymology?: string;
+  additionalReview?: string;
   createdAt?: string;
   updatedAt?: string;
 };
@@ -86,6 +95,8 @@ export const nationalDialects: Dialect[] = rawDialects.flatMap((raw) => {
       prefectureId: prefecture.id,
       regionId: regionIdFor(raw.prefectureCode, raw.regionName),
       municipality: raw.municipality ?? undefined,
+      evidenceRegion: raw.evidenceRegion,
+      locality: raw.locality ?? undefined,
       ageGroups: raw.ageGroups,
       usageContexts: raw.usageContexts,
       emotionTags: raw.emotionTags,
@@ -99,6 +110,7 @@ export const nationalDialects: Dialect[] = rawDialects.flatMap((raw) => {
         organization: raw.sourceOrganization,
         url: raw.sourceUrl,
         checkedAt: raw.sourceCheckedAt,
+        page: raw.sourcePage,
         publicationYear: raw.sourcePublicationYear,
         sourceTier: raw.sourceTier,
         exactFormMatch: raw.sourceExactFormMatch,
@@ -112,6 +124,12 @@ export const nationalDialects: Dialect[] = rawDialects.flatMap((raw) => {
       needsAudio: raw.needsAudio,
       audioPriority: raw.audioPriority,
       languageVariety: raw.languageVariety,
+      nuance: raw.nuance,
+      usageCaution: raw.usageCaution,
+      relatedTerms: raw.relatedTerms,
+      regionalDifferences: raw.regionalDifferences,
+      etymology: raw.etymology,
+      additionalReview: raw.additionalReview,
       createdAt: raw.createdAt ?? "2026-08-25",
       updatedAt: raw.updatedAt ?? "2026-08-25",
       reactions: { use: 0, heard: 0, new: 0 },
