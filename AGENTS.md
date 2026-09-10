@@ -2,6 +2,8 @@
 
 このファイルは、このRepositoryを変更するすべてのGoalに適用する恒久的な安全ルールである。
 Repositoryの現物と依頼されたGoalを優先し、件数、Phase、日付に依存する作業メモはここへ固定しない。
+system、developer、userの明示instructionに従い、その範囲内でこの恒久安全ルールを適用する。
+Goalの要求とこの恒久安全ルールが衝突する場合は、黙って一方をoverrideせず、作業を停止して衝突内容を報告する。
 詳細な手順と現在のmachine固有pathは `docs/WORKTREE_OPERATING_MODEL.md` を参照する。
 基準状態と未確認事項は `docs/WORKTREE_BASELINE_AUDIT_2026-09-10.md` を参照する。
 
@@ -38,6 +40,8 @@ Repositoryの現物と依頼されたGoalを優先し、件数、Phase、日付�
 - 資料から確認できないreading、meaning、example、地域、語源、現用性、世代差を捏造・推測しない。
 - language classification、citation、source URL、確認日も推測で補わない。
 - sourceの説明や用例は必要な範囲で要約し、長い転載を避ける。
+- source recoveryでは元sourceとのlineageを保持し、別資料を同一sourceとして置換しない。
+- 代替sourceは、その資料が直接支えるclaimだけの根拠として追加する。
 
 ## Claim-Level Verification
 
@@ -64,6 +68,7 @@ Repositoryの現物と依頼されたGoalを優先し、件数、Phase、日付�
 - 公開済みrecord ID、slug、region ID、source identity、canonical URLを整理目的だけで変更しない。
 - 方言IDは現行の `jp-{都道府県番号2桁}-{英字県名}-{連番}` 形式と県別既存系列に従う。
 - 連番を割り当てる前にRepository全体でIDとslugの重複を確認し、並行branch間でも予約を調整する。
+- 新規IDはcommit直前にもRepository全体で重複確認し、並行Goalと競合する場合はcommitせずownershipを調整する。
 - region IDは `src/nationalData.ts` の既存legacy mappingと生成規則を壊さない。
 - 公開URL変更時はredirect、canonical、internal links、sitemapを一体で検証する。
 - redirectは `src/seo.ts` と `vercel.json` の双方の責務を確認する。
@@ -73,6 +78,8 @@ Repositoryの現物と依頼されたGoalを優先し、件数、Phase、日付�
 - missing fieldをindexabilityのために捏造しない。
 - 1 fieldが未確認という理由だけで、自動的にnoindexと決めない。
 - recordは `src/evidencePolicy.mjs`、pageは `src/seo.ts` の現行gateに従う。
+- 既存quality grade、verification state、publication stateを県別Goal内で再定義しない。
+- これらの基準変更は県別データ追加から分離し、専用Goalとして扱う。
 - guide類は各JSONの `indexStatus` と、参照recordのgateを合わせて確認する。
 - indexability変更時はHTTP status、robots/meta robots、canonical、sitemap membership、internal linksを確認する。
 - canonical、meta robots、sitemapは `npm run build` 内のstatic generationにも反映されることを確認する。
@@ -91,6 +98,8 @@ Repositoryの現物と依頼されたGoalを優先し、件数、Phase、日付�
 
 ## Parallel Prefecture Work
 
+- 同一都道府県のauthoritative dialect dataへ新規recordを追加するGoalは、原則として並行実行しない。
+- 同一県で作業が重なる場合は、一方を開始・継続する前にownershipと実行順を調整する。
 - 県別Goalでは原則として、その県の `src/data/dialects/{prefecture}.json` と必要な調査入力だけを変更する。
 - 愛知県Goalで理由なく岐阜県、三重県、長崎県その他の県別fileを変更しない。
 - `src/data/regions.json` は全県共有、`src/data/meaning-comparisons.json`、各guide JSONも共有入力である。
