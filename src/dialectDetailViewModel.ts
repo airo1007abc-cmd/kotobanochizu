@@ -18,6 +18,7 @@ export type DialectDetailSource = {
   organization?: string;
   url?: string;
   checkedAt?: string;
+  page?: string;
   recordingYear?: number;
   checkedFields: string[];
   note?: string;
@@ -93,6 +94,7 @@ const normalizeSources = (dialect: Dialect): DialectDetailSource[] => {
       organization: optionalText(source.organization),
       url: optionalText(source.url),
       checkedAt: optionalText(source.checkedAt),
+      page: optionalText(source.page),
       recordingYear: index === 0 ? dialect.recordingYear : undefined,
       checkedFields: (source.evidenceScopes ?? []).map(scope=>scopeLabels[scope]),
       note: optionalText(source.note)?.replace(/\blanguageVariety\b/g,'言語区分').replace(/\bunknown\b/g,'未確認').replace(/\bjapanese_dialect\b/g,'日本語の方言・地域語').replace(/\bryukyuan_language\b/g,'琉球諸語').replace(/\bainu_loanword\b/g,'アイヌ語由来語'),
@@ -119,7 +121,11 @@ export function createDialectDetailViewModel(
   const dialect = rawDialect as Dialect & FutureDialectFields;
   const prefectureName = optionalText(lookups.prefectureName(dialect.prefectureId)) ?? "地域確認中";
   const primaryRegionName = optionalText(lookups.regionName(dialect.regionId)) ?? "地域確認中";
-  const municipalityLocations = (optionalText(dialect.municipality) ?? "")
+  const municipalityLocations = [
+    optionalText(dialect.evidenceRegion),
+    optionalText(dialect.municipality),
+    optionalText(dialect.locality),
+  ].filter((item): item is string => Boolean(item)).join(";")
     .split(/[;；]/)
     .map(optionalText)
     .filter((item): item is string => Boolean(item));

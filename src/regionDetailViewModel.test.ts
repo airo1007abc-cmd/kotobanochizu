@@ -12,7 +12,7 @@ const vmFor = (regionId: string) => {
 describe("RegionDetailViewModel", () => {
   it("全地域を例外なく正規化し件数を保持する", () => {
     const regions = repository.regions();
-    expect(regions).toHaveLength(195);
+    expect(regions).toHaveLength(200);
     for (const region of regions) {
       const vm = vmFor(region.id);
       expect(vm.id).toBe(region.id);

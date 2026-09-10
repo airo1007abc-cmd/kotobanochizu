@@ -17,7 +17,7 @@ const makeViewModel = (dialect: Dialect) => createDialectDetailViewModel(dialect
 describe("DialectDetailViewModel", () => {
   it("converts the complete catalogue and routes every id to V2", () => {
     const dialects = repository.dialects();
-    expect(dialects).toHaveLength(1643);
+    expect(dialects).toHaveLength(1918);
     const invalidTokens = /(^|[\s"':])(unknown|undefined|null|nan|\[object Object\])([\s"',:]|$)/i;
 
     for (const dialect of dialects) {
@@ -149,6 +149,23 @@ describe("DialectDetailViewModel", () => {
     const viewModel = makeViewModel(repository.dialect("jp-43-kumamoto-010")!);
     expect(viewModel.primaryRegion.name).toBe("熊本周辺");
     expect(viewModel.locationBadges).toEqual(["熊本市", "玉名市"]);
+  });
+
+  it("preserves exact evidence geography and source-page provenance", () => {
+    const current = repository.dialect("jp-43-kumamoto-010")!;
+    const viewModel = makeViewModel({
+      ...current,
+      evidenceRegion: "資料上の地域名",
+      locality: "資料上の小地域",
+      source: { ...current.source!, page: "項目12" },
+    });
+    expect(viewModel.locationBadges).toEqual([
+      "資料上の地域名",
+      "熊本市",
+      "玉名市",
+      "資料上の小地域",
+    ]);
+    expect(viewModel.sources[0]?.page).toBe("項目12");
   });
 
   it("accepts future nuance and multiple examples without changing Dialect", () => {

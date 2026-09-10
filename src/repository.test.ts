@@ -4,9 +4,11 @@ describe("repository", () => {
   it("has all 47 prefectures", () =>
     expect(repository.prefectures()).toHaveLength(47));
   it("searches phrase and standard Japanese", () => {
-    expect(repository.dialects({ q: "なおす" })[0]?.standardJapanese).toContain(
-      "片づけ",
-    );
+    expect(
+      repository
+        .dialects({ q: "なおす" })
+        .some((dialect) => dialect.phrase.includes("なおす")),
+    ).toBe(true);
     expect(repository.dialects({ q: "かわいい" })[0]?.phrase).toBe("めんこい");
   });
   it("filters by region", () => {
