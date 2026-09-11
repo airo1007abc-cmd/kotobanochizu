@@ -15,6 +15,7 @@
     "format": "prettier --write .",
     "test": "vitest run",
     "validate:data": "node scripts/data-tools.mjs validate",
+    "validate:data:wakayama": "node scripts/wakayama-data-audit.mjs",
     "data:stats": "node scripts/data-tools.mjs stats",
     "seo:audit": "node scripts/seo-audit.mjs",
     "seo:audit:meanings": "node scripts/meaning-audit.mjs",

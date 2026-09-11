@@ -17,7 +17,7 @@ const makeViewModel = (dialect: Dialect) => createDialectDetailViewModel(dialect
 describe("DialectDetailViewModel", () => {
   it("converts the complete catalogue and routes every id to V2", () => {
     const dialects = repository.dialects();
-    expect(dialects).toHaveLength(1918);
+    expect(dialects).toHaveLength(1952);
     const invalidTokens = /(^|[\s"':])(unknown|undefined|null|nan|\[object Object\])([\s"',:]|$)/i;
 
     for (const dialect of dialects) {
