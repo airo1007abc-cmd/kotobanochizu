@@ -1,0 +1,12 @@
+[
+  {"phrase":"シロッコ","decision":"accepted","reason":"Tier A sourceが語形・意味・藤岡市方言を明記","source":"https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-231/","evidenceGeography":"群馬県藤岡市","canonicalId":"jp-10-gunma-002"},
+  {"phrase":"～ホシー","decision":"accepted","reason":"Tier A sourceが語形・意味・藤岡市方言を明記","source":"https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-231/","evidenceGeography":"群馬県藤岡市","canonicalId":"jp-10-gunma-003"},
+  {"phrase":"～オシャレ","decision":"accepted","reason":"Tier A sourceが語形・意味・藤岡市方言を明記","source":"https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-231/","evidenceGeography":"群馬県藤岡市","canonicalId":"jp-10-gunma-004"},
+  {"phrase":"～ハッキョーサン","decision":"accepted","reason":"Tier A sourceが語形・意味・藤岡市方言を明記","source":"https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-231/","evidenceGeography":"群馬県藤岡市","canonicalId":"jp-10-gunma-005"},
+  {"phrase":"タレコ","decision":"accepted","reason":"Tier A sourceが語形・意味・藤岡市方言を明記","source":"https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-231/","evidenceGeography":"群馬県藤岡市","canonicalId":"jp-10-gunma-006"},
+  {"phrase":"クイニゲ","decision":"accepted","reason":"Tier A sourceが語形・意味・藤岡市方言を明記","source":"https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-231/","evidenceGeography":"群馬県藤岡市","canonicalId":"jp-10-gunma-007"},
+  {"phrase":"アタマスキ","decision":"accepted","reason":"Tier A sourceが語形・意味・藤岡市方言を明記","source":"https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-231/","evidenceGeography":"群馬県藤岡市","canonicalId":"jp-10-gunma-008"},
+  {"phrase":"ゴロ","decision":"accepted","reason":"Tier A sourceが語形・意味・藤岡市方言を明記","source":"https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-231/","evidenceGeography":"群馬県藤岡市","canonicalId":"jp-10-gunma-009"},
+  {"phrase":"ヤスマズ","decision":"accepted","reason":"Tier A sourceが語形・意味・藤岡市方言を明記","source":"https://kotoba.ninjal.ac.jp/qa/yokuaru/qa-231/","evidenceGeography":"群馬県藤岡市","canonicalId":"jp-10-gunma-010"},
+  {"phrase":"中之条町史方言語彙（一括）","decision":"hold","reason":"画像PDFの検索OCRで語形と意味の列対応を安全に確定できない","source":"https://www.town.nakanojo.gunma.jp/uploaded/attachment/4217.pdf","evidenceGeography":"群馬県吾妻郡中之条町","canonicalId":null}
+]
