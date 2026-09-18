@@ -1,0 +1,1065 @@
+{
+  "generatedAt": "2026-09-18T17:20:29.127Z",
+  "policyVersion": 2,
+  "policy": {
+    "recordEligibility": {
+      "required": [
+        "publishable verificationStatus",
+        "phrase",
+        "standardJapanese",
+        "valid source metadata",
+        "phrase evidence",
+        "meaning evidence",
+        "region evidence"
+      ],
+      "optionalWithTransparentUi": [
+        "reading",
+        "example",
+        "usage",
+        "description length"
+      ]
+    },
+    "routeIndexability": {
+      "required": [
+        "record eligibility",
+        "unique dialect identity"
+      ],
+      "parentPages": "Explicit child references require route-indexable dialects; region collections require at least five core-evidence records."
+    }
+  },
+  "dialects": {
+    "total": 1938,
+    "recordEligible": 1875,
+    "recordIneligible": 63,
+    "routeIndexable": 1873,
+    "routeNoindex": 86,
+    "coreEvidence": 1875,
+    "identityCollisions": [
+      {
+        "identity": "誰|誰||今治市|||https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/meishi3.pdf|",
+        "ids": [
+          "jp-38-ehime-047",
+          "jp-38-ehime-048"
+        ]
+      },
+      {
+        "identity": "どこ|どこ||今治市|||https://nihongogaku.ll.ehime-u.ac.jp/wp-content/uploads/2023/03/meishi3.pdf|",
+        "ids": [
+          "jp-38-ehime-049",
+          "jp-38-ehime-050"
+        ]
+      },
+      {
+        "identity": "朝が|朝が||宇和島市|||https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja|",
+        "ids": [
+          "jp-38-ehime-051",
+          "jp-38-ehime-052"
+        ]
+      },
+      {
+        "identity": "烏|烏||宇和島市|||https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja|",
+        "ids": [
+          "jp-38-ehime-053",
+          "jp-38-ehime-054"
+        ]
+      },
+      {
+        "identity": "牛が|牛が||宇和島市|||https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja|",
+        "ids": [
+          "jp-38-ehime-055",
+          "jp-38-ehime-056"
+        ]
+      },
+      {
+        "identity": "桜|桜||宇和島市|||https://www.jstage.jst.go.jp/article/nihongonokenkyu/2/2/2_KJ00004588394/_pdf/-char/ja|",
+        "ids": [
+          "jp-38-ehime-057",
+          "jp-38-ehime-058"
+        ]
+      },
+      {
+        "identity": "チンカモ|友達||隠岐の島町|||https://www2.ninjal.ac.jp/past-projects/endangered/Research%20Report%20on%20Okinoshima%20Dialect.pdf|",
+        "ids": [
+          "jp-32-shimane-049",
+          "jp-32-shimane-050"
+        ]
+      }
+    ],
+    "verificationStatus": {
+      "needs_review": 25,
+      "reference_confirmed": 1913
+    },
+    "languageVariety": {
+      "japanese_dialect": 1755,
+      "ryukyuan_language": 133,
+      "unknown": 50
+    },
+    "withSource": 1926,
+    "withoutSource": 12,
+    "fieldEvidence": {
+      "phrase": 1926,
+      "meaning": 1885,
+      "region": 1926,
+      "reading": 1006,
+      "example": 851,
+      "usage": 1046
+    },
+    "missingReading": 930,
+    "missingExample": 1064,
+    "shortDescription": 528,
+    "withMunicipality": 1637,
+    "withLocality": 182,
+    "withEvidenceRegion": 310,
+    "recordIneligibilityReasons": {
+      "missing_core_meaning": 38,
+      "verification_status": 25
+    }
+  },
+  "pages": {
+    "total": 2629,
+    "indexable": 2390,
+    "noindex": 239,
+    "redirects": 2,
+    "sitemap": 2390,
+    "byType": {
+      "utility": {
+        "total": 23,
+        "indexable": 3,
+        "noindex": 20
+      },
+      "prefecture": {
+        "total": 47,
+        "indexable": 32,
+        "noindex": 15
+      },
+      "region": {
+        "total": 200,
+        "indexable": 98,
+        "noindex": 102
+      },
+      "dialect": {
+        "total": 1959,
+        "indexable": 1873,
+        "noindex": 86
+      },
+      "meaning": {
+        "total": 150,
+        "indexable": 135,
+        "noindex": 15
+      },
+      "region_guide": {
+        "total": 150,
+        "indexable": 150,
+        "noindex": 0
+      },
+      "culture_guide": {
+        "total": 70,
+        "indexable": 69,
+        "noindex": 1
+      },
+      "story": {
+        "total": 30,
+        "indexable": 30,
+        "noindex": 0
+      }
+    }
+  },
+  "before": {
+    "baseCommit": "17b84980b5b2dbcde31f0a4a54c116619c0051e4",
+    "capturedAt": "2026-09-19T01:28:48+09:00",
+    "staticPagesIncludingRedirects": 2631,
+    "routeDecisions": 2629,
+    "indexablePages": 1049,
+    "noindexPagesIncludingRedirects": 1582,
+    "dialectRoutes": 1959,
+    "indexableDialectRoutes": 630,
+    "noindexDialectRoutes": 1329,
+    "coreEvidenceRecords": 1875,
+    "indexableRegionRoutes": 0,
+    "sitemapUrls": 1049
+  },
+  "promotionSummary": {
+    "indexablePages": 1341,
+    "indexableDialectRoutes": 1243,
+    "indexableRegionRoutes": 98,
+    "noindexPagesIncludingRedirects": -1341
+  },
+  "remainingNoindexRouteReasons": {
+    "culture_guide_policy": 1,
+    "dialect_identity_collision": 14,
+    "dialect_legacy_or_archived": 21,
+    "dialect_missing_core_meaning": 26,
+    "dialect_verification_status": 25,
+    "meaning_policy": 15,
+    "prefecture_policy": 15,
+    "region_policy": 102,
+    "utility_policy": 20
+  },
+  "prefectures": [
+    {
+      "prefecture": "北海道",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 1,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "青森県",
+      "total": 0,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 0,
+      "gapTo30": 30,
+      "gapTo50": 50
+    },
+    {
+      "prefecture": "岩手県",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 1,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "宮城県",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 1,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "秋田県",
+      "total": 9,
+      "coreEvidence": 9,
+      "recordEligible": 9,
+      "sourceCoverage": 1,
+      "gapTo30": 21,
+      "gapTo50": 41
+    },
+    {
+      "prefecture": "山形県",
+      "total": 1,
+      "coreEvidence": 1,
+      "recordEligible": 1,
+      "sourceCoverage": 1,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "福島県",
+      "total": 1,
+      "coreEvidence": 1,
+      "recordEligible": 1,
+      "sourceCoverage": 1,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "茨城県",
+      "total": 1,
+      "coreEvidence": 1,
+      "recordEligible": 1,
+      "sourceCoverage": 1,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "栃木県",
+      "total": 31,
+      "coreEvidence": 31,
+      "recordEligible": 31,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 19
+    },
+    {
+      "prefecture": "群馬県",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 0,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "埼玉県",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 0,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "千葉県",
+      "total": 18,
+      "coreEvidence": 17,
+      "recordEligible": 17,
+      "sourceCoverage": 0.9444,
+      "gapTo30": 12,
+      "gapTo50": 32
+    },
+    {
+      "prefecture": "東京都",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 0,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "神奈川県",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 0,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "新潟県",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 0,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "富山県",
+      "total": 1,
+      "coreEvidence": 1,
+      "recordEligible": 1,
+      "sourceCoverage": 1,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "石川県",
+      "total": 50,
+      "coreEvidence": 49,
+      "recordEligible": 49,
+      "sourceCoverage": 0.98,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "福井県",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 1,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "山梨県",
+      "total": 11,
+      "coreEvidence": 10,
+      "recordEligible": 10,
+      "sourceCoverage": 0.9091,
+      "gapTo30": 19,
+      "gapTo50": 39
+    },
+    {
+      "prefecture": "長野県",
+      "total": 1,
+      "coreEvidence": 0,
+      "recordEligible": 0,
+      "sourceCoverage": 1,
+      "gapTo30": 29,
+      "gapTo50": 49
+    },
+    {
+      "prefecture": "岐阜県",
+      "total": 9,
+      "coreEvidence": 8,
+      "recordEligible": 8,
+      "sourceCoverage": 0.8889,
+      "gapTo30": 21,
+      "gapTo50": 41
+    },
+    {
+      "prefecture": "静岡県",
+      "total": 226,
+      "coreEvidence": 224,
+      "recordEligible": 224,
+      "sourceCoverage": 0.9956,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "愛知県",
+      "total": 55,
+      "coreEvidence": 54,
+      "recordEligible": 54,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "三重県",
+      "total": 10,
+      "coreEvidence": 10,
+      "recordEligible": 10,
+      "sourceCoverage": 1,
+      "gapTo30": 20,
+      "gapTo50": 40
+    },
+    {
+      "prefecture": "滋賀県",
+      "total": 61,
+      "coreEvidence": 60,
+      "recordEligible": 60,
+      "sourceCoverage": 0.9836,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "京都府",
+      "total": 59,
+      "coreEvidence": 59,
+      "recordEligible": 59,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "大阪府",
+      "total": 39,
+      "coreEvidence": 39,
+      "recordEligible": 39,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 11
+    },
+    {
+      "prefecture": "兵庫県",
+      "total": 39,
+      "coreEvidence": 39,
+      "recordEligible": 39,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 11
+    },
+    {
+      "prefecture": "奈良県",
+      "total": 27,
+      "coreEvidence": 27,
+      "recordEligible": 27,
+      "sourceCoverage": 1,
+      "gapTo30": 3,
+      "gapTo50": 23
+    },
+    {
+      "prefecture": "和歌山県",
+      "total": 95,
+      "coreEvidence": 94,
+      "recordEligible": 94,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "鳥取県",
+      "total": 44,
+      "coreEvidence": 35,
+      "recordEligible": 35,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 6
+    },
+    {
+      "prefecture": "島根県",
+      "total": 62,
+      "coreEvidence": 62,
+      "recordEligible": 62,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "岡山県",
+      "total": 71,
+      "coreEvidence": 71,
+      "recordEligible": 71,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "広島県",
+      "total": 64,
+      "coreEvidence": 60,
+      "recordEligible": 60,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "山口県",
+      "total": 82,
+      "coreEvidence": 71,
+      "recordEligible": 71,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "徳島県",
+      "total": 61,
+      "coreEvidence": 59,
+      "recordEligible": 59,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "香川県",
+      "total": 63,
+      "coreEvidence": 63,
+      "recordEligible": 63,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "愛媛県",
+      "total": 60,
+      "coreEvidence": 45,
+      "recordEligible": 45,
+      "sourceCoverage": 0.9833,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "高知県",
+      "total": 88,
+      "coreEvidence": 88,
+      "recordEligible": 88,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "福岡県",
+      "total": 57,
+      "coreEvidence": 57,
+      "recordEligible": 57,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "佐賀県",
+      "total": 47,
+      "coreEvidence": 46,
+      "recordEligible": 46,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 3
+    },
+    {
+      "prefecture": "長崎県",
+      "total": 89,
+      "coreEvidence": 88,
+      "recordEligible": 88,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "熊本県",
+      "total": 51,
+      "coreEvidence": 50,
+      "recordEligible": 50,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "大分県",
+      "total": 57,
+      "coreEvidence": 57,
+      "recordEligible": 57,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "宮崎県",
+      "total": 72,
+      "coreEvidence": 72,
+      "recordEligible": 72,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "鹿児島県",
+      "total": 84,
+      "coreEvidence": 84,
+      "recordEligible": 84,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    },
+    {
+      "prefecture": "沖縄県",
+      "total": 133,
+      "coreEvidence": 133,
+      "recordEligible": 133,
+      "sourceCoverage": 1,
+      "gapTo30": 0,
+      "gapTo50": 0
+    }
+  ],
+  "gaps": {
+    "below30": [
+      {
+        "prefecture": "北海道",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "青森県",
+        "total": 0,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 30,
+        "gapTo50": 50
+      },
+      {
+        "prefecture": "岩手県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "宮城県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "秋田県",
+        "total": 9,
+        "coreEvidence": 9,
+        "recordEligible": 9,
+        "sourceCoverage": 1,
+        "gapTo30": 21,
+        "gapTo50": 41
+      },
+      {
+        "prefecture": "山形県",
+        "total": 1,
+        "coreEvidence": 1,
+        "recordEligible": 1,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "福島県",
+        "total": 1,
+        "coreEvidence": 1,
+        "recordEligible": 1,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "茨城県",
+        "total": 1,
+        "coreEvidence": 1,
+        "recordEligible": 1,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "群馬県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "埼玉県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "千葉県",
+        "total": 18,
+        "coreEvidence": 17,
+        "recordEligible": 17,
+        "sourceCoverage": 0.9444,
+        "gapTo30": 12,
+        "gapTo50": 32
+      },
+      {
+        "prefecture": "東京都",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "神奈川県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "新潟県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "富山県",
+        "total": 1,
+        "coreEvidence": 1,
+        "recordEligible": 1,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "福井県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "山梨県",
+        "total": 11,
+        "coreEvidence": 10,
+        "recordEligible": 10,
+        "sourceCoverage": 0.9091,
+        "gapTo30": 19,
+        "gapTo50": 39
+      },
+      {
+        "prefecture": "長野県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "岐阜県",
+        "total": 9,
+        "coreEvidence": 8,
+        "recordEligible": 8,
+        "sourceCoverage": 0.8889,
+        "gapTo30": 21,
+        "gapTo50": 41
+      },
+      {
+        "prefecture": "三重県",
+        "total": 10,
+        "coreEvidence": 10,
+        "recordEligible": 10,
+        "sourceCoverage": 1,
+        "gapTo30": 20,
+        "gapTo50": 40
+      },
+      {
+        "prefecture": "奈良県",
+        "total": 27,
+        "coreEvidence": 27,
+        "recordEligible": 27,
+        "sourceCoverage": 1,
+        "gapTo30": 3,
+        "gapTo50": 23
+      }
+    ],
+    "below50": [
+      {
+        "prefecture": "北海道",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "青森県",
+        "total": 0,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 30,
+        "gapTo50": 50
+      },
+      {
+        "prefecture": "岩手県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "宮城県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "秋田県",
+        "total": 9,
+        "coreEvidence": 9,
+        "recordEligible": 9,
+        "sourceCoverage": 1,
+        "gapTo30": 21,
+        "gapTo50": 41
+      },
+      {
+        "prefecture": "山形県",
+        "total": 1,
+        "coreEvidence": 1,
+        "recordEligible": 1,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "福島県",
+        "total": 1,
+        "coreEvidence": 1,
+        "recordEligible": 1,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "茨城県",
+        "total": 1,
+        "coreEvidence": 1,
+        "recordEligible": 1,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "栃木県",
+        "total": 31,
+        "coreEvidence": 31,
+        "recordEligible": 31,
+        "sourceCoverage": 1,
+        "gapTo30": 0,
+        "gapTo50": 19
+      },
+      {
+        "prefecture": "群馬県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "埼玉県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "千葉県",
+        "total": 18,
+        "coreEvidence": 17,
+        "recordEligible": 17,
+        "sourceCoverage": 0.9444,
+        "gapTo30": 12,
+        "gapTo50": 32
+      },
+      {
+        "prefecture": "東京都",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "神奈川県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "新潟県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 0,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "富山県",
+        "total": 1,
+        "coreEvidence": 1,
+        "recordEligible": 1,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "福井県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "山梨県",
+        "total": 11,
+        "coreEvidence": 10,
+        "recordEligible": 10,
+        "sourceCoverage": 0.9091,
+        "gapTo30": 19,
+        "gapTo50": 39
+      },
+      {
+        "prefecture": "長野県",
+        "total": 1,
+        "coreEvidence": 0,
+        "recordEligible": 0,
+        "sourceCoverage": 1,
+        "gapTo30": 29,
+        "gapTo50": 49
+      },
+      {
+        "prefecture": "岐阜県",
+        "total": 9,
+        "coreEvidence": 8,
+        "recordEligible": 8,
+        "sourceCoverage": 0.8889,
+        "gapTo30": 21,
+        "gapTo50": 41
+      },
+      {
+        "prefecture": "三重県",
+        "total": 10,
+        "coreEvidence": 10,
+        "recordEligible": 10,
+        "sourceCoverage": 1,
+        "gapTo30": 20,
+        "gapTo50": 40
+      },
+      {
+        "prefecture": "大阪府",
+        "total": 39,
+        "coreEvidence": 39,
+        "recordEligible": 39,
+        "sourceCoverage": 1,
+        "gapTo30": 0,
+        "gapTo50": 11
+      },
+      {
+        "prefecture": "兵庫県",
+        "total": 39,
+        "coreEvidence": 39,
+        "recordEligible": 39,
+        "sourceCoverage": 1,
+        "gapTo30": 0,
+        "gapTo50": 11
+      },
+      {
+        "prefecture": "奈良県",
+        "total": 27,
+        "coreEvidence": 27,
+        "recordEligible": 27,
+        "sourceCoverage": 1,
+        "gapTo30": 3,
+        "gapTo50": 23
+      },
+      {
+        "prefecture": "鳥取県",
+        "total": 44,
+        "coreEvidence": 35,
+        "recordEligible": 35,
+        "sourceCoverage": 1,
+        "gapTo30": 0,
+        "gapTo50": 6
+      },
+      {
+        "prefecture": "佐賀県",
+        "total": 47,
+        "coreEvidence": 46,
+        "recordEligible": 46,
+        "sourceCoverage": 1,
+        "gapTo30": 0,
+        "gapTo50": 3
+      }
+    ]
+  },
+  "invariants": {
+    "indexableDialectRoutesWithoutCoreEvidence": [],
+    "indexableIdentityCollisionRoutes": [],
+    "duplicateIds": [],
+    "duplicateSlugs": [],
+    "noindexRoutesInSitemap": [],
+    "noindexReasonCountMismatch": 0,
+    "redirectCountMismatch": 0,
+    "sitemapIndexableCountMismatch": 0,
+    "noindexAndSitemapExclusionAlsoCheckedBy": "scripts/seo-site-audit.mjs"
+  },
+  "status": "PASSED",
+  "failures": []
+}

@@ -19,8 +19,8 @@ const contextGuideRecords = JSON.parse(
 const confirmed = new Set(["verified", "reference_confirmed", "community_confirmed"]);
 const classify = (item) => {
   const scopes = new Set([...(item.evidenceScopes ?? []), ...(item.additionalSources ?? []).flatMap((source) => source.evidenceScopes ?? [])]);
-  const grounded = confirmed.has(item.verificationStatus) && item.sourceTitle?.trim() && item.sourceUrl?.trim() && item.sourceCheckedAt?.trim() && ["phrase", "reading", "meaning", "region", "example", "usage"].every((scope) => scopes.has(scope));
-  if (grounded && item.description?.trim().length >= 100 && item.description.trim().length <= 160 && item.exampleDialect?.trim() && item.exampleStandard?.trim()) return "indexable";
+  const grounded = confirmed.has(item.verificationStatus) && item.sourceTitle?.trim() && item.sourceUrl?.trim() && item.sourceCheckedAt?.trim() && ["phrase", "meaning", "region"].every((scope) => scopes.has(scope));
+  if (grounded) return "indexable";
   if (item.phrase?.trim() && item.standardJapanese?.trim() && item.description?.trim()) return "review_required";
   return "noindex";
 };
@@ -72,11 +72,11 @@ const firstSample = sampleCandidates.map((item, index) => {
     prefectureName: item.prefectureName ?? null,
     sourceStatus: !isExisting ? "research_required" : indexStatus === "indexable" ? "evidence_complete" : item.sourceUrl ? "partial_source_found" : "research_required",
     verifiedScopes: item.evidenceScopes ?? [],
-    requiredChecks: ["固有の検索意図", "一次または信頼できる資料", "表記・読み・意味・地域の一致", "100〜160字の固有要約", "自然な例文の権利と真正性", "関連ページ2件以上", "編集者による最終確認"],
+    requiredChecks: ["固有の検索意図", "一次または信頼できる資料", "表記・意味・地域の一致", "未確認項目の明示", "関連ページ2件以上", "編集者による最終確認"],
     status: indexStatus === "indexable" ? "quality_gate_passed" : "evidence_review",
     indexStatus,
   };
 });
-await writeFile(join(root, "content/quality-sample-50.json"), `${JSON.stringify({ version: 3, target: 50, cohortRule: "品質ゲート合格済みを優先し、次に公的出典登録済み候補を選ぶ", policy: "全項目を満たすまでindexableにしない", entries: firstSample }, null, 2)}\n`);
+await writeFile(join(root, "content/quality-sample-50.json"), `${JSON.stringify({ version: 4, target: 50, cohortRule: "中核根拠を満たす記録を優先し、次に出典登録済み候補を選ぶ", policy: "語形・意味・地域のclaim-level evidenceを必須とし、追加項目の未確認状態を明示する", entries: firstSample }, null, 2)}\n`);
 console.log(`planned ${entries.length} evidence-gated content slots (${dialectRecords.length + meaningRecords.length + regionGuideRecords.length + cultureGuideRecords.length + contextGuideRecords.length} existing pages included)`);
 console.log(`generated ${firstSample.length} quality sample entries`);

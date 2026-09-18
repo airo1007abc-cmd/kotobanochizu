@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T23:46:14.056Z",
+  "generatedAt": "2026-09-18T17:21:11.163Z",
   "total": 30,
   "indexable": 30,
   "exampleCounts": {
@@ -33,6 +33,9 @@
     "context-yaizu-making-fixing": 4,
     "context-yaizu-seeing-observing": 4,
     "context-yaizu-household-actions": 4
+  },
+  "invariants": {
+    "indexableGuidesWithMissingExampleEvidence": []
   },
   "duplicateTitles": [],
   "duplicateDescriptions": [],

@@ -15,6 +15,64 @@ const makeViewModel = (dialect: Dialect) => createDialectDetailViewModel(dialect
 });
 
 describe("DialectDetailViewModel", () => {
+  it("shows optional reading and examples only when their claims have evidence", () => {
+    const current = repository.dialect("jp-41-saga-001")!;
+    const source = {
+      ...current.source!,
+      evidenceScopes: ["phrase", "meaning", "region", "reading", "example", "usage"] as NonNullable<Dialect["source"]>["evidenceScopes"],
+    };
+    const raw = {
+      ...current,
+      reading: "しょうこつき",
+      exampleDialect: "証拠付きの用例",
+      exampleStandard: "証拠付きの標準語訳",
+      usageContexts: ["daily"],
+      usageFrequency: "common" as const,
+      source,
+      additionalSources: [],
+    };
+    const snapshot = structuredClone(raw);
+    const verified = makeViewModel(raw);
+    expect(verified.reading).toBe("しょうこつき");
+    expect(verified.examples).toEqual([{ dialect: "証拠付きの用例", standard: "証拠付きの標準語訳" }]);
+    expect(verified.verifiedItems).toContain("用法");
+    expect(verified.pendingItems).not.toContain("資料上の用法・使用状況");
+    expect(raw).toEqual(snapshot);
+
+    const withoutOptionalEvidence = {
+      ...raw,
+      source: { ...source, evidenceScopes: ["phrase", "meaning", "region"] as NonNullable<Dialect["source"]>["evidenceScopes"] },
+    };
+    const pending = makeViewModel(withoutOptionalEvidence);
+    expect(pending.reading).toBeUndefined();
+    expect(pending.examples).toEqual([]);
+    expect(pending.pendingItems).toContain("資料上の読み");
+    expect(pending.pendingItems).toContain("自然な用例");
+    expect(pending.pendingItems).toContain("資料上の用法・使用状況");
+    expect(pending.verifiedItems).not.toContain("用法");
+    const html = renderToStaticMarkup(
+      <MemoryRouter>
+        <DialectDetailV2 dialect={withoutOptionalEvidence} />
+      </MemoryRouter>,
+    );
+    expect(html).toContain("読み確認中");
+    expect(html).toContain("用例は確認中です");
+    expect(html).toContain("資料上の用法・使用状況");
+    expect(html).not.toContain("しょうこつき");
+    expect(html).not.toContain("証拠付きの用例");
+    expect(html).not.toContain("common");
+  });
+
+  it("keeps a physically missing reading in the pending state", () => {
+    const current = repository.dialect("jp-41-saga-001")!;
+    const viewModel = makeViewModel({
+      ...current,
+      reading: "",
+      source: { ...current.source!, evidenceScopes: [...(current.source?.evidenceScopes ?? []), "reading"] },
+    });
+    expect(viewModel.reading).toBeUndefined();
+  });
+
   it("converts the complete catalogue and routes every id to V2", () => {
     const dialects = repository.dialects();
     expect(dialects).toHaveLength(1952);
@@ -177,6 +235,10 @@ describe("DialectDetailViewModel", () => {
         { dialect: "例文一", standard: "標準語一" },
         { dialect: "例文二", standard: "標準語二" },
       ],
+      source: {
+        ...current.source!,
+        evidenceScopes: [...(current.source?.evidenceScopes ?? []), "example"],
+      },
       exampleDialect: "",
       exampleStandard: "",
     } as Dialect & { nuance: string; examples: Array<{ dialect: string; standard: string }> };

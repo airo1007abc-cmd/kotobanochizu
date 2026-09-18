@@ -1,5 +1,7 @@
 import { describe, it, expect } from "vitest";
-import { repository } from "./repository";
+import { dialectMatchesContext, dialectSearchText, repository } from "./repository";
+import type { Dialect } from "./domain";
+import { normalizeJapanese } from "./japaneseSearch";
 describe("repository", () => {
   it("has all 47 prefectures", () =>
     expect(repository.prefectures()).toHaveLength(47));
@@ -11,6 +13,27 @@ describe("repository", () => {
     ).toBe(true);
     expect(repository.dialects({ q: "かわいい" })[0]?.phrase).toBe("めんこい");
   });
+  it("uses reading and usage in discovery only with matching evidence", () => {
+    const current = repository.dialects().find((item) => item.source)!;
+    const withEvidence = {
+      ...current,
+      reading: "しょうこけんさよみ",
+      usageContexts: ["証拠付き検索場面"],
+      source: {
+        ...current.source!,
+        evidenceScopes: ["phrase", "meaning", "region", "reading", "usage"],
+      },
+      additionalSources: [],
+    } as Dialect;
+    const withoutEvidence = {
+      ...withEvidence,
+      source: { ...withEvidence.source!, evidenceScopes: ["phrase", "meaning", "region"] },
+    } as Dialect;
+    expect(dialectSearchText(withEvidence)).toContain(normalizeJapanese("しょうこけんさよみ"));
+    expect(dialectSearchText(withoutEvidence)).not.toContain(normalizeJapanese("しょうこけんさよみ"));
+    expect(dialectMatchesContext(withEvidence, "証拠付き検索場面")).toBe(true);
+    expect(dialectMatchesContext(withoutEvidence, "証拠付き検索場面")).toBe(false);
+  });
   it("filters by region", () => {
     const region = repository.regions().find((r) => r.name === "津軽")!;
     expect(
@@ -19,7 +42,7 @@ describe("repository", () => {
         .every((d) => d.regionId === region.id),
     ).toBe(true);
   });
-  it("combines archive facets", () => {
+  it("does not expose an unverified legacy context through combined facets", () => {
     const results = repository.dialects({
       prefectureId: repository.prefectures().find((p) => p.name === "青森県")!
         .id,
@@ -27,10 +50,7 @@ describe("repository", () => {
       context: "日常",
       verificationStatus: "demo",
     });
-    expect(results.length).toBeGreaterThan(0);
-    expect(results.every((item) => item.verificationStatus === "demo")).toBe(
-      true,
-    );
+    expect(results).toEqual([]);
   });
   it("has at least one expression and two regions for every prefecture", () => {
     for (const prefecture of repository.prefectures()) {

@@ -1,0 +1,14 @@
+{
+  "baseCommit": "17b84980b5b2dbcde31f0a4a54c116619c0051e4",
+  "capturedAt": "2026-09-19T01:28:48+09:00",
+  "staticPagesIncludingRedirects": 2631,
+  "routeDecisions": 2629,
+  "indexablePages": 1049,
+  "noindexPagesIncludingRedirects": 1582,
+  "dialectRoutes": 1959,
+  "indexableDialectRoutes": 630,
+  "noindexDialectRoutes": 1329,
+  "coreEvidenceRecords": 1875,
+  "indexableRegionRoutes": 0,
+  "sitemapUrls": 1049
+}

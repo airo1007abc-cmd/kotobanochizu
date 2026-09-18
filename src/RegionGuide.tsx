@@ -4,6 +4,7 @@ import { ArrowRight, BookOpen, MapPin } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import guideData from "./data/region-guides.json";
 import { repository } from "./repository";
+import { hasEvidenceScope } from "./evidencePolicy.mjs";
 
 type RegionGuideRecord = {
   id: string;
@@ -68,7 +69,7 @@ export function RegionGuide() {
         <div className="guide-dialect-grid">
           {dialects.map((item) => (
             <Link to={`/dialects/${item.id}`} key={item.id}>
-              <small>{item.usageContexts.slice(0, 2).join("・")}</small>
+              <small>{hasEvidenceScope(item, "usage") ? item.usageContexts.slice(0, 2).join("・") : "使用場面未確認"}</small>
               <strong>{item.phrase}</strong>
               <span>{item.standardJapanese}</span>
               <p>{item.description}</p>

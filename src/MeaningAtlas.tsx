@@ -7,6 +7,7 @@ import { normalizeJapanese } from "./japaneseSearch";
 import { repository } from "./repository";
 import type { Dialect } from "./domain";
 import comparisonData from "./data/meaning-comparisons.json";
+import { hasEvidenceScope } from "./evidencePolicy.mjs";
 
 const prefectureName = new Map(
   repository.prefectures().map((item) => [item.id, item.name]),
@@ -25,6 +26,13 @@ type MeaningComparisonRecord = {
   sourceCheckedAt: string;
   indexStatus: "indexable" | "review_required" | "noindex";
 };
+
+export function MeaningComparisonExample({ item }: { item: Dialect }) {
+  if (!hasEvidenceScope(item, "example")) {
+    return <><p>用例は確認中です</p><p className="translation">出典で確認できる用例を確認中です</p></>;
+  }
+  return <><p>{item.exampleDialect}</p><p className="translation">{item.exampleStandard}</p></>;
+}
 
 const meaningComparisons = comparisonData as MeaningComparisonRecord[];
 
@@ -112,7 +120,7 @@ export function MeaningAtlas() {
                 <Link to={`/dialects/${item.id}`} key={item.id}>
                   <small>{prefectureName.get(item.prefectureId)}</small>
                   <strong>{item.phrase}</strong>
-                  <span>{item.reading}</span>
+                  <span>{hasEvidenceScope(item, "reading") ? item.reading : "読み確認中"}</span>
                   <i className={`verification ${item.verificationStatus}`}>
                     {item.verificationStatus === "needs_review"
                       ? "資料を確認中"
@@ -169,9 +177,8 @@ export function MeaningComparison() {
             <Link to={`/dialects/${item.id}`} key={item.id}>
               <small>{prefectureName.get(item.prefectureId)}</small>
               <strong>{item.phrase}</strong>
-              <span>{item.reading}／{item.standardJapanese}</span>
-              <p>{item.exampleDialect}</p>
-              <p className="translation">{item.exampleStandard}</p>
+              <span>{hasEvidenceScope(item, "reading") ? item.reading : "読み確認中"}／{item.standardJapanese}</span>
+              <MeaningComparisonExample item={item} />
               <i className={`verification ${item.verificationStatus}`}>{['verified','reference_confirmed','community_confirmed'].includes(item.verificationStatus) ? '資料・話者の確認あり' : '資料を確認中'}</i>
               <ArrowRight />
             </Link>

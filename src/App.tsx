@@ -1,5 +1,6 @@
 import { SourceAvailability } from "./SourceAvailability";
 import { recordDescription } from "./editorialDisplay";
+import { hasEvidenceScope } from "./evidencePolicy.mjs";
 import { NotFound } from "./NotFound";
 import { lazy, Suspense, useEffect, useState } from "react";
 import {
@@ -29,7 +30,7 @@ import {
 import { allPageMetadata, isIndexableDialect } from "./seo";
 import { ArchiveConversation, ConversationSources, ArchivedQuiz } from "./PublicArchivePages";
 import { PageHead } from "./PageHead";
-import { repository } from "./repository";
+import { evidencedUsageContexts, repository } from "./repository";
 import { JapanPrefectureMap } from "./JapanPrefectureMap";
 import { DialectDetailV2 } from "./DialectDetailV2";
 import { PrefectureDetailV2 } from "./PrefectureDetailV2";
@@ -640,14 +641,14 @@ function DialectDetail() {
             </span>
           </div>
           <h1>{d.phrase}</h1>
-          <p className="reading">{d.reading}</p>
+          <p className="reading">{hasEvidenceScope(d, "reading") ? d.reading : "読み確認中"}</p>
           <div className="meaning">
             <small>標準語では</small>
             <strong>{d.standardJapanese}</strong>
           </div>
           <h2>こんなふうに使います</h2>
           <div className="example">
-            {d.exampleDialect && d.exampleStandard ? (
+            {hasEvidenceScope(d, "example") && d.exampleDialect && d.exampleStandard ? (
               <>
                 <b>「{d.exampleDialect}」</b>
                 <span>標準語：{d.exampleStandard}</span>
@@ -657,9 +658,6 @@ function DialectDetail() {
                 <b>用例は確認中です</b>
                 <span>出典で確認できる自然な会話例を収集中です。</span>
               </>
-            )}
-            {d.exampleDialect && !d.source?.evidenceScopes?.includes("example") && (
-              <small>※ この例文は確認・収集中で、出典確認済みの用例ではありません。</small>
             )}
           </div>
           <h2>ことばのニュアンス</h2>
@@ -688,11 +686,11 @@ function DialectDetail() {
               </div>
               <div>
                 <dt>使われる場面</dt>
-                <dd>{d.usageContexts.map(contextLabel).join("、")}</dd>
+                <dd>{hasEvidenceScope(d, "usage") ? d.usageContexts.map(contextLabel).join("、") : "資料上の使用場面は未確認"}</dd>
               </div>
               <div>
                 <dt>使用頻度</dt>
-                <dd>{d.usageFrequency}</dd>
+                <dd>{hasEvidenceScope(d, "usage") ? d.usageFrequency : "資料上の使用状況は未確認"}</dd>
               </div>
               <div>
                 <dt>収録・記録年</dt>
@@ -872,7 +870,7 @@ function SearchPage() {
     setParams(next, { replace: true });
   };
   const all = repository.dialects();
-  const contexts = [...new Set(all.flatMap((item) => item.usageContexts))].sort(
+  const contexts = [...new Set(all.flatMap(evidencedUsageContexts))].sort(
     (a, b) => a.localeCompare(b, "ja"),
   );
   const result = repository.dialects({

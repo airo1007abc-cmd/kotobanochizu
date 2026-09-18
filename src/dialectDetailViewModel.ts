@@ -1,5 +1,6 @@
 import type { Dialect, SourceMetadata } from "./domain";
 import { recordDescription, isEditorialExampleNotice } from "./editorialDisplay";
+import { hasEvidenceScope } from "./evidencePolicy.mjs";
 
 const missingTokens = new Set(["unknown", "null", "undefined", "未記録"]);
 const scopeLabels: Record<string, string> = {
@@ -134,24 +135,26 @@ export function createDialectDetailViewModel(
       .filter((item): item is string => Boolean(item) && item !== primaryRegionName)
     : [];
   const locationBadges = [...new Set([...municipalityLocations, ...futureRegionLocations])];
-  const examples = normalizeExamples(dialect);
+  const readingIsVerified = hasEvidenceScope(dialect, "reading");
+  const exampleIsVerified = hasEvidenceScope(dialect, "example");
+  const examples = exampleIsVerified ? normalizeExamples(dialect) : [];
   const evidence = [...new Set([
     ...(dialect.source?.evidenceScopes ?? []),
     ...(dialect.additionalSources ?? []).flatMap((source) => source.evidenceScopes ?? []),
   ])];
   const verifiedItems = evidence.map((item) => scopeLabels[item] ?? item);
   const pendingItems = [
+    !evidence.includes("reading") && "資料上の読み",
     (!dialect.ageGroups.length || dialect.ageGroups.some((item) => !optionalText(item))) && "世代差",
-    !optionalText(dialect.usageFrequency) && "使用頻度",
-    !dialect.usageContexts.some(optionalText) && "使用場面",
-    examples.length === 0 && "自然な用例",
+    !evidence.includes("usage") && "資料上の用法・使用状況",
+    !evidence.includes("example") && "自然な用例",
   ].filter((item): item is string => Boolean(item));
   const meanings = normalizeMeanings(dialect);
 
   return {
     id: dialect.id,
     word: optionalText(dialect.phrase) ?? "表記確認中",
-    reading: optionalText(dialect.reading),
+    reading: readingIsVerified ? optionalText(dialect.reading) : undefined,
     meanings,
     description: optionalText(recordDescription(dialect.description)),
     nuance: optionalText(dialect.nuance),

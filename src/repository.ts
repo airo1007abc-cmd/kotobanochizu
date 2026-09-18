@@ -9,6 +9,7 @@ import {
 import { extendedConversations, moreDialects } from "./extendedData";
 import { nationalDialects, nationalRegions } from "./nationalData";
 import { normalizeJapanese } from "./japaneseSearch";
+import { hasEvidenceScope } from "./evidencePolicy.mjs";
 import type {
   Conversation,
   Dialect,
@@ -59,23 +60,28 @@ const prefectureNames = new Map(
   prefectures.map((item) => [item.id, item.name]),
 );
 const regionNames = new Map(allRegions.map((item) => [item.id, item.name]));
+export const evidencedReading = (item: Dialect) =>
+  hasEvidenceScope(item, "reading") ? item.reading : "";
+export const evidencedUsageContexts = (item: Dialect) =>
+  hasEvidenceScope(item, "usage") ? item.usageContexts : [];
+export const dialectMatchesContext = (item: Dialect, context: string) =>
+  evidencedUsageContexts(item).some((value) => value.includes(context));
+export const dialectSearchText = (item: Dialect) =>
+  normalizeJapanese(
+    [
+      item.phrase,
+      evidencedReading(item),
+      item.standardJapanese,
+      item.description,
+      prefectureNames.get(item.prefectureId) ?? "",
+      regionNames.get(item.regionId) ?? "",
+      item.municipality ?? "",
+      ...evidencedUsageContexts(item),
+      ...item.emotionTags,
+    ].join(" "),
+  );
 const searchIndex = new Map(
-  allDialects.map((item) => [
-    item.id,
-    normalizeJapanese(
-      [
-        item.phrase,
-        item.reading,
-        item.standardJapanese,
-        item.description,
-        prefectureNames.get(item.prefectureId) ?? "",
-        regionNames.get(item.regionId) ?? "",
-        item.municipality ?? "",
-        ...item.usageContexts,
-        ...item.emotionTags,
-      ].join(" "),
-    ),
-  ]),
+  allDialects.map((item) => [item.id, dialectSearchText(item)]),
 );
 export type DialectQuery = {
   q?: string;
@@ -109,10 +115,7 @@ export const repository: ContentRepository = {
         (!filters?.prefectureId || d.prefectureId === filters.prefectureId) &&
         (!filters?.regionId || d.regionId === filters.regionId) &&
         (!filters?.ageGroup || d.ageGroups.includes(filters.ageGroup)) &&
-        (!filters?.context ||
-          d.usageContexts.some((context) =>
-            context.includes(filters.context!),
-          )) &&
+        (!filters?.context || dialectMatchesContext(d, filters.context)) &&
         (!filters?.verificationStatus ||
           d.verificationStatus === filters.verificationStatus) &&
         (!filters?.q ||
@@ -120,7 +123,7 @@ export const repository: ContentRepository = {
     ).sort((a,b)=>{
       const q=normalizeJapanese(filters?.q || '');
       if(!q) return 0;
-      const rank=(d:Dialect)=>normalizeJapanese(d.phrase)===q?0:normalizeJapanese(d.reading)===q?1:normalizeJapanese(d.standardJapanese)===q?2:3;
+      const rank=(d:Dialect)=>normalizeJapanese(d.phrase)===q?0:normalizeJapanese(evidencedReading(d))===q?1:normalizeJapanese(d.standardJapanese)===q?2:3;
       return rank(a)-rank(b);
     }),
   dialect: (id: string) =>

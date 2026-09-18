@@ -1,6 +1,7 @@
 import { repository } from "./repository";
 import type { Dialect } from "./domain";
 import { hasCoreEvidence, isIndexableRecord } from "./evidencePolicy.mjs";
+import { createDialectRoutePolicy } from "./dialectRoutePolicy.mjs";
 export { hasCoreEvidence } from "./evidencePolicy.mjs";
 import meanings from "./data/meaning-comparisons.json";
 import guides from "./data/region-guides.json";
@@ -24,6 +25,7 @@ const regions = repository.regions();
 const words = repository.dialects();
 const prefName = (id: string) => prefs.find((p) => p.id === id)?.name ?? "";
 const regionName = (id: string) => regions.find((r) => r.id === id)?.name ?? "";
+const dialectRoutePolicy = createDialectRoutePolicy(words);
 const home: Crumb = { name: "ホーム", path: "/" };
 const places: Crumb = { name: "地域を探す", path: "/prefectures" };
 export const isConfirmed = (d: Dialect) =>
@@ -31,6 +33,7 @@ export const isConfirmed = (d: Dialect) =>
     d.verificationStatus,
   );
 export const isIndexableDialect = isIndexableRecord;
+export const isIndexableDialectRoute = dialectRoutePolicy.isRouteIndexable;
 const metadata = new Map<string, PageMetadata>();
 function add(
   path: string,
@@ -137,11 +140,12 @@ for (const p of prefs) {
 }
 for (const r of regions) {
   const records = words.filter((d) => d.regionId === r.id);
+  const coreEvidenceCount = records.filter(hasCoreEvidence).length;
   add(
     `/regions/${r.id}`,
     `${r.name}の方言・地域のことば（${prefName(r.prefectureId)}）`,
     `${prefName(r.prefectureId)}の閲覧区分「${r.name}」に収録された${records.length}語。個々の記録地点と出典を確認できます。区分全域への分布を示すものではありません。`,
-    false,
+    coreEvidenceCount >= 5,
     [
       home,
       places,
@@ -155,11 +159,12 @@ for (const r of regions) {
 }
 for (const d of repository.archivedDialects().concat(words)) {
   if (redirects[`/dialects/${d.id}`]) continue;
+  const placeLabel = d.locality || d.municipality || regionName(d.regionId);
   add(
     `/dialects/${d.id}`,
-    `${d.phrase}の意味・使い方（${d.municipality ? d.municipality + "・" : ""}${prefName(d.prefectureId)}）`,
+    `${d.phrase}「${d.standardJapanese}」の意味・使い方（${placeLabel ? placeLabel + "・" : ""}${prefName(d.prefectureId)}）`,
     `「${d.phrase}」の意味は「${d.standardJapanese}」。${d.municipality || regionName(d.regionId)}の資料・確認状態を掲載。閲覧区分は${prefName(d.prefectureId)}・${regionName(d.regionId)}です。`,
-    isIndexableDialect(d),
+    isIndexableDialectRoute(d),
     [
       home,
       places,
@@ -178,7 +183,7 @@ for (const m of meanings)
     m.title,
     m.description,
     m.indexStatus === "indexable" &&
-      m.dialectIds.every((id) => isIndexableDialect(repository.dialect(id))),
+      m.dialectIds.every((id) => isIndexableDialectRoute(repository.dialect(id))),
     [home, { name: "意味から比べる", path: "/meanings" }],
     m.meaning,
   );
@@ -192,7 +197,7 @@ for (const g of guides) {
         ("municipalityPrefix" in g.selector &&
           g.selector.municipalityPrefix &&
           d.municipality?.startsWith(g.selector.municipalityPrefix))) &&
-      isIndexableDialect(d),
+      isIndexableDialectRoute(d),
   );
   add(
     `/guides/regions/${g.slug}`,
@@ -210,7 +215,7 @@ for (const g of cultures)
     g.description,
     g.indexStatus === "indexable" &&
       g.dialectIds.length >= 3 &&
-      g.dialectIds.every((id) => isIndexableDialect(repository.dialect(id))),
+      g.dialectIds.every((id) => isIndexableDialectRoute(repository.dialect(id))),
     [home],
     g.title.replace(/｜.+$/, ""),
   );
@@ -221,7 +226,7 @@ for (const s of stories)
     s.description,
     s.indexStatus === "indexable" &&
       s.dialectIds.length >= 3 &&
-      s.dialectIds.every((id) => isIndexableDialect(repository.dialect(id))),
+      s.dialectIds.every((id) => isIndexableDialectRoute(repository.dialect(id))),
     [home, { name: "地域の会話", path: "/conversations" }],
     s.title.replace(/｜.+$/, ""),
   );
