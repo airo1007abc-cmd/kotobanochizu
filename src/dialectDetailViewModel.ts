@@ -1,5 +1,6 @@
 import type { Dialect, SourceMetadata } from "./domain";
 import { recordDescription, isEditorialExampleNotice } from "./editorialDisplay";
+import { hasEvidenceScope } from "./evidencePolicy.mjs";
 
 const missingTokens = new Set(["unknown", "null", "undefined", "未記録"]);
 const scopeLabels: Record<string, string> = {
@@ -134,7 +135,9 @@ export function createDialectDetailViewModel(
       .filter((item): item is string => Boolean(item) && item !== primaryRegionName)
     : [];
   const locationBadges = [...new Set([...municipalityLocations, ...futureRegionLocations])];
-  const examples = normalizeExamples(dialect);
+  const readingIsVerified = hasEvidenceScope(dialect, "reading");
+  const exampleIsVerified = hasEvidenceScope(dialect, "example");
+  const examples = exampleIsVerified ? normalizeExamples(dialect) : [];
   const evidence = [...new Set([
     ...(dialect.source?.evidenceScopes ?? []),
     ...(dialect.additionalSources ?? []).flatMap((source) => source.evidenceScopes ?? []),
@@ -151,7 +154,7 @@ export function createDialectDetailViewModel(
   return {
     id: dialect.id,
     word: optionalText(dialect.phrase) ?? "表記確認中",
-    reading: optionalText(dialect.reading),
+    reading: readingIsVerified ? optionalText(dialect.reading) : undefined,
     meanings,
     description: optionalText(recordDescription(dialect.description)),
     nuance: optionalText(dialect.nuance),

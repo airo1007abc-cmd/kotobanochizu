@@ -6,7 +6,9 @@ import {
   redirects,
   hasCoreEvidence,
   isIndexableDialect,
+  isIndexableDialectRoute,
 } from "./seo";
+import { createDialectRoutePolicy } from "./dialectRoutePolicy.mjs";
 import { repository } from "./repository";
 import { renderToStaticMarkup } from "react-dom/server";
 import { createElement } from "react";
@@ -109,6 +111,17 @@ describe("publication and route integrity", () => {
     expect(new Set(indexedDialectPaths).size).toBe(indexedDialectPaths.length);
     expect(getPageMetadata("/dialects/jp-32-shimane-049").indexable).toBe(false);
     expect(getPageMetadata("/dialects/jp-32-shimane-050").indexable).toBe(false);
+    expect(isIndexableDialect(repository.dialect("jp-32-shimane-049")!)).toBe(true);
+    expect(isIndexableDialectRoute(repository.dialect("jp-32-shimane-049")!)).toBe(false);
+  });
+  it("separates core publishability from route identity safety", () => {
+    const good = repository.dialects().find(isIndexableDialect)!;
+    const collision = { ...good, id: `${good.id}-collision` };
+    const policy = createDialectRoutePolicy([good, collision]);
+    expect(isIndexableDialect(good)).toBe(true);
+    expect(policy.identityCollisions).toHaveLength(1);
+    expect(policy.isRouteIndexable(good)).toBe(false);
+    expect(policy.isRouteIndexable(collision)).toBe(false);
   });
   it("preserves approved legacy redirects without chains", () => {
     for (const [from, to] of Object.entries(redirects)) {

@@ -1,19 +1,20 @@
 # Indexability audit
 
-Generated: 2026-09-18T16:40:54.933Z
+Generated: 2026-09-18T17:00:32.695Z
 
 ## Summary
 
 | Metric | Count |
 | --- | ---: |
 | Dialect records | 1938 |
-| Dialect indexable | 1875 |
-| Dialect noindex | 63 |
-| Core-evidence records | 1875 |
+| Record eligible | 1875 |
+| Dialect routes indexable | 1873 |
+| Dialect routes noindex | 86 |
 | Static route decisions | 2629 |
 | Static routes indexable | 2390 |
 | Static routes noindex | 239 |
-| Region routes indexable | 98 |
+| Redirects | 2 |
+| Sitemap URLs | 2390 |
 
 ## Before to after
 
@@ -23,15 +24,22 @@ Generated: 2026-09-18T16:40:54.933Z
 
 ## Remaining noindex routes
 
-- dialectMissingCoreMeaning: 38
-- dialectVerificationStatus: 25
-- dialectIdentityCollision: 2
-- dialectLegacyOrDemo: 21
-- thinRegion: 102
-- insufficientPrefectureCollection: 15
-- meaningPolicy: 15
-- cultureGuidePolicy: 1
-- utilityOrArchived: 20
+- culture_guide_policy: 1
+- dialect_identity_collision: 14
+- dialect_legacy_or_archived: 21
+- dialect_missing_core_meaning: 26
+- dialect_verification_status: 25
+- meaning_policy: 15
+- prefecture_policy: 15
+- region_policy: 102
+- utility_policy: 20
+
+## Invariants
+
+- Status: PASSED
+- Noindex reason total: 239 / 239
+- Redirect manifest/site pages: 2 / 2
+- Sitemap/indexable route decisions: 2390 / 2390
 
 ## Prefecture gaps
 
@@ -64,4 +72,4 @@ Generated: 2026-09-18T16:40:54.933Z
 
 ## Database readiness
 
-The current 47-file JSON model remains workable at 3,000-5,000 records for static builds, but cross-record identity, claim-level evidence reuse, concurrent editing, and partial updates become increasingly costly. A future migration should separate `dialect_entries`, `dialect_forms`, `places`, `dialect_places`, `sources`, `evidence_claims`, `examples`, and `publication_state`. Import JSON into staging tables, validate IDs and claim scopes, dual-read during parity checks, then export a deterministic static snapshot for Vercel. Postgres/Supabase improves constraints, review workflow, and querying, while adding migrations, credentials, availability, and build-time snapshot complexity; indexability does not depend on that migration.
+The current 47-file JSON model remains workable at 3,000-5,000 records for static builds, but cross-record identity, claim-level evidence reuse, concurrent editing, and partial updates become increasingly costly. A future migration should separate `dialect_entries`, `dialect_forms`, `places`, `dialect_places`, `sources`, `evidence_claims`, `examples`, and `publication_state`. Indexability does not depend on that migration.

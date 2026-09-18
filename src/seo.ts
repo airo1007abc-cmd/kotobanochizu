@@ -1,6 +1,7 @@
 import { repository } from "./repository";
 import type { Dialect } from "./domain";
 import { hasCoreEvidence, isIndexableRecord } from "./evidencePolicy.mjs";
+import { createDialectRoutePolicy } from "./dialectRoutePolicy.mjs";
 export { hasCoreEvidence } from "./evidencePolicy.mjs";
 import meanings from "./data/meaning-comparisons.json";
 import guides from "./data/region-guides.json";
@@ -24,29 +25,7 @@ const regions = repository.regions();
 const words = repository.dialects();
 const prefName = (id: string) => prefs.find((p) => p.id === id)?.name ?? "";
 const regionName = (id: string) => regions.find((r) => r.id === id)?.name ?? "";
-const identityPart = (value: unknown) =>
-  typeof value === "string" ? value.normalize("NFKC").trim() : "";
-const dialectIdentityKey = (d: Dialect) =>
-  [
-    d.phrase,
-    d.standardJapanese,
-    d.prefectureId,
-    d.municipality,
-    d.locality,
-    d.evidenceRegion,
-    d.source?.url,
-    d.source?.page,
-  ]
-    .map(identityPart)
-    .join("|");
-const dialectIdentityCounts = words.reduce((counts, record) => {
-  const key = dialectIdentityKey(record);
-  counts.set(key, (counts.get(key) ?? 0) + 1);
-  return counts;
-}, new Map<string, number>());
-const duplicateDialectIdentityKeys = new Set(
-  [...dialectIdentityCounts].filter(([, count]) => count > 1).map(([key]) => key),
-);
+const dialectRoutePolicy = createDialectRoutePolicy(words);
 const home: Crumb = { name: "ホーム", path: "/" };
 const places: Crumb = { name: "地域を探す", path: "/prefectures" };
 export const isConfirmed = (d: Dialect) =>
@@ -54,6 +33,7 @@ export const isConfirmed = (d: Dialect) =>
     d.verificationStatus,
   );
 export const isIndexableDialect = isIndexableRecord;
+export const isIndexableDialectRoute = dialectRoutePolicy.isRouteIndexable;
 const metadata = new Map<string, PageMetadata>();
 function add(
   path: string,
@@ -180,14 +160,11 @@ for (const r of regions) {
 for (const d of repository.archivedDialects().concat(words)) {
   if (redirects[`/dialects/${d.id}`]) continue;
   const placeLabel = d.locality || d.municipality || regionName(d.regionId);
-  const hasIdentityCollision = duplicateDialectIdentityKeys.has(
-    dialectIdentityKey(d),
-  );
   add(
     `/dialects/${d.id}`,
     `${d.phrase}「${d.standardJapanese}」の意味・使い方（${placeLabel ? placeLabel + "・" : ""}${prefName(d.prefectureId)}）`,
     `「${d.phrase}」の意味は「${d.standardJapanese}」。${d.municipality || regionName(d.regionId)}の資料・確認状態を掲載。閲覧区分は${prefName(d.prefectureId)}・${regionName(d.regionId)}です。`,
-    isIndexableDialect(d) && !hasIdentityCollision,
+    isIndexableDialectRoute(d),
     [
       home,
       places,
@@ -206,7 +183,7 @@ for (const m of meanings)
     m.title,
     m.description,
     m.indexStatus === "indexable" &&
-      m.dialectIds.every((id) => isIndexableDialect(repository.dialect(id))),
+      m.dialectIds.every((id) => isIndexableDialectRoute(repository.dialect(id))),
     [home, { name: "意味から比べる", path: "/meanings" }],
     m.meaning,
   );
@@ -220,7 +197,7 @@ for (const g of guides) {
         ("municipalityPrefix" in g.selector &&
           g.selector.municipalityPrefix &&
           d.municipality?.startsWith(g.selector.municipalityPrefix))) &&
-      isIndexableDialect(d),
+      isIndexableDialectRoute(d),
   );
   add(
     `/guides/regions/${g.slug}`,
@@ -238,7 +215,7 @@ for (const g of cultures)
     g.description,
     g.indexStatus === "indexable" &&
       g.dialectIds.length >= 3 &&
-      g.dialectIds.every((id) => isIndexableDialect(repository.dialect(id))),
+      g.dialectIds.every((id) => isIndexableDialectRoute(repository.dialect(id))),
     [home],
     g.title.replace(/｜.+$/, ""),
   );
@@ -249,7 +226,7 @@ for (const s of stories)
     s.description,
     s.indexStatus === "indexable" &&
       s.dialectIds.length >= 3 &&
-      s.dialectIds.every((id) => isIndexableDialect(repository.dialect(id))),
+      s.dialectIds.every((id) => isIndexableDialectRoute(repository.dialect(id))),
     [home, { name: "地域の会話", path: "/conversations" }],
     s.title.replace(/｜.+$/, ""),
   );

@@ -16,6 +16,8 @@ const sourcesFor = (item) =>
       /^https?:\/\//.test(s.url) &&
       text(s.checkedAt),
   );
+export const hasEvidenceScope = (item, scope) =>
+  sourcesFor(item).some((source) => source.evidenceScopes?.includes(scope));
 export const hasCoreEvidence = (item) =>
   Boolean(
     item &&
@@ -25,7 +27,7 @@ export const hasCoreEvidence = (item) =>
     text(item.phrase) &&
     text(item.standardJapanese) &&
     ["phrase", "meaning", "region"].every((scope) =>
-      sourcesFor(item).some((s) => s.evidenceScopes?.includes(scope)),
+      hasEvidenceScope(item, scope),
     ),
   );
 // Indexability follows the claims that define the record. Reading, examples,

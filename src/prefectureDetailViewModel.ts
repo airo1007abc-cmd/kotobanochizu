@@ -1,4 +1,5 @@
 import type { Dialect, Prefecture, Region, RegionalCultureItem } from "./domain";
+import { hasEvidenceScope } from "./evidencePolicy.mjs";
 
 export type PrefectureRegionViewModel = {
   id: string;
@@ -105,7 +106,7 @@ export function createPrefectureDetailViewModel(
     featuredDialects: ranked.slice(0, 6).map((dialect) => ({
       id: dialect.id,
       word: dialect.phrase,
-      reading: safeReading(dialect.reading),
+      reading: hasEvidenceScope(dialect, "reading") ? safeReading(dialect.reading) : undefined,
       meaning: dialect.standardJapanese,
       regionName: regionNames.get(dialect.regionId) ?? "地域確認中",
       verificationLabel: verificationLabel(dialect),

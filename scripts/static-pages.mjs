@@ -119,6 +119,10 @@ await writeFile(
   "tmp/site-audit/route-decisions.json",
   JSON.stringify(allPageMetadata, null, 2),
 );
+await writeFile(
+  "tmp/site-audit/redirects.json",
+  JSON.stringify(redirects, null, 2),
+);
 console.log(
   `Generated ${allPageMetadata.length} complete pages, ${Object.keys(redirects).length} redirects; ${sitemapPages.length} indexable.`,
 );
