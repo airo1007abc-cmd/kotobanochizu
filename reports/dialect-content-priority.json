@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:36:10.683Z",
+  "generatedAt": "2026-09-18T17:20:04.495Z",
   "summary": {
     "total": 1952,
     "expectedTotal": 1952,
@@ -38,10 +38,10 @@
     "indexPromotionCandidates": 10,
     "keepNoindexRecommended": 69,
     "priorAuditCounts": {
-      "missingReading": 930,
+      "missingReading": 966,
       "missingDescription": 0,
       "missingMeaning": 0,
-      "missingExample": 1092,
+      "missingExample": 1109,
       "missingSource": 26,
       "regionPending": 0
     },

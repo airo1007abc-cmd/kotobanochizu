@@ -27,6 +27,13 @@ type MeaningComparisonRecord = {
   indexStatus: "indexable" | "review_required" | "noindex";
 };
 
+export function MeaningComparisonExample({ item }: { item: Dialect }) {
+  if (!hasEvidenceScope(item, "example")) {
+    return <><p>用例は確認中です</p><p className="translation">出典で確認できる用例を確認中です</p></>;
+  }
+  return <><p>{item.exampleDialect}</p><p className="translation">{item.exampleStandard}</p></>;
+}
+
 const meaningComparisons = comparisonData as MeaningComparisonRecord[];
 
 export function MeaningAtlas() {
@@ -171,8 +178,7 @@ export function MeaningComparison() {
               <small>{prefectureName.get(item.prefectureId)}</small>
               <strong>{item.phrase}</strong>
               <span>{hasEvidenceScope(item, "reading") ? item.reading : "読み確認中"}／{item.standardJapanese}</span>
-              <p>{hasEvidenceScope(item, "example") ? item.exampleDialect : "用例は確認中です"}</p>
-              <p className="translation">{item.exampleStandard}</p>
+              <MeaningComparisonExample item={item} />
               <i className={`verification ${item.verificationStatus}`}>{['verified','reference_confirmed','community_confirmed'].includes(item.verificationStatus) ? '資料・話者の確認あり' : '資料を確認中'}</i>
               <ArrowRight />
             </Link>

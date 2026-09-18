@@ -1,6 +1,6 @@
 # Indexability audit
 
-Generated: 2026-09-18T17:00:32.695Z
+Generated: 2026-09-18T17:20:29.127Z
 
 ## Summary
 

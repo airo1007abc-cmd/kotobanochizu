@@ -30,7 +30,7 @@ import {
 import { allPageMetadata, isIndexableDialect } from "./seo";
 import { ArchiveConversation, ConversationSources, ArchivedQuiz } from "./PublicArchivePages";
 import { PageHead } from "./PageHead";
-import { repository } from "./repository";
+import { evidencedUsageContexts, repository } from "./repository";
 import { JapanPrefectureMap } from "./JapanPrefectureMap";
 import { DialectDetailV2 } from "./DialectDetailV2";
 import { PrefectureDetailV2 } from "./PrefectureDetailV2";
@@ -870,7 +870,7 @@ function SearchPage() {
     setParams(next, { replace: true });
   };
   const all = repository.dialects();
-  const contexts = [...new Set(all.flatMap((item) => item.usageContexts))].sort(
+  const contexts = [...new Set(all.flatMap(evidencedUsageContexts))].sort(
     (a, b) => a.localeCompare(b, "ja"),
   );
   const result = repository.dialects({
