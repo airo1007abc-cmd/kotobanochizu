@@ -1,0 +1,737 @@
+[
+  {
+    "phrase": "ジョウヘイ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 4頁（冊子26頁）"
+    },
+    "evidenceGeography": "河原子",
+    "canonicalId": "jp-08-ibaraki-002"
+  },
+  {
+    "phrase": "クロコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 4頁（冊子26頁）"
+    },
+    "evidenceGeography": "久慈",
+    "canonicalId": "jp-08-ibaraki-003"
+  },
+  {
+    "phrase": "デンキ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 4頁（冊子26頁）"
+    },
+    "evidenceGeography": "久慈",
+    "canonicalId": "jp-08-ibaraki-004"
+  },
+  {
+    "phrase": "レンテ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 4頁（冊子26頁）"
+    },
+    "evidenceGeography": "久慈・河原子",
+    "canonicalId": "jp-08-ibaraki-005"
+  },
+  {
+    "phrase": "カスベ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 4頁（冊子26頁）"
+    },
+    "evidenceGeography": "平潟",
+    "canonicalId": "jp-08-ibaraki-006"
+  },
+  {
+    "phrase": "ウサギ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 5頁（冊子27頁）"
+    },
+    "evidenceGeography": "久慈",
+    "canonicalId": "jp-08-ibaraki-007"
+  },
+  {
+    "phrase": "ハタカ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 6頁（冊子28頁）"
+    },
+    "evidenceGeography": "久慈浜",
+    "canonicalId": "jp-08-ibaraki-008"
+  },
+  {
+    "phrase": "ハダカメヒカリ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 6頁（冊子28頁）"
+    },
+    "evidenceGeography": "久慈浜",
+    "canonicalId": "jp-08-ibaraki-009"
+  },
+  {
+    "phrase": "ミズカマス",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 12頁（冊子34頁）"
+    },
+    "evidenceGeography": "久慈浜",
+    "canonicalId": "jp-08-ibaraki-010"
+  },
+  {
+    "phrase": "ギングイ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 11頁（冊子33頁）"
+    },
+    "evidenceGeography": "久慈浜",
+    "canonicalId": "jp-08-ibaraki-011"
+  },
+  {
+    "phrase": "ノドグロ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 15頁（冊子37頁）"
+    },
+    "evidenceGeography": "久慈浜",
+    "canonicalId": "jp-08-ibaraki-012"
+  },
+  {
+    "phrase": "エビスサガ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 3頁（冊子25頁）"
+    },
+    "evidenceGeography": "大洗",
+    "canonicalId": "jp-08-ibaraki-013"
+  },
+  {
+    "phrase": "コロ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 4頁（冊子26頁）"
+    },
+    "evidenceGeography": "那珂湊",
+    "canonicalId": "jp-08-ibaraki-014"
+  },
+  {
+    "phrase": "サボミヤ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 4頁（冊子26頁）"
+    },
+    "evidenceGeography": "大洗・那珂湊",
+    "canonicalId": "jp-08-ibaraki-015"
+  },
+  {
+    "phrase": "トリエイ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 4頁（冊子26頁）"
+    },
+    "evidenceGeography": "大洗",
+    "canonicalId": "jp-08-ibaraki-016"
+  },
+  {
+    "phrase": "ギンメ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 4頁（冊子26頁）"
+    },
+    "evidenceGeography": "大洗・那珂湊",
+    "canonicalId": "jp-08-ibaraki-017"
+  },
+  {
+    "phrase": "ガランチョ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 7頁（冊子29頁）"
+    },
+    "evidenceGeography": "大洗・那珂湊",
+    "canonicalId": "jp-08-ibaraki-018"
+  },
+  {
+    "phrase": "ニガッチョ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 7頁（冊子29頁）"
+    },
+    "evidenceGeography": "那珂湊",
+    "canonicalId": "jp-08-ibaraki-019"
+  },
+  {
+    "phrase": "オカメザコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 7頁（冊子29頁）"
+    },
+    "evidenceGeography": "水戸市下市",
+    "canonicalId": "jp-08-ibaraki-020"
+  },
+  {
+    "phrase": "カババチ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 9頁（冊子31頁）"
+    },
+    "evidenceGeography": "水戸",
+    "canonicalId": "jp-08-ibaraki-021"
+  },
+  {
+    "phrase": "カヤコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 9頁（冊子31頁）"
+    },
+    "evidenceGeography": "水戸・宍戸",
+    "canonicalId": "jp-08-ibaraki-022"
+  },
+  {
+    "phrase": "アオボネ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 11頁（冊子33頁）"
+    },
+    "evidenceGeography": "那珂湊",
+    "canonicalId": "jp-08-ibaraki-023"
+  },
+  {
+    "phrase": "サクラウオ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 6頁（冊子28頁）"
+    },
+    "evidenceGeography": "土浦",
+    "canonicalId": "jp-08-ibaraki-024"
+  },
+  {
+    "phrase": "ハナミザイ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 7頁（冊子29頁）"
+    },
+    "evidenceGeography": "土浦・桜川",
+    "canonicalId": "jp-08-ibaraki-025"
+  },
+  {
+    "phrase": "ヤキハヤ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 7頁（冊子29頁）"
+    },
+    "evidenceGeography": "土浦",
+    "canonicalId": "jp-08-ibaraki-026"
+  },
+  {
+    "phrase": "ヤナギバヤ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 7頁（冊子29頁）"
+    },
+    "evidenceGeography": "土浦",
+    "canonicalId": "jp-08-ibaraki-027"
+  },
+  {
+    "phrase": "スバ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 12頁（冊子34頁）"
+    },
+    "evidenceGeography": "土浦",
+    "canonicalId": "jp-08-ibaraki-028"
+  },
+  {
+    "phrase": "トウギョ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 14頁（冊子36頁）"
+    },
+    "evidenceGeography": "土浦・美浦村木原",
+    "canonicalId": "jp-08-ibaraki-029"
+  },
+  {
+    "phrase": "メザカ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 10頁（冊子32頁）"
+    },
+    "evidenceGeography": "江戸崎・龍ケ崎・岩原",
+    "canonicalId": "jp-08-ibaraki-030"
+  },
+  {
+    "phrase": "ザコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 10頁（冊子32頁）"
+    },
+    "evidenceGeography": "新治郡藤沢村東町",
+    "canonicalId": "jp-08-ibaraki-031"
+  },
+  {
+    "phrase": "ザッコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 10頁（冊子32頁）"
+    },
+    "evidenceGeography": "筑波郡島名村",
+    "canonicalId": "jp-08-ibaraki-032"
+  },
+  {
+    "phrase": "メザッカ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 11頁（冊子33頁）"
+    },
+    "evidenceGeography": "稲敷郡奥野",
+    "canonicalId": "jp-08-ibaraki-033"
+  },
+  {
+    "phrase": "メタッタ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 11頁（冊子33頁）"
+    },
+    "evidenceGeography": "長竿・北相馬郡",
+    "canonicalId": "jp-08-ibaraki-034"
+  },
+  {
+    "phrase": "アイソ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 8頁（冊子30頁）"
+    },
+    "evidenceGeography": "下館",
+    "canonicalId": "jp-08-ibaraki-035"
+  },
+  {
+    "phrase": "ハヤ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 8頁（冊子30頁）"
+    },
+    "evidenceGeography": "下館",
+    "canonicalId": "jp-08-ibaraki-036"
+  },
+  {
+    "phrase": "アカハラ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 8頁（冊子30頁）"
+    },
+    "evidenceGeography": "下館",
+    "canonicalId": "jp-08-ibaraki-037"
+  },
+  {
+    "phrase": "テンノウヤマベ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 8頁（冊子30頁）"
+    },
+    "evidenceGeography": "下館",
+    "canonicalId": "jp-08-ibaraki-038"
+  },
+  {
+    "phrase": "ギンベチ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 9頁（冊子31頁）"
+    },
+    "evidenceGeography": "下館",
+    "canonicalId": "jp-08-ibaraki-039"
+  },
+  {
+    "phrase": "ザコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 10頁（冊子32頁）"
+    },
+    "evidenceGeography": "真壁郡古里村桑山",
+    "canonicalId": "jp-08-ibaraki-040"
+  },
+  {
+    "phrase": "ザゴ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 10頁（冊子32頁）"
+    },
+    "evidenceGeography": "真壁郡上野村寺上野",
+    "canonicalId": "jp-08-ibaraki-041"
+  },
+  {
+    "phrase": "ザコッコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 10頁（冊子32頁）"
+    },
+    "evidenceGeography": "岩瀬町久原",
+    "canonicalId": "jp-08-ibaraki-042"
+  },
+  {
+    "phrase": "ザッコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 10頁（冊子32頁）"
+    },
+    "evidenceGeography": "石下町新石下",
+    "canonicalId": "jp-08-ibaraki-043"
+  },
+  {
+    "phrase": "メザッコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 11頁（冊子33頁）"
+    },
+    "evidenceGeography": "真壁郡川西",
+    "canonicalId": "jp-08-ibaraki-044"
+  },
+  {
+    "phrase": "ケツメドミツツ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 5頁（冊子27頁）"
+    },
+    "evidenceGeography": "大洋",
+    "canonicalId": "jp-08-ibaraki-045"
+  },
+  {
+    "phrase": "カワシラス",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 5頁（冊子27頁）"
+    },
+    "evidenceGeography": "波崎",
+    "canonicalId": "jp-08-ibaraki-046"
+  },
+  {
+    "phrase": "ゴボウ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 5頁（冊子27頁）"
+    },
+    "evidenceGeography": "大洋",
+    "canonicalId": "jp-08-ibaraki-047"
+  },
+  {
+    "phrase": "ドロメ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 5頁（冊子27頁）"
+    },
+    "evidenceGeography": "波崎",
+    "canonicalId": "jp-08-ibaraki-048"
+  },
+  {
+    "phrase": "オゴ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 6頁（冊子28頁）"
+    },
+    "evidenceGeography": "波崎",
+    "canonicalId": "jp-08-ibaraki-049"
+  },
+  {
+    "phrase": "カワシラス",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 6頁（冊子28頁）"
+    },
+    "evidenceGeography": "波崎（利根川河口）",
+    "canonicalId": "jp-08-ibaraki-050"
+  },
+  {
+    "phrase": "アゴナシ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 11頁（冊子33頁）"
+    },
+    "evidenceGeography": "大野村小山・大洋村飯島",
+    "canonicalId": "jp-08-ibaraki-051"
+  },
+  {
+    "phrase": "ビンタイ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 11頁（冊子33頁）"
+    },
+    "evidenceGeography": "大野村小山・大洋村上島",
+    "canonicalId": "jp-08-ibaraki-052"
+  },
+  {
+    "phrase": "ポラコ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 12頁（冊子34頁）"
+    },
+    "evidenceGeography": "波崎",
+    "canonicalId": "jp-08-ibaraki-053"
+  },
+  {
+    "phrase": "ライヒ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 12頁（冊子34頁）"
+    },
+    "evidenceGeography": "北浦新宮",
+    "canonicalId": "jp-08-ibaraki-054"
+  },
+  {
+    "phrase": "シケガツオ",
+    "decision": "accepted",
+    "reason": "茨城県水産試験場の同一目録行で方言名・標準和名・採集地点を確認でき、既存・全県JSON・legacy dataとのidentity collisionがない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf",
+      "page": "PDF 13頁（冊子35頁）"
+    },
+    "evidenceGeography": "波崎",
+    "canonicalId": "jp-08-ibaraki-055"
+  },
+  {
+    "phrase": "ごじゃっぺ",
+    "decision": "rejected",
+    "reason": "既存canonical record jp-08-ibaraki-001と同一identityのため新規追加しない。",
+    "source": {
+      "title": "方言に耳を慣らした日々。の話",
+      "organization": "笠間市",
+      "url": "https://www.city.kasama.lg.jp/kouhou.php?category=1&code=787&mode=detail"
+    },
+    "evidenceGeography": "笠間市"
+  },
+  {
+    "phrase": "（茨城方言集覧の県域語彙）",
+    "decision": "hold",
+    "reason": "語形と意味は確認可能だが、個別項目の地点がなく5つの閲覧地域へ根拠をもって割り当てられない。",
+    "source": {
+      "title": "茨城方言集覧",
+      "organization": "茨城教育協会／国立国会図書館所蔵",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000924637"
+    },
+    "evidenceGeography": "茨城県（項目別地点なし）"
+  },
+  {
+    "phrase": "（霞ヶ浦のみを地点とする魚類方言）",
+    "decision": "hold",
+    "reason": "湖域が複数の閲覧地域にまたがり、採集地点を単一navigation regionへ安全に割り当てられない。",
+    "source": {
+      "title": "茨城県産魚類の方言について（第1報）",
+      "organization": "茨城県水産試験場",
+      "url": "https://www.pref.ibaraki.jp/nourinsuisan/suishi/kanri/kenkyuhokoku/documents/s38-02.pdf"
+    },
+    "evidenceGeography": "霞ヶ浦"
+  }
+]
