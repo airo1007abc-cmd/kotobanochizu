@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T23:46:13.291Z",
+  "generatedAt": "2026-09-18T16:35:47.186Z",
   "total": 150,
   "indexable": 150,
   "guideEntryCounts": {
@@ -15,7 +15,7 @@
     "region-guide-kochi-asakura-yoneda-1967": 9,
     "region-guide-kochi-ogata-1967": 10,
     "region-guide-kyoto-city-1964": 10,
-    "region-guide-kagoshima-city-1963": 8,
+    "region-guide-kagoshima-city-1963": 11,
     "region-guide-kagoshima-yakushima-miyanoura-1967": 5,
     "region-guide-ishikawa-shio-ogichi-1967": 7,
     "region-guide-aichi-komaki-fujishima-1967": 9,
@@ -25,8 +25,8 @@
     "region-guide-shizuoka-prefecture-cross-area": 224,
     "region-guide-aichi-prefecture-cross-area": 54,
     "region-guide-ishikawa-prefecture-cross-area": 49,
-    "region-guide-kochi-prefecture-cross-area": 20,
-    "region-guide-kagoshima-prefecture-cross-area": 21,
+    "region-guide-kochi-prefecture-cross-area": 88,
+    "region-guide-kagoshima-prefecture-cross-area": 84,
     "region-guide-chiba-futtsu": 17,
     "region-guide-ishikawa-kanazawa": 20,
     "region-guide-okinawa-miyako-nohara": 56,

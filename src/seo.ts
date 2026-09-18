@@ -24,6 +24,29 @@ const regions = repository.regions();
 const words = repository.dialects();
 const prefName = (id: string) => prefs.find((p) => p.id === id)?.name ?? "";
 const regionName = (id: string) => regions.find((r) => r.id === id)?.name ?? "";
+const identityPart = (value: unknown) =>
+  typeof value === "string" ? value.normalize("NFKC").trim() : "";
+const dialectIdentityKey = (d: Dialect) =>
+  [
+    d.phrase,
+    d.standardJapanese,
+    d.prefectureId,
+    d.municipality,
+    d.locality,
+    d.evidenceRegion,
+    d.source?.url,
+    d.source?.page,
+  ]
+    .map(identityPart)
+    .join("|");
+const dialectIdentityCounts = words.reduce((counts, record) => {
+  const key = dialectIdentityKey(record);
+  counts.set(key, (counts.get(key) ?? 0) + 1);
+  return counts;
+}, new Map<string, number>());
+const duplicateDialectIdentityKeys = new Set(
+  [...dialectIdentityCounts].filter(([, count]) => count > 1).map(([key]) => key),
+);
 const home: Crumb = { name: "ホーム", path: "/" };
 const places: Crumb = { name: "地域を探す", path: "/prefectures" };
 export const isConfirmed = (d: Dialect) =>
@@ -137,11 +160,12 @@ for (const p of prefs) {
 }
 for (const r of regions) {
   const records = words.filter((d) => d.regionId === r.id);
+  const coreEvidenceCount = records.filter(hasCoreEvidence).length;
   add(
     `/regions/${r.id}`,
     `${r.name}の方言・地域のことば（${prefName(r.prefectureId)}）`,
     `${prefName(r.prefectureId)}の閲覧区分「${r.name}」に収録された${records.length}語。個々の記録地点と出典を確認できます。区分全域への分布を示すものではありません。`,
-    false,
+    coreEvidenceCount >= 5,
     [
       home,
       places,
@@ -155,11 +179,15 @@ for (const r of regions) {
 }
 for (const d of repository.archivedDialects().concat(words)) {
   if (redirects[`/dialects/${d.id}`]) continue;
+  const placeLabel = d.locality || d.municipality || regionName(d.regionId);
+  const hasIdentityCollision = duplicateDialectIdentityKeys.has(
+    dialectIdentityKey(d),
+  );
   add(
     `/dialects/${d.id}`,
-    `${d.phrase}の意味・使い方（${d.municipality ? d.municipality + "・" : ""}${prefName(d.prefectureId)}）`,
+    `${d.phrase}「${d.standardJapanese}」の意味・使い方（${placeLabel ? placeLabel + "・" : ""}${prefName(d.prefectureId)}）`,
     `「${d.phrase}」の意味は「${d.standardJapanese}」。${d.municipality || regionName(d.regionId)}の資料・確認状態を掲載。閲覧区分は${prefName(d.prefectureId)}・${regionName(d.regionId)}です。`,
-    isIndexableDialect(d),
+    isIndexableDialect(d) && !hasIdentityCollision,
     [
       home,
       places,

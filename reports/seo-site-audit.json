@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-07T23:46:14.938Z",
-  "totalStaticPages": 2316,
-  "indexable": 1044,
-  "noindex": 1272,
+  "generatedAt": "2026-09-18T16:37:40.935Z",
+  "totalStaticPages": 2631,
+  "indexable": 2390,
+  "noindex": 241,
   "missingRobotsDecision": 0,
   "duplicateTitles": [
     {
@@ -14,15 +14,7 @@
       "indexablePaths": []
     },
     {
-      "value": "あんじょーの意味・使い方（益田市・大田市・島根県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-32-shimane-040",
-        "/dialects/jp-32-shimane-041"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "チンカモの意味・使い方（隠岐の島町・島根県）｜ことばの地図",
+      "value": "チンカモ「友達」の意味・使い方（隠岐の島町・島根県）｜ことばの地図",
       "paths": [
         "/dialects/jp-32-shimane-049",
         "/dialects/jp-32-shimane-050"
@@ -30,83 +22,7 @@
       "indexablePaths": []
     },
     {
-      "value": "チカマーリの意味・使い方（奈義町・岡山県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-33-okayama-048",
-        "/dialects/jp-33-okayama-049"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "しろえびの意味・使い方（倉敷市・岡山県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-33-okayama-059",
-        "/dialects/jp-33-okayama-060",
-        "/dialects/jp-33-okayama-061"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "がくの意味・使い方（倉敷市・岡山県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-33-okayama-062",
-        "/dialects/jp-33-okayama-063"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "ようの意味・使い方（広島県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-34-hiroshima-002",
-        "/dialects/jp-34-hiroshima-003",
-        "/dialects/jp-34-hiroshima-004"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "よう＋動詞＋んの意味・使い方（広島県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-34-hiroshima-005",
-        "/dialects/jp-34-hiroshima-006",
-        "/dialects/jp-34-hiroshima-007",
-        "/dialects/jp-34-hiroshima-008"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "うがすの意味・使い方（福山市・広島県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-34-hiroshima-023",
-        "/dialects/jp-34-hiroshima-024"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "しゅむの意味・使い方（福山市・広島県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-34-hiroshima-029",
-        "/dialects/jp-34-hiroshima-030"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "カコーの意味・使い方（三次市・広島県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-34-hiroshima-045",
-        "/dialects/jp-34-hiroshima-046"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "ナグルの意味・使い方（三好市・徳島県）｜ことばの地図",
-      "paths": [
-        "/dialects/jp-36-tokushima-036",
-        "/dialects/jp-36-tokushima-037"
-      ],
-      "indexablePaths": []
-    },
-    {
-      "value": "誰の意味・使い方（今治市・愛媛県）｜ことばの地図",
+      "value": "誰「誰」の意味・使い方（今治市・愛媛県）｜ことばの地図",
       "paths": [
         "/dialects/jp-38-ehime-047",
         "/dialects/jp-38-ehime-048"
@@ -114,7 +30,7 @@
       "indexablePaths": []
     },
     {
-      "value": "どこの意味・使い方（今治市・愛媛県）｜ことばの地図",
+      "value": "どこ「どこ」の意味・使い方（今治市・愛媛県）｜ことばの地図",
       "paths": [
         "/dialects/jp-38-ehime-049",
         "/dialects/jp-38-ehime-050"
@@ -122,7 +38,7 @@
       "indexablePaths": []
     },
     {
-      "value": "朝がの意味・使い方（宇和島市・愛媛県）｜ことばの地図",
+      "value": "朝が「朝が」の意味・使い方（宇和島市・愛媛県）｜ことばの地図",
       "paths": [
         "/dialects/jp-38-ehime-051",
         "/dialects/jp-38-ehime-052"
@@ -130,7 +46,7 @@
       "indexablePaths": []
     },
     {
-      "value": "烏の意味・使い方（宇和島市・愛媛県）｜ことばの地図",
+      "value": "烏「烏」の意味・使い方（宇和島市・愛媛県）｜ことばの地図",
       "paths": [
         "/dialects/jp-38-ehime-053",
         "/dialects/jp-38-ehime-054"
@@ -138,7 +54,7 @@
       "indexablePaths": []
     },
     {
-      "value": "牛がの意味・使い方（宇和島市・愛媛県）｜ことばの地図",
+      "value": "牛が「牛が」の意味・使い方（宇和島市・愛媛県）｜ことばの地図",
       "paths": [
         "/dialects/jp-38-ehime-055",
         "/dialects/jp-38-ehime-056"
@@ -146,7 +62,7 @@
       "indexablePaths": []
     },
     {
-      "value": "桜の意味・使い方（宇和島市・愛媛県）｜ことばの地図",
+      "value": "桜「桜」の意味・使い方（宇和島市・愛媛県）｜ことばの地図",
       "paths": [
         "/dialects/jp-38-ehime-057",
         "/dialects/jp-38-ehime-058"
@@ -155,6 +71,20 @@
     }
   ],
   "duplicateDescriptions": [
+    {
+      "value": "以前掲載していた会話例の案内です。資料で確認できることばと場面の紹介へ進めます。",
+      "paths": [
+        "/conversations/c1",
+        "/conversations/c2",
+        "/conversations/c3",
+        "/conversations/c4",
+        "/conversations/c5",
+        "/conversations/c6",
+        "/conversations/c7",
+        "/conversations/c8"
+      ],
+      "indexablePaths": []
+    },
     {
       "value": "この使用例は出典付き記録へ移転しました。",
       "paths": [
@@ -221,7 +151,10 @@
     }
   ],
   "brokenInternalLinks": [],
-  "orphanStaticPages": [],
+  "orphanStaticPages": [
+    "/dialects/d1",
+    "/dialects/d2"
+  ],
   "underlinkedIndexablePages": [],
   "blockingDuplicateTitles": [],
   "blockingDuplicateDescriptions": []

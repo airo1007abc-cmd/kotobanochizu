@@ -141,10 +141,10 @@ export function createDialectDetailViewModel(
   ])];
   const verifiedItems = evidence.map((item) => scopeLabels[item] ?? item);
   const pendingItems = [
+    !evidence.includes("reading") && "資料上の読み",
     (!dialect.ageGroups.length || dialect.ageGroups.some((item) => !optionalText(item))) && "世代差",
-    !optionalText(dialect.usageFrequency) && "使用頻度",
-    !dialect.usageContexts.some(optionalText) && "使用場面",
-    examples.length === 0 && "自然な用例",
+    !evidence.includes("usage") && "資料上の用法・使用状況",
+    !evidence.includes("example") && "自然な用例",
   ].filter((item): item is string => Boolean(item));
   const meanings = normalizeMeanings(dialect);
 

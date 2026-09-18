@@ -32,10 +32,12 @@ describe("publication and route integrity", () => {
     expect(getPageMetadata("/not-a-page").indexable).toBe(false);
     expect(getPageMetadata("/regions/%E0%A4%A").path).toBe("/404");
   });
-  it("keeps search, empty regions and unsupported collections out of the index", () => {
+  it("indexes only region collections with at least five core-evidence records", () => {
     expect(getPageMetadata("/search").indexable).toBe(false);
-    for (const r of repository.regions())
-      expect(getPageMetadata(`/regions/${r.id}`).indexable).toBe(false);
+    for (const r of repository.regions()) {
+      const evidence = repository.dialects({ regionId: r.id }).filter(hasCoreEvidence);
+      expect(getPageMetadata(`/regions/${r.id}`).indexable).toBe(evidence.length >= 5);
+    }
     for (const p of repository.prefectures()) {
       const evidence = repository
         .dialects({ prefectureId: p.id })
@@ -69,6 +71,44 @@ describe("publication and route integrity", () => {
     expect(
       isIndexableDialect({ ...good, verificationStatus: "needs_review" }),
     ).toBe(false);
+  });
+  it("does not require optional reading, example, usage, or description length", () => {
+    const good = repository.dialects().find(isIndexableDialect)!;
+    const withoutOptionalEvidence = {
+      ...good,
+      reading: "",
+      exampleDialect: "",
+      exampleStandard: "",
+      usageContexts: [],
+      usageFrequency: "unknown",
+      description: "短い説明",
+      source: {
+        ...good.source!,
+        evidenceScopes: ["phrase", "meaning", "region"],
+      },
+      additionalSources: [],
+    };
+    expect(isIndexableDialect(withoutOptionalEvidence)).toBe(true);
+    for (const missing of ["phrase", "meaning", "region"] as const) {
+      expect(isIndexableDialect({
+        ...withoutOptionalEvidence,
+        source: {
+          ...withoutOptionalEvidence.source,
+          evidenceScopes: withoutOptionalEvidence.source.evidenceScopes.filter((scope) => scope !== missing),
+        },
+      })).toBe(false);
+    }
+    expect(isIndexableDialect({ ...withoutOptionalEvidence, verificationStatus: "needs_review" })).toBe(false);
+    expect(isIndexableDialect({ ...withoutOptionalEvidence, source: undefined, additionalSources: [] })).toBe(false);
+    expect(isIndexableDialect(repository.archivedDialects()[0])).toBe(false);
+  });
+  it("keeps unresolved exact record identities out of the page index", () => {
+    const indexedDialectPaths = allPageMetadata
+      .filter((page) => page.indexable && page.path.startsWith("/dialects/"))
+      .map((page) => page.path);
+    expect(new Set(indexedDialectPaths).size).toBe(indexedDialectPaths.length);
+    expect(getPageMetadata("/dialects/jp-32-shimane-049").indexable).toBe(false);
+    expect(getPageMetadata("/dialects/jp-32-shimane-050").indexable).toBe(false);
   });
   it("preserves approved legacy redirects without chains", () => {
     for (const [from, to] of Object.entries(redirects)) {

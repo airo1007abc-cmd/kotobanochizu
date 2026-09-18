@@ -28,15 +28,7 @@ export const hasCoreEvidence = (item) =>
       sourcesFor(item).some((s) => s.evidenceScopes?.includes(scope)),
     ),
   );
-// Preserve the existing publication cohort. Other records require individual
-// editorial review of their unique evidence, not invented readings or examples.
-export const isIndexableRecord = (item) =>
-  Boolean(
-    hasCoreEvidence(item) &&
-    item.description?.trim().length >= 100 &&
-    text(item.exampleDialect) &&
-    text(item.exampleStandard) &&
-    ["reading", "example", "usage"].every((scope) =>
-      sourcesFor(item).some((s) => s.evidenceScopes?.includes(scope)),
-    ),
-  );
+// Indexability follows the claims that define the record. Reading, examples,
+// usage, and description length improve a page but remain optional when their
+// source evidence is not available; the UI exposes those gaps explicitly.
+export const isIndexableRecord = hasCoreEvidence;

@@ -7,7 +7,7 @@ const priority = read("reports/dialect-content-priority.json").records;
 const failures = [];
 
 if (baseline.totalPrefectures !== 47) failures.push(`prefecture count: ${baseline.totalPrefectures}`);
-if (baseline.totalDialects !== 1643) failures.push(`dialect count: ${baseline.totalDialects}`);
+if (baseline.totalDialects !== priority.length) failures.push(`dialect/report count mismatch: ${baseline.totalDialects}/${priority.length}`);
 for (const prefecture of baseline.prefectures) {
   if (!prefecture.prefectureId || !prefecture.prefectureName) failures.push(`missing identity: ${prefecture.prefectureCode}`);
   if (prefecture.dialectCount < 1) failures.push(`empty dialects: ${prefecture.prefectureName}`);
@@ -23,7 +23,7 @@ const output = {
   status: failures.length ? "FAILED" : "PASSED",
   expectedPrefectures: 47,
   actualPrefectures: baseline.totalPrefectures,
-  expectedDialects: 1643,
+  expectedDialects: priority.length,
   actualDialects: baseline.totalDialects,
   indexStatus: { indexable, noindex, total: indexable + noindex },
   v2Selection: { expected: 47, configuredMode: "all", rollbackMode: "off" },

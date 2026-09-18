@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-07T23:46:12.522Z",
-  "dialectRecords": 1628,
-  "indexable": 630,
-  "review_required": 998,
+  "generatedAt": "2026-09-18T16:35:46.353Z",
+  "dialectRecords": 1938,
+  "indexable": 1875,
+  "review_required": 63,
   "noindex": 0,
-  "fullyIndexableRate": "39%",
-  "recordsWithSourceMetadata": 1616,
+  "fullyIndexableRate": "97%",
+  "recordsWithSourceMetadata": 1926,
   "sourceMetadataRate": "99%",
   "evidenceScopeCounts": {
-    "phrase": 1616,
+    "phrase": 1926,
     "reading": 1006,
-    "meaning": 1575,
-    "region": 1616,
-    "example": 805,
-    "usage": 946,
-    "history": 432
+    "meaning": 1885,
+    "region": 1926,
+    "example": 851,
+    "usage": 1046,
+    "history": 440
   },
   "duplicatePhraseGroups": [
     [
@@ -62,6 +62,10 @@
       "jp-32-shimane-046"
     ],
     [
+      "jp-38-ehime-026",
+      "jp-25-shiga-059"
+    ],
+    [
       "jp-38-ehime-047",
       "jp-38-ehime-048"
     ],
@@ -91,6 +95,7 @@
     ],
     [
       "jp-40-fukuoka-006",
+      "jp-27-osaka-037",
       "jp-32-shimane-028"
     ],
     [
@@ -152,12 +157,69 @@
       "jp-35-yamaguchi-059"
     ],
     [
+      "jp-28-hyogo-007",
+      "jp-28-hyogo-022"
+    ],
+    [
+      "jp-28-hyogo-008",
+      "jp-28-hyogo-023"
+    ],
+    [
+      "jp-28-hyogo-009",
+      "jp-28-hyogo-024"
+    ],
+    [
+      "jp-28-hyogo-011",
+      "jp-27-osaka-004"
+    ],
+    [
+      "jp-28-hyogo-014",
+      "jp-27-osaka-007"
+    ],
+    [
+      "jp-28-hyogo-015",
+      "jp-27-osaka-008",
+      "jp-31-tottori-016"
+    ],
+    [
+      "jp-28-hyogo-017",
+      "jp-28-hyogo-035"
+    ],
+    [
+      "jp-28-hyogo-018",
+      "jp-27-osaka-009"
+    ],
+    [
+      "jp-28-hyogo-019",
+      "jp-27-osaka-010"
+    ],
+    [
+      "jp-28-hyogo-020",
+      "jp-27-osaka-011"
+    ],
+    [
+      "jp-28-hyogo-021",
+      "jp-27-osaka-012"
+    ],
+    [
+      "jp-28-hyogo-026",
+      "jp-27-osaka-002"
+    ],
+    [
+      "jp-28-hyogo-031",
+      "jp-27-osaka-003"
+    ],
+    [
       "jp-17-ishikawa-001",
       "jp-22-shizuoka-001"
     ],
     [
       "jp-17-ishikawa-004",
       "jp-17-ishikawa-029"
+    ],
+    [
+      "jp-37-kagawa-005",
+      "jp-27-osaka-021"
     ],
     [
       "jp-37-kagawa-007",
@@ -189,6 +251,10 @@
       "jp-46-kagoshima-015"
     ],
     [
+      "jp-46-kagoshima-073",
+      "jp-25-shiga-014"
+    ],
+    [
       "jp-39-kochi-005",
       "jp-39-kochi-054"
     ],
@@ -214,11 +280,20 @@
     ],
     [
       "jp-26-kyoto-001",
-      "jp-42-nagasaki-076"
+      "jp-42-nagasaki-076",
+      "jp-27-osaka-036"
     ],
     [
       "jp-26-kyoto-003",
       "jp-22-shizuoka-221"
+    ],
+    [
+      "jp-26-kyoto-026",
+      "jp-44-oita-009"
+    ],
+    [
+      "jp-26-kyoto-027",
+      "jp-44-oita-008"
     ],
     [
       "jp-45-miyazaki-007",
@@ -229,12 +304,30 @@
       "jp-42-nagasaki-026"
     ],
     [
+      "jp-45-miyazaki-072",
+      "jp-30-wakayama-005"
+    ],
+    [
       "jp-42-nagasaki-008",
       "jp-32-shimane-029"
     ],
     [
       "jp-42-nagasaki-021",
       "jp-41-saga-007"
+    ],
+    [
+      "jp-42-nagasaki-070",
+      "jp-29-nara-024",
+      "jp-29-nara-025",
+      "jp-30-wakayama-033"
+    ],
+    [
+      "jp-29-nara-010",
+      "jp-29-nara-011"
+    ],
+    [
+      "jp-29-nara-020",
+      "jp-29-nara-021"
     ],
     [
       "jp-33-okayama-048",
@@ -275,6 +368,32 @@
       "jp-47-okinawa-097"
     ],
     [
+      "jp-27-osaka-005",
+      "jp-25-shiga-005",
+      "jp-25-shiga-022"
+    ],
+    [
+      "jp-25-shiga-003",
+      "jp-25-shiga-020"
+    ],
+    [
+      "jp-25-shiga-006",
+      "jp-25-shiga-023"
+    ],
+    [
+      "jp-25-shiga-026",
+      "jp-30-wakayama-014"
+    ],
+    [
+      "jp-25-shiga-028",
+      "jp-25-shiga-046",
+      "jp-30-wakayama-023"
+    ],
+    [
+      "jp-25-shiga-035",
+      "jp-36-tokushima-051"
+    ],
+    [
       "jp-32-shimane-001",
       "jp-31-tottori-001"
     ],
@@ -301,8 +420,304 @@
     [
       "jp-36-tokushima-036",
       "jp-36-tokushima-037"
+    ],
+    [
+      "jp-30-wakayama-019",
+      "jp-30-wakayama-026"
     ]
   ],
-  "duplicateDescriptionGroups": [],
-  "policy": "根拠・確認日・十分な固有本文・例文が揃った記事のみindexable"
+  "duplicateDescriptionGroups": [
+    [
+      "jp-28-hyogo-007",
+      "jp-28-hyogo-022",
+      "jp-27-osaka-001"
+    ],
+    [
+      "jp-28-hyogo-008",
+      "jp-28-hyogo-023"
+    ],
+    [
+      "jp-28-hyogo-009",
+      "jp-28-hyogo-024"
+    ],
+    [
+      "jp-28-hyogo-010",
+      "jp-28-hyogo-025"
+    ],
+    [
+      "jp-28-hyogo-011",
+      "jp-28-hyogo-032",
+      "jp-27-osaka-004"
+    ],
+    [
+      "jp-28-hyogo-012",
+      "jp-28-hyogo-033",
+      "jp-27-osaka-005",
+      "jp-25-shiga-005",
+      "jp-25-shiga-022",
+      "jp-25-shiga-023",
+      "jp-25-shiga-036"
+    ],
+    [
+      "jp-28-hyogo-013",
+      "jp-28-hyogo-034",
+      "jp-27-osaka-006",
+      "jp-25-shiga-012",
+      "jp-25-shiga-044"
+    ],
+    [
+      "jp-28-hyogo-014",
+      "jp-27-osaka-007"
+    ],
+    [
+      "jp-28-hyogo-015",
+      "jp-28-hyogo-016",
+      "jp-27-osaka-008",
+      "jp-25-shiga-009"
+    ],
+    [
+      "jp-28-hyogo-017",
+      "jp-28-hyogo-035"
+    ],
+    [
+      "jp-28-hyogo-019",
+      "jp-27-osaka-010"
+    ],
+    [
+      "jp-28-hyogo-020",
+      "jp-28-hyogo-036",
+      "jp-27-osaka-011"
+    ],
+    [
+      "jp-28-hyogo-021",
+      "jp-27-osaka-012"
+    ],
+    [
+      "jp-28-hyogo-026",
+      "jp-27-osaka-002"
+    ],
+    [
+      "jp-28-hyogo-031",
+      "jp-27-osaka-003"
+    ],
+    [
+      "jp-26-kyoto-013",
+      "jp-27-osaka-036"
+    ],
+    [
+      "jp-26-kyoto-021",
+      "jp-27-osaka-039"
+    ],
+    [
+      "jp-26-kyoto-025",
+      "jp-27-osaka-030"
+    ],
+    [
+      "jp-26-kyoto-040",
+      "jp-26-kyoto-041",
+      "jp-26-kyoto-042"
+    ],
+    [
+      "jp-26-kyoto-043",
+      "jp-26-kyoto-044"
+    ],
+    [
+      "jp-26-kyoto-046",
+      "jp-26-kyoto-047",
+      "jp-26-kyoto-048"
+    ],
+    [
+      "jp-26-kyoto-050",
+      "jp-26-kyoto-051",
+      "jp-26-kyoto-052"
+    ],
+    [
+      "jp-26-kyoto-055",
+      "jp-26-kyoto-056"
+    ],
+    [
+      "jp-26-kyoto-058",
+      "jp-26-kyoto-059"
+    ],
+    [
+      "jp-24-mie-002",
+      "jp-24-mie-003",
+      "jp-24-mie-004",
+      "jp-24-mie-005",
+      "jp-24-mie-006",
+      "jp-24-mie-007",
+      "jp-24-mie-008",
+      "jp-24-mie-009"
+    ],
+    [
+      "jp-29-nara-005",
+      "jp-29-nara-006"
+    ],
+    [
+      "jp-29-nara-025",
+      "jp-27-osaka-032",
+      "jp-30-wakayama-032",
+      "jp-30-wakayama-033",
+      "jp-30-wakayama-034"
+    ],
+    [
+      "jp-27-osaka-015",
+      "jp-30-wakayama-027",
+      "jp-30-wakayama-028",
+      "jp-30-wakayama-029",
+      "jp-30-wakayama-030",
+      "jp-30-wakayama-031"
+    ],
+    [
+      "jp-27-osaka-031",
+      "jp-30-wakayama-073"
+    ],
+    [
+      "jp-25-shiga-003",
+      "jp-25-shiga-020"
+    ],
+    [
+      "jp-25-shiga-006",
+      "jp-25-shiga-025",
+      "jp-25-shiga-037"
+    ],
+    [
+      "jp-25-shiga-007",
+      "jp-25-shiga-038",
+      "jp-25-shiga-053"
+    ],
+    [
+      "jp-25-shiga-008",
+      "jp-25-shiga-039"
+    ],
+    [
+      "jp-25-shiga-010",
+      "jp-25-shiga-027"
+    ],
+    [
+      "jp-25-shiga-016",
+      "jp-25-shiga-031"
+    ],
+    [
+      "jp-25-shiga-021",
+      "jp-25-shiga-049"
+    ],
+    [
+      "jp-25-shiga-028",
+      "jp-25-shiga-046"
+    ],
+    [
+      "jp-25-shiga-035",
+      "jp-25-shiga-048"
+    ],
+    [
+      "jp-30-wakayama-002",
+      "jp-30-wakayama-003"
+    ],
+    [
+      "jp-30-wakayama-004",
+      "jp-30-wakayama-005",
+      "jp-30-wakayama-006",
+      "jp-30-wakayama-007"
+    ],
+    [
+      "jp-30-wakayama-008",
+      "jp-30-wakayama-009",
+      "jp-30-wakayama-010",
+      "jp-30-wakayama-011",
+      "jp-30-wakayama-012",
+      "jp-30-wakayama-013",
+      "jp-30-wakayama-014",
+      "jp-30-wakayama-015",
+      "jp-30-wakayama-016",
+      "jp-30-wakayama-017",
+      "jp-30-wakayama-018",
+      "jp-30-wakayama-019"
+    ],
+    [
+      "jp-30-wakayama-020",
+      "jp-30-wakayama-021",
+      "jp-30-wakayama-022",
+      "jp-30-wakayama-023",
+      "jp-30-wakayama-024",
+      "jp-30-wakayama-025",
+      "jp-30-wakayama-026"
+    ],
+    [
+      "jp-30-wakayama-035",
+      "jp-30-wakayama-036"
+    ],
+    [
+      "jp-30-wakayama-037",
+      "jp-30-wakayama-038",
+      "jp-30-wakayama-039",
+      "jp-30-wakayama-040",
+      "jp-30-wakayama-041",
+      "jp-30-wakayama-042",
+      "jp-30-wakayama-043",
+      "jp-30-wakayama-044",
+      "jp-30-wakayama-045",
+      "jp-30-wakayama-046",
+      "jp-30-wakayama-085",
+      "jp-30-wakayama-086"
+    ],
+    [
+      "jp-30-wakayama-047",
+      "jp-30-wakayama-048",
+      "jp-30-wakayama-049",
+      "jp-30-wakayama-050",
+      "jp-30-wakayama-051",
+      "jp-30-wakayama-052",
+      "jp-30-wakayama-053",
+      "jp-30-wakayama-054",
+      "jp-30-wakayama-055",
+      "jp-30-wakayama-056",
+      "jp-30-wakayama-087",
+      "jp-30-wakayama-088",
+      "jp-30-wakayama-089"
+    ],
+    [
+      "jp-30-wakayama-057",
+      "jp-30-wakayama-058",
+      "jp-30-wakayama-059",
+      "jp-30-wakayama-060",
+      "jp-30-wakayama-061"
+    ],
+    [
+      "jp-30-wakayama-065",
+      "jp-30-wakayama-066",
+      "jp-30-wakayama-067"
+    ],
+    [
+      "jp-30-wakayama-068",
+      "jp-30-wakayama-069"
+    ],
+    [
+      "jp-30-wakayama-070",
+      "jp-30-wakayama-071"
+    ],
+    [
+      "jp-30-wakayama-074",
+      "jp-30-wakayama-075"
+    ],
+    [
+      "jp-30-wakayama-076",
+      "jp-30-wakayama-077",
+      "jp-30-wakayama-078",
+      "jp-30-wakayama-079",
+      "jp-30-wakayama-080",
+      "jp-30-wakayama-081",
+      "jp-30-wakayama-082",
+      "jp-30-wakayama-083",
+      "jp-30-wakayama-084"
+    ],
+    [
+      "jp-30-wakayama-091",
+      "jp-30-wakayama-092",
+      "jp-30-wakayama-093",
+      "jp-30-wakayama-094",
+      "jp-30-wakayama-095"
+    ]
+  ],
+  "policy": "公開可能な確認状態と有効な出典metadataを持ち、語形・意味・地域のclaim-level evidenceが揃った記事をindexableとする。読み・例文・用法・説明文字数は追加品質であり必須条件にしない"
 }
