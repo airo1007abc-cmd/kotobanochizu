@@ -2284,48 +2284,5 @@
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-19",
     "updatedAt": "2026-09-19"
-  },
-  {
-    "id": "jp-31-tottori-053",
-    "slug": "tottori-hino-nanishichouda",
-    "phrase": "なにしちょうだ",
-    "reading": "",
-    "standardJapanese": "何しているんだ",
-    "description": "鳥取県西部を中心、記事は日野郡での理解にも言及で「なにしちょうだ」を「何しているんだ」の意味として記録。",
-    "exampleDialect": "",
-    "exampleStandard": "",
-    "prefectureCode": 31,
-    "prefectureName": "鳥取県",
-    "regionName": "日野地域",
-    "municipality": "",
-    "ageGroups": [
-      "unknown"
-    ],
-    "usageContexts": [
-      "日常会話資料"
-    ],
-    "emotionTags": [],
-    "usageFrequency": "unknown",
-    "verificationStatus": "reference_confirmed",
-    "sourceType": "official_reference",
-    "sourceNote": "資料の掲載箇所: 記事冒頭。根拠地点: 鳥取県西部を中心、記事は日野郡での理解にも言及。現在の使用頻度・世代差は確認していない。",
-    "sourceTitle": "嫁いできた若嫁さんを困らせた言葉とは？（江府町宮市の方言集）",
-    "sourceOrganization": "鳥取県西部総合事務所日野振興センター日野振興局",
-    "sourceUrl": "https://www.pref.tottori.lg.jp/item/774392.htm",
-    "sourceCheckedAt": "2026-09-19",
-    "evidenceScopes": [
-      "phrase",
-      "meaning",
-      "region"
-    ],
-    "confidence": "low",
-    "recordingYear": null,
-    "audioUrl": null,
-    "videoUrl": null,
-    "needsAudio": true,
-    "audioPriority": 3,
-    "languageVariety": "japanese_dialect",
-    "createdAt": "2026-09-19",
-    "updatedAt": "2026-09-19"
   }
 ]

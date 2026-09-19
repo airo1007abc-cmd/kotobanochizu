@@ -113,8 +113,8 @@
   },
   {
     "phrase": "なにしちょうだ",
-    "decision": "accepted",
-    "reason": "公式資料が語形・意味・根拠地域を直接示し、既存の対象県identityと重複しない。",
+    "decision": "HOLD",
+    "reason": "鳥取県西部中心との記述と日野郡での理解への言及はあるが、日野地域での使用地点を直接示さない",
     "source": {
       "title": "嫁いできた若嫁さんを困らせた言葉とは？（江府町宮市の方言集）",
       "organization": "鳥取県西部総合事務所日野振興センター日野振興局",
@@ -122,8 +122,7 @@
       "checkedAt": "2026-09-19"
     },
     "sourceLocation": "記事冒頭",
-    "evidenceGeography": "鳥取県西部を中心、記事は日野郡での理解にも言及",
-    "canonicalId": "jp-31-tottori-053"
+    "evidenceGeography": "鳥取県西部を中心、記事は日野郡での理解にも言及"
   },
   {
     "phrase": "アスバイヤ",

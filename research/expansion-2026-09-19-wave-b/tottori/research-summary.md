@@ -1,6 +1,6 @@
 # 鳥取県 Wave B 調査概要
 
-調査日: 2026-09-19。起点 origin/main: 82a1e392c35b03f031b32ab2a62a19d4036f60aa。既存44件。採用9件、rejected 2件、HOLD 5件。合計53件で55件目標に2件不足。
+調査日: 2026-09-19。起点 origin/main: 82a1e392c35b03f031b32ab2a62a19d4036f60aa。既存44件。採用8件、rejected 2件、HOLD 6件。合計52件で55件目標に3件不足。
 
 ## 調査資料
 
@@ -18,7 +18,7 @@
 - 西伯耆・県西部: 13件（新規 1件）
 - 因幡・県東部: 13件（新規 2件）
 - 東伯耆・県中部: 12件（新規 2件）
-- 日野地域: 15件（新規 4件）
+- 日野地域: 14件（新規 3件）
 
 ## 監査上の注意
 
@@ -26,7 +26,7 @@
 
 ## Target-specific audit
 
-accepted 9 = canonical added 9 = core eligible 9 = route indexable 9。missing source 0、phrase/meaning/region scope欠落 0、duplicate ID/slug 0、route collision 0。
+accepted 8 = canonical added 8 = core eligible 8 = route indexable 8。missing source 0、phrase/meaning/region scope欠落 0、duplicate ID/slug 0、route collision 0。
 
 ## Validation
 
