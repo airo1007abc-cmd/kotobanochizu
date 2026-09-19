@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-18T17:20:01.944Z",
-  "dialectRecords": 1938,
-  "indexable": 1875,
+  "generatedAt": "2026-09-19T01:08:54.947Z",
+  "dialectRecords": 2709,
+  "indexable": 2646,
   "review_required": 63,
   "noindex": 0,
-  "fullyIndexableRate": "97%",
-  "recordsWithSourceMetadata": 1926,
-  "sourceMetadataRate": "99%",
+  "fullyIndexableRate": "98%",
+  "recordsWithSourceMetadata": 2697,
+  "sourceMetadataRate": "100%",
   "evidenceScopeCounts": {
-    "phrase": 1926,
-    "reading": 1006,
-    "meaning": 1885,
-    "region": 1926,
-    "example": 851,
-    "usage": 1046,
-    "history": 440
+    "phrase": 2697,
+    "reading": 1114,
+    "meaning": 2656,
+    "region": 2697,
+    "example": 1128,
+    "usage": 1150,
+    "history": 494
   },
   "duplicatePhraseGroups": [
     [
@@ -44,6 +44,18 @@
     [
       "jp-05-akita-009",
       "jp-21-gifu-007"
+    ],
+    [
+      "jp-12-chiba-006",
+      "jp-14-kanagawa-013"
+    ],
+    [
+      "jp-12-chiba-010",
+      "jp-14-kanagawa-026"
+    ],
+    [
+      "jp-12-chiba-012",
+      "jp-01-hokkaido-014"
     ],
     [
       "jp-38-ehime-014",
@@ -90,6 +102,18 @@
       "jp-38-ehime-058"
     ],
     [
+      "jp-18-fukui-030",
+      "jp-34-hiroshima-019"
+    ],
+    [
+      "jp-18-fukui-037",
+      "jp-22-shizuoka-073"
+    ],
+    [
+      "jp-18-fukui-048",
+      "jp-35-yamaguchi-029"
+    ],
+    [
       "jp-40-fukuoka-005",
       "jp-45-miyazaki-004"
     ],
@@ -97,6 +121,10 @@
       "jp-40-fukuoka-006",
       "jp-27-osaka-037",
       "jp-32-shimane-028"
+    ],
+    [
+      "jp-40-fukuoka-007",
+      "jp-01-hokkaido-033"
     ],
     [
       "jp-40-fukuoka-010",
@@ -116,6 +144,14 @@
     [
       "jp-40-fukuoka-045",
       "jp-43-kumamoto-013"
+    ],
+    [
+      "jp-07-fukushima-029",
+      "jp-08-ibaraki-051"
+    ],
+    [
+      "jp-07-fukushima-045",
+      "jp-08-ibaraki-007"
     ],
     [
       "jp-21-gifu-001",
@@ -155,6 +191,15 @@
     [
       "jp-34-hiroshima-061",
       "jp-35-yamaguchi-059"
+    ],
+    [
+      "jp-01-hokkaido-043",
+      "jp-42-nagasaki-008",
+      "jp-32-shimane-029"
+    ],
+    [
+      "jp-01-hokkaido-048",
+      "jp-09-tochigi-016"
     ],
     [
       "jp-28-hyogo-007",
@@ -210,6 +255,18 @@
       "jp-27-osaka-003"
     ],
     [
+      "jp-08-ibaraki-031",
+      "jp-08-ibaraki-040"
+    ],
+    [
+      "jp-08-ibaraki-032",
+      "jp-08-ibaraki-043"
+    ],
+    [
+      "jp-08-ibaraki-046",
+      "jp-08-ibaraki-050"
+    ],
+    [
       "jp-17-ishikawa-001",
       "jp-22-shizuoka-001"
     ],
@@ -251,8 +308,20 @@
       "jp-46-kagoshima-015"
     ],
     [
+      "jp-46-kagoshima-049",
+      "jp-15-niigata-037"
+    ],
+    [
       "jp-46-kagoshima-073",
       "jp-25-shiga-014"
+    ],
+    [
+      "jp-14-kanagawa-018",
+      "jp-22-shizuoka-062"
+    ],
+    [
+      "jp-14-kanagawa-031",
+      "jp-33-okayama-041"
     ],
     [
       "jp-39-kochi-005",
@@ -288,6 +357,10 @@
       "jp-22-shizuoka-221"
     ],
     [
+      "jp-26-kyoto-019",
+      "jp-11-saitama-055"
+    ],
+    [
       "jp-26-kyoto-026",
       "jp-44-oita-009"
     ],
@@ -308,10 +381,6 @@
       "jp-30-wakayama-005"
     ],
     [
-      "jp-42-nagasaki-008",
-      "jp-32-shimane-029"
-    ],
-    [
       "jp-42-nagasaki-021",
       "jp-41-saga-007"
     ],
@@ -328,6 +397,10 @@
     [
       "jp-29-nara-020",
       "jp-29-nara-021"
+    ],
+    [
+      "jp-15-niigata-046",
+      "jp-33-okayama-007"
     ],
     [
       "jp-33-okayama-048",
@@ -424,9 +497,23 @@
     [
       "jp-30-wakayama-019",
       "jp-30-wakayama-026"
+    ],
+    [
+      "jp-06-yamagata-006",
+      "jp-06-yamagata-033"
+    ],
+    [
+      "jp-06-yamagata-009",
+      "jp-06-yamagata-036"
     ]
   ],
   "duplicateDescriptionGroups": [
+    [
+      "jp-10-gunma-002",
+      "jp-10-gunma-003",
+      "jp-10-gunma-004",
+      "jp-10-gunma-005"
+    ],
     [
       "jp-28-hyogo-007",
       "jp-28-hyogo-022",
@@ -571,6 +658,97 @@
     [
       "jp-27-osaka-031",
       "jp-30-wakayama-073"
+    ],
+    [
+      "jp-11-saitama-003",
+      "jp-11-saitama-004",
+      "jp-11-saitama-005"
+    ],
+    [
+      "jp-11-saitama-006",
+      "jp-11-saitama-007"
+    ],
+    [
+      "jp-11-saitama-008",
+      "jp-11-saitama-009",
+      "jp-11-saitama-010"
+    ],
+    [
+      "jp-11-saitama-011",
+      "jp-11-saitama-012",
+      "jp-11-saitama-013"
+    ],
+    [
+      "jp-11-saitama-014",
+      "jp-11-saitama-015"
+    ],
+    [
+      "jp-11-saitama-016",
+      "jp-11-saitama-017",
+      "jp-11-saitama-018"
+    ],
+    [
+      "jp-11-saitama-019",
+      "jp-11-saitama-020",
+      "jp-11-saitama-021"
+    ],
+    [
+      "jp-11-saitama-023",
+      "jp-11-saitama-024"
+    ],
+    [
+      "jp-11-saitama-025",
+      "jp-11-saitama-026"
+    ],
+    [
+      "jp-11-saitama-027",
+      "jp-11-saitama-028",
+      "jp-11-saitama-029"
+    ],
+    [
+      "jp-11-saitama-031",
+      "jp-11-saitama-032"
+    ],
+    [
+      "jp-11-saitama-033",
+      "jp-11-saitama-034",
+      "jp-11-saitama-035",
+      "jp-11-saitama-036"
+    ],
+    [
+      "jp-11-saitama-037",
+      "jp-11-saitama-038"
+    ],
+    [
+      "jp-11-saitama-039",
+      "jp-11-saitama-040"
+    ],
+    [
+      "jp-11-saitama-041",
+      "jp-11-saitama-042"
+    ],
+    [
+      "jp-11-saitama-043",
+      "jp-11-saitama-044",
+      "jp-11-saitama-045"
+    ],
+    [
+      "jp-11-saitama-046",
+      "jp-11-saitama-047"
+    ],
+    [
+      "jp-11-saitama-048",
+      "jp-11-saitama-049",
+      "jp-11-saitama-050"
+    ],
+    [
+      "jp-11-saitama-051",
+      "jp-11-saitama-052"
+    ],
+    [
+      "jp-11-saitama-053",
+      "jp-11-saitama-054",
+      "jp-11-saitama-056"
     ],
     [
       "jp-25-shiga-003",

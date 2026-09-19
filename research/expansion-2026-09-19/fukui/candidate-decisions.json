@@ -1,0 +1,752 @@
+[
+  {
+    "phrase": "～っさ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.25 上段（福井エリア「～っさ」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-002"
+  },
+  {
+    "phrase": "～やざ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.25 下段（福井エリア「～やざ」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-003"
+  },
+  {
+    "phrase": "ひっで",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.26 上段（福井エリア「ひっで」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-004"
+  },
+  {
+    "phrase": "～しね（ま）",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.26 下段（福井エリア「～しね（ま）」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-005"
+  },
+  {
+    "phrase": "ほや（けど）",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.27 下段（福井エリア「ほや（けど）」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-006"
+  },
+  {
+    "phrase": "きね",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.28 上段（福井エリア「きね」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-007"
+  },
+  {
+    "phrase": "じゃみじゃみ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.28 下段（福井エリア「じゃみじゃみ」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-008"
+  },
+  {
+    "phrase": "おくんね",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.29 上段（福井エリア「おくんね」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-009"
+  },
+  {
+    "phrase": "～してしもた",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.29 下段（福井エリア「～してしもた」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-010"
+  },
+  {
+    "phrase": "ほかす",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.30 上段（福井エリア「ほかす」）"
+    },
+    "evidenceGeography": "福井エリア",
+    "canonicalId": "jp-18-fukui-011"
+  },
+  {
+    "phrase": "かたいけのう",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.31 上段（奥越エリア「かたいけのう」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-012"
+  },
+  {
+    "phrase": "だんね",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.31 下段（奥越エリア「だんね」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-013"
+  },
+  {
+    "phrase": "おしずかに",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.32 上段（奥越エリア「おしずかに」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-014"
+  },
+  {
+    "phrase": "しねばん",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.32 下段（奥越エリア「しねばん」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-015"
+  },
+  {
+    "phrase": "ちゃがちゃが",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.33 上段（奥越エリア「ちゃがちゃが」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-016"
+  },
+  {
+    "phrase": "なんなはん",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.33 下段（奥越エリア「なんなはん」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-017"
+  },
+  {
+    "phrase": "あっぺこ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.34 上段（奥越エリア「あっぺこ」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-018"
+  },
+  {
+    "phrase": "しゃばじゅー",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.34 下段（奥越エリア「しゃばじゅー」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-019"
+  },
+  {
+    "phrase": "かんねんのー",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.35 上段（奥越エリア「かんねんのー」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-020"
+  },
+  {
+    "phrase": "ぶりつる",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.35 下段（奥越エリア「ぶりつる」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-021"
+  },
+  {
+    "phrase": "おもっちゃ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.36 上段（奥越エリア「おもっちゃ」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-022"
+  },
+  {
+    "phrase": "お空にのる",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.36 下段（奥越エリア「お空にのる」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-023"
+  },
+  {
+    "phrase": "おしゃはん",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.37 上段（奥越エリア「おしゃはん」）"
+    },
+    "evidenceGeography": "奥越エリア",
+    "canonicalId": "jp-18-fukui-024"
+  },
+  {
+    "phrase": "しっちゃかんカンノムシ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.38 上段（越前海岸エリア「しっちゃかんカンノムシ」）"
+    },
+    "evidenceGeography": "越前海岸エリア",
+    "canonicalId": "jp-18-fukui-025"
+  },
+  {
+    "phrase": "はぼたたきしゃべりばち",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.38 下段（越前海岸エリア「はぼたたきしゃべりばち」）"
+    },
+    "evidenceGeography": "越前海岸エリア",
+    "canonicalId": "jp-18-fukui-026"
+  },
+  {
+    "phrase": "したるい",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.39 上段（越前海岸エリア「したるい」）"
+    },
+    "evidenceGeography": "越前海岸エリア",
+    "canonicalId": "jp-18-fukui-027"
+  },
+  {
+    "phrase": "ふの悪い",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.53 上段（敦賀エリア「ふの悪い」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-028"
+  },
+  {
+    "phrase": "おうら",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.53 下段（敦賀エリア「おうら」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-029"
+  },
+  {
+    "phrase": "いなす",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.54 上段（敦賀エリア「いなす」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-030"
+  },
+  {
+    "phrase": "ずし",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.54 下段（敦賀エリア「ずし」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-031"
+  },
+  {
+    "phrase": "てんぽな",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.55 上段（敦賀エリア「てんぽな」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-032"
+  },
+  {
+    "phrase": "ゆきおこし",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.55 下段（敦賀エリア「ゆきおこし」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-033"
+  },
+  {
+    "phrase": "きづつない",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.56 上段（敦賀エリア「きづつない」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-034"
+  },
+  {
+    "phrase": "ひだるい",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.56 下段（敦賀エリア「ひだるい」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-035"
+  },
+  {
+    "phrase": "こべ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.57 上段（敦賀エリア「こべ」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-036"
+  },
+  {
+    "phrase": "きんの",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.57 下段（敦賀エリア「きんの」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-037"
+  },
+  {
+    "phrase": "だわもん",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.58 上段（敦賀エリア「だわもん」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-038"
+  },
+  {
+    "phrase": "となりしらず",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.58 下段（敦賀エリア「となりしらず」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-039"
+  },
+  {
+    "phrase": "どろず",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.59 上段（敦賀エリア「どろず」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-040"
+  },
+  {
+    "phrase": "よつばり",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.59 下段（敦賀エリア「よつばり」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-041"
+  },
+  {
+    "phrase": "せいで",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.60 上段（敦賀エリア「せいで」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-042"
+  },
+  {
+    "phrase": "ひんね",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.60 下段（敦賀エリア「ひんね」）"
+    },
+    "evidenceGeography": "敦賀エリア",
+    "canonicalId": "jp-18-fukui-043"
+  },
+  {
+    "phrase": "おるんこおってんけ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.61 上段（美浜エリア「おるんこおってんけ」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-044"
+  },
+  {
+    "phrase": "おしまいな",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.61 下段（美浜エリア「おしまいな」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-045"
+  },
+  {
+    "phrase": "なんりょ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.62 下段（美浜エリア「なんりょ」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-046"
+  },
+  {
+    "phrase": "うんじゃみ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.63 上段（美浜エリア「うんじゃみ」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-047"
+  },
+  {
+    "phrase": "あたん",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.63 下段（美浜エリア「あたん」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-048"
+  },
+  {
+    "phrase": "まんでもん",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.64 上段（美浜エリア「まんでもん」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-049"
+  },
+  {
+    "phrase": "のさ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.64 下段（美浜エリア「のさ」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-050"
+  },
+  {
+    "phrase": "すいばら立つ",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.65 上段（美浜エリア「すいばら立つ」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-051"
+  },
+  {
+    "phrase": "どろくた",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.65 下段（美浜エリア「どろくた」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-052"
+  },
+  {
+    "phrase": "ほたえる",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.66 上段（美浜エリア「ほたえる」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-053"
+  },
+  {
+    "phrase": "せんどこんど",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.67 上段（美浜エリア「せんどこんど」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-054"
+  },
+  {
+    "phrase": "くなづく",
+    "decision": "accepted",
+    "reason": "公式辞典カードで語形・意味・県内エリアを直接確認し、既存・repository全体とのidentity重複がない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.66 下段（美浜エリア「くなづく」）"
+    },
+    "evidenceGeography": "美浜エリア",
+    "canonicalId": "jp-18-fukui-055"
+  },
+  {
+    "phrase": "はちかまる",
+    "decision": "hold",
+    "reason": "カードの意味表記を一意に判読できず、誤転記を避けるため保留",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.62"
+    },
+    "evidenceGeography": "美浜エリア"
+  },
+  {
+    "phrase": "つるつるいっぱい",
+    "decision": "rejected",
+    "reason": "既存 jp-18-fukui-001 と実質同一語形・意味のため新規重複を作成しない",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.27"
+    },
+    "evidenceGeography": "福井エリア"
+  },
+  {
+    "phrase": "きょうとい",
+    "decision": "hold",
+    "reason": "語形と意味は確認できるが今回の55件到達に不要で、追加監査対象として保留",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.67"
+    },
+    "evidenceGeography": "美浜エリア"
+  },
+  {
+    "phrase": "あどめる",
+    "decision": "hold",
+    "reason": "高浜エリア候補。今回採用セット外のため追加監査待ち",
+    "source": {
+      "title": "方言辞典『まんでもん～若者と方言のズシ～』",
+      "organization": "福井県交流文化部文化・スポーツ局文化課",
+      "url": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
+      "page": "PDF p.68"
+    },
+    "evidenceGeography": "高浜エリア"
+  }
+]

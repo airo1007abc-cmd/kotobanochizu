@@ -1,0 +1,770 @@
+[
+  {
+    "phrase": "ヤーヤ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図121「ええ！（驚嘆）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図121／GISデータ調査地点「瀬波」回答語形「ヤーヤ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-002"
+  },
+  {
+    "phrase": "コンダ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図138「こんな」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図138／GISデータ調査地点「瀬波」回答語形「コンダ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-003"
+  },
+  {
+    "phrase": "シモカゼ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図175「北の風」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図175／GISデータ調査地点「瀬波」回答語形「シモカゼ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-004"
+  },
+  {
+    "phrase": "ダシ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図177「東の風」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図177／GISデータ調査地点「瀬波」回答語形「ダシ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-005"
+  },
+  {
+    "phrase": "コーリ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図183「つらら」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図183／GISデータ調査地点「瀬波」回答語形「コーリ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-006"
+  },
+  {
+    "phrase": "シミル",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図184「凍る（野菜）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図184／GISデータ調査地点「瀬波」回答語形「シミル」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-007"
+  },
+  {
+    "phrase": "キンナ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図186「昨日」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図186／GISデータ調査地点「瀬波」回答語形「キンナ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-008"
+  },
+  {
+    "phrase": "ナメクジラ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図193「なめくじ」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図193／GISデータ調査地点「瀬波」回答語形「ナメクジラ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-009"
+  },
+  {
+    "phrase": "アンチャン",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図198「長男」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図198／GISデータ調査地点「瀬波」回答語形「アンチャン」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-010"
+  },
+  {
+    "phrase": "オンチャ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図199「次男」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図199／GISデータ調査地点「瀬波」回答語形「オンチャ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-011"
+  },
+  {
+    "phrase": "アネチャ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図202「長女」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図202／GISデータ調査地点「瀬波」回答語形「アネチャ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-012"
+  },
+  {
+    "phrase": "オンバチャ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図203「次女」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図203／GISデータ調査地点「瀬波」回答語形「オンバチャ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-013"
+  },
+  {
+    "phrase": "シャミコキ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図210「怠け者（一般語）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図210／GISデータ調査地点「瀬波」回答語形「シャミコキ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-014"
+  },
+  {
+    "phrase": "ショータレ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図212「不潔な人」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図212／GISデータ調査地点「瀬波」回答語形「ショータレ」"
+    },
+    "evidenceGeography": "村上市瀬波",
+    "canonicalId": "jp-15-niigata-015"
+  },
+  {
+    "phrase": "コンゲ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図138「こんな」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図138／GISデータ調査地点「刈羽」回答語形「コンゲ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-016"
+  },
+  {
+    "phrase": "ソンゲ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図139「そんな」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図139／GISデータ調査地点「刈羽」回答語形「ソンゲ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-017"
+  },
+  {
+    "phrase": "ンバダメダ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図158「蒔いてしまわなければならない」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図158／GISデータ調査地点「刈羽」回答語形「ンバダメダ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-018"
+  },
+  {
+    "phrase": "オレン",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図162「私の」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図162／GISデータ調査地点「刈羽」回答語形「オレン」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-019"
+  },
+  {
+    "phrase": "オテントサン",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図172「太陽」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図172／GISデータ調査地点「刈羽」回答語形「オテントサン」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-020"
+  },
+  {
+    "phrase": "チャカチャカ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図174「星の光り方」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図174／GISデータ調査地点「刈羽」回答語形「チャカチャカ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-021"
+  },
+  {
+    "phrase": "アメンボー",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図183「つらら」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図183／GISデータ調査地点「刈羽」回答語形「アメンボー」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-022"
+  },
+  {
+    "phrase": "ザイガハル",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図185「凍る（洗面器の水）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図185／GISデータ調査地点「刈羽」回答語形「ザイガハル」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-023"
+  },
+  {
+    "phrase": "キンノ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図186「昨日」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図186／GISデータ調査地点「刈羽」回答語形「キンノ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-024"
+  },
+  {
+    "phrase": "ゲーロッコ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図191「おたまじゃくし」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図191／GISデータ調査地点「刈羽」回答語形「ゲーロッコ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-025"
+  },
+  {
+    "phrase": "ダイロ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図194「かたつむり」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図194／GISデータ調査地点「刈羽」回答語形「ダイロ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-026"
+  },
+  {
+    "phrase": "メッパツ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図206「ものもらい」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図206／GISデータ調査地点「刈羽」回答語形「メッパツ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-027"
+  },
+  {
+    "phrase": "ドッタツ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図211「怠け者（特殊語）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図211／GISデータ調査地点「刈羽」回答語形「ドッタツ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-028"
+  },
+  {
+    "phrase": "コシキ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図221「木鋤（除雪用具）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図221／GISデータ調査地点「刈羽」回答語形「コシキ」"
+    },
+    "evidenceGeography": "刈羽村刈羽",
+    "canonicalId": "jp-15-niigata-029"
+  },
+  {
+    "phrase": "オキナイカ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図117「早く起きろ（優しく）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図117／GISデータ調査地点「西本町」回答語形「オキナイカ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-030"
+  },
+  {
+    "phrase": "クレ（ば）",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図131「「来る」の仮定形」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図131／GISデータ調査地点「西本町」回答語形「クレ（ば）」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-031"
+  },
+  {
+    "phrase": "スレ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図137「「する」の命令形」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図137／GISデータ調査地点「西本町」回答語形「スレ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-032"
+  },
+  {
+    "phrase": "ポッチ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図167「一人きり」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図167／GISデータ調査地点「西本町」回答語形「ポッチ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-033"
+  },
+  {
+    "phrase": "ゴチミナミ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図179「南の風」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図179／GISデータ調査地点「西本町」回答語形「ゴチミナミ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-034"
+  },
+  {
+    "phrase": "オキアレ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図182「北西の風」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図182／GISデータ調査地点「西本町」回答語形「オキアレ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-035"
+  },
+  {
+    "phrase": "アス",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図188「明日」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図188／GISデータ調査地点「西本町」回答語形「アス」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-036"
+  },
+  {
+    "phrase": "バシ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図201「一番下の男の子」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図201／GISデータ調査地点「西本町」回答語形「バシ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-037"
+  },
+  {
+    "phrase": "ブショーモン",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図212「不潔な人」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図212／GISデータ調査地点「西本町」回答語形「ブショーモン」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-038"
+  },
+  {
+    "phrase": "チョーナ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図217「じゃんけん」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図217／GISデータ調査地点「西本町」回答語形「チョーナ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-039"
+  },
+  {
+    "phrase": "チョーラノホイ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図219「じゃんけんのかけ声」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図219／GISデータ調査地点「西本町」回答語形「チョーラノホイ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-040"
+  },
+  {
+    "phrase": "コエスキ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図221「木鋤（除雪用具）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図221／GISデータ調査地点「西本町」回答語形「コエスキ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-041"
+  },
+  {
+    "phrase": "チッコイ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図235「細い」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図235／GISデータ調査地点「西本町」回答語形「チッコイ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-042"
+  },
+  {
+    "phrase": "チーサイ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図237「細かい」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図237／GISデータ調査地点「西本町」回答語形「チーサイ」"
+    },
+    "evidenceGeography": "上越市西本町",
+    "canonicalId": "jp-15-niigata-043"
+  },
+  {
+    "phrase": "オキンカヤ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図117「早く起きろ（優しく）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図117／GISデータ調査地点「橘」回答語形「オキンカヤ」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-044"
+  },
+  {
+    "phrase": "ミリャー",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図124「「見る」の仮定形」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図124／GISデータ調査地点「橘」回答語形「ミリャー」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-045"
+  },
+  {
+    "phrase": "ミー",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図125「「見る」の命令形」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図125／GISデータ調査地点「橘」回答語形「ミー」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-046"
+  },
+  {
+    "phrase": "コン",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図129「「来る」の未然形」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図129／GISデータ調査地点「橘」回答語形「コン」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-047"
+  },
+  {
+    "phrase": "シル",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図135「「する」の連体形」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図135／GISデータ調査地点「橘」回答語形「シル」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-048"
+  },
+  {
+    "phrase": "スリャー",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図136「「する」の仮定形」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図136／GISデータ調査地点「橘」回答語形「スリャー」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-049"
+  },
+  {
+    "phrase": "シェ（ー）",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図137「「する」の命令形」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図137／GISデータ調査地点「橘」回答語形「シェ（ー）」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-050"
+  },
+  {
+    "phrase": "ネトル",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図145「寝ているか（状態進行）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図145／GISデータ調査地点「橘」回答語形「ネトル」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-051"
+  },
+  {
+    "phrase": "シトル",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図146「何をしているか（動作進行）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図146／GISデータ調査地点「橘」回答語形「シトル」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-052"
+  },
+  {
+    "phrase": "チュー",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図155「溺れたそうだ（伝聞）」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図155／GISデータ調査地点「橘」回答語形「チュー」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-053"
+  },
+  {
+    "phrase": "ニャナラン",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図158「蒔いてしまわなければならない」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図158／GISデータ調査地点「橘」回答語形「ニャナラン」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-054"
+  },
+  {
+    "phrase": "アナタサン",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図172「太陽」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図172／GISデータ調査地点「橘」回答語形「アナタサン」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-055"
+  },
+  {
+    "phrase": "タバカゼ",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図175「北の風」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図175／GISデータ調査地点「橘」回答語形「タバカゼ」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-056"
+  },
+  {
+    "phrase": "タレンボー",
+    "decision": "accepted",
+    "reason": "『新潟県言語地図』GISデータで語形・項目見出し（意味）・調査地点を直接確認。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図183「つらら」",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19",
+      "sourcePage": "地図183／GISデータ調査地点「橘」回答語形「タレンボー」"
+    },
+    "evidenceGeography": "佐渡市橘",
+    "canonicalId": "jp-15-niigata-057"
+  },
+  {
+    "phrase": "なじらね",
+    "decision": "hold",
+    "reason": "既存needs_reviewレコード。今回採用資料の選定回答に含めず、意味・地域の直接根拠を補強できていないため変更なし。",
+    "source": null,
+    "evidenceGeography": "既存レコードは中越周辺とするが未確認"
+  },
+  {
+    "phrase": "アッ類",
+    "decision": "rejected",
+    "reason": "分類ラベルであり、個別語形としてcanonical化しない。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』 地図122",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19"
+    },
+    "evidenceGeography": "村上市瀬波"
+  },
+  {
+    "phrase": "対象外",
+    "decision": "rejected",
+    "reason": "回答語形ではない。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19"
+    },
+    "evidenceGeography": "複数地点"
+  },
+  {
+    "phrase": "調査不備",
+    "decision": "rejected",
+    "reason": "回答語形ではない。",
+    "source": {
+      "title": "大橋勝男編『新潟県言語地図』",
+      "url": "https://www2.ninjal.ac.jp/hogen/dp/ladp/381/381_index.html",
+      "checkedAt": "2026-09-19"
+    },
+    "evidenceGeography": "複数地点"
+  }
+]

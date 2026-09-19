@@ -1,0 +1,783 @@
+[
+  {
+    "phrase": "かたす",
+    "decision": "hold",
+    "reason": "公的資料は埼玉県南部と明記するが、5閲覧地域への割当を資料だけで確定できないため既存recordは変更しない。",
+    "source": {
+      "title": "二木蒼生さん編 埼玉クラス",
+      "organization": "埼玉県",
+      "url": "https://www.pref.saitama.lg.jp/documents/6130/nikiaoidtxt.pdf",
+      "page": "p.1「1時間目、国語」"
+    },
+    "evidenceGeography": "埼玉県南部"
+  },
+  {
+    "phrase": "メカイゴ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.7 地図1「ものもらい」本文"
+    },
+    "evidenceGeography": "埼玉県東部の北部",
+    "canonicalId": "jp-11-saitama-002"
+  },
+  {
+    "phrase": "コブシ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.7-8 地図2「くるぶし」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-003"
+  },
+  {
+    "phrase": "ボシ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.7-8 地図2「くるぶし」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-004"
+  },
+  {
+    "phrase": "ソトクロブシ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.7-8 地図2「くるぶし」本文"
+    },
+    "evidenceGeography": "埼玉県東部の南部",
+    "canonicalId": "jp-11-saitama-005"
+  },
+  {
+    "phrase": "マミゲ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.7 地図3「まゆげ」本文"
+    },
+    "evidenceGeography": "JR高崎線以東を中心とする埼玉県東部",
+    "canonicalId": "jp-11-saitama-006"
+  },
+  {
+    "phrase": "ミゲ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.7 地図3「まゆげ」本文"
+    },
+    "evidenceGeography": "鴻巣市・北本市・桶川市の西部と埼玉県東部南部の一部",
+    "canonicalId": "jp-11-saitama-007"
+  },
+  {
+    "phrase": "オタマ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.8 地図4「おたまじゃくし」本文"
+    },
+    "evidenceGeography": "埼玉県東部南部",
+    "canonicalId": "jp-11-saitama-008"
+  },
+  {
+    "phrase": "オタマッコ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.8 地図4「おたまじゃくし」本文"
+    },
+    "evidenceGeography": "庄和町から鷲宮町までの南北中間地帯",
+    "canonicalId": "jp-11-saitama-009"
+  },
+  {
+    "phrase": "オタマグーロ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.8 地図4「おたまじゃくし」本文"
+    },
+    "evidenceGeography": "埼玉県東辺",
+    "canonicalId": "jp-11-saitama-010"
+  },
+  {
+    "phrase": "ゴンベー",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.8-9 地図5「かまきり」本文"
+    },
+    "evidenceGeography": "埼玉県東部のごく南東部",
+    "canonicalId": "jp-11-saitama-011"
+  },
+  {
+    "phrase": "カマキッチョ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.8-9 地図5「かまきり」本文"
+    },
+    "evidenceGeography": "埼玉県東部北部",
+    "canonicalId": "jp-11-saitama-012"
+  },
+  {
+    "phrase": "ハラタチ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.8-9 地図5「かまきり」本文"
+    },
+    "evidenceGeography": "埼玉県東部南部",
+    "canonicalId": "jp-11-saitama-013"
+  },
+  {
+    "phrase": "カマギッチョ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.9 地図6「とかげ」本文"
+    },
+    "evidenceGeography": "埼玉県東部の武蔵野線以北",
+    "canonicalId": "jp-11-saitama-014"
+  },
+  {
+    "phrase": "カガメッチョ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.9 地図6「とかげ」本文"
+    },
+    "evidenceGeography": "埼玉県東部の武蔵野線以南",
+    "canonicalId": "jp-11-saitama-015"
+  },
+  {
+    "phrase": "シカクナ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.10 地図7「四角い（箱）」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-016"
+  },
+  {
+    "phrase": "ナガシカクナ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.10 地図7「四角い（箱）」本文"
+    },
+    "evidenceGeography": "伊勢崎線沿線を除く埼玉県東部",
+    "canonicalId": "jp-11-saitama-017"
+  },
+  {
+    "phrase": "チョーホーケーナ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.10 地図7「四角い（箱）」本文"
+    },
+    "evidenceGeography": "伊勢崎線沿線を除く埼玉県東部",
+    "canonicalId": "jp-11-saitama-018"
+  },
+  {
+    "phrase": "カライ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.10 地図8「しおからい」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-019"
+  },
+  {
+    "phrase": "ショッカライ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.10 地図8「しおからい」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-020"
+  },
+  {
+    "phrase": "ショッパイ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.10 地図8「しおからい」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-021"
+  },
+  {
+    "phrase": "シオッカライ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.11 地図9「すっぱい（梅干しの味）」本文"
+    },
+    "evidenceGeography": "埼玉県東部の少数地点",
+    "canonicalId": "jp-11-saitama-022"
+  },
+  {
+    "phrase": "アマイ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.11 地図10「塩味がうすい」本文"
+    },
+    "evidenceGeography": "埼玉県東部の高年層調査域全体",
+    "canonicalId": "jp-11-saitama-023"
+  },
+  {
+    "phrase": "ウスイ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.11 地図10「塩味がうすい」本文"
+    },
+    "evidenceGeography": "埼玉県東部（中年層では主に武蔵線沿線）",
+    "canonicalId": "jp-11-saitama-024"
+  },
+  {
+    "phrase": "カッタルイ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.11-12 地図11「疲れた」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-025"
+  },
+  {
+    "phrase": "ケッタルイ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.11-12 地図11「疲れた」本文"
+    },
+    "evidenceGeography": "桶川市・幸手市以北",
+    "canonicalId": "jp-11-saitama-026"
+  },
+  {
+    "phrase": "オチャントスル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.12 地図12「正座する」本文"
+    },
+    "evidenceGeography": "伊勢崎線沿線東側",
+    "canonicalId": "jp-11-saitama-027"
+  },
+  {
+    "phrase": "オチャントスワル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.12 地図12「正座する」本文"
+    },
+    "evidenceGeography": "伊勢崎線沿線東側",
+    "canonicalId": "jp-11-saitama-028"
+  },
+  {
+    "phrase": "カシコマル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.12 地図12「正座する」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-029"
+  },
+  {
+    "phrase": "アグラカク",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.12 地図13「あぐらをかく」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体に点在",
+    "canonicalId": "jp-11-saitama-030"
+  },
+  {
+    "phrase": "ウッチャル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.12-13 地図14「捨てる」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-031"
+  },
+  {
+    "phrase": "ホッポル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.12-13 地図14「捨てる」本文"
+    },
+    "evidenceGeography": "埼玉県東部南部",
+    "canonicalId": "jp-11-saitama-032"
+  },
+  {
+    "phrase": "オブー",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.13 地図15「おんぶする」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-033"
+  },
+  {
+    "phrase": "ブー",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.13 地図15「おんぶする」本文"
+    },
+    "evidenceGeography": "幸手市・北本市以北",
+    "canonicalId": "jp-11-saitama-034"
+  },
+  {
+    "phrase": "ブッチャル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.13 地図15「おんぶする」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-035"
+  },
+  {
+    "phrase": "ブッチャス",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.13 地図15「おんぶする」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-036"
+  },
+  {
+    "phrase": "クッツグル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.13 地図16「くすぐる」本文"
+    },
+    "evidenceGeography": "幸手市・騎西町以北",
+    "canonicalId": "jp-11-saitama-037"
+  },
+  {
+    "phrase": "コチョコチョスル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.13 地図16「くすぐる」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体に点在",
+    "canonicalId": "jp-11-saitama-038"
+  },
+  {
+    "phrase": "ニオイカク",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.13-14 地図17「においをかぐ」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-039"
+  },
+  {
+    "phrase": "カク",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.13-14 地図17「においをかぐ」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-040"
+  },
+  {
+    "phrase": "メイトス",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.14 地図18「糸」本文"
+    },
+    "evidenceGeography": "埼玉県東部北東部",
+    "canonicalId": "jp-11-saitama-041"
+  },
+  {
+    "phrase": "メイト",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.14 地図18「糸」本文"
+    },
+    "evidenceGeography": "越谷市",
+    "canonicalId": "jp-11-saitama-042"
+  },
+  {
+    "phrase": "アタリバチ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.14-15 地図19「すりばち」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-043"
+  },
+  {
+    "phrase": "シラジ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.14-15 地図19「すりばち」本文"
+    },
+    "evidenceGeography": "埼玉県東部北部・東寄り",
+    "canonicalId": "jp-11-saitama-044"
+  },
+  {
+    "phrase": "スリコギバチ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.14-15 地図19「すりばち」本文"
+    },
+    "evidenceGeography": "埼玉県東部（中年層の残存語形）",
+    "canonicalId": "jp-11-saitama-045"
+  },
+  {
+    "phrase": "カラカミ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.15 地図20「ふすま」本文"
+    },
+    "evidenceGeography": "埼玉県東部の9地点",
+    "canonicalId": "jp-11-saitama-046"
+  },
+  {
+    "phrase": "スマ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.15 地図20「ふすま」本文"
+    },
+    "evidenceGeography": "埼玉県東部の5地点",
+    "canonicalId": "jp-11-saitama-047"
+  },
+  {
+    "phrase": "ウエキバ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.15-16 地図21「庭」本文"
+    },
+    "evidenceGeography": "埼玉県東部中央",
+    "canonicalId": "jp-11-saitama-048"
+  },
+  {
+    "phrase": "ツボニワ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.15-16 地図21「庭」本文"
+    },
+    "evidenceGeography": "埼玉県東部北部",
+    "canonicalId": "jp-11-saitama-049"
+  },
+  {
+    "phrase": "ヤシキウチ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.15-16 地図21「庭」本文"
+    },
+    "evidenceGeography": "埼玉県東部南部",
+    "canonicalId": "jp-11-saitama-050"
+  },
+  {
+    "phrase": "ライサマ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.16 地図22「雷」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-051"
+  },
+  {
+    "phrase": "ゴロゴロサマ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.16 地図22「雷」本文"
+    },
+    "evidenceGeography": "埼玉県東部の広い範囲",
+    "canonicalId": "jp-11-saitama-052"
+  },
+  {
+    "phrase": "イナビカリ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.16 地図23「稲妻」本文"
+    },
+    "evidenceGeography": "埼玉県東部の調査域全体",
+    "canonicalId": "jp-11-saitama-053"
+  },
+  {
+    "phrase": "オヒカリ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.16 地図23「稲妻」本文"
+    },
+    "evidenceGeography": "杉戸町・上尾市以北",
+    "canonicalId": "jp-11-saitama-054"
+  },
+  {
+    "phrase": "サガル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.17 地図24「（雷が）落ちる」本文"
+    },
+    "evidenceGeography": "岩槻市・菖蒲町以東",
+    "canonicalId": "jp-11-saitama-055"
+  },
+  {
+    "phrase": "からっちゃ",
+    "decision": "hold",
+    "reason": "秩父市公式資料で語形・意味・秩父地域は確認できたが、今回の東部資料中心の実装と分離し、表の全項目を再監査するまで保留。",
+    "source": {
+      "title": "秩父市 ちちぶ“おもてなし”だより 其の伍"
+    },
+    "evidenceGeography": "秩父"
+  },
+  {
+    "phrase": "さくい",
+    "decision": "hold",
+    "reason": "秩父市公式資料で候補を確認したが、意味欄の原文判読と語義正規化を追加監査するまで保留。",
+    "source": {
+      "title": "秩父市 ちちぶ“おもてなし”だより 其の伍"
+    },
+    "evidenceGeography": "秩父"
+  },
+  {
+    "phrase": "せやあねえ",
+    "decision": "hold",
+    "reason": "秩父市公式資料で候補を確認したが、表の用法欄を含む完全な行監査が未了。",
+    "source": {
+      "title": "秩父市 ちちぶ“おもてなし”だより 其の伍"
+    },
+    "evidenceGeography": "秩父"
+  },
+  {
+    "phrase": "つんつるてん",
+    "decision": "rejected",
+    "reason": "県公式資料に語形と意味はあるが、埼玉県内の根拠地域が明示されずregion evidence不足。",
+    "source": {
+      "title": "埼玉県 二木蒼生さん編 埼玉クラス"
+    },
+    "evidenceGeography": "地域不明"
+  },
+  {
+    "phrase": "いんじゃん",
+    "decision": "rejected",
+    "reason": "県公式資料に意味はあるが、埼玉県内の根拠地域が明示されずregion evidence不足。",
+    "source": {
+      "title": "埼玉県 二木蒼生さん編 埼玉クラス"
+    },
+    "evidenceGeography": "地域不明"
+  },
+  {
+    "phrase": "あーね",
+    "decision": "rejected",
+    "reason": "流行語としての説明であり、埼玉県方言としての地理的根拠が不足。",
+    "source": {
+      "title": "埼玉県 二木蒼生さん編 埼玉クラス"
+    },
+    "evidenceGeography": "地域不明"
+  },
+  {
+    "phrase": "オシカリ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・埼玉県内の分布範囲を直接確認し、repository全体のID・slug・route identityと重複しない。",
+    "source": {
+      "title": "埼玉県東部地方の方言分布と世代差（1）―語彙の分布―",
+      "organization": "文教大学",
+      "url": "https://bunkyo.repo.nii.ac.jp/record/583/files/BKK0000652.pdf",
+      "page": "p.16 地図23「稲妻」本文"
+    },
+    "evidenceGeography": "杉戸町・上尾市以北",
+    "canonicalId": "jp-11-saitama-056"
+  }
+]

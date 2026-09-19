@@ -1,0 +1,718 @@
+[
+  {
+    "phrase": "凍れる",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.123"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-002"
+  },
+  {
+    "phrase": "投げる",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.123"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-003"
+  },
+  {
+    "phrase": "めんこい",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.124"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-004"
+  },
+  {
+    "phrase": "だはんこく",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.124"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-005"
+  },
+  {
+    "phrase": "ちょす",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.124"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-006"
+  },
+  {
+    "phrase": "たくらんけ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.124"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-007"
+  },
+  {
+    "phrase": "でめん",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.124"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-008"
+  },
+  {
+    "phrase": "まかなう",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.124"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-009"
+  },
+  {
+    "phrase": "ばくる",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.124"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-010"
+  },
+  {
+    "phrase": "ほっちゃれ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.125"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-011"
+  },
+  {
+    "phrase": "いたましい",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.125"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-012"
+  },
+  {
+    "phrase": "いたわしい",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.125"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-013"
+  },
+  {
+    "phrase": "こわい",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.125"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-014"
+  },
+  {
+    "phrase": "まてな・まてに",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.125"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-015"
+  },
+  {
+    "phrase": "とうきび",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.125"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-016"
+  },
+  {
+    "phrase": "ごしょいも",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.126"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-017"
+  },
+  {
+    "phrase": "秋味",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.126"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-018"
+  },
+  {
+    "phrase": "カイベツ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.126"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-019"
+  },
+  {
+    "phrase": "いなきび",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.126"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-020"
+  },
+  {
+    "phrase": "お寺さん",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.126"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-021"
+  },
+  {
+    "phrase": "ルイベ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.126"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-022"
+  },
+  {
+    "phrase": "菜豆",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.126"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-023"
+  },
+  {
+    "phrase": "監獄部屋・タコ部屋・タコ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.127"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-024"
+  },
+  {
+    "phrase": "棒頭",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.127"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-025"
+  },
+  {
+    "phrase": "追う（ぼう）",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.127"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-026"
+  },
+  {
+    "phrase": "ガス",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.127"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-027"
+  },
+  {
+    "phrase": "いいふりこき・ええふりこき",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.127"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-028"
+  },
+  {
+    "phrase": "とねっこ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.127"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-029"
+  },
+  {
+    "phrase": "根曲り竹",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.127"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-030"
+  },
+  {
+    "phrase": "むったり",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.127"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-031"
+  },
+  {
+    "phrase": "内地",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.128"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-032"
+  },
+  {
+    "phrase": "ねまる",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.128"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-033"
+  },
+  {
+    "phrase": "馬糞風",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.128"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-034"
+  },
+  {
+    "phrase": "馬車追い",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.128"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-035"
+  },
+  {
+    "phrase": "市街地",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.128"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-036"
+  },
+  {
+    "phrase": "こぐ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.128"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-037"
+  },
+  {
+    "phrase": "一丁前",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.128"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-038"
+  },
+  {
+    "phrase": "豆成金・雑穀成金",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.128"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-039"
+  },
+  {
+    "phrase": "おがみ小屋",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.129"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-040"
+  },
+  {
+    "phrase": "ぼっこ足袋・ぼっこ靴",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.129"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-041"
+  },
+  {
+    "phrase": "三方六",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.129"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-042"
+  },
+  {
+    "phrase": "なして",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.129"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-043"
+  },
+  {
+    "phrase": "かっちゃく",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.129"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-044"
+  },
+  {
+    "phrase": "おがる",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.129"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-045"
+  },
+  {
+    "phrase": "てっくり返す",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.129"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-046"
+  },
+  {
+    "phrase": "たいした",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.129"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-047"
+  },
+  {
+    "phrase": "おぞい",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.129"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-048"
+  },
+  {
+    "phrase": "国・国境",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "北海道語について（Ⅱ）―十勝の方言を中心にして―",
+      "organization": "帯広大谷短期大学",
+      "url": "https://www.jstage.jst.go.jp/article/oojc/48/0/48_KJ00007409499/_pdf/-char/ja",
+      "page": "p.130"
+    },
+    "evidenceGeography": "十勝地方",
+    "canonicalId": "jp-01-hokkaido-049"
+  },
+  {
+    "phrase": "イロオミル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "広報よいち 2023年3月号『余市弁』",
+      "organization": "余市町",
+      "url": "https://www.town.yoichi.hokkaido.jp/kurashi/kouhou/2023/files/03/2303-1-12.pdf",
+      "page": "p.4（広報よいち通巻p.5）"
+    },
+    "evidenceGeography": "余市町",
+    "canonicalId": "jp-01-hokkaido-050"
+  },
+  {
+    "phrase": "ガコ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "広報よいち 2023年3月号『余市弁』",
+      "organization": "余市町",
+      "url": "https://www.town.yoichi.hokkaido.jp/kurashi/kouhou/2023/files/03/2303-1-12.pdf",
+      "page": "p.4（広報よいち通巻p.5）"
+    },
+    "evidenceGeography": "余市町",
+    "canonicalId": "jp-01-hokkaido-051"
+  },
+  {
+    "phrase": "ムリクリ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "広報よいち 2023年3月号『余市弁』",
+      "organization": "余市町",
+      "url": "https://www.town.yoichi.hokkaido.jp/kurashi/kouhou/2023/files/03/2303-1-12.pdf",
+      "page": "p.4（広報よいち通巻p.5）"
+    },
+    "evidenceGeography": "余市町",
+    "canonicalId": "jp-01-hokkaido-052"
+  },
+  {
+    "phrase": "メクラン",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "広報よいち 2023年3月号『余市弁』",
+      "organization": "余市町",
+      "url": "https://www.town.yoichi.hokkaido.jp/kurashi/kouhou/2023/files/03/2303-1-12.pdf",
+      "page": "p.4（広報よいち通巻p.5）"
+    },
+    "evidenceGeography": "余市町",
+    "canonicalId": "jp-01-hokkaido-053"
+  },
+  {
+    "phrase": "マンボトル",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "広報よいち 2023年3月号『余市弁』",
+      "organization": "余市町",
+      "url": "https://www.town.yoichi.hokkaido.jp/kurashi/kouhou/2023/files/03/2303-1-12.pdf",
+      "page": "p.4（広報よいち通巻p.5）"
+    },
+    "evidenceGeography": "余市町",
+    "canonicalId": "jp-01-hokkaido-054"
+  },
+  {
+    "phrase": "ボップ",
+    "decision": "accepted",
+    "reason": "資料本文で語形・意味・対象地域を直接確認。既存canonicalおよびlegacyとのidentity重複なし。",
+    "source": {
+      "title": "広報よいち 2023年3月号『余市弁』",
+      "organization": "余市町",
+      "url": "https://www.town.yoichi.hokkaido.jp/kurashi/kouhou/2023/files/03/2303-1-12.pdf",
+      "page": "p.4（広報よいち通巻p.5）"
+    },
+    "evidenceGeography": "余市町",
+    "canonicalId": "jp-01-hokkaido-055"
+  },
+  {
+    "phrase": "オンコほか『十勝平野』アイヌ語節22項目",
+    "decision": "hold",
+    "reason": "日本語方言recordとの混同を避けるため、言語分類と日本語への借用実態を項目別に追加検証する。",
+    "source": null,
+    "evidenceGeography": null
+  },
+  {
+    "phrase": "なまら（既存record）",
+    "decision": "hold",
+    "reason": "今回確認した資料だけでは既存recordの道央限定と既存例文を安全に補強できないため変更しない。",
+    "source": null,
+    "evidenceGeography": null
+  }
+]

@@ -13,6 +13,7 @@ const pages = await Promise.all(files.map(async (file) => {
     title: html.match(/<title>(.*?)<\/title>/s)?.[1] ?? "",
     description: html.match(/<meta\s+name="description"\s+content="([^"]*)"/s)?.[1] ?? "",
     robots: html.match(/<meta\s+name="robots"\s+content="([^"]*)"/s)?.[1] ?? "",
+    isRedirect: /<meta\s+http-equiv="refresh"\s+content="0;url=/i.test(html),
     hrefs: [...html.matchAll(/href="(\/[^"#?]*)/g)].map((match) => match[1].replace(/\/$/, "") || "/"),
   };
 }));
@@ -39,7 +40,7 @@ const report = {
   duplicateTitles: duplicates("title"),
   duplicateDescriptions: duplicates("description"),
   brokenInternalLinks: brokenLinks,
-  orphanStaticPages: pages.filter((page) => page.path !== "/" && !linked.has(page.path)).map((page) => page.path),
+  orphanStaticPages: pages.filter((page) => page.path !== "/" && !page.isRedirect && !linked.has(page.path)).map((page) => page.path),
   underlinkedIndexablePages,
 };
 const blockingDuplicateTitles = report.duplicateTitles.filter((group) => group.indexablePaths.length > 1);
