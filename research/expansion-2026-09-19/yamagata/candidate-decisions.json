@@ -1,0 +1,478 @@
+[
+  {
+    "phrase": "今日のテストわがらねくて",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-002"
+  },
+  {
+    "phrase": "しゃますした",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-003"
+  },
+  {
+    "phrase": "わがらなねたって",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-004"
+  },
+  {
+    "phrase": "さすかえなえ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-005"
+  },
+  {
+    "phrase": "お前だ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-006"
+  },
+  {
+    "phrase": "だめだっぺした",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-007"
+  },
+  {
+    "phrase": "勉強すねど",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-008"
+  },
+  {
+    "phrase": "偉ぐならんねぞ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-009"
+  },
+  {
+    "phrase": "偉ぐあて",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-010"
+  },
+  {
+    "phrase": "ならんたて",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-011"
+  },
+  {
+    "phrase": "へらから言わねで",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-012"
+  },
+  {
+    "phrase": "ちゃっちゃど勉強すろ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-013"
+  },
+  {
+    "phrase": "かすますえづね",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-014"
+  },
+  {
+    "phrase": "ごしゃぐがらな",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/murayama",
+    "evidenceGeography": "村山地方",
+    "canonicalId": "jp-06-yamagata-015"
+  },
+  {
+    "phrase": "わがらねぐで",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-016"
+  },
+  {
+    "phrase": "よいでねけ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-017"
+  },
+  {
+    "phrase": "なんでもね",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-018"
+  },
+  {
+    "phrase": "おめだ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-019"
+  },
+  {
+    "phrase": "だめだんねあんが",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-020"
+  },
+  {
+    "phrase": "勉強しねど",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-021"
+  },
+  {
+    "phrase": "偉ぐならんねさげの",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-022"
+  },
+  {
+    "phrase": "なんねぐても",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-023"
+  },
+  {
+    "phrase": "いさげ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-024"
+  },
+  {
+    "phrase": "しゃべっちょこいでねで",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-025"
+  },
+  {
+    "phrase": "ちゃっちゃど勉強せ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-026"
+  },
+  {
+    "phrase": "やがましちゃ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-027"
+  },
+  {
+    "phrase": "ごげっぞ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-028"
+  },
+  {
+    "phrase": "せば く～",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/shonai",
+    "evidenceGeography": "庄内地方",
+    "canonicalId": "jp-06-yamagata-029"
+  },
+  {
+    "phrase": "わがんねくて",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-030"
+  },
+  {
+    "phrase": "大変だっけ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-031"
+  },
+  {
+    "phrase": "え～ごで",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-032"
+  },
+  {
+    "phrase": "お前だ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-033"
+  },
+  {
+    "phrase": "だめだごで",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-034"
+  },
+  {
+    "phrase": "勉強しねごんば",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-035"
+  },
+  {
+    "phrase": "偉ぐならんねぞ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-036"
+  },
+  {
+    "phrase": "なんねたて",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-037"
+  },
+  {
+    "phrase": "え～もは",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-038"
+  },
+  {
+    "phrase": "へらからしねで",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-039"
+  },
+  {
+    "phrase": "勉強すんなねごで",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-040"
+  },
+  {
+    "phrase": "やがましぇな",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-041"
+  },
+  {
+    "phrase": "ごしゃぐぞ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-042"
+  },
+  {
+    "phrase": "かしぇでけろ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/okitama",
+    "evidenceGeography": "置賜地方",
+    "canonicalId": "jp-06-yamagata-043"
+  },
+  {
+    "phrase": "どさやったが",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-044"
+  },
+  {
+    "phrase": "めねぐなった",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-045"
+  },
+  {
+    "phrase": "しゃねが",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-046"
+  },
+  {
+    "phrase": "やっちゃねぐしてっがら",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-047"
+  },
+  {
+    "phrase": "ねぐすなあじゅ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-048"
+  },
+  {
+    "phrase": "んだじゅ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-049"
+  },
+  {
+    "phrase": "部屋ばたねろ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-050"
+  },
+  {
+    "phrase": "すこだま物あって",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-051"
+  },
+  {
+    "phrase": "しゃあますしったんじゅ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-052"
+  },
+  {
+    "phrase": "なげだんんねがやぁ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-053"
+  },
+  {
+    "phrase": "かっちゃして",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-054"
+  },
+  {
+    "phrase": "ごしゃがれっけぇわ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-055"
+  },
+  {
+    "phrase": "さだげねじゅ",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-056"
+  },
+  {
+    "phrase": "きかなす",
+    "decision": "accepted",
+    "reason": "県公式の地域別対訳でphrase・meaning・regionを直接確認し、repository全体のID・slug・route identityと重複しない候補として採用",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/mogami",
+    "evidenceGeography": "最上地方",
+    "canonicalId": "jp-06-yamagata-057"
+  },
+  {
+    "phrase": "あいづ",
+    "decision": "hold",
+    "reason": "地域別ページではなく県全体の方言辞典掲載で、4閲覧地域への割当根拠がない",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/dictionary",
+    "evidenceGeography": "山形弁（県公式ページ上の表記。閲覧地域は未特定）"
+  },
+  {
+    "phrase": "おがる",
+    "decision": "hold",
+    "reason": "地域別ページではなく県全体の方言辞典掲載で、4閲覧地域への割当根拠がない",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/dictionary",
+    "evidenceGeography": "山形弁（県公式ページ上の表記。閲覧地域は未特定）"
+  },
+  {
+    "phrase": "うるがす",
+    "decision": "hold",
+    "reason": "地域別ページではなく県全体の方言辞典掲載で、4閲覧地域への割当根拠がない",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/dictionary",
+    "evidenceGeography": "山形弁（県公式ページ上の表記。閲覧地域は未特定）"
+  },
+  {
+    "phrase": "わらわら",
+    "decision": "hold",
+    "reason": "地域別ページではなく県全体の方言辞典掲載で、4閲覧地域への割当根拠がない",
+    "source": "https://kosodate.pref.yamagata.jp/dialect/dictionary",
+    "evidenceGeography": "山形弁（県公式ページ上の表記。閲覧地域は未特定）"
+  }
+]

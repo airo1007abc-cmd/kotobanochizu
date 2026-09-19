@@ -1,0 +1,765 @@
+[
+  {
+    "phrase": "つぶり",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表126頁 H-001で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "126頁 H-001"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-002"
+  },
+  {
+    "phrase": "つぶりのけぶし",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表126頁 H-002で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "126頁 H-002"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-003"
+  },
+  {
+    "phrase": "しゃが",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表126頁 H-005で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "126頁 H-005"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-004"
+  },
+  {
+    "phrase": "まなこ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表126頁 H-006で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "126頁 H-006"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-005"
+  },
+  {
+    "phrase": "むかば",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表126頁 H-015で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "126頁 H-015"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-006"
+  },
+  {
+    "phrase": "おとげー",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表126頁 H-017で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "126頁 H-017"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-007"
+  },
+  {
+    "phrase": "へげ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表127頁 H-018で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "127頁 H-018"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-008"
+  },
+  {
+    "phrase": "けーな",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表127頁 H-022で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "127頁 H-022"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-009"
+  },
+  {
+    "phrase": "へだか",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表127頁 H-026で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "127頁 H-026"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-010"
+  },
+  {
+    "phrase": "へっちょご",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表127頁 H-028で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "127頁 H-028"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-011"
+  },
+  {
+    "phrase": "しんべた",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表127頁 H-030で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "127頁 H-030"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-012"
+  },
+  {
+    "phrase": "たんぼー",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表127頁 H-032で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "127頁 H-032"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-013"
+  },
+  {
+    "phrase": "いび",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表128頁 H-038で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "128頁 H-038"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-014"
+  },
+  {
+    "phrase": "あっけー",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表128頁 H-040で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "128頁 H-040"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-015"
+  },
+  {
+    "phrase": "つぐめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表128頁 H-043で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "128頁 H-043"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-016"
+  },
+  {
+    "phrase": "けーぶし",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表128頁 H-044で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "128頁 H-044"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-017"
+  },
+  {
+    "phrase": "こむな",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表128頁 H-046で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "128頁 H-046"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-018"
+  },
+  {
+    "phrase": "こーべ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表129頁 H-051で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "129頁 H-051"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-019"
+  },
+  {
+    "phrase": "くすべ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表129頁 H-052で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "129頁 H-052"
+    },
+    "evidenceGeography": "八丈島樫立",
+    "canonicalId": "jp-13-tokyo-020"
+  },
+  {
+    "phrase": "めなだ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表129頁 H-053で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "129頁 H-053"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-021"
+  },
+  {
+    "phrase": "つばき",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表129頁 H-057で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "129頁 H-057"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-022"
+  },
+  {
+    "phrase": "よんだれ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表129頁 H-059で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "129頁 H-059"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-023"
+  },
+  {
+    "phrase": "ひーり",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表129頁 H-060で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "129頁 H-060"
+    },
+    "evidenceGeography": "八丈島末吉",
+    "canonicalId": "jp-13-tokyo-024"
+  },
+  {
+    "phrase": "よんばり",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表129頁 H-062で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "129頁 H-062"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-025"
+  },
+  {
+    "phrase": "やんべ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表129頁 H-063で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "129頁 H-063"
+    },
+    "evidenceGeography": "八丈島三根",
+    "canonicalId": "jp-13-tokyo-026"
+  },
+  {
+    "phrase": "よんで",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表129頁 H-068で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "129頁 H-068"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-027"
+  },
+  {
+    "phrase": "とんじゃき",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表130頁 H-077で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "130頁 H-077"
+    },
+    "evidenceGeography": "八丈島中之郷",
+    "canonicalId": "jp-13-tokyo-028"
+  },
+  {
+    "phrase": "たぶ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表130頁 H-084で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "130頁 H-084"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-029"
+  },
+  {
+    "phrase": "かんも",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表131頁 H-095で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "131頁 H-095"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-030"
+  },
+  {
+    "phrase": "でーこ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表131頁 H-100で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "131頁 H-100"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-031"
+  },
+  {
+    "phrase": "みみだぶ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表131頁 H-106で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "131頁 H-106"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-032"
+  },
+  {
+    "phrase": "あび",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表132頁 H-110で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "132頁 H-110"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-033"
+  },
+  {
+    "phrase": "かのき",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表132頁 H-117で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "132頁 H-117"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-034"
+  },
+  {
+    "phrase": "くば",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表132頁 H-120で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "132頁 H-120"
+    },
+    "evidenceGeography": "八丈島三根",
+    "canonicalId": "jp-13-tokyo-035"
+  },
+  {
+    "phrase": "いかめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表133頁 H-126で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "133頁 H-126"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-036"
+  },
+  {
+    "phrase": "たこめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表133頁 H-127で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "133頁 H-127"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-037"
+  },
+  {
+    "phrase": "えびめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表133頁 H-128で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "133頁 H-128"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-038"
+  },
+  {
+    "phrase": "うにめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表133頁 H-129で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "133頁 H-129"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-039"
+  },
+  {
+    "phrase": "よ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表133頁 H-135で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "133頁 H-135"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-040"
+  },
+  {
+    "phrase": "こけづぁ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表133頁 H-136で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "133頁 H-136"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-041"
+  },
+  {
+    "phrase": "とびよ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-140で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-140"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-042"
+  },
+  {
+    "phrase": "うめぢっぽ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-142で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-142"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-043"
+  },
+  {
+    "phrase": "かながめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-144で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-144"
+    },
+    "evidenceGeography": "八丈島三根",
+    "canonicalId": "jp-13-tokyo-044"
+  },
+  {
+    "phrase": "ぞく",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-145で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-145"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-045"
+  },
+  {
+    "phrase": "うまめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-146で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-146"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-046"
+  },
+  {
+    "phrase": "やぎめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-147で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-147"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-047"
+  },
+  {
+    "phrase": "ぶため",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-148で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-148"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-048"
+  },
+  {
+    "phrase": "いぬめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-151で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-151"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-049"
+  },
+  {
+    "phrase": "ねっこめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-152で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-152"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-050"
+  },
+  {
+    "phrase": "うさぎめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-153で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-153"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-051"
+  },
+  {
+    "phrase": "よめどの",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-154で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-154"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-052"
+  },
+  {
+    "phrase": "むしめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表134頁 H-155で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "134頁 H-155"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-053"
+  },
+  {
+    "phrase": "ありめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表135頁 H-156で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "135頁 H-156"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-054"
+  },
+  {
+    "phrase": "かぶめ",
+    "decision": "accepted",
+    "reason": "国立国語研究所のかな表記表135頁 H-157で語形・共通語見出し・八丈島内の調査地点を直接確認。",
+    "source": {
+      "title": "八丈方言調査データ―八丈方言基礎語彙データ（かな表記）",
+      "organization": "国立国語研究所",
+      "url": "https://repository.ninjal.ac.jp/record/2427/files/Research_Report_on_Hachijo_11.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "135頁 H-157"
+    },
+    "evidenceGeography": "八丈島大賀郷",
+    "canonicalId": "jp-13-tokyo-055"
+  },
+  {
+    "phrase": "うざったい",
+    "decision": "hold",
+    "reason": "既存recordはsource_pendingかつneeds_reviewで、今回確認した資料から語形・意味・多摩の範囲を補強できなかったため変更しない。",
+    "source": null,
+    "evidenceGeography": "多摩（既存record記載、未再確認）"
+  }
+]

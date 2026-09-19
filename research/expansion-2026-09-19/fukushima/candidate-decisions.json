@@ -1,0 +1,1250 @@
+[
+  {
+    "phrase": "あんにゃ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-002"
+  },
+  {
+    "phrase": "あね・あねさま",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-003"
+  },
+  {
+    "phrase": "じねんと",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region",
+        "example"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-004"
+  },
+  {
+    "phrase": "ごせやげる",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region",
+        "example"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-005"
+  },
+  {
+    "phrase": "けやれ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region",
+        "example"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-006"
+  },
+  {
+    "phrase": "しなだ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-007"
+  },
+  {
+    "phrase": "にし",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-008"
+  },
+  {
+    "phrase": "おらほ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region",
+        "example"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-009"
+  },
+  {
+    "phrase": "こめら",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region",
+        "example"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-010"
+  },
+  {
+    "phrase": "めげー・めんげー",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "只見町 定住ガイドブック2021 方言編",
+      "organization": "只見町",
+      "url": "https://www.town.tadami.lg.jp/2021/05/07/c88428e52a0fc753bacde3762b450807.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.15（PDF p.15）",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region",
+        "example"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "会津",
+      "municipality": "只見町",
+      "evidenceRegion": "只見町"
+    },
+    "canonicalId": "jp-07-fukushima-011"
+  },
+  {
+    "phrase": "アオ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "双葉・相馬地区"
+    },
+    "canonicalId": "jp-07-fukushima-012"
+  },
+  {
+    "phrase": "アオシタ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-013"
+  },
+  {
+    "phrase": "アオナギ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-014"
+  },
+  {
+    "phrase": "アオメ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "相馬地区"
+    },
+    "canonicalId": "jp-07-fukushima-015"
+  },
+  {
+    "phrase": "アオベラ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-016"
+  },
+  {
+    "phrase": "アカアンコウ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-017"
+  },
+  {
+    "phrase": "アカエ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-018"
+  },
+  {
+    "phrase": "アカサーベル",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-019"
+  },
+  {
+    "phrase": "アカジ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-020"
+  },
+  {
+    "phrase": "アカジカレイ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-021"
+  },
+  {
+    "phrase": "アカシタ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-022"
+  },
+  {
+    "phrase": "アカジマコ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "相馬地区"
+    },
+    "canonicalId": "jp-07-fukushima-023"
+  },
+  {
+    "phrase": "アカヒゲタラ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-024"
+  },
+  {
+    "phrase": "アカベラ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-025"
+  },
+  {
+    "phrase": "アカベロ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-026"
+  },
+  {
+    "phrase": "アカマコ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "相馬地区"
+    },
+    "canonicalId": "jp-07-fukushima-027"
+  },
+  {
+    "phrase": "アカヨ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "相馬地区"
+    },
+    "canonicalId": "jp-07-fukushima-028"
+  },
+  {
+    "phrase": "アゴナシ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-029"
+  },
+  {
+    "phrase": "アサバ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-030"
+  },
+  {
+    "phrase": "アブライシモチ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-031"
+  },
+  {
+    "phrase": "アブラサガ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-032"
+  },
+  {
+    "phrase": "アブラボ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-033"
+  },
+  {
+    "phrase": "アンポン",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-034"
+  },
+  {
+    "phrase": "イシダ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-035"
+  },
+  {
+    "phrase": "イシダカガレイ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "相馬地区"
+    },
+    "canonicalId": "jp-07-fukushima-036"
+  },
+  {
+    "phrase": "イシダガレイ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.1",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-037"
+  },
+  {
+    "phrase": "イシダマコ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "相馬地区"
+    },
+    "canonicalId": "jp-07-fukushima-038"
+  },
+  {
+    "phrase": "イソヨ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-039"
+  },
+  {
+    "phrase": "イナ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-040"
+  },
+  {
+    "phrase": "イモコ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-041"
+  },
+  {
+    "phrase": "イワシコ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-042"
+  },
+  {
+    "phrase": "ウカガ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-043"
+  },
+  {
+    "phrase": "ウキギ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-044"
+  },
+  {
+    "phrase": "ウサギ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-045"
+  },
+  {
+    "phrase": "ウサギザメ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-046"
+  },
+  {
+    "phrase": "ウシベロ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-047"
+  },
+  {
+    "phrase": "ウマ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-048"
+  },
+  {
+    "phrase": "ウミカジカ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-049"
+  },
+  {
+    "phrase": "ウミゴイ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-050"
+  },
+  {
+    "phrase": "エイダイ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-051"
+  },
+  {
+    "phrase": "エチオピア",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-052"
+  },
+  {
+    "phrase": "エンキリ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "福島県沿岸全域"
+    },
+    "canonicalId": "jp-07-fukushima-053"
+  },
+  {
+    "phrase": "オオウオ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": "いわき市",
+      "evidenceRegion": "いわき地区"
+    },
+    "canonicalId": "jp-07-fukushima-054"
+  },
+  {
+    "phrase": "オオガイ",
+    "decision": "accepted",
+    "reason": "語形・標準語相当・資料記載地域を同一の公的資料で直接確認し、既存canonical・legacy・repository全体のidentityと重複しないため。",
+    "source": {
+      "title": "海産魚類 方言から標準和名（『福島の海産動物方言集』抜粋）",
+      "organization": "福島県水産試験場（編）・福島県水産海洋研究センター（公開）",
+      "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/36930.pdf",
+      "checkedAt": "2026-09-19",
+      "page": "p.2",
+      "evidenceScopes": [
+        "phrase",
+        "meaning",
+        "region"
+      ]
+    },
+    "evidenceGeography": {
+      "navigationRegion": "浜通り",
+      "municipality": null,
+      "evidenceRegion": "相馬地区"
+    },
+    "canonicalId": "jp-07-fukushima-055"
+  }
+]
