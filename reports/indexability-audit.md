@@ -1,26 +1,28 @@
 # Indexability audit
 
-Generated: 2026-09-19T01:06:45.636Z
+Generated: 2026-09-19T07:53:00.772Z
 
 ## Summary
 
 | Metric | Count |
 | --- | ---: |
-| Dialect records | 2709 |
-| Record eligible | 2646 |
-| Dialect routes indexable | 2644 |
+| Dialect records | 3003 |
+| Record eligible | 2940 |
+| Dialect routes indexable | 2938 |
 | Dialect routes noindex | 86 |
-| Static route decisions | 3400 |
-| Static routes indexable | 3204 |
-| Static routes noindex | 196 |
+| Static route decisions | 3694 |
+| Static routes indexable | 3506 |
+| Static routes noindex | 188 |
 | Redirects | 2 |
-| Sitemap URLs | 3204 |
+| Sitemap URLs | 3506 |
 
-## Before to after
+## Historical policy-v2 baseline to current
 
-- Indexable pages: 1049 -> 3204 (+2155)
-- Indexable dialect routes: 630 -> 2644 (+2014)
-- Indexable region routes: 0 -> 126 (+126)
+The before values come from reports/indexability-before.json and are not the latest expansion baseline. See the expansion integration audit for that comparison.
+
+- Indexable pages: 1049 -> 3506 (+2457)
+- Indexable dialect routes: 630 -> 2938 (+2308)
+- Indexable region routes: 0 -> 134 (+134)
 
 ## Remaining noindex routes
 
@@ -30,30 +32,20 @@ Generated: 2026-09-19T01:06:45.636Z
 - dialect_missing_core_meaning: 26
 - dialect_verification_status: 25
 - meaning_policy: 15
-- region_policy: 74
+- region_policy: 66
 - utility_policy: 20
 
 ## Invariants
 
 - Status: PASSED
-- Noindex reason total: 196 / 196
+- Noindex reason total: 188 / 188
 - Redirect manifest/site pages: 2 / 2
-- Sitemap/indexable route decisions: 3204 / 3204
+- Sitemap/indexable route decisions: 3506 / 3506
 
 ## Prefecture gaps
 
-- 秋田県: 9 records (to 30: 21, to 50: 41)
-- 岐阜県: 9 records (to 30: 21, to 50: 41)
-- 群馬県: 10 records (to 30: 20, to 50: 40)
-- 三重県: 10 records (to 30: 20, to 50: 40)
-- 山梨県: 11 records (to 30: 19, to 50: 39)
-- 千葉県: 18 records (to 30: 12, to 50: 32)
-- 奈良県: 27 records (to 30: 3, to 50: 23)
-- 栃木県: 31 records (to 30: 0, to 50: 19)
-- 大阪府: 39 records (to 30: 0, to 50: 11)
-- 兵庫県: 39 records (to 30: 0, to 50: 11)
-- 鳥取県: 44 records (to 30: 0, to 50: 6)
-- 佐賀県: 47 records (to 30: 0, to 50: 3)
+- 秋田県: 17 records (to 30: 13, to 50: 33)
+- 三重県: 17 records (to 30: 13, to 50: 33)
 
 ## Database readiness
 

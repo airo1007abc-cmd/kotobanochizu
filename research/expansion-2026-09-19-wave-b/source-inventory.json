@@ -1,0 +1,239 @@
+[
+  {
+    "slug": "tottori",
+    "pr": 32,
+    "sourceCommit": "76960ec1b4a97bad1e02efc9a529b5690ebd16dd",
+    "head": "codex/wave-b-expand-tottori",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 44,
+    "branchAfter": 52,
+    "reportedAdded": 8,
+    "decisions": {
+      "accepted": 8,
+      "HOLD": 6,
+      "rejected": 2
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/tottori/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/tottori/research-summary.md",
+      "src/data/dialects/tottori.json"
+    ]
+  },
+  {
+    "slug": "tochigi",
+    "pr": 31,
+    "sourceCommit": "de08ce246b606bfd54a6982b1cef8c98df72e95e",
+    "head": "codex/wave-b-expand-tochigi",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 31,
+    "branchAfter": 55,
+    "reportedAdded": 24,
+    "decisions": {
+      "accepted": 24,
+      "HOLD": 3
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/tochigi/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/tochigi/research-summary.md",
+      "src/data/dialects/tochigi.json"
+    ]
+  },
+  {
+    "slug": "chiba",
+    "pr": 30,
+    "sourceCommit": "9c75d1fcdabe68c36dcbacb9ef5abdc9b0c340f5",
+    "head": "codex/wave-b-expand-chiba",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 18,
+    "branchAfter": 55,
+    "reportedAdded": 37,
+    "decisions": {
+      "accepted": 37,
+      "HOLD": 2
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/chiba/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/chiba/research-summary.md",
+      "src/data/dialects/chiba.json"
+    ]
+  },
+  {
+    "slug": "akita",
+    "pr": 29,
+    "sourceCommit": "537a3d158eed50308433c77a31d358cbb24d54a8",
+    "head": "codex/wave-b-expand-akita",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 9,
+    "branchAfter": 17,
+    "reportedAdded": 8,
+    "decisions": {
+      "accepted": 8,
+      "HOLD": 2
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/akita/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/akita/research-summary.md",
+      "src/data/dialects/akita.json"
+    ]
+  },
+  {
+    "slug": "yamanashi",
+    "pr": 28,
+    "sourceCommit": "d784f956d1334d41c0dac8504460831cd113141c",
+    "head": "codex/wave-b-expand-yamanashi",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 11,
+    "branchAfter": 55,
+    "reportedAdded": 44,
+    "decisions": {
+      "accepted": 44,
+      "HOLD": 4
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/yamanashi/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/yamanashi/research-summary.md",
+      "src/data/dialects/yamanashi.json"
+    ]
+  },
+  {
+    "slug": "nara",
+    "pr": 27,
+    "sourceCommit": "0bebda749f284a6c2a1866e5183ca74c8cce2790",
+    "head": "codex/wave-b-expand-nara",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 27,
+    "branchAfter": 55,
+    "reportedAdded": 28,
+    "decisions": {
+      "accepted": 28,
+      "rejected": 1,
+      "HOLD": 1
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/nara/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/nara/research-summary.md",
+      "src/data/dialects/nara.json"
+    ]
+  },
+  {
+    "slug": "saga",
+    "pr": 26,
+    "sourceCommit": "77daeea73bb4e558deeb1280618fb54795865da2",
+    "head": "codex/wave-b-expand-saga",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 47,
+    "branchAfter": 55,
+    "reportedAdded": 8,
+    "decisions": {
+      "accepted": 8
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/saga/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/saga/research-summary.md",
+      "src/data/dialects/saga.json"
+    ]
+  },
+  {
+    "slug": "gunma",
+    "pr": 25,
+    "sourceCommit": "cf2585be14956ed9cfe13698e7ca3f13e47310d0",
+    "head": "codex/wave-b-expand-gunma",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 10,
+    "branchAfter": 55,
+    "reportedAdded": 45,
+    "decisions": {
+      "accepted": 45
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/gunma/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/gunma/research-summary.md",
+      "src/data/dialects/gunma.json"
+    ]
+  },
+  {
+    "slug": "mie",
+    "pr": 24,
+    "sourceCommit": "de74b6d3700721f38f932cae60d7eff77a381692",
+    "head": "codex/wave-b-expand-mie",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 10,
+    "branchAfter": 19,
+    "reportedAdded": 9,
+    "decisions": {
+      "accepted": 9,
+      "HOLD": 2
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/mie/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/mie/research-summary.md",
+      "src/data/dialects/mie.json"
+    ]
+  },
+  {
+    "slug": "hyogo",
+    "pr": 23,
+    "sourceCommit": "232bbc408fca5b0aef36a970f575eefdc6a3a376",
+    "head": "codex/wave-b-expand-hyogo",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 39,
+    "branchAfter": 59,
+    "reportedAdded": 20,
+    "decisions": {
+      "accepted": 20
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/hyogo/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/hyogo/research-summary.md",
+      "src/data/dialects/hyogo.json"
+    ]
+  },
+  {
+    "slug": "osaka",
+    "pr": 22,
+    "sourceCommit": "748320f5939f62d62a4b258fb57278e3dede7c92",
+    "head": "codex/wave-b-expand-osaka",
+    "base": "main",
+    "draft": true,
+    "mergeable": "MERGEABLE",
+    "before": 39,
+    "branchAfter": 58,
+    "reportedAdded": 19,
+    "decisions": {
+      "accepted": 19
+    },
+    "changedFiles": [
+      "research/expansion-2026-09-19-wave-b/osaka/candidate-decisions.json",
+      "research/expansion-2026-09-19-wave-b/osaka/research-summary.md",
+      "src/data/dialects/osaka.json"
+    ]
+  },
+  {
+    "slug": "gifu",
+    "pr": null,
+    "sourceCommit": null,
+    "recovery": "recreated in integration",
+    "before": 9,
+    "after": 55
+  }
+]

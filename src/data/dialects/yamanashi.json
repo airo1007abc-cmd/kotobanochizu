@@ -77,4 +77,1632 @@
     "description":"早川町奈良田の「ひっちのやえん」は、「非常に暗い」状態を表す語として、町教育委員会刊行資料に記録されています。資料には夜道が暗く危険だと注意する例文があり、強い暗さを述べる用法を確認できます。語の構成、暗さの程度差、現在の使用頻度や世代差は未確認です。",
     "exampleDialect":"今夜はひっちのやえんで、危険だぞ。","exampleStandard":"今夜は非常に暗くて、危険だぞ。","prefectureCode":19,"prefectureName":"山梨県","regionName":"国中","municipality":"早川町奈良田","ageGroups":["unknown"],"usageContexts":["夜道の暗さを述べる場面","危険を知らせる場面"],"emotionTags":["注意"],"usageFrequency":"unknown","verificationStatus":"reference_confirmed","sourceType":"official_reference","sourceNote":"早川町教育委員会が1992年に発行した資料のウェブ版で、語形・意味・奈良田の区分・用例を確認。現在の使用実態は未確認。","sourceTitle":"早川町の方言","sourceOrganization":"早川町・早川町教育委員会","sourceUrl":"https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html","sourceCheckedAt":"2026-09-01","evidenceScopes":["phrase","reading","meaning","region","example","usage"],"confidence":"high","recordingYear":1992,"audioUrl":null,"videoUrl":null,"needsAudio":true,"audioPriority":2,"languageVariety":"japanese_dialect"
   }
+,
+  {
+    "id": "jp-19-yamanashi-012",
+    "slug": "yamanashi-wave-b-012",
+    "phrase": "あかりい",
+    "standardJapanese": "明るい",
+    "description": "早川町の「西山邑」の語彙表に「あかりい」が「明るい」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "西山邑",
+    "evidenceRegion": "早川町西山邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「西山邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "西山邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-013",
+    "slug": "yamanashi-wave-b-013",
+    "phrase": "あがあの",
+    "standardJapanese": "あんな",
+    "description": "早川町の「西山邑」の語彙表に「あがあの」が「あんな」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "西山邑",
+    "evidenceRegion": "早川町西山邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「西山邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "西山邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-014",
+    "slug": "yamanashi-wave-b-014",
+    "phrase": "あがりませ",
+    "standardJapanese": "食べて下さい",
+    "description": "早川町の「西山邑」の語彙表に「あがりませ」が「食べて下さい」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "西山邑",
+    "evidenceRegion": "早川町西山邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「西山邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "西山邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-015",
+    "slug": "yamanashi-wave-b-015",
+    "phrase": "あのもなあ",
+    "standardJapanese": "あの人は",
+    "description": "早川町の「西山邑」の語彙表に「あのもなあ」が「あの人は」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "西山邑",
+    "evidenceRegion": "早川町西山邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「西山邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "西山邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-016",
+    "slug": "yamanashi-wave-b-016",
+    "phrase": "あらく",
+    "standardJapanese": "焼畑で一番先にまく畑",
+    "description": "早川町の「西山邑」の語彙表に「あらく」が「焼畑で一番先にまく畑」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "西山邑",
+    "evidenceRegion": "早川町西山邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「西山邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "西山邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-017",
+    "slug": "yamanashi-wave-b-017",
+    "phrase": "あんしゃあ",
+    "standardJapanese": "あの人達",
+    "description": "早川町の「西山邑」の語彙表に「あんしゃあ」が「あの人達」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "西山邑",
+    "evidenceRegion": "早川町西山邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「西山邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "西山邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-018",
+    "slug": "yamanashi-wave-b-018",
+    "phrase": "いかのう",
+    "standardJapanese": "行かない",
+    "description": "早川町の「西山邑」の語彙表に「いかのう」が「行かない」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "西山邑",
+    "evidenceRegion": "早川町西山邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「西山邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "西山邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-019",
+    "slug": "yamanashi-wave-b-019",
+    "phrase": "いかい",
+    "standardJapanese": "大きい",
+    "description": "早川町の「西山邑」の語彙表に「いかい」が「大きい」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "西山邑",
+    "evidenceRegion": "早川町西山邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「西山邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "西山邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-020",
+    "slug": "yamanashi-wave-b-020",
+    "phrase": "あんくれえ",
+    "standardJapanese": "あれくらい",
+    "description": "早川町の「三里邑」の語彙表に「あんくれえ」が「あれくらい」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "三里邑",
+    "evidenceRegion": "早川町三里邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「三里邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "三里邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-021",
+    "slug": "yamanashi-wave-b-021",
+    "phrase": "あんにょうに",
+    "standardJapanese": "あんなに",
+    "description": "早川町の「三里邑」の語彙表に「あんにょうに」が「あんなに」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "三里邑",
+    "evidenceRegion": "早川町三里邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「三里邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "三里邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-022",
+    "slug": "yamanashi-wave-b-022",
+    "phrase": "あんま",
+    "standardJapanese": "乳",
+    "description": "早川町の「三里邑」の語彙表に「あんま」が「乳」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "三里邑",
+    "evidenceRegion": "早川町三里邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「三里邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "三里邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-023",
+    "slug": "yamanashi-wave-b-023",
+    "phrase": "あんやん",
+    "standardJapanese": "兄",
+    "description": "早川町の「三里邑」の語彙表に「あんやん」が「兄」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "三里邑",
+    "evidenceRegion": "早川町三里邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「三里邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "三里邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-024",
+    "slug": "yamanashi-wave-b-024",
+    "phrase": "あくぴ",
+    "standardJapanese": "あけび",
+    "description": "早川町の「三里邑」の語彙表に「あくぴ」が「あけび」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "三里邑",
+    "evidenceRegion": "早川町三里邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「三里邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "三里邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-025",
+    "slug": "yamanashi-wave-b-025",
+    "phrase": "ありんどう",
+    "standardJapanese": "あり",
+    "description": "早川町の「三里邑」の語彙表に「ありんどう」が「あり」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "三里邑",
+    "evidenceRegion": "早川町三里邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「三里邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "三里邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-026",
+    "slug": "yamanashi-wave-b-026",
+    "phrase": "あきんぎゃーぎゃー",
+    "standardJapanese": "くわがた（虫）のめす",
+    "description": "早川町の「三里邑」の語彙表に「あきんぎゃーぎゃー」が「くわがた（虫）のめす」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "三里邑",
+    "evidenceRegion": "早川町三里邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「三里邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "三里邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-027",
+    "slug": "yamanashi-wave-b-027",
+    "phrase": "いせき",
+    "standardJapanese": "婿",
+    "description": "早川町の「三里邑」の語彙表に「いせき」が「婿」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "三里邑",
+    "evidenceRegion": "早川町三里邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「三里邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "三里邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-028",
+    "slug": "yamanashi-wave-b-028",
+    "phrase": "ありしっけい",
+    "standardJapanese": "あるだけ",
+    "description": "早川町の「都川邑」の語彙表に「ありしっけい」が「あるだけ」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "都川邑",
+    "evidenceRegion": "早川町都川邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「都川邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "都川邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-029",
+    "slug": "yamanashi-wave-b-029",
+    "phrase": "あぶっか",
+    "standardJapanese": "溺れ",
+    "description": "早川町の「都川邑」の語彙表に「あぶっか」が「溺れ」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "都川邑",
+    "evidenceRegion": "早川町都川邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「都川邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "都川邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-030",
+    "slug": "yamanashi-wave-b-030",
+    "phrase": "あばらや",
+    "standardJapanese": "ぼろや",
+    "description": "早川町の「都川邑」の語彙表に「あばらや」が「ぼろや」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "都川邑",
+    "evidenceRegion": "早川町都川邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「都川邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "都川邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-031",
+    "slug": "yamanashi-wave-b-031",
+    "phrase": "あそばだあ",
+    "standardJapanese": "遊ぼう",
+    "description": "早川町の「都川邑」の語彙表に「あそばだあ」が「遊ぼう」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "都川邑",
+    "evidenceRegion": "早川町都川邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「都川邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "都川邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-032",
+    "slug": "yamanashi-wave-b-032",
+    "phrase": "いってこい",
+    "standardJapanese": "貸し借りなし",
+    "description": "早川町の「都川邑」の語彙表に「いってこい」が「貸し借りなし」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "都川邑",
+    "evidenceRegion": "早川町都川邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「都川邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "都川邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-033",
+    "slug": "yamanashi-wave-b-033",
+    "phrase": "いとど",
+    "standardJapanese": "その上にの意",
+    "description": "早川町の「都川邑」の語彙表に「いとど」が「その上にの意」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "都川邑",
+    "evidenceRegion": "早川町都川邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「都川邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "都川邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-034",
+    "slug": "yamanashi-wave-b-034",
+    "phrase": "いっぱした",
+    "standardJapanese": "行ってしまった",
+    "description": "早川町の「都川邑」の語彙表に「いっぱした」が「行ってしまった」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "都川邑",
+    "evidenceRegion": "早川町都川邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「都川邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "都川邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-035",
+    "slug": "yamanashi-wave-b-035",
+    "phrase": "いらう",
+    "standardJapanese": "借りる",
+    "description": "早川町の「都川邑」の語彙表に「いらう」が「借りる」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "都川邑",
+    "evidenceRegion": "早川町都川邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「都川邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "都川邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-036",
+    "slug": "yamanashi-wave-b-036",
+    "phrase": "あろうず",
+    "standardJapanese": "春の雪どけ水",
+    "description": "早川町の「硯島邑」の語彙表に「あろうず」が「春の雪どけ水」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "硯島邑",
+    "evidenceRegion": "早川町硯島邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「硯島邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "硯島邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-037",
+    "slug": "yamanashi-wave-b-037",
+    "phrase": "あそびにん",
+    "standardJapanese": "月給生活者",
+    "description": "早川町の「硯島邑」の語彙表に「あそびにん」が「月給生活者」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "硯島邑",
+    "evidenceRegion": "早川町硯島邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「硯島邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "硯島邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-038",
+    "slug": "yamanashi-wave-b-038",
+    "phrase": "あんびん",
+    "standardJapanese": "大福もち",
+    "description": "早川町の「硯島邑」の語彙表に「あんびん」が「大福もち」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "硯島邑",
+    "evidenceRegion": "早川町硯島邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「硯島邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "硯島邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-039",
+    "slug": "yamanashi-wave-b-039",
+    "phrase": "あばよ",
+    "standardJapanese": "さようなら",
+    "description": "早川町の「硯島邑」の語彙表に「あばよ」が「さようなら」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "硯島邑",
+    "evidenceRegion": "早川町硯島邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「硯島邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "硯島邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-040",
+    "slug": "yamanashi-wave-b-040",
+    "phrase": "いんにゃあ",
+    "standardJapanese": "いいえ",
+    "description": "早川町の「硯島邑」の語彙表に「いんにゃあ」が「いいえ」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "硯島邑",
+    "evidenceRegion": "早川町硯島邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「硯島邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "硯島邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-041",
+    "slug": "yamanashi-wave-b-041",
+    "phrase": "いきやしょう",
+    "standardJapanese": "行きましょう",
+    "description": "早川町の「硯島邑」の語彙表に「いきやしょう」が「行きましょう」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "硯島邑",
+    "evidenceRegion": "早川町硯島邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「硯島邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "硯島邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-042",
+    "slug": "yamanashi-wave-b-042",
+    "phrase": "うっちゃぁーる",
+    "standardJapanese": "すてる",
+    "description": "早川町の「硯島邑」の語彙表に「うっちゃぁーる」が「すてる」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "硯島邑",
+    "evidenceRegion": "早川町硯島邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「硯島邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "硯島邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-043",
+    "slug": "yamanashi-wave-b-043",
+    "phrase": "あかんぺろん",
+    "standardJapanese": "拒否",
+    "description": "早川町の「五箇邑」の語彙表に「あかんぺろん」が「拒否」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "五箇邑",
+    "evidenceRegion": "早川町五箇邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「五箇邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "五箇邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-044",
+    "slug": "yamanashi-wave-b-044",
+    "phrase": "あじめし",
+    "standardJapanese": "やきめし",
+    "description": "早川町の「五箇邑」の語彙表に「あじめし」が「やきめし」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "五箇邑",
+    "evidenceRegion": "早川町五箇邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「五箇邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "五箇邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-045",
+    "slug": "yamanashi-wave-b-045",
+    "phrase": "あぶく",
+    "standardJapanese": "破談",
+    "description": "早川町の「五箇邑」の語彙表に「あぶく」が「破談」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "五箇邑",
+    "evidenceRegion": "早川町五箇邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「五箇邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "五箇邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-046",
+    "slug": "yamanashi-wave-b-046",
+    "phrase": "ありき",
+    "standardJapanese": "切った木を勢いよく下ろす",
+    "description": "早川町の「五箇邑」の語彙表に「ありき」が「切った木を勢いよく下ろす」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "五箇邑",
+    "evidenceRegion": "早川町五箇邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「五箇邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "五箇邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-047",
+    "slug": "yamanashi-wave-b-047",
+    "phrase": "あれえざれえ",
+    "standardJapanese": "ありったけ",
+    "description": "早川町の「五箇邑」の語彙表に「あれえざれえ」が「ありったけ」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "五箇邑",
+    "evidenceRegion": "早川町五箇邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「五箇邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "五箇邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-048",
+    "slug": "yamanashi-wave-b-048",
+    "phrase": "いじくる",
+    "standardJapanese": "しくじる",
+    "description": "早川町の「五箇邑」の語彙表に「いじくる」が「しくじる」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "五箇邑",
+    "evidenceRegion": "早川町五箇邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「五箇邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "五箇邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-049",
+    "slug": "yamanashi-wave-b-049",
+    "phrase": "あるどうに",
+    "standardJapanese": "あります",
+    "description": "早川町の「本建邑」の語彙表に「あるどうに」が「あります」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "本建邑",
+    "evidenceRegion": "早川町本建邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「本建邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "本建邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-050",
+    "slug": "yamanashi-wave-b-050",
+    "phrase": "あだあだしている",
+    "standardJapanese": "ふざけている",
+    "description": "早川町の「本建邑」の語彙表に「あだあだしている」が「ふざけている」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "本建邑",
+    "evidenceRegion": "早川町本建邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「本建邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "本建邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-051",
+    "slug": "yamanashi-wave-b-051",
+    "phrase": "いくどうに",
+    "standardJapanese": "行くです",
+    "description": "早川町の「本建邑」の語彙表に「いくどうに」が「行くです」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "本建邑",
+    "evidenceRegion": "早川町本建邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「本建邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "本建邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-052",
+    "slug": "yamanashi-wave-b-052",
+    "phrase": "いっとうけ",
+    "standardJapanese": "行きましたか",
+    "description": "早川町の「本建邑」の語彙表に「いっとうけ」が「行きましたか」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "本建邑",
+    "evidenceRegion": "早川町本建邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「本建邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "本建邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-053",
+    "slug": "yamanashi-wave-b-053",
+    "phrase": "いきやすけ",
+    "standardJapanese": "行きますか",
+    "description": "早川町の「本建邑」の語彙表に「いきやすけ」が「行きますか」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "本建邑",
+    "evidenceRegion": "早川町本建邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「本建邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "本建邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-054",
+    "slug": "yamanashi-wave-b-054",
+    "phrase": "えらあ",
+    "standardJapanese": "あなた達",
+    "description": "早川町の「本建邑」の語彙表に「えらあ」が「あなた達」の意味で記録されています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "国中",
+    "municipality": "早川町",
+    "locality": "本建邑",
+    "evidenceRegion": "早川町本建邑",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "1992年発行の町教育委員会資料をウェブ化した語彙表の「本建邑」節。語形・意味・地域区分を同一行で確認。",
+    "sourceTitle": "早川町の方言",
+    "sourceOrganization": "早川町・早川町教育委員会",
+    "sourceUrl": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sourcePage": "本建邑",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  },
+  {
+    "id": "jp-19-yamanashi-055",
+    "slug": "yamanashi-wave-b-055",
+    "phrase": "なるい",
+    "standardJapanese": "ゆっくりと、穏やかに",
+    "description": "都留市が「なるい」を市周辺で「ゆっくりと、穏やかに」を意味する方言と説明しています。",
+    "prefectureCode": 19,
+    "prefectureName": "山梨県",
+    "regionName": "郡内",
+    "municipality": "都留市",
+    "evidenceRegion": "都留市周辺",
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "地域の語彙"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "都留市の移住・定住ガイド紹介ページ「なる～くとは」節で語形・意味・市周辺の地理を確認。",
+    "sourceTitle": "なる～くつる暮らし",
+    "sourceOrganization": "都留市",
+    "sourceUrl": "https://www.city.tsuru.yamanashi.jp/soshiki/kikaku/seisaku_t/2_1/1392.html",
+    "sourcePage": "なる～くとは",
+    "sourceCheckedAt": "2026-09-19",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region"
+    ],
+    "confidence": "high",
+    "languageVariety": "japanese_dialect",
+    "reading": ""
+  }
 ]

@@ -1,0 +1,140 @@
+[
+  {
+    "phrase": "アグ",
+    "decision": "accepted",
+    "reason": "公的資料が語形・意味・地点を直接提示。読みと用例は未登録。",
+    "source": {
+      "title": "七日市の言葉っこ",
+      "organization": "秋田県 あきた元気ムラ",
+      "url": "https://common3.pref.akita.lg.jp/genkimura/archive/p20230322110815",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "本文「アグ(歩く)」",
+    "evidenceGeography": "北秋田市七日市地域",
+    "canonicalId": "jp-05-akita-010"
+  },
+  {
+    "phrase": "ンミャ",
+    "decision": "accepted",
+    "reason": "公的資料が語形・意味・地点を直接提示。読みと用例は未登録。",
+    "source": {
+      "title": "七日市の言葉っこ",
+      "organization": "秋田県 あきた元気ムラ",
+      "url": "https://common3.pref.akita.lg.jp/genkimura/archive/p20230322110815",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "本文「ンミャ(美味しい)」",
+    "evidenceGeography": "北秋田市七日市地域",
+    "canonicalId": "jp-05-akita-011"
+  },
+  {
+    "phrase": "へば",
+    "decision": "accepted",
+    "reason": "公的資料が語形・意味・地点を直接提示。読みと用例は未登録。",
+    "source": {
+      "title": "広報あきた 2021年2月5日号",
+      "organization": "秋田市",
+      "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/028/043/20210205new.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "プチ情報コーナー「へば」",
+    "evidenceGeography": "秋田市",
+    "canonicalId": "jp-05-akita-012"
+  },
+  {
+    "phrase": "がっこ",
+    "decision": "accepted",
+    "reason": "公的資料が語形・意味・地点を直接提示。読みと用例は未登録。",
+    "source": {
+      "title": "秋田名物「いぶりがっこ」",
+      "organization": "秋田県 あきた元気ムラ",
+      "url": "https://common3.pref.akita.lg.jp/genkimura/archive/contents-759/",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "本文第1段落",
+    "evidenceGeography": "横手市山内地区",
+    "canonicalId": "jp-05-akita-013"
+  },
+  {
+    "phrase": "かだる",
+    "decision": "accepted",
+    "reason": "公的資料が語形・意味・地点を直接提示。読みと用例は未登録。",
+    "source": {
+      "title": "かだる雪まつり",
+      "organization": "秋田県 あきた元気ムラ",
+      "url": "https://common3.pref.akita.lg.jp/genkimura/archive/contents-770",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "本文第2段落",
+    "evidenceGeography": "湯沢市秋ノ宮地域",
+    "canonicalId": "jp-05-akita-014"
+  },
+  {
+    "phrase": "ねねね",
+    "decision": "accepted",
+    "reason": "公的資料が語形・意味・地点を直接提示。読みと用例は未登録。",
+    "source": {
+      "title": "よこてfun通信 2021年3月号",
+      "organization": "横手市",
+      "url": "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/007/065/20210301.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "4頁の横手弁クイズ解答",
+    "evidenceGeography": "横手市",
+    "canonicalId": "jp-05-akita-015"
+  },
+  {
+    "phrase": "ばっけ",
+    "decision": "accepted",
+    "reason": "公的資料が語形・意味・地点を直接提示。読みと用例は未登録。",
+    "source": {
+      "title": "よこてfun通信 2021年3月号",
+      "organization": "横手市",
+      "url": "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/007/065/20210301.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "4頁のクイズと解答",
+    "evidenceGeography": "横手市",
+    "canonicalId": "jp-05-akita-016"
+  },
+  {
+    "phrase": "あんぷら",
+    "decision": "accepted",
+    "reason": "公的資料が語形・意味・地点を直接提示。読みと用例は未登録。",
+    "source": {
+      "title": "あんぷらにしめ",
+      "organization": "秋田県 あきた元気ムラ",
+      "url": "https://common3.pref.akita.lg.jp/genkimura/archive/contents-411",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "本文第2段落",
+    "evidenceGeography": "男鹿市男鹿中地域・三ツ森集落",
+    "canonicalId": "jp-05-akita-017"
+  },
+  {
+    "phrase": "じぇんべ",
+    "decision": "HOLD",
+    "reason": "郷土料理名と一般語彙の境界が未整理。",
+    "source": {
+      "title": "郷土料理「じぇんべ」",
+      "organization": "秋田県 あきた元気ムラ",
+      "url": "https://common3.pref.akita.lg.jp/genkimura/archive/p20251225131949",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "本文",
+    "evidenceGeography": "秋田市四ツ小屋地域"
+  },
+  {
+    "phrase": "こんぼる",
+    "decision": "HOLD",
+    "reason": "県域紹介のみでnavigation regionへ割当不能。",
+    "source": {
+      "title": "スマイル通信145号",
+      "organization": "秋田県",
+      "url": "https://www.pref.akita.lg.jp/uploads/public/archive_0000005705_00/%E3%82%B9%E3%83%9E%E3%82%A4%E3%83%AB%EF%BC%91%EF%BC%94%EF%BC%95%E5%8F%B7.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "方言ってあったかい欄",
+    "evidenceGeography": "秋田県"
+  }
+]

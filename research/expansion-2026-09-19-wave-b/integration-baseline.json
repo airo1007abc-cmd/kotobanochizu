@@ -1,0 +1,13 @@
+{
+  "baseline": "82a1e392c35b03f031b32ab2a62a19d4036f60aa",
+  "origin": "https://kotobanochizu.jp",
+  "method": "Fetched origin/main; clean dedicated worktree build before path-only source restore",
+  "canonical": 2709,
+  "dialectRoutes": 2730,
+  "indexableDialectRoutes": 2644,
+  "staticPages": 3402,
+  "indexable": 3204,
+  "noindex": 198,
+  "regionIndexable": 126,
+  "sitemapUrls": 3204
+}
