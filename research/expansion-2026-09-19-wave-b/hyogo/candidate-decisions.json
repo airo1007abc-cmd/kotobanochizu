@@ -1,0 +1,262 @@
+[
+  {
+    "phrase": "がさくたゃあ",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "あ行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-040"
+  },
+  {
+    "phrase": "とっぱすけ",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "あ行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-041"
+  },
+  {
+    "phrase": "かたくま",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "か行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-042"
+  },
+  {
+    "phrase": "なつべる",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "か行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-043"
+  },
+  {
+    "phrase": "かんかちこ",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "か行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-044"
+  },
+  {
+    "phrase": "ねしくる",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "か行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-045"
+  },
+  {
+    "phrase": "ごっつぉー",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "か行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-046"
+  },
+  {
+    "phrase": "こげーな",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "か行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-047"
+  },
+  {
+    "phrase": "じゃーに",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "か行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-048"
+  },
+  {
+    "phrase": "しゃーしゃー",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "さ行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-049"
+  },
+  {
+    "phrase": "ほたえる",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "さ行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-050"
+  },
+  {
+    "phrase": "そのもっき",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "さ行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-051"
+  },
+  {
+    "phrase": "だしけー",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "た行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-052"
+  },
+  {
+    "phrase": "あっけーへん",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "た行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-053"
+  },
+  {
+    "phrase": "へんがにゃー",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "た行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-054"
+  },
+  {
+    "phrase": "だんごへんご",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "た行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-055"
+  },
+  {
+    "phrase": "しゃっても",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "た行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-056"
+  },
+  {
+    "phrase": "はさかる",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "は行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-057"
+  },
+  {
+    "phrase": "にちゃくちゃ",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "は行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-058"
+  },
+  {
+    "phrase": "だんにゃー",
+    "decision": "accepted",
+    "reason": "図書館の但馬弁対照表で語形・意味・但馬の地域範囲を確認。既存recordとのidentity衝突なし。",
+    "source": {
+      "title": "但馬弁 日但辞書",
+      "organization": "豊岡市立図書館",
+      "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/"
+    },
+    "sourcePageLocation": "ま行（標準語・但馬弁対照表）",
+    "evidenceGeography": "但馬弁（日但辞書）",
+    "canonicalId": "jp-28-hyogo-059"
+  }
+]
