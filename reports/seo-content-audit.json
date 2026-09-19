@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-19T01:08:54.947Z",
-  "dialectRecords": 2709,
-  "indexable": 2646,
+  "generatedAt": "2026-09-19T07:41:29.181Z",
+  "dialectRecords": 3003,
+  "indexable": 2940,
   "review_required": 63,
   "noindex": 0,
   "fullyIndexableRate": "98%",
-  "recordsWithSourceMetadata": 2697,
+  "recordsWithSourceMetadata": 2991,
   "sourceMetadataRate": "100%",
   "evidenceScopeCounts": {
-    "phrase": 2697,
-    "reading": 1114,
-    "meaning": 2656,
-    "region": 2697,
+    "phrase": 2991,
+    "reading": 1151,
+    "meaning": 2950,
+    "region": 2991,
     "example": 1128,
     "usage": 1150,
     "history": 494
@@ -28,6 +28,10 @@
     [
       "jp-23-aichi-016",
       "jp-21-gifu-003"
+    ],
+    [
+      "jp-23-aichi-025",
+      "jp-21-gifu-026"
     ],
     [
       "jp-23-aichi-026",
@@ -56,6 +60,10 @@
     [
       "jp-12-chiba-012",
       "jp-01-hokkaido-014"
+    ],
+    [
+      "jp-12-chiba-021",
+      "jp-10-gunma-020"
     ],
     [
       "jp-38-ehime-014",
@@ -114,6 +122,10 @@
       "jp-35-yamaguchi-029"
     ],
     [
+      "jp-18-fukui-053",
+      "jp-28-hyogo-050"
+    ],
+    [
       "jp-40-fukuoka-005",
       "jp-45-miyazaki-004"
     ],
@@ -158,6 +170,23 @@
       "jp-37-kagawa-026"
     ],
     [
+      "jp-21-gifu-018",
+      "jp-22-shizuoka-193"
+    ],
+    [
+      "jp-21-gifu-025",
+      "jp-01-hokkaido-048",
+      "jp-09-tochigi-016"
+    ],
+    [
+      "jp-21-gifu-038",
+      "jp-22-shizuoka-025"
+    ],
+    [
+      "jp-10-gunma-015",
+      "jp-22-shizuoka-198"
+    ],
+    [
       "jp-34-hiroshima-002",
       "jp-34-hiroshima-003",
       "jp-34-hiroshima-004"
@@ -196,10 +225,6 @@
       "jp-01-hokkaido-043",
       "jp-42-nagasaki-008",
       "jp-32-shimane-029"
-    ],
-    [
-      "jp-01-hokkaido-048",
-      "jp-09-tochigi-016"
     ],
     [
       "jp-28-hyogo-007",
@@ -399,6 +424,22 @@
       "jp-29-nara-021"
     ],
     [
+      "jp-29-nara-034",
+      "jp-35-yamaguchi-011"
+    ],
+    [
+      "jp-29-nara-046",
+      "jp-27-osaka-038"
+    ],
+    [
+      "jp-29-nara-048",
+      "jp-13-tokyo-014"
+    ],
+    [
+      "jp-29-nara-049",
+      "jp-27-osaka-013"
+    ],
+    [
       "jp-15-niigata-046",
       "jp-33-okayama-007"
     ],
@@ -446,6 +487,10 @@
       "jp-25-shiga-022"
     ],
     [
+      "jp-27-osaka-043",
+      "jp-25-shiga-012"
+    ],
+    [
       "jp-25-shiga-003",
       "jp-25-shiga-020"
     ],
@@ -489,6 +534,14 @@
     [
       "jp-32-shimane-056",
       "jp-19-yamanashi-006"
+    ],
+    [
+      "jp-22-shizuoka-008",
+      "jp-19-yamanashi-019"
+    ],
+    [
+      "jp-22-shizuoka-013",
+      "jp-19-yamanashi-055"
     ],
     [
       "jp-36-tokushima-036",
@@ -637,6 +690,14 @@
       "jp-24-mie-009"
     ],
     [
+      "jp-24-mie-011",
+      "jp-24-mie-014"
+    ],
+    [
+      "jp-24-mie-013",
+      "jp-24-mie-015"
+    ],
+    [
       "jp-29-nara-005",
       "jp-29-nara-006"
     ],
@@ -658,6 +719,10 @@
     [
       "jp-27-osaka-031",
       "jp-30-wakayama-073"
+    ],
+    [
+      "jp-27-osaka-041",
+      "jp-27-osaka-042"
     ],
     [
       "jp-11-saitama-003",

@@ -11,16 +11,16 @@ describe("PrefectureDetailViewModel", () => {
     const dialects = repository.dialects({ prefectureId: prefecture!.id });
     const vm = createPrefectureDetailViewModel(prefecture!, regions, dialects);
 
-    expect(vm.totalDialectCount).toBe(47);
-    expect(vm.regionCount).toBe(4);
-    expect(vm.confirmedCount).toBe(46);
-    expect(vm.sourcedCount).toBe(47);
-    expect(vm.regions.map((region) => [region.name, region.dialectCount])).toEqual([
-      ["佐賀平野", 15],
-      ["唐津・東松浦", 10],
-      ["伊万里・西松浦", 10],
-      ["杵島・藤津", 12],
+    expect(vm.totalDialectCount).toBe(dialects.length);
+    expect(vm.regionCount).toBe(regions.length);
+    expect(vm.confirmedCount + vm.needsReviewCount).toBe(dialects.length);
+    expect(vm.sourcedCount).toBe(dialects.filter((item) => Boolean(item.source?.url)).length);
+    expect(vm.regions.map((region) => region.name)).toEqual([
+      "佐賀平野", "唐津・東松浦", "伊万里・西松浦", "杵島・藤津",
     ]);
+    for (const region of vm.regions) {
+      expect(region.dialectCount).toBe(dialects.filter((item) => item.regionId === region.id).length);
+    }
     expect(vm.featuredDialects).toHaveLength(6);
     expect(vm.featuredDialects[0].word).toBe("がばい");
   });

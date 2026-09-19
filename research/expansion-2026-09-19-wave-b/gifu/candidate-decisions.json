@@ -1,0 +1,662 @@
+[
+  {
+    "phrase": "あんと",
+    "standardJapanese": "ありがとう",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "元気だ、あんきだ、飛騨 2025年9月発行",
+      "url": "https://www.city.hida.gifu.jp/uploaded/attachment/32481.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "PDF p.1「ANクチコミ／ひだしだから」",
+    "evidenceGeography": "飛騨市発行資料の飛騨弁（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-010"
+  },
+  {
+    "phrase": "あに",
+    "standardJapanese": "長男",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "元気だ、あんきだ、飛騨 2025年9月発行",
+      "url": "https://www.city.hida.gifu.jp/uploaded/attachment/32481.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "PDF p.1「ANクチコミ／ひだしだから」",
+    "evidenceGeography": "飛騨市発行資料の飛騨弁（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-011"
+  },
+  {
+    "phrase": "おじ",
+    "standardJapanese": "次男以下の男兄弟",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "元気だ、あんきだ、飛騨 2025年9月発行",
+      "url": "https://www.city.hida.gifu.jp/uploaded/attachment/32481.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "PDF p.1「ANクチコミ／ひだしだから」",
+    "evidenceGeography": "飛騨市発行資料の飛騨弁（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-012"
+  },
+  {
+    "phrase": "あじない",
+    "standardJapanese": "まずい",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-013"
+  },
+  {
+    "phrase": "あっちべた",
+    "standardJapanese": "あちらの方・向こう側",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-014"
+  },
+  {
+    "phrase": "あのじん",
+    "standardJapanese": "あの人",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-015"
+  },
+  {
+    "phrase": "いかっせる",
+    "standardJapanese": "行くことを敬っていう「いらっしゃる」",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-016"
+  },
+  {
+    "phrase": "いざける",
+    "standardJapanese": "移動させる",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-017"
+  },
+  {
+    "phrase": "いのく",
+    "standardJapanese": "動く",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-018"
+  },
+  {
+    "phrase": "いりゃあ",
+    "standardJapanese": "いらっしゃい",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-019"
+  },
+  {
+    "phrase": "ええころかげん・ええこらかげん",
+    "standardJapanese": "無責任",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-020"
+  },
+  {
+    "phrase": "えか",
+    "standardJapanese": "よいかと念を押す言葉",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-021"
+  },
+  {
+    "phrase": "えぞくらしい",
+    "standardJapanese": "うるさい・腹が立つ",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-022"
+  },
+  {
+    "phrase": "おきんさい",
+    "standardJapanese": "止めなさい",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-023"
+  },
+  {
+    "phrase": "おうじょうする（こく）",
+    "standardJapanese": "困ってしまう・もてあます",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-024"
+  },
+  {
+    "phrase": "おぞい",
+    "standardJapanese": "悪い・粗雑な",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-025"
+  },
+  {
+    "phrase": "おそがい",
+    "standardJapanese": "恐ろしい",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-026"
+  },
+  {
+    "phrase": "おまはん",
+    "standardJapanese": "あなた",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-027"
+  },
+  {
+    "phrase": "（鍵を）かう",
+    "standardJapanese": "鍵をかける",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-028"
+  },
+  {
+    "phrase": "（ボタンを）かう",
+    "standardJapanese": "ボタンをとめる・かける",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-029"
+  },
+  {
+    "phrase": "かざかぐ",
+    "standardJapanese": "においをかぐ",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-030"
+  },
+  {
+    "phrase": "かしわ",
+    "standardJapanese": "鶏肉",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-031"
+  },
+  {
+    "phrase": "かずける",
+    "standardJapanese": "他人のせいにする",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-032"
+  },
+  {
+    "phrase": "がばり",
+    "standardJapanese": "画鋲・ピン",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-033"
+  },
+  {
+    "phrase": "かんこうする",
+    "standardJapanese": "考える・工夫する",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-034"
+  },
+  {
+    "phrase": "きっつくらい",
+    "standardJapanese": "嫌い",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-035"
+  },
+  {
+    "phrase": "きもい",
+    "standardJapanese": "きつい・窮屈",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-036"
+  },
+  {
+    "phrase": "きんのう",
+    "standardJapanese": "昨日",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-037"
+  },
+  {
+    "phrase": "くろ",
+    "standardJapanese": "片側・隅",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-038"
+  },
+  {
+    "phrase": "くろにえ",
+    "standardJapanese": "青あざ",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-039"
+  },
+  {
+    "phrase": "けなるい・けなりい",
+    "standardJapanese": "うらやましい",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-040"
+  },
+  {
+    "phrase": "～げな",
+    "standardJapanese": "～だそうだ",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-041"
+  },
+  {
+    "phrase": "ゲボする",
+    "standardJapanese": "吐く・もどす",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-042"
+  },
+  {
+    "phrase": "ごがわく",
+    "standardJapanese": "しゃくにさわる・腹が立つ",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-043"
+  },
+  {
+    "phrase": "ござる",
+    "standardJapanese": "いる・来る",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-044"
+  },
+  {
+    "phrase": "こすい",
+    "standardJapanese": "ずるい",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-045"
+  },
+  {
+    "phrase": "ごっつぉう",
+    "standardJapanese": "ご馳走",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-046"
+  },
+  {
+    "phrase": "ご無礼します",
+    "standardJapanese": "失礼します",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-047"
+  },
+  {
+    "phrase": "こうへん",
+    "standardJapanese": "来ない",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-048"
+  },
+  {
+    "phrase": "～さ",
+    "standardJapanese": "人名に付ける敬称「～さん」",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-049"
+  },
+  {
+    "phrase": "ざいしょ",
+    "standardJapanese": "実家・出身地・ふるさと",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-050"
+  },
+  {
+    "phrase": "しちょんさる",
+    "standardJapanese": "していらっしゃる",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-051"
+  },
+  {
+    "phrase": "しゃちやく",
+    "standardJapanese": "世話をやく",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-052"
+  },
+  {
+    "phrase": "じょうらかす",
+    "standardJapanese": "ひざ・足をくずす",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-053"
+  },
+  {
+    "phrase": "ずつねえ（ない）",
+    "standardJapanese": "胸苦しい",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.134（PDF p.12）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-054"
+  },
+  {
+    "phrase": "そんこく",
+    "standardJapanese": "損をする",
+    "decision": "accepted",
+    "reason": "公式資料の語形・意味・地域文脈を画像で確認。",
+    "source": {
+      "title": "令和8年度版 岐阜市まちなか博士認定試験公式テキストブック 資料編",
+      "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourcePageLocation": "印刷p.135（PDF p.13）「岐阜の方言」",
+    "evidenceGeography": "岐阜市の地域資料に収録（市内細分地点・分布は未確認）",
+    "canonicalId": "jp-21-gifu-055"
+  },
+  {
+    "phrase": "えらい",
+    "decision": "HOLD",
+    "reason": "既存jp-21-gifu-001と語形・語義・美濃の地域が重なる。既存identityを保護し新規追加しない。",
+    "source": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+    "sourcePageLocation": "印刷p.134（PDF p.12）",
+    "evidenceGeography": "岐阜市"
+  },
+  {
+    "phrase": "ささって",
+    "decision": "HOLD",
+    "reason": "飛騨市資料は三択問題で正解を当該ページに明記していない。意味を推定しない。",
+    "source": "https://www.city.hida.gifu.jp/uploaded/attachment/32481.pdf",
+    "sourcePageLocation": "PDF p.1",
+    "evidenceGeography": "飛騨"
+  }
+]

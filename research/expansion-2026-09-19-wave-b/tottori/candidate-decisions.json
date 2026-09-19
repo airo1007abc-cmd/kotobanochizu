@@ -1,0 +1,197 @@
+[
+  {
+    "phrase": "やんばいけな",
+    "decision": "accepted",
+    "reason": "公式資料が語形・意味・根拠地域を直接示し、既存の対象県identityと重複しない。",
+    "source": {
+      "title": "嫁いできた若嫁さんを困らせた言葉とは？（江府町宮市の方言集）",
+      "organization": "鳥取県西部総合事務所日野振興センター日野振興局",
+      "url": "https://www.pref.tottori.lg.jp/item/774392.htm",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "本文「冒頭に挙げた言葉の意味」",
+    "evidenceGeography": "江府町宮市集落",
+    "canonicalId": "jp-31-tottori-045"
+  },
+  {
+    "phrase": "わったいな",
+    "decision": "accepted",
+    "reason": "公式資料が語形・意味・根拠地域を直接示し、既存の対象県identityと重複しない。",
+    "source": {
+      "title": "「地場産プラザわったいな」",
+      "organization": "鳥取県",
+      "url": "https://www.pref.tottori.lg.jp/220804.htm",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "店名の説明",
+    "evidenceGeography": "鳥取県東部地方",
+    "canonicalId": "jp-31-tottori-046"
+  },
+  {
+    "phrase": "どんどろけ",
+    "decision": "accepted",
+    "reason": "公式資料が語形・意味・根拠地域を直接示し、既存の対象県identityと重複しない。",
+    "source": {
+      "title": "どんどろけ飯",
+      "organization": "鳥取県",
+      "url": "https://www.pref.tottori.lg.jp/178220.htm",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "「どんどろけ飯」冒頭",
+    "evidenceGeography": "鳥取県中部",
+    "canonicalId": "jp-31-tottori-047"
+  },
+  {
+    "phrase": "ばえる",
+    "decision": "accepted",
+    "reason": "公式資料が語形・意味・根拠地域を直接示し、既存の対象県identityと重複しない。",
+    "source": {
+      "title": "倉吉市中心市街地活性化基本計画",
+      "organization": "倉吉市",
+      "url": "https://www.city.kurayoshi.lg.jp/secure/1560/07.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "倉吉ばえん祭の事業内容",
+    "evidenceGeography": "倉吉市",
+    "canonicalId": "jp-31-tottori-048"
+  },
+  {
+    "phrase": "まめなかや？",
+    "decision": "accepted",
+    "reason": "公式資料が語形・意味・根拠地域を直接示し、既存の対象県identityと重複しない。",
+    "source": {
+      "title": "日野振興だより vol.28",
+      "organization": "鳥取県日野振興局",
+      "url": "https://www.pref.tottori.lg.jp/secure/1198305/hino_vol28_06_07.pdf",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "「まめなかや？」の説明",
+    "evidenceGeography": "日野地域",
+    "canonicalId": "jp-31-tottori-049"
+  },
+  {
+    "phrase": "はっとうじ",
+    "decision": "accepted",
+    "reason": "公式資料が語形・意味・根拠地域を直接示し、既存の対象県identityと重複しない。",
+    "source": {
+      "title": "カメムシと大雪と方言（クサギカメムシ）",
+      "organization": "鳥取県日野振興センター日野振興局",
+      "url": "https://www.pref.tottori.lg.jp/item/856580.htm",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "本文「ちなみに、クサギカメムシ」",
+    "evidenceGeography": "日野郡（日野振興センターの記述）",
+    "canonicalId": "jp-31-tottori-050"
+  },
+  {
+    "phrase": "きょうとし",
+    "decision": "accepted",
+    "reason": "公式資料が語形・意味・根拠地域を直接示し、既存の対象県identityと重複しない。",
+    "source": {
+      "title": "源がばばさん 焼き餅好きで（手まり歌）",
+      "organization": "鳥取県立博物館",
+      "url": "https://www.pref.tottori.lg.jp/266765.htm",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "解説・大山町の歌と語釈",
+    "evidenceGeography": "大山町で採録した手まり歌",
+    "canonicalId": "jp-31-tottori-051"
+  },
+  {
+    "phrase": "ようこそ、ようこそ",
+    "decision": "accepted",
+    "reason": "公式資料が語形・意味・根拠地域を直接示し、既存の対象県identityと重複しない。",
+    "source": {
+      "title": "「ようこそ、ようこそ」妙好人 因幡の源左さん",
+      "organization": "鳥取市",
+      "url": "https://www.city.tottori.lg.jp/page/7164.html",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "源左さんの紹介文",
+    "evidenceGeography": "因幡地方",
+    "canonicalId": "jp-31-tottori-052"
+  },
+  {
+    "phrase": "なにしちょうだ",
+    "decision": "HOLD",
+    "reason": "鳥取県西部中心との記述と日野郡での理解への言及はあるが、日野地域での使用地点を直接示さない",
+    "source": {
+      "title": "嫁いできた若嫁さんを困らせた言葉とは？（江府町宮市の方言集）",
+      "organization": "鳥取県西部総合事務所日野振興センター日野振興局",
+      "url": "https://www.pref.tottori.lg.jp/item/774392.htm",
+      "checkedAt": "2026-09-19"
+    },
+    "sourceLocation": "記事冒頭",
+    "evidenceGeography": "鳥取県西部を中心、記事は日野郡での理解にも言及"
+  },
+  {
+    "phrase": "アスバイヤ",
+    "decision": "HOLD",
+    "reason": "伯耆地方のみで東伯耆・西伯耆・日野に分配できない",
+    "source": {
+      "url": "https://www.pref.tottori.lg.jp/28531.htm"
+    },
+    "sourceLocation": "本文",
+    "evidenceGeography": "県内下位地域未特定"
+  },
+  {
+    "phrase": "ガイニ",
+    "decision": "HOLD",
+    "reason": "伯耆地方のみで東伯耆・西伯耆・日野に分配できない",
+    "source": {
+      "url": "https://www.pref.tottori.lg.jp/28531.htm"
+    },
+    "sourceLocation": "本文",
+    "evidenceGeography": "県内下位地域未特定"
+  },
+  {
+    "phrase": "らくだにぃ",
+    "decision": "HOLD",
+    "reason": "商品名と県域方言の説明だが中部固有の使用地点は直接確認できない",
+    "source": {
+      "url": "https://www.pref.tottori.lg.jp/241442.htm"
+    },
+    "sourceLocation": "本文",
+    "evidenceGeography": "県内下位地域未特定"
+  },
+  {
+    "phrase": "はぐる",
+    "decision": "HOLD",
+    "reason": "鳥取県方言との記載のみで県内地点を特定できない",
+    "source": {
+      "url": "https://www.pref.tottori.lg.jp/79074.htm"
+    },
+    "sourceLocation": "本文",
+    "evidenceGeography": "県内下位地域未特定"
+  },
+  {
+    "phrase": "だらず",
+    "decision": "HOLD",
+    "reason": "鳥取県方言との記載のみで県内地点を特定できない",
+    "source": {
+      "url": "https://www.pref.tottori.lg.jp/item/1014123.htm"
+    },
+    "sourceLocation": "本文",
+    "evidenceGeography": "県内下位地域未特定"
+  },
+  {
+    "phrase": "だんだん",
+    "decision": "rejected",
+    "reason": "米子の既存record jp-31-tottori-001と同一identity",
+    "source": {
+      "url": "https://www.pref.tottori.lg.jp/28531.htm"
+    },
+    "sourceLocation": "方言表",
+    "evidenceGeography": "伯耆地方"
+  },
+  {
+    "phrase": "がいな",
+    "decision": "rejected",
+    "reason": "米子の既存record jp-31-tottori-023と同一identity",
+    "source": {
+      "url": "https://www.pref.tottori.lg.jp/28531.htm"
+    },
+    "sourceLocation": "方言表",
+    "evidenceGeography": "伯耆地方"
+  }
+]

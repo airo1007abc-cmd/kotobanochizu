@@ -1,0 +1,509 @@
+[
+  {
+    "key": "osaka-0",
+    "url": "https://ir.library.osaka-u.ac.jp/repo/ouka/all/79918/joufsns_29_071.pdf",
+    "sha256": "4d667ab5eccbe7b479b72cea5cd5942450b98929e2f538bc3a88d5a186a890c9",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-27-osaka-040",
+      "jp-27-osaka-041",
+      "jp-27-osaka-042",
+      "jp-27-osaka-043",
+      "jp-27-osaka-044",
+      "jp-27-osaka-045",
+      "jp-27-osaka-046",
+      "jp-27-osaka-047",
+      "jp-27-osaka-048",
+      "jp-27-osaka-049",
+      "jp-27-osaka-050",
+      "jp-27-osaka-051",
+      "jp-27-osaka-052",
+      "jp-27-osaka-053",
+      "jp-27-osaka-054",
+      "jp-27-osaka-055",
+      "jp-27-osaka-056",
+      "jp-27-osaka-057",
+      "jp-27-osaka-058"
+    ],
+    "review": "印刷p.72調査対象、p.73–74本文、p.75表を照合。大阪市内生育者41名の回答・研究対象の範囲。発音表記をreadingへ転用しない。"
+  },
+  {
+    "key": "hyogo-1",
+    "url": "https://lib.city.toyooka.lg.jp/kyoudo/dictionary/",
+    "sha256": "3c5c159de3911b67e66971e8a9eaa113f8c9abb138fb50cd873609e4f349f7f3",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-28-hyogo-040",
+      "jp-28-hyogo-041",
+      "jp-28-hyogo-042",
+      "jp-28-hyogo-043",
+      "jp-28-hyogo-044",
+      "jp-28-hyogo-045",
+      "jp-28-hyogo-046",
+      "jp-28-hyogo-047",
+      "jp-28-hyogo-048",
+      "jp-28-hyogo-049",
+      "jp-28-hyogo-050",
+      "jp-28-hyogo-051",
+      "jp-28-hyogo-052",
+      "jp-28-hyogo-053",
+      "jp-28-hyogo-054",
+      "jp-28-hyogo-055",
+      "jp-28-hyogo-056",
+      "jp-28-hyogo-057",
+      "jp-28-hyogo-058",
+      "jp-28-hyogo-059"
+    ],
+    "review": "新規20件すべての対照行を確認。投稿型の辞書で言語学的精度に拘らない旨の留保あり。phrase/meaning/見出し但馬弁のみの文献記載確認。投稿者住所を分布にしない。全20件のsourceNoteへ留保を追記。"
+  },
+  {
+    "key": "mie-2",
+    "url": "https://www.bunka.pref.mie.lg.jp/rekishi/kenshi/asp/hakken2/detail398.html",
+    "sha256": "c1055017eed74f269d8c9c3f57ecf9ab83c6301cd3406006c7bd0639366e8d91",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-24-mie-011",
+      "jp-24-mie-012",
+      "jp-24-mie-013",
+      "jp-24-mie-014",
+      "jp-24-mie-015",
+      "jp-24-mie-016"
+    ],
+    "review": "6件の本文・地名を照合。喫煙習俗の歴史的呼称であり現在の使用を保証しない。"
+  },
+  {
+    "key": "mie-3",
+    "url": "https://www.bunka.pref.mie.lg.jp/saiku/hyakuwa/journal55.html",
+    "sha256": "51b6cca85a979adbd2dc4c48705424f07a012aef1ed4aa3d4780d0a76ff0cb5c",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-24-mie-017",
+      "jp-24-mie-018",
+      "jp-24-mie-019"
+    ],
+    "review": "全3候補再監査。窓が開かる/開からんは説明用例文の独立語彙化が不適切でHOLD。してみえるは資料に明記された尊敬表現として採用。"
+  },
+  {
+    "key": "gunma-4",
+    "url": "https://www.city.maebashi.gunma.jp/material/files/group/19/R0610jounan-nenpyou4-4.pdf",
+    "sha256": "b26c40ca9ba85150fc1c723cddaf3ef0e3ddfd160bfb36b38f07d9819a29f9f7",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-10-gunma-011",
+      "jp-10-gunma-012",
+      "jp-10-gunma-013",
+      "jp-10-gunma-014",
+      "jp-10-gunma-015",
+      "jp-10-gunma-016",
+      "jp-10-gunma-017",
+      "jp-10-gunma-018",
+      "jp-10-gunma-019",
+      "jp-10-gunma-020",
+      "jp-10-gunma-021",
+      "jp-10-gunma-022",
+      "jp-10-gunma-023",
+      "jp-10-gunma-024",
+      "jp-10-gunma-025",
+      "jp-10-gunma-026",
+      "jp-10-gunma-027",
+      "jp-10-gunma-028",
+      "jp-10-gunma-029",
+      "jp-10-gunma-030",
+      "jp-10-gunma-031",
+      "jp-10-gunma-032",
+      "jp-10-gunma-033",
+      "jp-10-gunma-034",
+      "jp-10-gunma-035",
+      "jp-10-gunma-036",
+      "jp-10-gunma-037",
+      "jp-10-gunma-038",
+      "jp-10-gunma-039",
+      "jp-10-gunma-040",
+      "jp-10-gunma-041",
+      "jp-10-gunma-042",
+      "jp-10-gunma-043",
+      "jp-10-gunma-044",
+      "jp-10-gunma-045",
+      "jp-10-gunma-046",
+      "jp-10-gunma-047",
+      "jp-10-gunma-048",
+      "jp-10-gunma-049",
+      "jp-10-gunma-050",
+      "jp-10-gunma-051",
+      "jp-10-gunma-052",
+      "jp-10-gunma-053"
+    ],
+    "review": "新規43件全体を印刷p.46–47(PDF14–15)で確認。今井町「荒砥川」129号増刊号の一覧。次の第38号引用と混同しない。sourcePage/NoteとevidenceRegionを整合。"
+  },
+  {
+    "key": "gunma-5",
+    "url": "https://www.town.nakanojo.gunma.jp/uploaded/attachment/1467.pdf",
+    "sha256": "211453eb0f4400adc286433db2fda9016c0de59c7879e94175a0c5510700940d",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-10-gunma-054",
+      "jp-10-gunma-055"
+    ],
+    "review": "全2件PDFp.3で確認。えぶ/えんでるの本文。研究記録のp.1をp.3へ訂正。六合地区に限定。"
+  },
+  {
+    "key": "saga-6",
+    "url": "https://www.town.genkai.lg.jp/site/kankou/88072.html",
+    "sha256": "f79b32166ebc2fc32edc22a4ade0b852e0467802101e0fea2aab131852473e53",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-41-saga-048",
+      "jp-41-saga-049",
+      "jp-41-saga-050",
+      "jp-41-saga-051",
+      "jp-41-saga-052",
+      "jp-41-saga-053",
+      "jp-41-saga-054",
+      "jp-41-saga-055"
+    ],
+    "review": "全8件を方言/意味の対照行で確認。大書きの「や」等は原資料の語形を保存。玄海町の資料文脈。"
+  },
+  {
+    "key": "nara-7",
+    "url": "https://www.town.koryo.nara.jp/cmsfiles/contents/0000002/2270/hurusatonokotoba.pdf",
+    "sha256": "7038a140fb681cb92f780a60d19d5f37841a079608fd055a444a81fc4942aa9f",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-29-nara-028",
+      "jp-29-nara-029",
+      "jp-29-nara-030",
+      "jp-29-nara-031",
+      "jp-29-nara-032",
+      "jp-29-nara-033",
+      "jp-29-nara-034",
+      "jp-29-nara-035",
+      "jp-29-nara-036",
+      "jp-29-nara-037",
+      "jp-29-nara-038",
+      "jp-29-nara-039",
+      "jp-29-nara-040",
+      "jp-29-nara-041",
+      "jp-29-nara-042",
+      "jp-29-nara-043",
+      "jp-29-nara-044",
+      "jp-29-nara-045",
+      "jp-29-nara-046",
+      "jp-29-nara-047",
+      "jp-29-nara-048",
+      "jp-29-nara-049",
+      "jp-29-nara-050",
+      "jp-29-nara-051",
+      "jp-29-nara-052",
+      "jp-29-nara-053",
+      "jp-29-nara-054",
+      "jp-29-nara-055"
+    ],
+    "review": "全28件を表の番号・語義列と画像照合。表紙を数えず1頁ずれた系統的誤りを全件修正。新規の正位置PDFp.3,5,7。地域は序文の広陵町収録対象。"
+  },
+  {
+    "key": "yamanashi-8",
+    "url": "https://www.town.hayakawa.yamanashi.jp/people/hogen_hayakawa.html",
+    "sha256": "91a62b856afe7bad7dfa4683cb75f8fca421e673a8b0b0666133edb3d145f526",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-19-yamanashi-012",
+      "jp-19-yamanashi-013",
+      "jp-19-yamanashi-014",
+      "jp-19-yamanashi-015",
+      "jp-19-yamanashi-016",
+      "jp-19-yamanashi-017",
+      "jp-19-yamanashi-018",
+      "jp-19-yamanashi-019",
+      "jp-19-yamanashi-020",
+      "jp-19-yamanashi-021",
+      "jp-19-yamanashi-022",
+      "jp-19-yamanashi-023",
+      "jp-19-yamanashi-024",
+      "jp-19-yamanashi-025",
+      "jp-19-yamanashi-026",
+      "jp-19-yamanashi-027",
+      "jp-19-yamanashi-028",
+      "jp-19-yamanashi-029",
+      "jp-19-yamanashi-030",
+      "jp-19-yamanashi-031",
+      "jp-19-yamanashi-032",
+      "jp-19-yamanashi-033",
+      "jp-19-yamanashi-034",
+      "jp-19-yamanashi-035",
+      "jp-19-yamanashi-036",
+      "jp-19-yamanashi-037",
+      "jp-19-yamanashi-038",
+      "jp-19-yamanashi-039",
+      "jp-19-yamanashi-040",
+      "jp-19-yamanashi-041",
+      "jp-19-yamanashi-042",
+      "jp-19-yamanashi-043",
+      "jp-19-yamanashi-044",
+      "jp-19-yamanashi-045",
+      "jp-19-yamanashi-046",
+      "jp-19-yamanashi-047",
+      "jp-19-yamanashi-048",
+      "jp-19-yamanashi-049",
+      "jp-19-yamanashi-050",
+      "jp-19-yamanashi-051",
+      "jp-19-yamanashi-052",
+      "jp-19-yamanashi-053",
+      "jp-19-yamanashi-054"
+    ],
+    "review": "全43件の語義列と直近見出しを照合。西山/三里/都川/硯島/五箇/本建邑に限定。同形の別地区行を誤結合しない。"
+  },
+  {
+    "key": "yamanashi-9",
+    "url": "https://www.city.tsuru.yamanashi.jp/soshiki/kikaku/seisaku_t/2_1/1392.html",
+    "sha256": "a5dfd7dc44ed24a2416b5bced1996f1b757a6ad4203026d38ce681b36ca7e5c9",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-19-yamanashi-055"
+    ],
+    "review": "なるいの公式説明を確認。都留市周辺に限定し郡内全域へ一般化しない。"
+  },
+  {
+    "key": "akita-10",
+    "url": "https://common3.pref.akita.lg.jp/genkimura/archive/p20230322110815",
+    "sha256": "76da89fb6fa82d30d107f0405fbd5c6eddfd6fa29a6a1187866b0bc3344fca63",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-05-akita-010",
+      "jp-05-akita-011"
+    ],
+    "review": "全2件の対訳アグ/ンミャ、七日市の地域説明を確認。"
+  },
+  {
+    "key": "akita-11",
+    "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/028/043/20210205new.pdf",
+    "sha256": "3d24a4f981def854a31fc889c5bc682dc0bad0c74a4a4ce5f51d05166c370878",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-05-akita-012"
+    ],
+    "review": "広報PDFp.15の「へば」解説を確認。じゃあね/そうであるならば。"
+  },
+  {
+    "key": "akita-12",
+    "url": "https://common3.pref.akita.lg.jp/genkimura/archive/contents-759/",
+    "sha256": "20429d11d13494a852a988f8c4296b7280ab7a1718b7210e042989e0dc045644",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-05-akita-013"
+    ],
+    "review": "山内のいぶりがっこの記事の漬物説明。県の語との説明と具体的記事地点を区別。"
+  },
+  {
+    "key": "akita-13",
+    "url": "https://common3.pref.akita.lg.jp/genkimura/archive/contents-770",
+    "sha256": "f5ed5ce3059bc52b63154dd07a5a5c6fce15d66342ceb545120d65c4c06a20eb",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-05-akita-014"
+    ],
+    "review": "秋ノ宮の行事紹介内「かだる」参加するの直接説明を確認。"
+  },
+  {
+    "key": "akita-14",
+    "url": "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/007/065/20210301.pdf",
+    "sha256": "2ba4bc7063387a74836602dd42e3e133dbd95685a554e50bb3c85d1eebbb53db",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-05-akita-015",
+      "jp-05-akita-016"
+    ],
+    "review": "PDFp.4クイズの解答欄を画像照合。ねねね＝寝ないといけないね、ばっけ＝ふきのとう。"
+  },
+  {
+    "key": "akita-15",
+    "url": "https://common3.pref.akita.lg.jp/genkimura/archive/contents-411",
+    "sha256": "bdd299c34ce1becf69d4ebaf08809ef7369f28089167c41531bf5287ad908e18",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-05-akita-017"
+    ],
+    "review": "男鹿中三ツ森のあんぷら餅説明でじゃがいもの直接対訳を確認。"
+  },
+  {
+    "key": "chiba-16",
+    "url": "https://www.city.ichihara.chiba.jp/ichiharagaku/pageindices/index76.html",
+    "sha256": "7e7ab6ab3257e55d3089a15c29f51eb5a92db6da3120e255d89b2526a1f87f9a",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-12-chiba-019",
+      "jp-12-chiba-020",
+      "jp-12-chiba-021",
+      "jp-12-chiba-022",
+      "jp-12-chiba-023",
+      "jp-12-chiba-024",
+      "jp-12-chiba-025",
+      "jp-12-chiba-026",
+      "jp-12-chiba-027",
+      "jp-12-chiba-028",
+      "jp-12-chiba-029",
+      "jp-12-chiba-030",
+      "jp-12-chiba-031",
+      "jp-12-chiba-032"
+    ],
+    "review": "市原市印刷p.74の方言/意味の列を確認。かな表記とreadingを対照。記号的なアクセントは補わない。"
+  },
+  {
+    "key": "chiba-17",
+    "url": "https://www.city.kamogawa.lg.jp/uploaded/life/22934_75211_misc.pdf",
+    "sha256": "292d4d61f29c5930d7f6fecc4dab703c49515d4d22557b0c0f69255f05815c53",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-12-chiba-033",
+      "jp-12-chiba-034",
+      "jp-12-chiba-035",
+      "jp-12-chiba-036",
+      "jp-12-chiba-037",
+      "jp-12-chiba-038",
+      "jp-12-chiba-039",
+      "jp-12-chiba-040",
+      "jp-12-chiba-041",
+      "jp-12-chiba-042",
+      "jp-12-chiba-043",
+      "jp-12-chiba-044",
+      "jp-12-chiba-045",
+      "jp-12-chiba-046",
+      "jp-12-chiba-047",
+      "jp-12-chiba-048",
+      "jp-12-chiba-049",
+      "jp-12-chiba-050",
+      "jp-12-chiba-051",
+      "jp-12-chiba-052",
+      "jp-12-chiba-053",
+      "jp-12-chiba-054",
+      "jp-12-chiba-055"
+    ],
+    "review": "鴨川の資料PDFp.5–7、見出しあ行/か行と語義列を確認。印刷頁も5–7であり4–6というmetadata誤りを修正。"
+  },
+  {
+    "key": "tochigi-18",
+    "url": "https://www.city.nasukarasuyama.lg.jp/nasukara-life/about-nasukara/nasukara-pride/page000917.html",
+    "sha256": "83f7201682e3980759a49cbdcc4b93e30aa8eb275b77a63feb5f9ca51e2205b8",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-09-tochigi-032",
+      "jp-09-tochigi-033",
+      "jp-09-tochigi-034",
+      "jp-09-tochigi-035",
+      "jp-09-tochigi-036",
+      "jp-09-tochigi-037",
+      "jp-09-tochigi-038",
+      "jp-09-tochigi-039",
+      "jp-09-tochigi-040",
+      "jp-09-tochigi-041",
+      "jp-09-tochigi-042",
+      "jp-09-tochigi-043",
+      "jp-09-tochigi-044",
+      "jp-09-tochigi-045",
+      "jp-09-tochigi-046",
+      "jp-09-tochigi-047",
+      "jp-09-tochigi-048",
+      "jp-09-tochigi-049",
+      "jp-09-tochigi-050",
+      "jp-09-tochigi-051",
+      "jp-09-tochigi-052",
+      "jp-09-tochigi-053",
+      "jp-09-tochigi-054",
+      "jp-09-tochigi-055"
+    ],
+    "review": "全24件の対訳行を確認。市公式なすから方言講座の範囲。reading/例文は転記しない。"
+  },
+  {
+    "key": "tottori-19",
+    "url": "https://www.pref.tottori.lg.jp/item/774392.htm",
+    "sha256": "e4342b880fbc23f68a0f45e6c0441ef422532be7d00f300e6ba2402a43719ddd",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-31-tottori-045"
+    ],
+    "review": "江府町宮市方言集紹介の「いいかげんな」を本文で確認。"
+  },
+  {
+    "key": "tottori-20",
+    "url": "https://www.pref.tottori.lg.jp/220804.htm",
+    "sha256": "aca9c3c5d0195bdfadf21311c5cfd20218d3c6c6d14c5fc220cd75c17c4f4733",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-31-tottori-046"
+    ],
+    "review": "県東部の「わったいな」の直接語釈を確認。"
+  },
+  {
+    "key": "tottori-21",
+    "url": "https://www.pref.tottori.lg.jp/178220.htm",
+    "sha256": "06e58c0beebf1aaf46a7519abacf66b993ce9780ae51996b2c18ba2df211c11c",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-31-tottori-047"
+    ],
+    "review": "県中部のどんどろけ＝雷の料理説明を確認。"
+  },
+  {
+    "key": "tottori-22",
+    "url": "https://www.city.kurayoshi.lg.jp/secure/1560/07.pdf",
+    "sha256": "7838ff4603b24dc6246075991497cdeeb6fc67c770f48efd5cdd81a964cc3535",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-31-tottori-048"
+    ],
+    "review": "PDFp.3(印刷72)祭り説明中ばえる＝騒ぐ/暴れるを画像確認。倉吉の文脈。"
+  },
+  {
+    "key": "tottori-23",
+    "url": "https://www.pref.tottori.lg.jp/secure/1198305/hino_vol28_06_07.pdf",
+    "sha256": "912c0002128766ac649a845626a69f846f328c0841e79aafcbeaae329987fad5",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-31-tottori-049"
+    ],
+    "review": "単頁見開き印刷7の吹き出し「まめなかや？」「お元気ですか？」と日野の方言の注を画像確認。"
+  },
+  {
+    "key": "tottori-24",
+    "url": "https://www.pref.tottori.lg.jp/item/856580.htm",
+    "sha256": "29ae497757a9a1dfc13a319f925290a2b4dfa91121fd4a785889183a9400d6db",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-31-tottori-050"
+    ],
+    "review": "日野の害虫記事で、はっとうじ＝クサギカメムシを直接確認。"
+  },
+  {
+    "key": "tottori-25",
+    "url": "https://www.pref.tottori.lg.jp/266765.htm",
+    "sha256": "0f709d9de3190c404566666d1dcc509fb94321a41497d55ded514cbe3bf09dda",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-31-tottori-051"
+    ],
+    "review": "大山町歌の語釈に「きょうとし」恐ろしいの記載。歌詞全文を転記せず語釈のみ。"
+  },
+  {
+    "key": "tottori-26",
+    "url": "https://www.city.tottori.lg.jp/page/7164.html",
+    "sha256": "4dbd7d62634d41225812201a15d7e4a1b5c2238b9c84dd3f1d9d92f8d8d700c1",
+    "checkedAt": "2026-09-19",
+    "importedIds": [
+      "jp-31-tottori-052"
+    ],
+    "review": "鳥取市の記事で因幡の感謝/歓迎表現「ようこそようこそ」を確認。"
+  },
+  {
+    "key": "gifu-hida",
+    "url": "https://www.city.hida.gifu.jp/uploaded/attachment/32481.pdf",
+    "sha256": "59c6a573902b8f9d923058a159bacb9ac2fa38a11d7150346ffe811c0fdd353c",
+    "checkedAt": "2026-09-19",
+    "review": "PDFp.1のあんと/あに/おじを画像照合。ささっては解答未確認でHOLD。"
+  },
+  {
+    "key": "gifu-city-r8",
+    "url": "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/005/148/r8siryo.pdf",
+    "sha256": "f8a39638d4b5dfa7e0a3766fc5cadbcb5296560f9236cafa1f0150d5659adb08",
+    "checkedAt": "2026-09-19",
+    "review": "印刷p.134–135/PDFp.12–13の語彙・共通語列43件を画像確認。既存えらいは追加しない。"
+  }
+]
