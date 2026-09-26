@@ -21,8 +21,11 @@ type MeaningComparisonRecord = {
   title: string;
   description: string;
   searchIntent: string;
+  answer?: string;
   dialectIds: string[];
+  exampleExcerpts?: Record<string, { dialect: string; standard: string }>;
   caution: string;
+  sources?: { label: string; url: string }[];
   sourceCheckedAt: string;
   indexStatus: "indexable" | "review_required" | "noindex";
 };
@@ -167,8 +170,8 @@ export function MeaningComparison() {
         <div className="notice"><strong>確認待ち比較</strong><p>参照する語の一部に、出典または用例の確認が不足しています。このページは検索対象にせず、候補比較として表示しています。</p></div>
       )}
       <section className="comparison-intent">
-        <h2>このページで分かること</h2>
-        <p>{comparison.searchIntent}</p>
+        <h2>{comparison.answer ? "比較の答え" : "このページで分かること"}</h2>
+        <p>{comparison.answer ?? comparison.searchIntent}</p>
       </section>
       <section>
         <h2>地域ごとの言い方と実例</h2>
@@ -178,7 +181,13 @@ export function MeaningComparison() {
               <small>{prefectureName.get(item.prefectureId)}</small>
               <strong>{item.phrase}</strong>
               <span>{hasEvidenceScope(item, "reading") ? item.reading : "読み確認中"}／{item.standardJapanese}</span>
-              <MeaningComparisonExample item={item} />
+              {comparison.exampleExcerpts?.[item.id] ? (
+                <>
+                  <small>原資料の用例</small>
+                  <p>{comparison.exampleExcerpts[item.id].dialect}</p>
+                  <p className="translation">{comparison.exampleExcerpts[item.id].standard}</p>
+                </>
+              ) : <MeaningComparisonExample item={item} />}
               <i className={`verification ${item.verificationStatus}`}>{['verified','reference_confirmed','community_confirmed'].includes(item.verificationStatus) ? '資料・話者の確認あり' : '資料を確認中'}</i>
               <ArrowRight />
             </Link>
@@ -190,7 +199,14 @@ export function MeaningComparison() {
         <p>{comparison.caution}</p>
       </aside>
       <footer className="comparison-source-note">
-        各語の根拠資料は個別記事に掲載しています。比較データ最終確認日：{comparison.sourceCheckedAt}
+        <p>各語の根拠資料は個別記事にも掲載しています。比較データ最終確認日：{comparison.sourceCheckedAt}</p>
+        {comparison.sources && (
+          <ul>
+            {comparison.sources.map((source) => (
+              <li key={source.url}><a href={source.url}>{source.label}</a></li>
+            ))}
+          </ul>
+        )}
       </footer>
     </article>
   );
