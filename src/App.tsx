@@ -81,6 +81,9 @@ const RegionGuidePage = lazy(() =>
 const CultureGuidePage = lazy(() =>
   import("./CultureGuide").then((module) => ({ default: module.CultureGuide })),
 );
+const MediaGuidePage = lazy(() =>
+  import("./MediaGuide").then((module) => ({ default: module.MediaGuide })),
+);
 const ContextGuidePage = lazy(() =>
   import("./ContextGuide").then((module) => ({ default: module.ContextGuide })),
 );
@@ -161,6 +164,7 @@ function Shell() {
             <Route path="/meanings/:slug" element={<MeaningComparison />} />
             <Route path="/guides/regions/:slug" element={<RegionGuidePage />} />
             <Route path="/guides/culture/:slug" element={<CultureGuidePage />} />
+            <Route path="/guides/media/:slug" element={<MediaGuidePage />} />
             <Route path="/stories/:slug" element={<ContextGuidePage />} />
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/favorites" element={<Favorites />} />
