@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { repository } from "./repository";
 import guides from "./data/region-guides.json";
 import cultures from "./data/culture-guides.json";
+import mediaGuides from "./data/media-guides.json";
 import stories from "./data/context-guides.json";
 
 export function ArchiveLinks({
@@ -25,6 +26,9 @@ export function ArchiveLinks({
         ...cultures
           .filter((g) => g.dialectIds.some((id) => ids.has(id)))
           .map((g) => ({ path: `/guides/culture/${g.slug}`, title: g.title })),
+        ...mediaGuides
+          .filter((g) => g.relatedDialectIds.some((id) => ids.has(id)))
+          .map((g) => ({ path: `/guides/media/${g.slug}`, title: g.title })),
         ...stories
           .filter((g) => g.dialectIds.some((id) => ids.has(id)))
           .map((g) => ({ path: `/stories/${g.slug}`, title: g.title })),

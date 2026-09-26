@@ -6,6 +6,7 @@ export { hasCoreEvidence } from "./evidencePolicy.mjs";
 import meanings from "./data/meaning-comparisons.json";
 import guides from "./data/region-guides.json";
 import cultures from "./data/culture-guides.json";
+import mediaGuides from "./data/media-guides.json";
 import stories from "./data/context-guides.json";
 
 export type Crumb = { name: string; path: string };
@@ -217,6 +218,19 @@ for (const g of cultures)
       g.dialectIds.length >= 3 &&
       g.dialectIds.every((id) => isIndexableDialectRoute(repository.dialect(id))),
     [home],
+    g.title.replace(/｜.+$/, ""),
+  );
+for (const g of mediaGuides)
+  add(
+    `/guides/media/${g.slug}`,
+    g.title,
+    g.description,
+    g.indexStatus === "indexable" &&
+      g.sources.length >= 2 &&
+      g.relatedDialectIds.every((id) =>
+        isIndexableDialectRoute(repository.dialect(id)),
+      ),
+    [home, places],
     g.title.replace(/｜.+$/, ""),
   );
 for (const s of stories)
