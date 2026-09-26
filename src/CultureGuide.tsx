@@ -10,6 +10,8 @@ import { hasEvidenceScope } from "./evidencePolicy.mjs";
 type CultureGuideRecord = {
   id: string; slug: string; category: string; title: string; description: string;
   searchIntent: string; introduction: string; dialectIds: string[];
+  sections?: { heading: string; body: string }[];
+  additionalSources?: { title: string; organization: string; url: string }[];
   sourceTitle: string; sourceOrganization: string; sourceUrl: string;
   sourceCheckedAt: string; indexStatus: "indexable" | "review_required" | "noindex";
 };
@@ -30,10 +32,20 @@ export function CultureGuide() {
         <div className="guide-facts"><span><Layers3 />{guide.category}</span><span><BookOpen />確認済み {dialects.length}語</span></div>
       </header>
       <section className="guide-introduction"><h2>このテーマの見方</h2><p>{guide.introduction}</p></section>
+      {guide.sections?.map((section) => (
+        <section className="culture-guide-section" key={section.heading}>
+          <h2>{section.heading}</h2>
+          <p>{section.body}</p>
+        </section>
+      ))}
       <section><h2>ことばから文化をたどる</h2><div className="guide-dialect-grid">
         {dialects.map((item) => <Link to={`/dialects/${item.id}`} key={item.id}><small>{hasEvidenceScope(item, "usage") ? item.usageContexts.join("・") : "使用場面未確認"}</small><strong>{item.phrase}</strong><span>{item.standardJapanese}</span><p>{item.description}</p><ArrowRight /></Link>)}
       </div></section>
-      <aside className="guide-source"><h2>根拠資料</h2><p>{guide.sourceOrganization}「{guide.sourceTitle}」</p><a href={guide.sourceUrl} target="_blank" rel="noreferrer">資料を確認する</a><small>最終確認日：{guide.sourceCheckedAt}</small></aside>
+      <aside className="guide-source"><h2>根拠資料</h2><p>{guide.sourceOrganization}「{guide.sourceTitle}」</p><a href={guide.sourceUrl} target="_blank" rel="noreferrer">資料を確認する</a><small>最終確認日：{guide.sourceCheckedAt}</small>
+        {guide.additionalSources?.map((source) => (
+          <p key={source.url}>{source.organization}「{source.title}」：<a href={source.url} target="_blank" rel="noreferrer">資料を確認する</a></p>
+        ))}
+      </aside>
     </article>
   );
 }
