@@ -70,6 +70,9 @@ const Terms = lazy(() =>
 const MeaningAtlas = lazy(() =>
   import("./MeaningAtlas").then((module) => ({ default: module.MeaningAtlas })),
 );
+const RecordedPlacesMap = lazy(() =>
+  import("./RecordedPlacesMap").then((module) => ({ default: module.RecordedPlacesMap })),
+);
 const MeaningComparison = lazy(() =>
   import("./MeaningAtlas").then((module) => ({
     default: module.MeaningComparison,
@@ -127,7 +130,7 @@ function Shell() {
           <span>こ</span>ことばの地図
         </Link>
         <nav aria-label="主なメニュー">
-          <NavLink to="/prefectures">地域を探す</NavLink>
+          <NavLink to="/map">地図から探す</NavLink>
           <NavLink to="/search">ことば検索</NavLink>
           <NavLink to="/compare">全国くらべ</NavLink>
           <NavLink to="/meanings">意味の地図</NavLink>
@@ -149,6 +152,7 @@ function Shell() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/prefectures" element={<Prefectures />} />
+            <Route path="/map" element={<RecordedPlacesMap />} />
             <Route path="/prefectures/:id" element={<Prefecture />} />
             <Route path="/regions/:id" element={<Region />} />
             <Route path="/dialects/:id" element={<DialectDetail />} />
@@ -192,6 +196,7 @@ function Shell() {
           <div>
             <b>めぐる</b>
             <Link to="/prefectures">地域から探す</Link>
+            <Link to="/map">地図から探す</Link>
             <Link to="/search">意味から探す</Link>
             <Link to="/compare">全国でくらべる</Link>
             <Link to="/meanings">意味の地図</Link>
@@ -237,9 +242,9 @@ function MobileNav() {
         <HomeIcon />
         ホーム
       </NavLink>
-      <NavLink to="/prefectures">
+      <NavLink to="/map">
         <Map />
-        地域
+        地図
       </NavLink>
       <NavLink to="/search">
         <Search />
@@ -274,7 +279,7 @@ function Home() {
             方言は、単語の一覧ではありません。土地の記憶、人の声、世代の時間が重なった文化です。47都道府県の使用例を、地域差と確認状態とともにたどります。
           </p>
           <div className="actions">
-            <Link className="button" to="/prefectures">
+            <Link className="button" to="/map">
               <MapPin />
               地域からめぐる
             </Link>
