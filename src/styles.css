@@ -1374,6 +1374,8 @@ form label {
 .guide-facts svg { width: 16px; }
 .guide-introduction { max-width: 820px; margin: 28px 0 42px; padding: 24px; border-left: 4px solid var(--orange); background: #f5f1e8; }
 .guide-introduction h2 { margin-top: 0; }
+.culture-guide-section { max-width: 820px; margin: 0 0 32px; }
+.culture-guide-section p { line-height: 1.9; }
 .guide-dialect-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .guide-dialect-grid a { position: relative; display: flex; flex-direction: column; min-height: 270px; padding: 20px; background: #fff; border: 1px solid var(--line); }
 .guide-dialect-grid small { color: #687169; }
