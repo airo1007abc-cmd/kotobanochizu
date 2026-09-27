@@ -37,6 +37,7 @@ type RawDialect = {
   confidence: NonNullable<Dialect["confidence"]>;
   recordingYear: number | null;
   audioUrl: string | null;
+  archivalAudio?: NonNullable<Dialect["archivalAudio"]>;
   videoUrl: string | null;
   needsAudio: boolean;
   audioPriority: 1 | 2 | 3;
@@ -120,6 +121,7 @@ export const nationalDialects: Dialect[] = rawDialects.flatMap((raw) => {
       confidence: raw.confidence,
       recordingYear: raw.recordingYear ?? undefined,
       audioUrl: raw.audioUrl ?? undefined,
+      archivalAudio: raw.archivalAudio,
       videoUrl: raw.videoUrl ?? undefined,
       needsAudio: raw.needsAudio,
       audioPriority: raw.audioPriority,

@@ -33,6 +33,26 @@ export type MediaRights = {
   speakerDisplay: "anonymous" | "age_and_region" | "credited";
   withdrawalContactConfigured: boolean;
 };
+export type ArchivalAudioEvidence = {
+  basis: "open_license";
+  sourceTitle: string;
+  sourceOrganization: string;
+  sourceUrl: string;
+  originalAudioUrl: string;
+  originalFileName: string;
+  licenseName: "CC BY 4.0" | "CC BY-SA 3.0" | "Public Domain Mark 1.0";
+  licenseUrl: string;
+  attribution: string;
+  modificationNote: string;
+  recordingDate?: string;
+  recordingLocation: string;
+  speakerLabel: string;
+  utteranceId: string;
+  clipStartSeconds: number;
+  clipEndSeconds: number;
+  reviewedAt: string;
+  matchStatus: "confirmed";
+};
 export type Prefecture = {
   id: string;
   code: number;
@@ -97,6 +117,7 @@ export type Dialect = {
   audioUrl?: string;
   videoUrl?: string;
   mediaRights?: MediaRights;
+  archivalAudio?: ArchivalAudioEvidence;
   slug?: string;
   source?: SourceMetadata;
   additionalSources?: SourceMetadata[];
@@ -120,9 +141,21 @@ export type Dialect = {
 export const hasPublishableAudio = (dialect: Dialect) =>
   Boolean(
     dialect.audioUrl &&
-    dialect.mediaRights?.consentRecordedAt &&
-    dialect.mediaRights.consentVersion &&
-    dialect.mediaRights.withdrawalContactConfigured,
+      ((dialect.mediaRights?.consentRecordedAt &&
+        dialect.mediaRights.consentVersion &&
+        dialect.mediaRights.withdrawalContactConfigured) ||
+        (dialect.archivalAudio?.basis === "open_license" &&
+          dialect.archivalAudio.sourceUrl &&
+          dialect.archivalAudio.originalAudioUrl &&
+          dialect.archivalAudio.originalFileName &&
+          dialect.archivalAudio.licenseUrl &&
+          dialect.archivalAudio.attribution &&
+          dialect.archivalAudio.recordingLocation &&
+          dialect.archivalAudio.speakerLabel &&
+          dialect.archivalAudio.utteranceId &&
+          dialect.archivalAudio.clipEndSeconds >
+            dialect.archivalAudio.clipStartSeconds &&
+          dialect.archivalAudio.matchStatus === "confirmed")),
   );
 export type ConversationLine = {
   speaker: string;

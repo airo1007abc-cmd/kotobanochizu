@@ -1886,6 +1886,32 @@ main:has(.dialect-v2) { max-width: 1280px; }
   border-radius: 50%;
   background: #fff;
 }
+.dialect-audio-card {
+  width: min(100%, 690px);
+  margin: 18px 0;
+  padding: 16px;
+  color: #263b33;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.dialect-audio-card h2 { display: flex; align-items: center; gap: 7px; margin: 0 0 10px; font-size: 16px; }
+.dialect-audio-card h2 svg { width: 20px; height: 20px; color: var(--orange); }
+.dialect-audio-transcript { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0 0 10px; }
+.dialect-audio-transcript b { font-size: 18px; }
+.dialect-audio-transcript span { color: #555e58; }
+.dialect-audio-card audio { width: 100%; min-height: 44px; }
+.dialect-audio-meta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px 20px; margin: 12px 0; }
+.dialect-audio-meta div { display: grid; grid-template-columns: 70px 1fr; gap: 8px; }
+.dialect-audio-meta dt { color: #68736d; font-size: 12px; }
+.dialect-audio-meta dd { margin: 0; font-size: 12px; }
+.dialect-audio-caution { margin: 10px 0; padding: 9px 11px; background: #fff5dc; font-size: 12px; }
+.dialect-audio-source { margin: 10px 0 4px; font-size: 12px; }
+.dialect-audio-source span { margin: 0 5px; }
+.dialect-audio-card > small { display: block; color: #68736d; font-size: 11px; }
+@media (max-width: 600px) {
+  .dialect-audio-meta { grid-template-columns: 1fr; }
+}
 .v2-reading { margin: 12px 0 8px; color: #555e58; font-size: 17px; }
 .v2-translation { margin: 0 0 18px; color: #172d25; font-family: "Kaisei Decol"; font-size: 31px; font-weight: 700; }
 .v2-translation { max-width: 760px; overflow-wrap: anywhere; word-break: break-all; }

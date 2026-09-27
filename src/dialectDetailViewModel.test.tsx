@@ -112,6 +112,22 @@ describe("DialectDetailViewModel", () => {
     }
   }, 60_000);
 
+  it("renders archival audio with a text equivalent, provenance, and individual-speaker warning", () => {
+    const dialect = repository.dialect("jp-21-gifu-003")!;
+    const html = renderToStaticMarkup(
+      <MemoryRouter>
+        <DialectDetailV2 dialect={dialect} />
+      </MemoryRouter>,
+    );
+    expect(html).toContain("0400912-akan.ogg");
+    expect(html).toContain("意味：だめ・いけない");
+    expect(html).toContain("発話番号");
+    expect(html).toContain("0400912");
+    expect(html).toContain("CC BY 4.0");
+    expect(html).toContain("地域全体の標準的な発音を示すものではありません");
+    expect(html).toContain('aria-label="「あかん」（意味：だめ・いけない）の発話音声"');
+  });
+
   it("reports catalogue-wide display risks and a diverse visual sample", () => {
     const dialects = repository.dialects();
     const rows = dialects.map((dialect) => {

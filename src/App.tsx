@@ -47,6 +47,7 @@ import {
   recentDialects,
 } from "./storage";
 import { hasPublishableAudio, type Dialect } from "./domain";
+import { DialectAudioPlayer } from "./DialectAudioPlayer";
 import { isPreview, siteConfig } from "./siteConfig";
 const AdminPage = lazy(() =>
   import("./AdminPage").then((module) => ({ default: module.AdminPage })),
@@ -770,27 +771,12 @@ function DialectDetail() {
         </div>
         <aside className="side">
           {hasPublishableAudio(d) ? (
-            <div className="audio-record">
-              <b>
-                <Volume2 /> このことばを聴く
-              </b>
-              <audio controls preload="none" src={d.audioUrl}>
-                音声を再生できないブラウザです。
-              </audio>
-              <small>
-                話者表示:{" "}
-                {d.mediaRights?.speakerDisplay === "credited"
-                  ? "本人希望の名前"
-                  : d.mediaRights?.speakerDisplay === "age_and_region"
-                    ? "年代・地域のみ"
-                    : "匿名"}
-              </small>
-            </div>
+            <DialectAudioPlayer dialect={d} />
           ) : (
             <div className="audio-pending">
               <Volume2 />
               <b>音声は収録していません</b>
-              <p>収録・公開同意と撤回窓口を確認できた音声だけを掲載します。</p>
+              <p>収録・公開同意、または原資料の再利用条件と発話対応を確認できた音声だけを掲載します。</p>
             </div>
           )}
           <button
