@@ -1674,7 +1674,7 @@
     "phrase": "ごいせ",
     "reading": "",
     "standardJapanese": "いらっしゃいませ",
-    "description": "資料上、石見地域で「ごいせ」は「いらっしゃいませ」の意味・用法として確認される。 本項では、大田市・仁摩地域の「ごいせ」を「いらっしゃいませ」とする「道の駅「ごいせ仁摩」施設案内（「ごいせ」の説明）」の記録範囲に限定して紹介します。",
+    "description": "資料上、大田市・仁摩地域で「ごいせ」は「いらっしゃいませ」を意味する方言として確認される。 本項では、道の駅「ごいせ仁摩」の公式案内が明記する語形・意味・地域の範囲に限定して紹介します。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 32,
@@ -1691,7 +1691,7 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "大田市資料が「『ごいせ』は仁摩地域の方言で、『いらっしゃいませ』を意味します」と明記。 掲載箇所: 道の駅「ごいせ仁摩」案内、「ごいせ」の説明箇所。 施設名称としても用いられているが、語義・地域は市資料の方言説明に基づく。宣伝コピーを用例としては採用しない。 候補資料の言語区分: japanese_dialect。",
+    "sourceNote": "主出典の大田市PDFは、2026-09-03の照合記録と出典履歴を保持するが、2026-09-27時点では404。道の駅「ごいせ仁摩」公式サイトのトップページ本文で「『ごいせ』は仁摩地域の方言で『いらっしゃいませ』を意味します」と再確認した。施設名称としても用いられているが、宣伝コピーを用例としては採用しない。 候補資料の言語区分: japanese_dialect。",
     "sourceTitle": "道の駅「ごいせ仁摩」施設案内（「ごいせ」の説明）",
     "sourceOrganization": "大田市",
     "sourceUrl": "https://www.city.oda.lg.jp/files/original/20220125205507342338ecbbe.pdf",
@@ -1701,6 +1701,22 @@
       "meaning",
       "region"
     ],
+    "additionalSources": [
+      {
+        "type": "official_reference",
+        "title": "道の駅ごいせ仁摩 公式サイト",
+        "organization": "道の駅ごいせ仁摩",
+        "url": "https://www.goisenima.com/",
+        "note": "トップページ「道の駅 ごいせ仁摩」の説明で、語形「ごいせ」、仁摩地域の方言であること、「いらっしゃいませ」の意味を確認。",
+        "checkedAt": "2026-09-27",
+        "page": "トップページ「道の駅 ごいせ仁摩」",
+        "evidenceScopes": [
+          "phrase",
+          "meaning",
+          "region"
+        ]
+      }
+    ],
     "confidence": "low",
     "recordingYear": null,
     "audioUrl": null,
@@ -1709,7 +1725,7 @@
     "audioPriority": 3,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-03",
-    "updatedAt": "2026-09-03"
+    "updatedAt": "2026-09-27"
   },
   {
     "id": "jp-32-shimane-040",
