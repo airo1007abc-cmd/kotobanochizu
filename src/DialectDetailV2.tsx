@@ -18,6 +18,7 @@ import { hasPublishableAudio } from "./domain";
 import { createDialectDetailViewModel } from "./dialectDetailViewModel";
 import { prefectureMapLabels } from "./JapanPrefectureMap";
 import { repository } from "./repository";
+import { recordedPlaceFor } from "./recordedPlaces";
 import { favorites, reactionStore } from "./storage";
 
 const prefectureName = (id: string) => repository.prefectures().find((item) => item.id === id)?.name ?? "地域確認中";
@@ -157,6 +158,7 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
                 <p>{vm.locationBadges.length ? `資料の記録地点：${vm.locationBadges.join('・')}` : '記録地点の詳細は出典をご確認ください。'}</p>
                 <p>閲覧区分：{pref}・{region}。この区分全域で使われることを意味しません。</p>
                 <Link className="v2-outline-link" to={`/regions/${vm.primaryRegion.id}`}>地域のことば一覧を見る<ArrowRight /></Link>
+                {recordedPlaceFor(d) && <Link className="v2-outline-link" to={`/map?prefecture=${encodeURIComponent(d.prefectureId)}&place=${encodeURIComponent(recordedPlaceFor(d)!)}`}>この記録地点を地図から探す<ArrowRight /></Link>}
               </div>
               <ArchiveRegionMap prefecture={pref} />
             </div>

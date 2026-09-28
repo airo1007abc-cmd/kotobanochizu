@@ -16,6 +16,12 @@ import { MemoryRouter } from "react-router-dom";
 import { Breadcrumbs } from "./Breadcrumbs";
 
 describe("publication and route integrity", () => {
+  it("exposes one canonical, indexable map entry without query variants", () => {
+    const map = getPageMetadata("/map");
+    expect(map.indexable).toBe(true);
+    expect(map.path).toBe("/map");
+    expect(allPageMetadata.filter((page) => page.path.startsWith("/map"))).toHaveLength(1);
+  });
   it("resolves every public record and every breadcrumb to a real route", () => {
     const paths = new Set(allPageMetadata.map((p) => p.path));
     expect(paths.size).toBe(allPageMetadata.length);
