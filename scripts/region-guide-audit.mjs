@@ -43,6 +43,11 @@ for (const guide of guides) {
     if (entries.length !== guide.selector.dialectIds.length) failures.push(`${guide.id}: dialectIdsに不存在・地域不一致・品質ゲート未通過の項目あり`);
     if (guide.selector.requireMultipleMunicipalities === true && new Set(entries.map((item) => item.municipality)).size < 2) failures.push(`${guide.id}: 県内比較ガイドは確認地点2か所以上が必要`);
   }
+  if (Array.isArray(guide.sections)) {
+    const sectionIds = guide.sections.flatMap((section) => section.dialectIds ?? []);
+    if (guide.sections.some((section) => !section.heading || !section.explanation || !Array.isArray(section.dialectIds) || section.dialectIds.length === 0)) failures.push(`${guide.id}: 節の見出し・説明・記録が不足`);
+    if (sectionIds.length !== new Set(sectionIds).size || sectionIds.slice().sort().join("|") !== entries.map((item) => item.id).sort().join("|")) failures.push(`${guide.id}: 節の記録が選択レコードと一致しない`);
+  }
 }
 for (const field of ["slug", "title", "description", "searchIntent"])
   if (duplicates(field).length) failures.push(`${field}重複: ${JSON.stringify(duplicates(field))}`);

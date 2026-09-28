@@ -24,10 +24,17 @@ type RegionGuideRecord = {
   sourceUrl: string;
   sourceCheckedAt: string;
   indexStatus: "indexable" | "review_required" | "noindex";
+  recordedScope?: string;
+  sourceContextLabel?: string;
+  sections?: { heading: string; explanation: string; dialectIds: string[] }[];
 };
 
 const guides = guideData as RegionGuideRecord[];
-const confirmedStatuses = new Set(["verified", "reference_confirmed", "community_confirmed"]);
+const confirmedStatuses = new Set([
+  "verified",
+  "reference_confirmed",
+  "community_confirmed",
+]);
 
 export function RegionGuide() {
   const { slug } = useParams();
@@ -41,10 +48,13 @@ export function RegionGuide() {
     .filter(
       (item) =>
         item.prefectureId === prefectureId &&
-        (("dialectIds" in guide.selector && guide.selector.dialectIds.includes(item.id)) ||
+        (("dialectIds" in guide.selector &&
+          guide.selector.dialectIds.includes(item.id)) ||
           "prefectureWide" in guide.selector ||
           ("municipalityPrefix" in guide.selector &&
-            item.municipality?.startsWith(guide.selector.municipalityPrefix))) &&
+            item.municipality?.startsWith(
+              guide.selector.municipalityPrefix,
+            ))) &&
         confirmedStatuses.has(item.verificationStatus),
     );
 
@@ -56,32 +66,61 @@ export function RegionGuide() {
         <h1>{guide.title.replace(/｜.+$/, "")}</h1>
         <p>{guide.description}</p>
         <div className="guide-facts">
-          <span><MapPin />{guide.prefectureName}・{guide.regionLabel}</span>
-          <span><BookOpen />根拠確認済み {dialects.length}語</span>
+          <span>
+            <MapPin />
+            {guide.prefectureName}・{guide.regionLabel}
+          </span>
+          <span>
+            <BookOpen />
+            根拠確認済み {dialects.length}件
+          </span>
         </div>
       </header>
       <section className="guide-introduction">
         <h2>この地域のことばを読む前に</h2>
         <p>{guide.introduction}</p>
+        {guide.recordedScope && <p>{guide.recordedScope}</p>}
       </section>
-      <section>
-        <h2>確認済みのことば</h2>
-        <div className="guide-dialect-grid">
-          {dialects.map((item) => (
-            <Link to={`/dialects/${item.id}`} key={item.id}>
-              <small>{hasEvidenceScope(item, "usage") ? item.usageContexts.slice(0, 2).join("・") : "使用場面未確認"}</small>
-              <strong>{item.phrase}</strong>
-              <span>{item.standardJapanese}</span>
-              <p>{item.description}</p>
-              <ArrowRight />
-            </Link>
-          ))}
-        </div>
-      </section>
+      {(
+        guide.sections ?? [
+          {
+            heading: "確認済みの記録",
+            explanation: "",
+            dialectIds: dialects.map((item) => item.id),
+          },
+        ]
+      ).map((section) => (
+        <section key={section.heading}>
+          <h2>{section.heading}</h2>
+          {section.explanation && <p>{section.explanation}</p>}
+          <div className="guide-dialect-grid">
+            {dialects
+              .filter((item) => section.dialectIds.includes(item.id))
+              .map((item) => (
+                <Link to={`/dialects/${item.id}`} key={item.id}>
+                  <small>
+                    {guide.sourceContextLabel ??
+                      (hasEvidenceScope(item, "usage")
+                        ? item.usageContexts.slice(0, 2).join("・")
+                        : "使用場面未確認")}
+                  </small>
+                  <strong>{item.phrase}</strong>
+                  <span>{item.standardJapanese}</span>
+                  <p>{item.description}</p>
+                  <ArrowRight />
+                </Link>
+              ))}
+          </div>
+        </section>
+      ))}
       <aside className="guide-source">
         <h2>主な資料</h2>
-        <p>{guide.sourceOrganization}「{guide.sourceTitle}」</p>
-        <a href={guide.sourceUrl} target="_blank" rel="noreferrer">資料を確認する</a>
+        <p>
+          {guide.sourceOrganization}「{guide.sourceTitle}」
+        </p>
+        <a href={guide.sourceUrl} target="_blank" rel="noreferrer">
+          資料を確認する
+        </a>
         <small>最終確認日：{guide.sourceCheckedAt}</small>
       </aside>
     </article>
