@@ -1,4 +1,5 @@
 import { SourceAvailability } from "./SourceAvailability";
+import { DialectAudioPlayer } from "./DialectAudioPlayer";
 import { recordDescription } from "./editorialDisplay";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -105,10 +106,11 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
           <span className="v2-pref-label">{pref}のことば</span>
           <div className="v2-word-title">
             <h1 className={vm.word.length >= 14 ? "is-very-long" : vm.word.length >= 8 ? "is-long" : ""}>{vm.word}</h1>
-            {hasPublishableAudio(d) ? <audio controls preload="none" src={d.audioUrl} /> : <span className="v2-audio-pending" title="音声は収録していません"><Volume2 />音声未収録</span>}
+            {!hasPublishableAudio(d) && <span className="v2-audio-pending" title="音声は収録していません"><Volume2 />音声未収録</span>}
           </div>
           <p className="v2-reading">［{vm.reading ?? "読み確認中"}］</p>
           <p className="v2-translation">{vm.meanings[0] ?? "意味確認中"}</p>
+          <DialectAudioPlayer dialect={d} />
           <div className="v2-chips">
             <Link to={`/prefectures/${vm.prefecture.id}`}><MapPin />{pref}</Link>
             <Link to={`/regions/${vm.primaryRegion.id}`}>{region}</Link>

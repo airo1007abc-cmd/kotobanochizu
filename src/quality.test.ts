@@ -19,13 +19,23 @@ Object.defineProperty(globalThis, "localStorage", {
 
 describe("critical flows", () => {
   beforeEach(() => localStorage.clear());
-  it("never exposes audio without consent and withdrawal support", () => {
-    expect(
-      repository
-        .dialects()
-        .filter((item) => item.audioUrl)
-        .every(hasPublishableAudio),
-    ).toBe(true);
+  it("never exposes audio without consent or open-license evidence", () => {
+    const audioItems = repository.dialects().filter((item) => item.audioUrl);
+    expect(audioItems.every(hasPublishableAudio)).toBe(true);
+    expect(audioItems.map((item) => item.id)).toEqual([
+      "jp-21-gifu-003",
+      "jp-21-gifu-004",
+    ]);
+    for (const item of audioItems) {
+      expect(item.archivalAudio).toMatchObject({
+        basis: "open_license",
+        licenseName: "CC BY 4.0",
+        recordingDate: "1967-03-03",
+        recordingLocation: "岐阜県不破郡垂井町岩手漆原",
+        matchStatus: "confirmed",
+      });
+      expect(item.archivalAudio?.utteranceId).toMatch(/^04009/);
+    }
   });
   it("restores every URL filter", () => {
     const parsed = parseDialectSearch(

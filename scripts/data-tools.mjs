@@ -1,4 +1,5 @@
 import { readdir, readFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { join } from "node:path";
 const root = new URL("../src/data/", import.meta.url);
 const dialectDir = new URL("dialects/", root);
@@ -139,8 +140,31 @@ for (const item of records) {
     if ((item[key]?.length ?? 0) > 500)
       errors.push(`too long ${key}: ${where}`);
   for (const key of ["audioUrl", "videoUrl"])
-    if (item[key] && !/^https:\/\//.test(item[key]))
+    if (item[key] && !/^https:\/\//.test(item[key]) && !(key === "audioUrl" && /^\/audio\/[a-zA-Z0-9_./-]+\.ogg$/.test(item[key])))
       errors.push(`invalid ${key}: ${where}`);
+  if (item.audioUrl?.startsWith("/audio/") && !existsSync(new URL(`../public${item.audioUrl}`, import.meta.url)))
+    errors.push(`missing local audio asset: ${where}`);
+  if (item.needsAudio && item.audioUrl)
+    errors.push(`audio marked both available and needed: ${where}`);
+  if (item.archivalAudio && !item.audioUrl)
+    errors.push(`archival audio evidence without audio: ${where}`);
+  if (item.audioUrl && !item.archivalAudio && !item.mediaRights)
+    errors.push(`audio without rights evidence: ${where}`);
+  if (item.archivalAudio) {
+    const audio = item.archivalAudio;
+    for (const key of ["sourceTitle", "sourceOrganization", "sourceUrl", "originalAudioUrl", "originalFileName", "licenseName", "licenseUrl", "attribution", "modificationNote", "recordingLocation", "speakerLabel", "utteranceId", "reviewedAt"])
+      if (!audio[key]) errors.push(`incomplete archival audio ${key}: ${where}`);
+    if (audio.basis !== "open_license")
+      errors.push(`unsupported archival audio basis: ${where}`);
+    if (audio.matchStatus !== "confirmed")
+      errors.push(`unconfirmed archival audio match: ${where}`);
+    if (!/^https:\/\//.test(audio.sourceUrl) || !/^https:\/\//.test(audio.originalAudioUrl))
+      errors.push(`invalid archival audio source URL: ${where}`);
+    if (!/^https:\/\//.test(audio.licenseUrl))
+      errors.push(`invalid archival audio license URL: ${where}`);
+    if (!(Number.isFinite(audio.clipStartSeconds) && Number.isFinite(audio.clipEndSeconds) && audio.clipEndSeconds > audio.clipStartSeconds))
+      errors.push(`invalid archival audio clip range: ${where}`);
+  }
   const candidate = [
     item.prefectureCode,
     item.regionName,
