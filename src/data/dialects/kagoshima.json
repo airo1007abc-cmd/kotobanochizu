@@ -1010,7 +1010,7 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "原資料の地域表記: 薩摩・大隅。主地域を「大隅」として整理。 原資料の言語区分: 日本語（薩隅方言）。",
+    "sourceNote": "主出典「KAGOSHIMA Graph」p.2「鹿児島方言講」は、薩摩・大隅地域編として「おじゃったもんせ」を「おいでくださいませ」と説明し、「おじゃる」と「たもんせ」を合わせた丁寧な表現、来訪者を迎える用例を掲載。主出典URLは2026-09-28時点で404のため、URLと2026-09-02の照合履歴を保持する。現行の鹿屋市公式ページでも鹿児島弁で「お越しください」の意味と確認。主地域は大隅として整理。",
     "sourceTitle": "県政広報資料（おじゃったもんせ解説）",
     "sourceOrganization": "鹿児島県",
     "sourceUrl": "https://www.pref.kagoshima.jp/kohokocho/kouhoushi/kohosi/gurakago/h30/documents/68694_20181210094057-1.pdf",
@@ -1029,7 +1029,9 @@
         "title": "かのや移住サポートセンター",
         "organization": "鹿屋市",
         "url": "https://www.city.kanoya.lg.jp/iju/oyakudachi/support.html",
-        "checkedAt": "2026-09-04",
+        "note": "「おじゃったもんせかのや」節で、鹿児島弁の語形、「お越しください」の意味、鹿屋への来訪を促す使用例を確認。",
+        "checkedAt": "2026-09-28",
+        "page": "「おじゃったもんせかのや」節",
         "publicationYear": "2026",
         "sourceTier": 1,
         "exactFormMatch": "exact",
@@ -1044,7 +1046,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-05"
+    "updatedAt": "2026-09-28"
   },
   {
     "id": "jp-46-kagoshima-023",
