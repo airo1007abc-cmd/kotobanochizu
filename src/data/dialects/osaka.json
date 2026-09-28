@@ -5,7 +5,7 @@
     "phrase": "カキー",
     "reading": "",
     "standardJapanese": "書け",
-    "description": "資料では「書け」に相当する地域語として確認。",
+    "description": "資料の活用表では「書く」に当たるa類動詞の命令形として「カケ」「カキー」「カキ」が併記される。本文も「カキー」を命令形の一つとして挙げるが、この語形を含む独立した用例と現在の使用範囲は未確認。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 27,
@@ -18,7 +18,7 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "命令"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
@@ -28,7 +28,7 @@
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・命令形",
+    "sourcePage": "p.103 活用表・p.105〈命令形〉",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
@@ -53,7 +53,7 @@
     "phrase": "カキナ",
     "reading": "",
     "standardJapanese": "書くな",
-    "description": "資料では「書くな」に相当する地域語として確認。",
+    "description": "資料の活用表では「書く」の禁止形として「カクナ」と「カキナ」を併記する。本文は、イ段形に「ナ」を付ける形ではさらに「ヤ」を付けた「カキナヤ」が多いと説明するが、「カキナ」を含む独立した用例と現在の使用範囲は未確認。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 27,
@@ -66,7 +66,7 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "禁止"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
@@ -76,7 +76,7 @@
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・禁止形",
+    "sourcePage": "p.103 活用表・p.104–105〈禁止形〉",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
@@ -101,9 +101,9 @@
     "phrase": "ショー",
     "reading": "",
     "standardJapanese": "しよう",
-    "description": "資料では「しよう」に相当する地域語として確認。",
-    "exampleDialect": "",
-    "exampleStandard": "",
+    "description": "資料の意志形では「する」の形として「ショー」が示される。引用された昔話では「どないしょう」と表記され、「どうしよう」に当たる。現在の使用範囲は未確認。",
+    "exampleDialect": "どないしょう",
+    "exampleStandard": "どうしよう",
     "prefectureCode": 27,
     "prefectureName": "大阪府",
     "regionName": "河内",
@@ -114,23 +114,24 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "意志"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "academic_reference",
-    "sourceNote": "全国方言文法辞典資料集の大阪府方言記述。基本的に八尾市に生育した1987年生まれの筆者をもとに記述。八尾市全域・河内全域の分布を意味しない。",
+    "sourceNote": "全国方言文法辞典資料集の大阪府方言記述。基本的に八尾市に生育した1987年生まれの筆者をもとに記述。用例は資料が引用する昔話「大阪城の大トラ」からの短い抜粋であり、八尾市で収録された発話ではない。八尾市全域・河内全域の分布を意味しない。",
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・意志・勧誘形",
+    "sourcePage": "p.105〈意志形〉・「大阪城の大トラ」の用例",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
       "meaning",
       "region",
-      "usage"
+      "usage",
+      "example"
     ],
     "confidence": "unknown",
     "relatedTerms": [],
@@ -149,7 +150,7 @@
     "phrase": "カカヘン",
     "reading": "",
     "standardJapanese": "書かない",
-    "description": "資料では「書かない」に相当する地域語として確認。",
+    "description": "資料では、否定の接辞「ヘン」がa類動詞のア段基幹に付く形として「カカヘン」を示す。エ段基幹に付く「カケヘン」も併記されるが、本文は摂津方言では可能否定の意味になる傾向にも注意を促している。「カカヘン」を含む独立した用例と現在の使用範囲は未確認。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 27,
@@ -162,7 +163,7 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "否定"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
@@ -172,7 +173,7 @@
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・否定形",
+    "sourcePage": "p.103 活用表・p.106〈否定形〉",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
@@ -197,7 +198,7 @@
     "phrase": "ミーヒン",
     "reading": "",
     "standardJapanese": "見ない",
-    "description": "資料では「見ない」に相当する地域語として確認。",
+    "description": "資料では、b類動詞のイ段基幹に否定の「ヒン」が付く形として「ミーヒン」を示す。「見る」「寝る」のように基幹が1拍の動詞では長音化が必須と説明されるが、「ミーヒン」を含む独立した用例と現在の使用範囲は未確認。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 27,
@@ -210,7 +211,7 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "否定"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
@@ -220,7 +221,7 @@
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・否定形",
+    "sourcePage": "p.103 活用表・p.106〈否定形〉",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
@@ -245,9 +246,9 @@
     "phrase": "ケーヘン",
     "reading": "",
     "standardJapanese": "来ない",
-    "description": "資料では「来ない」に相当する地域語として確認。",
-    "exampleDialect": "",
-    "exampleStandard": "",
+    "description": "「来る」の否定形として資料に「ケーヘン」が示される。引用された昔話の用例では「けえへん」と表記されている。現在の使用範囲は未確認。",
+    "exampleDialect": "男がけえへんので",
+    "exampleStandard": "男が来ないので",
     "prefectureCode": 27,
     "prefectureName": "大阪府",
     "regionName": "河内",
@@ -258,23 +259,24 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "否定"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "academic_reference",
-    "sourceNote": "全国方言文法辞典資料集の大阪府方言記述。基本的に八尾市に生育した1987年生まれの筆者をもとに記述。八尾市全域・河内全域の分布を意味しない。",
+    "sourceNote": "全国方言文法辞典資料集の大阪府方言記述。基本的に八尾市に生育した1987年生まれの筆者をもとに記述。用例は資料が引用する昔話「話を買う」からの短い抜粋であり、八尾市で収録された発話ではない。八尾市全域・河内全域の分布を意味しない。",
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・否定形",
+    "sourcePage": "p.106〈否定形〉・「話を買う」の用例",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
       "meaning",
       "region",
-      "usage"
+      "usage",
+      "example"
     ],
     "confidence": "unknown",
     "relatedTerms": [],
@@ -293,9 +295,9 @@
     "phrase": "セーヘン",
     "reading": "",
     "standardJapanese": "しない",
-    "description": "資料では「しない」に相当する地域語として確認。",
-    "exampleDialect": "",
-    "exampleStandard": "",
+    "description": "「する」の否定形として資料に「セーヘン」が示される。引用された昔話の用例では「せえへん」と表記されている。現在の使用範囲は未確認。",
+    "exampleDialect": "ひろい得にせえへんか",
+    "exampleStandard": "拾い得にしないか",
     "prefectureCode": 27,
     "prefectureName": "大阪府",
     "regionName": "河内",
@@ -306,23 +308,24 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "否定"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "academic_reference",
-    "sourceNote": "全国方言文法辞典資料集の大阪府方言記述。基本的に八尾市に生育した1987年生まれの筆者をもとに記述。八尾市全域・河内全域の分布を意味しない。",
+    "sourceNote": "全国方言文法辞典資料集の大阪府方言記述。基本的に八尾市に生育した1987年生まれの筆者をもとに記述。用例は資料が引用する昔話「もちあらそい」からの短い抜粋であり、八尾市で収録された発話ではない。八尾市全域・河内全域の分布を意味しない。",
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・否定形",
+    "sourcePage": "p.106〈否定形〉・「もちあらそい」の用例",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
       "meaning",
       "region",
-      "usage"
+      "usage",
+      "example"
     ],
     "confidence": "unknown",
     "relatedTerms": [],
@@ -341,7 +344,7 @@
     "phrase": "ヨーカカン",
     "reading": "",
     "standardJapanese": "書けない",
-    "description": "資料では「書けない」に相当する地域語として確認。",
+    "description": "資料では、副詞「ヨー」を動詞の否定形に添えて能力可能・心情可能の否定を表す型として「ヨー カカン」を示す。本文には同じ型の「よう近づかんかった」の用例があるが、「ヨー カカン」そのものを含む用例と現在の使用範囲は未確認。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 27,
@@ -354,7 +357,8 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "能力可能",
+      "心情可能"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
@@ -364,7 +368,7 @@
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・不可能表現",
+    "sourcePage": "p.103 活用表・p.107〈可能（肯定・否定）形〉",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
@@ -389,7 +393,7 @@
     "phrase": "カキハル",
     "reading": "",
     "standardJapanese": "書く（尊敬・待遇）",
-    "description": "資料では「書く（尊敬・待遇）」に相当する地域語として確認。",
+    "description": "資料では、a類動詞のイ段基幹に「ハル」を付ける大阪方言の尊敬形として「カキハル」を示す。本文には同じ型の「なりはったんやて」の用例があるが、「カキハル」そのものを含む用例と現在の使用範囲は未確認。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 27,
@@ -402,7 +406,7 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "尊敬"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
@@ -412,7 +416,7 @@
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・待遇表現",
+    "sourcePage": "p.103 活用表・p.108〈尊敬形〉",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
@@ -437,7 +441,7 @@
     "phrase": "カキヨル",
     "reading": "",
     "standardJapanese": "書く（下向き・軽卑の待遇）",
-    "description": "資料では「書く（下向き・軽卑の待遇）」に相当する地域語として確認。",
+    "description": "資料では、a類動詞のイ段基幹に「ヨル」を付ける軽卑形として「カキヨル」を示す。本文には同じ型の「しつこくさいそくしよる」の用例があるが、「カキヨル」そのものを含む用例と現在の使用範囲は未確認。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 27,
@@ -450,7 +454,7 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "軽卑"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
@@ -460,7 +464,7 @@
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・待遇表現",
+    "sourcePage": "p.103 活用表・p.108〈軽卑形〉",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
@@ -485,7 +489,7 @@
     "phrase": "カイトル",
     "reading": "",
     "standardJapanese": "書いている",
-    "description": "資料では「書いている」に相当する地域語として確認。",
+    "description": "資料では、a類動詞の音便基幹に「トル」を付ける継続形として「カイトル」を示す。本文は「トル」が継続に加えて軽卑的な意味を表す場合もあると説明するが、「カイトル」そのものを含む用例と現在の使用範囲は未確認。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 27,
@@ -498,7 +502,8 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "継続",
+      "軽卑"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
@@ -508,7 +513,7 @@
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・継続・結果相",
+    "sourcePage": "p.103 活用表・p.108〈継続形〉",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
@@ -533,7 +538,7 @@
     "phrase": "カクネン",
     "reading": "",
     "standardJapanese": "書くのだ",
-    "description": "資料では「書くのだ」に相当する地域語として確認。",
+    "description": "資料では、動詞の連体形に「ネン」を付ける「のだ」相当形として「カクネン」を示す。本文は「ネン」が過去形には付かず、その場合は基幹に「テン」を付けると説明するが、「カクネン」そのものを含む用例と現在の使用範囲は未確認。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 27,
@@ -546,7 +551,7 @@
       "unknown"
     ],
     "usageContexts": [
-      "文法"
+      "説明（のだ）"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
@@ -556,7 +561,7 @@
     "sourceTitle": "大阪府八尾市方言の動詞活用体系",
     "sourceOrganization": "方言文法研究会",
     "sourceUrl": "https://hougen.sakura.ne.jp/shuppan/2014/13_102.pdf",
-    "sourcePage": "活用体系表・ノダ相当形",
+    "sourcePage": "p.103 活用表・p.108–109〈のだ形〉",
     "sourceCheckedAt": "2026-09-10",
     "evidenceScopes": [
       "phrase",
