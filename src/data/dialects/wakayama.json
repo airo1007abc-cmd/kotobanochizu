@@ -4553,5 +4553,56 @@
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-11",
     "updatedAt": "2026-09-11"
+  },
+  {
+    "id": "jp-30-wakayama-096",
+    "slug": "wakayama-yan-verb-negation",
+    "phrase": "〜やん",
+    "reading": "〜やん",
+    "standardJapanese": "〜ない（動詞の否定）",
+    "description": "和歌山県教育委員会の教材では、動詞の否定を表す和歌山弁の形式として説明されています。大阪弁で文末に使う「〜やん（〜じゃない）」とは用法が異なるとされています。",
+    "exampleDialect": "映画、見れやんかったんよー。",
+    "exampleStandard": "映画、見られなかったんだよ。",
+    "prefectureCode": 30,
+    "prefectureName": "和歌山県",
+    "regionName": "県内複数地域",
+    "evidenceRegion": "和歌山県（和歌山県教育委員会教材の説明範囲）",
+    "municipality": null,
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "日常会話",
+      "動詞の否定"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "和歌山県教育委員会の教材は「〜やん」を和歌山弁の特徴として挙げ、すべての動詞の否定に使うと説明する。県内の地点差・世代差・現在の使用頻度は資料から確認できないため補っていない。",
+    "sourceTitle": "「語り継ぎたい和歌山の話し言葉」8つのポイント",
+    "sourceOrganization": "和歌山県教育委員会",
+    "sourceUrl": "https://www.pref.wakayama.lg.jp/prefg/501100/d00206842_d/fil/8pos.pdf",
+    "sourcePage": "1ページ「③和歌山弁の特徴 ～やん」",
+    "sourceCheckedAt": "2026-09-29",
+    "evidenceScopes": [
+      "phrase",
+      "reading",
+      "meaning",
+      "region",
+      "example",
+      "usage"
+    ],
+    "confidence": "high",
+    "relatedTerms": [],
+    "additionalReview": "県内の地点差・世代差・使用頻度と、動詞の活用ごとの詳細は未確認。",
+    "recordingYear": null,
+    "audioUrl": null,
+    "videoUrl": null,
+    "needsAudio": true,
+    "audioPriority": 2,
+    "languageVariety": "japanese_dialect",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29"
   }
 ]
