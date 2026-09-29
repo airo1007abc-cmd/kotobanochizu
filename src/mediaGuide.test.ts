@@ -16,8 +16,10 @@ describe("media guide integrity", () => {
       expect(guide.searchIntent.trim()).not.toBe("");
       expect(guide.answer.trim()).not.toBe("");
       expect(guide.workEvidence.trim()).not.toBe("");
+      expect(guide.regionHeading.trim()).not.toBe("");
       expect(guide.regionEvidence.trim()).not.toBe("");
       expect(guide.caution.trim()).not.toBe("");
+      expect(guide.relatedHeading.trim()).not.toBe("");
       expect(guide.relatedNote.trim()).not.toBe("");
       expect(["indexable", "review_required", "noindex"]).toContain(
         guide.indexStatus,

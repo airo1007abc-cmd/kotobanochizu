@@ -31,7 +31,7 @@ export function MediaGuide() {
         <p>{guide.workEvidence}</p>
       </section>
       <section>
-        <h2>五島の資料で確認できること</h2>
+        <h2>{guide.regionHeading}</h2>
         <p>{guide.regionEvidence}</p>
       </section>
       <section>
@@ -39,13 +39,14 @@ export function MediaGuide() {
         <p>{guide.caution}</p>
       </section>
       <section>
-        <h2>五島列島の別のことば</h2>
+        <h2>{guide.relatedHeading}</h2>
         <p>{guide.relatedNote}</p>
         <ul>
           {related.map((item) => (
             <li key={item.id}>
               <Link to={`/dialects/${item.id}`}>
-                {item.phrase} — {item.standardJapanese}（{item.municipality}）
+                {item.phrase} — {item.standardJapanese}（
+                {item.municipality ?? item.evidenceRegion ?? "地域資料"}）
               </Link>
             </li>
           ))}
