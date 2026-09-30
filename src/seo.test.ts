@@ -16,6 +16,20 @@ import { MemoryRouter } from "react-router-dom";
 import { Breadcrumbs } from "./Breadcrumbs";
 
 describe("publication and route integrity", () => {
+  it("answers observed search intents on selected source-backed pages", () => {
+    const cases = [
+      ["jp-43-kumamoto-027", "御樽（おんたる／おたる）とは？", "南阿蘇村"],
+      ["jp-23-aichi-039", "たるいの意味は「つまらない」", "だるい"],
+      ["jp-17-ishikawa-009", "ちょっこしはどこの方言？", "珠洲市"],
+    ];
+    for (const [id, title, description] of cases) {
+      const page = getPageMetadata(`/dialects/${id}`);
+      expect(page.indexable).toBe(true);
+      expect(page.title).toContain(title);
+      expect(page.description).toContain(description);
+    }
+    expect(getPageMetadata("/dialects/jp-32-shimane-049").indexable).toBe(false);
+  });
   it("exposes one canonical, indexable map entry without query variants", () => {
     const map = getPageMetadata("/map");
     expect(map.indexable).toBe(true);
