@@ -19,6 +19,8 @@ import { hasPublishableAudio } from "./domain";
 import { createDialectDetailViewModel } from "./dialectDetailViewModel";
 import { prefectureMapLabels } from "./JapanPrefectureMap";
 import { repository } from "./repository";
+import { getPageMetadata, isIndexableDialectRoute } from "./seo";
+import meaningComparisons from "./data/meaning-comparisons.json";
 import { recordedPlaceFor } from "./recordedPlaces";
 import { favorites, reactionStore } from "./storage";
 
@@ -87,12 +89,16 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
   const pref = vm.prefecture.name;
   const region = vm.primaryRegion.name;
   const related = useMemo(() => {
-    const all = repository.dialects().filter((item) => item.id !== d.id);
-    const sameRegion = all.filter((item) => item.regionId === d.regionId).slice(0, 3).map((item) => ({ item, reason: "同じ地域" }));
-    const picked = new Set(sameRegion.map(({ item }) => item.id));
-    const sameMeaning = all.filter((item) => !picked.has(item.id) && item.standardJapanese === d.standardJapanese).slice(0, 4 - sameRegion.length).map((item) => ({ item, reason: "意味が近い" }));
-    return [...sameRegion, ...sameMeaning];
+    const all = repository.dialects().filter((item) => item.id !== d.id && isIndexableDialectRoute(item));
+    const sameMeaning = all.filter((item) => item.standardJapanese === d.standardJapanese && item.regionId !== d.regionId).slice(0, 2).map((item) => ({ item, reason: "同じ意味を別の地域で" }));
+    const picked = new Set(sameMeaning.map(({ item }) => item.id));
+    const samePlace = all.filter((item) => !picked.has(item.id) && item.municipality && item.municipality === d.municipality).slice(0, 2).map((item) => ({ item, reason: "同じ記録地域" }));
+    picked.add(d.id);
+    samePlace.forEach(({ item }) => picked.add(item.id));
+    const sameRegion = all.filter((item) => !picked.has(item.id) && item.regionId === d.regionId).slice(0, 4 - sameMeaning.length - samePlace.length).map((item) => ({ item, reason: "同じ閲覧地域" }));
+    return [...sameMeaning, ...samePlace, ...sameRegion];
   }, [d]);
+  const comparisons = meaningComparisons.filter((item) => item.dialectIds.includes(d.id) && getPageMetadata(`/meanings/${item.slug}`).indexable).slice(0, 2);
 
   return (
     <article
@@ -201,6 +207,7 @@ export function DialectDetailV2({ dialect: d }: { dialect: Dialect }) {
       {related.length > 0 && (
         <section className="v2-related">
           <div className="v2-related-heading"><h2>関連することば</h2><Link to={`/prefectures/${d.prefectureId}`}>{pref}のことばをもっと見る<ArrowRight /></Link></div>
+          {comparisons.map((item) => <p key={item.id}><Link to={`/meanings/${item.slug}`}>{item.title}<ArrowRight /></Link></p>)}
           <div className="v2-related-grid">{related.map(({ item, reason }) => <RelatedCard key={item.id} item={item} reason={reason} />)}</div>
         </section>
       )}
