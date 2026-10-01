@@ -30,7 +30,17 @@ export const hasCoreEvidence = (item) =>
       hasEvidenceScope(item, scope),
     ),
   );
-// Indexability follows the claims that define the record. Reading, examples,
-// usage, and description length improve a page but remain optional when their
-// source evidence is not available; the UI exposes those gaps explicitly.
-export const isIndexableRecord = hasCoreEvidence;
+// Keep the searchable cohort to records that can answer meaning, reading,
+// usage, and example intent with claim-level evidence. Records that do not
+// meet this quality floor remain public and navigable, but are not included in
+// the sitemap and render noindex,follow until their evidence is completed.
+export const isIndexableRecord = (item) =>
+  Boolean(
+    hasCoreEvidence(item) &&
+    item.description?.trim().length >= 100 &&
+    text(item.exampleDialect) &&
+    text(item.exampleStandard) &&
+    ["reading", "example", "usage"].every((scope) =>
+      hasEvidenceScope(item, scope),
+    ),
+  );
