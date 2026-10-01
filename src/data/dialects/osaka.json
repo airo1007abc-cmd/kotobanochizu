@@ -2755,5 +2755,73 @@
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-19",
     "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "jp-27-osaka-059",
+    "slug": "osaka-seyakate-contrastive",
+    "phrase": "せやかて",
+    "reading": "せやかて",
+    "standardJapanese": "それでも、でも",
+    "description": "大阪府警察の広報では、相手の想定に反対する文脈で「せやかて」が使われています。大阪方言を扱う大阪大学の研究は、関連する接続詞「ソヤカテ」「ソーカテ」を、相手の発話を受けて反対意見を述べる逆接表現として記述しています。資料の表記が同一ではないため、三つの形を完全に同じ語形とは扱いません。",
+    "exampleDialect": "せやかて、普通に使えるし大丈夫やろ？",
+    "exampleStandard": "それでも、普通に使えるし大丈夫だろう？",
+    "prefectureCode": 27,
+    "prefectureName": "大阪府",
+    "regionName": "府内地域未特定",
+    "evidenceRegion": "大阪府警察の広報での使用。関連形「ソヤカテ」「ソーカテ」の研究は大阪府豊能町在住話者による大阪方言記述。",
+    "municipality": null,
+    "locality": null,
+    "ageGroups": [
+      "unknown"
+    ],
+    "usageContexts": [
+      "逆接",
+      "相手の想定への反対",
+      "広報表現"
+    ],
+    "emotionTags": [],
+    "usageFrequency": "unknown",
+    "verificationStatus": "reference_confirmed",
+    "sourceType": "official_reference",
+    "sourceNote": "大阪府警察の2025年広報は「せやかて」の正確な表記と一つの使用文脈を直接支えるが、語の定義、府内分布、世代差、日常会話での頻度は示さない。標準語訳は文脈と大阪大学の関連形研究を合わせて整理した。",
+    "sourceTitle": "Windows（ウィンドウズ）10のサポートが2025年10月14日に終了します！",
+    "sourceOrganization": "大阪府警察本部",
+    "sourceUrl": "https://www.police.pref.osaka.lg.jp/seikatsu/saiba/cyber_shiryou/cybersecurity_tsushin/7/22501.html",
+    "sourcePage": "本文冒頭「せやかて、普通に使えるし大丈夫やろ？」",
+    "sourceCheckedAt": "2026-10-01",
+    "evidenceScopes": [
+      "phrase",
+      "meaning",
+      "region",
+      "example",
+      "usage"
+    ],
+    "additionalSources": [
+      {
+        "title": "大阪方言の接続助詞カテについて",
+        "organization": "大阪大学大学院文学研究科社会言語学研究室",
+        "url": "https://ir.library.osaka-u.ac.jp/repo/ouka/all/67211/sln15-036.pdf",
+        "checkedAt": "2026-10-01",
+        "evidenceScopes": [
+          "meaning",
+          "region",
+          "usage"
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "relatedTerms": [
+      "ソヤカテ",
+      "ソーカテ"
+    ],
+    "additionalReview": "大阪大学の研究が直接記述する形は「ソヤカテ」「ソーカテ」であり、「せやかて」との音韻的・地域的関係や交換可能性は未確認。",
+    "recordingYear": null,
+    "audioUrl": null,
+    "videoUrl": null,
+    "needsAudio": true,
+    "audioPriority": 2,
+    "languageVariety": "japanese_dialect",
+    "createdAt": "2026-10-01",
+    "updatedAt": "2026-10-01"
   }
 ]

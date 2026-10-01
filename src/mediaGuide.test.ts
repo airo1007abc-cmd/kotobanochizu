@@ -61,4 +61,16 @@ describe("media guide integrity", () => {
       );
     }
   });
+
+  it("separates the Conan fan phrase from documented Osaka usage", () => {
+    const guide = mediaGuides.find(
+      (item) => item.slug === "detective-conan-seyakate-kudo",
+    );
+    expect(guide).toBeDefined();
+    expect(guide?.answer).toContain("ファンが親しみを込めて作ったワード");
+    expect(guide?.workEvidence).toContain("原作の特定場面");
+    expect(guide?.regionEvidence).toContain("大阪府警察");
+    expect(guide?.regionEvidence).toContain("表記は「せやかて」ではない");
+    expect(guide?.relatedDialectIds).toEqual(["jp-27-osaka-059"]);
+  });
 });
