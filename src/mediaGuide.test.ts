@@ -72,5 +72,13 @@ describe("media guide integrity", () => {
     expect(guide?.regionEvidence).toContain("大阪府警察");
     expect(guide?.regionEvidence).toContain("表記は「せやかて」ではない");
     expect(guide?.relatedDialectIds).toEqual(["jp-27-osaka-059"]);
+    expect(
+      isIndexableDialectRoute(repository.dialect("jp-27-osaka-059")),
+    ).toBe(true);
+    expect(
+      getPageMetadata(
+        "/guides/media/detective-conan-seyakate-kudo",
+      ).indexable,
+    ).toBe(true);
   });
 });
