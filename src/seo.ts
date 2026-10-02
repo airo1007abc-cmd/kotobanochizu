@@ -27,6 +27,21 @@ const words = repository.dialects();
 const prefName = (id: string) => prefs.find((p) => p.id === id)?.name ?? "";
 const regionName = (id: string) => regions.find((r) => r.id === id)?.name ?? "";
 const dialectRoutePolicy = createDialectRoutePolicy(words);
+// Search Console (2026-09-01–28): high-impression, low-CTR queries whose
+// intent can be answered directly from the cited record. Keep these editorial
+// overrides specific to the source-backed meaning and recorded place.
+const searchIntentTitles: Record<string, [string, string]> = {
+  "jp-43-kumamoto-027": ["御樽（おんたる／おたる）とは？会の主催者へ渡す心づけ｜南阿蘇村", "御樽（おんたる／おたる）は、忘年会や祭りなどで主催者へ渡す心づけ。南阿蘇村の資料では現金や酒の場合があり、阿蘇地区で耳にする語とされています。"],
+  "jp-22-shizuoka-058": ["かしいでるの意味は「傾いている」｜焼津の方言", "焼津市の資料にある「かしいでる」は、物や建物が傾いていること。塔が傾いて見える発話と、ピサの斜塔を使った説明を紹介します。"],
+  "jp-23-aichi-039": ["たるいの意味は「つまらない」｜愛知・幸田町の用例", "幸田町の資料では「たるい」は内容や状況が「つまらない」こと。疲労を表す共通語の「だるい」とは、この用例で意味が異なります。"],
+  "jp-23-aichi-053": ["やぐいの意味は「弱い・もろい」｜愛知・幸田町の用例", "幸田町の公式広報にある「やぐい」は、物や身体のつくり・質が弱いこと。資料で確認できる身体についての発話と確認範囲を紹介します。"],
+  "jp-22-shizuoka-130": ["ばんたびとは？「毎回・たびたび」の意味｜焼津の方言", "焼津市の資料にある「ばんたび」は「毎回・たびたび」。相手が毎回酔っ払うことを非難する発話をもとに、頻度を表す使い方を紹介します。"],
+  "jp-39-kochi-009": ["まっことの意味は「本当に・まことに」｜高知の記録", "高知市朝倉米田の1967年の録音にある「まっこと」は、「本当に」と強める表現。会話中の用例と原資料の説明を紹介します。"],
+  "jp-17-ishikawa-009": ["ちょっこしはどこの方言？「少し」を表す珠洲市の記録", "石川県珠洲市の公式方言表にある「ちょっこし」は「少し」。菓子を少し残しておくよう頼む例文と、確認できる地域・意味を紹介します。"],
+  "jp-22-shizuoka-145": ["ぼっこいとは？古くて十分に使えない｜焼津の方言", "焼津市の資料にある「ぼっこい」は、物が古びて十分に使えない状態。古い自転車を我慢して使うよう言う発話を紹介します。"],
+  "jp-22-shizuoka-028": ["ささらほうさらとは？散らかしっぱなし｜焼津の方言", "焼津市の資料にある「ささらほうさら」は、散らかしたままで片付いていない状態。子どもが散らかした場面の発話を紹介します。"],
+  "jp-22-shizuoka-164": ["わりかしの意味は「割合に・案外」｜焼津の記録", "焼津市の資料では「わりかし」は予想と比べて「割合に・案外」。資料は焼津だけの方言ではないと明記しており、焼津での使用例として紹介します。"],
+};
 const home: Crumb = { name: "ホーム", path: "/" };
 const places: Crumb = { name: "地域を探す", path: "/prefectures" };
 export const isConfirmed = (d: Dialect) =>
@@ -147,12 +162,11 @@ for (const p of prefs) {
 }
 for (const r of regions) {
   const records = words.filter((d) => d.regionId === r.id);
-  const coreEvidenceCount = records.filter(hasCoreEvidence).length;
   add(
     `/regions/${r.id}`,
     `${r.name}の方言・地域のことば（${prefName(r.prefectureId)}）`,
     `${prefName(r.prefectureId)}の閲覧区分「${r.name}」に収録された${records.length}語。個々の記録地点と出典を確認できます。区分全域への分布を示すものではありません。`,
-    coreEvidenceCount >= 5,
+    false,
     [
       home,
       places,
@@ -167,10 +181,11 @@ for (const r of regions) {
 for (const d of repository.archivedDialects().concat(words)) {
   if (redirects[`/dialects/${d.id}`]) continue;
   const placeLabel = d.locality || d.municipality || regionName(d.regionId);
+  const searchIntent = isIndexableDialectRoute(d) ? searchIntentTitles[d.id] : undefined;
   add(
     `/dialects/${d.id}`,
-    `${d.phrase}「${d.standardJapanese}」の意味・使い方（${placeLabel ? placeLabel + "・" : ""}${prefName(d.prefectureId)}）`,
-    `「${d.phrase}」の意味は「${d.standardJapanese}」。${d.municipality || regionName(d.regionId)}の資料・確認状態を掲載。閲覧区分は${prefName(d.prefectureId)}・${regionName(d.regionId)}です。`,
+    searchIntent?.[0] ?? `${d.phrase}「${d.standardJapanese}」の意味・使い方（${placeLabel ? placeLabel + "・" : ""}${prefName(d.prefectureId)}）`,
+    searchIntent?.[1] ?? `「${d.phrase}」の意味は「${d.standardJapanese}」。${d.municipality || regionName(d.regionId)}の資料・確認状態を掲載。閲覧区分は${prefName(d.prefectureId)}・${regionName(d.regionId)}です。`,
     isIndexableDialectRoute(d),
     [
       home,

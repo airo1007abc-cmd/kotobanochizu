@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-19T07:41:29.181Z",
-  "dialectRecords": 3003,
-  "indexable": 2940,
-  "review_required": 63,
+  "generatedAt": "2026-10-01T23:04:50.250Z",
+  "dialectRecords": 3020,
+  "indexable": 630,
+  "review_required": 2390,
   "noindex": 0,
-  "fullyIndexableRate": "98%",
-  "recordsWithSourceMetadata": 2991,
+  "fullyIndexableRate": "21%",
+  "recordsWithSourceMetadata": 3008,
   "sourceMetadataRate": "100%",
   "evidenceScopeCounts": {
-    "phrase": 2991,
-    "reading": 1151,
-    "meaning": 2950,
-    "region": 2991,
-    "example": 1128,
-    "usage": 1150,
-    "history": 494
+    "phrase": 3008,
+    "reading": 1152,
+    "meaning": 2967,
+    "region": 3008,
+    "example": 1142,
+    "usage": 1167,
+    "history": 505
   },
   "duplicatePhraseGroups": [
     [
@@ -569,8 +569,7 @@
     ],
     [
       "jp-28-hyogo-007",
-      "jp-28-hyogo-022",
-      "jp-27-osaka-001"
+      "jp-28-hyogo-022"
     ],
     [
       "jp-28-hyogo-008",
@@ -586,13 +585,11 @@
     ],
     [
       "jp-28-hyogo-011",
-      "jp-28-hyogo-032",
-      "jp-27-osaka-004"
+      "jp-28-hyogo-032"
     ],
     [
       "jp-28-hyogo-012",
       "jp-28-hyogo-033",
-      "jp-27-osaka-005",
       "jp-25-shiga-005",
       "jp-25-shiga-022",
       "jp-25-shiga-023",
@@ -601,18 +598,12 @@
     [
       "jp-28-hyogo-013",
       "jp-28-hyogo-034",
-      "jp-27-osaka-006",
       "jp-25-shiga-012",
       "jp-25-shiga-044"
     ],
     [
-      "jp-28-hyogo-014",
-      "jp-27-osaka-007"
-    ],
-    [
       "jp-28-hyogo-015",
       "jp-28-hyogo-016",
-      "jp-27-osaka-008",
       "jp-25-shiga-009"
     ],
     [
@@ -620,25 +611,8 @@
       "jp-28-hyogo-035"
     ],
     [
-      "jp-28-hyogo-019",
-      "jp-27-osaka-010"
-    ],
-    [
       "jp-28-hyogo-020",
-      "jp-28-hyogo-036",
-      "jp-27-osaka-011"
-    ],
-    [
-      "jp-28-hyogo-021",
-      "jp-27-osaka-012"
-    ],
-    [
-      "jp-28-hyogo-026",
-      "jp-27-osaka-002"
-    ],
-    [
-      "jp-28-hyogo-031",
-      "jp-27-osaka-003"
+      "jp-28-hyogo-036"
     ],
     [
       "jp-26-kyoto-013",
@@ -962,5 +936,5 @@
       "jp-30-wakayama-095"
     ]
   ],
-  "policy": "公開可能な確認状態と有効な出典metadataを持ち、語形・意味・地域のclaim-level evidenceが揃った記事をindexableとする。読み・例文・用法・説明文字数は追加品質であり必須条件にしない"
+  "policy": "公開可能な確認状態と有効な出典metadataに加え、語形・意味・地域・読み・例文・用法のclaim-level evidence、100字以上の説明、方言例文と標準語訳が揃った記事をindexableとする。未完了記事は公開・回遊可能なままnoindex,followとする"
 }
