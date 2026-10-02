@@ -36,7 +36,7 @@ const report = {
   evidenceScopeCounts: scopeCounts,
   duplicatePhraseGroups: duplicateGroups("phrase"),
   duplicateDescriptionGroups: duplicateGroups("description"),
-  policy: "公開可能な確認状態と有効な出典metadataを持ち、語形・意味・地域のclaim-level evidenceが揃った記事をindexableとする。読み・例文・用法・説明文字数は追加品質であり必須条件にしない",
+  policy: "公開可能な確認状態と有効な出典metadataに加え、語形・意味・地域・読み・例文・用法のclaim-level evidence、100字以上の説明、方言例文と標準語訳が揃った記事をindexableとする。未完了記事は公開・回遊可能なままnoindex,followとする",
 };
 console.log(JSON.stringify(report, null, 2));
 await mkdir(join(root, "reports"), { recursive: true });

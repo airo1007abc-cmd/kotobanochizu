@@ -162,12 +162,11 @@ for (const p of prefs) {
 }
 for (const r of regions) {
   const records = words.filter((d) => d.regionId === r.id);
-  const coreEvidenceCount = records.filter(hasCoreEvidence).length;
   add(
     `/regions/${r.id}`,
     `${r.name}の方言・地域のことば（${prefName(r.prefectureId)}）`,
     `${prefName(r.prefectureId)}の閲覧区分「${r.name}」に収録された${records.length}語。個々の記録地点と出典を確認できます。区分全域への分布を示すものではありません。`,
-    coreEvidenceCount >= 5,
+    false,
     [
       home,
       places,

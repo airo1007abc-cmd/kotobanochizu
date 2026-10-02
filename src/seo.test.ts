@@ -54,12 +54,10 @@ describe("publication and route integrity", () => {
     expect(getPageMetadata("/not-a-page").indexable).toBe(false);
     expect(getPageMetadata("/regions/%E0%A4%A").path).toBe("/404");
   });
-  it("indexes only region collections with at least five core-evidence records", () => {
+  it("keeps search and browsing-region collections out of the index", () => {
     expect(getPageMetadata("/search").indexable).toBe(false);
-    for (const r of repository.regions()) {
-      const evidence = repository.dialects({ regionId: r.id }).filter(hasCoreEvidence);
-      expect(getPageMetadata(`/regions/${r.id}`).indexable).toBe(evidence.length >= 5);
-    }
+    for (const r of repository.regions())
+      expect(getPageMetadata(`/regions/${r.id}`).indexable).toBe(false);
     for (const p of repository.prefectures()) {
       const evidence = repository
         .dialects({ prefectureId: p.id })
@@ -94,9 +92,9 @@ describe("publication and route integrity", () => {
       isIndexableDialect({ ...good, verificationStatus: "needs_review" }),
     ).toBe(false);
   });
-  it("does not require optional reading, example, usage, or description length", () => {
+  it("requires source-backed reading, example and usage for indexability", () => {
     const good = repository.dialects().find(isIndexableDialect)!;
-    const withoutOptionalEvidence = {
+    const incompleteRecord = {
       ...good,
       reading: "",
       exampleDialect: "",
@@ -110,18 +108,22 @@ describe("publication and route integrity", () => {
       },
       additionalSources: [],
     };
-    expect(isIndexableDialect(withoutOptionalEvidence)).toBe(true);
+    expect(hasCoreEvidence(incompleteRecord)).toBe(true);
+    expect(isIndexableDialect(incompleteRecord)).toBe(false);
+    expect(isIndexableDialect({ ...good, description: "短い説明" })).toBe(false);
+    expect(isIndexableDialect({ ...good, exampleDialect: "" })).toBe(false);
+    expect(isIndexableDialect({ ...good, exampleStandard: "" })).toBe(false);
     for (const missing of ["phrase", "meaning", "region"] as const) {
       expect(isIndexableDialect({
-        ...withoutOptionalEvidence,
+        ...incompleteRecord,
         source: {
-          ...withoutOptionalEvidence.source,
-          evidenceScopes: withoutOptionalEvidence.source.evidenceScopes.filter((scope) => scope !== missing),
+          ...incompleteRecord.source,
+          evidenceScopes: incompleteRecord.source.evidenceScopes.filter((scope) => scope !== missing),
         },
       })).toBe(false);
     }
-    expect(isIndexableDialect({ ...withoutOptionalEvidence, verificationStatus: "needs_review" })).toBe(false);
-    expect(isIndexableDialect({ ...withoutOptionalEvidence, source: undefined, additionalSources: [] })).toBe(false);
+    expect(isIndexableDialect({ ...incompleteRecord, verificationStatus: "needs_review" })).toBe(false);
+    expect(isIndexableDialect({ ...incompleteRecord, source: undefined, additionalSources: [] })).toBe(false);
     expect(isIndexableDialect(repository.archivedDialects()[0])).toBe(false);
   });
   it("keeps unresolved exact record identities out of the page index", () => {
@@ -131,7 +133,8 @@ describe("publication and route integrity", () => {
     expect(new Set(indexedDialectPaths).size).toBe(indexedDialectPaths.length);
     expect(getPageMetadata("/dialects/jp-32-shimane-049").indexable).toBe(false);
     expect(getPageMetadata("/dialects/jp-32-shimane-050").indexable).toBe(false);
-    expect(isIndexableDialect(repository.dialect("jp-32-shimane-049")!)).toBe(true);
+    expect(hasCoreEvidence(repository.dialect("jp-32-shimane-049")!)).toBe(true);
+    expect(isIndexableDialect(repository.dialect("jp-32-shimane-049")!)).toBe(false);
     expect(isIndexableDialectRoute(repository.dialect("jp-32-shimane-049")!)).toBe(false);
   });
   it("separates core publishability from route identity safety", () => {
