@@ -2705,3 +2705,10 @@ main:has(.dialect-v2) { max-width: 1280px; }
 .journey-grid > a > small { opacity: 1; }
 .prefecture-v2-locator > small { color: #566359; }
 .prefecture-v2-archive .eyebrow { color: #9c4027; }
+
+/* Selected C identity: keep the approved wordmark as one accessible image. */
+.brand .brand-wordmark { display: block; width: 240px; height: 80px; object-fit: contain; flex: 0 0 auto; }
+.brand.light { background: #fcfaf5; border-radius: 12px; padding: 0 6px; }
+@media (max-width: 720px) {
+  .site-header .brand .brand-wordmark { width: 204px; height: 68px; }
+}
