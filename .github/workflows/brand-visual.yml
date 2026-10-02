@@ -1,0 +1,46 @@
+name: Brand responsive verification
+on:
+  pull_request:
+    paths:
+      - 'public/brand/**'
+      - 'public/icon.svg'
+      - 'public/manifest.webmanifest'
+      - 'src/App.tsx'
+      - 'src/styles.css'
+      - 'src/brandIdentity.test.tsx'
+      - 'scripts/brand-visual.mjs'
+      - '.github/workflows/brand-visual.yml'
+permissions:
+  contents: read
+jobs:
+  brand-visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run lint && npm run typecheck && npm test && npm run build
+      - name: Install isolated browser test tools
+        run: |
+          npm install --prefix "$RUNNER_TEMP/brand-browser" --no-save --package-lock=false playwright@1.55.1
+          "$RUNNER_TEMP/brand-browser/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Capture actual responsive pages
+        run: |
+          npx vite preview --host 127.0.0.1 --port 5181 > /tmp/brand-server.log 2>&1 &
+          trap 'kill $!' EXIT
+          for i in $(seq 1 40); do curl -fsS http://127.0.0.1:5181/ > /dev/null && break; sleep 1; done
+          PLAYWRIGHT_MODULE="$RUNNER_TEMP/brand-browser/node_modules/playwright/index.mjs" node scripts/brand-visual.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: brand-responsive-review
+          path: tmp/brand-visual/
+          if-no-files-found: error
+          retention-days: 7
