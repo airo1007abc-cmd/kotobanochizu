@@ -7,6 +7,7 @@ import { normalizeJapanese } from "./japaneseSearch";
 import { repository } from "./repository";
 import type { Dialect } from "./domain";
 import comparisonData from "./data/meaning-comparisons.json";
+import relatedReadingData from "./data/related-readings.json";
 import { hasEvidenceScope } from "./evidencePolicy.mjs";
 
 const prefectureName = new Map(
@@ -30,6 +31,14 @@ type MeaningComparisonRecord = {
   indexStatus: "indexable" | "review_required" | "noindex";
 };
 
+type RelatedReadingRecord = {
+  fromPath: string;
+  toPath: string;
+  heading: string;
+  title: string;
+  description: string;
+};
+
 export function MeaningComparisonExample({ item }: { item: Dialect }) {
   if (!hasEvidenceScope(item, "example")) {
     return <><p>用例は確認中です</p><p className="translation">出典で確認できる用例を確認中です</p></>;
@@ -38,6 +47,7 @@ export function MeaningComparisonExample({ item }: { item: Dialect }) {
 }
 
 const meaningComparisons = comparisonData as MeaningComparisonRecord[];
+const relatedReadings = relatedReadingData as RelatedReadingRecord[];
 
 export function MeaningAtlas() {
   const [query, setQuery] = useState("");
@@ -154,6 +164,9 @@ export function MeaningComparison() {
   const { slug } = useParams();
   const comparison = meaningComparisons.find((item) => item.slug === slug);
   if (!comparison) return <NotFound />;
+  const relatedReading = relatedReadings.find(
+    (item) => item.fromPath === `/meanings/${comparison.slug}`,
+  );
   const items = comparison.dialectIds
     .map((id) => repository.dialect(id))
     .filter((item): item is Dialect => Boolean(item));
@@ -173,6 +186,21 @@ export function MeaningComparison() {
         <h2>{comparison.answer ? "比較の答え" : "このページで分かること"}</h2>
         <p>{comparison.answer ?? comparison.searchIntent}</p>
       </section>
+      {relatedReading && (
+        <section
+          className="comparison-related-reading"
+          aria-labelledby="comparison-related-reading-heading"
+        >
+          <h2 id="comparison-related-reading-heading">
+            {relatedReading.heading}
+          </h2>
+          <p>{relatedReading.description}</p>
+          <Link to={relatedReading.toPath}>
+            {relatedReading.title}
+            <ArrowRight aria-hidden="true" />
+          </Link>
+        </section>
+      )}
       <section>
         <h2>地域ごとの言い方と実例</h2>
         <div className="meaning-entries comparison-cards">
