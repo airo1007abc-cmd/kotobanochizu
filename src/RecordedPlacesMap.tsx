@@ -22,6 +22,7 @@ export function RecordedPlacesMap() {
   const unspecified = selected && params.get("place") === "_unspecified" && selected.unspecified.length > 0;
   const records = place?.records ?? (unspecified ? selected!.unspecified : []);
   const mapRef = useRef<HTMLDivElement>(null);
+  const focusedMapRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLElement>(null);
   const pendingFocus = useRef<"panel" | "map" | null>(null);
   const [mapFailed, setMapFailed] = useState(false);
@@ -41,7 +42,6 @@ export function RecordedPlacesMap() {
       if (!svg) throw new Error("Map unavailable");
       svg.removeAttribute("width");
       svg.removeAttribute("height");
-      svg.dataset.nationalViewBox = svg.getAttribute("viewBox") ?? "";
       svg.setAttribute("role", "group");
       svg.setAttribute("aria-label", "都道府県を選べる日本地図");
       for (const [svgLabel, name] of Object.entries(prefectureMapLabels)) {
@@ -77,34 +77,32 @@ export function RecordedPlacesMap() {
   }, []);
   useEffect(() => {
     const svg = mapRef.current?.querySelector("svg");
-    if (!svg) return;
-    svg.setAttribute("viewBox", svg.dataset.nationalViewBox ?? "");
-    svg.setAttribute("role", selected ? "img" : "group");
-    svg.setAttribute("aria-label", selected ? `${selected.prefecture.name}の拡大地図（概略）` : "都道府県を選べる日本地図");
+    const focusedMap = focusedMapRef.current;
+    if (!svg || !focusedMap) return;
     svg.querySelectorAll<SVGGraphicsElement>(".interactive-prefecture").forEach((group) => {
       const current = group.getAttribute("data-prefecture-id") === selected?.prefecture.id;
       group.classList.toggle("is-selected", current);
       group.setAttribute("aria-pressed", String(current));
-      group.style.visibility = selected && !current ? "hidden" : "visible";
-      group.setAttribute("tabindex", selected ? "-1" : "0");
-      if (selected && !current) group.setAttribute("aria-hidden", "true");
-      else group.removeAttribute("aria-hidden");
     });
-    const group = svg.querySelector<SVGGraphicsElement>(".is-selected");
-    const rootMatrix = svg.getCTM();
-    const groupMatrix = group?.getCTM();
-    if (group && rootMatrix && groupMatrix) {
-      const box = group.getBBox();
-      const matrix = rootMatrix.inverse().multiply(groupMatrix);
-      const corners = [[box.x, box.y], [box.x + box.width, box.y], [box.x, box.y + box.height], [box.x + box.width, box.y + box.height]]
-        .map(([x, y]) => new DOMPoint(x, y).matrixTransform(matrix));
-      const x = Math.min(...corners.map((point) => point.x));
-      const y = Math.min(...corners.map((point) => point.y));
-      const width = Math.max(...corners.map((point) => point.x)) - x;
-      const height = Math.max(...corners.map((point) => point.y)) - y;
-      const padding = Math.max(width, height) * .12;
-      svg.setAttribute("viewBox", `${x - padding} ${y - padding} ${width + padding * 2} ${height + padding * 2}`);
+    focusedMap.replaceChildren();
+    const selectedShape = svg.querySelector<SVGGraphicsElement>(".is-selected");
+    if (!selected || !selectedShape) return;
+
+    // Keep the interactive national SVG intact. Zoom only a decorative copy,
+    // so returning to the map preserves every prefecture's keyboard target.
+    const preview = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    preview.setAttribute("role", "img");
+    preview.setAttribute("aria-label", `${selected.prefecture.name}の拡大地図（概略）`);
+    const shape = selectedShape.cloneNode(true) as SVGGraphicsElement;
+    for (const element of [shape, ...shape.querySelectorAll("*")]) {
+      for (const attribute of ["id", "role", "tabindex", "aria-label", "aria-controls", "aria-pressed", "data-prefecture-id"]) element.removeAttribute(attribute);
     }
+    shape.setAttribute("class", "recorded-map-selected-shape");
+    preview.append(shape);
+    focusedMap.append(preview);
+    const { x, y, width, height } = preview.getBBox();
+    const padding = Math.max(width, height) * .12;
+    preview.setAttribute("viewBox", `${x - padding} ${y - padding} ${width + padding * 2} ${height + padding * 2}`);
   }, [selected, mapLoaded]);
 
   useEffect(() => {
@@ -147,7 +145,8 @@ export function RecordedPlacesMap() {
         <div className="recorded-map-graphic">
           <div className="recorded-map-graphic-heading"><h2 id="recorded-map-instructions" tabIndex={-1}>{selected ? selected.prefecture.name : "まず都道府県を選ぶ"}</h2>{selected && <button type="button" onClick={returnToNationwide}>全国の地図へ</button>}</div>
           {!selected && <p>地図をタップ、または下の一覧から選べます。</p>}
-          <div className="recorded-map-svg" ref={mapRef} aria-describedby="recorded-map-instructions" />
+          <div className="recorded-map-svg" ref={mapRef} hidden={!!selected} aria-describedby="recorded-map-instructions" />
+          <div className="recorded-map-svg recorded-map-focus" ref={focusedMapRef} hidden={!selected} />
           {mapFailed && <p role="status">地図を読み込めませんでした。下の都道府県一覧から選べます。</p>}
           <small>地図データ: PA4KEV / japan-vector-map（MIT License）</small>
         </div>

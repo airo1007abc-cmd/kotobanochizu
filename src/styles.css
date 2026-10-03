@@ -716,9 +716,7 @@ footer {
 .recorded-map-svg { width: 100%; min-height: 0; background: #eaf2eb; border-radius: 12px; overflow: hidden; }
 .recorded-map-svg svg { display: block; width: 100%; height: 610px; }
 .recorded-map-layout.is-selected .recorded-map-svg svg { height: 280px; }
-.recorded-map-layout.is-selected .recorded-map-svg .interactive-prefecture { cursor: default; }
-.recorded-map-layout.is-selected .recorded-map-svg path { visibility: hidden; }
-.recorded-map-layout.is-selected .recorded-map-svg .is-selected path { visibility: visible; }
+.recorded-map-selected-shape path { fill: #b94e2d !important; stroke: #fff !important; stroke-width: 2px !important; }
 .recorded-map-svg .interactive-prefecture { cursor: pointer; outline: none; }
 .recorded-map-svg .interactive-prefecture path { fill: #a9c5b1 !important; stroke: #fff !important; stroke-width: 2px !important; }
 .recorded-map-svg .interactive-prefecture:is(:hover, :focus-visible, .is-selected) path { fill: #b94e2d !important; }

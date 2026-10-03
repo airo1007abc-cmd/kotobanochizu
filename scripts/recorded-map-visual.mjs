@@ -41,8 +41,8 @@ try {
         await page.locator(".interactive-prefecture").first().waitFor({ state: "attached" });
         await page.evaluate(() => document.fonts.ready);
         if (version === "after" && query) await page.waitForFunction(() => {
-          const svg = document.querySelector(".recorded-map-svg svg");
-          return svg.getAttribute("viewBox") !== svg.dataset.nationalViewBox;
+          const svg = document.querySelector(".recorded-map-focus svg");
+          return !!svg?.getAttribute("viewBox");
         });
         await page.screenshot({ path: `${output}/${version}-${state}-${width}.png`, fullPage: true });
       }
@@ -63,7 +63,8 @@ try {
     await page.locator(".recorded-map-panel").waitFor();
     await page.waitForFunction(() => document.activeElement.id === "recorded-map-panel");
     assert.match(page.url(), /prefecture=p47/);
-    assert.equal(await page.locator('.interactive-prefecture[aria-hidden="true"]').count(), 46);
+    assert.equal(await page.locator(".recorded-map-focus svg").isVisible(), true);
+    assert.equal(await page.locator('[data-prefecture-id="p13"]').isVisible(), false);
     const dimensions = await page.locator(".recorded-map-panel").evaluate((element) => ({ height: element.clientHeight, scroll: element.scrollHeight, overflow: getComputedStyle(element).overflowY }));
     assert.equal(dimensions.overflow, "visible");
     assert.ok(dimensions.height >= dimensions.scroll - 2);
