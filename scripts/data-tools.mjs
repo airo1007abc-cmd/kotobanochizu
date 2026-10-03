@@ -124,6 +124,8 @@ for (const item of records) {
     errors.push(`unknown age group: ${where}`);
   if (!item.usageContexts?.length)
     errors.push(`missing usage context: ${where}`);
+  if (!item.reading?.trim() && item.evidenceScopes?.includes("reading"))
+    errors.push(`reading evidence without reading text: ${where}`);
   const hasExample = Boolean(item.exampleDialect?.trim() && item.exampleStandard?.trim());
   if (!hasExample && item.evidenceScopes?.includes("example"))
     errors.push(`example evidence without example text: ${where}`);
