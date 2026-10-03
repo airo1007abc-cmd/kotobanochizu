@@ -2032,30 +2032,32 @@
     "id": "jp-46-kagoshima-045",
     "slug": "kagoshima-unobai",
     "phrase": "うのばい",
-    "reading": "",
-    "standardJapanese": "大野原（地域的な呼び方）",
-    "description": "「うのばい」は「大野原（地域的な呼び方）」を表す語として、大野地区・大野原を対象とする資料「大野地区（うのばい）」に掲載されています。語形・意味・地域を資料で確認しています。自然な会話用例、現在の使用頻度、世代差、発音は追加調査中です。",
+    "reading": "うのばい",
+    "standardJapanese": "大野原（地名）",
+    "description": "垂水市公式ページの大野地区欄では、地区公民館主催の物産展名を「大野原（うのばい）いきいき祭り」と表記し、地域振興事業の直売所名にも「うのばい」を用いています。語形・読み、大野地区、地域行事・地域振興での名称使用を確認しています。自然な会話用例、現在の使用頻度、世代差、アクセントは未確認です。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 46,
     "prefectureName": "鹿児島県",
     "regionName": "大隅",
     "municipality": "垂水市",
+    "evidenceRegion": "大野地区（垂水市）",
     "ageGroups": [
       "unknown"
     ],
     "usageContexts": [
-      "日常会話・地域文化"
+      "地域行事・地域振興"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "地元住民が親しみを込めて用いる大野原の地域的呼称。 原資料の言語区分: 日本語（大隅地域語・垂水市大野原）。",
-    "sourceTitle": "大野地区（うのばい）",
+    "sourceNote": "垂水市公式ページの大野地区欄で、物産展名「大野原（うのばい）いきいき祭り」と直売所名「うのばい」を確認。資料は自然な会話用例、現在の使用頻度、世代差、アクセントを示していない。 原資料の言語区分: 日本語（垂水市大野地区の地名・地域振興上の名称）。",
+    "sourceTitle": "大野づくり計画",
     "sourceOrganization": "垂水市",
     "sourceUrl": "https://www.city.tarumizu.lg.jp/chiiki/kurashi/machi/chikisinkou/oono.html",
-    "sourceCheckedAt": "2026-09-02",
+    "sourcePage": "大野地区欄「大野原（うのばい）いきいき祭り」・主な実績欄「直売所『うのばい』」",
+    "sourceCheckedAt": "2026-10-03",
     "evidenceScopes": [
       "phrase",
       "reading",
@@ -2071,7 +2073,7 @@
     "audioPriority": 3,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-02"
+    "updatedAt": "2026-10-03"
   },
   {
     "id": "jp-46-kagoshima-046",
@@ -2215,31 +2217,32 @@
     "phrase": "バシ",
     "reading": "",
     "standardJapanese": "～でも／～というわけではないのに",
-    "description": "上甑町里方言の「バシ」は、名詞や格助詞の後に付いて「～でも」のような例示を表します。資料では、文末で「そうであるわけではない」を表す形式名詞的用法も区別され、この用法には批判的な態度が伴うと報告されています。現在の使用頻度、世代差、発音は追加調査中です。",
+    "description": "甑島里方言の「バシ」は、名詞や格助詞の後に付いて「～でも」のような例示を表します。資料では、文末で「そうであるわけではない」を表す形式名詞的用法も区別され、この用法には批判的な態度が伴うと報告されています。記述は2019年2月に里で行われた、1950年代生まれの男性話者1名へのフィールドワークに基づきます。現在の使用頻度、世代差、アクセントは未確認で、読みは既存の編集判断どおり保留しています。",
     "exampleDialect": "tanpoonibasi itacjaroo.",
     "exampleStandard": "田んぼにでも行ったんだろう。",
     "prefectureCode": 46,
     "prefectureName": "鹿児島県",
     "regionName": "甑島",
     "municipality": "薩摩川内市",
+    "evidenceRegion": "里（甑島）",
     "ageGroups": [
       "unknown"
     ],
     "usageContexts": [
-      "日常会話・地域文化"
+      "里方言のフィールドワーク（2019年2月）"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "academic_reference",
-    "sourceNote": "例示用法のほか、里方言では批判的態度を伴う形式名詞的用法が報告される。 原資料の言語区分: 日本語（甑島方言・里方言）。",
-    "sourceTitle": "甑島里方言の例示形式に関する研究",
+    "sourceNote": "論文pp.84–85で、里方言のbasiの助詞的な例示用法と形式名詞的用法、2019年2月に里で行ったフィールドワーク、1950年代生まれの男性話者1名に基づくことを確認。資料はアルファベットによる音素表記を用いるため、readingは既存編集記録のHOLDを維持。現在の使用頻度、世代差、アクセントは未確認。 原資料の言語区分: 日本語（甑島方言・里方言）。",
+    "sourceTitle": "甑島里方言の basi",
     "sourceOrganization": "大阪大学学術情報庫OUKA",
     "sourceUrl": "https://ir.library.osaka-u.ac.jp/repo/ouka/all/73641/sln16-084.pdf",
-    "sourceCheckedAt": "2026-09-02",
+    "sourcePage": "pp.84–85（用法・用例・調査概要）",
+    "sourceCheckedAt": "2026-10-03",
     "evidenceScopes": [
       "phrase",
-      "reading",
       "meaning",
       "region",
       "example",
@@ -2247,14 +2250,14 @@
       "history"
     ],
     "confidence": "medium",
-    "recordingYear": null,
+    "recordingYear": 2019,
     "audioUrl": null,
     "videoUrl": null,
     "needsAudio": true,
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-04"
+    "updatedAt": "2026-10-03"
   },
   {
     "id": "jp-46-kagoshima-050",
