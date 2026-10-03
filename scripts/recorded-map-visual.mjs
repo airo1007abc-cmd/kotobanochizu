@@ -26,6 +26,13 @@ try {
         await page.screenshot({ path: `${output}/${version}-${state}-${width}.png`, fullPage: true });
       }
     }
+    assert.deepEqual(errors, []);
+    await page.close();
+  }
+  for (const width of [320, 390, 760, 768, 1440]) {
+    const page = await browser.newPage({ viewport: { width, height: 1000 }, deviceScaleFactor: 1, reducedMotion: "reduce" });
+    const errors = [];
+    page.on("pageerror", (error) => errors.push(error.message));
     await page.goto(`${origin}/map`, { waitUntil: "networkidle" });
     await page.locator('[data-prefecture-id="p47"]').waitFor();
     assert.equal(await page.locator('.interactive-prefecture[tabindex="0"]').count(), 47);

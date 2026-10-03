@@ -23,6 +23,7 @@ export function RecordedPlacesMap() {
   const records = place?.records ?? (unspecified ? selected!.unspecified : []);
   const mapRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLElement>(null);
+  const pendingFocus = useRef<"panel" | "map" | null>(null);
   const [mapFailed, setMapFailed] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
 
@@ -57,9 +58,9 @@ export function RecordedPlacesMap() {
         group.setAttribute("aria-pressed", "false");
         const choose = () => {
           if (group.getAttribute("aria-pressed") === "true") return;
+          pendingFocus.current = "panel";
           setParams({ prefecture: entry.prefecture.id });
           track("map_prefecture_select", { prefecture: entry.prefecture.id });
-          requestAnimationFrame(() => panelRef.current?.focus());
         };
         const keydown = (event: Event) => {
           if (["Enter", " "].includes((event as KeyboardEvent).key)) { event.preventDefault(); choose(); }
@@ -106,9 +107,16 @@ export function RecordedPlacesMap() {
     }
   }, [selected, mapLoaded]);
 
+  useEffect(() => {
+    if (!pendingFocus.current) return;
+    const target = pendingFocus.current === "panel" ? panelRef.current : document.getElementById("recorded-map-instructions");
+    pendingFocus.current = null;
+    target?.focus();
+  }, [params]);
+
   function returnToNationwide() {
+    pendingFocus.current = "map";
     setParams({});
-    requestAnimationFrame(() => document.getElementById("recorded-map-instructions")?.focus());
   }
 
   function choosePrefecture(id: string) {
@@ -116,15 +124,15 @@ export function RecordedPlacesMap() {
       panelRef.current?.focus();
       return;
     }
+    pendingFocus.current = "panel";
     setParams({ prefecture: id });
     track("map_prefecture_select", { prefecture: id });
-    requestAnimationFrame(() => panelRef.current?.focus());
   }
   function choosePlace(name: string) {
     if (!selected) return;
+    pendingFocus.current = "panel";
     setParams({ prefecture: selected.prefecture.id, place: name });
     track("map_place_select", { prefecture: selected.prefecture.id });
-    requestAnimationFrame(() => panelRef.current?.focus());
   }
 
   return (
