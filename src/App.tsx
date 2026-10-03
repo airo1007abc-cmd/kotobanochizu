@@ -138,7 +138,6 @@ function Shell() {
           <NavLink to="/search">ことば検索</NavLink>
           <NavLink to="/compare">全国くらべ</NavLink>
           <NavLink to="/meanings">意味の地図</NavLink>
-          <NavLink to="/editorial-policy">編集方針</NavLink>
         </nav>
         <Link className="button small" to="/submit">
           <Send size={17} />
