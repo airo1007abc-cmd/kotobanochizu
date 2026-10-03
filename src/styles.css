@@ -707,8 +707,8 @@ footer {
 .recorded-map-notes { margin-top: 14px; font-size: 13px; color: #4f5c53; }
 .recorded-map-notes summary { cursor: pointer; width: fit-content; padding: 6px 0; }
 .recorded-map-notes p { margin: 8px 0; }
-.recorded-map-graphic-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 8px; }
-.recorded-map-graphic-heading h2 { margin: 0; color: var(--ink); font-size: 20px; }
+.recorded-map-graphic-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 8px; }
+.recorded-map-graphic-heading h2 { white-space: nowrap; margin: 0; color: var(--ink); font-size: 20px; }
 .recorded-map-graphic-heading button { flex: none; border: 1px solid #a8c0ac; border-radius: 7px; background: #fff; color: var(--green); padding: 10px; cursor: pointer; }
 .recorded-map-graphic, .recorded-map-panel { min-width: 0; padding: 18px; background: #f2f6f1; border: 1px solid #d4dfd5; border-radius: 18px; }
 .recorded-map-graphic p { margin: 0 0 10px; font-size: 12px; }

@@ -9,9 +9,17 @@ const baseline = "http://127.0.0.1:5182";
 await mkdir(output, { recursive: true });
 const browser = await chromium.launch();
 const results = [];
+let activePage;
+async function selectWithKeyboard(page, id, key) {
+  const target = page.locator(`[data-prefecture-id="${id}"]`);
+  await target.focus();
+  await page.waitForFunction((prefectureId) => document.activeElement?.getAttribute("data-prefecture-id") === prefectureId, id);
+  await page.keyboard.press(key);
+}
 try {
   for (const width of [320, 390, 760, 768, 1440]) {
     const page = await browser.newPage({ viewport: { width, height: 1000 }, deviceScaleFactor: 1, reducedMotion: "reduce" });
+    activePage = page;
     const errors = [];
     page.on("pageerror", (error) => errors.push(error.message));
     for (const [version, base] of [["before", baseline], ["after", origin]]) {
@@ -31,13 +39,14 @@ try {
   }
   for (const width of [320, 390, 760, 768, 1440]) {
     const page = await browser.newPage({ viewport: { width, height: 1000 }, deviceScaleFactor: 1, reducedMotion: "reduce" });
+    activePage = page;
     const errors = [];
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto(`${origin}/map`, { waitUntil: "networkidle" });
     await page.locator('[data-prefecture-id="p47"]').waitFor();
     assert.equal(await page.locator('.interactive-prefecture[tabindex="0"]').count(), 47);
     assert.equal(await page.locator(".recorded-map-panel").count(), 0);
-    await page.locator('[data-prefecture-id="p47"]').press("Enter");
+    await selectWithKeyboard(page, "p47", "Enter");
     await page.locator(".recorded-map-panel").waitFor();
     await page.waitForFunction(() => document.activeElement.id === "recorded-map-panel");
     assert.match(page.url(), /prefecture=p47/);
@@ -64,7 +73,7 @@ try {
     await page.locator(".recorded-map-panel").waitFor({ state: "detached" });
     await page.waitForFunction(() => document.activeElement.id === "recorded-map-instructions");
     assert.equal(await page.locator('.interactive-prefecture[tabindex="0"]').count(), 47);
-    await page.locator('[data-prefecture-id="p13"]').press("Space");
+    await selectWithKeyboard(page, "p13", " ");
     await page.locator(".recorded-map-panel").waitFor();
     assert.match(page.url(), /prefecture=p13/);
     await page.getByRole("button", { name: "全国へ戻る", exact: true }).click();
@@ -81,6 +90,18 @@ try {
   await page.locator(".recorded-map-directory").getByRole("button", { name: /沖縄県/ }).click();
   await page.locator(".recorded-map-places").waitFor();
   results.push({ status: "PASS", checks: ["failed SVG fallback"] });
+} catch (error) {
+  if (activePage && !activePage.isClosed()) {
+    await activePage.screenshot({ path: `${output}/failure.png`, fullPage: true });
+    await writeFile(`${output}/failure-state.json`, JSON.stringify(await activePage.evaluate(() => ({
+      url: location.href,
+      focusedElement: document.activeElement?.outerHTML,
+      selected: document.querySelector(".is-selected.interactive-prefecture")?.outerHTML,
+      tokyo: document.querySelector('[data-prefecture-id="p13"]')?.outerHTML,
+      panel: document.getElementById("recorded-map-panel")?.textContent,
+    })), null, 2));
+  }
+  throw error;
 } finally {
   await writeFile(`${output}/results.json`, JSON.stringify(results, null, 2));
   await browser.close();
