@@ -131,7 +131,7 @@ function Shell() {
       )}
       <header className="site-header">
         <Link className="brand" to="/">
-          <span>こ</span>ことばの地図
+          <img className="brand-wordmark" src="/brand/kotobanochizu-wordmark.png" alt="ことばの地図" width="2172" height="724" />
         </Link>
         <nav aria-label="主なメニュー">
           <NavLink to="/map">地図から探す</NavLink>
@@ -192,7 +192,7 @@ function Shell() {
         <div className="footer-grid">
           <div>
             <div className="brand light">
-              <span>こ</span>ことばの地図
+              <img className="brand-wordmark" src="/brand/kotobanochizu-wordmark.png" alt="ことばの地図" width="2172" height="724" />
             </div>
             <p>
               日本中の「いつもの言い方」を、声・土地・人・時間とともに未来へ。
