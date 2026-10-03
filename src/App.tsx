@@ -1,3 +1,4 @@
+import { HomeDiscovery } from "./HomeDiscovery";
 import { SourceAvailability } from "./SourceAvailability";
 import { recordDescription } from "./editorialDisplay";
 import { hasEvidenceScope } from "./evidencePolicy.mjs";
@@ -9,6 +10,7 @@ import {
   Route,
   Routes,
   useParams,
+  useLocation,
   useSearchParams,
 } from "react-router-dom";
 import {
@@ -18,14 +20,11 @@ import {
   Home as HomeIcon,
   Map,
   MapPin,
-  MessageCircle,
   Search,
   Send,
   Sparkles,
   Volume2,
   ArrowRight,
-  Layers3,
-  ShieldCheck,
 } from "lucide-react";
 import { allPageMetadata, isIndexableDialect } from "./seo";
 import { ArchiveConversation, ConversationSources, ArchivedQuiz } from "./PublicArchivePages";
@@ -114,13 +113,14 @@ const verificationLabel = (status: Dialect["verificationStatus"]) =>
         ? "話者による確認あり"
         : "資料による確認あり";
 function Shell() {
+  const { pathname } = useLocation();
   return (
     <>
       <PageHead />
       <a className="skip-link" href="#main-content">
         本文へ移動
       </a>
-      {isPreview && (
+      {isPreview && pathname !== "/" && (
         <div className="preview-banner" role="status">
           <b>資料と確認状態について</b>
           <span>
@@ -131,7 +131,7 @@ function Shell() {
       )}
       <header className="site-header">
         <Link className="brand" to="/">
-          <span>こ</span>ことばの地図
+          <img className="brand-wordmark" src="/brand/kotobanochizu-wordmark.png" alt="ことばの地図" width="2172" height="724" />
         </Link>
         <nav aria-label="主なメニュー">
           <NavLink to="/map">地図から探す</NavLink>
@@ -192,7 +192,7 @@ function Shell() {
         <div className="footer-grid">
           <div>
             <div className="brand light">
-              <span>こ</span>ことばの地図
+              <img className="brand-wordmark" src="/brand/kotobanochizu-wordmark.png" alt="ことばの地図" width="2172" height="724" />
             </div>
             <p>
               日本中の「いつもの言い方」を、声・土地・人・時間とともに未来へ。
@@ -281,7 +281,7 @@ function Home() {
             <em>「いつものことば」</em>を、未来へ。
           </h1>
           <p>
-            方言は、単語の一覧ではありません。土地の記憶、人の声、世代の時間が重なった文化です。47都道府県の使用例を、地域差と確認状態とともにたどります。
+            聞き覚えのあるひとことも、初めて出会う言い方も。日本各地のことばをたどって、土地の暮らしにふれてみませんか。
           </p>
           <div className="actions">
             <Link className="button" to="/map">
@@ -313,73 +313,7 @@ function Home() {
           <Link to={`/dialects/${spotlight.id}`}>記録と出典を読む <ArrowRight /></Link>
         </aside>
       </section>
-      <section className="archive-manifesto">
-        <div>
-          <span className="eyebrow">MORE THAN A DICTIONARY</span>
-          <h2>ことばの向こうに、暮らしがある。</h2>
-        </div>
-        <p>
-          県名と意味だけで断定せず、どの地域で、誰が、どんな場面で使うのかを記録します。まだ確認中の内容も隠さず示す。それが、文化を丁寧に残すための出発点です。
-        </p>
-        <Link to="/editorial-policy">
-          編集方針を読む <ArrowRight />
-        </Link>
-      </section>
-      <section className="journey-grid" aria-label="ことばの地図でできること">
-        <Link to="/prefectures">
-          <MapPin />
-          <small>01 / PLACE</small>
-          <h2>土地から、たどる</h2>
-          <p>
-            {repository.regions().length}の閲覧地域から、記録地点と出典をたどります。
-          </p>
-          <ArrowRight />
-        </Link>
-        <Link to="/meanings">
-          <Layers3 />
-          <small>02 / COMPARE</small>
-          <h2>同じ気持ちを、くらべる</h2>
-          <p>
-            「ありがとう」「とても」など、一つの意味が各地でどう響くかを横断します。
-          </p>
-          <ArrowRight />
-        </Link>
-        <Link to="/editorial-policy">
-          <ShieldCheck />
-          <small>03 / TRUST</small>
-          <h2>根拠まで、確かめる</h2>
-          <p>
-            出典、話者確認、収録年、確認状態を、コンテンツの一部として伝えます。
-          </p>
-          <ArrowRight />
-        </Link>
-      </section>
-      <section className="situation-section" aria-labelledby="situation-title">
-        <div className="title">
-          <div>
-            <small>どんな声を思い出す？</small>
-            <h2 id="situation-title">暮らしの場面から探す</h2>
-          </div>
-          <Link to="/conversations">会話・発話資料を読む →</Link>
-        </div>
-        <div className="situation-scroll">
-          {[
-            "家族",
-            "友人",
-            "学校",
-            "恋愛",
-            "食事",
-            "買い物",
-            "子どもへの声かけ",
-            "おじいちゃん・おばあちゃん",
-          ].map((scene) => (
-            <Link to={`/search?q=${encodeURIComponent(scene)}`} key={scene}>
-              <MessageCircle />
-              <span>{scene}</span>
-            </Link>
-          ))}
-        </div>
-      </section>
+      <HomeDiscovery />
       <section>
         <Title
           eyebrow="ことばとの出会い"
