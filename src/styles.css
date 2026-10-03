@@ -169,26 +169,6 @@ section {
   );
   background-size: 34px 34px;
 }
-.archive-manifesto {
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  display: grid;
-  grid-template-columns: 1fr 1.15fr auto;
-  align-items: end;
-  gap: 44px;
-  padding: 45px 0;
-}
-.archive-manifesto h2 {
-  font-family: "Kaisei Decol";
-  font-size: clamp(28px, 3vw, 42px);
-  line-height: 1.35;
-  margin: 8px 0 0;
-}
-.archive-manifesto p {
-  margin: 0;
-  color: #59635c;
-}
-.archive-manifesto > a,
 .record-meta > a {
   display: inline-flex;
   align-items: center;
@@ -197,54 +177,69 @@ section {
   font-weight: 700;
   white-space: nowrap;
 }
-.archive-manifesto svg,
-.record-meta > a svg {
-  width: 18px;
+.record-meta > a svg { width: 18px; }
+.home-discovery {
+  border-top: 1px solid var(--line);
+  padding: 48px 0 54px;
+}
+.home-discovery .title > p {
+  margin: 0;
+  font-size: 13px;
+  color: #62695f;
 }
 .journey-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  background: var(--line);
-  padding: 1px;
-  margin: 42px 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
-.journey-grid > a {
-  min-height: 320px;
-  padding: 34px;
-  background: var(--paper);
+.journey-card {
+  position: relative;
+  padding: 24px 26px 22px;
+  border: 1px solid #d9ded2;
+  border-radius: 8px 28px 8px 8px;
+  color: var(--ink);
+  background: #eef1e7;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.journey-card-compare { background: #f5eadc; border-color: #e8d9c7; }
+.journey-card-stories { background: #f1eee3; border-color: #e2dccb; }
+.journey-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px #19342c0d;
+}
+.journey-kicker {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .13em;
+  border-bottom: 1px solid #315c4933;
+  padding-bottom: 5px;
+}
+.journey-illustration {
+  width: 100%;
+  height: 148px;
+  display: block;
+  margin: 12px 0 10px;
+  color: var(--green);
+}
+.journey-card h3 {
+  margin: 0;
+  font-family: "Kaisei Decol", "Yu Mincho", serif;
+  font-size: clamp(20px, 2.2vw, 25px);
+  letter-spacing: .03em;
+}
+.journey-card p {
+  margin: 8px 0 23px;
+  font-size: 12px;
+  color: #59635c;
+}
+.journey-action {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  transition:
-    background 0.2s,
-    color 0.2s;
-}
-.journey-grid > a:hover {
-  background: var(--green);
-  color: #fff;
-}
-.journey-grid > a > svg:first-child {
-  width: 34px;
-  height: 34px;
-  margin-bottom: auto;
-  color: var(--orange);
-}
-.journey-grid > a > svg:last-child {
-  margin-top: 12px;
-  width: 20px;
-}
-.journey-grid small {
-  letter-spacing: 0.12em;
-  opacity: 0.65;
-}
-.journey-grid h2 {
-  font-family: "Kaisei Decol";
-  margin: 12px 0 4px;
-}
-.journey-grid p {
-  font-size: 13px;
-  opacity: 0.76;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #315c4926;
+  padding-top: 13px;
+  font-size: 12px;
+  font-weight: 700;
 }
 .hero h1,
 .page-head h1 {
@@ -2288,14 +2283,6 @@ main:has(.dialect-v2) { max-width: 1280px; }
   .footer-grid {
     grid-template-columns: 1fr;
   }
-  .archive-manifesto {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    align-items: start;
-  }
-  .journey-grid > a {
-    min-height: 250px;
-  }
   .footer-grid {
     gap: 28px;
   }
@@ -2446,33 +2433,98 @@ main:has(.dialect-v2) { max-width: 1280px; }
   outline: 3px solid var(--orange);
   outline-offset: 3px;
 }
-.situation-section {
-  padding-top: 20px;
+.situation-section { padding-top: 10px; }
+.situation-section .title > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
-.situation-scroll {
-  display: flex;
-  gap: 12px;
-  overflow-x: auto;
-  padding: 4px 3px 14px;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: thin;
+.situation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
 }
-.situation-scroll a {
-  flex: 0 0 150px;
-  min-height: 94px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 17px;
-  border-radius: 14px;
-  background: #fff;
+.scene-card {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px 16px;
+  padding: 22px;
   border: 1px solid var(--line);
-  color: var(--green);
-  scroll-snap-align: start;
-  font-weight: 700;
+  border-radius: 8px;
+  background: #fffdf8;
+  transition: border-color .2s, background .2s;
 }
-.situation-scroll svg {
-  width: 22px;
+.scene-card:hover { border-color: #81987a; background: #f5f5ec; }
+.scene-picture {
+  position: relative;
+  width: 70px;
+  height: 76px;
+  display: grid;
+  place-items: center;
+  background: #edf0e3;
+  border-radius: 48% 46% 42% 50%;
+  color: var(--green);
+  transform: rotate(-5deg);
+}
+.scene-picture > svg { width: 38px; height: 38px; transform: rotate(5deg); }
+.scene-picture-food, .scene-picture-gift { background: #f5e8d8; color: #996039; }
+.scene-picture-winter { background: #e6edef; color: #526e76; }
+.scene-picture-play { background: #eee9da; color: #806d34; }
+.scene-spark { position: absolute; right: -1px; top: 1px; color: #a8874b; font-size: 15px; }
+.scene-copy small { font-size: 10px; color: #6a7266; letter-spacing: .04em; }
+.scene-copy h3 { margin: 3px 0; font-family: "Kaisei Decol", "Yu Mincho", serif; font-size: 19px; color: var(--ink); }
+.scene-copy p { margin: 0; font-size: 11px; color: #62695f; }
+.scene-meta {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  border-top: 1px solid #e8e6dc;
+  font-size: 11px;
+  color: var(--green);
+}
+@media (max-width: 900px) and (min-width: 761px) {
+  .journey-card { padding: 20px 18px; }
+  .scene-card { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .home-discovery { padding: 32px 0 40px; }
+  .home-discovery .title { align-items: flex-start; }
+  .home-discovery .title > p { display: none; }
+  .journey-grid { gap: 12px; }
+  .journey-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 112px;
+    padding: 19px 20px 16px;
+    border-radius: 6px 24px 6px 6px;
+    column-gap: 8px;
+  }
+  .journey-kicker { grid-column: 1; justify-self: start; font-size: 10px; }
+  .journey-illustration { grid-column: 2; grid-row: 1 / 4; height: 100%; margin: 0; }
+  .journey-card h3 { grid-column: 1; font-size: 20px; margin-top: 12px; }
+  .journey-card p { grid-column: 1; font-size: 11px; margin: 6px 0 14px; }
+  .journey-action { grid-column: 1 / -1; font-size: 11px; padding-top: 10px; }
+  .situation-section .title { align-items: flex-start; gap: 16px; flex-direction: column; }
+  .situation-section .title > a { font-size: 12px; }
+  .situation-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .scene-card { grid-template-columns: 1fr; padding: 16px 13px 12px; gap: 10px; }
+  .scene-picture { width: 62px; height: 65px; margin-bottom: 2px; }
+  .scene-picture > svg { width: 33px; height: 33px; }
+  .scene-copy h3 { font-size: 17px; }
+  .scene-copy p { font-size: 10px; }
+  .scene-meta { font-size: 10px; gap: 4px; }
+}
+@media (max-width: 360px) {
+  .journey-card { grid-template-columns: minmax(0, 1fr) 82px; padding-inline: 16px; }
+  .journey-card h3 { font-size: 19px; }
+  .scene-card { padding-inline: 10px; }
+  .scene-copy h3 { font-size: 15px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .journey-card, .scene-card { transition: none; }
+  .journey-card:hover { transform: none; }
 }
 .submission-preview {
   max-width: 680px;
@@ -2705,3 +2757,17 @@ main:has(.dialect-v2) { max-width: 1280px; }
 .journey-grid > a > small { opacity: 1; }
 .prefecture-v2-locator > small { color: #566359; }
 .prefecture-v2-archive .eyebrow { color: #9c4027; }
+
+/* Selected C identity: keep the approved wordmark as one accessible image. */
+.brand .brand-wordmark { display: block; width: 240px; height: 80px; object-fit: contain; flex: 0 0 auto; }
+.brand.light { background: #fcfaf5; border-radius: 12px; padding: 0 6px; }
+@media (max-width: 720px) {
+  .site-header .brand .brand-wordmark { width: 204px; height: 68px; }
+}
+@media (min-width: 761px) and (max-width: 1050px) {
+  .site-header { gap: 24px; }
+  .site-header nav { gap: 16px; font-size: 13px; }
+  .site-header > .button { display: none; }
+}
+.site-header .brand { flex-shrink: 0; }
+.site-header nav a { white-space: nowrap; }
