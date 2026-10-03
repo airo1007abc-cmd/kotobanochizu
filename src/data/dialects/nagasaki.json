@@ -2027,8 +2027,8 @@
     "slug": "nagasaki-にき",
     "phrase": "にき",
     "reading": "にき",
-    "standardJapanese": "辺り、付近",
-    "description": "「にき」は、佐世保市のことばとして資料「広報させぼ『カンカン山んにき』」に収録され、標準語の「辺り、付近」にあたると説明されています。語形・意味・地域は資料で確認し、自然な会話用例、現在の使用頻度、世代差は追加調査中です。",
+    "standardJapanese": "辺り",
+    "description": "佐世保市の『広報させぼ』は、作品名「カンカン山んにき」について、「カンカン山の辺り」を意味する佐世保弁と注記しています。この資料が直接示すのは複合表現全体の対応です。「にき」単独の用例、現在の使用頻度、世代差は追加調査中です。",
     "exampleDialect": "",
     "exampleStandard": "",
     "prefectureCode": 42,
@@ -2039,20 +2039,20 @@
       "unknown"
     ],
     "usageContexts": [
-      "日常会話"
+      "地域文化・演劇"
     ],
     "emotionTags": [],
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "『カンカン山んにき』を『カンカン山の辺り』を意味する佐世保弁と明記。 単独形の使用例・現在頻度は未確認。",
-    "sourceTitle": "広報させぼ『カンカン山んにき』",
+    "sourceNote": "誌面の注記は、作品名『カンカン山んにき』全体を『カンカン山の辺り』を意味する佐世保弁と説明している。『にき』単独の用例や語義説明、現在の使用頻度、世代差は資料にない。旧分割PDF URLと同号の全号PDF URLは2026-09-30時点で404のため、元の出典URLを履歴として保持した。保存された同一全号PDF本文で注記を再照合した。",
+    "sourceTitle": "広報させぼ 2015年8月号『カンカン山んにき』",
     "sourceOrganization": "佐世保市",
     "sourceUrl": "https://www.city.sasebo.lg.jp/soumu/kouhou/kohosasebo/documents/201508p4-9.pdf",
-    "sourceCheckedAt": "2026-09-02",
+    "sourcePage": "誌面5頁、特集『文化を担う人 まちを面白くする』注記",
+    "sourceCheckedAt": "2026-09-30",
     "evidenceScopes": [
       "phrase",
-      "reading",
       "meaning",
       "region"
     ],
@@ -2064,7 +2064,7 @@
     "audioPriority": 3,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-02"
+    "updatedAt": "2026-09-30"
   },
   {
     "id": "jp-42-nagasaki-047",
