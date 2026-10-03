@@ -10,6 +10,7 @@ import {
   Route,
   Routes,
   useParams,
+  useLocation,
   useSearchParams,
 } from "react-router-dom";
 import {
@@ -112,13 +113,14 @@ const verificationLabel = (status: Dialect["verificationStatus"]) =>
         ? "話者による確認あり"
         : "資料による確認あり";
 function Shell() {
+  const { pathname } = useLocation();
   return (
     <>
       <PageHead />
       <a className="skip-link" href="#main-content">
         本文へ移動
       </a>
-      {isPreview && (
+      {isPreview && pathname !== "/" && (
         <div className="preview-banner" role="status">
           <b>資料と確認状態について</b>
           <span>

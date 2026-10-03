@@ -8,6 +8,7 @@ import contextGuides from "./data/context-guides.json";
 import { repository } from "./repository";
 import { hasEvidenceScope } from "./evidencePolicy.mjs";
 import App from "./App";
+import { isPreview } from "./siteConfig";
 
 const render = () =>
   renderToStaticMarkup(
@@ -58,7 +59,16 @@ describe("homepage discovery", () => {
       </MemoryRouter>,
     );
     expect(html).not.toContain('class="archive-manifesto"');
+    expect(html).not.toContain('class="preview-banner"');
     expect(html).toContain('href="/editorial-policy"');
     expect(html).toContain("掲載内容は地域・家庭・世代で異なる使用例です");
+  });
+  it("keeps preview-state disclosure available away from the homepage", () => {
+    const html = renderToStaticMarkup(
+      <MemoryRouter initialEntries={["/search"]}>
+        <App />
+      </MemoryRouter>,
+    );
+    expect(html.includes('class="preview-banner"')).toBe(isPreview);
   });
 });

@@ -63,16 +63,21 @@ try {
       0,
     );
     assert.ok(await page.locator('footer a[href="/editorial-policy"]').count());
+    assert.equal(await page.locator(".preview-banner").count(), 0);
+    await page.screenshot({ path: `${output}/top-${width}.png` });
     await page.screenshot({
       path: `${output}/home-${width}.png`,
       fullPage: true,
     });
+    // A taller capture viewport keeps fixed navigation outside the component crops.
+    await page.setViewportSize({ width, height: 1800 });
     await page
       .locator(".home-discovery")
       .screenshot({ path: `${output}/entrances-${width}.png` });
     await page
       .locator(".situation-section")
       .screenshot({ path: `${output}/scenes-${width}.png` });
+    await page.setViewportSize({ width, height: 1000 });
     // Follow every displayed destination, then return through real browser history.
     for (const path of state.scenePaths) {
       await page.locator(`.scene-card[href="${path}"]`).click();
