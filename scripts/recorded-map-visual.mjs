@@ -11,10 +11,23 @@ const browser = await chromium.launch();
 const results = [];
 let activePage;
 async function selectWithKeyboard(page, id, key) {
-  const target = page.locator(`[data-prefecture-id="${id}"]`);
-  await target.focus();
-  await page.waitForFunction((prefectureId) => document.activeElement?.getAttribute("data-prefecture-id") === prefectureId, id);
-  await page.keyboard.press(key);
+  await page.locator("#recorded-map-instructions").focus();
+  const visited = [];
+  for (let step = 0; step < 60; step++) {
+    await page.keyboard.press("Tab");
+    const focused = await page.evaluate(() => ({
+      prefecture: document.activeElement?.getAttribute("data-prefecture-id"),
+      tag: document.activeElement?.tagName,
+      text: document.activeElement?.getAttribute("aria-label") ?? document.activeElement?.textContent?.slice(0, 80),
+    }));
+    visited.push(focused);
+    if (focused.prefecture === id) {
+      await page.keyboard.press(key);
+      return;
+    }
+  }
+  await writeFile(`${output}/keyboard-trail.json`, JSON.stringify(visited, null, 2));
+  assert.fail(`Tab could not reach prefecture ${id}`);
 }
 try {
   for (const width of [320, 390, 760, 768, 1440]) {
