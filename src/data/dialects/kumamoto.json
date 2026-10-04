@@ -1176,6 +1176,7 @@
     "prefectureName": "熊本県",
     "regionName": "阿蘇",
     "municipality": "南阿蘇村（阿蘇郡）",
+    "evidenceRegion": "阿蘇地区",
     "ageGroups": [
       "unknown"
     ],
@@ -1189,11 +1190,14 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "南阿蘇村移住サイトは「阿蘇地区でよく耳にする方言」を選んだ企画。個別ページで二つの読みと使用場面を明示。 掲載箇所: Web。 サイトには「おそらく熊本独自の風習」とあるが推測表現なので、独自性はデータとして確定しない。",
+    "sourceNote": "南阿蘇村移住サイトは「阿蘇地区でよく耳にする方言」を選んだ企画。個別ページで二つの読みと使用場面を明示。サイトには「おそらく熊本独自の風習」とあるが推測表現なので、独自性はデータとして確定しない。",
     "sourceTitle": "南阿蘇ことば「御樽」",
     "sourceOrganization": "南阿蘇村住民課",
     "sourceUrl": "https://minamiasoijyuu.jp/minamiaso-word/p=13944/",
-    "sourceCheckedAt": "2026-09-25",
+    "sourceCheckedAt": "2026-10-04",
+    "sourcePage": "本文「おんたる／おたる」・「どんな意味？」・「使い方」",
+    "sourceTier": 1,
+    "sourceExactFormMatch": "exact",
     "evidenceScopes": [
       "phrase",
       "reading",
@@ -1210,7 +1214,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-02"
+    "updatedAt": "2026-10-04"
   },
   {
     "id": "jp-43-kumamoto-028",
@@ -1225,6 +1229,7 @@
     "prefectureName": "熊本県",
     "regionName": "阿蘇",
     "municipality": "南阿蘇村（阿蘇郡）",
+    "evidenceRegion": "阿蘇地区",
     "ageGroups": [
       "unknown"
     ],
@@ -1236,11 +1241,14 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "南阿蘇村移住サイトの個別ページで意味と使用例を確認。 掲載箇所: Web。 「出る」部分の実際の発音・音声を別資料で確認する。",
+    "sourceNote": "南阿蘇村移住サイトの個別ページで意味と使用例を確認。「出る」部分の実際の発音・音声は別資料での確認を要するため、読みは未確認のまま保持する。",
     "sourceTitle": "南阿蘇ことば「ひっと出る」",
     "sourceOrganization": "南阿蘇村住民課",
-    "sourceUrl": "https://minamiasoijyuu.jp/minamiaso-word/",
-    "sourceCheckedAt": "2026-09-02",
+    "sourceUrl": "https://minamiasoijyuu.jp/minamiaso-word/p=12895/",
+    "sourceCheckedAt": "2026-10-04",
+    "sourcePage": "本文「どんな意味？」・「使い方」",
+    "sourceTier": 1,
+    "sourceExactFormMatch": "exact",
     "evidenceScopes": [
       "phrase",
       "meaning",
@@ -1256,7 +1264,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-02"
+    "updatedAt": "2026-10-04"
   },
   {
     "id": "jp-43-kumamoto-029",
@@ -1264,13 +1272,14 @@
     "phrase": "かたる",
     "reading": "かたる",
     "standardJapanese": "加わる・参加する",
-    "description": "イベントや集まりなどの仲間に加わる、参加する。 「かたる」は、南阿蘇村／阿蘇地区; 八代市を対象とする資料「南阿蘇ことば「かたる」」に掲載されています。語形・意味・地域に加えて掲載用例も確認済みです。現在の使用頻度、世代差、発音は追加調査中です。",
+    "description": "「かたる」は、イベントや集まりなどの仲間に加わる、参加することを表します。南阿蘇村の資料は「飲みかたにかたる」という用例を掲載し、八代市の資料は活用形「かたって」を「参加して」の意味で紹介しています。現在の使用頻度、世代差、発音は追加調査中です。",
     "exampleDialect": "飲みかたにかたる",
     "exampleStandard": "飲み会に参加する",
     "prefectureCode": 43,
     "prefectureName": "熊本県",
-    "regionName": "県南",
+    "regionName": "阿蘇",
     "municipality": "南阿蘇村（阿蘇郡）; 八代市",
+    "evidenceRegion": "阿蘇地区（主資料）; 八代市（補助資料）",
     "ageGroups": [
       "unknown"
     ],
@@ -1283,11 +1292,14 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "南阿蘇村移住サイトの個別ページで「かたる＝加わる・参加する」と使用例を確認。八代市「住民自治によるまちづくり基本指針」（S07）は「加たって」を八代の方言で「参加して」と明示しており、同一動詞の活用形として本レコードに統合。 掲載箇所: Web。 標準語の「語る」と同音のため、意味を文脈で区別する。  候補資料では「阿蘇・県南」でも確認されているため、主地域を「県南」として整理し、他地域の分布は注記として保持する。",
+    "sourceNote": "南阿蘇村移住サイトの個別ページで「かたる＝加わる・参加する」と使用例を確認。八代市の補助資料は活用形「かたって」を八代の方言で「参加して」と明示する。主資料の対象地域に合わせて閲覧区分を「阿蘇」とし、八代市での変異形は補助資料として保持する。標準語の「語る」と同音のため、意味を文脈で区別する。",
     "sourceTitle": "南阿蘇ことば「かたる」",
     "sourceOrganization": "南阿蘇村住民課",
-    "sourceUrl": "https://minamiasoijyuu.jp/minamiaso-word/",
-    "sourceCheckedAt": "2026-09-02",
+    "sourceUrl": "https://minamiasoijyuu.jp/minamiaso-word/p=12894/",
+    "sourceCheckedAt": "2026-10-04",
+    "sourcePage": "本文「どんな意味？」・「使い方」",
+    "sourceTier": 1,
+    "sourceExactFormMatch": "exact",
     "evidenceScopes": [
       "phrase",
       "reading",
@@ -1295,6 +1307,23 @@
       "region",
       "example",
       "usage"
+    ],
+    "additionalSources": [
+      {
+        "type": "official_reference",
+        "title": "住民自治によるまちづくり 基本指針",
+        "organization": "八代市",
+        "url": "https://www.city.yatsushiro.lg.jp/kiji003762/3_762_6_imwfvoazniba2uactjimwce1.pdf",
+        "checkedAt": "2026-10-04",
+        "page": "p.8（PDF p.9、「かたって」＝「参加して」）",
+        "sourceTier": 1,
+        "exactFormMatch": "variant",
+        "evidenceScopes": [
+          "meaning",
+          "region",
+          "usage"
+        ]
+      }
     ],
     "confidence": "medium",
     "recordingYear": null,
@@ -1304,7 +1333,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-02"
+    "updatedAt": "2026-10-04"
   },
   {
     "id": "jp-43-kumamoto-030",
@@ -1319,6 +1348,7 @@
     "prefectureName": "熊本県",
     "regionName": "阿蘇",
     "municipality": "南阿蘇村（阿蘇郡）",
+    "evidenceRegion": "阿蘇地区",
     "ageGroups": [
       "unknown"
     ],
@@ -1329,11 +1359,14 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "南阿蘇村移住サイトの個別ページで語形成の説明と使用例を確認。 掲載箇所: Web。",
+    "sourceNote": "南阿蘇村移住サイトの個別ページで語形成の説明と使用例を確認。",
     "sourceTitle": "南阿蘇ことば「つんのぼする」",
     "sourceOrganization": "南阿蘇村住民課",
-    "sourceUrl": "https://minamiasoijyuu.jp/minamiaso-word/",
-    "sourceCheckedAt": "2026-09-02",
+    "sourceUrl": "https://minamiasoijyuu.jp/minamiaso-word/p=12892/",
+    "sourceCheckedAt": "2026-10-04",
+    "sourcePage": "本文「どんな意味？」・「使い方」",
+    "sourceTier": 1,
+    "sourceExactFormMatch": "exact",
     "evidenceScopes": [
       "phrase",
       "reading",
@@ -1350,7 +1383,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-02"
+    "updatedAt": "2026-10-04"
   },
   {
     "id": "jp-43-kumamoto-031",
@@ -1365,6 +1398,7 @@
     "prefectureName": "熊本県",
     "regionName": "阿蘇",
     "municipality": "南阿蘇村（阿蘇郡）",
+    "evidenceRegion": "阿蘇地区",
     "ageGroups": [
       "unknown"
     ],
@@ -1376,11 +1410,14 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "南阿蘇村移住サイトは、熊本弁では「にくじ」とする地域が多い旨も記す。 掲載箇所: Web。",
+    "sourceNote": "南阿蘇村移住サイトは、熊本弁では「にくじ」とする地域が多い旨も記す。",
     "sourceTitle": "南阿蘇ことば「にくぞ」",
     "sourceOrganization": "南阿蘇村住民課",
-    "sourceUrl": "https://minamiasoijyuu.jp/minamiaso-word/",
-    "sourceCheckedAt": "2026-09-02",
+    "sourceUrl": "https://minamiasoijyuu.jp/minamiaso-word/p=12891/",
+    "sourceCheckedAt": "2026-10-04",
+    "sourcePage": "本文「どんな意味？」・「使い方」",
+    "sourceTier": 1,
+    "sourceExactFormMatch": "exact",
     "evidenceScopes": [
       "phrase",
       "reading",
@@ -1397,7 +1434,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-02",
-    "updatedAt": "2026-09-02"
+    "updatedAt": "2026-10-04"
   },
   {
     "id": "jp-43-kumamoto-032",
