@@ -8,6 +8,10 @@ on:
       - 'src/App.tsx'
       - 'src/styles.css'
       - 'src/brandIdentity.test.tsx'
+      - 'src/HomeDiscovery.tsx'
+      - 'src/HomeDiscovery.test.tsx'
+      - 'src/homeDiscovery.ts'
+      - 'scripts/home-discovery-visual.mjs'
       - 'scripts/brand-visual.mjs'
       - '.github/workflows/brand-visual.yml'
 permissions:
@@ -37,10 +41,18 @@ jobs:
           trap 'kill $!' EXIT
           for i in $(seq 1 40); do curl -fsS http://127.0.0.1:5181/ > /dev/null && break; sleep 1; done
           PLAYWRIGHT_MODULE="$RUNNER_TEMP/brand-browser/node_modules/playwright/index.mjs" node scripts/brand-visual.mjs
+          PLAYWRIGHT_MODULE="$RUNNER_TEMP/brand-browser/node_modules/playwright/index.mjs" node scripts/home-discovery-visual.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: brand-responsive-review
           path: tmp/brand-visual/
+          if-no-files-found: error
+          retention-days: 7
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: homepage-discovery-review
+          path: tmp/home-discovery-visual/
           if-no-files-found: error
           retention-days: 7
