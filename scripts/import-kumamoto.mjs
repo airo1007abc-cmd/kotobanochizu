@@ -22,13 +22,14 @@ const sourceUrls = {
   S13: "https://www.city.amakusa.kumamoto.jp/kiji0036844/3_6844_29016_up_ihym6hkp.pdf",
 };
 const supportedScopes = new Set(["phrase", "reading", "meaning", "region", "example", "usage", "history"]);
+const resolveSourceUrl = (value) => /^https:\/\//.test(value || "") ? value : sourceUrls[value];
 const placeholder = (value = "") => /例文未確認|確認待ち|未掲載/.test(value);
 const regionOverrides = new Map([
   ["あとぜき", "阿蘇"],
   ["からう", "熊本周辺"],
   ["さしより", "熊本周辺"],
   ["あくしゃうつ", "熊本周辺"],
-  ["かたる", "県南"],
+  ["かたる", "阿蘇"],
 ]);
 const regionFor = (item) => regionOverrides.get(item.phrase) || item.regionName;
 const sourceTypeFor = (value) => value === "official_reference"
@@ -45,7 +46,7 @@ const imported = input.map((item, index) => {
   const scopes = [...new Set((item.evidenceScopes || [])
     .filter((scope) => supportedScopes.has(scope))
     .filter((scope) => scope !== "example" || hasExample))];
-  const place = item.locality || item.municipality || `熊本県${region}`;
+  const place = item.descriptionPlace || item.locality || item.municipality || `熊本県${region}`;
   const coverage = hasExample
     ? "語形・意味・地域に加えて掲載用例も確認済みです。現在の使用頻度、世代差、発音は追加調査中です。"
     : "語形・意味・地域を資料で確認しています。自然な会話用例、現在の使用頻度、世代差、発音は追加調査中です。";
@@ -80,9 +81,19 @@ const imported = input.map((item, index) => {
     ].filter(Boolean).join(" ").trim(),
     sourceTitle: item.sourceTitle,
     sourceOrganization: item.sourceOrganization,
-    sourceUrl: sourceUrls[item.sourceUrl],
+    sourceUrl: resolveSourceUrl(item.sourceUrl),
     sourceCheckedAt: item.sourceCheckedAt,
+    ...(item.sourcePage ? { sourcePage: item.sourcePage } : {}),
+    ...(item.evidenceRegion ? { evidenceRegion: item.evidenceRegion } : {}),
+    ...(item.sourceTier ? { sourceTier: item.sourceTier } : {}),
+    ...(item.sourceExactFormMatch ? { sourceExactFormMatch: item.sourceExactFormMatch } : {}),
     evidenceScopes: scopes,
+    ...(item.additionalSources?.length ? {
+      additionalSources: item.additionalSources.map((source) => ({
+        ...source,
+        url: resolveSourceUrl(source.url),
+      })),
+    } : {}),
     confidence: hasExample ? "medium" : "low",
     recordingYear: null,
     audioUrl: null,
