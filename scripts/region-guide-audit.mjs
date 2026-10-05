@@ -11,9 +11,9 @@ const selected = (guide) => dialects.filter((item) =>
   item.prefectureName === guide.prefectureName &&
   ((Array.isArray(guide.selector.dialectIds) && guide.selector.dialectIds.includes(item.id)) ||
     guide.selector.prefectureWide === true ||
-    item.municipality?.startsWith(guide.selector.municipalityPrefix)) &&
-  grounded(item),
+    item.municipality?.startsWith(guide.selector.municipalityPrefix)),
 );
+const indexableSelected = (guide) => selected(guide).filter(grounded);
 const duplicates = (field) => {
   const map = new Map();
   for (const item of guides) {
@@ -33,14 +33,16 @@ const duplicateDialectSets = (() => {
 const failures = [];
 for (const guide of guides) {
   const entries = selected(guide);
+  const indexableEntries = indexableSelected(guide);
   if (!["indexable", "review_required", "noindex"].includes(guide.indexStatus)) failures.push(`${guide.id}: 無効な公開判定`);
   if (!guide.id || !guide.slug || !guide.title || !guide.searchIntent || !guide.introduction || !guide.sourceTitle || !guide.sourceUrl || !guide.sourceCheckedAt) failures.push(`${guide.id ?? "unknown"}: 必須項目不足`);
   if (guide.description?.length < 100 || guide.description?.length > 160) failures.push(`${guide.id}: descriptionは100〜160文字（現在${guide.description?.length ?? 0}）`);
-  if (guide.indexStatus === "indexable" && entries.length < 5) failures.push(`${guide.id}: indexable地域ガイドは確認済み5語以上が必要（現在${entries.length}）`);
-  if (guide.indexStatus === "indexable" && guide.selector.prefectureWide === true && new Set(entries.map((item) => item.municipality)).size < 2) failures.push(`${guide.id}: 県別ガイドは確認地点2か所以上が必要`);
+  if (guide.indexStatus === "indexable" && indexableEntries.length < 5) failures.push(`${guide.id}: indexable地域ガイドは確認済み5語以上が必要（現在${indexableEntries.length}）`);
+  if (guide.indexStatus === "indexable" && guide.selector.prefectureWide === true && new Set(indexableEntries.map((item) => item.municipality)).size < 2) failures.push(`${guide.id}: 県別ガイドは確認地点2か所以上が必要`);
   if (Array.isArray(guide.selector.dialectIds)) {
     if (new Set(guide.selector.dialectIds).size !== guide.selector.dialectIds.length) failures.push(`${guide.id}: dialectIds内に重複あり`);
-    if (entries.length !== guide.selector.dialectIds.length) failures.push(`${guide.id}: dialectIdsに不存在・地域不一致・品質ゲート未通過の項目あり`);
+    if (entries.length !== guide.selector.dialectIds.length) failures.push(`${guide.id}: dialectIdsに不存在・地域不一致の項目あり`);
+    if (guide.indexStatus === "indexable" && indexableEntries.length !== guide.selector.dialectIds.length) failures.push(`${guide.id}: dialectIdsに品質ゲート未通過の項目あり`);
     if (guide.selector.requireMultipleMunicipalities === true && new Set(entries.map((item) => item.municipality)).size < 2) failures.push(`${guide.id}: 県内比較ガイドは確認地点2か所以上が必要`);
   }
   if (Array.isArray(guide.sections)) {
@@ -52,7 +54,7 @@ for (const guide of guides) {
 for (const field of ["slug", "title", "description", "searchIntent"])
   if (duplicates(field).length) failures.push(`${field}重複: ${JSON.stringify(duplicates(field))}`);
 if (duplicateDialectSets.length) failures.push(`dialectIds重複: ${JSON.stringify(duplicateDialectSets)}`);
-const report = { generatedAt: new Date().toISOString(), total: guides.length, indexable: guides.filter((item) => item.indexStatus === "indexable").length, guideEntryCounts: Object.fromEntries(guides.map((guide) => [guide.id, selected(guide).length])), duplicateTitles: duplicates("title"), duplicateDescriptions: duplicates("description"), duplicateSearchIntents: duplicates("searchIntent"), duplicateDialectSets, failures };
+const report = { generatedAt: new Date().toISOString(), total: guides.length, indexable: guides.filter((item) => item.indexStatus === "indexable").length, guideEntryCounts: Object.fromEntries(guides.map((guide) => [guide.id, selected(guide).length])), indexableGuideEntryCounts: Object.fromEntries(guides.map((guide) => [guide.id, indexableSelected(guide).length])), duplicateTitles: duplicates("title"), duplicateDescriptions: duplicates("description"), duplicateSearchIntents: duplicates("searchIntent"), duplicateDialectSets, failures };
 await writeFile(join(root, "reports/region-guide-audit.json"), `${JSON.stringify(report, null, 2)}\n`);
 console.log(JSON.stringify(report, null, 2));
 if (failures.length) process.exitCode = 1;
