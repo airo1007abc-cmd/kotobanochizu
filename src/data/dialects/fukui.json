@@ -39,8 +39,8 @@
     "reading": "",
     "standardJapanese": "～しようよ",
     "description": "福井県文化課の方言辞典では、福井エリアの「～っさ」を「～しようよ」の意味で記録している。",
-    "exampleDialect": "",
-    "exampleStandard": "",
+    "exampleDialect": "新しいゲームいっしょに、遊ぼっさ",
+    "exampleStandard": "新しいゲームでいっしょに遊ぼうよ",
     "prefectureCode": 18,
     "prefectureName": "福井県",
     "regionName": "嶺北",
@@ -56,16 +56,17 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "公式辞典カードの地域表示を evidenceRegion に原表記で保持。閲覧区分は同資料の木ノ芽峠を境とする嶺北・嶺南の説明に従った。reading、用例、usage は今回の core evidence に用いていない。",
+    "sourceNote": "公式辞典カードの地域表示を evidenceRegion に原表記で保持。閲覧区分は同資料の木ノ芽峠を境とする嶺北・嶺南の説明に従った。カードの用例を exampleDialect / exampleStandard と evidenceScopes の example に反映。reading、現在の使用頻度・世代差は資料で確認していない。",
     "sourceTitle": "方言辞典『まんでもん～若者と方言のズシ～』",
     "sourceOrganization": "福井県交流文化部文化・スポーツ局文化課",
     "sourceUrl": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
     "sourcePage": "PDF p.25 上段（福井エリア「～っさ」）",
-    "sourceCheckedAt": "2026-09-19",
+    "sourceCheckedAt": "2026-10-04",
     "evidenceScopes": [
       "phrase",
       "meaning",
-      "region"
+      "region",
+      "example"
     ],
     "confidence": "high",
     "recordingYear": null,
@@ -75,7 +76,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-19",
-    "updatedAt": "2026-09-19"
+    "updatedAt": "2026-10-04"
   },
   {
     "id": "jp-18-fukui-003",
@@ -84,8 +85,8 @@
     "reading": "",
     "standardJapanese": "～だよ",
     "description": "福井県文化課の方言辞典では、福井エリアの「～やざ」を「～だよ」の意味で記録している。",
-    "exampleDialect": "",
-    "exampleStandard": "",
+    "exampleDialect": "越前がにはうまいやざ",
+    "exampleStandard": "越前がには美味しいんですよ",
     "prefectureCode": 18,
     "prefectureName": "福井県",
     "regionName": "嶺北",
@@ -101,16 +102,17 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "公式辞典カードの地域表示を evidenceRegion に原表記で保持。閲覧区分は同資料の木ノ芽峠を境とする嶺北・嶺南の説明に従った。reading、用例、usage は今回の core evidence に用いていない。",
+    "sourceNote": "公式辞典カードの地域表示を evidenceRegion に原表記で保持。閲覧区分は同資料の木ノ芽峠を境とする嶺北・嶺南の説明に従った。カードの用例を exampleDialect / exampleStandard と evidenceScopes の example に反映。reading、現在の使用頻度・世代差は資料で確認していない。",
     "sourceTitle": "方言辞典『まんでもん～若者と方言のズシ～』",
     "sourceOrganization": "福井県交流文化部文化・スポーツ局文化課",
     "sourceUrl": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
     "sourcePage": "PDF p.25 下段（福井エリア「～やざ」）",
-    "sourceCheckedAt": "2026-09-19",
+    "sourceCheckedAt": "2026-10-04",
     "evidenceScopes": [
       "phrase",
       "meaning",
-      "region"
+      "region",
+      "example"
     ],
     "confidence": "high",
     "recordingYear": null,
@@ -120,7 +122,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-19",
-    "updatedAt": "2026-09-19"
+    "updatedAt": "2026-10-04"
   },
   {
     "id": "jp-18-fukui-004",
@@ -129,8 +131,8 @@
     "reading": "",
     "standardJapanese": "とっても",
     "description": "福井県文化課の方言辞典では、福井エリアの「ひっで」を「とっても」の意味で記録している。",
-    "exampleDialect": "",
-    "exampleStandard": "",
+    "exampleDialect": "このぬいぐるみひっでかわいいんやって",
+    "exampleStandard": "このぬいぐるみ、とってもかわいいんですよ",
     "prefectureCode": 18,
     "prefectureName": "福井県",
     "regionName": "嶺北",
@@ -146,16 +148,17 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "公式辞典カードの地域表示を evidenceRegion に原表記で保持。閲覧区分は同資料の木ノ芽峠を境とする嶺北・嶺南の説明に従った。reading、用例、usage は今回の core evidence に用いていない。",
+    "sourceNote": "公式辞典カードの地域表示を evidenceRegion に原表記で保持。閲覧区分は同資料の木ノ芽峠を境とする嶺北・嶺南の説明に従った。カードの用例を exampleDialect / exampleStandard と evidenceScopes の example に反映。reading、現在の使用頻度・世代差は資料で確認していない。",
     "sourceTitle": "方言辞典『まんでもん～若者と方言のズシ～』",
     "sourceOrganization": "福井県交流文化部文化・スポーツ局文化課",
     "sourceUrl": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
     "sourcePage": "PDF p.26 上段（福井エリア「ひっで」）",
-    "sourceCheckedAt": "2026-09-19",
+    "sourceCheckedAt": "2026-10-04",
     "evidenceScopes": [
       "phrase",
       "meaning",
-      "region"
+      "region",
+      "example"
     ],
     "confidence": "high",
     "recordingYear": null,
@@ -165,7 +168,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-19",
-    "updatedAt": "2026-09-19"
+    "updatedAt": "2026-10-04"
   },
   {
     "id": "jp-18-fukui-005",
@@ -174,8 +177,8 @@
     "reading": "",
     "standardJapanese": "～しなさい",
     "description": "福井県文化課の方言辞典では、福井エリアの「～しね（ま）」を「～しなさい」の意味で記録している。",
-    "exampleDialect": "",
-    "exampleStandard": "",
+    "exampleDialect": "はよしね",
+    "exampleStandard": "早くしなさい",
     "prefectureCode": 18,
     "prefectureName": "福井県",
     "regionName": "嶺北",
@@ -191,16 +194,17 @@
     "usageFrequency": "unknown",
     "verificationStatus": "reference_confirmed",
     "sourceType": "official_reference",
-    "sourceNote": "公式辞典カードの地域表示を evidenceRegion に原表記で保持。閲覧区分は同資料の木ノ芽峠を境とする嶺北・嶺南の説明に従った。reading、用例、usage は今回の core evidence に用いていない。",
+    "sourceNote": "公式辞典カードの地域表示を evidenceRegion に原表記で保持。閲覧区分は同資料の木ノ芽峠を境とする嶺北・嶺南の説明に従った。カードの用例を exampleDialect / exampleStandard と evidenceScopes の example に反映。reading、現在の使用頻度・世代差は資料で確認していない。",
     "sourceTitle": "方言辞典『まんでもん～若者と方言のズシ～』",
     "sourceOrganization": "福井県交流文化部文化・スポーツ局文化課",
     "sourceUrl": "https://www.pref.fukui.lg.jp/doc/bunshin/hougen_d/fil/mandemon.pdf",
     "sourcePage": "PDF p.26 下段（福井エリア「～しね（ま）」）",
-    "sourceCheckedAt": "2026-09-19",
+    "sourceCheckedAt": "2026-10-04",
     "evidenceScopes": [
       "phrase",
       "meaning",
-      "region"
+      "region",
+      "example"
     ],
     "confidence": "high",
     "recordingYear": null,
@@ -210,7 +214,7 @@
     "audioPriority": 2,
     "languageVariety": "japanese_dialect",
     "createdAt": "2026-09-19",
-    "updatedAt": "2026-09-19"
+    "updatedAt": "2026-10-04"
   },
   {
     "id": "jp-18-fukui-006",
