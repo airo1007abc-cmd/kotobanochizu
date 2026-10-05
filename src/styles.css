@@ -1391,6 +1391,23 @@ form label {
   background: #f5f1e8;
 }
 .comparison-intent h2 { margin-top: 0; font-size: 18px; }
+.comparison-related-reading {
+  max-width: 820px;
+  margin: -12px 0 36px;
+  padding: 20px 24px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.comparison-related-reading h2 { margin-top: 0; font-size: 18px; }
+.comparison-related-reading p { line-height: 1.8; }
+.comparison-related-reading a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--green);
+  font-weight: 700;
+}
+.comparison-related-reading a svg { width: 18px; }
 .comparison-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 16px 0 34px; }
 .comparison-cards a {
   position: relative;
