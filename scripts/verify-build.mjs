@@ -55,6 +55,8 @@ const required = [
   "manifest.webmanifest",
   "robots.txt",
   "icon.svg",
+  "favicon.ico",
+  "apple-touch-icon.png",
 ];
 for (const path of required) {
   await access(join(dist, ...path.split("/"))).catch(() =>
